@@ -7,4 +7,9 @@ git add -A
 git commit -m 'feat: xxx'
 git push
 ```
-test 使用web页面
+
+## 拉去分支
+
+``` git
+*将远程分支拉到本地：git fetch origin dev（dev即分支名）
+```
