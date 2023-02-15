@@ -1,0 +1,173 @@
+{
+	// js 常用代码片段
+	"sj": {
+		"prefix": "sjs",
+		"body": [
+			"const num = Math.ceil(Math.random() * 999);"
+		],
+		"description": "随机数"
+	},
+	"df": {
+		"prefix": "df",
+		"body": [
+			"() => {}"
+		],
+		"description": "箭头函数"
+	},
+	"mockArr": {
+		"prefix": "mockArr",
+		"body": [
+			"const arr = new Array(10).fill(1).map((v, i) => {",
+			"   return {",
+			"      key: i,",
+			"      value: v",
+			"    };",
+			"});"
+		],
+		"description": "快速mock数组数据"
+	},
+	// react 模板
+	"myfcc": {
+		"prefix": "myfcc",
+		"body": [
+			"import React from 'react';",
+			"import {observer} from 'mobx-react';",
+			"import style from './style.less';",
+			"",
+			"function DemoPage(props) {",
+			"    return <div className={style.DemoPage}></div>;",
+			"}",
+			"",
+			"export default observer(DemoPage);",
+			""
+		],
+		"description": "函数组件模板"
+	},
+	// react hook 相关
+	"useEffect": {
+		"prefix": "uff",
+		"body": [
+			"useEffect(() => {}, [])"
+		],
+		"description": "useEffect"
+	},
+	"useState": {
+		"prefix": "uss",
+		"body": [
+			"const [value, setValue] = useState(null);"
+		],
+		"description": "useState"
+	},
+	// lodash 相关
+	"Lodash_map": {
+		"prefix": [
+			"map",
+			"_map"
+		],
+		"body": [
+			"_.map([], () => {});"
+		],
+		"description": "Lodash_map"
+	},
+	"Lodash_forEach": {
+		"prefix": [
+			"forEach",
+			"_forEach"
+		],
+		"body": [
+			"_.forEach([], () => {});"
+		],
+		"description": "Lodash_forEach"
+	},
+	"Lodash_includes": {
+		"prefix": [
+			"includes",
+			"_includes"
+		],
+		"body": [
+			"const result = _.includes([], 1);"
+		],
+		"description": "数组是不是包含某个值"
+	},
+	"Lodash_isEqual": {
+		"prefix": [
+			"isEqual",
+			"_isEqual"
+		],
+		"body": [
+			"_.isEqual({}, {});"
+		],
+		"description": "两个值是否相等"
+	},
+	"Lodash_isArray": {
+		"prefix": [
+			"isArray",
+			"_isArray"
+		],
+		"body": [
+			"_.isArray([]);"
+		],
+		"description": "是不是数组"
+	},
+	"Lodash_isEmpty": {
+		"prefix": [
+			"isEmpty",
+			"_isEmpty"
+		],
+		"body": [
+			"_.isEmpty({});"
+		],
+		"description": " 是不是空对象"
+	},
+	"Lodash_isInteger": {
+		"prefix": [
+			"isInteger",
+			"_isInteger",
+			"int"
+		],
+		"body": [
+			"_.isInteger(0);"
+		],
+		"description": " 是不是整数"
+	},
+	"Lodash_isNaN": {
+		"prefix": [
+			"isNaN",
+			"_isNaN"
+		],
+		"body": [
+			"_.isNaN(NAN);"
+		],
+		"description": "是不是非数字"
+	},
+	"Lodash_isNumber": {
+		"prefix": [
+			"isNumber",
+			"_isNumber"
+		],
+		"body": [
+			"_.isNumber(0);"
+		],
+		"description": "是不是数字"
+	},
+	"Lodash_isString": {
+		"prefix": [
+			"isString",
+			"_isString"
+		],
+		"body": [
+			"_.isString('');"
+		],
+		"description": "是不是字符串"
+	},
+	"compact": {
+		"prefix": [
+			"compact",
+			"_compact"
+		],
+		"body": [
+			"_.compact([]);"
+		],
+		"description": "创建一个新数组,包含原数组中所有的非假值元素。例如false, null,0, 空字符串 undefined, 和 NaN 都是被认为是“假值”。"
+	}
+}
