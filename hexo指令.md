@@ -5,3 +5,9 @@
 ```javaScript
 hexo g -d
 ```
+
+编译
+
+```javaScript
+hexo d
+```
