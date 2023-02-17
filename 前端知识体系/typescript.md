@@ -1,0 +1,2 @@
+# typescript
+![img](https://img2023.cnblogs.com/blog/2230292/202302/2230292-20230217155232268-893346083.png)
