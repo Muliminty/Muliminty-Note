@@ -1,3 +1,5 @@
+[TOC]
+
 # React面试宝典
 
 ## react原理
