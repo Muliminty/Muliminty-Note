@@ -378,6 +378,8 @@ methods: {
 
 ```
 
+...
+
 #### 4.4 Mutation响应规则
 
 #### 4.5 Mutation常量类型
