@@ -4,6 +4,8 @@
 
 ## react原理
 
+### 说说react事件和原生事件的执行顺序
+
 ### 什么是fiber
 
 那么如何理解react中的fiber呢，两个层面来解释：
@@ -52,8 +54,6 @@ const VitrualDom = {
 
 > 参考链接 :
 >>[稀土掘金  -- [react] 什么是虚拟dom？虚拟dom比操作原生dom要快吗？虚拟dom是如何转变成真实dom并渲染到页面的? --  行星飞行](https://juejin.cn/post/7120141908730445854)。
-
-## 说说react事件和原生事件的执行顺序
 
 ## 性能优化
 
