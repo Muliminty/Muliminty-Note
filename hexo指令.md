@@ -11,3 +11,9 @@ hexo g -d
 ```javaScript
 hexo d
 ```
+
+添加文章
+
+```javaScript
+hexo new "如何在hexo上创建一篇文章"
+```
