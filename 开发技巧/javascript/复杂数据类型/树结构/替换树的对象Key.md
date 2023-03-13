@@ -22,3 +22,8 @@ console.log(gxqTree)
 ```javascript
 let newTree = newTree.map(v => mapTree(v)) 
 ```
+
+
+![这是图片](https://cdn.nlark.com/yuque/0/2022/png/12539472/1661398761869-ac437f5c-aa20-44c8-9fb0-203ae4f9441f.png
+ "Magic Gardens")
+
