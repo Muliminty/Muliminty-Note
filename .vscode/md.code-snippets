@@ -16,20 +16,18 @@
 		"description": "js代码块"
 	},
 	"ml": {
-		"prefix": "ml",
+		"scope": "markdown",
+		"prefix": "toc",
 		"body": [
 			"[TOC]",
 		],
 		"description": "目录"
 	},
 	"ly": {
-		"prefix": "ly",
+		"scope": "markdown",
+		"prefix": "link",
 		"body": [
-			"> 参考链接 :",
-			"> ",
-			"> >> [来源 -- 文章名 -- 作者](url)",
-			">",
-			"> >> [来源 -- 文章名 -- 作者](url)",
+			"[来源 -- 文章名 -- 作者](url)",
 		],
 		"description": "参考来源"
 	},
