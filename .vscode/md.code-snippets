@@ -11,6 +11,17 @@
 		"prefix": "js",
 		"body": [
 			"```javascript",
+			"",
+			"```"
+		],
+		"description": "js代码块"
+	},
+	"jsx": {
+		"scope": "markdown",
+		"prefix": "jsx",
+		"body": [
+			"```JSX",
+			"",
 			"```"
 		],
 		"description": "js代码块"
