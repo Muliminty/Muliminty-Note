@@ -16,6 +16,16 @@
 		],
 		"description": "js代码块"
 	},
+	"ts": {
+		"scope": "markdown",
+		"prefix": "ts",
+		"body": [
+			"```typeScript",
+			"",
+			"```"
+		],
+		"description": "js代码块"
+	},
 	"jsx": {
 		"scope": "markdown",
 		"prefix": "jsx",
