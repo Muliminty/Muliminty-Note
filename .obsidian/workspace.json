@@ -11,9 +11,11 @@
             "id": "cf41446017bc187d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "img/user.jpg"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2dfe737e75049153",
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "img/user.jpg",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "img/user.jpg",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,16 +126,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "img/user.jpg"
+                "file": "README.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,8 +147,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "169a1fa359842e60",
+  "active": "2e3119e29bd7c3ad",
   "lastOpenFiles": [
+    "img/user.jpg",
     "hexo指令.md",
     "剪藏/解决raw.githubusercontent.com无法访问的问题.md",
     "开发技巧/css/文本超出隐藏.md",
@@ -169,7 +173,6 @@
     "assets",
     "未命名.canvas",
     "test.md.md",
-    "img/user.jpg",
     "ZKTeco_logos-04.png",
     "markdown常用语法记录.md",
     "面试之道/性能优化面试宝典.md",
