@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "开发技巧/框架（库）/react/路由跳转后URL改变了组件没变化.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2dfe737e75049153",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "开发技巧/框架（库）/react/路由跳转后URL改变了组件没变化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "开发技巧/框架（库）/react/路由跳转后URL改变了组件没变化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "开发技巧/框架（库）/react/路由跳转后URL改变了组件没变化.md"
               }
             }
           }
@@ -147,8 +146,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2e3119e29bd7c3ad",
+  "active": "cf41446017bc187d",
   "lastOpenFiles": [
+    "开发技巧/框架（库）/react/如何在react中使用less.md",
+    "开发技巧/框架（库）/react/Fragment 空标签.md",
+    "开发技巧/框架（库）/react/react 首屏加载.md",
+    "开发技巧/框架（库）/react/路由跳转后URL改变了组件没变化.md",
+    "开发技巧/框架（库）/react/路由拦截.md",
+    "剪藏/react/react-router 跳转前确认Prompt使用.md",
+    "剪藏/react/create-react-app中如何使用less,手把手教会less的用法.md",
+    "README.md",
     "img/user.jpg",
     "hexo指令.md",
     "剪藏/解决raw.githubusercontent.com无法访问的问题.md",
@@ -174,11 +181,6 @@
     "未命名.canvas",
     "test.md.md",
     "ZKTeco_logos-04.png",
-    "markdown常用语法记录.md",
-    "面试之道/性能优化面试宝典.md",
-    "面试之道/浏览器是如何渲染页面的？.md",
-    "面试之道/计算机网络面试宝典.md",
-    "面试之道/性能优化_md_files/mmexport1676620001838_20230217154946.jpg",
-    "README.md"
+    "面试之道/性能优化_md_files/mmexport1676620001838_20230217154946.jpg"
   ]
 }
