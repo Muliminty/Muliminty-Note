@@ -4,16 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "719b38b6627df714",
+        "id": "2d26a67ef4d5c8f4",
         "type": "tabs",
         "children": [
           {
-            "id": "cf41446017bc187d",
+            "id": "4d3a421498f0817a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发技巧/框架（库）/react/路由跳转后URL改变了组件没变化.md",
+                "file": "开发技巧/框架（库）/react/库/react 使用qrcode.react插件生成二维码并下载.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "bb91180c8575bfec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f85b6256efc0ea0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "读书笔记/图解HPPT/网络基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2dfe737e75049153",
@@ -85,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "开发技巧/框架（库）/react/路由跳转后URL改变了组件没变化.md",
+                "file": "读书笔记/图解HPPT/网络基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "开发技巧/框架（库）/react/路由跳转后URL改变了组件没变化.md",
+                "file": "读书笔记/图解HPPT/网络基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "开发技巧/框架（库）/react/路由跳转后URL改变了组件没变化.md"
+                "file": "读书笔记/图解HPPT/网络基础.md"
               }
             }
           }
@@ -134,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,12 +166,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cf41446017bc187d",
+  "active": "0f85b6256efc0ea0",
   "lastOpenFiles": [
-    "开发技巧/框架（库）/react/如何在react中使用less.md",
-    "开发技巧/框架（库）/react/Fragment 空标签.md",
+    "开发技巧/框架（库）/react/库/react 使用qrcode.react插件生成二维码并下载.md",
+    "开发技巧/框架（库）/react/报错/React中获取target 报错.md",
+    "面试之道/pdf/2020年前端面试题汇总.pdf",
+    "面试之道/pdf/初中级前端 JavaScript 自测清单 - 1 .pdf",
+    "面试之道/pdf/58 道 Vue 常见面试题集锦，涵盖入门到精通，自测 Vue 掌握程度.pdf",
+    "读书笔记/图解HPPT/网络基础.md",
     "开发技巧/框架（库）/react/react 首屏加载.md",
+    "开发技巧/css/多行展开收起自动隐藏（全兼容）.md",
+    "开发技巧/框架（库）/react/如何在react中使用less.md",
     "开发技巧/框架（库）/react/路由跳转后URL改变了组件没变化.md",
+    "开发技巧/css/文字布局.md",
+    "开发技巧/框架（库）/react/Fragment 空标签.md",
     "开发技巧/框架（库）/react/路由拦截.md",
     "剪藏/react/react-router 跳转前确认Prompt使用.md",
     "剪藏/react/create-react-app中如何使用less,手把手教会less的用法.md",
@@ -172,14 +200,9 @@
     "解决raw.githubusercontent.com无法访问的问题.md",
     "121863559.md",
     "实用工具/Chrome/一键截图.md",
-    "实用工具/vscode/VSCode中markdown开启智能提示.md",
-    "实用工具/PicGo.md",
-    "实用工具/Clean-mark.md",
-    "assets/img/philly-magic-garden.jpg.md",
     "assets/img",
     "assets",
     "未命名.canvas",
-    "test.md.md",
     "ZKTeco_logos-04.png",
     "面试之道/性能优化_md_files/mmexport1676620001838_20230217154946.jpg"
   ]
