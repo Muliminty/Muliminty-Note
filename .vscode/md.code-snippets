@@ -52,4 +52,12 @@
 		],
 		"description": "参考来源"
 	},
+	"img": {
+		"scope": "markdown",
+		"prefix": "img",
+		"body": [
+			"![这是图片](xxx.jpg '鼠标悬浮文案')",
+		],
+		"description": "图片"
+	},
 }

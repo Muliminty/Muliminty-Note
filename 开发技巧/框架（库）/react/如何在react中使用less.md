@@ -36,6 +36,6 @@ export default Hello;
 ```
 
 这样就会生效了
-import styles './App.[[less]]', 是不是少了一个from 
-import styles from './App.[[less]]'
+import styles './App.less', 是不是少了一个from
+import styles from './App.less'
 其次就是看你是否开始的module: true, 也就是所谓的模块化！具体的需要看你的配置问价了！一搬网上都会有的
