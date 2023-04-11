@@ -11,9 +11,11 @@
             "id": "ced1499da422c9ba",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "读书笔记/书籍管理/计算机网络/图解HTTP  黑白印刷 [（日）上野宣著][人民邮电出版社][2014.05][250页](jb51.net).pdf"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2dfe737e75049153",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "读书笔记/书籍管理/计算机网络/图解HTTP  黑白印刷 [（日）上野宣著][人民邮电出版社][2014.05][250页](jb51.net).pdf",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "读书笔记/书籍管理/计算机网络/图解HTTP  黑白印刷 [（日）上野宣著][人民邮电出版社][2014.05][250页](jb51.net).pdf"
+                "file": "README.md"
               }
             }
           },
@@ -130,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "读书笔记/书籍管理/计算机网络/图解HTTP  黑白印刷 [（日）上野宣著][人民邮电出版社][2014.05][250页](jb51.net).pdf",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -156,6 +157,7 @@
   },
   "active": "ced1499da422c9ba",
   "lastOpenFiles": [
+    "读书笔记/书籍管理/计算机网络/图解HTTP  黑白印刷 [（日）上野宣著][人民邮电出版社][2014.05][250页](jb51.net).pdf",
     "读书笔记/图解HPPT/网络基础.md",
     "剪藏/Snipaste_2023-04-03_16-21-29.png",
     "知识体系/正则表达式学习.md",
