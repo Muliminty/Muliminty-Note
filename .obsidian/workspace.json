@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown常用语法记录.md",
+                "file": "剪藏/vscode/使用Paste Image插件来方便的给Markdown添加截图的功能.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2dfe737e75049153",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "markdown常用语法记录.md",
+                "file": "剪藏/vscode/使用Paste Image插件来方便的给Markdown添加截图的功能.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "markdown常用语法记录.md"
+                "file": "剪藏/vscode/使用Paste Image插件来方便的给Markdown添加截图的功能.md"
               }
             }
           },
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "markdown常用语法记录.md",
+                "file": "剪藏/vscode/使用Paste Image插件来方便的给Markdown添加截图的功能.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,13 +158,15 @@
   },
   "active": "da51a3c09bf841a1",
   "lastOpenFiles": [
+    "剪藏/github/解决raw.githubusercontent.com无法访问的问题.md",
+    "test/test111.md",
+    "test/img/md-2023-04-11-11-39-46.png",
+    "markdown常用语法记录.md",
     "README.md",
     "img/user.jpg.md",
     "img/user.jpg",
-    "markdown常用语法记录.md",
     "剪藏/react/create-react-app中如何使用less,手把手教会less的用法.md",
     "读书笔记/图解HPPT/网络基础.md",
-    "剪藏/github/解决raw.githubusercontent.com无法访问的问题.md",
     "读书笔记/书籍管理/计算机网络/图解HTTP  黑白印刷 [（日）上野宣著][人民邮电出版社][2014.05][250页](jb51.net).pdf",
     "剪藏/Snipaste_2023-04-03_16-21-29.png",
     "知识体系/正则表达式学习.md",
@@ -185,7 +188,6 @@
     "开发技巧/框架（库）/Ant Design/全局配置/全局中文.md",
     "开发技巧/框架（库）/react/路由拦截.md",
     "开发技巧/框架（库）/react/库/react 使用qrcode.react插件生成二维码并下载.md",
-    "开发技巧/框架（库）/react/报错/React中获取target 报错.md",
     "面试之道/pdf/2020年前端面试题汇总.pdf",
     "面试之道/pdf/初中级前端 JavaScript 自测清单 - 1 .pdf",
     "面试之道/pdf/58 道 Vue 常见面试题集锦，涵盖入门到精通，自测 Vue 掌握程度.pdf",
