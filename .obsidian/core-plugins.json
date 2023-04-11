@@ -1,21 +1,16 @@
 [
   "file-explorer",
   "global-search",
-  "switcher",
   "graph",
-  "backlink",
   "canvas",
-  "outgoing-link",
   "tag-pane",
   "page-preview",
-  "daily-notes",
-  "templates",
-  "note-composer",
   "command-palette",
+  "slash-command",
   "editor-status",
   "starred",
+  "random-note",
   "outline",
   "word-count",
-  "slides",
   "file-recovery"
 ]

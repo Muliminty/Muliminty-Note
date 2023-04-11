@@ -4,18 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "669b6cfc3301c697",
+        "id": "6e8739a3a7e00d16",
         "type": "tabs",
         "children": [
           {
-            "id": "9ce14c7c5ef29fb3",
+            "id": "899ca2d5e58f6b73",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "实用工具/README.md",
-                "mode": "preview",
-                "source": false
+                "file": "草稿白板.canvas",
+                "viewState": {
+                  "x": -220,
+                  "y": -367,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -32,16 +35,6 @@
         "id": "37e91c8979491926",
         "type": "tabs",
         "children": [
-          {
-            "id": "169a1fa359842e60",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
           {
             "id": "ba5f456ff87f41f9",
             "type": "leaf",
@@ -64,8 +57,19 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "ffbe678573968698",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -79,23 +83,6 @@
         "id": "956c96f121e5bb6a",
         "type": "tabs",
         "children": [
-          {
-            "id": "50dd5cff429628d4",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "实用工具/README.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
           {
             "id": "2e3119e29bd7c3ad",
             "type": "leaf",
@@ -113,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实用工具/README.md"
+                "file": "知识体系/javascript/原理/事件循环.md"
               }
             }
           },
@@ -124,69 +111,55 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "3c8512f3af0448d6",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "实用工具/README.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 258.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
+      "random-note:开始漫游笔记": false,
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9ce14c7c5ef29fb3",
+  "active": "899ca2d5e58f6b73",
   "lastOpenFiles": [
+    "知识体系/javascript/原理/事件循环.md",
+    "草稿白板.canvas",
+    "开发技巧/框架（库）/react/路由跳转后URL改变了组件没变化.md",
+    "面试之道/面经原题.md",
+    "开发技巧/框架（库）/Ant Design/Model/基于Modal.confirm的封装.md",
+    "开发技巧/框架（库）/react/Fragment 空标签.md",
+    "开发技巧/框架（库）/react/报错/React中获取target 报错.md",
+    "面试之道/README.md",
+    "知识体系/CSS/预处理器/Sass.md",
+    "知识体系/正则表达式学习.md",
+    "知识体系/React/React生命周期.md",
+    "知识体系/React/PropTypes 进行类型检查.md",
+    "知识体系/CSS/你不知道的 CSS 之包含块.md",
+    "知识体系/CSS/CSS 属性计算过程.md",
+    "markdown常用语法记录.md",
+    "hexo指令.md",
+    "实用工具/README.md",
     "面试之道/垃圾回收机制.md",
     "面试之道/突然想到展示没整理的题目.md",
     "面试之道/性能优化面试宝典.md",
     "面试之道/Vue面试宝典.md",
-    "面试之道/README.md",
     "面试之道/React面试宝典.md",
     "面试之道/性能优化_md_files/mmexport1676620001838_20230217154946.jpg",
     "README.md",
-    "markdown常用语法记录.md",
     "git笔记.md",
     "test/test111.md",
     "test/img/md-2023-04-11-11-39-46.png",
     "知识体系/React/Redux.md",
-    "知识体系/React/React生命周期.md",
-    "知识体系/React/PropTypes 进行类型检查.md",
-    "知识体系/Vue/vue3快速上手.md",
     "知识体系/Vue/尚硅谷_前端技术_Vue全家桶.pdf",
-    "实用工具/vscode/插件推荐.md",
-    "实用工具/vscode/VSCode中markdown开启智能提示.md",
     "面试之道/pdf/vue面试题2.pdf",
-    "开发技巧/框架（库）/Ant Design/Form/antd setFieldsValue 设置表单项的值.md",
-    "开发技巧/框架（库）/Ant Design/Form/From 将点击事件注册到组件外面.md",
-    "剪藏/github/解决raw.githubusercontent.com无法访问的问题.md",
     "剪藏/github/img/md-2023-04-11-14-39-56.png",
-    "剪藏/Apache ECharts/echarts——各个配置项详细说明总结.md",
-    "开发技巧/框架（库）/react/报错/React中获取target 报错.md",
-    "开发技巧/javascript/复杂数据类型/数组类型/数组 -- 求和、最大值、最小值.md",
-    "开发技巧/javascript/复杂数据类型/数组类型/数组 -- 快速清空.md",
-    "开发技巧/javascript/复杂数据类型/数组类型/数组 -- 快速初始化数组.md",
-    "开发技巧/javascript/复杂数据类型/数组类型/数组 -- 交集、差集、并集、补集.md",
-    "剪藏/github/Github为什么没有记录你的Contributions.md",
     "读书笔记/书籍管理/计算机网络/图解HTTP  黑白印刷 [（日）上野宣著][人民邮电出版社][2014.05][250页](jb51.net).pdf",
     "读书笔记/书籍管理/计算机网络/1e6f579fa57648e4b2b590a25d6205cd.pdf",
     "读书笔记/书籍管理/计算机网络/677ae0e3a47347e6b47224dde737abc2/768a9d5f6e244844816b7e068257958e.pdf",
@@ -197,7 +170,6 @@
     "面试之道/pdf/2020年前端面试题汇总.pdf",
     "面试之道/pdf/初中级前端 JavaScript 自测清单 - 1 .pdf",
     "面试之道/pdf/58 道 Vue 常见面试题集锦，涵盖入门到精通，自测 Vue 掌握程度.pdf",
-    "未命名.canvas",
     "ZKTeco_logos-04.png"
   ]
 }
