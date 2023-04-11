@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8c4c602c432174a6",
+        "id": "ba7be08abcda50b5",
         "type": "tabs",
         "children": [
           {
-            "id": "ced1499da422c9ba",
+            "id": "da51a3c09bf841a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "剪藏/react/create-react-app中如何使用less,手把手教会less的用法.md",
+                "file": "markdown常用语法记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "剪藏/react/create-react-app中如何使用less,手把手教会less的用法.md",
+                "file": "markdown常用语法记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "剪藏/react/create-react-app中如何使用less,手把手教会less的用法.md"
+                "file": "markdown常用语法记录.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "剪藏/react/create-react-app中如何使用less,手把手教会less的用法.md",
+                "file": "markdown常用语法记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -155,20 +155,22 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ced1499da422c9ba",
+  "active": "da51a3c09bf841a1",
   "lastOpenFiles": [
+    "README.md",
+    "img/user.jpg.md",
+    "img/user.jpg",
+    "markdown常用语法记录.md",
+    "剪藏/react/create-react-app中如何使用less,手把手教会less的用法.md",
     "读书笔记/图解HPPT/网络基础.md",
     "剪藏/github/解决raw.githubusercontent.com无法访问的问题.md",
-    "README.md",
     "读书笔记/书籍管理/计算机网络/图解HTTP  黑白印刷 [（日）上野宣著][人民邮电出版社][2014.05][250页](jb51.net).pdf",
     "剪藏/Snipaste_2023-04-03_16-21-29.png",
     "知识体系/正则表达式学习.md",
     "git笔记.md",
     "hexo指令.md",
-    "markdown常用语法记录.md",
     "知识体系/Vue/Vuex从入门到实战.md",
     "知识体系/CSS/你不知道的 CSS 之包含块.md",
-    "img/user.jpg",
     "读书笔记/新建文件夹",
     "2023-04-18.md",
     "知识体系/CSS/预处理器/Less.md",
@@ -178,7 +180,6 @@
     "开发技巧/javascript/简单数据类型/字符串.md",
     "开发技巧/javascript/实用代码片段.md",
     "开发技巧/框架（库）/react/如何在react中使用less.md",
-    "剪藏/react/create-react-app中如何使用less,手把手教会less的用法.md",
     "剪藏/react/react-router 跳转前确认Prompt使用.md",
     "开发技巧/javascript/复制/复制内容到剪切板.md",
     "开发技巧/框架（库）/Ant Design/全局配置/全局中文.md",
@@ -188,7 +189,6 @@
     "面试之道/pdf/2020年前端面试题汇总.pdf",
     "面试之道/pdf/初中级前端 JavaScript 自测清单 - 1 .pdf",
     "面试之道/pdf/58 道 Vue 常见面试题集锦，涵盖入门到精通，自测 Vue 掌握程度.pdf",
-    "开发技巧/框架（库）/react/react 首屏加载.md",
     "知识体系/Vue/尚硅谷_前端技术_Vue全家桶.pdf",
     "剪藏",
     "assets/img",
