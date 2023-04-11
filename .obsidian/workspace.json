@@ -4,36 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2d26a67ef4d5c8f4",
+        "id": "8c4c602c432174a6",
         "type": "tabs",
         "children": [
           {
-            "id": "4d3a421498f0817a",
+            "id": "ced1499da422c9ba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "开发技巧/框架（库）/react/库/react 使用qrcode.react插件生成二维码并下载.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "bb91180c8575bfec",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0f85b6256efc0ea0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "读书笔记/图解HPPT/网络基础.md",
-                "mode": "source",
-                "source": false
+                "file": "读书笔记/书籍管理/计算机网络/图解HTTP  黑白印刷 [（日）上野宣著][人民邮电出版社][2014.05][250页](jb51.net).pdf"
               }
             }
           }
@@ -66,10 +46,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "省略号",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -104,25 +84,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "读书笔记/图解HPPT/网络基础.md",
+                "file": "读书笔记/书籍管理/计算机网络/图解HTTP  黑白印刷 [（日）上野宣著][人民邮电出版社][2014.05][250页](jb51.net).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "3c8512f3af0448d6",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "读书笔记/图解HPPT/网络基础.md",
-                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -144,16 +112,36 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "读书笔记/图解HPPT/网络基础.md"
+                "file": "读书笔记/书籍管理/计算机网络/图解HTTP  黑白印刷 [（日）上野宣著][人民邮电出版社][2014.05][250页](jb51.net).pdf"
+              }
+            }
+          },
+          {
+            "id": "11ceff3ea68271f7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3c8512f3af0448d6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "读书笔记/书籍管理/计算机网络/图解HTTP  黑白印刷 [（日）上野宣著][人民邮电出版社][2014.05][250页](jb51.net).pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 431.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -166,40 +154,41 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0f85b6256efc0ea0",
+  "active": "ced1499da422c9ba",
   "lastOpenFiles": [
+    "读书笔记/图解HPPT/网络基础.md",
+    "剪藏/Snipaste_2023-04-03_16-21-29.png",
+    "知识体系/正则表达式学习.md",
+    "git笔记.md",
+    "hexo指令.md",
+    "markdown常用语法记录.md",
+    "README.md",
+    "知识体系/Vue/Vuex从入门到实战.md",
+    "知识体系/CSS/你不知道的 CSS 之包含块.md",
+    "img/user.jpg",
+    "读书笔记/新建文件夹",
+    "2023-04-18.md",
+    "知识体系/CSS/预处理器/Less.md",
+    "开发技巧/javascript/操作样式/查询文字高亮.md",
+    "开发技巧/css/css图案.md",
+    "开发技巧/javascript/代码整洁/函数组合.md",
+    "开发技巧/javascript/简单数据类型/字符串.md",
+    "开发技巧/javascript/实用代码片段.md",
+    "开发技巧/框架（库）/react/如何在react中使用less.md",
+    "剪藏/react/create-react-app中如何使用less,手把手教会less的用法.md",
+    "剪藏/react/react-router 跳转前确认Prompt使用.md",
+    "开发技巧/javascript/复制/复制内容到剪切板.md",
+    "开发技巧/框架（库）/Ant Design/全局配置/全局中文.md",
+    "开发技巧/框架（库）/react/路由拦截.md",
+    "剪藏/github/解决raw.githubusercontent.com无法访问的问题.md",
     "开发技巧/框架（库）/react/库/react 使用qrcode.react插件生成二维码并下载.md",
     "开发技巧/框架（库）/react/报错/React中获取target 报错.md",
     "面试之道/pdf/2020年前端面试题汇总.pdf",
     "面试之道/pdf/初中级前端 JavaScript 自测清单 - 1 .pdf",
     "面试之道/pdf/58 道 Vue 常见面试题集锦，涵盖入门到精通，自测 Vue 掌握程度.pdf",
-    "读书笔记/图解HPPT/网络基础.md",
     "开发技巧/框架（库）/react/react 首屏加载.md",
-    "开发技巧/css/多行展开收起自动隐藏（全兼容）.md",
-    "开发技巧/框架（库）/react/如何在react中使用less.md",
-    "开发技巧/框架（库）/react/路由跳转后URL改变了组件没变化.md",
-    "开发技巧/css/文字布局.md",
-    "开发技巧/框架（库）/react/Fragment 空标签.md",
-    "开发技巧/框架（库）/react/路由拦截.md",
-    "剪藏/react/react-router 跳转前确认Prompt使用.md",
-    "剪藏/react/create-react-app中如何使用less,手把手教会less的用法.md",
-    "README.md",
-    "img/user.jpg",
-    "hexo指令.md",
-    "剪藏/解决raw.githubusercontent.com无法访问的问题.md",
-    "开发技巧/css/文本超出隐藏.md",
-    "开发技巧/框架（库）/Ant Design/Table/columns技巧.md",
-    "有趣的代码片段/微信加密.md",
-    "知识体系/CSS/预处理器/Less.md",
     "知识体系/Vue/尚硅谷_前端技术_Vue全家桶.pdf",
-    "知识体系/CSS/CSS 属性计算过程.md",
-    "知识体系/CSS/你不知道的 CSS 之包含块.md",
-    "知识体系/CSS/预处理器/Sass.md",
-    "实用工具/vscode/插件推荐.md",
     "剪藏",
-    "解决raw.githubusercontent.com无法访问的问题.md",
-    "121863559.md",
-    "实用工具/Chrome/一键截图.md",
     "assets/img",
     "assets",
     "未命名.canvas",

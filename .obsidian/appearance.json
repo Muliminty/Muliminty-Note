@@ -1,4 +1,5 @@
 {
   "accentColor": "",
-  "theme": "moonstone"
+  "theme": "system",
+  "cssTheme": "Obsidian Nord"
 }
