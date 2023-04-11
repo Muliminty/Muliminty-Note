@@ -13,4 +13,3 @@ npm install clean-mark --global
 ```JSX
 clean-mark "https://jeffjade.com/2017/12/31/136-talk-about-nicelinks-site/"
 ```
-

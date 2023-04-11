@@ -25,4 +25,3 @@ var obj = {
 
 push(obj, 2);
 console.log(obj);     // 输出：{0: 1, 1: 2, length: 2}
-

@@ -15,5 +15,5 @@
 ## 任务列表
 
 - [x] Write the press release
-- [ ] Update the website
+- [x] Update the website
 - [ ] Contact the media
