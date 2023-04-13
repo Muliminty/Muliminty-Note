@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4e1205f06a2f3cfd",
+        "id": "2b2641b9c42806b6",
         "type": "tabs",
         "children": [
           {
-            "id": "37a5d96eca05e6e1",
+            "id": "73cd13f098192c5d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "剪藏/github/Github为什么没有记录你的Contributions.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -70,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 527.5
+    "width": 200
   },
   "right": {
     "id": "2dfe737e75049153",
@@ -96,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "剪藏/github/Github为什么没有记录你的Contributions.md"
-              }
+              "state": {}
             }
           },
           {
@@ -124,8 +117,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "37a5d96eca05e6e1",
+  "active": "73cd13f098192c5d",
   "lastOpenFiles": [
+    "读书笔记/书籍管理/Javascript/JavaScript高级程序设计（第4版）.pdf",
+    "剪藏/github/Github为什么没有记录你的Contributions.md",
     "markdown常用语法记录.md",
     "hexo指令.md",
     "git笔记.md",
@@ -152,8 +147,6 @@
     "开发技巧/javascript/复杂数据类型/树结构/实现复杂数据查询（过滤）.md",
     "开发技巧/框架（库）/Ant Design/Model/基于Modal.confirm的封装.md",
     "开发技巧/javascript/复杂数据类型/对象类型/对象解构重命名.md",
-    "开发技巧/javascript/复杂数据类型/树结构/树结构扁平化.md",
-    "实用工具/README.md",
     "剪藏/github/img/md-2023-04-11-14-39-56.png",
     "面试之道/性能优化_md_files/mmexport1676620001838_20230217154946.jpg",
     "test/img/md-2023-04-11-11-39-46.png",
