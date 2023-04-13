@@ -11,8 +11,13 @@
             "id": "852a121e7681c71a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "开发技巧/javascript/简单数据类型/数值类型.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "随机数",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -61,11 +66,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 527.5
+    "width": 217.5
   },
   "right": {
     "id": "2dfe737e75049153",
@@ -75,6 +81,18 @@
         "id": "956c96f121e5bb6a",
         "type": "tabs",
         "children": [
+          {
+            "id": "5b4f147a0e93b5f7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "开发技巧/javascript/简单数据类型/数值类型.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
           {
             "id": "2e3119e29bd7c3ad",
             "type": "leaf",
@@ -91,7 +109,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "开发技巧/javascript/简单数据类型/数值类型.md"
+              }
             }
           },
           {
@@ -101,52 +121,70 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "a67bd69ecf3836dc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "开发技巧/javascript/简单数据类型/数值类型.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 679.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "random-note:开始漫游笔记": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false
     }
   },
   "active": "852a121e7681c71a",
   "lastOpenFiles": [
+    "开发技巧/框架（库）/Ant Design/Table/columns技巧.md",
+    "剪藏/github/解决raw.githubusercontent.com无法访问的问题.md",
+    "剪藏/github/Github为什么没有记录你的Contributions.md",
+    "剪藏/Apache ECharts/echarts——各个配置项详细说明总结.md",
+    "开发技巧/javascript/复杂数据类型/树结构/替换树的对象Key.md",
+    "有趣的代码片段/调试神器.md",
+    "开发技巧/框架（库）/react/库/react 使用qrcode.react插件生成二维码并下载.md",
+    "开发技巧/框架（库）/Ant Design/日期选择器/限制选择时间区间.md",
+    "开发技巧/框架（库）/Ant Design/Table/行悬浮样式修改.md",
+    "开发技巧/框架（库）/Ant Design/Form/antd setFieldsValue 设置表单项的值.md",
+    "开发技巧/框架（库）/Ant Design/Select选择器/实现下拉互斥效果.md",
+    "hexo指令.md",
+    "开发技巧/javascript/复杂数据类型/数组类型/数组 -- 快速初始化数组.md",
+    "开发技巧/javascript/复杂数据类型/数组类型/数组 -- 交集、差集、并集、补集.md",
+    "剪藏/vscode/使用Paste Image插件来方便的给Markdown添加截图的功能.md",
+    "test/test111.md",
+    "面试之道/React面试宝典.md",
+    "知识体系/javascript/数据类型.md",
+    "开发技巧/框架（库）/react/路由跳转后URL改变了组件没变化.md",
+    "面试之道/性能优化面试宝典.md",
+    "开发技巧/javascript/下载相关/通过url链接下载图片.md",
     "知识体系/Vue/Vuex从入门到实战_md_files/Snipaste_2023-02-20_16-18-29_20230220161851.png",
     "开发技巧/框架（库）/react/路由拦截.md",
-    "剪藏/github/Github为什么没有记录你的Contributions.md",
     "markdown常用语法记录.md",
-    "hexo指令.md",
     "git笔记.md",
     "开发技巧/css/多行展开收起自动隐藏（全兼容）.md",
     "开发技巧/css/文本超出隐藏.md",
-    "开发技巧/css/滚动条相关.md",
-    "开发技巧/框架（库）/react/组件/音频播放组件.md",
-    "开发技巧/框架（库）/react/组件/数字滚动组件.md",
-    "开发技巧/框架（库）/react/库/react 使用qrcode.react插件生成二维码并下载.md",
-    "开发技巧/框架（库）/Moment/moment常用方法.md",
-    "开发技巧/框架（库）/Moment/常用时间键值对.md",
-    "开发技巧/框架（库）/Apache ECharts/Apache ECharts使用demo.md",
-    "开发技巧/框架（库）/Ant Design/Table/表格同时使用固定列和选择操作后，固定列透明异常.md",
-    "开发技巧/框架（库）/Ant Design/Table/表格可拖动.md",
-    "开发技巧/框架（库）/Ant Design/Table/表格滚动条相关.md",
     "草稿白板.canvas",
     "未命名.canvas",
-    "开发技巧/javascript/操作样式/查询文字高亮.md",
-    "面试之道/HTML面试宝典.md",
-    "开发技巧/框架（库）/Ant Design/Model/Modal.confirm.md",
-    "开发技巧/框架（库）/Ant Design/Table/表格复选框.md",
-    "开发技巧/框架（库）/Ant Design/Form/antd setFieldsValue 设置表单项的值.md",
-    "开发技巧/javascript/简单数据类型/字符串.md",
-    "开发技巧/javascript/复杂数据类型/树结构/实现复杂数据查询（过滤）.md",
-    "开发技巧/框架（库）/Ant Design/Model/基于Modal.confirm的封装.md",
     "剪藏/github/img/md-2023-04-11-14-39-56.png",
     "面试之道/性能优化_md_files/mmexport1676620001838_20230217154946.jpg",
     "test/img/md-2023-04-11-11-39-46.png",
