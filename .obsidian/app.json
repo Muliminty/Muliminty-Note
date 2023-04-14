@@ -1,3 +1,10 @@
 {
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "showFrontmatter": true,
+  "strictLineBreaks": true,
+  "spellcheck": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "./",
+  "alwaysUpdateLinks": true
 }
