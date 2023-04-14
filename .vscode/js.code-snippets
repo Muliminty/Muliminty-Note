@@ -24,6 +24,13 @@
 		],
 		"description": "JsDoc注释"
 	},
+	"docLog": {
+		"prefix": "docLog",
+		"body": [
+			"console.log('-------------------------------  -----------------------------');",
+		],
+		"description": "分割注释  "
+	},
 	"mockArr": {
 		"prefix": "mockArr",
 		"body": [
