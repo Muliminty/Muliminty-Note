@@ -1,21 +1,21 @@
 {
   "main": {
-    "id": "6a1c17040023e1cd",
+    "id": "a5ee6cc28a84e573",
     "type": "split",
     "children": [
       {
-        "id": "0e5b5a040457accc",
+        "id": "908d2372ee584644",
         "type": "tabs",
         "children": [
           {
-            "id": "852a121e7681c71a",
+            "id": "7e90f6b0aec46310",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发技巧/框架（库）/react/路由拦截.md",
+                "file": "开发技巧/框架（库）/Ant Design/日期选择器/限制选择时间区间.md",
                 "mode": "preview",
-                "backlinks": false,
+                "backlinks": true,
                 "source": false
               }
             }
@@ -26,15 +26,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "355e9b697cccdb25",
+    "id": "e763b896eb5105de",
     "type": "split",
     "children": [
       {
-        "id": "37e91c8979491926",
+        "id": "f56ce7403b9f53e8",
         "type": "tabs",
         "children": [
           {
-            "id": "ffbe678573968698",
+            "id": "ef6b560330ccac3e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,61 +44,45 @@
             }
           },
           {
-            "id": "ba5f456ff87f41f9",
+            "id": "9ecad09b246738b2",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "拦截",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
-                "extraContext": true,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "e46e06d6784c2906",
+            "id": "97638ecca82fab9a",
             "type": "leaf",
             "state": {
               "type": "starred",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 217.5
-=======
-    "width": 200
->>>>>>> 4210fca877a62e20e8247a37665c4c8789476d2b
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "2dfe737e75049153",
+    "id": "7e1eaf5aa558b397",
     "type": "split",
     "children": [
       {
-        "id": "956c96f121e5bb6a",
+        "id": "df46320a8dca3be8",
         "type": "tabs",
         "children": [
           {
-            "id": "5b4f147a0e93b5f7",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "开发技巧/框架（库）/react/路由拦截.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "2e3119e29bd7c3ad",
+            "id": "8e6faee164f44a88",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -107,47 +91,13 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "01d8b8462e4e1f0b",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "开发技巧/框架（库）/react/路由拦截.md"
-              }
-            }
-          },
-          {
-            "id": "11ceff3ea68271f7",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "a67bd69ecf3836dc",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "开发技巧/框架（库）/react/路由拦截.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 679.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,52 +108,37 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "852a121e7681c71a",
+  "active": "7e90f6b0aec46310",
   "lastOpenFiles": [
-    "开发技巧/框架（库）/Ant Design/Table/表格可拖动.md",
-    "开发技巧/框架（库）/Ant Design/Tree/拖拽排序.md",
-    "开发技巧/框架（库）/Ant Design/Table/columns技巧.md",
-    "开发技巧/javascript/简单数据类型/数值类型.md",
-    "剪藏/github/解决raw.githubusercontent.com无法访问的问题.md",
+    "读书笔记/书籍管理/CSS/CSS揭秘-中文版.pdf.lnk",
+    "开发技巧/框架（库）/Ant Design/Table/表格复选框.md",
+    "开发技巧/css/滚动条相关.md",
     "剪藏/github/Github为什么没有记录你的Contributions.md",
-    "剪藏/Apache ECharts/echarts——各个配置项详细说明总结.md",
-    "开发技巧/javascript/复杂数据类型/树结构/替换树的对象Key.md",
-    "有趣的代码片段/调试神器.md",
-    "开发技巧/框架（库）/react/库/react 使用qrcode.react插件生成二维码并下载.md",
-    "开发技巧/框架（库）/Ant Design/日期选择器/限制选择时间区间.md",
-    "开发技巧/框架（库）/Ant Design/Table/行悬浮样式修改.md",
-    "开发技巧/框架（库）/Ant Design/Form/antd setFieldsValue 设置表单项的值.md",
-    "开发技巧/框架（库）/Ant Design/Select选择器/实现下拉互斥效果.md",
-    "hexo指令.md",
-    "开发技巧/javascript/复杂数据类型/数组类型/数组 -- 快速初始化数组.md",
-    "开发技巧/javascript/复杂数据类型/数组类型/数组 -- 交集、差集、并集、补集.md",
-    "剪藏/vscode/使用Paste Image插件来方便的给Markdown添加截图的功能.md",
-    "test/test111.md",
-    "面试之道/React面试宝典.md",
-    "知识体系/javascript/数据类型.md",
-    "开发技巧/框架（库）/react/路由跳转后URL改变了组件没变化.md",
-    "面试之道/性能优化面试宝典.md",
-    "开发技巧/javascript/下载相关/通过url链接下载图片.md",
-    "知识体系/Vue/Vuex从入门到实战_md_files/Snipaste_2023-02-20_16-18-29_20230220161851.png",
-    "开发技巧/框架（库）/react/路由拦截.md",
-    "markdown常用语法记录.md",
-    "草稿白板.canvas",
-    "未命名.canvas",
     "剪藏/github/img/md-2023-04-11-14-39-56.png",
-    "面试之道/性能优化_md_files/mmexport1676620001838_20230217154946.jpg",
-    "test/img/md-2023-04-11-11-39-46.png",
-    "知识体系/Vue/尚硅谷_前端技术_Vue全家桶.pdf",
-    "面试之道/pdf/vue面试题2.pdf",
-    "读书笔记/书籍管理/计算机网络/图解HTTP  黑白印刷 [（日）上野宣著][人民邮电出版社][2014.05][250页](jb51.net).pdf",
-    "读书笔记/书籍管理/计算机网络/1e6f579fa57648e4b2b590a25d6205cd.pdf",
-    "读书笔记/书籍管理/计算机网络/677ae0e3a47347e6b47224dde737abc2/768a9d5f6e244844816b7e068257958e.pdf",
-    "读书笔记/书籍管理/计算机网络/677ae0e3a47347e6b47224dde737abc2",
-    "img/user.jpg",
-    "剪藏/Snipaste_2023-04-03_16-21-29.png",
-    "读书笔记/新建文件夹",
-    "面试之道/pdf/2020年前端面试题汇总.pdf",
-    "面试之道/pdf/初中级前端 JavaScript 自测清单 - 1 .pdf",
-    "面试之道/pdf/58 道 Vue 常见面试题集锦，涵盖入门到精通，自测 Vue 掌握程度.pdf",
-    "ZKTeco_logos-04.png"
+    "剪藏/github/解决raw.githubusercontent.com无法访问的问题.md",
+    "开发技巧/框架（库）/Ant Design/Table/columns技巧.md",
+    "开发技巧/css/多行展开收起自动隐藏（全兼容）.md",
+    "面试之道/javascript手写精通面试宝典.md",
+    "剪藏/obsidian/Obsidian插件安装全网最全攻略.md",
+    "面试之道/性能优化面试宝典.md",
+    "开发技巧/框架（库）/Ant Design/Anchor锚点/锚点基本使用.md",
+    "开发技巧/javascript/复杂数据类型/树结构/实现复杂数据查询（过滤）.md",
+    "读书笔记/README.md",
+    "知识体系/README.md",
+    "面试之道/HTML面试宝典.md",
+    "实用工具/vscode/插件推荐.md",
+    "markdown常用语法记录.md",
+    "hexo指令.md",
+    "知识体系/CSS/CSS 属性计算过程.md",
+    "剪藏/react/create-react-app中如何使用less,手把手教会less的用法.md",
+    "知识体系/CSS/预处理器/Sass.md",
+    "知识体系/React/Redux.md",
+    "面试之道/React面试宝典.md",
+    "面试之道/面经原题.md",
+    "剪藏/react/react-router 跳转前确认Prompt使用.md",
+    "开发技巧/框架（库）/react/路由拦截.md",
+    "未命名.canvas",
+    "读书笔记/书籍管理/Javascript/JavaScript高级程序设计（第4版）.pdf",
+    "读书笔记/书籍管理/CSS/CSS揭秘-中文版.pdf"
   ]
 }
