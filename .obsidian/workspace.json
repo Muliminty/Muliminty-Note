@@ -4,53 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "41939b93014f7ad2",
+        "id": "882594306f3970e4",
         "type": "tabs",
         "children": [
           {
-            "id": "afb866b86a664630",
+            "id": "28b7aa857acc8e20",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识体系/typeScript/Ts知识碎片/TypeScript interface接口.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cdb67891ae5b0591",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识体系/typeScript/Ts知识碎片/TypeScript 语法备忘.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "587023e1e32ab571",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "baf0370d131046f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "剪藏/TypeScript/详解 TypeScript 数据类型.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,12 +39,20 @@
             }
           },
           {
+            "id": "97638ecca82fab9a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
             "id": "9ecad09b246738b2",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "file:",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,20 +60,13 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "97638ecca82fab9a",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 369.5
+    "width": 267.5
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -118,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "知识体系/typeScript/Ts知识碎片/TypeScript 语法备忘.md"
-              }
+              "state": {}
             }
           },
           {
@@ -140,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识体系/typeScript/Ts知识碎片/TypeScript 语法备忘.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -157,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识体系/typeScript/Ts知识碎片/TypeScript 语法备忘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -178,39 +137,39 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "cdb67891ae5b0591",
+  "active": "28b7aa857acc8e20",
   "lastOpenFiles": [
+    "知识体系/TypeScript/Ts知识碎片/TypeScript interface接口.md",
+    "剪藏/TypeScript/2023 typescript史上最强学习入门文章(2w字).md",
+    "开发技巧/框架（库）/react/react 首屏加载.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript 泛型 （待补充）.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript 语法备忘 （待补充）.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript 元组.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript Array(数组).md",
+    "开发技巧/css/css图案.md",
+    "知识体系/TypeScript/参考文档.md",
+    "开发技巧/css/多行展开收起自动隐藏（全兼容）.md",
+    "知识体系/TypeScript/TypeScript知识体系.md",
+    "知识体系/README.md",
+    "面试之道/性能优化面试宝典.md",
+    "实用工具/Clean-mark.md",
     "剪藏/TypeScript/详解 TypeScript 数据类型.md",
-    "知识体系/typeScript/Ts知识碎片/TypeScript 语法备忘.md",
-    "知识体系/typeScript/Ts知识碎片/TypeScript interface接口.md",
-    "知识体系/typeScript/Ts知识碎片/TypeScript Array(数组).md",
     "开发技巧/css/滚动条相关.md",
     "剪藏/github/Github为什么没有记录你的Contributions.md",
     "hexo指令.md",
     "开发技巧/框架（库）/Ant Design/Table/表格复选框.md",
-    "剪藏/TypeScript/2023 typescript史上最强学习入门文章(2w字).md",
     "开发技巧/框架（库）/react/hook相关技巧/useState 页面不更新.md",
     "剪藏/TypeScript",
-    "知识体系/typeScript/TypeScript知识体系.md",
-    "知识体系/typeScript/Ts知识碎片/TypeScript 元组.md",
     "知识体系/typeScript/Ts知识碎片/数据类型.md",
     "知识体系/typeScript/typeScript入门教程.md",
     "ts-tuple.md",
-    "知识体系/typeScript/Ts知识碎片",
+    "知识体系/TypeScript/Ts知识碎片",
     "剪藏/typescript/详解 TypeScript 数据类型.md",
     "剪藏/typescript/2023 typescript史上最强学习入门文章(2w字).md",
-    "知识体系/typeScript/img/Snipaste_2023-04-17_10-18-11.png",
+    "知识体系/TypeScript/img/Snipaste_2023-04-17_10-18-11.png",
     "实用工具/Obsidian/Obsidian-使用技巧.md",
-    "实用工具/Obsidian/语法技巧.md",
-    "2023 typescript史上最强学习入门文章(2w字).md",
-    "7018805943710253086.md",
     "剪藏/typescript",
-    "详解 TypeScript 数据类型.md",
-    "6997576373728444446.md",
-    "知识体系/typeScript/img/Snipaste_2023-04-17_10-23-21.png",
-    "开发技巧/框架（库）/Ant Design/Select选择器/实现下拉互斥效果.md",
-    "开发技巧/框架（库）/react/react 首屏加载.md",
-    "开发技巧/框架（库）/Moment/moment常用方法.md",
+    "知识体系/TypeScript/img/Snipaste_2023-04-17_10-23-21.png",
     "读书笔记/书籍管理/CSS/CSS揭秘-中文版.pdf.lnk",
     "剪藏/github/img/md-2023-04-11-14-39-56.png",
     "未命名.canvas",

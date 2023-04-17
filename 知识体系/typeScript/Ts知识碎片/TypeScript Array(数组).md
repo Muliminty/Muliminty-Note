@@ -28,4 +28,3 @@ interface Arrobj{
 }
 let arr3:Arrobj[]=[{name:'jimmy',age:22}]
 ```
-
