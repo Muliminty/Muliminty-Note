@@ -60,4 +60,15 @@
 		],
 		"description": "图片"
 	},
+	"table": {
+		"scope": "markdown",
+		"prefix": "table",
+		"body": [
+			"|  |  |",
+			"|--|--|",
+			"|  |  |",
+			"|  |  |",
+		],
+		"description": "图片"
+	},
 }

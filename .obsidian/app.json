@@ -6,5 +6,6 @@
   "newFileLocation": "current",
   "newLinkFormat": "relative",
   "attachmentFolderPath": "./",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "smartIndentList": true
 }
