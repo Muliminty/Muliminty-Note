@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "882594306f3970e4",
+        "id": "5f0b78b8c63aede0",
         "type": "tabs",
         "children": [
           {
-            "id": "28b7aa857acc8e20",
+            "id": "b538aa141f349c31",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "剪藏/TypeScript/2023 typescript史上最强学习入门文章(2w字).md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -52,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "空对象",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -81,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "剪藏/TypeScript/2023 typescript史上最强学习入门文章(2w字).md"
+              }
             }
           },
           {
@@ -101,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "剪藏/TypeScript/2023 typescript史上最强学习入门文章(2w字).md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "剪藏/TypeScript/2023 typescript史上最强学习入门文章(2w字).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,8 +146,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "28b7aa857acc8e20",
+  "active": "9ecad09b246738b2",
   "lastOpenFiles": [
+    "开发技巧/框架（库）/Ant Design/Table/columns技巧.md",
+    "开发技巧/框架（库）/Ant Design/Table/表格滚动条相关.md",
+    "开发技巧/框架（库）/Ant Design/Table/表格复选框.md",
+    "开发技巧/框架（库）/Ant Design/Table/自定义表格空状态.md",
+    "开发技巧/框架（库）/Ant Design/Table/行悬浮样式修改.md",
+    "开发技巧/框架（库）/Ant Design/Table/点击某一行实现选中样式.md",
+    "开发技巧/框架（库）/Ant Design/Table/表格可拖动.md",
+    "开发技巧/框架（库）/Ant Design/Table/表格同时使用固定列和选择操作后，固定列透明异常.md",
+    "剪藏/github/Github为什么没有记录你的Contributions.md",
     "知识体系/TypeScript/Ts知识碎片/TypeScript interface接口.md",
     "剪藏/TypeScript/2023 typescript史上最强学习入门文章(2w字).md",
     "开发技巧/框架（库）/react/react 首屏加载.md",
@@ -155,19 +173,10 @@
     "实用工具/Clean-mark.md",
     "剪藏/TypeScript/详解 TypeScript 数据类型.md",
     "开发技巧/css/滚动条相关.md",
-    "剪藏/github/Github为什么没有记录你的Contributions.md",
     "hexo指令.md",
-    "开发技巧/框架（库）/Ant Design/Table/表格复选框.md",
-    "开发技巧/框架（库）/react/hook相关技巧/useState 页面不更新.md",
     "剪藏/TypeScript",
-    "知识体系/typeScript/Ts知识碎片/数据类型.md",
-    "知识体系/typeScript/typeScript入门教程.md",
-    "ts-tuple.md",
     "知识体系/TypeScript/Ts知识碎片",
-    "剪藏/typescript/详解 TypeScript 数据类型.md",
-    "剪藏/typescript/2023 typescript史上最强学习入门文章(2w字).md",
     "知识体系/TypeScript/img/Snipaste_2023-04-17_10-18-11.png",
-    "实用工具/Obsidian/Obsidian-使用技巧.md",
     "剪藏/typescript",
     "知识体系/TypeScript/img/Snipaste_2023-04-17_10-23-21.png",
     "读书笔记/书籍管理/CSS/CSS揭秘-中文版.pdf.lnk",
