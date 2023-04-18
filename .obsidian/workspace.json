@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5f0b78b8c63aede0",
+        "id": "ba35078659f77eaa",
         "type": "tabs",
         "children": [
           {
-            "id": "b538aa141f349c31",
+            "id": "1cd42f9b2cd83de2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "剪藏/TypeScript/2023 typescript史上最强学习入门文章(2w字).md",
+                "file": "开发技巧/框架（库）/react/hook相关技巧/useImperativeHandle.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "空对象",
+                "query": "hook",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +66,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "剪藏/TypeScript/2023 typescript史上最强学习入门文章(2w字).md"
+                "file": "开发技巧/框架（库）/react/hook相关技巧/useImperativeHandle.md"
               }
             }
           },
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "剪藏/TypeScript/2023 typescript史上最强学习入门文章(2w字).md",
+                "file": "开发技巧/框架（库）/react/hook相关技巧/useImperativeHandle.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "剪藏/TypeScript/2023 typescript史上最强学习入门文章(2w字).md",
+                "file": "开发技巧/框架（库）/react/hook相关技巧/useImperativeHandle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,8 +145,12 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "9ecad09b246738b2",
+  "active": "1cd42f9b2cd83de2",
   "lastOpenFiles": [
+    "开发技巧/框架（库）/react/自定义hook函数/useUpdateEffect.md",
+    "开发技巧/框架（库）/react/hook相关技巧/useImperativeHandle.md",
+    "剪藏/react/react-router 跳转前确认Prompt使用.md",
+    "剪藏/TypeScript/2023 typescript史上最强学习入门文章(2w字).md",
     "开发技巧/框架（库）/Ant Design/Table/columns技巧.md",
     "开发技巧/框架（库）/Ant Design/Table/表格滚动条相关.md",
     "开发技巧/框架（库）/Ant Design/Table/表格复选框.md",
@@ -158,7 +161,6 @@
     "开发技巧/框架（库）/Ant Design/Table/表格同时使用固定列和选择操作后，固定列透明异常.md",
     "剪藏/github/Github为什么没有记录你的Contributions.md",
     "知识体系/TypeScript/Ts知识碎片/TypeScript interface接口.md",
-    "剪藏/TypeScript/2023 typescript史上最强学习入门文章(2w字).md",
     "开发技巧/框架（库）/react/react 首屏加载.md",
     "知识体系/TypeScript/Ts知识碎片/TypeScript 泛型 （待补充）.md",
     "知识体系/TypeScript/Ts知识碎片/TypeScript 语法备忘 （待补充）.md",
@@ -171,9 +173,6 @@
     "知识体系/README.md",
     "面试之道/性能优化面试宝典.md",
     "实用工具/Clean-mark.md",
-    "剪藏/TypeScript/详解 TypeScript 数据类型.md",
-    "开发技巧/css/滚动条相关.md",
-    "hexo指令.md",
     "剪藏/TypeScript",
     "知识体系/TypeScript/Ts知识碎片",
     "知识体系/TypeScript/img/Snipaste_2023-04-17_10-18-11.png",
