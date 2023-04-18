@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ba35078659f77eaa",
+        "id": "aad4c74953ac9b21",
         "type": "tabs",
         "children": [
           {
-            "id": "1cd42f9b2cd83de2",
+            "id": "51636ac103c1718f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "开发技巧/框架（库）/react/hook相关技巧/useImperativeHandle.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -66,11 +61,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -85,9 +82,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "开发技巧/框架（库）/react/hook相关技巧/useImperativeHandle.md"
-              }
+              "state": {}
             }
           },
           {
@@ -107,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "开发技巧/框架（库）/react/hook相关技巧/useImperativeHandle.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -124,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "开发技巧/框架（库）/react/hook相关技巧/useImperativeHandle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,10 +138,25 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "1cd42f9b2cd83de2",
+  "active": "51636ac103c1718f",
   "lastOpenFiles": [
-    "开发技巧/框架（库）/react/自定义hook函数/useUpdateEffect.md",
+    "读书笔记/书籍管理/Javascript/学习JavaScript数据结构与算法（第3版）@www.java1234.com.pdf",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript interface接口.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript Array(数组).md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript 语法备忘 （待补充）.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript 泛型 （待补充）.md",
     "开发技巧/框架（库）/react/hook相关技巧/useImperativeHandle.md",
+    "读书笔记/书籍管理/Javascript/4e21c4eddabe47c28757aac9574480ec.pdf",
+    "读书笔记/书籍管理/Javascript/4b2de3ba70c54c99b8d9791afc2e202e/059fa99f4edf4e0b9766308a17a46613.pdf",
+    "读书笔记/书籍管理/Javascript/4b2de3ba70c54c99b8d9791afc2e202e",
+    "读书笔记/书籍管理/Javascript/78c5289a3a3342bb8b304ed10f806fbe.pdf",
+    "读书笔记/书籍管理/Javascript/dfa3b3316097412d890393e04c6af947/eda31a97cec1474abc3b931ddd1c0a7a.pdf",
+    "读书笔记/书籍管理/Javascript/dfa3b3316097412d890393e04c6af947",
+    "读书笔记/书籍管理/Javascript/JavaScript高级程序设计（第4版）_加水印.pdf",
+    "读书笔记/书籍管理/Javascript/ab0fe033239146d78f3ea3f7bee93d63.pdf",
+    "读书笔记/书籍管理/Javascript/5cf2fdf9a11648f6b8ecebcfc5b5d27f/4f73d424484549abac788d9e65d915cf.pdf",
+    "读书笔记/书籍管理/Javascript/5cf2fdf9a11648f6b8ecebcfc5b5d27f",
+    "开发技巧/框架（库）/react/自定义hook函数/useUpdateEffect.md",
     "剪藏/react/react-router 跳转前确认Prompt使用.md",
     "剪藏/TypeScript/2023 typescript史上最强学习入门文章(2w字).md",
     "开发技巧/框架（库）/Ant Design/Table/columns技巧.md",
@@ -160,28 +168,17 @@
     "开发技巧/框架（库）/Ant Design/Table/表格可拖动.md",
     "开发技巧/框架（库）/Ant Design/Table/表格同时使用固定列和选择操作后，固定列透明异常.md",
     "剪藏/github/Github为什么没有记录你的Contributions.md",
-    "知识体系/TypeScript/Ts知识碎片/TypeScript interface接口.md",
     "开发技巧/框架（库）/react/react 首屏加载.md",
-    "知识体系/TypeScript/Ts知识碎片/TypeScript 泛型 （待补充）.md",
-    "知识体系/TypeScript/Ts知识碎片/TypeScript 语法备忘 （待补充）.md",
     "知识体系/TypeScript/Ts知识碎片/TypeScript 元组.md",
-    "知识体系/TypeScript/Ts知识碎片/TypeScript Array(数组).md",
     "开发技巧/css/css图案.md",
     "知识体系/TypeScript/参考文档.md",
     "开发技巧/css/多行展开收起自动隐藏（全兼容）.md",
     "知识体系/TypeScript/TypeScript知识体系.md",
     "知识体系/README.md",
     "面试之道/性能优化面试宝典.md",
-    "实用工具/Clean-mark.md",
-    "剪藏/TypeScript",
-    "知识体系/TypeScript/Ts知识碎片",
     "知识体系/TypeScript/img/Snipaste_2023-04-17_10-18-11.png",
-    "剪藏/typescript",
     "知识体系/TypeScript/img/Snipaste_2023-04-17_10-23-21.png",
-    "读书笔记/书籍管理/CSS/CSS揭秘-中文版.pdf.lnk",
     "剪藏/github/img/md-2023-04-11-14-39-56.png",
-    "未命名.canvas",
-    "读书笔记/书籍管理/Javascript/JavaScript高级程序设计（第4版）.pdf",
-    "读书笔记/书籍管理/CSS/CSS揭秘-中文版.pdf"
+    "未命名.canvas"
   ]
 }
