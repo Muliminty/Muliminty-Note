@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "aad4c74953ac9b21",
+        "id": "bfaa5d23d12cf894",
         "type": "tabs",
         "children": [
           {
-            "id": "51636ac103c1718f",
+            "id": "1c1e168a3e6198d8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "剪藏/react/react项目打包后点击index.html页面出现空白.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -61,13 +66,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -82,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "剪藏/react/react项目打包后点击index.html页面出现空白.md"
+              }
             }
           },
           {
@@ -102,6 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "剪藏/react/react项目打包后点击index.html页面出现空白.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,6 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "剪藏/react/react项目打包后点击index.html页面出现空白.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,8 +145,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "51636ac103c1718f",
+  "active": "ef6b560330ccac3e",
   "lastOpenFiles": [
+    "读书笔记/书籍管理/Javascript/学习JavaScript数据结构与算法（第3版）@www.java1234.com.pdf.lnk",
     "读书笔记/书籍管理/Javascript/学习JavaScript数据结构与算法（第3版）@www.java1234.com.pdf",
     "知识体系/TypeScript/Ts知识碎片/TypeScript interface接口.md",
     "知识体系/TypeScript/Ts知识碎片/TypeScript Array(数组).md",
@@ -155,7 +163,6 @@
     "读书笔记/书籍管理/Javascript/JavaScript高级程序设计（第4版）_加水印.pdf",
     "读书笔记/书籍管理/Javascript/ab0fe033239146d78f3ea3f7bee93d63.pdf",
     "读书笔记/书籍管理/Javascript/5cf2fdf9a11648f6b8ecebcfc5b5d27f/4f73d424484549abac788d9e65d915cf.pdf",
-    "读书笔记/书籍管理/Javascript/5cf2fdf9a11648f6b8ecebcfc5b5d27f",
     "开发技巧/框架（库）/react/自定义hook函数/useUpdateEffect.md",
     "剪藏/react/react-router 跳转前确认Prompt使用.md",
     "剪藏/TypeScript/2023 typescript史上最强学习入门文章(2w字).md",
