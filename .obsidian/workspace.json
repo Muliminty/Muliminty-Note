@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发技巧/javascript/下载相关/A标签下载重命名.md",
+                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 元组.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db7eed5202f9ca2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 声明文件(.d.ts).md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 319.5
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -87,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "开发技巧/javascript/下载相关/A标签下载重命名.md"
+                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 声明文件(.d.ts).md"
               }
             }
           },
@@ -108,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "开发技巧/javascript/下载相关/A标签下载重命名.md",
+                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 声明文件(.d.ts).md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -125,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "开发技巧/javascript/下载相关/A标签下载重命名.md",
+                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 声明文件(.d.ts).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -148,8 +161,18 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "47e0a28bf9732f74",
+  "active": "db7eed5202f9ca2d",
   "lastOpenFiles": [
+    "知识体系/TypeScript/Ts知识碎片/TypeScript 元组.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript 声明文件(.d.ts).md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript Array(数组).md",
+    "知识体系/TypeScript/TypeScript知识体系.md",
+    "知识体系/TypeScript/参考文档.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript interface接口.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript 语法备忘 （待补充）.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript 泛型 （待补充）.md",
+    "开发技巧/javascript/复杂数据类型/树结构/实现复杂数据查询（过滤）.md",
+    "开发技巧/javascript/下载相关/A标签下载重命名.md",
     "开发技巧/javascript/下载相关/下载base64格式的图片.md",
     "开发技巧/javascript/复杂数据类型/数组类型/数组 -- 快速初始化数组.md",
     "开发技巧/框架（库）/Ant Design/Upload/限制上传文件的大小.md",
@@ -158,24 +181,14 @@
     "面试之道/Vue面试宝典.md",
     "知识体系/CSS/你不知道的 CSS 之包含块.md",
     "开发技巧/javascript/复杂数据类型/树结构/替换树的对象Key.md",
-    "知识体系/TypeScript/Ts知识碎片/TypeScript interface接口.md",
     "开发技巧/框架（库）/Ant Design/Select选择器/实现下拉互斥效果.md",
     "剪藏/TypeScript/2023 typescript史上最强学习入门文章(2w字).md",
-    "知识体系/TypeScript/TypeScript知识体系.md",
     "剪藏/TypeScript/详解 TypeScript 数据类型.md",
     "开发技巧/框架（库）/Ant Design/日期选择器/限制选择时间区间.md",
     "面试之道/突然想到展示没整理的题目.md",
     "开发技巧/javascript/下载相关/下载二进制文件.md",
     "知识体系/Vue/vue3快速上手.md",
     "开发技巧/css/css图案.md",
-    "开发技巧/javascript/复杂数据类型/数组类型/数组 -- 交集、差集、并集、补集.md",
-    "有趣的代码片段/调试神器.md",
-    "test/test111.md",
-    "有趣的代码片段/README.md",
-    "知识体系/CSS/CSS 属性计算过程.md",
-    "剪藏/README.md",
-    "有趣的代码片段/微信加密.md",
-    "实用工具/vscode/VSCode中markdown开启智能提示.md",
     "面试之道/性能优化_md_files/mmexport1676620001838_20230217154946.jpg",
     "面试之道/pdf/58 道 Vue 常见面试题集锦，涵盖入门到精通，自测 Vue 掌握程度.pdf",
     "读书笔记/书籍管理/计算机网络/b155a545924c40bf86d72f3400e0314b.pdf",
