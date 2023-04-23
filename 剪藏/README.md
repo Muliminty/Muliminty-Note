@@ -2,7 +2,7 @@
 
 使用 Clean-mark 工具将大牛文章 download 到本地进行保存
 
-[关于 Clean-mark ](/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/Clean-mark.md)
+[关于 Clean-mark ](../实用工具/Clean-mark.md)
 
 ## 免责声明
 
