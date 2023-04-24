@@ -1,5 +1,7 @@
 > [泛型（Generics）--  冴羽](https://ts.yayujs.com/handbook/Generics.html#%E6%B3%9B%E5%9E%8B-generics)
-> 
+> [[../../../剪藏/TypeScript/TypeScript相关文章/Ts 泛型 -- 轻松拿下 TS 泛型|轻松拿下 TS 泛型]]
+
+
 
 泛型（Generics）是指在定义函数、接口或类的时候，不预先指定具体的类型，而在使用的时候再指定类型的一种特性。
 

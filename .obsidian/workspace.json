@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e2af15db85a2c90c",
+        "id": "b9de9572493c50d9",
         "type": "tabs",
         "children": [
           {
-            "id": "9320a274b6f90e31",
+            "id": "a94ac26cc767fc1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 泛型(＜＞ 语法).md",
+                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 元组.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,13 +21,13 @@
             }
           },
           {
-            "id": "4d7415bbc7d18bd1",
+            "id": "dfe80fdcb3e1e52b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识体系/TypeScript/Ts知识碎片/Typescript Record(高级类型).md",
-                "mode": "preview",
+                "file": "开发技巧/巨人的肩膀/React/react 首屏加载.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "blob",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 361.5
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 泛型(＜＞ 语法).md"
+                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 元组.md"
               }
             }
           },
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 泛型(＜＞ 语法).md",
+                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 元组.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -130,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -140,49 +140,50 @@
       "canvas:新建白板": false
     }
   },
-  "active": "9320a274b6f90e31",
+  "active": "a94ac26cc767fc1b",
   "lastOpenFiles": [
+    "知识体系/README.md",
+    "开发技巧/巨人的肩膀/React/react 首屏加载.md",
+    "开发技巧/JavaScript/复杂数据类型/树结构/根据对象的type进行分组合并成tree.md",
+    "面试之道/面试宝典/javascript手写精通面试宝典.md",
+    "知识体系/Vue/Vue知识碎片/vue3快速上手.md",
+    "开发技巧/巨人的肩膀/React/hook相关技巧/useImperativeHandle.md",
+    "开发技巧/巨人的肩膀/Ant Design/Model/模态框按钮修改样式.md",
+    "前端特效/鼠标点击/鼠标点击 -- 彩色烟花.md",
+    "前端特效/鼠标点击/鼠标点击 -- Img",
+    "前端特效/鼠标点击/鼠标点击 -- Img/20201105144555654.gif",
+    "前端特效/鼠标点击",
+    "前端特效",
+    "开发技巧/巨人的肩膀/React/如何在react中使用less.md",
+    "剪藏/TypeScript/TypeScript相关文章/入门学习 -- 2023 typescript史上最强学习入门文章(2w字).md",
+    "面试之道/README.md",
+    "知识体系/TypeScript/TypeScript知识体系.md",
     "知识体系/TypeScript/Ts知识碎片/TypeScript 类型断言(值 as 类型).md",
-    "知识体系/TypeScript/Ts知识碎片/TypeScript 声明文件(.d.ts).md",
-    "知识体系/TypeScript/Ts知识碎片/TypeScript 泛型(＜＞ 语法).md",
-    "知识体系/TypeScript/Ts知识碎片/Typescript Record(高级类型).md",
-    "剪藏/TypeScript/TypeScript博客文章/TS 类型工具  Record的使用.md",
-    "知识体系/TypeScript/Ts知识碎片/TypeScript Array(数组).md",
-    "知识体系/TypeScript/Ts知识碎片/TypeScript interface接口.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript 语法备忘(待补充).md",
     "知识体系/TypeScript/Ts知识碎片/TypeScript 元组.md",
-    "知识体系/TypeScript/Ts知识碎片/TypeScript namespace(命名空间).md",
-    "知识体系/TypeScript/Ts知识碎片/Pasted image 20230424111208.png",
-    "知识体系/React/React知识碎片/PropTypes 进行类型检查.md",
+    "Test/img 1/user.jpg",
+    "README.md",
+    "Web Clip",
+    "开发技巧/JavaScript/操作样式/查询文字高亮.md",
     "知识体系/React/React知识碎片/React的React.FC.md",
-    "知识体系/TypeScript/Ts知识碎片/TypeScript 语法备忘 （待补充）.md",
-    "剪藏/TypeScript/TypeScript博客文章/TypeScript系列🔥尾声篇, 什么是声明文件(declare).md",
-    "剪藏/TypeScript/TypeScript博客文章/详解 TypeScript 数据类型.md",
-    "剪藏/TypeScript/TypeScript博客文章/2023 typescript史上最强学习入门文章(2w字).md",
-    "剪藏/TypeScript/TypeScript4入门-冴羽/基础/1. 基础.md",
-    "剪藏/TypeScript/TypeScript博客文章",
-    "TheBasics.md",
-    "剪藏/TypeScript/TypeScript4入门-冴羽/拓展",
-    "剪藏/TypeScript/TypeScript4入门-冴羽/基础",
-    "剪藏/TypeScript/TypeScript4入门-冴羽",
+    "剪藏/TypeScript/TypeScript相关文章/Ts 泛型 -- 轻松拿下 TS 泛型.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript interface 接口.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript namespace(命名空间).md",
+    "知识体系/TypeScript/Ts知识碎片/Typescript Record(高级类型).md",
+    "剪藏/TypeScript/TypeScript相关文章/Ts 类型工具 -- Record的使用.md",
+    "剪藏/TypeScript/TypeScript相关文章/Ts 声明文件 -- TypeScript系列🔥尾声篇, 什么是声明文件(declare).md",
+    "剪藏/TypeScript/TypeScript相关文章/Ts 数据类型 -- 详解 TypeScript 数据类型.md",
+    "开发技巧/JavaScript/简单数据类型/字符串技巧.md",
+    "Obsidian白板.canvas",
+    "知识体系/TypeScript/Ts知识碎片/Pasted image 20230424111208.png",
+    "剪藏/TypeScript/TypeScript相关文章",
+    "剪藏/TypeScript/TypeScript文档 -- 冴羽/拓展",
+    "剪藏/TypeScript/TypeScript文档 -- 冴羽/基础",
+    "剪藏/TypeScript/TypeScript文档 -- 冴羽",
     "剪藏/TypeScript/TypeScript-Img",
-    "TypeScript系列🔥尾声篇, 什么是声明文件(declare).md",
-    "6844903993727008776.md",
-    "知识体系/TypeScript/Ts知识碎片/TypeScript declare(声明文件关键字).md",
-    "知识体系/JavaScript/内置对象/Blob知识体系.md",
-    "知识体系/JavaScript/内置对象/Blob知识碎片/Blob.size.md",
-    "知识体系/JavaScript/内置对象/FileReader知识体系.md",
-    "面试之道/面试之道知识碎片/浏览器是如何渲染页面的？.md",
-    "hexo指令.md",
-    "git笔记.md",
-    "草稿白板.canvas",
     "面试之道/面试宝典/面试宝典--Img/mmexport1676620001838_20230217154946.jpg",
     "未命名/未命名",
-    "面试之道/面试之道知识碎片",
-    "面试之道/面试宝典",
-    "知识体系/Vue/Vue知识碎片",
     "Test/img/md-2023-04-11-11-39-46.png",
-    "Test/img 1/user.jpg",
-    "知识体系/CSS/CSS知识碎片",
     "知识体系/JavaScript/内置对象/Blob知识碎片/Blob-Img/172734410fb92412~tplv-t2oaga2asx-zoom-in-crop-mark_4536_0_0_0.webp",
     "知识体系/JavaScript/内置对象/Pasted image 20230423162056.jpg",
     "知识体系/TypeScript/img/Snipaste_2023-04-17_10-18-11.png",
