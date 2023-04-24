@@ -4,37 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "53f9c04966e1d3f9",
+        "id": "e2af15db85a2c90c",
         "type": "tabs",
         "children": [
           {
-            "id": "ab5afa5a405813e8",
+            "id": "9320a274b6f90e31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 泛型(＜＞ 语法).md",
                 "mode": "source",
-                "backlinks": true,
+                "backlinks": false,
                 "source": false
               }
             }
           },
           {
-            "id": "55d2a83cf5ec8a08",
+            "id": "4d7415bbc7d18bd1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "剪藏/React/React 之导入 Excel.md",
-                "mode": "source",
-                "backlinks": true,
+                "file": "知识体系/TypeScript/Ts知识碎片/Typescript Record(高级类型).md",
+                "mode": "preview",
+                "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -48,7 +47,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ef6b560330ccac3e",
+            "id": "b5f9d18702c6bf89",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -100,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "剪藏/React/React 之导入 Excel.md"
+                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 泛型(＜＞ 语法).md"
               }
             }
           },
@@ -116,29 +115,12 @@
             }
           },
           {
-            "id": "d3f14345c98d0efc",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "剪藏/React/React 之导入 Excel.md",
-                "collapseAll": true,
-                "extraContext": true,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
             "id": "c890a057fd320bfd",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "剪藏/React/React 之导入 Excel.md",
+                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 泛型(＜＞ 语法).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -155,53 +137,53 @@
     "hiddenItems": {
       "random-note:开始漫游笔记": false,
       "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "command-palette:打开命令面板": false,
-      "workspaces:管理工作区布局": false
+      "canvas:新建白板": false
     }
   },
-  "active": "55d2a83cf5ec8a08",
+  "active": "9320a274b6f90e31",
   "lastOpenFiles": [
+    "知识体系/TypeScript/Ts知识碎片/TypeScript 类型断言(值 as 类型).md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript 声明文件(.d.ts).md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript 泛型(＜＞ 语法).md",
+    "知识体系/TypeScript/Ts知识碎片/Typescript Record(高级类型).md",
+    "剪藏/TypeScript/TypeScript博客文章/TS 类型工具  Record的使用.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript Array(数组).md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript interface接口.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript 元组.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript namespace(命名空间).md",
+    "知识体系/TypeScript/Ts知识碎片/Pasted image 20230424111208.png",
+    "知识体系/React/React知识碎片/PropTypes 进行类型检查.md",
+    "知识体系/React/React知识碎片/React的React.FC.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript 语法备忘 （待补充）.md",
+    "剪藏/TypeScript/TypeScript博客文章/TypeScript系列🔥尾声篇, 什么是声明文件(declare).md",
+    "剪藏/TypeScript/TypeScript博客文章/详解 TypeScript 数据类型.md",
+    "剪藏/TypeScript/TypeScript博客文章/2023 typescript史上最强学习入门文章(2w字).md",
+    "剪藏/TypeScript/TypeScript4入门-冴羽/基础/1. 基础.md",
+    "剪藏/TypeScript/TypeScript博客文章",
+    "TheBasics.md",
+    "剪藏/TypeScript/TypeScript4入门-冴羽/拓展",
+    "剪藏/TypeScript/TypeScript4入门-冴羽/基础",
+    "剪藏/TypeScript/TypeScript4入门-冴羽",
+    "剪藏/TypeScript/TypeScript-Img",
+    "TypeScript系列🔥尾声篇, 什么是声明文件(declare).md",
+    "6844903993727008776.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript declare(声明文件关键字).md",
+    "知识体系/JavaScript/内置对象/Blob知识体系.md",
+    "知识体系/JavaScript/内置对象/Blob知识碎片/Blob.size.md",
     "知识体系/JavaScript/内置对象/FileReader知识体系.md",
-    "git笔记.md",
-    "hexo指令.md",
-    "知识体系/JavaScript/正则表达式学习.md",
-    "Test/markdown常用语法记录.md",
-    "Test/README.md",
-    "Test/test111.md",
-    "README.md",
-    "读书笔记/README.md",
-    "面试之道/面试之道知识碎片/垃圾回收机制.md",
-    "面试之道/面试宝典/性能优化面试宝典.md",
-    "面试之道/面试宝典/面试宝典--Img/mmexport1676620001838_20230217154946.jpg",
     "面试之道/面试之道知识碎片/浏览器是如何渲染页面的？.md",
+    "hexo指令.md",
+    "git笔记.md",
+    "草稿白板.canvas",
+    "面试之道/面试宝典/面试宝典--Img/mmexport1676620001838_20230217154946.jpg",
     "未命名/未命名",
     "面试之道/面试之道知识碎片",
-    "面试之道/面经原题.md",
-    "面试之道/突然想到展示没整理的题目.md",
     "面试之道/面试宝典",
-    "面试之道/面试宝典/计算机网络面试宝典.md",
-    "面试之道/面试宝典/Vue面试宝典.md",
-    "面试之道/README.md",
-    "实用工具/Clean-mark.md",
-    "实用工具/PicGo.md",
-    "有趣的代码片段/调试神器.md",
-    "有趣的代码片段/微信加密.md",
-    "有趣的代码片段/小游戏.md",
-    "有趣的代码片段/README.md",
-    "知识体系/Vue/Vue知识碎片/vue3快速上手.md",
     "知识体系/Vue/Vue知识碎片",
-    "知识体系/README.md",
     "Test/img/md-2023-04-11-11-39-46.png",
     "Test/img 1/user.jpg",
-    "知识体系/CSS/CSS知识碎片/你不知道的 CSS 之包含块.md",
     "知识体系/CSS/CSS知识碎片",
-    "知识体系/React/React知识碎片",
-    "知识体系/React/Redux",
-    "知识体系/Vue/Vue知识碎片/尚硅谷_前端技术_Vue全家桶.pdf",
     "知识体系/JavaScript/内置对象/Blob知识碎片/Blob-Img/172734410fb92412~tplv-t2oaga2asx-zoom-in-crop-mark_4536_0_0_0.webp",
-    "知识体系/JavaScript/内置对象/Blob知识碎片/Blob-Img",
-    "知识体系/JavaScript/内置对象/Blob知识碎片",
     "知识体系/JavaScript/内置对象/Pasted image 20230423162056.jpg",
     "知识体系/TypeScript/img/Snipaste_2023-04-17_10-18-11.png",
     "知识体系/TypeScript/img/Snipaste_2023-04-17_10-23-21.png",
