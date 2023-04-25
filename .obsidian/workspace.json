@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 元组.md",
+                "file": "前端特效/鼠标点击/鼠标点击 -- 彩色烟花.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3145a41515c30be0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "开发技巧/巨人的肩膀/Ant Design/Table/点击某一行实现选中样式.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -33,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "table",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +93,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -99,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 元组.md"
+                "file": "开发技巧/巨人的肩膀/Ant Design/Table/点击某一行实现选中样式.md"
               }
             }
           },
@@ -120,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识体系/TypeScript/Ts知识碎片/TypeScript 元组.md",
+                "file": "开发技巧/巨人的肩膀/Ant Design/Table/点击某一行实现选中样式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,8 +155,19 @@
       "canvas:新建白板": false
     }
   },
-  "active": "a94ac26cc767fc1b",
+  "active": "3145a41515c30be0",
   "lastOpenFiles": [
+    "开发技巧/CSS/文本超出隐藏.md",
+    "开发技巧/巨人的肩膀/Ant Design/Table/columns技巧.md",
+    "剪藏/TypeScript/TypeScript相关文章/入门学习 -- 2023 typescript史上最强学习入门文章(2w字).md",
+    "开发技巧/CSS/滚动条相关.md",
+    "开发技巧/巨人的肩膀/Ant Design/Table/表格可拖动.md",
+    "开发技巧/巨人的肩膀/Ant Design/Table/表格滚动条相关.md",
+    "开发技巧/巨人的肩膀/Ant Design/Table/表格同时使用固定列和选择操作后，固定列透明异常.md",
+    "开发技巧/JavaScript/实用代码片段.md",
+    "开发技巧/巨人的肩膀/Ant Design/ant-design官网打不开 , 需要用镜像地址打开.md",
+    "前端特效/鼠标点击/鼠标点击 -- 彩色烟花.md",
+    "知识体系/TypeScript/Ts知识碎片/TypeScript 元组.md",
     "知识体系/README.md",
     "开发技巧/巨人的肩膀/React/react 首屏加载.md",
     "开发技巧/JavaScript/复杂数据类型/树结构/根据对象的type进行分组合并成tree.md",
@@ -149,31 +175,20 @@
     "知识体系/Vue/Vue知识碎片/vue3快速上手.md",
     "开发技巧/巨人的肩膀/React/hook相关技巧/useImperativeHandle.md",
     "开发技巧/巨人的肩膀/Ant Design/Model/模态框按钮修改样式.md",
-    "前端特效/鼠标点击/鼠标点击 -- 彩色烟花.md",
     "前端特效/鼠标点击/鼠标点击 -- Img",
     "前端特效/鼠标点击/鼠标点击 -- Img/20201105144555654.gif",
     "前端特效/鼠标点击",
     "前端特效",
     "开发技巧/巨人的肩膀/React/如何在react中使用less.md",
-    "剪藏/TypeScript/TypeScript相关文章/入门学习 -- 2023 typescript史上最强学习入门文章(2w字).md",
     "面试之道/README.md",
     "知识体系/TypeScript/TypeScript知识体系.md",
     "知识体系/TypeScript/Ts知识碎片/TypeScript 类型断言(值 as 类型).md",
     "知识体系/TypeScript/Ts知识碎片/TypeScript 语法备忘(待补充).md",
-    "知识体系/TypeScript/Ts知识碎片/TypeScript 元组.md",
     "Test/img 1/user.jpg",
     "README.md",
     "Web Clip",
     "开发技巧/JavaScript/操作样式/查询文字高亮.md",
     "知识体系/React/React知识碎片/React的React.FC.md",
-    "剪藏/TypeScript/TypeScript相关文章/Ts 泛型 -- 轻松拿下 TS 泛型.md",
-    "知识体系/TypeScript/Ts知识碎片/TypeScript interface 接口.md",
-    "知识体系/TypeScript/Ts知识碎片/TypeScript namespace(命名空间).md",
-    "知识体系/TypeScript/Ts知识碎片/Typescript Record(高级类型).md",
-    "剪藏/TypeScript/TypeScript相关文章/Ts 类型工具 -- Record的使用.md",
-    "剪藏/TypeScript/TypeScript相关文章/Ts 声明文件 -- TypeScript系列🔥尾声篇, 什么是声明文件(declare).md",
-    "剪藏/TypeScript/TypeScript相关文章/Ts 数据类型 -- 详解 TypeScript 数据类型.md",
-    "开发技巧/JavaScript/简单数据类型/字符串技巧.md",
     "Obsidian白板.canvas",
     "知识体系/TypeScript/Ts知识碎片/Pasted image 20230424111208.png",
     "剪藏/TypeScript/TypeScript相关文章",
