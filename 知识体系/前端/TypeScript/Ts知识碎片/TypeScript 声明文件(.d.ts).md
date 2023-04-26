@@ -1,6 +1,6 @@
 ## **声明文件的定义**
 
-[[../../../剪藏/TypeScript/TypeScript相关文章/Ts 声明文件 -- TypeScript系列🔥尾声篇, 什么是声明文件(declare)#什么是声明文件?|什么是声明文件]]通俗地来讲，在 TypeScript 中以 `.d.ts` 为后缀的文件，我们称之为 TypeScript 声明文件。它的主要作用是描述 JavaScript 模块内所有导出接口的类型信息。
+[[../../../../剪藏/TypeScript/TypeScript相关文章/Ts 声明文件 -- TypeScript系列🔥尾声篇, 什么是声明文件(declare)#什么是声明文件?|什么是声明文件]]通俗地来讲，在 TypeScript 中以 `.d.ts` 为后缀的文件，我们称之为 TypeScript 声明文件。它的主要作用是描述 JavaScript 模块内所有导出接口的类型信息。
 
 ## **什么时候需要写 TS 声明文件**
 
@@ -20,7 +20,7 @@
 
 ## **如何编写 TS 声明文件**
 
-[[../../../剪藏/TypeScript/TypeScript相关文章/Ts 声明文件 -- TypeScript系列🔥尾声篇, 什么是声明文件(declare)#🔥如何写声明文件?|如何写声明文件]]
+[[../../../../剪藏/TypeScript/TypeScript相关文章/Ts 声明文件 -- TypeScript系列🔥尾声篇, 什么是声明文件(declare)#🔥如何写声明文件?|如何写声明文件]]
 
 对于不同形式的声明文件，写法上会有一定的差异。这里需要特别注意一点的是：声明文件中只是对类型的定义，不能进行**赋值**。
 

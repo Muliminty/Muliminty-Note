@@ -40,4 +40,4 @@ let blob = new Blob([hello, ' ', 'semlinker'], {type: 'text/plain'});
 
 介绍完 Blob 构造函数，接下来我们来分别介绍 Blob 类的属性和方法：
 
-![这是图片](./Blob-Img/172734410fb92412~tplv-t2oaga2asx-zoom-in-crop-mark_4536_0_0_0.webp)
+![这是图片](Blob-Img/172734410fb92412~tplv-t2oaga2asx-zoom-in-crop-mark_4536_0_0_0.webp)

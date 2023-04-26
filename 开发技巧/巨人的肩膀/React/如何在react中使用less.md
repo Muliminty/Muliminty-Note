@@ -1,4 +1,4 @@
-# 如何在react中使用[[less]]
+# 如何在react中使用[[../../../知识体系/前端/CSS/预处理器/Less]]
 
 [create-react-app中如何使用less,手把手教会less的用法](../../../%E5%89%AA%E8%97%8F/react/create-react-app%E4%B8%AD%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8less%2C%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BC%9Aless%E7%9A%84%E7%94%A8%E6%B3%95.md)
 
@@ -19,7 +19,7 @@ npm run eject
 
 ## 关于样式不生效
 
-我来公布正确答案吧:要使用 css-module 需要将 css 文件命名为fileName.module.[[less]]，然后就能在组件中引入并正常使用了，如下：
+我来公布正确答案吧:要使用 css-module 需要将 css 文件命名为fileName.module.[[../../../知识体系/前端/CSS/预处理器/Less]]，然后就能在组件中引入并正常使用了，如下：
 注意默认情况下后缀必须是.module.less 才能用 css-module 的写法
 比如下面代码：
 

@@ -120,7 +120,7 @@ print<string>('hello')  // 定义 T 为 string
 print('hello')  // TS 类型推断，自动推导类型为 string
 ```
 
-我们知道，type 和 [[../../../知识体系/TypeScript/Ts知识碎片/TypeScript interface 接口|interface]] 都可以定义函数类型，也用泛型来写一下，type 这么写：
+我们知道，type 和 [[../../../知识体系/前端/TypeScript/Ts知识碎片/TypeScript interface 接口|interface]] 都可以定义函数类型，也用泛型来写一下，type 这么写：
 
 ```typescript
 type Print = <T>(arg: T) => T
