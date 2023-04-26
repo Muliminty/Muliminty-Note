@@ -13,8 +13,73 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实用工具/博客园/主题备份2.md",
+                "file": "知识体系/计算机基础/README.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c5b81683c22fee8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识体系/计算机基础/计算机编译原理/README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2acf414b9c0f7fe1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识体系/计算机基础/计算机操作系统/README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "710fa5a01332409c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识体系/计算机基础/计算机网络/README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6600a1a9b433024a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识体系/计算机基础/计算机组成原理/README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f743ed03c319f28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识体系/计算机基础/数据结构和算法/README.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -57,7 +122,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -123,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识体系/计算机基础/README.md"
+                "file": "知识体系/计算机基础/数据结构和算法/README.md"
               }
             }
           },
@@ -144,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识体系/计算机基础/README.md",
+                "file": "知识体系/计算机基础/数据结构和算法/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -163,13 +228,19 @@
       "canvas:新建白板": false
     }
   },
-  "active": "b5f9d18702c6bf89",
+  "active": "3f743ed03c319f28",
   "lastOpenFiles": [
+    "知识体系/计算机基础/计算机组成原理/README.md",
+    "知识体系/计算机基础/数据结构和算法/README.md",
+    "知识体系/计算机基础/计算机网络/README.md",
+    "知识体系/计算机基础/计算机操作系统/README.md",
+    "知识体系/计算机基础/计算机编译原理/README.md",
+    "知识体系/计算机基础/README.md",
+    "实用工具/博客园/主题备份2.md",
     "知识体系/计算机基础/C语言",
     "知识体系/计算机基础/1计算机基础--Img",
     "知识体系/计算机基础/1计算机基础--Img/Pasted image 20230426174907.jpg",
     "知识体系/README.md",
-    "知识体系/计算机基础/README.md",
     "知识体系/计算机基础/计算机组成原理",
     "知识体系/计算机基础/计算机编译原理",
     "知识体系/计算机基础/计算机操作系统",
@@ -186,13 +257,11 @@
     "实用工具/博客园/博客园--Img/Pasted image 20230426162800.png",
     "实用工具/博客园/博客园--Img/Pasted image 20230426162723.png",
     "实用工具/博客园/主题备份.md",
-    "实用工具/博客园/主题备份2.md",
     "实用工具/博客园/博客园--Img/Pasted image 20230426152009.png",
     "16147446.md",
     "剪藏/博客园",
     "实用工具/博客园/博客园--Img/Pasted image 20230426152039.png",
     "实用工具/博客园/博客园--Img/Pasted image 20230426151931.png",
-    "实用工具/博客园/博客园--Img",
     "开发技巧/巨人的肩膀/React/hook相关技巧/useState精通/useState 异步相关问题.md",
     "开发技巧/巨人的肩膀/React/hook相关技巧/useState精通/useState 页面不更新.md",
     "开发技巧/巨人的肩膀/React/hook相关技巧/useImperativeHandle.md",
@@ -207,10 +276,6 @@
     "开发技巧/巨人的肩膀/Ant Design/Form/From 将点击事件注册到组件外面.md",
     "开发技巧/巨人的肩膀/Ant Design/Form/antd setFieldsValue 设置表单项的值.md",
     "开发技巧/巨人的肩膀/Ant Design/Table/自定义表格空状态.md",
-    "开发技巧/巨人的肩膀/Ant Design/Table/columns技巧.md",
-    "开发技巧/巨人的肩膀/Ant Design/Table/Table常用功能.md",
-    "开发技巧/巨人的肩膀/Ant Design/Table/Table样式调整/表格同时使用固定列和选择操作后，固定列透明异常.md",
-    "开发技巧/巨人的肩膀/Ant Design/Table/Table样式调整/表格滚动条异常.md",
     "Obsidian白板.canvas",
     "未命名.canvas"
   ]
