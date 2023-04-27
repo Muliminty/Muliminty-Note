@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "307252ff0fbcd809",
+        "id": "94e0c0456e3db28b",
         "type": "tabs",
         "children": [
           {
-            "id": "d7ce94b3039038dd",
+            "id": "f152ce8d18ce46da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识体系/计算机基础/README.md",
+                "file": "开发技巧/巨人的肩膀/Ant Design/Upload/限制上传文件的大小.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -21,108 +21,20 @@
             }
           },
           {
-            "id": "7c5b81683c22fee8",
+            "id": "c61da35e929f61c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识体系/计算机基础/计算机编译原理/README.md",
+                "file": "开发技巧/巨人的肩膀/Ant Design/Upload/属性对应效果.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "2acf414b9c0f7fe1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识体系/计算机基础/计算机操作系统/README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "710fa5a01332409c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识体系/计算机基础/计算机网络/README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6600a1a9b433024a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识体系/计算机基础/计算机组成原理/README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f743ed03c319f28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识体系/计算机基础/数据结构和算法/README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41f7e754cf376d57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识体系/README.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f46d0d81b8be7b31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识体系/计算机基础/README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab85f91971181121",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "实用工具/博客园/博客园--Img/Pasted image 20230426152039.png"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"-Img/Pasted image 20230426152039.png]]#\"",
+                "query": "xl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -188,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识体系/计算机基础/数据结构和算法/README.md"
+                "file": "开发技巧/巨人的肩膀/Ant Design/Upload/属性对应效果.md"
               }
             }
           },
@@ -209,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识体系/计算机基础/数据结构和算法/README.md",
+                "file": "开发技巧/巨人的肩膀/Ant Design/Upload/属性对应效果.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -228,19 +140,37 @@
       "canvas:新建白板": false
     }
   },
-  "active": "3f743ed03c319f28",
+  "active": "c61da35e929f61c8",
   "lastOpenFiles": [
+    "开发技巧/巨人的肩膀/Ant Design/Upload/Pasted image 20230427162931.png",
+    "开发技巧/巨人的肩膀/Ant Design/Upload/限制上传文件的大小.md",
+    "开发技巧/巨人的肩膀/Ant Design/Upload/属性对应效果.md",
+    "知识体系/前端/JavaScript/深入Js/JS二进制.md",
+    "开发技巧/JavaScript/下载相关/下载二进制文件.md",
+    "剪藏/React/React 之导入 Excel.md",
+    "开发技巧/JavaScript/下载相关/下载base64格式的图片.md",
+    "开发技巧/JavaScript/下载相关/通过url链接下载图片.md",
+    "开发技巧/JavaScript/下载相关/A标签下载重命名.md",
+    "实用工具/Chrome/一键截图.md",
+    "开发技巧/巨人的肩膀/Ant Design/Form/常见正则校验.md",
+    "知识体系/前端/TypeScript/Ts知识碎片/TypeScript namespace(命名空间).md",
+    "实用工具/博客园/博客园--Img/Pasted image 20230426152039.png",
+    "知识体系/计算机基础/README.md",
+    "知识体系/README.md",
+    "知识体系/前端/TypeScript/Ts知识碎片/TypeScript 声明文件(.d.ts).md",
     "知识体系/计算机基础/计算机组成原理/README.md",
-    "知识体系/计算机基础/数据结构和算法/README.md",
     "知识体系/计算机基础/计算机网络/README.md",
     "知识体系/计算机基础/计算机操作系统/README.md",
     "知识体系/计算机基础/计算机编译原理/README.md",
-    "知识体系/计算机基础/README.md",
+    "知识体系/前端/TypeScript/Ts知识碎片/TypeScript interface 接口.md",
+    "知识体系/前端/TypeScript/参考文档.md",
+    "开发技巧/巨人的肩膀/Ant Design/Form/validator 动态校验表单.md",
+    "开发技巧/巨人的肩膀/Ant Design/Form/antd setFieldsValue 设置表单项的值.md",
+    "知识体系/计算机基础/数据结构和算法/README.md",
     "实用工具/博客园/主题备份2.md",
     "知识体系/计算机基础/C语言",
     "知识体系/计算机基础/1计算机基础--Img",
     "知识体系/计算机基础/1计算机基础--Img/Pasted image 20230426174907.jpg",
-    "知识体系/README.md",
     "知识体系/计算机基础/计算机组成原理",
     "知识体系/计算机基础/计算机编译原理",
     "知识体系/计算机基础/计算机操作系统",
@@ -249,33 +179,15 @@
     "知识体系/计算机基础",
     "实用工具/博客园/主题备份3.md",
     "知识体系/前端",
-    "前端特效/鼠标点击/鼠标点击 -- 彩色烟花.md",
     "Test/img 1/user.jpg",
     "Test/img/md-2023-04-11-11-39-46.png",
     "实用工具/博客园/博客园--Img/Pasted image 20230426163027.png",
     "实用工具/博客园/博客园--Img/Pasted image 20230426162815.png",
     "实用工具/博客园/博客园--Img/Pasted image 20230426162800.png",
     "实用工具/博客园/博客园--Img/Pasted image 20230426162723.png",
-    "实用工具/博客园/主题备份.md",
     "实用工具/博客园/博客园--Img/Pasted image 20230426152009.png",
-    "16147446.md",
     "剪藏/博客园",
-    "实用工具/博客园/博客园--Img/Pasted image 20230426152039.png",
     "实用工具/博客园/博客园--Img/Pasted image 20230426151931.png",
-    "开发技巧/巨人的肩膀/React/hook相关技巧/useState精通/useState 异步相关问题.md",
-    "开发技巧/巨人的肩膀/React/hook相关技巧/useState精通/useState 页面不更新.md",
-    "开发技巧/巨人的肩膀/React/hook相关技巧/useImperativeHandle.md",
-    "开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 删除数组指定元素.md",
-    "谈谈JS二进制：File、Blob、FileReader、ArrayBuffer、Base64.md",
-    "知识体系/前端/JavaScript/深入Js/JS二进制.md",
-    "知识体系/前端/JavaScript/内置对象/FileReader知识体系.md",
-    "知识体系/前端/JavaScript/内置对象/Blob知识体系.md",
-    "前端特效/Loading/Loading -- 彩虹转圈.md",
-    "开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 过滤空值.md",
-    "开发技巧/巨人的肩膀/Ant Design/Form/validator 动态校验表单.md",
-    "开发技巧/巨人的肩膀/Ant Design/Form/From 将点击事件注册到组件外面.md",
-    "开发技巧/巨人的肩膀/Ant Design/Form/antd setFieldsValue 设置表单项的值.md",
-    "开发技巧/巨人的肩膀/Ant Design/Table/自定义表格空状态.md",
     "Obsidian白板.canvas",
     "未命名.canvas"
   ]
