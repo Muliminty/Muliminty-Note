@@ -11,8 +11,13 @@
             "id": "f7f05e12f5f3d22e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "实用工具/Clean-mark.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -80,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "实用工具/Clean-mark.md"
+              }
             }
           },
           {
@@ -100,6 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "实用工具/Clean-mark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -119,8 +127,11 @@
       "canvas:新建白板": false
     }
   },
-  "active": "b5f9d18702c6bf89",
+  "active": "f7f05e12f5f3d22e",
   "lastOpenFiles": [
+    "实用工具/Obsidian/语法技巧.md",
+    "实用工具/Obsidian/Obsidian-使用技巧.md",
+    "实用工具/Chrome/一键截图.md",
     "知识体系/前端/JavaScript/Js--知识碎片/内置对象/FileReader知识体系.md",
     "剪藏/JavaScript/JavaScript中 FileReader 对象详解.md",
     "知识体系/前端/JavaScript/Js--知识碎片/深入Js/JS二进制.md",
@@ -146,9 +157,6 @@
     "收集箱",
     "知识体系/前端/TypeScript/Ts知识碎片/参考文档.md",
     "知识体系/前端/TypeScript/Ts知识碎片/TypeScript 泛型(＜＞ 语法).md",
-    "剪藏/TypeScript/TypeScript相关文章/Ts 泛型 -- 轻松拿下 TS 泛型.md",
-    "知识体系/前端/TypeScript/Ts知识碎片/TypeScript 类型断言(值 as 类型).md",
-    "实用工具/博客园/主题备份2.md",
     "知识体系/前端/JavaScript/Js--知识碎片",
     "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--Img/Pasted image 20230427162931.png",
     "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--Img/Pasted image 20230428112458.png",
