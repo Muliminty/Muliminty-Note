@@ -2,4 +2,5 @@
 
 Muliminty 知识管理
 
-建议使用obsidian打开
+[Muliminty](https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοᴏοᴏοᴏοᴏοᴏοᴏoоᴏоοоoᴏοоᴏоοоoоοоᴏoοоᴏᴏοоοᴏοᴏoᴏoоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοoᴏοοᴏοοοоᴏoοооοοоᴏοοооοοоᴏоοᴏοoοᴏоοoоᴏᴏ)
+[MulimintyBlog.](https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοоᴏοοᴏοοοоᴏoοооοοоᴏοοооοοоᴏоοᴏοoοᴏоοoоᴏоοоοᴏοооοοᴏοoοооoοᴏοοοоoоoоᴏоοооοοоᴏᴏoоᴏᴏ)

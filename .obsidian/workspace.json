@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "a3de15c80443f447",
+        "id": "b242a0204d55bb23",
         "type": "tabs",
         "children": [
           {
-            "id": "f22a302c5e323f9f",
+            "id": "ea275176e9ee6016",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/官方README.md.md",
+                "file": "剪藏/React/React 之导入 Excel.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3ceb34a1f4fe46f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19839a2f56d8e499",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试之道/README.md",
-                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xl",
+                "query": "customRequest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 214.5
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -113,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试之道/README.md"
+                "file": "剪藏/React/React 之导入 Excel.md"
               }
             }
           },
@@ -134,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试之道/README.md",
+                "file": "剪藏/React/React 之导入 Excel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,17 +126,33 @@
       "canvas:新建白板": false
     }
   },
-  "active": "19839a2f56d8e499",
+  "active": "ea275176e9ee6016",
   "lastOpenFiles": [
-    "知识体系/前端/JavaScript/README.md",
+    "开发技巧/JavaScript/复杂数据类型/树结构/根据对象的type进行分组合并成tree.md",
+    "知识体系/计算机基础/计算机网络/README.md",
+    "未命名.canvas",
+    "读书笔记/README.md",
     "README.md",
+    "收集箱/网址收集.md",
+    "收集箱/().md",
+    "收集箱",
+    "知识体系/前端/TypeScript/Ts知识碎片/参考文档.md",
+    "知识体系/前端/TypeScript/Ts知识碎片/TypeScript 泛型(＜＞ 语法).md",
+    "剪藏/TypeScript/TypeScript相关文章/Ts 泛型 -- 轻松拿下 TS 泛型.md",
+    "知识体系/前端/TypeScript/Ts知识碎片/TypeScript 类型断言(值 as 类型).md",
+    "剪藏/JavaScript/js上传文件转二进制格式.md",
+    "实用工具/博客园/主题备份2.md",
+    "开发技巧/巨人的肩膀/React/react 首屏加载.md",
+    "Test/test111.md",
+    "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/Props属性对应效果.md",
+    "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/官方README.md.md",
+    "面试之道/README.md",
+    "知识体系/前端/JavaScript/README.md",
     "知识体系/前端/JavaScript/Js--知识碎片/正则表达式学习.md",
     "知识体系/前端/JavaScript/Js--知识碎片",
     "知识体系/README.md",
     "开发技巧/巨人的肩膀/Ant Design/Upload/README.md.md",
     "开发技巧/巨人的肩膀/Ant Design/Tree/拖拽排序.md",
-    "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/Props属性对应效果.md",
-    "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/官方README.md.md",
     "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/限制上传文件的大小.md",
     "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--Img/Pasted image 20230427162931.png",
     "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--Img/Pasted image 20230428112458.png",
@@ -174,20 +163,6 @@
     "开发技巧/巨人的肩膀/Ant Design/Upload/常见问题",
     "前端特效/鼠标点击/鼠标点击 -- 彩色烟花.md",
     "前端特效/鼠标点击/鼠标点击 -- Img/20201105144555654.gif",
-    "开发技巧/README.md",
-    "开发技巧/巨人的肩膀/Ant Design/Table/Table样式调整/表格滚动条异常.md",
-    "知识体系/计算机基础/计算机编译原理/README.md",
-    "开发技巧/JavaScript/复制/复制内容到剪切板.md",
-    "开发技巧/JavaScript/操作样式/查询文字高亮.md",
-    "开发技巧/巨人的肩膀/Ant Design/Model/模态框按钮修改样式.md",
-    "知识体系/前端/JavaScript/Js--知识碎片/深入Js/JS二进制.md",
-    "开发技巧/JavaScript/下载相关/下载二进制文件.md",
-    "剪藏/React/React 之导入 Excel.md",
-    "开发技巧/JavaScript/下载相关/下载base64格式的图片.md",
-    "开发技巧/JavaScript/下载相关/通过url链接下载图片.md",
-    "开发技巧/JavaScript/下载相关/A标签下载重命名.md",
-    "实用工具/Chrome/一键截图.md",
-    "开发技巧/巨人的肩膀/Ant Design/Form/常见正则校验.md",
     "实用工具/博客园/博客园--Img/Pasted image 20230426152039.png",
     "知识体系/计算机基础/C语言",
     "知识体系/计算机基础/1计算机基础--Img",
@@ -195,13 +170,11 @@
     "知识体系/计算机基础/计算机组成原理",
     "知识体系/计算机基础/计算机编译原理",
     "知识体系/计算机基础/计算机操作系统",
-    "知识体系/计算机基础/数据结构和算法",
     "Test/img 1/user.jpg",
     "Test/img/md-2023-04-11-11-39-46.png",
     "实用工具/博客园/博客园--Img/Pasted image 20230426163027.png",
     "实用工具/博客园/博客园--Img/Pasted image 20230426162815.png",
     "实用工具/博客园/博客园--Img/Pasted image 20230426162800.png",
-    "Obsidian白板.canvas",
-    "未命名.canvas"
+    "Obsidian白板.canvas"
   ]
 }
