@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "94e0c0456e3db28b",
+        "id": "a3de15c80443f447",
         "type": "tabs",
         "children": [
           {
-            "id": "f152ce8d18ce46da",
+            "id": "f22a302c5e323f9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发技巧/巨人的肩膀/Ant Design/Upload/限制上传文件的大小.md",
+                "file": "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/官方README.md.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "c61da35e929f61c8",
+            "id": "c3ceb34a1f4fe46f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发技巧/巨人的肩膀/Ant Design/Upload/属性对应效果.md",
+                "file": "README.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19839a2f56d8e499",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试之道/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "开发技巧/巨人的肩膀/Ant Design/Upload/属性对应效果.md"
+                "file": "面试之道/README.md"
               }
             }
           },
@@ -121,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "开发技巧/巨人的肩膀/Ant Design/Upload/属性对应效果.md",
+                "file": "面试之道/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,12 +153,34 @@
       "canvas:新建白板": false
     }
   },
-  "active": "c61da35e929f61c8",
+  "active": "19839a2f56d8e499",
   "lastOpenFiles": [
-    "开发技巧/巨人的肩膀/Ant Design/Upload/Pasted image 20230427162931.png",
-    "开发技巧/巨人的肩膀/Ant Design/Upload/限制上传文件的大小.md",
-    "开发技巧/巨人的肩膀/Ant Design/Upload/属性对应效果.md",
-    "知识体系/前端/JavaScript/深入Js/JS二进制.md",
+    "知识体系/前端/JavaScript/README.md",
+    "README.md",
+    "知识体系/前端/JavaScript/Js--知识碎片/正则表达式学习.md",
+    "知识体系/前端/JavaScript/Js--知识碎片",
+    "知识体系/README.md",
+    "开发技巧/巨人的肩膀/Ant Design/Upload/README.md.md",
+    "开发技巧/巨人的肩膀/Ant Design/Tree/拖拽排序.md",
+    "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/Props属性对应效果.md",
+    "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/官方README.md.md",
+    "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/限制上传文件的大小.md",
+    "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--Img/Pasted image 20230427162931.png",
+    "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--Img/Pasted image 20230428112458.png",
+    "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--Img",
+    "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片",
+    "开发技巧/巨人的肩膀/Ant Design/Upload/url.md",
+    "开发技巧/巨人的肩膀/Ant Design/Upload/常见问题/antd 中调用customRequest 自定义接口一直loading，进度条处理。.md",
+    "开发技巧/巨人的肩膀/Ant Design/Upload/常见问题",
+    "前端特效/鼠标点击/鼠标点击 -- 彩色烟花.md",
+    "前端特效/鼠标点击/鼠标点击 -- Img/20201105144555654.gif",
+    "开发技巧/README.md",
+    "开发技巧/巨人的肩膀/Ant Design/Table/Table样式调整/表格滚动条异常.md",
+    "知识体系/计算机基础/计算机编译原理/README.md",
+    "开发技巧/JavaScript/复制/复制内容到剪切板.md",
+    "开发技巧/JavaScript/操作样式/查询文字高亮.md",
+    "开发技巧/巨人的肩膀/Ant Design/Model/模态框按钮修改样式.md",
+    "知识体系/前端/JavaScript/Js--知识碎片/深入Js/JS二进制.md",
     "开发技巧/JavaScript/下载相关/下载二进制文件.md",
     "剪藏/React/React 之导入 Excel.md",
     "开发技巧/JavaScript/下载相关/下载base64格式的图片.md",
@@ -153,21 +188,7 @@
     "开发技巧/JavaScript/下载相关/A标签下载重命名.md",
     "实用工具/Chrome/一键截图.md",
     "开发技巧/巨人的肩膀/Ant Design/Form/常见正则校验.md",
-    "知识体系/前端/TypeScript/Ts知识碎片/TypeScript namespace(命名空间).md",
     "实用工具/博客园/博客园--Img/Pasted image 20230426152039.png",
-    "知识体系/计算机基础/README.md",
-    "知识体系/README.md",
-    "知识体系/前端/TypeScript/Ts知识碎片/TypeScript 声明文件(.d.ts).md",
-    "知识体系/计算机基础/计算机组成原理/README.md",
-    "知识体系/计算机基础/计算机网络/README.md",
-    "知识体系/计算机基础/计算机操作系统/README.md",
-    "知识体系/计算机基础/计算机编译原理/README.md",
-    "知识体系/前端/TypeScript/Ts知识碎片/TypeScript interface 接口.md",
-    "知识体系/前端/TypeScript/参考文档.md",
-    "开发技巧/巨人的肩膀/Ant Design/Form/validator 动态校验表单.md",
-    "开发技巧/巨人的肩膀/Ant Design/Form/antd setFieldsValue 设置表单项的值.md",
-    "知识体系/计算机基础/数据结构和算法/README.md",
-    "实用工具/博客园/主题备份2.md",
     "知识体系/计算机基础/C语言",
     "知识体系/计算机基础/1计算机基础--Img",
     "知识体系/计算机基础/1计算机基础--Img/Pasted image 20230426174907.jpg",
@@ -175,19 +196,11 @@
     "知识体系/计算机基础/计算机编译原理",
     "知识体系/计算机基础/计算机操作系统",
     "知识体系/计算机基础/数据结构和算法",
-    "知识体系/计算机基础/计算机网络",
-    "知识体系/计算机基础",
-    "实用工具/博客园/主题备份3.md",
-    "知识体系/前端",
     "Test/img 1/user.jpg",
     "Test/img/md-2023-04-11-11-39-46.png",
     "实用工具/博客园/博客园--Img/Pasted image 20230426163027.png",
     "实用工具/博客园/博客园--Img/Pasted image 20230426162815.png",
     "实用工具/博客园/博客园--Img/Pasted image 20230426162800.png",
-    "实用工具/博客园/博客园--Img/Pasted image 20230426162723.png",
-    "实用工具/博客园/博客园--Img/Pasted image 20230426152009.png",
-    "剪藏/博客园",
-    "实用工具/博客园/博客园--Img/Pasted image 20230426151931.png",
     "Obsidian白板.canvas",
     "未命名.canvas"
   ]

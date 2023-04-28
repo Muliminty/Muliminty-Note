@@ -1,11 +1,12 @@
 {
   "defaultViewMode": "preview",
   "showFrontmatter": true,
-  "strictLineBreaks": true,
+  "strictLineBreaks": false,
   "spellcheck": true,
   "newFileLocation": "current",
   "newLinkFormat": "relative",
-  "attachmentFolderPath": "./",
+  "attachmentFolderPath": "开发技巧/巨人的肩膀/Ant Design/Upload",
   "alwaysUpdateLinks": true,
-  "smartIndentList": true
+  "smartIndentList": true,
+  "readableLineLength": false
 }
