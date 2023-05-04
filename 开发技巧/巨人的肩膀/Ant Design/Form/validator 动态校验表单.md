@@ -35,3 +35,21 @@
             </Form.Item>
         </Form>
 ```
+
+
+## 限制只能输入指定字符长度
+
+```JSX
+rules={[
+        {
+            validator: (rule, value) => {
+                let strnum = 36
+                // eslint-disable-next-line no-control-regex
+                let byteleng = value.replace(/[^\x00-\xff]/g, '**').length;
+                let res = byteleng <= strnum
+                if (!res) return Promise.reject({ required: true, message: '只能输入36个字符' });// 校验失败
+                if (res) return Promise.resolve(); // 校验成功
+            }
+        },
+]}
+```

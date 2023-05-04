@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实用工具/Clean-mark.md",
-                "mode": "preview",
+                "file": "开发技巧/JavaScript/实用代码片段.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c8884d73ca47752",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "开发技巧/巨人的肩膀/Ant Design/Form/validator 动态校验表单.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,12 +79,21 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "0c65fe264e9f06da",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 347.5,
+    "collapsed": true
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -86,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实用工具/Clean-mark.md"
+                "file": "开发技巧/巨人的肩膀/Ant Design/Form/validator 动态校验表单.md"
               }
             }
           },
@@ -107,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实用工具/Clean-mark.md",
+                "file": "开发技巧/巨人的肩膀/Ant Design/Form/validator 动态校验表单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,36 +150,38 @@
       "canvas:新建白板": false
     }
   },
-  "active": "f7f05e12f5f3d22e",
+  "active": "9c8884d73ca47752",
   "lastOpenFiles": [
+    "开发技巧/JavaScript/实用代码片段.md",
+    "开发技巧/巨人的肩膀/Ant Design/Form/validator 动态校验表单.md",
+    "开发技巧/巨人的肩膀/Ant Design/Form/From 将点击事件注册到组件外面.md",
+    "开发技巧/巨人的肩膀/Ant Design/Form/antd setFieldsValue 设置表单项的值.md",
+    "知识体系/前端/JavaScript/Js--知识碎片/内置对象/Blob知识碎片/Blob().md",
+    "知识体系/计算机基础/README.md",
+    "剪藏/React/create-react-app中如何使用less,手把手教会less的用法.md",
+    "读书笔记/书籍管理/CSS/CSS揭秘-中文版.pdf",
+    "Test/img/md-2023-04-11-11-39-46.png",
+    "知识体系/前端/TypeScript/Ts知识碎片/TypeScript namespace(命名空间).md",
+    "面试之道/面试宝典/javascript面试宝典.md",
+    "知识体系/前端/TypeScript/Ts知识碎片/TypeScript 语法备忘(待补充).md",
+    "实用工具/博客园/主题备份.md",
+    "README.md",
+    "开发技巧/JavaScript/操作样式/查询文字高亮.md",
+    "开发技巧/巨人的肩膀/Ant Design/Anchor锚点/锚点基本使用.md",
+    "知识体系/前端/TypeScript/Ts知识碎片/参考文档.md",
+    "面试之道/README.md",
+    "剪藏/TypeScript/TypeScript相关文章/入门学习 -- 2023 typescript史上最强学习入门文章(2w字).md",
+    "开发技巧/巨人的肩膀/Ant Design/Model/基于Modal.confirm的封装.md",
+    "开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 快速清空.md",
+    "实用工具/Clean-mark.md",
     "实用工具/Obsidian/语法技巧.md",
     "实用工具/Obsidian/Obsidian-使用技巧.md",
     "实用工具/Chrome/一键截图.md",
     "知识体系/前端/JavaScript/Js--知识碎片/内置对象/FileReader知识体系.md",
     "剪藏/JavaScript/JavaScript中 FileReader 对象详解.md",
     "知识体系/前端/JavaScript/Js--知识碎片/深入Js/JS二进制.md",
-    "剪藏/JavaScript/js上传文件转二进制格式.md",
-    "开发技巧/巨人的肩膀/React/文件上传/react 导入表格.md",
-    "剪藏/TypeScript/TypeScript相关文章/Ts 数据类型 -- 详解 TypeScript 数据类型.md",
-    "面试之道/面试宝典/计算机网络面试宝典.md",
-    "开发技巧/巨人的肩膀/Apache ECharts/Apache ECharts使用demo.md",
-    "开发技巧/巨人的肩膀/Ant Design/ant-design官网打不开 , 需要用镜像地址打开.md",
-    "开发技巧/巨人的肩膀/Ant Design/报错总结.md",
-    "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/限制上传文件的大小.md",
-    "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/Props属性对应效果.md",
-    "开发技巧/巨人的肩膀/Ant Design/Upload/README.md.md",
-    "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/官方README.md.md",
-    "剪藏/React/React 之导入 Excel.md",
-    "开发技巧/JavaScript/复杂数据类型/树结构/根据对象的type进行分组合并成tree.md",
-    "知识体系/计算机基础/计算机网络/README.md",
     "未命名.canvas",
-    "读书笔记/README.md",
-    "README.md",
-    "收集箱/网址收集.md",
-    "收集箱/().md",
     "收集箱",
-    "知识体系/前端/TypeScript/Ts知识碎片/参考文档.md",
-    "知识体系/前端/TypeScript/Ts知识碎片/TypeScript 泛型(＜＞ 语法).md",
     "知识体系/前端/JavaScript/Js--知识碎片",
     "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--Img/Pasted image 20230427162931.png",
     "开发技巧/巨人的肩膀/Ant Design/Upload/Upload--Img/Pasted image 20230428112458.png",
@@ -170,9 +195,7 @@
     "知识体系/计算机基础/1计算机基础--Img/Pasted image 20230426174907.jpg",
     "知识体系/计算机基础/计算机组成原理",
     "知识体系/计算机基础/计算机编译原理",
-    "知识体系/计算机基础/计算机操作系统",
     "Test/img 1/user.jpg",
-    "Test/img/md-2023-04-11-11-39-46.png",
     "实用工具/博客园/博客园--Img/Pasted image 20230426163027.png",
     "实用工具/博客园/博客园--Img/Pasted image 20230426162815.png",
     "实用工具/博客园/博客园--Img/Pasted image 20230426162800.png",
