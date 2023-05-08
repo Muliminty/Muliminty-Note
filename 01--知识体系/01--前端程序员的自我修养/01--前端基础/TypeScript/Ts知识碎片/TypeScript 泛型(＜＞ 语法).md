@@ -56,3 +56,6 @@ function createArray<T>(length: number, value: T): Array<T> {
 
 createArray(3, 'x'); // ['x', 'x', 'x']
 ```
+
+
+
