@@ -2,7 +2,7 @@
   "file-explorer",
   "global-search",
   "graph",
-  "canvas",
+  "backlink",
   "outgoing-link",
   "tag-pane",
   "page-preview",
@@ -12,5 +12,6 @@
   "random-note",
   "outline",
   "word-count",
+  "workspaces",
   "file-recovery"
 ]
