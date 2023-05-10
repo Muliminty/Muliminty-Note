@@ -8,5 +8,6 @@
   "attachmentFolderPath": "开发技巧/巨人的肩膀/Ant Design/Upload",
   "alwaysUpdateLinks": true,
   "smartIndentList": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "autoConvertHtml": false
 }

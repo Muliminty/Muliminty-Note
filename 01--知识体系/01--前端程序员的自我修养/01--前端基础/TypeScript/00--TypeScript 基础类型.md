@@ -29,7 +29,7 @@ let 变量名:变量类型 = 值
 
 **另外比较特殊的是数组类型**
 
-在Ts中数组的每一项元素类型都需要是一致的。说要需要在定义数组的时候确认该数组的元素。
+在Ts中数组的每一项元素类型都需要是一致的（any[ ] 类型的数组可以不同）。说要需要在定义数组的时候确认该数组的元素。
 
 有两种方式可以定义数组。 第一种，可以在元素类型后面接上 `[]`，表示由此类型元素组成的一个数组，也就是上面的数组1。
 
@@ -39,5 +39,50 @@ let 变量名:变量类型 = 值
 
 ### 元组 Tuple
 
-[[Ts知识碎片/TypeScript 元组|元组]]类型允许表示一个已知元素数量和类型的数组，各元素的类型不必相同。 比如，你可以定义一对值分别为 `string`和`number`类型的元组。
+[[Ts知识碎片/TypeScript 元组|元组]]类型允许表示一个已知元素数量和类型的数组，**各元素的类型不必相同**。 比如，你可以定义一对值分别为 `string`和`number`类型的元组。
 
+```Ts
+// Declare a tuple type
+let x: [string, number];
+// Initialize it
+x = ['hello', 10]; // OK
+// Initialize it incorrectly
+x = [10, 'hello']; 
+// Type 'number' is not assignable to type 'string'.
+// Type 'string' is not assignable to type 'number'.
+```
+当访问一个已知索引的元素，会得到正确的类型：
+```Ts
+console.log(x[0].substr(1),'11111'); // OK
+console.log(x[1].substr(1),'22222'); //Property 'substr' does not exist on type 'number'.
+```
+
+当访问一个越界的元素，会使用联合类型替代：
+```Ts
+x[3] = 'world'; // OK, 字符串可以赋值给(string | number)类型
+console.log(x[5].toString()); // OK, 'string' 和 'number' 都有 toString
+x[6] = true; 
+//Error, 布尔不是(string | number)类型 
+//Type 'true' is not assignable to type 'string | number'.
+```
+
+![[img/Pasted image 20230510111143.png]]
+
+### 枚举 Enum
+
+[[Ts知识碎片/TypeScript 枚举|enum]]类型是对JavaScript标准数据类型的一个补充。 像C#等其它语言一样，使用枚举类型可以为一组数值赋予友好的名字。
+
+```Ts
+enum Color {Red, Green, Blue}
+let c: Color = Color.Green;
+```
+
+### Any
+
+有时候，我们会想要为那些在编程阶段还不清楚类型的变量指定一个类型。 这些值可能来自于动态的内容，比如来自用户输入或第三方代码库。 这种情况下，我们不希望类型检查器对这些值进行检查而是直接让它们通过编译阶段的检查。 那么我们可以使用 [[Ts知识碎片/TypeScript Any|Any]] 类型来标记这些变量：
+
+```Ts
+let notSure: any = 4;
+notSure = "maybe a string instead";
+notSure = false; // okay, definitely a boolean
+```
