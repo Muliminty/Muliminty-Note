@@ -2,7 +2,7 @@
 
 [官方文档](https://echarts.apache.org/handbook/zh/get-started/)
 
-[echarts——各个配置项详细说明总结](../../../../../099--剪藏/Apache%20ECharts/echarts——各个配置项详细说明总结.md)
+[echarts——各个配置项详细说明总结](../../../../../00--剪藏/Apache%20ECharts/echarts——各个配置项详细说明总结.md)
 
 导入
 

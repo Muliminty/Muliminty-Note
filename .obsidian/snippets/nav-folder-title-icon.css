@@ -1,0 +1,12 @@
+/* 给左侧边栏文件夹前添加图标，""内图标和文件夹名称请自行修改 */
+.nav-folder-title[data-path^="00--剪藏"] .nav-folder-title-content::before {
+    content: "📨" !important;
+    position: relative !important;
+    right: 5px;
+}
+
+.nav-folder-title[data-path="00--剪藏"] .nav-folder-title-content::before {
+    content: "🗳️" !important;
+    position: relative !important;
+    right: 5px;
+}

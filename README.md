@@ -2,5 +2,4 @@
 
 Muliminty 知识管理
 
-[Muliminty](https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοᴏοᴏοᴏοᴏοᴏοᴏoоᴏоοоoᴏοоᴏоοоoоοоᴏoοоᴏᴏοоοᴏοᴏoᴏoоᴏоοоoᴏοоᴏᴏοоᴏοoоᴏᴏοoᴏοοᴏοοοоᴏoοооοοоᴏοοооοοоᴏоοᴏοoοᴏоοoоᴏᴏ)
-[MulimintyBlog.](https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοоᴏοοᴏοοοоᴏoοооοοоᴏοοооοοоᴏоοᴏοoοᴏоοoоᴏоοоοᴏοооοοᴏοoοооoοᴏοοοоoоoоᴏоοооοοоᴏᴏoоᴏᴏ)
+基于 obsidian 

@@ -1,5 +1,5 @@
 > [泛型（Generics）--  冴羽](https://ts.yayujs.com/handbook/Generics.html#%E6%B3%9B%E5%9E%8B-generics)
-> [[../../../../../099--剪藏/TypeScript/TypeScript相关文章/Ts 泛型 -- 轻松拿下 TS 泛型|轻松拿下 TS 泛型]]
+> [[../../../../../00--剪藏/TypeScript/TypeScript相关文章/Ts 泛型 -- 轻松拿下 TS 泛型|轻松拿下 TS 泛型]]
 
 
 

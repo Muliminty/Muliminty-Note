@@ -1,6 +1,17 @@
 {
   "accentColor": "#42b883",
-  "theme": "system",
+  "theme": "obsidian",
   "cssTheme": "Typora-Vue",
-  "baseFontSize": 17
+  "baseFontSize": 17,
+  "enabledCssSnippets": [
+    "weread",
+    "nav-folder",
+    "nav-folder-title-icon",
+    "test",
+    "donghua",
+    "animation-slide-up",
+    "base",
+    "search-bar",
+    "code-block"
+  ]
 }
