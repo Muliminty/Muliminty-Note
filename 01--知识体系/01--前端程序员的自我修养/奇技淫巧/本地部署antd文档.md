@@ -70,3 +70,5 @@ git clone https://github.com/ElemeFE/element.git --depth 1 -b gh-pages
 # React版
 git clone https://github.com/ElemeFE/element-react.git --depth 1 -b gh-pages
 ```
+
+![](Pasted%20image%2020230511134413.png)

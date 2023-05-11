@@ -66,7 +66,8 @@ x[6] = true;
 //Type 'true' is not assignable to type 'string | number'.
 ```
 
-![[img/Pasted image 20230510111143.png]]
+
+![alt](img/Pasted%20image%2020230510111143.png)
 
 ### 枚举 Enum
 

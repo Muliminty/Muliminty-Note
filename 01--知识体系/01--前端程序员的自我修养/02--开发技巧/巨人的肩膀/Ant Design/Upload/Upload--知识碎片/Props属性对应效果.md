@@ -27,7 +27,8 @@
         <Button type="primary">保存文件</Button>
     </Upload>
 ```
-![[../Upload--Img/Pasted image 20230427162931.png]]
+
+![alt](../Upload--Img/Pasted%20image%2020230427162931.png)
 
 ## customRequest
 
@@ -61,7 +62,9 @@
 
 customRequest: async (options) => { setFile(options.file);}
 查看参数options的详细信息：
-![[../Upload--Img/Pasted image 20230428112458.png]]
+
+![alt](../Upload--Img/Pasted%20image%2020230428112458.png)
+
 可以发现onProgress事件与onSuccess事件，onProgress是上传进度相关的，onSuccess是上传成功监听事件。
 
 - 调用onSuccess事件，解决loading一直加载的问题：

@@ -1,1 +1,1 @@
-![[深入Js--Img/Pasted image 20230426134554.png]]
+![alt](深入Js--Img/Pasted%20image%2020230426134554.png)
