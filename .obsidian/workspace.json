@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/00--TypeScript 基础类型.md",
+                "file": "01--知识体系/01--前端程序员的自我修养/奇技淫巧/本地部署antd文档.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "微信",
+                "query": "空",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 289.5,
+    "collapsed": true
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/00--TypeScript 基础类型.md"
+                "file": "01--知识体系/01--前端程序员的自我修养/奇技淫巧/本地部署antd文档.md"
               }
             }
           },
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/00--TypeScript 基础类型.md",
+                "file": "01--知识体系/01--前端程序员的自我修养/奇技淫巧/本地部署antd文档.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -143,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/00--TypeScript 基础类型.md",
+                "file": "01--知识体系/01--前端程序员的自我修养/奇技淫巧/本地部署antd文档.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,6 +173,15 @@
   },
   "active": "bf7969f329250b34",
   "lastOpenFiles": [
+    "01--知识体系/01--前端程序员的自我修养/奇技淫巧/Img",
+    "01--知识体系/01--前端程序员的自我修养/奇技淫巧/Img/Pasted image 20230511111054.png",
+    "01--知识体系/01--前端程序员的自我修养/奇技淫巧/Pasted image 20230511110635 1.png",
+    "01--知识体系/01--前端程序员的自我修养/奇技淫巧/本地部署antd文档.md",
+    "01--知识体系/01--前端程序员的自我修养/奇技淫巧/Img/Pasted image 20230511110635.png",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 过滤空值.md",
+    "01--知识体系/01--前端程序员的自我修养/奇技淫巧",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/00--Js知识碎片/099--深入Js(该文件夹笔记废弃后期整理)/事件循环.md",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/00--TypeScript 基础类型.md",
     "00--剪藏/Obsidian/如何解决Obsidian载入插件后无法启用的问题？.md",
     "00--剪藏/Obsidian/Obsidian插件安装全网最全攻略.md",
     "01--知识体系/01--前端程序员的自我修养/06--有趣的代码片段/微信加密.md",
@@ -184,7 +194,6 @@
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/react 首屏加载.md",
     "README.md",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/Ts知识碎片/TypeScript 类型断言(as语法 和＜＞ 语法).md",
-    "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/00--TypeScript 基础类型.md",
     "未命名.md",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/0xx--TypeScript知识体系.md",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/00--归档/02--TypeScript 语法(待补充).md",
@@ -195,12 +204,8 @@
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/00--归档/0x--TypeScript 文章初稿.md",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/00--归档",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/README.md",
-    "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/正则表达式学习.md",
-    "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/00--Js知识碎片/099--深入Js(该文件夹笔记废弃后期整理)/事件循环.md",
-    "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/00--Js知识碎片/099--深入Js(该文件夹笔记废弃后期整理)/JS二进制.md",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/img/Pasted image 20230510111143.png",
     "Pasted image 20230510111000.png",
-    "img/Pasted.md",
     "img",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/img/Pasted image 20230510105207.png",
     "Pasted image 20230510105205.png",
@@ -208,17 +213,13 @@
     "Pasted image 20230510105114.png",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/00--Js知识碎片/01--JavaScript 标准内置对象",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/Upload--Img/Pasted image 20230427162931.png",
-    "开发技巧/巨人的肩膀/Ant Design/Upload/Pasted Image 20230509112738_649.png",
     "开发技巧/巨人的肩膀/Ant Design/Upload",
     "开发技巧/巨人的肩膀/Ant Design",
     "开发技巧/巨人的肩膀",
     "开发技巧",
     "Excalidraw/fonts/SmileySans-Oblique-3.otf",
     "Excalidraw/fonts/SmileySans-Oblique-2.ttf",
-    "Excalidraw/fonts/DeYiHei/SmileySans-Oblique-3.otf",
     "099--Test/未命名.canvas",
-    "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/00--Js知识碎片/099--深入Js(该文件夹笔记废弃后期整理)/深入Js--Img/Pasted image 20230426134554.png",
-    "00--剪藏/Obsidian/Obsidian-Img/Pasted image 20230509093924.png",
     "Obsidian白板.canvas",
     "未命名.canvas"
   ]
