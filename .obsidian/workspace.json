@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01--知识体系/02--计算机基础/计算机网络/README.md",
+                "file": "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/正则表达式学习.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.5
+    "width": 374.5,
+    "collapsed": true
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01--知识体系/02--计算机基础/计算机网络/README.md"
+                "file": "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/正则表达式学习.md"
               }
             }
           },
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01--知识体系/02--计算机基础/计算机网络/README.md",
+                "file": "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/正则表达式学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01--知识体系/02--计算机基础/计算机网络/README.md",
+                "file": "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/正则表达式学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,12 +155,11 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 307.5
+    "width": 401.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,8 +171,12 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "b5f9d18702c6bf89",
+  "active": "d6a2b3638513547d",
   "lastOpenFiles": [
+    "01--知识体系/01--前端程序员的自我修养/07--Git",
+    "02--读书笔记/00--微信读书/计算机/你不知道的JavaScript（上卷）.md",
+    "02--读书笔记/00--微信读书/计算机/图解HTTP.md",
+    "01--知识体系/02--计算机基础/计算机网络/README.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Moment/常用时间键值对.md",
     "02--读书笔记/00--微信读书/计算机/CSS世界.md",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/Ts知识碎片/TypeScript 泛型(＜＞ 语法).md",
@@ -181,12 +185,10 @@
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/简单数据类型/数值类型.md",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/README.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/代码整洁/函数组合.md",
-    "02--读书笔记/00--微信读书/计算机/图解HTTP.md",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/00--TypeScript 基础类型.md",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/Ts知识碎片/TypeScript 类型断言(as语法 和＜＞ 语法).md",
     "01--知识体系/099--实用工具/vscode/VSCode中markdown开启智能提示.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/组件/音频播放组件.md",
-    "01--知识体系/02--计算机基础/计算机网络/README.md",
     "01--知识体系/02--计算机基础/数据结构和算法/README.md",
     "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试宝典/性能优化面试宝典.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/复杂数据类型/树结构/根据对象的type进行分组合并成tree.md",
@@ -197,8 +199,6 @@
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/00--Js知识碎片/099--深入Js(该文件夹笔记废弃后期整理)/JS二进制.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 求和、最大值、最小值.md",
     "099--Test/README.md",
-    "099--Test/test222.md",
-    "099--Test/test111.md",
     "obsidian相关配置/Templater/folderRandom.js",
     "obsidian相关配置/Templater/folderRandom",
     "obsidian相关配置/Templater",

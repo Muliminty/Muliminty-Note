@@ -4,10 +4,10 @@ bookId: "907764"
 author: 上野宣
 cover: https://weread-1258476243.file.myqcloud.com/weread/cover/45/YueWen_907764/t7_YueWen_907764.jpg
 reviewCount: 4
-noteCount: 40
+noteCount: 41
 isbn: 9787115351531
 category: 计算机-计算机综合
-lastReadDate: 2023-05-11
+lastReadDate: 2023-05-12
 creattime: null
 ---
 # 元数据
@@ -161,6 +161,11 @@ creattime: null
 
 > 📌 持久连接使得多数请求以管线化（pipelining）方式发送成为可能。 ^907764-24-1925-1960
    - ⌚ 2023-05-11 17:04:27 
+## 3.1 HTTP报文
+
+
+> 📌 用于HTTP协议交互的信息被称为HTTP报文。请求端（客户端）的HTTP报文叫做请求报文，响应端（服务器端）的叫做响应报文。HTTP报文本身是由多行（用CR+LF作换行符）数据构成的字符串文本。 ^907764-27-434-531
+   - ⌚ 2023-05-12 14:15:21 
 # 读书笔记
 
 ## 1.3 网络基础TCP/IP
