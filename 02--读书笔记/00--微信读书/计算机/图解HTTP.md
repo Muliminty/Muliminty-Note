@@ -4,10 +4,10 @@ bookId: "907764"
 author: 上野宣
 cover: https://weread-1258476243.file.myqcloud.com/weread/cover/45/YueWen_907764/t7_YueWen_907764.jpg
 reviewCount: 4
-noteCount: 36
+noteCount: 40
 isbn: 9787115351531
 category: 计算机-计算机综合
-lastReadDate: 2023-05-10
+lastReadDate: 2023-05-11
 creattime: null
 ---
 # 元数据
@@ -147,6 +147,20 @@ creattime: null
 
 > 📌 但是，TRACE方法本来就不怎么常用，再加上它容易引发XST（Cross-Site Tracing，跨站追踪）攻击，通常就更不会用到了。 ^907764-22-4877-4945
    - ⌚ 2023-05-10 09:56:55 
+## 2.7 持久连接节省通信量
+
+
+> 📌 HTTP协议的初始版本中，每进行一次HTTP通信就要断开一次TCP连接。 ^907764-24-432-468
+   - ⌚ 2023-05-11 14:33:54 
+
+> 📌 2.7.1 持久连接 ^907764-24-1117-1127
+   - ⌚ 2023-05-11 14:34:13 
+
+> 📌 为解决上述TCP连接的问题，HTTP/1.1和一部分的HTTP/1.0想出了持久连接（HTTP Persistent Connections，也称为HTTP keep-alive或HTTP connection reuse）的方法。持久连接的特点是，只要任意一端没有明确提出断开连接，则保持TCP连接状态。 ^907764-24-1157-1310
+   - ⌚ 2023-05-11 14:34:17 
+
+> 📌 持久连接使得多数请求以管线化（pipelining）方式发送成为可能。 ^907764-24-1925-1960
+   - ⌚ 2023-05-11 17:04:27 
 # 读书笔记
 
 ## 1.3 网络基础TCP/IP
