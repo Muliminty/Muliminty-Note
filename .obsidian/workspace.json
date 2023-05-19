@@ -11,9 +11,12 @@
             "id": "8b9885c2c8fb6b7b",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "04--看板收集箱/电子书.md"
+                "file": "00--剪藏/Git/克隆错误RPC failed  curl 56 Recv failure  Connection was reset.  及克隆速度慢问题解决.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -107,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04--看板收集箱/电子书.md"
+                "file": "00--剪藏/Git/克隆错误RPC failed  curl 56 Recv failure  Connection was reset.  及克隆速度慢问题解决.md"
               }
             }
           },
@@ -128,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04--看板收集箱/电子书.md",
+                "file": "00--剪藏/Git/克隆错误RPC failed  curl 56 Recv failure  Connection was reset.  及克隆速度慢问题解决.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04--看板收集箱/电子书.md",
+                "file": "00--剪藏/Git/克隆错误RPC failed  curl 56 Recv failure  Connection was reset.  及克隆速度慢问题解决.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -170,12 +173,14 @@
   },
   "active": "8b9885c2c8fb6b7b",
   "lastOpenFiles": [
+    "04--看板收集箱/电子书.md",
+    "00--剪藏/Git/克隆错误RPC failed  curl 56 Recv failure  Connection was reset.  及克隆速度慢问题解决.md",
+    "00--剪藏/Git",
     "04--看板收集箱/文章.md",
     "01--知识体系/099--冲浪技巧/Clean-mark.md",
     "01--知识体系/099--冲浪技巧/浏览器使用技巧/知乎/知乎（网页版）夜间模式（暗色模式）.md",
     "01--知识体系/099--冲浪技巧/README.md",
     "04--看板收集箱/有趣的网址.md",
-    "04--看板收集箱/电子书.md",
     "099--Test/111.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Axios/axios请求配置.md",
     "01--知识体系/099--冲浪技巧/博客园/主题备份3.md",
@@ -203,7 +208,6 @@
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/CSS/多行展开收起自动隐藏（全兼容）.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/CSS/文字布局.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/CSS/css图案.md",
-    "01--知识体系/01--前端程序员的自我修养/01--前端基础/CSS/CSS知识碎片/你不知道的 CSS 之包含块.md",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/附件图片/未命名.png",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/附件图片",
     "01--知识体系/099--冲浪技巧/05--小技巧",
@@ -215,7 +219,6 @@
     "099--Test/附件图片/1111-1.png",
     "099--Test/附件图片/1111-3.png",
     "099--Test/附件图片/Pasted image 20230511140726.png",
-    "01--知识体系/01--前端程序员的自我修养/07--Git",
     "099--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"
