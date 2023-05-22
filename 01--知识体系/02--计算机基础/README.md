@@ -1,1 +1,1 @@
-![[1计算机基础--Img/Pasted image 20230426174907.jpg]]
+![[附件/Pasted image 20230426174907.jpg]]

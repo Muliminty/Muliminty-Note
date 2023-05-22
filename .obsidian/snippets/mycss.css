@@ -40,11 +40,6 @@
 
 }
 
-[class="internal-embed media-embed image-embed is-loaded"] img:hover {
-    transition: transform .2s, box-shadow .2s;
-    transform: translateY(-4px);
-}
-
 [class^="excalidraw-svg-"] img {
     width: 80% !important;
     max-width: 80% !important;
@@ -55,9 +50,4 @@
     border-image: -moz-linear-gradient(#1D976C, #93F9B9) 20 20;
     border-image: -o-linear-gradient(#1D976C, #93F9B9) 20 20;
     border-image: linear-gradient(#1D976C, #93F9B9) 20 20;
-}
-
-[class^="excalidraw-svg-"] img:hover {
-    transition: transform .2s, box-shadow .2s;
-    transform: translateY(-4px);
 }

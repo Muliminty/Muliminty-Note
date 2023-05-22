@@ -1,9 +1,15 @@
 {
   "items": [
     {
-      "type": "file",
-      "path": "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/Ts知识碎片/TypeScript interface 接口.md",
-      "ctime": 1683178768895
+      "type": "folder",
+      "ctime": 1684744122193,
+      "path": "01--知识体系/02--计算机基础/计算机网络",
+      "title": "计算机网络"
+    },
+    {
+      "type": "folder",
+      "ctime": 1684744206473,
+      "path": "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript"
     }
   ]
 }

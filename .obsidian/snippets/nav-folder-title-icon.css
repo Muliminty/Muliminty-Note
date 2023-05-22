@@ -90,8 +90,22 @@
     right: 1px;
 }
 
+
 .nav-folder-title[data-path^="04--看板收集箱"] .nav-file-title-content::before {
     content: "📋" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+
+.nav-folder-title[data-path*="Excalidraw"] .nav-folder-title-content::before {
+    content: "🎨" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+.nav-folder-title[data-path*="代码"] .nav-folder-title-content::before {
+    content: "💻️" !important;
     position: relative !important;
     right: 1px;
 }

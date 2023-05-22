@@ -4,10 +4,10 @@ bookId: "907764"
 author: 上野宣
 cover: https://weread-1258476243.file.myqcloud.com/weread/cover/45/YueWen_907764/t7_YueWen_907764.jpg
 reviewCount: 5
-noteCount: 53
+noteCount: 54
 isbn: 9787115351531
 category: 计算机-计算机综合
-lastReadDate: 2023-05-18
+lastReadDate: 2023-05-22
 creattime: null
 ---
 # 元数据
@@ -212,6 +212,11 @@ creattime: null
 
 > 📌 在HTTP通信过程中，可级联多台代理服务器。请求和响应的转发会经过数台类似锁链一样连接起来的代理服务器。转发时，需要附加Via首部字段以标记出经过的主机信息。 ^907764-41-1684-1763
    - ⌚ 2023-05-18 17:51:28 
+## 5.3 保存资源的缓存
+
+
+> 📌 缓存是指代理服务器或客户端本地磁盘内保存的资源副本。利用缓存可减少对源服务器的访问，因此也就节省了通信流量和通信时间。 ^907764-42-435-494
+   - ⌚ 2023-05-22 16:37:15 
 # 读书笔记
 
 ## 1.3 网络基础TCP/IP
