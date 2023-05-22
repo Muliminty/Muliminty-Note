@@ -2,7 +2,7 @@
   "accentColor": "#42b883",
   "theme": "obsidian",
   "cssTheme": "Typora-Vue",
-  "baseFontSize": 17,
+  "baseFontSize": 16,
   "enabledCssSnippets": [
     "weread",
     "nav-folder",
@@ -12,6 +12,9 @@
     "animation-slide-up",
     "base",
     "search-bar",
-    "code-block"
-  ]
+    "code-block",
+    "Excalidraw",
+    "mycss"
+  ],
+  "translucency": false
 }

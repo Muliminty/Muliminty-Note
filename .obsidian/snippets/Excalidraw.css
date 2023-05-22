@@ -1,0 +1,9 @@
+[class^="excalidraw-svg-"] img {
+    width: 60% !important;
+    max-width: 60% !important;
+    border: 5px solid #ddd;
+    border-image: -webkit-linear-gradient(#1D976C, #93F9B9) 20 20;
+    border-image: -moz-linear-gradient(#1D976C, #93F9B9) 20 20;
+    border-image: -o-linear-gradient(#1D976C, #93F9B9) 20 20;
+    border-image: linear-gradient(#1D976C, #93F9B9) 20 20;
+}
