@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8c799d8a36a53b1c",
+        "id": "f1f2b16721a9c56f",
         "type": "tabs",
         "children": [
           {
-            "id": "9a1f64fe33f2eb7a",
+            "id": "d410bbcc3184c735",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/echarts——各个配置项详细说明总结.md",
-                "mode": "source",
+                "file": "02--读书笔记/00--微信读书/计算机/JavaScript设计模式与开发实践.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/echarts——各个配置项详细说明总结.md"
+                "file": "02--读书笔记/00--微信读书/计算机/JavaScript设计模式与开发实践.md"
               }
             }
           },
@@ -107,8 +107,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d669eb9e1e6dadde",
@@ -132,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/echarts——各个配置项详细说明总结.md",
+                "file": "02--读书笔记/00--微信读书/计算机/JavaScript设计模式与开发实践.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/echarts——各个配置项详细说明总结.md",
+                "file": "02--读书笔记/00--微信读书/计算机/JavaScript设计模式与开发实践.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -159,8 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5,
-    "collapsed": true
+    "width": 349.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,10 +171,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9a1f64fe33f2eb7a",
+  "active": "d410bbcc3184c735",
   "lastOpenFiles": [
-    "00--剪藏/Apache ECharts/echarts——各个配置项详细说明总结.md",
+    "02--读书笔记/00--微信读书/计算机/JavaScript高级程序设计（第4版）.md",
+    "02--读书笔记/00--微信读书/计算机/CSS世界.md",
+    "02--读书笔记/00--微信读书/计算机/网络是怎样连接的.md",
+    "02--读书笔记/00--微信读书/计算机/图解HTTP.md",
+    "02--读书笔记/00--微信读书/计算机/你不知道的JavaScript（上卷）.md",
+    "02--读书笔记/00--微信读书/计算机/JavaScript设计模式与开发实践.md",
+    "02--读书笔记/00--微信读书/计算机/Vue.js设计与实现.md",
+    "02--读书笔记/00--微信读书/计算机/编码：隐匿在计算机软硬件背后的语言.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/echarts——各个配置项详细说明总结.md",
+    "00--剪藏/Apache ECharts/echarts——各个配置项详细说明总结.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/Apache ECharts使用demo.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用",
     "099--Test/markdown常用语法记录.md",
@@ -205,20 +211,12 @@
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Umi/异常处理",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Umi",
     "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/网关.md",
-    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
-    "01--知识体系/02--计算机基础/计算机网络/README.md",
     "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/附件图片/缓存.png",
     "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/附件图片/网关.png",
     "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片",
-    "01--知识体系/02--计算机基础/计算机网络/附件Excalidraw/代理.excalidraw.md",
-    "01--知识体系/02--计算机基础/计算机网络/附件Excalidraw/代理.md",
-    "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/Ts知识碎片/TypeScript interface 接口.md",
     "看板11",
     "01--知识体系/02--计算机基础/计算机网络/附件Excalidraw",
-    "01--知识体系/02--计算机基础/README.md",
     "01--知识体系/02--计算机基础/附件/Pasted image 20230426174907.jpg",
-    "README.md",
-    "04--看板收集箱/文章.md",
     "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/附件图片/代理-3.png",
     "01--知识体系/02--计算机基础/计算机网络/图解http/附件图片/代理-1.png",
     "099--Test/未命名.canvas",

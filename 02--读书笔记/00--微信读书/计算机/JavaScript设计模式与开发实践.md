@@ -4,10 +4,10 @@ bookId: "27337473"
 author: 曾探
 cover: https://weread-1258476243.file.myqcloud.com/weread/cover/90/YueWen_27337473/t7_YueWen_27337473.jpg
 reviewCount: 0
-noteCount: 16
+noteCount: 17
 isbn: 9787115388889
 category: 计算机-编程设计
-lastReadDate: 2023-05-09
+lastReadDate: 2023-05-23
 ---
 # 元数据
 > [!abstract] JavaScript设计模式与开发实践
@@ -22,6 +22,11 @@ lastReadDate: 2023-05-09
 
 # 高亮划线
 
+## 1.1 动态类型语言和鸭子类型
+
+
+> 📌 静态类型语言在编译时便已确定变量的类型，而动态类型语言的变量类型要到程序运行的时候，待变量被赋予某个值之后，才会具有某种类型。 ^27337473-9-563-626
+   - ⌚ 2023-05-23 16:08:23 
 ## 3.1 闭包
 
 
