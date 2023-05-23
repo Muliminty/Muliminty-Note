@@ -18,7 +18,7 @@
 [class="cm-underline"]:hover,
 [class="internal-link"]:hover,
 .cm-link:hover {
-    color: #333;
+    color: #333 !important;
     background-size: 100% 88% !important;
 }
 
@@ -50,4 +50,15 @@
     border-image: -moz-linear-gradient(#1D976C, #93F9B9) 20 20;
     border-image: -o-linear-gradient(#1D976C, #93F9B9) 20 20;
     border-image: linear-gradient(#1D976C, #93F9B9) 20 20;
+}
+
+
+/* Banners 插件样式优化 */
+.frontmatter-container {
+    display: none;
+}
+
+.obsidian-banner-wrapper {
+    margin-top: calc(var(--banner-height) - 75px);
+    padding-top: 0.5em;
 }

@@ -11,7 +11,7 @@
   "daily-notes": false,
   "templates": false,
   "note-composer": false,
-  "command-palette": false,
+  "command-palette": true,
   "slash-command": true,
   "editor-status": true,
   "starred": true,

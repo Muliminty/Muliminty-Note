@@ -4,6 +4,10 @@
 
 [echarts——各个配置项详细说明总结](../../../../../00--剪藏/Apache%20ECharts/echarts——各个配置项详细说明总结.md)
 
+npm install echarts --save
+npm install --save echarts-for-react
+
+
 导入
 
 ```JSX

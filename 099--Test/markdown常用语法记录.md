@@ -1,12 +1,13 @@
+---
+banner: "![[../其他/头图/1287239.jpg]]"
+banner_y: 0.26
+---
+
 # 技巧
 
 ## 目录
 
 > [toc]
-
-## 图片
-
-![这是图片](/assets/img/philly-magic-garden.jpg "Magic Gardens")
 
 ## 链接
 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4ba62d0da1af9c13",
+        "id": "8c799d8a36a53b1c",
         "type": "tabs",
         "children": [
           {
-            "id": "4c9c6c01027fbdd6",
+            "id": "9a1f64fe33f2eb7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/缓存.md",
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/echarts——各个配置项详细说明总结.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#excalidraw",
+                "query": "ECharts",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5,
+    "width": 374.5,
     "collapsed": true
   },
   "right": {
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/缓存.md"
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/echarts——各个配置项详细说明总结.md"
               }
             }
           },
@@ -107,12 +107,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d669eb9e1e6dadde",
         "type": "tabs",
-        "dimension": 28.76190476190476,
+        "dimension": 28.761904761904763,
         "children": [
           {
             "id": "8e6faee164f44a88",
@@ -120,7 +121,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true
               }
             }
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/缓存.md",
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/echarts——各个配置项详细说明总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/缓存.md",
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/echarts——各个配置项详细说明总结.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -158,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 349.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,56 +169,58 @@
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
       "smart-random-note:Open Random Note from Search": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "4c9c6c01027fbdd6",
+  "active": "9a1f64fe33f2eb7a",
   "lastOpenFiles": [
-    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/网关.md",
+    "00--剪藏/Apache ECharts/echarts——各个配置项详细说明总结.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/echarts——各个配置项详细说明总结.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/Apache ECharts使用demo.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用",
+    "099--Test/markdown常用语法记录.md",
+    "099--Test/README.md",
+    "04--看板收集箱/电子书.md",
+    "其他/头图/1287239.jpg",
+    "00--剪藏/Obsidian/Obsidian-Img/Pasted image 20230509093924.png",
+    "00--剪藏/Obsidian/Obsidian-Img/Pasted image 20230509093935.png",
     "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/缓存.md",
+    "099--Test/img/md-2023-04-11-11-39-46.png",
+    "assets/img/philly-magic-garden.jpg.md",
+    "02--读书笔记/README.md",
+    "assets/img",
+    "assets",
+    "04--看板收集箱/有趣的网址.md",
+    "其他/常用.md",
+    "其他/头图",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/Ts知识碎片/TypeScript 枚举.md",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/Ts知识碎片/TypeScript 类型断言(as语法 和＜＞ 语法).md",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/Ts知识碎片/TypeScript 泛型(＜＞ 语法).md",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/Ts知识碎片/00--知识碎片文件夹职责.md",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/00--TypeScript 基础类型.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Umi/异常处理/does not exist in container.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Umi/异常处理/附件图片/does not exist in container.png",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Umi/异常处理/附件图片",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Umi/异常处理",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Umi",
+    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/网关.md",
     "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
+    "01--知识体系/02--计算机基础/计算机网络/README.md",
     "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/附件图片/缓存.png",
     "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/附件图片/网关.png",
-    "01--知识体系/02--计算机基础/计算机网络/README.md",
     "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片",
     "01--知识体系/02--计算机基础/计算机网络/附件Excalidraw/代理.excalidraw.md",
     "01--知识体系/02--计算机基础/计算机网络/附件Excalidraw/代理.md",
-    "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/00--TypeScript 基础类型.md",
-    "其他/常用.md",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/Ts知识碎片/TypeScript interface 接口.md",
     "看板11",
     "01--知识体系/02--计算机基础/计算机网络/附件Excalidraw",
     "01--知识体系/02--计算机基础/README.md",
     "01--知识体系/02--计算机基础/附件/Pasted image 20230426174907.jpg",
     "README.md",
-    "099--Test/img/md-2023-04-11-11-39-46.png",
-    "099--Test/markdown常用语法记录.md",
-    "04--看板收集箱/电子书.md",
     "04--看板收集箱/文章.md",
-    "04--看板收集箱/11",
-    "00--剪藏/Github/解决raw.githubusercontent.com无法访问的问题.md",
-    "00--剪藏/Github/Github为什么没有记录你的Contributions.md",
-    "00--剪藏/TypeScript/TypeScript文档 -- 冴羽/基础/1. 基础.md",
     "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/附件图片/代理-3.png",
     "01--知识体系/02--计算机基础/计算机网络/图解http/附件图片/代理-1.png",
-    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/附件图片/代理-2.png",
-    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/附件图片/代理.png",
-    "01--知识体系/02--计算机基础/计算机网络/图解http/附件图片/Pasted Image 20230522135958_494.png",
-    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/附件图片/代理.png",
-    "04--看板收集箱/有趣的网址.md",
-    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/附件图片",
-    "01--知识体系/02--计算机基础/计算机网络/图解http",
-    "01--知识体系/02--计算机基础/计算机网络/代理.excalidraw.md",
-    "01--知识体系/02--计算机基础/计算机编译原理/README.md",
-    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/附件图片",
-    "未命名.md",
-    "01--知识体系/099--插件&&软件&&其他/浏览器使用技巧/浏览器插件介绍/stylish.md",
-    "01--知识体系/099--插件&&软件&&其他/浏览器使用技巧/知乎/无图模式.md",
-    "01--知识体系/099--插件&&软件&&其他/浏览器使用技巧/知乎/知乎（网页版）夜间模式（暗色模式）.md",
-    "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/Ts知识碎片/TypeScript 泛型(＜＞ 语法).md",
-    "05--代码",
-    "00--剪藏/Git",
-    "01--知识体系/099--插件&&软件&&其他/浏览器使用技巧/浏览器插件介绍/附件图片",
     "099--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"
