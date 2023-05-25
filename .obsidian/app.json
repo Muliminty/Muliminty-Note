@@ -10,5 +10,12 @@
   "smartIndentList": true,
   "readableLineLength": false,
   "autoConvertHtml": false,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
