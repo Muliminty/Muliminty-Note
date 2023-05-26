@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/下载相关/A标签下载重命名.md",
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Select选择器/实现下拉互斥效果.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "baidu",
+                "query": "tag:#开发技巧/调试异常",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 322.5,
+    "collapsed": true
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/下载相关/A标签下载重命名.md"
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Select选择器/实现下拉互斥效果.md"
               }
             }
           },
@@ -130,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/下载相关/A标签下载重命名.md",
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Select选择器/实现下拉互斥效果.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/下载相关/A标签下载重命名.md",
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Select选择器/实现下拉互斥效果.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -157,52 +158,55 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 349.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "command-palette:打开命令面板": false,
       "graph:查看关系图谱": false,
       "obsidian-weread-plugin:Weread": false,
       "workspaces:管理工作区布局": false,
-      "random-note:开始漫游笔记": false,
       "smart-random-note:Open Random Note from Search": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "command-palette:打开命令面板": false
+      "random-note:开始漫游笔记": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
   "active": "99702b4def12ae4e",
   "lastOpenFiles": [
-    "ECharts 入门.md",
-    "099--Test/README.md",
-    "099--Test/附件图片/百度地图开发入门.pdf.lnk",
+    "00--剪藏/Apache ECharts/echarts——各个配置项详细说明总结.md",
+    "00--剪藏/Obsidian/Obsidian插件安装全网最全攻略.md",
+    "00--剪藏/JavaScript/JavaScript中 FileReader 对象详解.md",
+    "00--剪藏/JavaScript/js上传文件转二进制格式.md",
+    "00--剪藏/React/create-react-app中如何使用less,手把手教会less的用法.md",
+    "00--剪藏/React/react项目打包后点击index.html页面出现空白.md",
+    "00--剪藏/React/React 之导入 Excel.md",
+    "00--剪藏/TypeScript/TypeScript相关文章/Ts 声明文件 -- TypeScript系列🔥尾声篇, 什么是声明文件(declare).md",
+    "02--读书笔记/00--微信读书/计算机/网络是怎样连接的.md",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/CSS/CSS知识碎片/CSS 属性计算过程.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/hook相关技巧/useState精通/useState 异步相关问题.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Table/columns技巧.md",
+    "01--知识体系/01--前端程序员的自我修养/05--前端框架/Vue/Vue知识碎片/vue3快速上手.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/限制上传文件的大小.md",
+    "04--看板收集箱/有趣的网址.md",
+    "04--看板收集箱/电子书.md",
     "099--Test/markdown常用语法记录.md",
+    "099--Test/头像/user.jpg",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/组件/音频播放组件.md",
+    "01--知识体系/099--插件&&软件&&其他/浏览器使用技巧/浏览器插件介绍/stylish.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/百度地图开发入门.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/未命名.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Umi/异常处理/does not exist in container.md",
+    "01--知识体系/02--计算机基础/计算机网络/附件Excalidraw/代理.excalidraw.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/数据格式化/数值相关.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/下载相关/A标签下载重命名.md",
+    "其他/佛本是道.txt",
+    "ECharts 入门.md",
+    "099--Test/附件图片/百度地图开发入门.pdf.lnk",
     "099--Test/附件图片/常用代码片段.pdf",
     "099--Test/附件图片",
     "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试之道PDF材料/前端面试宝典V4.0.pdf",
     "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试之道PDF材料/牛客网-前端面试手册.pdf",
-    "其他/前端常用技巧.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/复杂数据类型/对象类型/对象解构重命名.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/复杂数据类型/树结构/根据对象的type进行分组合并成tree.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/操作样式/查询文字高亮.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/代码整洁/函数组合.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/复制/复制内容到剪切板.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/实用代码片段.md",
-    "01--知识体系/01--前端程序员的自我修养/06--有趣的代码片段/小游戏.md",
-    "01--知识体系/01--前端程序员的自我修养/06--有趣的代码片段/微信加密.md",
-    "01--知识体系/01--前端程序员的自我修养/06--有趣的代码片段/调试神器.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/hook相关技巧/useState精通/useState 异步相关问题.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/hook相关技巧/useState精通/useState 页面不更新.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/组件/音频播放组件.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/组件/数字滚动组件.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/文件上传/react 导入表格.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Moment/moment常用方法.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/库/react 使用qrcode.react插件生成二维码并下载.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Moment/常用时间键值对.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/自定义hook函数/useUpdateEffect.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/hook相关技巧/useImperativeHandle.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/CSS/css图案.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/CSS/文字布局.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/CSS/文本超出隐藏.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/附件图片/百度地图开发入门-6.png",
     "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试之道PDF材料/58 道 Vue 常见面试题集锦，涵盖入门到精通，自测 Vue 掌握程度.pdf",
     "01--知识体系/02--计算机基础/附件/Pasted image 20230426174907.jpg",
@@ -216,8 +220,6 @@
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/附件图片/百度地图开发入门.png",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/附件图片",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用",
-    "其他/头图/1287239.jpg",
-    "assets/img",
     "099--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"
