@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1d77b13db3e89eff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ECharts 入门.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ECharts 入门.md"
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/下载相关/A标签下载重命名.md"
               }
             }
           },
@@ -144,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ECharts 入门.md",
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/下载相关/A标签下载重命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ECharts 入门.md",
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/下载相关/A标签下载重命名.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -184,8 +170,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1d77b13db3e89eff",
+  "active": "99702b4def12ae4e",
   "lastOpenFiles": [
+    "ECharts 入门.md",
     "099--Test/README.md",
     "099--Test/附件图片/百度地图开发入门.pdf.lnk",
     "099--Test/markdown常用语法记录.md",
