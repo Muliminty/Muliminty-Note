@@ -1,0 +1,48 @@
+{
+  "bookmarks": [
+    {
+      "id": "1307082721",
+      "name": "微信读书-正版书籍小说免费阅读",
+      "url": "https://weread.qq.com/",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1685330055679,
+      "modified": 1685330055679
+    },
+    {
+      "id": "-1800596730",
+      "name": "滴答清单",
+      "url": "https://dida365.com/webapp/#q/all/tasks",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1685329802121,
+      "modified": 1685329802121
+    },
+    {
+      "id": "2014068036",
+      "name": "Obsidian",
+      "url": "https://obsidian.md/",
+      "description": "A awesome note-taking tool",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1672840861051,
+      "modified": 1672840861052
+    }
+  ],
+  "categories": [
+    {
+      "value": "ROOT",
+      "text": "ROOT",
+      "label": "ROOT",
+      "children": []
+    }
+  ]
+}

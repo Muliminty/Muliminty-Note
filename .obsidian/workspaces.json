@@ -1,1 +1,228 @@
-{}
+{
+  "workspaces": {
+    "阅读1": {
+      "main": {
+        "id": "a5ee6cc28a84e573",
+        "type": "split",
+        "children": [
+          {
+            "id": "f08f3891e702beb7",
+            "type": "tabs",
+            "dimension": 31.25,
+            "children": [
+              {
+                "id": "f25627be9836cdda",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://weread.qq.com/web/reader/3da32b505dd9f43da9a1aca?"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "3d45a54afca2fd85",
+            "type": "tabs",
+            "dimension": 68.75,
+            "children": [
+              {
+                "id": "0dfa797fc5c8f3b7",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "e763b896eb5105de",
+        "type": "split",
+        "children": [
+          {
+            "id": "f56ce7403b9f53e8",
+            "type": "tabs",
+            "dimension": 52.57142857142857,
+            "children": [
+              {
+                "id": "b5f9d18702c6bf89",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "9ecad09b246738b2",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": true,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabeticalReverse"
+                  }
+                }
+              },
+              {
+                "id": "585059bc8206bd41",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-tab-tree",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "f77b10ea3ad65614",
+            "type": "tabs",
+            "dimension": 47.42857142857143,
+            "children": [
+              {
+                "id": "0c65fe264e9f06da",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "44df5cfe22cb7b21",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "8e6faee164f44a88",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "0091c11f0415cf81",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 238.5
+      },
+      "right": {
+        "id": "7e1eaf5aa558b397",
+        "type": "split",
+        "children": [
+          {
+            "id": "df46320a8dca3be8",
+            "type": "tabs",
+            "dimension": 28.57142857142857,
+            "children": [
+              {
+                "id": "c890a057fd320bfd",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "6e56b7661bb5b380",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "68dba87baff84dba",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://dida365.com/webapp/#q/all/week/93ea47b89ecc9e6882471a02"
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "4ee6c0f648cd6fb3",
+            "type": "tabs",
+            "dimension": 71.42857142857143,
+            "children": [
+              {
+                "id": "fa9d31c059ecf26d",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://go.itab.link/"
+                  }
+                }
+              },
+              {
+                "id": "7151fec3d4a28c44",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://weread.qq.com/web/reader/3da32b505dd9f43da9a1aca?"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 389.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "command-palette:打开命令面板": false,
+          "graph:查看关系图谱": false,
+          "obsidian-weread-plugin:Weread": false,
+          "workspaces:管理工作区布局": false,
+          "smart-random-note:Open Random Note from Search": false,
+          "random-note:开始漫游笔记": false,
+          "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+        }
+      },
+      "active": "0c65fe264e9f06da"
+    }
+  },
+  "active": "阅读1"
+}

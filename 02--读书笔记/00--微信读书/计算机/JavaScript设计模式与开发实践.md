@@ -7,7 +7,7 @@ reviewCount: 0
 noteCount: 17
 isbn: 9787115388889
 category: 计算机-编程设计
-lastReadDate: 2023-05-23
+lastReadDate: 2023-05-29
 ---
 # 元数据
 > [!abstract] JavaScript设计模式与开发实践
