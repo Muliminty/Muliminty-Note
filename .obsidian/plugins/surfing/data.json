@@ -49,6 +49,39 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "fa9d31c059ecf26d",
+      "parent": 0,
+      "droppable": true,
+      "text": "新标签页",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "59780c5a6304a07f",
+      "parent": 0,
+      "droppable": true,
+      "text": "New Tab",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "68dba87baff84dba",
+      "parent": 0,
+      "droppable": true,
+      "text": "滴答清单",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }

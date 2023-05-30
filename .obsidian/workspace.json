@@ -151,11 +151,13 @@
           {
             "id": "80abf6d9be705e57",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "surfing-view",
               "state": {
                 "url": "https://cn.widgetstore.net/view/index.html?q=54ad1eea622a8ba5156f79fc6eaf5abd.3e1d0d9764755183000621796c2f0a23"
-              }
+              },
+              "pinned": true
             }
           },
           {
@@ -257,7 +259,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md"
+              }
             }
           }
         ],
@@ -265,7 +269,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -280,10 +284,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "68dba87baff84dba",
+  "active": "defe1ea62688ad8c",
   "lastOpenFiles": [
-    "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
     "03--学习方法论/熵基知识分享/学习方法白板.md",
+    "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
     "03--学习方法论/熵基知识分享/默认看板.md",
     "04--看板收集箱/电子书.md",
     "04--看板收集箱/有趣的网址.md",
