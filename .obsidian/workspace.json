@@ -4,36 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "f08f3891e702beb7",
-        "type": "tabs",
-        "dimension": 36.29807692307692,
+        "id": "e711f3fb6e90247e",
+        "type": "split",
+        "dimension": 46.25984251968504,
         "children": [
           {
-            "id": "f25627be9836cdda",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://weread.qq.com/web/reader/3da32b505dd9f43da9a1acak6c8328f022d6c8349cc72d5"
+            "id": "82d3ddb636224568",
+            "type": "tabs",
+            "dimension": 60.095238095238095,
+            "children": [
+              {
+                "id": "f8f90d7083efb3ec",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "10418e255b9c5fb6",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1f52215a2bc6824b",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://www.yuque.com/renshen052/method/tfbr8u#nbiVG"
+                  }
+                }
               }
-            }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "c1771c76bf61f937",
+            "type": "tabs",
+            "dimension": 39.904761904761905,
+            "children": [
+              {
+                "id": "0324c4e30916b081",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "03--学习方法论/熵基知识分享/学习方法白板.md"
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       },
       {
-        "id": "3d45a54afca2fd85",
+        "id": "4b4199c19e3aa110",
         "type": "tabs",
-        "dimension": 63.70192307692307,
+        "dimension": 53.74015748031496,
         "children": [
           {
-            "id": "5261dc0015b6a156",
+            "id": "defe1ea62688ad8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02--读书笔记/00--微信读书/计算机/图解HTTP.md",
-                "mode": "preview",
-                "backlinks": true,
+                "file": "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
+                "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -50,10 +97,9 @@
       {
         "id": "f56ce7403b9f53e8",
         "type": "tabs",
-        "dimension": 52.57142857142857,
         "children": [
           {
-            "id": "b5f9d18702c6bf89",
+            "id": "94de239b665ab4b6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -68,12 +114,47 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#图解HTTP",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabeticalReverse"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 290.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "7e1eaf5aa558b397",
+    "type": "split",
+    "children": [
+      {
+        "id": "df46320a8dca3be8",
+        "type": "tabs",
+        "dimension": 19.047619047619047,
+        "children": [
+          {
+            "id": "0091c11f0415cf81",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "80abf6d9be705e57",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://cn.widgetstore.net/view/index.html?q=54ad1eea622a8ba5156f79fc6eaf5abd.3e1d0d9764755183000621796c2f0a23"
               }
             }
           },
@@ -85,31 +166,14 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "f77b10ea3ad65614",
+        "id": "0f03c4321f8456a2",
         "type": "tabs",
-        "dimension": 47.42857142857143,
+        "dimension": 20.38095238095238,
         "children": [
-          {
-            "id": "0c65fe264e9f06da",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "44df5cfe22cb7b21",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "02--读书笔记/00--微信读书/计算机/图解HTTP.md"
-              }
-            }
-          },
           {
             "id": "8e6faee164f44a88",
             "type": "leaf",
@@ -122,64 +186,11 @@
             }
           }
         ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 238.5
-  },
-  "right": {
-    "id": "7e1eaf5aa558b397",
-    "type": "split",
-    "children": [
-      {
-        "id": "df46320a8dca3be8",
-        "type": "tabs",
-        "dimension": 28.57142857142857,
-        "children": [
-          {
-            "id": "c890a057fd320bfd",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "02--读书笔记/00--微信读书/计算机/图解HTTP.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "6e56b7661bb5b380",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "02--读书笔记/00--微信读书/计算机/图解HTTP.md",
-                "collapseAll": true,
-                "extraContext": true,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "0091c11f0415cf81",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 2
       },
       {
-        "id": "4ee6c0f648cd6fb3",
+        "id": "a9ca2742edd97bbd",
         "type": "tabs",
-        "dimension": 71.42857142857143,
+        "dimension": 60.57142857142858,
         "children": [
           {
             "id": "fa9d31c059ecf26d",
@@ -192,30 +203,69 @@
             }
           },
           {
-            "id": "7151fec3d4a28c44",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://weread.qq.com/web/reader/3da32b505dd9f43da9a1aca?"
-              }
-            }
-          },
-          {
             "id": "68dba87baff84dba",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://dida365.com/webapp/#f/8c2048b899a9063232612f73/tasks"
+                "url": "https://dida365.com/webapp/#p/d86c4601baffd8e000adebb8/tasks/6475b7d2c01e2822157ee175"
               }
             }
+          },
+          {
+            "id": "35c8bfe8d83f98f6",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://flowus.cn/fdbedd2a-7ae5-41f4-9448-669670ff0521"
+              }
+            }
+          },
+          {
+            "id": "8e8e39ff7f9d1ba0",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "03--学习方法论/熵基知识分享/默认看板.md"
+              }
+            }
+          },
+          {
+            "id": "d3505faf8d577127",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "04--看板收集箱/有趣的网址.md"
+              }
+            }
+          },
+          {
+            "id": "c7c3f3edc61b9d67",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "04--看板收集箱/电子书.md"
+              }
+            }
+          },
+          {
+            "id": "44df5cfe22cb7b21",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 351.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,57 +275,59 @@
       "workspaces:管理工作区布局": false,
       "smart-random-note:Open Random Note from Search": false,
       "random-note:开始漫游笔记": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "5261dc0015b6a156",
+  "active": "68dba87baff84dba",
   "lastOpenFiles": [
-    "02--读书笔记/00--微信读书/计算机/图解HTTP.md",
+    "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
+    "03--学习方法论/熵基知识分享/学习方法白板.md",
+    "03--学习方法论/熵基知识分享/默认看板.md",
+    "04--看板收集箱/电子书.md",
+    "04--看板收集箱/有趣的网址.md",
     "03--学习方法论/熵基知识分享/知识分享草稿.md",
+    "03--学习方法论/熵基知识分享/滴答清单介绍.md",
+    "03--学习方法论/熵基知识分享/obsidian 介绍.md",
+    "06--Memos/2023-05-30.md",
+    "2023-05-30.md",
+    "06--Memos/delete.md",
+    "06--Memos/日记模板",
+    "06--Memos",
+    "delete.md",
+    "03--学习方法论/熵基知识分享/未命名.md",
+    "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-2.png",
+    "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-1.png",
+    "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统.png",
+    "附件图片/Pasted image 20230530112238.png",
+    "附件图片",
+    "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理.png",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/简单数据类型/字符串技巧.md",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/Ts知识碎片/TypeScript 枚举.md",
+    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/Ts知识碎片/TypeScript namespace(命名空间).md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/数据格式化/数值相关.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/文件上传/react 导入表格.md",
     "03--学习方法论/熵基知识分享/参考文献.md",
-    "03--学习方法论/熵基知识分享/学习方法--知识管理.md",
-    "03--学习方法论/熵基知识分享/学习方法看板.md",
-    "00--剪藏/TypeScript/TypeScript相关文章/入门学习 -- 2023 typescript史上最强学习入门文章(2w字).md",
-    "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试宝典/性能优化面试宝典.md",
-    "01--知识体系/01--前端程序员的自我修养/01--前端基础/CSS/CSS知识碎片/CSS 属性计算过程.md",
-    "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试宝典/HTML面试宝典.md",
-    "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试宝典/Vue面试宝典.md",
-    "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试宝典/React面试宝典.md",
-    "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试宝典/javascript面试宝典.md",
-    "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试宝典/javascript手写精通面试宝典.md",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/00--TypeScript 基础类型.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/下载相关/下载二进制文件.md",
+    "00--剪藏/React/react-router 跳转前确认Prompt使用.md",
+    "04--看板收集箱/文章.md",
+    "01--知识体系/01--前端程序员的自我修养/05--前端框架/Vue/Vue知识碎片/vue3快速上手.md",
+    "ECharts入门.md",
     "03--学习方法论/熵基知识分享/附件图片/知识分享草稿-5.png",
     "03--学习方法论/熵基知识分享/附件图片/知识分享草稿-4.png",
     "03--学习方法论/熵基知识分享/附件图片/知识分享草稿-3.png",
     "03--学习方法论/熵基知识分享/附件图片/知识分享草稿-2.png",
     "03--学习方法论/熵基知识分享/附件图片/知识分享草稿-1.png",
-    "03--学习方法论/熵基知识分享/附件图片/知识分享草稿.png",
     "03--学习方法论/熵基知识分享/附件图片",
-    "04--看板收集箱/有趣的网址.md",
     "03--学习方法论/熵基知识分享",
-    "04--看板收集箱/电子书.md",
-    "ECharts入门.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/Props属性对应效果.md",
-    "README.md",
-    "02--读书笔记/00--微信读书/计算机/编码：隐匿在计算机软硬件背后的语言.md",
-    "02--读书笔记/00--微信读书/计算机/JavaScript高级程序设计（第4版）.md",
-    "099--Test/markdown常用语法记录.md",
-    "02--读书笔记/00--微信读书/计算机/网络是怎样连接的.md",
-    "02--读书笔记/00--微信读书/计算机/JavaScript设计模式与开发实践.md",
-    "00--剪藏/JavaScript/JavaScript中 FileReader 对象详解.md",
-    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
-    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/缓存.md",
-    "099--Test/头像/user.jpg",
     "其他/佛本是道.txt",
     "099--Test/附件图片/百度地图开发入门.pdf.lnk",
     "099--Test/附件图片/常用代码片段.pdf",
     "099--Test/附件图片",
     "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试之道PDF材料/前端面试宝典V4.0.pdf",
-    "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试之道PDF材料/牛客网-前端面试手册.pdf",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/附件图片/百度地图开发入门-6.png",
-    "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试之道PDF材料/58 道 Vue 常见面试题集锦，涵盖入门到精通，自测 Vue 掌握程度.pdf",
-    "01--知识体系/02--计算机基础/附件/Pasted image 20230426174907.jpg",
-    "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试之道PDF材料/75个JavaScript面试题集锦，内含解答，自测 JS 掌握程度.pdf",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/附件图片/百度地图开发入门-5.png",
     "099--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"

@@ -14,11 +14,11 @@
   "highlightInSameTab": false,
   "openInSameTab": false,
   "showRefreshButton": true,
-  "openInObsidianWeb": false,
+  "openInObsidianWeb": true,
   "useCustomIcons": false,
   "useWebview": false,
   "useIconList": true,
-  "darkMode": false,
+  "darkMode": true,
   "bookmarkManager": {
     "openBookMark": false,
     "saveBookMark": false,
@@ -36,47 +36,14 @@
       "modified",
       "action"
     ],
-    "defaultFilterType": "menu"
+    "defaultFilterType": "tree"
   },
   "treeData": [
     {
-      "id": "f25627be9836cdda",
+      "id": "1f52215a2bc6824b",
       "parent": 0,
       "droppable": true,
-      "text": "图解HTTP-上野宣-微信读书",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "68dba87baff84dba",
-      "parent": 0,
-      "droppable": true,
-      "text": "滴答清单",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "fa9d31c059ecf26d",
-      "parent": 0,
-      "droppable": true,
-      "text": "新标签页",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "7151fec3d4a28c44",
-      "parent": 0,
-      "droppable": true,
-      "text": "图解HTTP-上野宣-微信读书",
+      "text": "构建知识体系方法论 · 语雀",
       "data": {
         "fileType": "site",
         "fileSize": "",
