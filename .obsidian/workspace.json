@@ -4,76 +4,70 @@
     "type": "split",
     "children": [
       {
-        "id": "e711f3fb6e90247e",
-        "type": "split",
-        "dimension": 46.25984251968504,
+        "id": "82d3ddb636224568",
+        "type": "tabs",
+        "dimension": 50.51679586563308,
         "children": [
           {
-            "id": "82d3ddb636224568",
-            "type": "tabs",
-            "dimension": 60.095238095238095,
-            "children": [
-              {
-                "id": "f8f90d7083efb3ec",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
-                    "mode": "preview",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "10418e255b9c5fb6",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              },
-              {
-                "id": "1f52215a2bc6824b",
-                "type": "leaf",
-                "state": {
-                  "type": "surfing-view",
-                  "state": {
-                    "url": "https://www.yuque.com/renshen052/method/tfbr8u#nbiVG"
-                  }
-                }
+            "id": "a85285d3f204e153",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://sspai.com/post/62414"
               }
-            ],
-            "currentTab": 2
+            }
           },
           {
-            "id": "c1771c76bf61f937",
-            "type": "tabs",
-            "dimension": 39.904761904761905,
-            "children": [
-              {
-                "id": "0324c4e30916b081",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "03--学习方法论/熵基知识分享/学习方法白板.md"
-                  }
-                }
+            "id": "2b972d14881d1ed6",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.zhihu.com/question/481515989"
               }
-            ]
+            }
+          },
+          {
+            "id": "297b538d18c9a165",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://zhuanlan.zhihu.com/p/191519306"
+              }
+            }
+          },
+          {
+            "id": "aa2113781f279b18",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.mrhuangtalk.com/posts/BulidYourSecondBrian/"
+              }
+            }
+          },
+          {
+            "id": "6b929f9a3c05c5f0",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://sspai.com/post/67339"
+              }
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 4
       },
       {
-        "id": "4b4199c19e3aa110",
+        "id": "d42c2b22e7681abe",
         "type": "tabs",
-        "dimension": 53.74015748031496,
+        "dimension": 49.48320413436693,
         "children": [
           {
-            "id": "defe1ea62688ad8c",
+            "id": "53f3d0d05313e978",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -82,6 +76,26 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "6c4ad69e77ed04a7",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://juejin.cn/post/7145351315705577485#heading-52"
+              }
+            }
+          },
+          {
+            "id": "97eea49e10c9eb13",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "03--学习方法论/熵基知识分享/学习方法白板.md"
               }
             }
           }
@@ -123,8 +137,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -149,32 +162,30 @@
             }
           },
           {
-            "id": "80abf6d9be705e57",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://cn.widgetstore.net/view/index.html?q=54ad1eea622a8ba5156f79fc6eaf5abd.3e1d0d9764755183000621796c2f0a23"
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "585059bc8206bd41",
             "type": "leaf",
             "state": {
               "type": "surfing-tab-tree",
               "state": {}
             }
+          },
+          {
+            "id": "80abf6d9be705e57",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://cn.widgetstore.net/view/index.html?q=54ad1eea622a8ba5156f79fc6eaf5abd.3e1d0d9764755183000621796c2f0a23"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "0f03c4321f8456a2",
         "type": "tabs",
-        "dimension": 20.38095238095238,
+        "dimension": 20.095238095238095,
         "children": [
           {
             "id": "8e6faee164f44a88",
@@ -192,7 +203,7 @@
       {
         "id": "a9ca2742edd97bbd",
         "type": "tabs",
-        "dimension": 60.57142857142858,
+        "dimension": 60.857142857142854,
         "children": [
           {
             "id": "fa9d31c059ecf26d",
@@ -265,11 +276,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 327.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -284,13 +295,24 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "defe1ea62688ad8c",
+  "active": "53f3d0d05313e978",
   "lastOpenFiles": [
-    "03--学习方法论/熵基知识分享/学习方法白板.md",
     "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
+    "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-9.png",
+    "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-8.png",
+    "03--学习方法论/熵基知识分享/学习方法白板.md",
+    "03--学习方法论/熵基知识分享/附件图片/Pasted Image 20230531114611_621.png",
+    "03--学习方法论/熵基知识分享/附件图片/Pasted Image 20230531114556_620.png",
+    "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-8.png",
+    "03--学习方法论/熵基知识分享/附件图片/Pasted image 20230531111822.jpg",
+    "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-7.png",
+    "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-6.png",
     "03--学习方法论/熵基知识分享/默认看板.md",
-    "04--看板收集箱/电子书.md",
+    "03--学习方法论/熵基知识分享/附件图片/559E92F0F5C1F7D7859F01DA62E641EC.png",
+    "03--学习方法论/熵基知识分享/附件图片/Pasted image 20230530112238.png",
     "04--看板收集箱/有趣的网址.md",
+    "04--看板收集箱/电子书.md",
+    "其他/前端常用技巧.md",
     "03--学习方法论/熵基知识分享/知识分享草稿.md",
     "03--学习方法论/熵基知识分享/滴答清单介绍.md",
     "03--学习方法论/熵基知识分享/obsidian 介绍.md",
@@ -301,12 +323,7 @@
     "06--Memos",
     "delete.md",
     "03--学习方法论/熵基知识分享/未命名.md",
-    "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-2.png",
-    "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-1.png",
-    "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统.png",
-    "附件图片/Pasted image 20230530112238.png",
     "附件图片",
-    "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理.png",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/简单数据类型/字符串技巧.md",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/Ts知识碎片/TypeScript 枚举.md",
     "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
@@ -318,13 +335,6 @@
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/下载相关/下载二进制文件.md",
     "00--剪藏/React/react-router 跳转前确认Prompt使用.md",
     "04--看板收集箱/文章.md",
-    "01--知识体系/01--前端程序员的自我修养/05--前端框架/Vue/Vue知识碎片/vue3快速上手.md",
-    "ECharts入门.md",
-    "03--学习方法论/熵基知识分享/附件图片/知识分享草稿-5.png",
-    "03--学习方法论/熵基知识分享/附件图片/知识分享草稿-4.png",
-    "03--学习方法论/熵基知识分享/附件图片/知识分享草稿-3.png",
-    "03--学习方法论/熵基知识分享/附件图片/知识分享草稿-2.png",
-    "03--学习方法论/熵基知识分享/附件图片/知识分享草稿-1.png",
     "03--学习方法论/熵基知识分享/附件图片",
     "03--学习方法论/熵基知识分享",
     "其他/佛本是道.txt",
