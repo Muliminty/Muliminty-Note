@@ -1,8 +1,8 @@
 {
-  "accentColor": "#42b883",
-  "theme": "obsidian",
+  "accentColor": "",
+  "theme": "system",
   "cssTheme": "Typora-Vue",
-  "baseFontSize": 16,
+  "baseFontSize": 15,
   "enabledCssSnippets": [
     "weread",
     "nav-folder",
@@ -16,5 +16,9 @@
     "Excalidraw",
     "mycss"
   ],
-  "translucency": false
+  "translucency": false,
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "",
+  "nativeMenus": false
 }

@@ -17,8 +17,8 @@
   "openInObsidianWeb": true,
   "useCustomIcons": false,
   "useWebview": false,
-  "useIconList": true,
-  "darkMode": true,
+  "useIconList": false,
+  "darkMode": false,
   "bookmarkManager": {
     "openBookMark": false,
     "saveBookMark": false,
@@ -51,10 +51,10 @@
       }
     },
     {
-      "id": "f7425ad678d35c66",
+      "id": "2010ab7497dfb818",
       "parent": 0,
       "droppable": true,
-      "text": "obsidian - 国内版 Bing",
+      "text": "从程序员到架构师：大数据量、缓存、高并发、微服务、多团队协同等核心场景实战-王伟杰-微信读书",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -62,10 +62,10 @@
       }
     },
     {
-      "id": "9a3e0a1f1716c892",
+      "id": "60c56e67bc428485",
       "parent": 0,
       "droppable": true,
-      "text": "Obsidian是什么以及它能用来做什么 - 少数派",
+      "text": "组件世界-基础组件",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -73,10 +73,10 @@
       }
     },
     {
-      "id": "4ae5de307624f435",
+      "id": "43b6593cf335e777",
       "parent": 0,
       "droppable": true,
-      "text": "Obsidian 介绍_夏洛克卷的博客-CSDN博客",
+      "text": "滴答清单",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -84,10 +84,10 @@
       }
     },
     {
-      "id": "f9f03e5fc073ead3",
+      "id": "acda3215ea84eb9f",
       "parent": 0,
       "droppable": true,
-      "text": "aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzA3LzIxL1VJREJZOC5wbmc (770×852)",
+      "text": "New Tab",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -95,10 +95,10 @@
       }
     },
     {
-      "id": "a85285d3f204e153",
+      "id": "5d76078327b4c1b4",
       "parent": 0,
       "droppable": true,
-      "text": "玩转 Obsidian 01：打造知识循环利器 - 少数派",
+      "text": "New Tab",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -106,10 +106,10 @@
       }
     },
     {
-      "id": "2b972d14881d1ed6",
+      "id": "87ecfc5577311e99",
       "parent": 0,
       "droppable": true,
-      "text": "你们在Notion、Obsidian、Logseq三者中如何选择？将哪个作为主力笔记软件？为什么？ - 知乎",
+      "text": "组件世界-基础组件",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -117,10 +117,10 @@
       }
     },
     {
-      "id": "555f6a376119af15",
+      "id": "8b3983fc61f6ffa6",
       "parent": 0,
       "droppable": true,
-      "text": "搜索 · 语雀",
+      "text": "YuIndex - 极客范儿的浏览器主页",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -128,10 +128,10 @@
       }
     },
     {
-      "id": "7da9b52247835545",
+      "id": "6286b2d4fd702c36",
       "parent": 0,
       "droppable": true,
-      "text": "obsidian实现个人任务管理 · 语雀",
+      "text": "zhihu - 搜索",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -139,10 +139,10 @@
       }
     },
     {
-      "id": "b8293efd81017e1d",
+      "id": "ae047ac984176c93",
       "parent": 0,
       "droppable": true,
-      "text": "Muliminty · 语雀",
+      "text": "obsidian - 搜索结果 - 知乎",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -150,10 +150,10 @@
       }
     },
     {
-      "id": "4f8f0d8ffbe73dc6",
+      "id": "af1b745785871f67",
       "parent": 0,
       "droppable": true,
-      "text": "逛逛 · 语雀",
+      "text": "ceshi - 搜索结果 - 知乎",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -161,10 +161,10 @@
       }
     },
     {
-      "id": "297b538d18c9a165",
+      "id": "aaac1c861d2bd789",
       "parent": 0,
       "droppable": true,
-      "text": "手把手教你打造一套最牛的知识笔记管理系统！ - 知乎",
+      "text": "息流 - 搜索",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -172,10 +172,10 @@
       }
     },
     {
-      "id": "aa2113781f279b18",
+      "id": "ae088fc3cf22ae65",
       "parent": 0,
       "droppable": true,
-      "text": "把信息交给未来的自己——构建你的第二大脑 | Mr.Huang Talk",
+      "text": "熵基相关账号管理",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -183,10 +183,10 @@
       }
     },
     {
-      "id": "6b929f9a3c05c5f0",
+      "id": "14c716bc2ce375b1",
       "parent": 0,
       "droppable": true,
-      "text": "玩转 Obsidian 04：为什么推荐使用 Obsidian 做知识管理 - 少数派",
+      "text": "语雀 - 搜索",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -194,10 +194,10 @@
       }
     },
     {
-      "id": "27fae5908ebc96f3",
+      "id": "b4e8ac3be3b092ac",
       "parent": 0,
       "droppable": true,
-      "text": "16241832377031.jpg (800×450)",
+      "text": "工作台 · 语雀",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -205,10 +205,10 @@
       }
     },
     {
-      "id": "6c4ad69e77ed04a7",
+      "id": "66f0941fb606f2f7",
       "parent": 0,
       "droppable": true,
-      "text": "Obsidian 的高级玩法|打造能跳转到任何格式文件的笔记 - 掘金",
+      "text": "🌝 如何用微信写小记 · 语雀",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -216,10 +216,131 @@
       }
     },
     {
-      "id": "67b8ad0be61296f4",
+      "id": "c60a5d84904ace91",
       "parent": 0,
       "droppable": true,
-      "text": "如何一句话激怒电脑 DIY 发烧友？ - 知乎",
+      "text": "微信读书-正版书籍小说免费阅读",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "dd40245578488486",
+      "parent": 0,
+      "droppable": true,
+      "text": "图解HTTP-上野宣-微信读书",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "0233e96b12cf46cc",
+      "parent": 0,
+      "droppable": true,
+      "text": "您好，我是程序员鱼皮",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "086d78b729a1c1b8",
+      "parent": 0,
+      "droppable": true,
+      "text": "New Tab",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "82eaa87bc4014b65",
+      "parent": 0,
+      "droppable": true,
+      "text": "华硕电脑京东自营和华硕京东自营有什么区别 - 搜索结果 - 知乎",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "518d1b7fa0d3d418",
+      "parent": 0,
+      "droppable": true,
+      "text": "使用obsidian与坚果云免费实现win、ipad与安卓三端笔记同步 - 知乎",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "a143d56dabcb4bd2",
+      "parent": 0,
+      "droppable": true,
+      "text": "obsidian 安卓同步 - 搜索",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "48d638a8ea97ad0f",
+      "parent": 0,
+      "droppable": true,
+      "text": "如何在手机端实现Obsidian笔记云同步 | Obsidian实践 - 知乎",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "52665bc7d8095117",
+      "parent": 0,
+      "droppable": true,
+      "text": "用 Git 在 Android 和 Windows 间同步 Obsidian 数据库 - 少数派",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "1d03301cbde777bb",
+      "parent": 0,
+      "droppable": true,
+      "text": "flomo",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "502e112268c2d8dc",
+      "parent": 0,
+      "droppable": true,
+      "text": "flomo - 搜索",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "74df06e817db72cf",
+      "parent": 0,
+      "droppable": true,
+      "text": "🚀 flomo 浮墨笔记 | flomo 101",
       "data": {
         "fileType": "site",
         "fileSize": "",

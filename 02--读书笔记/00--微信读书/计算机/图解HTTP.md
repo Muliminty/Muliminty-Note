@@ -4,10 +4,10 @@ bookId: "907764"
 author: 上野宣
 cover: https://weread-1258476243.file.myqcloud.com/weread/cover/45/YueWen_907764/t7_YueWen_907764.jpg
 reviewCount: 5
-noteCount: 56
+noteCount: 57
 isbn: 9787115351531
 category: 计算机-计算机综合
-lastReadDate: 2023-05-29
+lastReadDate: 2023-05-31
 creattime: null
 ---
 # 元数据
@@ -225,6 +225,11 @@ creattime: null
 
 > 📌 使用首部字段是为了给浏览器和服务器提供报文主体大小、所使用的语言、认证信息等内容。 ^907764-45-615-656
    - ⌚ 2023-05-29 10:47:50 
+## 6.3 HTTP/1.1 通用首部字段
+
+
+> 📌 通用首部字段是指，请求报文和响应报文双方都会使用的首部。 ^907764-46-435-463
+   - ⌚ 2023-05-31 15:29:59 
 # 读书笔记
 
 ## 1.3 网络基础TCP/IP

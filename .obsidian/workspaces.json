@@ -1,34 +1,16 @@
 {
   "workspaces": {
-    "阅读1": {
+    "默认工作区域": {
       "main": {
         "id": "a5ee6cc28a84e573",
         "type": "split",
         "children": [
           {
-            "id": "f08f3891e702beb7",
+            "id": "743a3c171a6ed2d8",
             "type": "tabs",
-            "dimension": 31.25,
             "children": [
               {
-                "id": "f25627be9836cdda",
-                "type": "leaf",
-                "state": {
-                  "type": "surfing-view",
-                  "state": {
-                    "url": "https://weread.qq.com/web/reader/3da32b505dd9f43da9a1aca?"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "3d45a54afca2fd85",
-            "type": "tabs",
-            "dimension": 68.75,
-            "children": [
-              {
-                "id": "0dfa797fc5c8f3b7",
+                "id": "7058a54a1f114e91",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -45,9 +27,8 @@
         "type": "split",
         "children": [
           {
-            "id": "f56ce7403b9f53e8",
+            "id": "ab69140583894038",
             "type": "tabs",
-            "dimension": 52.57142857142857,
             "children": [
               {
                 "id": "b5f9d18702c6bf89",
@@ -75,37 +56,6 @@
                 }
               },
               {
-                "id": "585059bc8206bd41",
-                "type": "leaf",
-                "state": {
-                  "type": "surfing-tab-tree",
-                  "state": {}
-                }
-              }
-            ]
-          },
-          {
-            "id": "f77b10ea3ad65614",
-            "type": "tabs",
-            "dimension": 47.42857142857143,
-            "children": [
-              {
-                "id": "0c65fe264e9f06da",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              },
-              {
-                "id": "44df5cfe22cb7b21",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {}
-                }
-              },
-              {
                 "id": "8e6faee164f44a88",
                 "type": "leaf",
                 "state": {
@@ -117,10 +67,10 @@
                 }
               },
               {
-                "id": "0091c11f0415cf81",
+                "id": "eeda9bafedcd248d",
                 "type": "leaf",
                 "state": {
-                  "type": "calendar",
+                  "type": "surfing-tab-tree",
                   "state": {}
                 }
               }
@@ -128,62 +78,51 @@
           }
         ],
         "direction": "horizontal",
-        "width": 238.5
+        "width": 322.5
       },
       "right": {
         "id": "7e1eaf5aa558b397",
         "type": "split",
         "children": [
           {
-            "id": "df46320a8dca3be8",
+            "id": "4ee6c0f648cd6fb3",
             "type": "tabs",
-            "dimension": 28.57142857142857,
+            "dimension": 32.285714285714285,
             "children": [
               {
-                "id": "c890a057fd320bfd",
+                "id": "44df5cfe22cb7b21",
                 "type": "leaf",
                 "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
+                  "type": "outline",
+                  "state": {}
                 }
               },
               {
-                "id": "6e56b7661bb5b380",
+                "id": "0091c11f0415cf81",
                 "type": "leaf",
                 "state": {
-                  "type": "backlink",
-                  "state": {
-                    "collapseAll": true,
-                    "extraContext": true,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
+                  "type": "calendar",
+                  "state": {}
                 }
-              },
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "366e0e71d35865b6",
+            "type": "tabs",
+            "dimension": 67.71428571428572,
+            "children": [
               {
-                "id": "68dba87baff84dba",
+                "id": "8b3983fc61f6ffa6",
                 "type": "leaf",
                 "state": {
                   "type": "surfing-view",
                   "state": {
-                    "url": "https://dida365.com/webapp/#q/all/week/93ea47b89ecc9e6882471a02"
+                    "url": "http://yuindex.yupi.icu/#/"
                   }
                 }
-              }
-            ],
-            "currentTab": 2
-          },
-          {
-            "id": "4ee6c0f648cd6fb3",
-            "type": "tabs",
-            "dimension": 71.42857142857143,
-            "children": [
+              },
               {
                 "id": "fa9d31c059ecf26d",
                 "type": "leaf",
@@ -195,12 +134,32 @@
                 }
               },
               {
-                "id": "7151fec3d4a28c44",
+                "id": "43b6593cf335e777",
                 "type": "leaf",
                 "state": {
                   "type": "surfing-view",
                   "state": {
-                    "url": "https://weread.qq.com/web/reader/3da32b505dd9f43da9a1aca?"
+                    "url": "https://www.dida365.com/webapp/#q/all/tasks"
+                  }
+                }
+              },
+              {
+                "id": "ae088fc3cf22ae65",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://flowus.cn/fdbedd2a-7ae5-41f4-9448-669670ff0521"
+                  }
+                }
+              },
+              {
+                "id": "c60a5d84904ace91",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://weread.qq.com/"
                   }
                 }
               }
@@ -208,21 +167,23 @@
           }
         ],
         "direction": "horizontal",
-        "width": 389.5
+        "width": 361.5
       },
       "left-ribbon": {
         "hiddenItems": {
+          "daily-notes:打开/创建今天的日记": false,
           "command-palette:打开命令面板": false,
           "graph:查看关系图谱": false,
           "obsidian-weread-plugin:Weread": false,
           "workspaces:管理工作区布局": false,
           "smart-random-note:Open Random Note from Search": false,
           "random-note:开始漫游笔记": false,
-          "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+          "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+          "obsidian-memos:Memos": false
         }
       },
-      "active": "0c65fe264e9f06da"
+      "active": "b5f9d18702c6bf89"
     }
   },
-  "active": "阅读1"
+  "active": "默认工作区域"
 }

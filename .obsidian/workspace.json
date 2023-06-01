@@ -4,98 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "82d3ddb636224568",
+        "id": "28dc23544931b2a3",
         "type": "tabs",
-        "dimension": 50.51679586563308,
         "children": [
           {
-            "id": "a85285d3f204e153",
+            "id": "38a0b7b32485f039",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
+              "type": "kanban",
               "state": {
-                "url": "https://sspai.com/post/62414"
-              }
-            }
-          },
-          {
-            "id": "2b972d14881d1ed6",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.zhihu.com/question/481515989"
-              }
-            }
-          },
-          {
-            "id": "297b538d18c9a165",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://zhuanlan.zhihu.com/p/191519306"
-              }
-            }
-          },
-          {
-            "id": "aa2113781f279b18",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.mrhuangtalk.com/posts/BulidYourSecondBrian/"
-              }
-            }
-          },
-          {
-            "id": "6b929f9a3c05c5f0",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://sspai.com/post/67339"
-              }
-            }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "d42c2b22e7681abe",
-        "type": "tabs",
-        "dimension": 49.48320413436693,
-        "children": [
-          {
-            "id": "53f3d0d05313e978",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c4ad69e77ed04a7",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://juejin.cn/post/7145351315705577485#heading-52"
-              }
-            }
-          },
-          {
-            "id": "97eea49e10c9eb13",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "03--学习方法论/熵基知识分享/学习方法白板.md"
+                "file": "04--看板收集箱/电子书.md"
               }
             }
           }
@@ -109,11 +27,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f56ce7403b9f53e8",
+        "id": "ab69140583894038",
         "type": "tabs",
         "children": [
           {
-            "id": "94de239b665ab4b6",
+            "id": "b5f9d18702c6bf89",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -128,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#图解HTTP",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -136,57 +54,7 @@
                 "sortOrder": "alphabeticalReverse"
               }
             }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
-  },
-  "right": {
-    "id": "7e1eaf5aa558b397",
-    "type": "split",
-    "children": [
-      {
-        "id": "df46320a8dca3be8",
-        "type": "tabs",
-        "dimension": 19.047619047619047,
-        "children": [
-          {
-            "id": "0091c11f0415cf81",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           },
-          {
-            "id": "585059bc8206bd41",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {}
-            }
-          },
-          {
-            "id": "80abf6d9be705e57",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://cn.widgetstore.net/view/index.html?q=54ad1eea622a8ba5156f79fc6eaf5abd.3e1d0d9764755183000621796c2f0a23"
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "0f03c4321f8456a2",
-        "type": "tabs",
-        "dimension": 20.095238095238095,
-        "children": [
           {
             "id": "8e6faee164f44a88",
             "type": "leaf",
@@ -197,14 +65,65 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "eeda9bafedcd248d",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 322.5
+  },
+  "right": {
+    "id": "7e1eaf5aa558b397",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ee6c0f648cd6fb3",
+        "type": "tabs",
+        "dimension": 32.285714285714285,
+        "children": [
+          {
+            "id": "44df5cfe22cb7b21",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04--看板收集箱/电子书.md"
+              }
+            }
+          },
+          {
+            "id": "0091c11f0415cf81",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ]
       },
       {
-        "id": "a9ca2742edd97bbd",
+        "id": "366e0e71d35865b6",
         "type": "tabs",
-        "dimension": 60.857142857142854,
+        "dimension": 67.71428571428572,
         "children": [
+          {
+            "id": "8b3983fc61f6ffa6",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "http://yuindex.yupi.icu/#/"
+              }
+            }
+          },
           {
             "id": "fa9d31c059ecf26d",
             "type": "leaf",
@@ -216,17 +135,17 @@
             }
           },
           {
-            "id": "68dba87baff84dba",
+            "id": "43b6593cf335e777",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://dida365.com/webapp/#p/d86c4601baffd8e000adebb8/tasks/6475b7d2c01e2822157ee175"
+                "url": "https://www.dida365.com/webapp/#q/all/tasks"
               }
             }
           },
           {
-            "id": "35c8bfe8d83f98f6",
+            "id": "ae088fc3cf22ae65",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
@@ -236,54 +155,34 @@
             }
           },
           {
-            "id": "8e8e39ff7f9d1ba0",
+            "id": "c60a5d84904ace91",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "surfing-view",
               "state": {
-                "file": "03--学习方法论/熵基知识分享/默认看板.md"
+                "url": "https://weread.qq.com/"
               }
             }
           },
           {
-            "id": "d3505faf8d577127",
+            "id": "1d03301cbde777bb",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "surfing-view",
               "state": {
-                "file": "04--看板收集箱/有趣的网址.md"
-              }
-            }
-          },
-          {
-            "id": "c7c3f3edc61b9d67",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "04--看板收集箱/电子书.md"
-              }
-            }
-          },
-          {
-            "id": "44df5cfe22cb7b21",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md"
+                "url": "https://v.flomoapp.com/mine?tag=%E5%B0%8F%E9%83%91%E7%9A%84%E7%A7%81%E4%BA%BA%E6%9C%8B%E5%8F%8B%E5%9C%88%2F%E6%91%98%E6%8A%84"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 419.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:打开/创建今天的日记": false,
       "command-palette:打开命令面板": false,
       "graph:查看关系图谱": false,
       "obsidian-weread-plugin:Weread": false,
@@ -291,57 +190,57 @@
       "smart-random-note:Open Random Note from Search": false,
       "random-note:开始漫游笔记": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "daily-notes:打开/创建今天的日记": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "53f3d0d05313e978",
+  "active": "38a0b7b32485f039",
   "lastOpenFiles": [
+    "04--看板收集箱/文章.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Model/模态框按钮修改样式.md",
+    "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试宝典/javascript手写精通面试宝典.md",
+    "01--知识体系/099--插件&&软件&&其他/Obsidian/Obsidian-使用技巧.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/README.md.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/Apache ECharts使用demo.md",
+    "01--知识体系/README.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/操作样式/查询文字高亮.md",
+    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/网关.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/复杂数据类型/树结构/树结构扁平化.md",
+    "01--知识体系/099--插件&&软件&&其他/README.md",
+    "Excalidraw/画板2023-06-01 09.43.23.excalidraw.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/下载相关/下载base64格式的图片.md",
+    "00--剪藏/Obsidian/Obsidian插件安装全网最全攻略.md",
+    "02--读书笔记/00--微信读书/计算机/你不知道的JavaScript（上卷）.md",
+    "02--读书笔记/00--微信读书/计算机/CSS世界.md",
+    "02--读书笔记/00--微信读书/计算机/图解HTTP.md",
+    "02--读书笔记/00--微信读书/计算机/JavaScript高级程序设计（第4版）.md",
+    "02--读书笔记/00--微信读书/计算机/JavaScript设计模式与开发实践.md",
+    "02--读书笔记/README.md",
+    "02--读书笔记/00--微信读书/计算机/网络是怎样连接的.md",
+    "06--Memos/2023-05-30.md",
+    "06--Memos/附件图片/Pasted Image 20230601110224.png",
+    "06--Memos/附件图片",
+    "06--Memos/delete.md",
+    "06--Memos/2023-06-01.md",
     "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
+    "03--学习方法论/熵基知识分享/学习方法白板.md",
     "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-9.png",
     "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-8.png",
-    "03--学习方法论/熵基知识分享/学习方法白板.md",
     "03--学习方法论/熵基知识分享/附件图片/Pasted Image 20230531114611_621.png",
     "03--学习方法论/熵基知识分享/附件图片/Pasted Image 20230531114556_620.png",
     "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-8.png",
     "03--学习方法论/熵基知识分享/附件图片/Pasted image 20230531111822.jpg",
     "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-7.png",
     "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-6.png",
-    "03--学习方法论/熵基知识分享/默认看板.md",
     "03--学习方法论/熵基知识分享/附件图片/559E92F0F5C1F7D7859F01DA62E641EC.png",
-    "03--学习方法论/熵基知识分享/附件图片/Pasted image 20230530112238.png",
-    "04--看板收集箱/有趣的网址.md",
-    "04--看板收集箱/电子书.md",
-    "其他/前端常用技巧.md",
-    "03--学习方法论/熵基知识分享/知识分享草稿.md",
-    "03--学习方法论/熵基知识分享/滴答清单介绍.md",
-    "03--学习方法论/熵基知识分享/obsidian 介绍.md",
-    "06--Memos/2023-05-30.md",
-    "2023-05-30.md",
-    "06--Memos/delete.md",
     "06--Memos/日记模板",
     "06--Memos",
-    "delete.md",
-    "03--学习方法论/熵基知识分享/未命名.md",
     "附件图片",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/简单数据类型/字符串技巧.md",
-    "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/Ts知识碎片/TypeScript 枚举.md",
-    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
-    "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/Ts知识碎片/TypeScript namespace(命名空间).md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/数据格式化/数值相关.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/文件上传/react 导入表格.md",
-    "03--学习方法论/熵基知识分享/参考文献.md",
-    "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript/00--TypeScript 基础类型.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/下载相关/下载二进制文件.md",
-    "00--剪藏/React/react-router 跳转前确认Prompt使用.md",
-    "04--看板收集箱/文章.md",
     "03--学习方法论/熵基知识分享/附件图片",
     "03--学习方法论/熵基知识分享",
     "其他/佛本是道.txt",
     "099--Test/附件图片/百度地图开发入门.pdf.lnk",
     "099--Test/附件图片/常用代码片段.pdf",
     "099--Test/附件图片",
-    "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试之道PDF材料/前端面试宝典V4.0.pdf",
     "099--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"
