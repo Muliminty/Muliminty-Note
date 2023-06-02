@@ -346,6 +346,28 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "17b8ea76ac461965",
+      "parent": 0,
+      "droppable": true,
+      "text": "准备工作 | Vue.js 技术揭秘",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "c46f2adc4a6a91ec",
+      "parent": 0,
+      "droppable": true,
+      "text": "如何用“标签+番茄钟”治好你的拖延症？",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }
