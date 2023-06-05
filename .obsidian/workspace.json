@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0f0ec81d014af1de",
+        "id": "ee96518bf2b6a69c",
         "type": "tabs",
         "children": [
           {
-            "id": "9041114062c5755b",
+            "id": "5108b0d095146f6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/ProComponents/ProFormText添加onClick事件.md",
-                "mode": "source",
+                "file": "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -77,8 +77,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,9 +97,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/ProComponents/ProFormText添加onClick事件.md"
-              }
+              "state": {}
             }
           },
           {
@@ -145,7 +142,7 @@
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://www.dida365.com/webapp/#q/all/tasks"
+                "url": "https://www.dida365.com/#q/all/tasks"
               }
             }
           },
@@ -168,16 +165,6 @@
                 "url": "https://weread.qq.com/"
               }
             }
-          },
-          {
-            "id": "1d03301cbde777bb",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://v.flomoapp.com/mine?tag=%E5%B0%8F%E9%83%91%E7%9A%84%E7%A7%81%E4%BA%BA%E6%9C%8B%E5%8F%8B%E5%9C%88%2F%E6%91%98%E6%8A%84"
-              }
-            }
           }
         ]
       }
@@ -190,22 +177,23 @@
       "daily-notes:打开/创建今天的日记": false,
       "command-palette:打开命令面板": false,
       "graph:查看关系图谱": false,
-      "obsidian-weread-plugin:Weread": false,
       "workspaces:管理工作区布局": false,
-      "smart-random-note:Open Random Note from Search": false,
       "random-note:开始漫游笔记": false,
+      "obsidian-weread-plugin:Weread": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "smart-random-note:Open Random Note from Search": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9041114062c5755b",
+  "active": "8b3983fc61f6ffa6",
   "lastOpenFiles": [
+    "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/ProComponents/ProFormText添加onClick事件.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/限制上传文件的大小.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/官方README.md.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/Props属性对应效果.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/README.md.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/日期选择器/限制选择时间区间.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/ProComponents/ProFormText添加onClick事件.md",
     "03--学习方法论/熵基知识分享/默认看板.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/ProComponents",
     "03--学习方法论/熵基知识分享/知识分享草稿.md",
@@ -218,7 +206,6 @@
     "01--知识体系/02--计算机基础/README.md",
     "02--读书笔记/README.md",
     "03--学习方法论/熵基知识分享/参考文献.md",
-    "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Model/模态框按钮修改样式.md",
     "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试宝典/javascript手写精通面试宝典.md",
     "01--知识体系/099--插件&&软件&&其他/Obsidian/Obsidian-使用技巧.md",

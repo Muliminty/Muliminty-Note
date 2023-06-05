@@ -379,6 +379,17 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "02bc2b2727aadc90",
+      "parent": 0,
+      "droppable": true,
+      "text": "python - 搜索",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }
