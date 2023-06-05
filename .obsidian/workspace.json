@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
-                "mode": "preview",
+                "file": "099--Test/README.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -97,7 +97,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "099--Test/README.md"
+              }
             }
           },
           {
@@ -185,8 +187,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "8b3983fc61f6ffa6",
+  "active": "5108b0d095146f6b",
   "lastOpenFiles": [
+    "README.md",
     "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/ProComponents/ProFormText添加onClick事件.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/限制上传文件的大小.md",
@@ -213,7 +216,6 @@
     "01--知识体系/README.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/操作样式/查询文字高亮.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/复杂数据类型/树结构/树结构扁平化.md",
-    "01--知识体系/099--插件&&软件&&其他/README.md",
     "06--Memos/附件图片/Pasted Image 20230601110224.png",
     "06--Memos/附件图片",
     "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-9.png",
