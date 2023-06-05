@@ -4,44 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "28dc23544931b2a3",
+        "id": "0f0ec81d014af1de",
         "type": "tabs",
         "children": [
           {
-            "id": "38a0b7b32485f039",
+            "id": "9041114062c5755b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02--读书笔记/README.md",
-                "mode": "preview",
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/ProComponents/ProFormText添加onClick事件.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "2316b9b241002018",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "03--学习方法论/熵基知识分享/默认看板.md"
-              }
-            }
-          },
-          {
-            "id": "c46f2adc4a6a91ec",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "http://mp.weixin.qq.com/s?__biz=MzAwNzQ5NDYxNA==&mid=2649900697&idx=1&sn=493ae9d24c3cff5e081e32393bdad67f&chksm=837ba820b40c2136e20d080fc9a1a308fd87502943823d04822b39ed624fd5465e341e33d381&cur_album_id=1474629951462178821&scene=189#wechat_redirect"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -65,21 +44,6 @@
             }
           },
           {
-            "id": "9ecad09b246738b2",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": true,
-                "collapseAll": true,
-                "extraContext": true,
-                "sortOrder": "alphabeticalReverse"
-              }
-            }
-          },
-          {
             "id": "8e6faee164f44a88",
             "type": "leaf",
             "state": {
@@ -97,8 +61,24 @@
               "type": "surfing-tab-tree",
               "state": {}
             }
+          },
+          {
+            "id": "9ecad09b246738b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "click",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabeticalReverse"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -118,7 +98,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/ProComponents/ProFormText添加onClick事件.md"
+              }
             }
           },
           {
@@ -201,7 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 410.5
+    "width": 466.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,34 +198,35 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "0091c11f0415cf81",
+  "active": "9041114062c5755b",
   "lastOpenFiles": [
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/限制上传文件的大小.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/官方README.md.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/Props属性对应效果.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/README.md.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/日期选择器/限制选择时间区间.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/ProComponents/ProFormText添加onClick事件.md",
     "03--学习方法论/熵基知识分享/默认看板.md",
-    "03--学习方法论/熵基知识分享/参考文献.md",
-    "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
-    "02--读书笔记/README.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/ProComponents",
+    "03--学习方法论/熵基知识分享/知识分享草稿.md",
     "04--看板收集箱/有趣的网址.md",
     "04--看板收集箱/文章.md",
     "04--看板收集箱/电子书.md",
+    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/缓存.md",
+    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/网关.md",
+    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
+    "01--知识体系/02--计算机基础/README.md",
+    "02--读书笔记/README.md",
+    "03--学习方法论/熵基知识分享/参考文献.md",
+    "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Model/模态框按钮修改样式.md",
     "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试宝典/javascript手写精通面试宝典.md",
     "01--知识体系/099--插件&&软件&&其他/Obsidian/Obsidian-使用技巧.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/README.md.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/Apache ECharts使用demo.md",
     "01--知识体系/README.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/操作样式/查询文字高亮.md",
-    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/网关.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/复杂数据类型/树结构/树结构扁平化.md",
     "01--知识体系/099--插件&&软件&&其他/README.md",
-    "Excalidraw/画板2023-06-01 09.43.23.excalidraw.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/JavaScript/下载相关/下载base64格式的图片.md",
-    "00--剪藏/Obsidian/Obsidian插件安装全网最全攻略.md",
-    "02--读书笔记/00--微信读书/计算机/你不知道的JavaScript（上卷）.md",
-    "02--读书笔记/00--微信读书/计算机/CSS世界.md",
-    "02--读书笔记/00--微信读书/计算机/图解HTTP.md",
-    "02--读书笔记/00--微信读书/计算机/JavaScript高级程序设计（第4版）.md",
-    "02--读书笔记/00--微信读书/计算机/JavaScript设计模式与开发实践.md",
-    "02--读书笔记/00--微信读书/计算机/网络是怎样连接的.md",
     "06--Memos/附件图片/Pasted Image 20230601110224.png",
     "06--Memos/附件图片",
     "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-9.png",
@@ -263,7 +246,6 @@
     "其他/佛本是道.txt",
     "099--Test/附件图片/百度地图开发入门.pdf.lnk",
     "099--Test/附件图片/常用代码片段.pdf",
-    "099--Test/附件图片",
     "099--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"

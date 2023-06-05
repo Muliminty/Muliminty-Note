@@ -368,6 +368,17 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "110a043546a147b1",
+      "parent": 0,
+      "droppable": true,
+      "text": "图解HTTP-上野宣-微信读书",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }
