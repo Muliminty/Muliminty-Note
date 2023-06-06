@@ -4,19 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "ee96518bf2b6a69c",
+        "id": "cbb1a4821212fb67",
         "type": "tabs",
         "children": [
           {
-            "id": "5108b0d095146f6b",
+            "id": "dcba13f45bfeffcd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "surfing-view",
               "state": {
-                "file": "099--Test/README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "url": "https://sspai.com/post/68427"
+              }
+            }
+          },
+          {
+            "id": "8c8e265cddffa982",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://sspai.com/u/5b3wva6y/posts"
               }
             }
           }
@@ -68,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "GitHub",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -97,9 +104,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "099--Test/README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -187,8 +192,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "5108b0d095146f6b",
+  "active": "dcba13f45bfeffcd",
   "lastOpenFiles": [
+    "01--知识体系/099--插件&&软件&&其他/Obsidian/Obsidian-使用技巧.md",
+    "01--知识体系/099--插件&&软件&&其他/Obsidian/语法技巧.md",
+    "01--知识体系/099--插件&&软件&&其他/Obsidian/微信读书插件模板备份.md",
     "00--剪藏/Github/Github为什么没有记录你的Contributions.md",
     "099--Test/README.md",
     "README.md",
@@ -213,9 +221,6 @@
     "03--学习方法论/熵基知识分享/参考文献.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Model/模态框按钮修改样式.md",
     "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试宝典/javascript手写精通面试宝典.md",
-    "01--知识体系/099--插件&&软件&&其他/Obsidian/Obsidian-使用技巧.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/Apache ECharts使用demo.md",
-    "01--知识体系/README.md",
     "06--Memos/附件图片/Pasted Image 20230601110224.png",
     "06--Memos/附件图片",
     "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-9.png",
