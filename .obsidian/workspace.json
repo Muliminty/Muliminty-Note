@@ -4,27 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cbb1a4821212fb67",
+        "id": "f5fb0483e586d787",
         "type": "tabs",
         "children": [
           {
-            "id": "dcba13f45bfeffcd",
+            "id": "dd0788181b103377",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://sspai.com/post/68427"
-              }
-            }
-          },
-          {
-            "id": "8c8e265cddffa982",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://sspai.com/u/5b3wva6y/posts"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -192,7 +180,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "dcba13f45bfeffcd",
+  "active": "dd0788181b103377",
   "lastOpenFiles": [
     "01--知识体系/099--插件&&软件&&其他/Obsidian/Obsidian-使用技巧.md",
     "01--知识体系/099--插件&&软件&&其他/Obsidian/语法技巧.md",
