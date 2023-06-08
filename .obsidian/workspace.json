@@ -4,15 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "f5fb0483e586d787",
+        "id": "d849d33a66afa4c0",
         "type": "tabs",
+        "dimension": 58.139534883720934,
         "children": [
           {
-            "id": "dd0788181b103377",
+            "id": "3c3894cf85f6aa3e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "surfing-view",
+              "state": {
+                "url": "https://weread.qq.com/web/reader/6bf3215071a123016bf0b74?"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f5fb0483e586d787",
+        "type": "tabs",
+        "dimension": 41.86046511627907,
+        "children": [
+          {
+            "id": "81d8bdad3f722fd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02--读书笔记/设计模式/JavaScript设计模式与开发实践.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -76,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 297.5,
+    "collapsed": true
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -102,15 +126,7 @@
               "type": "calendar",
               "state": {}
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "366e0e71d35865b6",
-        "type": "tabs",
-        "dimension": 67.71428571428572,
-        "children": [
+          },
           {
             "id": "8b3983fc61f6ffa6",
             "type": "leaf",
@@ -120,7 +136,15 @@
                 "url": "http://yuindex.yupi.icu/#/"
               }
             }
-          },
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "366e0e71d35865b6",
+        "type": "tabs",
+        "dimension": 67.71428571428572,
+        "children": [
           {
             "id": "fa9d31c059ecf26d",
             "type": "leaf",
@@ -160,12 +184,23 @@
                 "url": "https://weread.qq.com/"
               }
             }
+          },
+          {
+            "id": "0723d11289a9818d",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.json.cn/runcode/run_javascript/"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 466.5
+    "width": 878.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,41 +209,43 @@
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
+      "smart-random-note:Open Random Note from Search": false,
       "obsidian-weread-plugin:Weread": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "smart-random-note:Open Random Note from Search": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "dd0788181b103377",
+  "active": "3c3894cf85f6aa3e",
   "lastOpenFiles": [
+    "02--读书笔记/设计模式/JavaScript设计模式与开发实践.md",
+    "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
+    "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-10.png",
+    "02--读书笔记/README.md",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/00--Js知识碎片/099--深入Js(该文件夹笔记废弃后期整理)/JS二进制.md",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/00--Js知识碎片/099--深入Js(该文件夹笔记废弃后期整理)/深入Js--Img/Pasted image 20230426134554.png",
+    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/网关.md",
+    "02--读书笔记/设计模式",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/00--Js知识碎片/099--深入Js(该文件夹笔记废弃后期整理)/事件循环.md",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/00--Js知识碎片/099--内置对象(该文件夹笔记废弃后期整理)/Blob知识碎片/Blob().md",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/00--Js知识碎片/099--内置对象(该文件夹笔记废弃后期整理)/Blob知识碎片/Blob.size.md",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/00--Js知识碎片/099--内置对象(该文件夹笔记废弃后期整理)/Blob知识体系.md",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/00--Js知识碎片/01--JavaScript 标准内置对象/字符串--String.md",
+    "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/00--Js知识碎片/099--内置对象(该文件夹笔记废弃后期整理)/FileReader知识体系.md",
+    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/缓存.md",
+    "01--知识体系/02--计算机基础/计算机网络/附件Excalidraw/代理.excalidraw.md",
     "01--知识体系/099--插件&&软件&&其他/Obsidian/Obsidian-使用技巧.md",
     "01--知识体系/099--插件&&软件&&其他/Obsidian/语法技巧.md",
     "01--知识体系/099--插件&&软件&&其他/Obsidian/微信读书插件模板备份.md",
     "00--剪藏/Github/Github为什么没有记录你的Contributions.md",
     "099--Test/README.md",
     "README.md",
-    "03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/ProComponents/ProFormText添加onClick事件.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/限制上传文件的大小.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/官方README.md.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/Props属性对应效果.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/README.md.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/日期选择器/限制选择时间区间.md",
-    "03--学习方法论/熵基知识分享/默认看板.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/ProComponents",
-    "03--学习方法论/熵基知识分享/知识分享草稿.md",
-    "04--看板收集箱/有趣的网址.md",
-    "04--看板收集箱/文章.md",
-    "04--看板收集箱/电子书.md",
-    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/缓存.md",
-    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/网关.md",
-    "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
-    "01--知识体系/02--计算机基础/README.md",
-    "02--读书笔记/README.md",
-    "03--学习方法论/熵基知识分享/参考文献.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Model/模态框按钮修改样式.md",
-    "01--知识体系/01--前端程序员的自我修养/03--面试之道/面试宝典/javascript手写精通面试宝典.md",
     "06--Memos/附件图片/Pasted Image 20230601110224.png",
     "06--Memos/附件图片",
     "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-9.png",
@@ -218,8 +255,6 @@
     "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-8.png",
     "03--学习方法论/熵基知识分享/附件图片/Pasted image 20230531111822.jpg",
     "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-7.png",
-    "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-6.png",
-    "03--学习方法论/熵基知识分享/附件图片/559E92F0F5C1F7D7859F01DA62E641EC.png",
     "06--Memos/日记模板",
     "06--Memos",
     "附件图片",
@@ -227,7 +262,6 @@
     "03--学习方法论/熵基知识分享",
     "其他/佛本是道.txt",
     "099--Test/附件图片/百度地图开发入门.pdf.lnk",
-    "099--Test/附件图片/常用代码片段.pdf",
     "099--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"
