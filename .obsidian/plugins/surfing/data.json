@@ -38,17 +38,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "69df6bf99d35ebd4",
-      "parent": 0,
-      "droppable": true,
-      "text": "This syntax requires an imported helper but module 'tslib' cannot be found | bobbyhadz",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }

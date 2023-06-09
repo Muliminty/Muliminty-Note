@@ -77,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,7 +188,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7058a54a1f114e91",
+  "active": "b5f9d18702c6bf89",
   "lastOpenFiles": [
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/自定义hook函数/useUpdateEffect.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/React-BMapGL/报错处理.md",
