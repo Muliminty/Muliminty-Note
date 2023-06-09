@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/hook相关技巧/useImperativeHandle.md",
-                "mode": "preview",
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/React-BMapGL/报错处理.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 322.5,
+    "collapsed": true
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/hook相关技巧/useImperativeHandle.md"
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/React-BMapGL/报错处理.md"
               }
             }
           },
@@ -188,10 +189,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b5f9d18702c6bf89",
+  "active": "7058a54a1f114e91",
   "lastOpenFiles": [
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/自定义hook函数/useUpdateEffect.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/React-BMapGL/报错处理.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/hook相关技巧/useImperativeHandle.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/自定义hook函数/useUpdateEffect.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/React-BMapGL/未命名看板.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/React-BMap",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/React-BMapGL",
@@ -222,7 +224,6 @@
     "README.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/ProComponents/ProFormText添加onClick事件.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/限制上传文件的大小.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/官方README.md.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/ProComponents",
     "06--Memos/附件图片/Pasted Image 20230601110224.png",
     "06--Memos/附件图片",
