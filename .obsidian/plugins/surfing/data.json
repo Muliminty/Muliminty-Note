@@ -40,6 +40,17 @@
   },
   "treeData": [
     {
+      "id": "3c3894cf85f6aa3e",
+      "parent": 0,
+      "droppable": true,
+      "text": "JavaScript设计模式与开发实践-曾探-微信读书",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
       "id": "8b3983fc61f6ffa6",
       "parent": 0,
       "droppable": true,
@@ -95,10 +106,21 @@
       }
     },
     {
-      "id": "4802be4b0c1cf3c3",
+      "id": "0723d11289a9818d",
       "parent": 0,
       "droppable": true,
-      "text": "This syntax requires an imported helper but module 'tslib' cannot be found | bobbyhadz",
+      "text": "在线运行JavaScript",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "b525538460f25a96",
+      "parent": 0,
+      "droppable": true,
+      "text": "New Tab",
       "data": {
         "fileType": "site",
         "fileSize": "",
