@@ -4,38 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d849d33a66afa4c0",
+        "id": "22af5ef9ed480640",
         "type": "tabs",
-        "dimension": 58.139534883720934,
         "children": [
           {
-            "id": "3c3894cf85f6aa3e",
+            "id": "4c3d9c59d57786a1",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://weread.qq.com/web/reader/6bf3215071a123016bf0b74k65132ca01b6512bd43d90e3"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "f5fb0483e586d787",
-        "type": "tabs",
-        "dimension": 41.86046511627907,
-        "children": [
-          {
-            "id": "81d8bdad3f722fd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02--读书笔记/设计模式/JavaScript设计模式与开发实践.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "memos_view",
+              "state": {}
             }
           }
         ]
@@ -62,6 +39,21 @@
             }
           },
           {
+            "id": "9ecad09b246738b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabeticalReverse"
+              }
+            }
+          },
+          {
             "id": "8e6faee164f44a88",
             "type": "leaf",
             "state": {
@@ -79,28 +71,12 @@
               "type": "surfing-tab-tree",
               "state": {}
             }
-          },
-          {
-            "id": "9ecad09b246738b2",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": true,
-                "collapseAll": true,
-                "extraContext": true,
-                "sortOrder": "alphabeticalReverse"
-              }
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 297.5,
-    "collapsed": true
+    "width": 322.5
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -126,7 +102,15 @@
               "type": "calendar",
               "state": {}
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "366e0e71d35865b6",
+        "type": "tabs",
+        "dimension": 67.71428571428572,
+        "children": [
           {
             "id": "8b3983fc61f6ffa6",
             "type": "leaf",
@@ -136,15 +120,7 @@
                 "url": "http://yuindex.yupi.icu/#/"
               }
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "366e0e71d35865b6",
-        "type": "tabs",
-        "dimension": 67.71428571428572,
-        "children": [
+          },
           {
             "id": "fa9d31c059ecf26d",
             "type": "leaf",
@@ -161,7 +137,7 @@
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://www.dida365.com/#q/all/tasks"
+                "url": "https://www.dida365.com/webapp/#q/all/tasks"
               }
             }
           },
@@ -184,49 +160,31 @@
                 "url": "https://weread.qq.com/"
               }
             }
-          },
-          {
-            "id": "0723d11289a9818d",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.json.cn/runcode/run_javascript/"
-              }
-            }
-          },
-          {
-            "id": "b525538460f25a96",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://github.com/Muliminty"
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 768.5
+    "width": 361.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "daily-notes:打开/创建今天的日记": false,
       "command-palette:打开命令面板": false,
       "graph:查看关系图谱": false,
-      "workspaces:管理工作区布局": false,
-      "random-note:开始漫游笔记": false,
-      "smart-random-note:Open Random Note from Search": false,
       "obsidian-weread-plugin:Weread": false,
+      "workspaces:管理工作区布局": false,
+      "smart-random-note:Open Random Note from Search": false,
+      "random-note:开始漫游笔记": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "3c3894cf85f6aa3e",
+  "active": "4c3d9c59d57786a1",
   "lastOpenFiles": [
+    "01--知识体系/01--前端程序员的自我修养/奇技淫巧/本地部署antd文档.md",
+    "01--知识体系/099--插件&&软件&&其他/Clean-mark.md",
+    "00--剪藏/js库/7093866983178895391.md",
     "02--读书笔记/设计模式/JavaScript设计模式与开发实践.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/React-BMapGL/报错处理.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/hook相关技巧/useImperativeHandle.md",
@@ -257,9 +215,6 @@
     "01--知识体系/099--插件&&软件&&其他/Obsidian/微信读书插件模板备份.md",
     "00--剪藏/Github/Github为什么没有记录你的Contributions.md",
     "099--Test/README.md",
-    "README.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/ProComponents/ProFormText添加onClick事件.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Ant Design/Upload/Upload--知识碎片/限制上传文件的大小.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/ProComponents",
     "06--Memos/附件图片/Pasted Image 20230601110224.png",
     "06--Memos/附件图片",
