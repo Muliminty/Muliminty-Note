@@ -11,9 +11,12 @@
             "id": "7058a54a1f114e91",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "04--看板收集箱/电子书.md"
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/库/react 使用qrcode.react插件生成二维码并下载.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -46,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "变形",
+                "query": "二维码",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -74,12 +77,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
-    "collapsed": true
+    "width": 322.5
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -96,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04--看板收集箱/电子书.md"
+                "file": "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/库/react 使用qrcode.react插件生成二维码并下载.md"
               }
             }
           },
@@ -187,9 +190,13 @@
   },
   "active": "7058a54a1f114e91",
   "lastOpenFiles": [
+    "00--剪藏/Apache ECharts/echarts——各个配置项详细说明总结.md",
+    "ECharts入门.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/echarts——各个配置项详细说明总结.md",
+    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/Apache ECharts/Apache ECharts使用demo.md",
+    "04--看板收集箱/电子书.md",
     "04--看板收集箱/文章.md",
     "04--看板收集箱/有趣的网址.md",
-    "04--看板收集箱/电子书.md",
     "02--读书笔记/设计模式/JavaScript设计模式与开发实践.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/CSS/文本超出隐藏.md",
     "00--剪藏/js库/dnd kit.md",
@@ -212,14 +219,10 @@
     "01--知识体系/099--插件&&软件&&其他/Clean-mark.md",
     "00--剪藏/js库/7093866983178895391.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/React-BMapGL/报错处理.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/hook相关技巧/useImperativeHandle.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/React/自定义hook函数/useUpdateEffect.md",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/React-BMapGL/未命名看板.md",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/React-BMap",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/React-BMapGL",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/React-BMapGL/附件图片/报错处理-1.png",
     "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/React-BMapGL/附件图片/报错处理.png",
-    "01--知识体系/01--前端程序员的自我修养/02--开发技巧/巨人的肩膀/百度地图Api使用/React-BMapGL/百度地图开发入门.md",
     "03--学习方法论/熵基知识分享/附件图片/学习方法--知识管理系统-10.png",
     "01--知识体系/01--前端程序员的自我修养/01--前端基础/JavaScript/00--Js知识碎片/099--深入Js(该文件夹笔记废弃后期整理)/深入Js--Img/Pasted image 20230426134554.png",
     "02--读书笔记/设计模式",
