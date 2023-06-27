@@ -6,18 +6,15 @@
       {
         "id": "4bf60f90f29c0f85",
         "type": "tabs",
-        "dimension": 45.84221748400853,
+        "dimension": 45.84221748400852,
         "children": [
           {
             "id": "e181b8ebe0e5200c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "04--看板收集箱/有趣的网址.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "file": "04--看板收集箱/有趣的网址.md"
               }
             }
           }
@@ -26,7 +23,7 @@
       {
         "id": "06ee3a7f234bb40e",
         "type": "tabs",
-        "dimension": 54.15778251599147,
+        "dimension": 54.15778251599148,
         "children": [
           {
             "id": "0f07d9c78673a6bc",
