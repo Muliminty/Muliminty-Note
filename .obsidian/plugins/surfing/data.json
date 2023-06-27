@@ -93,6 +93,105 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "0d78a9cba2e6c5ce",
+      "parent": 0,
+      "droppable": true,
+      "text": "【译】dnd-kit 文档中文翻译 -Overview & Quick start - 掘金",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "9dccfe8c7e21d12c",
+      "parent": 0,
+      "droppable": true,
+      "text": "【译】dnd-kit 中英文档对照-DndContext - 掘金",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "dfd396184ca3c02a",
+      "parent": 0,
+      "droppable": true,
+      "text": "【译】dnd-kit 中英文档对照-DndContext - 掘金",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "19326fac32dd20d1",
+      "parent": 0,
+      "droppable": true,
+      "text": "【译】dnd-kit 文档中文翻译 -Overview & Quick start - 掘金",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "4b70b76ee923577b",
+      "parent": 0,
+      "droppable": true,
+      "text": "关注消息 - 掘金",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "632c7942438a3bf5",
+      "parent": 0,
+      "droppable": true,
+      "text": "New Tab",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "9d14d4e7075cc8d7",
+      "parent": 0,
+      "droppable": true,
+      "text": "稀土掘金",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "a39f8125d4282e98",
+      "parent": 0,
+      "droppable": true,
+      "text": "重读《JavaScript高级程序设计》 - Muliminty的专栏 - 掘金",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "f99dc595fdd1e7ac",
+      "parent": 0,
+      "droppable": true,
+      "text": "a - 搜索结果 - 知乎",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }
