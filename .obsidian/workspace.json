@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0fb9d998c71a132a",
+        "id": "37d1c5c96f14e551",
         "type": "tabs",
         "children": [
           {
-            "id": "6fe017cd9c2c06cf",
+            "id": "29494065090a6def",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#读书笔记",
+                "query": "tag:#读书笔记/图解HTTP",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -86,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -173,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5,
-    "collapsed": true
+    "width": 361.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,10 +181,20 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "6fe017cd9c2c06cf",
+  "active": "29494065090a6def",
   "lastOpenFiles": [
-    "9999--回收站/ECharts入门.md",
     "README.md",
+    "200--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
+    "200--计算机基础/计算机网络/计算机网络知识碎片/缓存.md",
+    "200--计算机基础/计算机网络/计算机网络知识碎片/网关.md",
+    "500--小技巧/本地部署antd文档.md",
+    "500--小技巧/博客园/主题备份3.md",
+    "500--小技巧/博客园/主题备份2.md",
+    "500--小技巧/博客园/主题备份.md",
+    "100--剪藏/Github/解决raw.githubusercontent.com无法访问的问题.md",
+    "100--剪藏/Github/Github为什么没有记录你的Contributions.md",
+    "100--剪藏/Git/克隆错误RPC failed  curl 56 Recv failure  Connection was reset.  及克隆速度慢问题解决.md",
+    "9999--回收站/ECharts入门.md",
     "600--资源&&网址书签/601--书签看板",
     "600--资源&&网址书签/601--书签看板/有趣的网址.md",
     "600--资源&&网址书签/601--书签看板/文章.md",
@@ -208,17 +210,8 @@
     "500--小技巧/浏览器使用技巧/知乎PC相关/知乎（网页版）夜间模式（暗色模式）.md",
     "500--小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
     "500--小技巧/浏览器使用技巧/浏览器插件介绍/stylish.md",
-    "500--小技巧/PicGo.md",
-    "005--小技巧/099--插件&&软件&&其他/README.md",
-    "500--小技巧/本地部署antd文档.md",
-    "500--小技巧/Hexo/hexo指令.md",
-    "500--小技巧/Hexo/教程文章.md",
-    "500--小技巧/Clean-mark.md",
     "附件/头图/1287239.jpg",
-    "9999--回收站/01--知识体系/03--学习方法论/熵基知识分享/参考文献.md",
-    "000-Inbox/笔记整理.md",
     "400--后端相关",
-    "000-Inbox/图解HTTP.md",
     "000-Inbox",
     "未命名 1",
     "200--计算机基础/附件/Pasted image 20230426174907.jpg",
