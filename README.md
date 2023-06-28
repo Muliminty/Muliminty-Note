@@ -1,5 +1,2 @@
-# 这是一个学习笔记
+# Muliminty 编程笔记仓库
 
-Muliminty 知识管理
-
-基于 obsidian 

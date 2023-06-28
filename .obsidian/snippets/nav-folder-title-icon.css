@@ -5,9 +5,6 @@
     right: 1px;
 }
 
-
-
-
 /* md 文件 icon */
 .nav-file-title-content::before {
     content: "📄" !important;
@@ -78,29 +75,28 @@
 
 
 
-
-
-/* 一级文件夹   icon */
-.nav-folder-title[data-path="01--知识体系"] .nav-folder-title-content::before {
+.nav-folder-title[data-path*="知识"] .nav-folder-title-content::before {
     content: "📚" !important;
     position: relative !important;
     right: 1px;
 }
 
-.nav-folder-title[data-path="02--读书笔记"] .nav-folder-title-content::before {
+.nav-folder-title[data-path*="笔记"] .nav-folder-title-content::before {
     content: "✏" !important;
     position: relative !important;
     right: 1px;
 }
 
-.nav-folder-title[data-path="03--学习方法论"] .nav-folder-title-content::before {
+.nav-folder-title[data-path*="方法论"] .nav-folder-title-content::before {
     content: "🔍" !important;
     position: relative !important;
     right: 1px;
 }
 
-.nav-folder-title[data-path="04--看板收集箱"] .nav-folder-title-content::before {
+.nav-folder-title[data-path*="看板"] .nav-folder-title-content::before {
     content: "🗃" !important;
     position: relative !important;
     right: 1px;
 }
+
+/* 一级文件夹   icon */

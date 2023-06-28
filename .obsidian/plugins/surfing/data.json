@@ -192,6 +192,116 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "f77c627953717239",
+      "parent": 0,
+      "droppable": true,
+      "text": "如何构建笔记系统-实际操作篇 - 知乎",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "0a81bd8ff15e9521",
+      "parent": 0,
+      "droppable": true,
+      "text": "'整理' 的搜索结果 - Obsidian 中文论坛",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "5873510f43b6ea24",
+      "parent": 0,
+      "droppable": true,
+      "text": "首页 - 知乎",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "89d949115729b7f5",
+      "parent": 0,
+      "droppable": true,
+      "text": "整理笔记（生活笔记、学习笔记、工作笔记等）用哪个笔记软件好？ - 知乎",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "dce2c6e8afc03b34",
+      "parent": 0,
+      "droppable": true,
+      "text": "笔记整理 - 搜索结果 - 知乎",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "dcb960324094f1fb",
+      "parent": 0,
+      "droppable": true,
+      "text": "程序员一般是怎么记自己的编程笔记的？用什么软件记录的？ - 知乎",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "fafe935eb9646b35",
+      "parent": 0,
+      "droppable": true,
+      "text": "构建知识体系方法论 · 语雀",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "21cdbf0ce56cef49",
+      "parent": 0,
+      "droppable": true,
+      "text": "把信息交给未来的自己——构建你的第二大脑 | Mr.Huang Talk",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "89ed64dc85df0ca4",
+      "parent": 0,
+      "droppable": true,
+      "text": "手把手教你打造一套最牛的知识笔记管理系统！ - 知乎",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "6fe017cd9c2c06cf",
+      "parent": 0,
+      "droppable": true,
+      "text": "手把手教你打造一套最牛的知识笔记管理系统！ - 知乎",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }
