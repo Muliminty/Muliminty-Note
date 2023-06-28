@@ -49,8 +49,14 @@
 
 /* 模糊匹配 icon */
 
-.nav-folder-title[data-path*="其他"] .nav-folder-title-content::before {
-    content: "💼" !important;
+.nav-folder-title[data-path*="剪藏"] .nav-folder-title-content::before {
+    content: "✂️" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+.nav-folder-title[data-path*="计算机"] .nav-folder-title-content::before {
+    content: "💻" !important;
     position: relative !important;
     right: 1px;
 }
@@ -61,40 +67,51 @@
     right: 1px;
 }
 
-.nav-folder-title[data-path*="代码"] .nav-folder-title-content::before {
-    content: "💻️" !important;
-    position: relative !important;
-    right: 1px;
-}
-
-.nav-folder-title[data-path*="剪藏"] .nav-folder-title-content::before {
-    content: "✂️" !important;
+.nav-folder-title[data-path*="前端"] .nav-folder-title-content::before {
+    content: "🖌" !important;
     position: relative !important;
     right: 1px;
 }
 
 
+.nav-folder-title[data-path*="后端"] .nav-folder-title-content::before {
+    content: "🖍" !important;
+    position: relative !important;
+    right: 1px;
+}
 
-.nav-folder-title[data-path*="知识"] .nav-folder-title-content::before {
+.nav-folder-title[data-path*="小技巧"] .nav-folder-title-content::before {
+    content: "🔧" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+.nav-folder-title[data-path*="资源"] .nav-folder-title-content::before {
+    content: "🗂" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+.nav-folder-title[data-path*="读书"] .nav-folder-title-content::before {
     content: "📚" !important;
     position: relative !important;
     right: 1px;
 }
 
-.nav-folder-title[data-path*="笔记"] .nav-folder-title-content::before {
-    content: "✏" !important;
+.nav-folder-title[data-path*="Inbox"] .nav-folder-title-content::before {
+    content: "📦" !important;
     position: relative !important;
     right: 1px;
 }
 
-.nav-folder-title[data-path*="方法论"] .nav-folder-title-content::before {
-    content: "🔍" !important;
+.nav-folder-title[data-path*="回收站"] .nav-folder-title-content::before {
+    content: "🗑︎" !important;
     position: relative !important;
     right: 1px;
 }
 
-.nav-folder-title[data-path*="看板"] .nav-folder-title-content::before {
-    content: "🗃" !important;
+.nav-folder-title[data-path*="附件"] .nav-folder-title-content::before {
+    content: "💽" !important;
     position: relative !important;
     right: 1px;
 }

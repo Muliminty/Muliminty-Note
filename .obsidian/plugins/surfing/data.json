@@ -302,6 +302,28 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "29494065090a6def",
+      "parent": 0,
+      "droppable": true,
+      "text": "垃圾 Emoji(122) | EmojiAll",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "46d5f89260495d56",
+      "parent": 0,
+      "droppable": true,
+      "text": "分类:⌚物品相关的Emoji大全 | EmojiAll",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }
