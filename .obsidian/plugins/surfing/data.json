@@ -324,6 +324,28 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "709a424670e8dd7d",
+      "parent": 0,
+      "droppable": true,
+      "text": "JavaScript设计模式与开发实践-曾探-微信读书",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "6864bab4e65d01ba",
+      "parent": 0,
+      "droppable": true,
+      "text": "首页 - 知乎",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }

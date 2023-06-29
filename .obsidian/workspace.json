@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a8648a054da38caa",
+        "id": "6b1adb379484b6d0",
         "type": "tabs",
         "children": [
           {
-            "id": "cd74718191ebf7b4",
+            "id": "dad6210c698b2c83",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#读书笔记/图解HTTP",
+                "query": "usestat",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -86,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -168,13 +161,11 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 361.5,
-    "collapsed": true
+    "width": 361.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,11 +180,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "cd74718191ebf7b4",
+  "active": "b5f9d18702c6bf89",
   "lastOpenFiles": [
+    "300--前端相关/02--开发技巧/框架&库/React/hook相关技巧/useState精通/useState 异步相关问题.md",
+    "9999--回收站/ECharts入门.md",
     "000-Inbox/笔记整理.md",
-    "000-Inbox/2312.md",
     "README.md",
+    "000-Inbox/2312.md",
     "200--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
     "200--计算机基础/计算机网络/计算机网络知识碎片/缓存.md",
     "200--计算机基础/计算机网络/计算机网络知识碎片/网关.md",
@@ -204,7 +197,6 @@
     "100--剪藏/Github/解决raw.githubusercontent.com无法访问的问题.md",
     "100--剪藏/Github/Github为什么没有记录你的Contributions.md",
     "100--剪藏/Git/克隆错误RPC failed  curl 56 Recv failure  Connection was reset.  及克隆速度慢问题解决.md",
-    "9999--回收站/ECharts入门.md",
     "600--资源&&网址书签/601--书签看板",
     "600--资源&&网址书签/601--书签看板/有趣的网址.md",
     "600--资源&&网址书签/601--书签看板/文章.md",
@@ -217,7 +209,6 @@
     "300--前端相关/06--代码片段/README.md",
     "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md",
     "500--小技巧/浏览器使用技巧/一键截图.md",
-    "500--小技巧/浏览器使用技巧/知乎PC相关/知乎（网页版）夜间模式（暗色模式）.md",
     "附件/头图/1287239.jpg",
     "400--后端相关",
     "000-Inbox",
