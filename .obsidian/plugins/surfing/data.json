@@ -346,6 +346,39 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "f132e3933709cce7",
+      "parent": 0,
+      "droppable": true,
+      "text": "微信读书-正版书籍小说免费阅读",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "d737cef16670d4b0",
+      "parent": 0,
+      "droppable": true,
+      "text": "超级掠食者系统--微信读书",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "8f1cecebade4cff1",
+      "parent": 0,
+      "droppable": true,
+      "text": "整个活儿~永远加载不满的进度条 - 掘金",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }
