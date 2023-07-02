@@ -379,6 +379,28 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "1175e83a51c3ca2a",
+      "parent": 0,
+      "droppable": true,
+      "text": "Obsidian 的高级玩法|打造能跳转到任何格式文件的笔记 - 掘金",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "162d4810af5d69d5",
+      "parent": 0,
+      "droppable": true,
+      "text": "Obsidian 的高级玩法|打造能跳转到任何格式文件的笔记 - 掘金",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }
