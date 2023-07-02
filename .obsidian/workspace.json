@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d93ff33eacbce3f2",
+            "id": "bcfb2e207c1efe6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useFakeProgress.md",
-                "mode": "source",
+                "file": "9999--回收站/01--知识体系/03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5,
-    "collapsed": true
+    "width": 245.5
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -95,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "9999--回收站/01--知识体系/03--学习方法论/熵基知识分享/学习方法--知识管理系统.md"
+              }
             }
           },
           {
@@ -136,38 +137,9 @@
                 "url": "http://yuindex.yupi.icu/#/"
               }
             }
-          },
-          {
-            "id": "43b6593cf335e777",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.dida365.com/#q/all/tasks"
-              }
-            }
-          },
-          {
-            "id": "ae088fc3cf22ae65",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://flowus.cn/fdbedd2a-7ae5-41f4-9448-669670ff0521"
-              }
-            }
-          },
-          {
-            "id": "d737cef16670d4b0",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://weread.qq.com/web/reader/59d421f3643425f32524c364d78364c4c363239366852366775377a59483031ef5k977321c02529778d5d2116b"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -186,12 +158,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "fa9d31c059ecf26d",
+  "active": "bcfb2e207c1efe6d",
   "lastOpenFiles": [
-    "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useFakeProgress.md",
+    "9999--回收站/01--知识体系/03--学习方法论/熵基知识分享/学习方法白板.md",
+    "9999--回收站/01--知识体系/git笔记.md",
+    "9999--回收站/01--知识体系/README.md",
+    "9999--回收站/ECharts入门.md",
+    "000-Inbox/知识分享.md",
     "000-Inbox/笔记整理.md",
-    "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useUpdateEffect.md",
     "000-Inbox/待剪藏.md",
+    "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useFakeProgress.md",
+    "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useUpdateEffect.md",
     "100--剪藏/JavaScript/es6 技巧.md",
     "500--小技巧/Clean-mark.md",
     "300--前端相关/06--代码片段/前端常用技巧.md",
@@ -209,11 +186,6 @@
     "300--前端相关/02--开发技巧/JavaScript/数据格式化/时间格式.md",
     "300--前端相关/02--开发技巧/JavaScript/数据格式化/金额格式化.md",
     "300--前端相关/02--开发技巧/JavaScript/简单数据类型/字符串技巧.md",
-    "300--前端相关/02--开发技巧/框架&库/React/hook相关技巧/useState精通/useState 异步相关问题.md",
-    "9999--回收站/ECharts入门.md",
-    "README.md",
-    "000-Inbox/2312.md",
-    "200--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
     "600--资源&&网址书签/601--书签看板",
     "附件/头图/1287239.jpg",
     "400--后端相关",
