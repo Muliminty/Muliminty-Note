@@ -35,3 +35,9 @@ ref = {this.formRef}
 this.formRef.current.resetFields();
 
 ```
+
+3. 失去焦点清空空格
+
+```js
+  onBlur={({ target: { value } }) => { formRef.current.setFieldsValue({ 'name': value.replace(/\s*/g, "") }) }}
+```
