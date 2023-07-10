@@ -4,16 +4,73 @@
     "type": "split",
     "children": [
       {
-        "id": "743a3c171a6ed2d8",
-        "type": "tabs",
+        "id": "3b5596aaacbb0b0b",
+        "type": "split",
+        "dimension": 36.353944562899784,
         "children": [
           {
-            "id": "7058a54a1f114e91",
+            "id": "96533c76125085f0",
+            "type": "tabs",
+            "dimension": 19.047619047619047,
+            "children": [
+              {
+                "id": "bcfd360eb9eaeba8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "300--前端相关/06--代码片段/微信加密.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "b6668f2582a62adf",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://www.yuque.com/wangxiaocuo/coding-blog/ggt91g3mtg55gq96#pMmbu"
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "217f6df6b54d0bf5",
+            "type": "tabs",
+            "dimension": 80.95238095238095,
+            "children": [
+              {
+                "id": "d31d602b341dadf7",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://zhuanlan.zhihu.com/p/407013219"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      },
+      {
+        "id": "9fef24d13ad42ae8",
+        "type": "tabs",
+        "dimension": 63.646055437100216,
+        "children": [
+          {
+            "id": "f528404fce35658c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/02--开发技巧/框架&库/Ant Design/Form/antd setFieldsValue 设置表单项的值.md",
+                "file": "300--前端相关/07--文章输出/Emoji.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +78,12 @@
             }
           },
           {
-            "id": "f528404fce35658c",
+            "id": "540bb10dd05414fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/06--代码片段/调试神器.md",
+                "file": "300--前端相关/06--代码片段/微信加密.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -90,12 +147,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 322.5,
+    "collapsed": true
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -111,9 +168,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "300--前端相关/02--开发技巧/框架&库/Ant Design/Form/antd setFieldsValue 设置表单项的值.md"
-              }
+              "state": {}
             }
           },
           {
@@ -181,11 +236,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 361.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,9 +257,25 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7058a54a1f114e91",
+  "active": "b6668f2582a62adf",
   "lastOpenFiles": [
+    "300--前端相关/07--文章输出/Emoji.md",
+    "300--前端相关/07--文章输出/附件/Emoji-7.png",
+    "300--前端相关/07--文章输出/附件/Emoji-6.png",
+    "300--前端相关/07--文章输出/附件/Emoji-5.png",
+    "300--前端相关/07--文章输出/附件/Emoji-4.png",
+    "300--前端相关/06--代码片段/微信加密.md",
+    "300--前端相关/07--文章输出/附件/Emoji-3.png",
+    "300--前端相关/07--文章输出/附件/Emoji-2.png",
+    "300--前端相关/07--文章输出/附件/Emoji-1.png",
+    "300--前端相关/07--文章输出/附件/Emoji.png",
+    "300--前端相关/07--文章输出/附件/字符串遇上Emoji.png",
+    "300--前端相关/07--文章输出/附件",
     "000-Inbox/知识分享.md",
+    "300--前端相关/07--文章输出",
+    "600--资源&&网址书签/601--书签看板/电子书.md",
+    "600--资源&&网址书签/601--书签看板/文章.md",
+    "600--资源&&网址书签/601--书签看板/有趣的网址.md",
     "300--前端相关/06--代码片段/调试神器.md",
     "300--前端相关/02--开发技巧/框架&库/Ant Design/Form/antd setFieldsValue 设置表单项的值.md",
     "300--前端相关/03--面试之道/面试之道PDF材料/JS 原生面经从初级到高级.pdf",
@@ -211,9 +284,6 @@
     "300--前端相关/03--面试之道/面试之道PDF材料/300道HTML、CSS习题及面试题（含答案）.pdf",
     "300--前端相关/03--面试之道/面试之道PDF材料/75个JavaScript面试题集锦，内含解答，自测 JS 掌握程度.pdf",
     "300--前端相关/02--开发技巧/JavaScript/简单数据类型/字符串技巧.md",
-    "600--资源&&网址书签/601--书签看板/电子书.md",
-    "600--资源&&网址书签/601--书签看板/文章.md",
-    "600--资源&&网址书签/601--书签看板/有趣的网址.md",
     "999--读书笔记/设计模式/JavaScript设计模式与开发实践.md",
     "000-Inbox/笔记整理.md",
     "000-Inbox/待剪藏.md",
@@ -224,30 +294,16 @@
     "9999--回收站/01--知识体系/03--学习方法论/熵基知识分享/知识分享草稿.md",
     "9999--回收站/01--知识体系/03--学习方法论/熵基知识分享/学习方法白板.md",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 分割成若干个指定长度的二维数组.md",
-    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/附件/数组 -- 分割成若干个指定长度的二维数组.png",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/附件",
     "100--剪藏/Obsidian/如何解决Obsidian载入插件后无法启用的问题？.md",
     "100--剪藏/Obsidian/7145351315705577485.md",
     "100--剪藏/Obsidian/Obsidian插件安装全网最全攻略.md",
-    "000-Inbox/附件/知识分享-3.jpg",
-    "000-Inbox/附件/知识分享-2.jpg",
-    "000-Inbox/附件/知识分享-1.jpg",
-    "000-Inbox/附件/知识分享.jpg",
-    "000-Inbox/附件/知识分享-17.png",
-    "000-Inbox/附件/知识分享-16.png",
-    "000-Inbox/附件/知识分享-15.png",
-    "000-Inbox/附件/知识分享-14.png",
     "9999--回收站/01--知识体系/03--学习方法论/熵基知识分享/参考文献.md",
     "9999--回收站/01--知识体系/03--学习方法论/熵基知识分享/默认看板.md",
     "300--前端相关/01--前端基础/CSS/CSS知识碎片/CSS 属性计算过程.md",
     "300--前端相关/01--前端基础/JavaScript/00--Js知识碎片/099--深入Js(该文件夹笔记废弃后期整理)/事件循环.md",
-    "300--前端相关/01--前端基础/JavaScript/00--Js知识碎片/099--深入Js(该文件夹笔记废弃后期整理)/JS二进制.md",
-    "300--前端相关/01--前端基础/CSS/预处理器/Less.md",
-    "500--小技巧/本地部署antd文档.md",
     "000-Inbox/附件",
     "600--资源&&网址书签/601--书签看板",
-    "400--后端相关",
-    "000-Inbox",
     "999--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"

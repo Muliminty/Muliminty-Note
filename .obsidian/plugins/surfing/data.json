@@ -115,6 +115,193 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "68c9f8555c222f84",
+      "parent": 0,
+      "droppable": true,
+      "text": "New Tab",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "0981d8a43ef75816",
+      "parent": 0,
+      "droppable": true,
+      "text": "简介 | 带你入门前端工程",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "d31d602b341dadf7",
+      "parent": 0,
+      "droppable": true,
+      "text": "当字符串遇上Emoji - 知乎",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "5ec6b55d1ef3c443",
+      "parent": 0,
+      "droppable": true,
+      "text": "逛逛 · 语雀",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "348d5024a971bf98",
+      "parent": 0,
+      "droppable": true,
+      "text": "聊聊前端场景中的 Emoji",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "7e50bd33e4ac6d44",
+      "parent": 0,
+      "droppable": true,
+      "text": "🫶 Heart Hands Emoji on Apple iOS 16.4",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "53e59441af13ad3f",
+      "parent": 0,
+      "droppable": true,
+      "text": "New Tab",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "b7ed1e250265b63b",
+      "parent": 0,
+      "droppable": true,
+      "text": "逛逛 · 语雀",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "bcfd360eb9eaeba8",
+      "parent": 0,
+      "droppable": true,
+      "text": "聊聊前端场景中的 Emoji",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "f1be736477818708",
+      "parent": 0,
+      "droppable": true,
+      "text": "知乎 - 安全中心",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "1bdcfce15427f41e",
+      "parent": 0,
+      "droppable": true,
+      "text": "码位（code point） - MDN Web 文档术语表：Web 相关术语的定义 | MDN",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "584683b5dd2ad9ec",
+      "parent": 0,
+      "droppable": true,
+      "text": "即将离开语雀 · 语雀",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "fa0dff2eebd0e283",
+      "parent": 0,
+      "droppable": true,
+      "text": "即将离开语雀 · 语雀",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "5a5aa1faced84966",
+      "parent": 0,
+      "droppable": true,
+      "text": "Emoji大全 | Emoji表情符号词典 📓 | EmojiAll中文官方网站",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "0e0afc6fa220296f",
+      "parent": 0,
+      "droppable": true,
+      "text": "HTML entity encoder/decoder",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "b6668f2582a62adf",
+      "parent": 0,
+      "droppable": true,
+      "text": "聊聊前端场景中的 Emoji",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "23f24532c4617aff",
+      "parent": 0,
+      "droppable": true,
+      "text": "New Tab",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }
