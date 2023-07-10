@@ -285,7 +285,7 @@
       "id": "b6668f2582a62adf",
       "parent": 0,
       "droppable": true,
-      "text": "聊聊前端场景中的 Emoji",
+      "text": "聊聊前端场景中的 Emoji · 语雀",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -297,6 +297,17 @@
       "parent": 0,
       "droppable": true,
       "text": "New Tab",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "8d0464a19f22d8ea",
+      "parent": 0,
+      "droppable": true,
+      "text": "字符编码的概念（UTF-8、UTF-16、UTF-32都是什么鬼） - 知乎",
       "data": {
         "fileType": "site",
         "fileSize": "",

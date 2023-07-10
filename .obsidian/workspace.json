@@ -4,65 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "3b5596aaacbb0b0b",
-        "type": "split",
-        "dimension": 36.353944562899784,
-        "children": [
-          {
-            "id": "96533c76125085f0",
-            "type": "tabs",
-            "dimension": 19.047619047619047,
-            "children": [
-              {
-                "id": "bcfd360eb9eaeba8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "300--前端相关/06--代码片段/微信加密.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "b6668f2582a62adf",
-                "type": "leaf",
-                "state": {
-                  "type": "surfing-view",
-                  "state": {
-                    "url": "https://www.yuque.com/wangxiaocuo/coding-blog/ggt91g3mtg55gq96#pMmbu"
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "217f6df6b54d0bf5",
-            "type": "tabs",
-            "dimension": 80.95238095238095,
-            "children": [
-              {
-                "id": "d31d602b341dadf7",
-                "type": "leaf",
-                "state": {
-                  "type": "surfing-view",
-                  "state": {
-                    "url": "https://zhuanlan.zhihu.com/p/407013219"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
         "id": "9fef24d13ad42ae8",
         "type": "tabs",
-        "dimension": 63.646055437100216,
         "children": [
           {
             "id": "f528404fce35658c",
@@ -70,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/07--文章输出/Emoji.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "540bb10dd05414fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300--前端相关/06--代码片段/微信加密.md",
+                "file": "300--前端相关/07--文章输出/Unicode&Emoji.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -168,7 +98,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "300--前端相关/07--文章输出/Unicode&Emoji.md"
+              }
             }
           },
           {
@@ -257,19 +189,20 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b6668f2582a62adf",
+  "active": "f528404fce35658c",
   "lastOpenFiles": [
-    "300--前端相关/07--文章输出/Emoji.md",
+    "300--前端相关/07--文章输出/Unicode&Emoji.md",
+    "300--前端相关/07--文章输出/附件/Emoji-10.png",
+    "300--前端相关/07--文章输出/附件/Emoji-9.png",
+    "300--前端相关/07--文章输出/附件/Emoji-8.png",
+    "300--前端相关/06--代码片段/微信加密.md",
     "300--前端相关/07--文章输出/附件/Emoji-7.png",
     "300--前端相关/07--文章输出/附件/Emoji-6.png",
     "300--前端相关/07--文章输出/附件/Emoji-5.png",
     "300--前端相关/07--文章输出/附件/Emoji-4.png",
-    "300--前端相关/06--代码片段/微信加密.md",
     "300--前端相关/07--文章输出/附件/Emoji-3.png",
     "300--前端相关/07--文章输出/附件/Emoji-2.png",
     "300--前端相关/07--文章输出/附件/Emoji-1.png",
-    "300--前端相关/07--文章输出/附件/Emoji.png",
-    "300--前端相关/07--文章输出/附件/字符串遇上Emoji.png",
     "300--前端相关/07--文章输出/附件",
     "000-Inbox/知识分享.md",
     "300--前端相关/07--文章输出",
@@ -289,7 +222,6 @@
     "000-Inbox/待剪藏.md",
     "300--前端相关/01--前端基础/CSS/CSS知识碎片/你不知道的 CSS 之包含块.md",
     "300--前端相关/02--开发技巧/CSS/文本超出隐藏.md",
-    "000-Inbox/附件/知识分享-18.png",
     "9999--回收站/01--知识体系/03--学习方法论/熵基知识分享/学习方法--知识管理系统.md",
     "9999--回收站/01--知识体系/03--学习方法论/熵基知识分享/知识分享草稿.md",
     "9999--回收站/01--知识体系/03--学习方法论/熵基知识分享/学习方法白板.md",
