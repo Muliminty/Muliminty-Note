@@ -3,7 +3,7 @@
 
 ![](附件/字符串遇上Emoji.png)
 
-Emoji 相信大家耳熟能详，今天我们来聊聊 Emoji 的发展历史，以及在前端开发中使用 emoji 的一些小技巧。
+[📜Emoji: 一段历史 | EmojiAll](https://www.emojiall.com/zh-hans/blog/340)
 
 ## 需要消化的知识点
 
