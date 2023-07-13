@@ -4,30 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9fef24d13ad42ae8",
+        "id": "e41f2d5708caa11e",
         "type": "tabs",
         "children": [
           {
-            "id": "f528404fce35658c",
+            "id": "17937127d0e8cd97",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300--前端相关/07--文章输出/Unicode&Emoji/Unicode&Emoji.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f02b7591e756970",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.emojiall.com/zh-hans/blog/340"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -96,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "300--前端相关/07--文章输出/Unicode&Emoji/Unicode&Emoji.md"
-              }
+              "state": {}
             }
           },
           {
@@ -197,13 +180,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f528404fce35658c",
+  "active": "17937127d0e8cd97",
   "lastOpenFiles": [
+    "300--前端相关/07--文章输出/Unicode&Emoji/Unicode&Emoji.md",
     "300--前端相关/07--文章输出/可拖拽自定义数据大屏解决方案/可拖拽自定义数据大屏解决方案.md",
     "300--前端相关/07--文章输出/Unicode&Emoji",
     "300--前端相关/07--文章输出/政采云前端技术方案模板.md",
     "300--前端相关/07--文章输出/可拖拽自定义数据大屏解决方案",
-    "300--前端相关/07--文章输出/Unicode&Emoji/Unicode&Emoji.md",
     "000-Inbox/知识分享.md",
     "000-Inbox/待剪藏.md",
     "000-Inbox/笔记整理.md",
