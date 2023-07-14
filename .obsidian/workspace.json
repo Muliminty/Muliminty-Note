@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e41f2d5708caa11e",
+        "id": "837e17a409945bd0",
         "type": "tabs",
         "children": [
           {
-            "id": "17937127d0e8cd97",
+            "id": "ca13ae679c7138b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/03--面试之道/面试之道知识碎片/浏览器是如何渲染页面的？.md",
+                "file": "9999--回收站/01--知识体系/03--学习方法论/知识分享/知识分享草稿.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "emo",
+                "query": "熵基",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300--前端相关/03--面试之道/面试之道知识碎片/浏览器是如何渲染页面的？.md"
+                "file": "9999--回收站/01--知识体系/03--学习方法论/知识分享/知识分享草稿.md"
               }
             }
           },
@@ -187,10 +187,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "17937127d0e8cd97",
+  "active": "ca13ae679c7138b4",
   "lastOpenFiles": [
+    "9999--回收站/01--知识体系/03--学习方法论/知识分享/学习方法白板.md",
+    "9999--回收站/01--知识体系/03--学习方法论/知识分享/学习方法--知识管理系统.md",
     "600--资源&&网址书签/601--书签看板/电子书.md",
+    "600--资源&&网址书签/601--书签看板/文章.md",
     "600--资源&&网址书签/601--书签看板/有趣的网址.md",
+    "300--前端相关/03--面试之道/面试之道知识碎片/浏览器是如何渲染页面的？.md",
     "300--前端相关/03--面试之道/面试宝典/javascript面试宝典.md",
     "300--前端相关/03--面试之道/面试宝典/HTML面试宝典.md",
     "300--前端相关/03--面试之道/面试宝典/性能优化面试宝典.md",
@@ -199,7 +203,6 @@
     "300--前端相关/03--面试之道/面试宝典/React面试宝典.md",
     "300--前端相关/03--面试之道/面试宝典/Vue面试宝典.md",
     "300--前端相关/03--面试之道/面试之道知识碎片/垃圾回收机制.md",
-    "300--前端相关/03--面试之道/面试之道知识碎片/浏览器是如何渲染页面的？.md",
     "300--前端相关/07--文章输出/Unicode&Emoji/Unicode&Emoji.md",
     "300--前端相关/07--文章输出/可拖拽自定义数据大屏解决方案/可拖拽自定义数据大屏解决方案.md",
     "300--前端相关/07--文章输出/Unicode&Emoji",
@@ -214,9 +217,6 @@
     "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useUpdateEffect.md",
     "300--前端相关/02--开发技巧/框架&库/React/hook相关技巧/useImperativeHandle.md",
     "300--前端相关/02--开发技巧/框架&库/Ant Design/Upload/Upload--知识碎片/Props属性对应效果.md",
-    "300--前端相关/02--开发技巧/框架&库/Ant Design/Upload/Upload--知识碎片/官方README.md.md",
-    "300--前端相关/02--开发技巧/框架&库/Ant Design/Upload/Upload--知识碎片/限制上传文件的大小.md",
-    "300--前端相关/02--开发技巧/框架&库/Ant Design/Table/columns技巧.md",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-10.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-9.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-8.png",
