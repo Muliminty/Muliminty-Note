@@ -11,9 +11,12 @@
             "id": "17937127d0e8cd97",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "600--资源&&网址书签/601--书签看板/电子书.md"
+                "file": "300--前端相关/03--面试之道/面试之道知识碎片/浏览器是如何渲染页面的？.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -67,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
-    "collapsed": true
+    "width": 322.5
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -85,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "600--资源&&网址书签/601--书签看板/电子书.md"
+                "file": "300--前端相关/03--面试之道/面试之道知识碎片/浏览器是如何渲染页面的？.md"
               }
             }
           },
@@ -187,6 +189,7 @@
   },
   "active": "17937127d0e8cd97",
   "lastOpenFiles": [
+    "600--资源&&网址书签/601--书签看板/电子书.md",
     "600--资源&&网址书签/601--书签看板/有趣的网址.md",
     "300--前端相关/03--面试之道/面试宝典/javascript面试宝典.md",
     "300--前端相关/03--面试之道/面试宝典/HTML面试宝典.md",
@@ -214,7 +217,6 @@
     "300--前端相关/02--开发技巧/框架&库/Ant Design/Upload/Upload--知识碎片/官方README.md.md",
     "300--前端相关/02--开发技巧/框架&库/Ant Design/Upload/Upload--知识碎片/限制上传文件的大小.md",
     "300--前端相关/02--开发技巧/框架&库/Ant Design/Table/columns技巧.md",
-    "9999--回收站/01--知识体系/03--学习方法论/熵基知识分享/学习方法白板.md",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-10.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-9.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-8.png",
