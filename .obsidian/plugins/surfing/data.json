@@ -346,6 +346,28 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "b29affbf1e6d29e2",
+      "parent": 0,
+      "droppable": true,
+      "text": "dnd-kit - 搜索 - 掘金",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "2cfd7cd8243eb1db",
+      "parent": 0,
+      "droppable": true,
+      "text": "react 基于 dnd-kit 封装的拖拽排序组件 - 掘金",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }

@@ -11,16 +11,37 @@
             "id": "ca13ae679c7138b4",
             "type": "leaf",
             "state": {
+              "type": "kanban",
+              "state": {
+                "file": "300--前端相关/02--开发技巧/框架&库/dnd kit使用指南/参考文档.md"
+              }
+            }
+          },
+          {
+            "id": "b29affbf1e6d29e2",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "9999--回收站/01--知识体系/03--学习方法论/知识分享/知识分享草稿.md",
+                "file": "300--前端相关/03--面试之道/面试宝典/javascript手写精通面试宝典.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "c8582e5e827e08e6",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://juejin.cn/post/7236668766954946621?searchId=20230717100504BDF7187738D908D034AD"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,21 +70,13 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "熵基",
+                "query": "手写",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabeticalReverse"
               }
-            }
-          },
-          {
-            "id": "eeda9bafedcd248d",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {}
             }
           }
         ]
@@ -87,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9999--回收站/01--知识体系/03--学习方法论/知识分享/知识分享草稿.md"
+                "file": "300--前端相关/03--面试之道/面试宝典/javascript手写精通面试宝典.md"
               }
             }
           },
@@ -110,7 +123,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "366e0e71d35865b6",
@@ -187,8 +201,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ca13ae679c7138b4",
+  "active": "b5f9d18702c6bf89",
   "lastOpenFiles": [
+    "300--前端相关/02--开发技巧/框架&库/dnd kit使用指南/参考文档.md",
+    "300--前端相关/02--开发技巧/框架&库/dnd kit使用指南/README.md",
+    "9999--回收站/01--知识体系/03--学习方法论/知识分享/知识分享草稿.md",
     "9999--回收站/01--知识体系/03--学习方法论/知识分享/学习方法白板.md",
     "9999--回收站/01--知识体系/03--学习方法论/知识分享/学习方法--知识管理系统.md",
     "600--资源&&网址书签/601--书签看板/电子书.md",
@@ -214,9 +231,6 @@
     "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useFullScreen.md",
     "300--前端相关/02--开发技巧/框架&库/Umi/异常处理/does not exist in container.md",
     "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useFakeProgress.md",
-    "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useUpdateEffect.md",
-    "300--前端相关/02--开发技巧/框架&库/React/hook相关技巧/useImperativeHandle.md",
-    "300--前端相关/02--开发技巧/框架&库/Ant Design/Upload/Upload--知识碎片/Props属性对应效果.md",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-10.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-9.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-8.png",
