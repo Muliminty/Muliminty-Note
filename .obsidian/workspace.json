@@ -23,20 +23,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/03--面试之道/面试宝典/javascript手写精通面试宝典.md",
+                "file": "200--计算机基础/README.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "c8582e5e827e08e6",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://juejin.cn/post/7236668766954946621?searchId=20230717100504BDF7187738D908D034AD"
               }
             }
           }
@@ -70,13 +60,21 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "手写",
+                "query": "tag:#读书笔记/图解HTTP",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabeticalReverse"
               }
+            }
+          },
+          {
+            "id": "8aaceaa228e40918",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
             }
           }
         ]
@@ -100,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300--前端相关/03--面试之道/面试宝典/javascript手写精通面试宝典.md"
+                "file": "200--计算机基础/README.md"
               }
             }
           },
@@ -181,8 +179,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -201,8 +198,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b5f9d18702c6bf89",
+  "active": "b29affbf1e6d29e2",
   "lastOpenFiles": [
+    "300--前端相关/04--前端特效/Loading/Loading -- 彩虹转圈.md",
+    "300--前端相关/04--前端特效/鼠标点击/鼠标点击 -- 彩色烟花.md",
+    "300--前端相关/04--前端特效/鼠标点击/鼠标点击 -- Img/20201105144555654.gif",
+    "500--小技巧/本地部署antd文档.md",
+    "200--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
+    "200--计算机基础/计算机网络/计算机网络知识碎片/网关.md",
+    "100--剪藏/JavaScript/js上传文件转二进制格式.md",
+    "300--前端相关/01--前端基础/JavaScript/00--Js知识碎片/099--深入Js(该文件夹笔记废弃后期整理)/JS二进制.md",
+    "300--前端相关/02--开发技巧/框架&库/Ant Design/Upload/Upload--知识碎片/Props属性对应效果.md",
+    "300--前端相关/02--开发技巧/框架&库/Ant Design/Upload/Upload--知识碎片/限制上传文件的大小.md",
     "300--前端相关/02--开发技巧/框架&库/dnd kit使用指南/参考文档.md",
     "300--前端相关/02--开发技巧/框架&库/dnd kit使用指南/README.md",
     "9999--回收站/01--知识体系/03--学习方法论/知识分享/知识分享草稿.md",
@@ -219,18 +226,8 @@
     "300--前端相关/03--面试之道/面试宝典/javascript手写精通面试宝典.md",
     "300--前端相关/03--面试之道/面试宝典/React面试宝典.md",
     "300--前端相关/03--面试之道/面试宝典/Vue面试宝典.md",
-    "300--前端相关/03--面试之道/面试之道知识碎片/垃圾回收机制.md",
-    "300--前端相关/07--文章输出/Unicode&Emoji/Unicode&Emoji.md",
-    "300--前端相关/07--文章输出/可拖拽自定义数据大屏解决方案/可拖拽自定义数据大屏解决方案.md",
     "300--前端相关/07--文章输出/Unicode&Emoji",
-    "300--前端相关/07--文章输出/政采云前端技术方案模板.md",
     "300--前端相关/07--文章输出/可拖拽自定义数据大屏解决方案",
-    "000-Inbox/知识分享.md",
-    "000-Inbox/待剪藏.md",
-    "000-Inbox/笔记整理.md",
-    "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useFullScreen.md",
-    "300--前端相关/02--开发技巧/框架&库/Umi/异常处理/does not exist in container.md",
-    "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useFakeProgress.md",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-10.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-9.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-8.png",
@@ -240,7 +237,6 @@
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-4.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-3.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-2.png",
-    "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-1.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件",
     "300--前端相关/07--文章输出",
     "300--前端相关/03--面试之道/面试之道PDF材料/JS 原生面经从初级到高级.pdf",
