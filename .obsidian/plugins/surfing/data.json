@@ -379,6 +379,50 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "6c1a4f26dcb247f5",
+      "parent": 0,
+      "droppable": true,
+      "text": "图解HTTP-上野宣-微信读书",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "dd6bf4fe3b8bc158",
+      "parent": 0,
+      "droppable": true,
+      "text": "New Tab",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "28889ed05b1eaab4",
+      "parent": 0,
+      "droppable": true,
+      "text": "js树形数据结构的扁平化_coder__wang的博客-CSDN博客",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "43c9b4bd468a016f",
+      "parent": 0,
+      "droppable": true,
+      "text": "图解HTTP-上野宣-微信读书",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }

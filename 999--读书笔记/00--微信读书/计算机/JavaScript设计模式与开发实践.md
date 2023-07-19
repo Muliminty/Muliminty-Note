@@ -4,10 +4,10 @@ bookId: "27337473"
 author: 曾探
 cover: https://weread-1258476243.file.myqcloud.com/weread/cover/90/YueWen_27337473/t7_YueWen_27337473.jpg
 reviewCount: 0
-noteCount: 28
+noteCount: 29
 isbn: 9787115388889
 category: 计算机-编程设计
-lastReadDate: 2023-06-19
+lastReadDate: 2023-07-04
 ---
 # 元数据
 > [!abstract] JavaScript设计模式与开发实践
@@ -68,6 +68,9 @@ lastReadDate: 2023-06-19
 
 > 📌 跟别的语言大相径庭的是，JavaScript的this总是指向一个对象，而具体指向哪个对象是在运行时基于函数的执行环境动态绑定的，而非函数被声明时的环境。 ^27337473-14-421-498
    - ⌚ 2023-06-19 11:37:18 
+
+> 📌 ❏ 作为对象的方法调用。❏ 作为普通函数调用。❏ 构造器调用。❏ Function.prototype.call或Function.prototype.apply调用。 ^27337473-14-680-854
+   - ⌚ 2023-07-04 11:31:19 
 ## 3.1 闭包
 
 

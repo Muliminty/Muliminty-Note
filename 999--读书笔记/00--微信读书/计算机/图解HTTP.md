@@ -4,10 +4,10 @@ bookId: "907764"
 author: 上野宣
 cover: https://weread-1258476243.file.myqcloud.com/weread/cover/45/YueWen_907764/t7_YueWen_907764.jpg
 reviewCount: 5
-noteCount: 57
+noteCount: 59
 isbn: 9787115351531
 category: 计算机-计算机综合
-lastReadDate: 2023-05-31
+lastReadDate: 2023-07-19
 creattime: null
 ---
 # 元数据
@@ -230,6 +230,12 @@ creattime: null
 
 > 📌 通用首部字段是指，请求报文和响应报文双方都会使用的首部。 ^907764-46-435-463
    - ⌚ 2023-05-31 15:29:59 
+
+> 📌 通过指定首部字段Cache-Control的指令，就能操作缓存的工作机制。 ^907764-46-566-603
+   - ⌚ 2023-07-19 11:35:09 
+
+> 📌 public指令[插图]当指定使用public指令时，则明确表明其他用户也可利用缓存。 ^907764-46-1636-1748
+   - ⌚ 2023-07-19 11:55:47 
 # 读书笔记
 
 ## 1.3 网络基础TCP/IP
