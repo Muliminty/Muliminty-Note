@@ -184,7 +184,7 @@
       },
       "active": "b5f9d18702c6bf89"
     },
-    "设计模式工作区域": {
+    "设计模式学习": {
       "main": {
         "id": "a5ee6cc28a84e573",
         "type": "split",
@@ -274,16 +274,14 @@
           {
             "id": "4ee6c0f648cd6fb3",
             "type": "tabs",
-            "dimension": 32.285714285714285,
+            "dimension": 57.80952380952381,
             "children": [
               {
                 "id": "44df5cfe22cb7b21",
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "999--读书笔记/设计模式/JavaScript设计模式与开发实践.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -311,19 +309,29 @@
                   "type": "markdown",
                   "state": {
                     "file": "999--读书笔记/设计模式/JavaScript设计模式与开发实践.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "d3f4d85c6cf3212d",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://my.aigcplus.io/chat/13702224289349"
+                  }
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           },
           {
             "id": "366e0e71d35865b6",
             "type": "tabs",
-            "dimension": 67.71428571428572,
+            "dimension": 42.19047619047619,
             "children": [
               {
                 "id": "fa9d31c059ecf26d",
@@ -425,8 +433,8 @@
           "obsidian-memos:Memos": false
         }
       },
-      "active": "82758f48830fe987"
+      "active": "3c3894cf85f6aa3e"
     }
   },
-  "active": "设计模式工作区域"
+  "active": "默认工作区域"
 }
