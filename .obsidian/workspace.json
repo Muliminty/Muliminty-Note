@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useDoubleClick.md",
+                "file": "300--前端相关/03--面试之道/面试宝典/React面试宝典.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vscode",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useDoubleClick.md"
+                "file": "300--前端相关/03--面试之道/面试宝典/React面试宝典.md"
               }
             }
           },
@@ -110,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "366e0e71d35865b6",
@@ -187,8 +186,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7058a54a1f114e91",
+  "active": "44df5cfe22cb7b21",
   "lastOpenFiles": [
+    "300--前端相关/03--面试之道/面试宝典/Vue面试宝典.md",
+    "300--前端相关/03--面试之道/面试宝典/性能优化面试宝典.md",
+    "300--前端相关/03--面试之道/面试宝典/javascript手写精通面试宝典.md",
+    "300--前端相关/03--面试之道/面试宝典/HTML面试宝典.md",
+    "500--小技巧/vscode/插件推荐.md",
+    "100--剪藏/Vscode/使用Paste Image插件来方便的给Markdown添加截图的功能.md",
+    "9999--回收站/01--知识体系/03--学习方法论/知识分享/学习方法--知识管理系统.md",
+    "9999--回收站/01--知识体系/03--学习方法论/知识分享/知识分享草稿.md",
+    "100--剪藏/TypeScript/TypeScript相关文章/Ts 声明文件 -- TypeScript系列🔥尾声篇, 什么是声明文件(declare).md",
+    "500--小技巧/vscode/VSCode中markdown开启智能提示.md",
     "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useDoubleClick.md",
     "100--剪藏/100-Inbox",
     "100--剪藏/新建文件夹",
@@ -210,16 +219,6 @@
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 求和、最大值、最小值.md",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 快速清空.md",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 交集、差集、并集、补集.md",
-    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 快速初始化数组.md",
-    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 过滤空值.md",
-    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 分割成若干个指定长度的二维数组.md",
-    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/转树结构.md",
-    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/替换树的对象Key.md",
-    "300--前端相关/02--开发技巧/JavaScript/简单数据类型/数值类型.md",
-    "600--资源&&网址书签/601--书签看板/有趣的网址.md",
-    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/树结构扁平化.md",
-    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/实现复杂数据查询（过滤）.md",
-    "300--前端相关/02--开发技巧/框架&库/Umi/异常处理/does not exist in container.md",
     "300--前端相关/04--前端特效/鼠标点击/鼠标点击 -- Img/20201105144555654.gif",
     "300--前端相关/07--文章输出/Unicode&Emoji",
     "300--前端相关/07--文章输出/可拖拽自定义数据大屏解决方案",
