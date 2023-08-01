@@ -104,6 +104,17 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "f07c757b7ea6f474",
+      "parent": 0,
+      "droppable": true,
+      "text": "New Tab",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }
