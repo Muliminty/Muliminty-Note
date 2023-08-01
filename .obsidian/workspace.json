@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/02--开发技巧/HTML/Input.md",
+                "file": "300--前端相关/02--开发技巧/框架&库/React/报错/React中获取target 报错.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vscode",
+                "query": "报错",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300--前端相关/02--开发技巧/HTML/Input.md"
+                "file": "300--前端相关/02--开发技巧/框架&库/React/报错/React中获取target 报错.md"
               }
             }
           },
@@ -186,8 +186,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7515e4205e6ff99b",
+  "active": "b5f9d18702c6bf89",
   "lastOpenFiles": [
+    "100--剪藏/React/react项目打包后点击index.html页面出现空白.md",
     "300--前端相关/02--开发技巧/HTML/Input.md",
     "300--前端相关/02--开发技巧/HTML/附件/Input.png",
     "300--前端相关/02--开发技巧/HTML/附件",
