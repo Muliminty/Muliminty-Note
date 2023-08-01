@@ -13,20 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "300--前端相关/02--开发技巧/HTML/Input.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "f07c757b7ea6f474",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://github.com/Muliminty/Muliminty-Note/tree/master/300--前端相关/02--开发技巧/JavaScript"
               }
             }
           }
@@ -108,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "300--前端相关/02--开发技巧/HTML/Input.md"
               }
             }
           },
@@ -120,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "366e0e71d35865b6",
@@ -199,7 +188,11 @@
   },
   "active": "7515e4205e6ff99b",
   "lastOpenFiles": [
+    "300--前端相关/02--开发技巧/HTML/Input.md",
+    "300--前端相关/02--开发技巧/HTML/附件/Input.png",
+    "300--前端相关/02--开发技巧/HTML/附件",
     "README.md",
+    "300--前端相关/02--开发技巧/HTML",
     "999--Test/README.md",
     "300--前端相关/08--每日一题/2023年8月1日 -- 闭包.md",
     "300--前端相关/08--每日一题/README.md",
@@ -231,11 +224,7 @@
     "600--资源&&网址书签/新建文件夹",
     "999--读书笔记/设计模式/JavaScript设计模式与开发实践.md",
     "300--前端相关/01--前端基础/JavaScript/00--Js知识碎片/099--深入Js(该文件夹笔记废弃后期整理)/事件循环.md",
-    "300--前端相关/03--面试之道/面试之道知识碎片/浏览器是如何渲染页面的？.md",
-    "300--前端相关/03--面试之道/面试之道知识碎片/垃圾回收机制.md",
     "300--前端相关/04--前端特效/鼠标点击/鼠标点击 -- Img/20201105144555654.gif",
-    "300--前端相关/07--文章输出/Unicode&Emoji",
-    "300--前端相关/07--文章输出/可拖拽自定义数据大屏解决方案",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-10.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-9.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-8.png",
@@ -244,7 +233,6 @@
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-5.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-4.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-3.png",
-    "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-2.png",
     "999--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"

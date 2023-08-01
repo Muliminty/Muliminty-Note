@@ -115,6 +115,17 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "020ec083aafbfcac",
+      "parent": 0,
+      "droppable": true,
+      "text": "javascript - 如何去掉 input type=file 的 “未选择任何文件”标志？ - SegmentFault 思否",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }
