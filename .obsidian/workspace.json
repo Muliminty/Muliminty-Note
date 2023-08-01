@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/08--每日一题/2023年8月1日 -- 闭包.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300--前端相关/08--每日一题/2023年8月1日 -- 闭包.md"
+                "file": "README.md"
               }
             }
           },
@@ -189,9 +189,9 @@
   },
   "active": "7515e4205e6ff99b",
   "lastOpenFiles": [
-    "300--前端相关/08--每日一题/2023年8月1日 -- 闭包.md",
-    "README.md",
     "999--Test/README.md",
+    "README.md",
+    "300--前端相关/08--每日一题/2023年8月1日 -- 闭包.md",
     "300--前端相关/08--每日一题/README.md",
     "06--Memos",
     "300--前端相关/08--每日一题/未命名.md",
