@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/08--每日一题/2023年8月2日 -- this.md",
-                "mode": "preview",
+                "file": "999--Test/README.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -97,9 +97,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "300--前端相关/08--每日一题/2023年8月2日 -- this.md"
-              }
+              "state": {}
             }
           },
           {
@@ -110,7 +108,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "366e0e71d35865b6",
@@ -186,12 +185,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7515e4205e6ff99b",
+  "active": "8b3983fc61f6ffa6",
   "lastOpenFiles": [
+    "999--Test/README.md",
+    "300--前端相关/08--每日一题/2023年8月2日 -- this.md",
     "300--前端相关/08--每日一题/2023年8月1日 -- 闭包.md",
     "300--前端相关/07--文章输出/Unicode&Emoji/Unicode&Emoji.md",
     "300--前端相关/07--文章输出/可拖拽自定义数据大屏解决方案/可拖拽自定义数据大屏解决方案.md",
-    "300--前端相关/08--每日一题/2023年8月2日 -- this.md",
     "300--前端相关/02--开发技巧/框架&库/React/报错/React中获取target 报错.md",
     "100--剪藏/React/react项目打包后点击index.html页面出现空白.md",
     "300--前端相关/02--开发技巧/HTML/Input.md",
@@ -199,7 +199,6 @@
     "300--前端相关/02--开发技巧/HTML/附件",
     "README.md",
     "300--前端相关/02--开发技巧/HTML",
-    "999--Test/README.md",
     "300--前端相关/08--每日一题/README.md",
     "06--Memos",
     "300--前端相关/前端每日一题.md",
