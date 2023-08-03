@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "999--Test/README.md",
+                "file": "300--前端相关/08--每日一题/2023年8月3日 -- 原型链.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "300--前端相关/08--每日一题/2023年8月3日 -- 原型链.md"
+              }
             }
           },
           {
@@ -185,11 +187,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "8b3983fc61f6ffa6",
+  "active": "7515e4205e6ff99b",
   "lastOpenFiles": [
+    "300--前端相关/08--每日一题/2023年8月1日 -- 闭包.md",
+    "300--前端相关/08--每日一题/2023年8月3日 -- 原型链.md",
     "999--Test/README.md",
     "300--前端相关/08--每日一题/2023年8月2日 -- this.md",
-    "300--前端相关/08--每日一题/2023年8月1日 -- 闭包.md",
     "300--前端相关/07--文章输出/Unicode&Emoji/Unicode&Emoji.md",
     "300--前端相关/07--文章输出/可拖拽自定义数据大屏解决方案/可拖拽自定义数据大屏解决方案.md",
     "300--前端相关/02--开发技巧/框架&库/React/报错/React中获取target 报错.md",
@@ -220,7 +223,6 @@
     "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useDoubleClick.md",
     "100--剪藏/100-Inbox",
     "100--剪藏/新建文件夹",
-    "600--资源&&网址书签/601--书签看板/电子书.md",
     "600--资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf",
     "600--资源&&网址书签/602--pdf",
     "600--资源&&网址书签/新建文件夹",
