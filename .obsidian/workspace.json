@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d99a4c056ae0704f",
+        "id": "7174210eeb74b714",
         "type": "tabs",
         "children": [
           {
-            "id": "7515e4205e6ff99b",
+            "id": "89c22eb3b24aed08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/08--每日一题/2023年8月5日 -- 继承.md",
+                "file": "500--小技巧/本地部署antd文档.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -21,16 +21,20 @@
             }
           },
           {
-            "id": "21f473286caccbf5",
+            "id": "9c87fdb6e383923c",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
+              "type": "markdown",
               "state": {
-                "url": "https://blog.csdn.net/pma934/article/details/100041697"
+                "file": "500--小技巧/本地部署antd文档.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -59,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "报错",
+                "query": "部署",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -108,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300--前端相关/08--每日一题/2023年8月5日 -- 继承.md"
+                "file": "500--小技巧/本地部署antd文档.md"
               }
             }
           },
@@ -182,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 361.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,15 +202,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7515e4205e6ff99b",
+  "active": "9c87fdb6e383923c",
   "lastOpenFiles": [
+    "500--小技巧/本地部署antd文档.md",
+    "500--小技巧/附件/Pasted image 20230511111054.png",
+    "500--小技巧/附件/Pasted image 20230511110635.png",
+    "300--前端相关/08--每日一题/2023年8月5日 -- 继承.md",
     "300--前端相关/08--每日一题/2023年8月4日 -- 原型和原型链.md",
     "300--前端相关/08--每日一题/附件/2023年8月4日 -- 原型和原型链-1.png",
     "300--前端相关/08--每日一题/附件/2023年8月4日 -- 原型和原型链.png",
     "300--前端相关/08--每日一题/附件",
     "300--前端相关/08--每日一题/2023年8月3日 -- 原型链.md",
     "300--前端相关/08--每日一题/2023年8月4日 -- 继承.md",
-    "300--前端相关/08--每日一题/2023年8月5日 -- 继承.md",
     "300--前端相关/08--每日一题/原型和原型链.md",
     "300--前端相关/08--每日一题/继承.md",
     "300--前端相关/08--每日一题/2023年8月1日 -- 闭包.md",
@@ -232,7 +240,6 @@
     "300--前端相关/03--面试之道/面试宝典/HTML面试宝典.md",
     "300--前端相关/03--面试之道/面试宝典/React面试宝典.md",
     "300--前端相关/03--面试之道/面试宝典/Vue面试宝典.md",
-    "500--小技巧/vscode/插件推荐.md",
     "100--剪藏/100-Inbox",
     "100--剪藏/新建文件夹",
     "600--资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf",
@@ -242,8 +249,6 @@
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-9.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-8.png",
     "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-7.png",
-    "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-6.png",
-    "300--前端相关/07--文章输出/Unicode&Emoji/附件/Emoji-5.png",
     "999--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"
