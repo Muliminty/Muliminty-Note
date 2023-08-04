@@ -126,6 +126,17 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "21f473286caccbf5",
+      "parent": 0,
+      "droppable": true,
+      "text": "关于是否所有函数都有prototype一说_prototype是每个对象_pma934的博客-CSDN博客",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }
