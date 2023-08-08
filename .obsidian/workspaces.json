@@ -184,7 +184,7 @@
       },
       "active": "b5f9d18702c6bf89"
     },
-    "设计模式学习": {
+    "设计模式学习1": {
       "main": {
         "id": "a5ee6cc28a84e573",
         "type": "split",
@@ -281,7 +281,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "999--读书笔记/设计模式/JavaScript设计模式与开发实践.md"
+                  }
                 }
               },
               {
@@ -303,30 +305,17 @@
                 }
               },
               {
-                "id": "82758f48830fe987",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "999--读书笔记/设计模式/JavaScript设计模式与开发实践.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "d3f4d85c6cf3212d",
                 "type": "leaf",
                 "state": {
                   "type": "surfing-view",
                   "state": {
-                    "url": "https://my.aigcplus.io/chat/13702224289349"
+                    "url": "https://my.aigcplus.io/chat/13926146085957"
                   }
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           },
           {
             "id": "366e0e71d35865b6",
@@ -412,9 +401,22 @@
                     "url": "https://code.juejin.cn/pen/7259558824623915063"
                   }
                 }
+              },
+              {
+                "id": "82758f48830fe987",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "999--读书笔记/设计模式/JavaScript设计模式与开发实践.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 7
+            "currentTab": 8
           }
         ],
         "direction": "horizontal",
@@ -433,7 +435,7 @@
           "obsidian-memos:Memos": false
         }
       },
-      "active": "3c3894cf85f6aa3e"
+      "active": "82758f48830fe987"
     }
   },
   "active": "默认工作区域"
