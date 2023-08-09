@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/08--每日一题/2023年8月8日 -- 剩余参数语法.md",
-                "mode": "preview",
+                "file": "300--前端相关/02--开发技巧/框架&库/Ant Design/Model/外部控制 Modal.confirm 的打开和关闭.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300--前端相关/08--每日一题/2023年8月8日 -- 剩余参数语法.md"
+                "file": "300--前端相关/02--开发技巧/框架&库/Ant Design/Model/外部控制 Modal.confirm 的打开和关闭.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300--前端相关/08--每日一题/2023年8月8日 -- 剩余参数语法.md",
+                "file": "300--前端相关/02--开发技巧/框架&库/Ant Design/Model/外部控制 Modal.confirm 的打开和关闭.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300--前端相关/08--每日一题/2023年8月8日 -- 剩余参数语法.md",
+                "file": "300--前端相关/02--开发技巧/框架&库/Ant Design/Model/外部控制 Modal.confirm 的打开和关闭.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,8 +218,15 @@
   },
   "active": "f021931eb23b48d1",
   "lastOpenFiles": [
-    "300--前端相关/08--每日一题/2023年8月8日 -- 箭头函数（Arrow Function）的特点和使用场景.md",
+    "300--前端相关/02--开发技巧/框架&库/Ant Design/Model/基于Modal.confirm的封装.md",
+    "300--前端相关/02--开发技巧/框架&库/Ant Design/Model/外部控制 Modal.confirm 的打开和关闭.md",
+    "300--前端相关/02--开发技巧/框架&库/Ant Design/Model/Modal.confirm.md",
+    "300--前端相关/08--每日一题/2023年8月9日 -- 跨域.md",
+    "500--小技巧/vscode/在vscode中的js文件中自动补全html标签.md",
+    "500--小技巧/vscode/附件/在vscode中的js文件中自动补全html标签.png",
+    "500--小技巧/vscode/附件",
     "300--前端相关/08--每日一题/2023年8月8日 -- 剩余参数语法.md",
+    "300--前端相关/08--每日一题/2023年8月8日 -- 箭头函数（Arrow Function）的特点和使用场景.md",
     "300--前端相关/08--每日一题/2023年8月7日 -- 事件冒泡和事件捕获。.md",
     "300--前端相关/08--每日一题/README.md",
     "300--前端相关/08--每日一题/2023年8月1日 -- 闭包.md",
@@ -239,22 +246,16 @@
     "100--剪藏/React/React 之导入 Excel.md",
     "README.md",
     "300--前端相关/06--代码片段/趣味 -- 计算出生了几天.md",
-    "300--前端相关/06--代码片段/调试神器.md",
-    "300--前端相关/06--代码片段/前端常用技巧.md",
-    "300--前端相关/06--代码片段/趣味 -- 微信加密.md",
-    "300--前端相关/06--代码片段/趣味 -- 已知出生几天计算出生日期.md",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/附件/递归实现给每个对象打层级.png",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/附件/递归实现给每个对象打层级-1.png",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/附件/递归实现给每个对象打层级.png",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/附件",
-    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/树结构扁平化.md",
     "300--前端相关/02--开发技巧/框架&库/百度地图Api使用/React-BMapGL/附件图片/百度地图开发入门-6.png",
     "300--前端相关/02--开发技巧/框架&库/百度地图Api使用/React-BMapGL/附件图片/百度地图开发入门-5.png",
     "300--前端相关/02--开发技巧/框架&库/百度地图Api使用/React-BMapGL/附件图片/百度地图开发入门-4.png",
     "300--前端相关/02--开发技巧/框架&库/百度地图Api使用/React-BMapGL/附件图片/百度地图开发入门-2.png",
     "300--前端相关/02--开发技巧/框架&库/百度地图Api使用/React-BMapGL/附件图片/百度地图开发入门-3.png",
     "300--前端相关/02--开发技巧/框架&库/百度地图Api使用/React-BMapGL/附件图片/百度地图开发入门-1.png",
-    "300--前端相关/02--开发技巧/框架&库/百度地图Api使用/React-BMapGL/附件图片/百度地图开发入门.png",
     "300--前端相关/08--每日一题/附件",
     "300--前端相关/02--开发技巧/HTML/附件",
     "300--前端相关/02--开发技巧/HTML",
@@ -263,7 +264,6 @@
     "300--前端相关/0",
     "100--剪藏/100-Inbox",
     "100--剪藏/新建文件夹",
-    "600--资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf",
     "999--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"
