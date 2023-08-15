@@ -4,58 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "c57b1d73ab438ca2",
+        "id": "9788bfaf803b6653",
         "type": "tabs",
         "children": [
           {
-            "id": "f021931eb23b48d1",
-            "type": "leaf",
-            "state": {
-              "type": "memos_view",
-              "state": {}
-            }
-          },
-          {
-            "id": "5dda5e302b8b1991",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06--Memos/2023-08-14.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "037877ae3d796d1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06--Memos/delete.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40cd061519e06c0b",
+            "id": "a307b66afad32872",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "200--计算机基础/Git/Git.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "分支",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -252,13 +217,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "40cd061519e06c0b",
+  "active": "a307b66afad32872",
   "lastOpenFiles": [
-    "9999--回收站/01--知识体系/git笔记.md",
+    "300--前端相关/08--每日一题/2023年8月15日 -- 什么是BFC（块级格式化上下文）？它有什么作用？.md",
     "200--计算机基础/Git/Git.md",
-    "100--剪藏/js库/dnd kit.md",
     "06--Memos/delete.md",
     "06--Memos/2023-08-14.md",
+    "9999--回收站/01--知识体系/git笔记.md",
+    "100--剪藏/js库/dnd kit.md",
     "300--前端相关/08--每日一题/2023年8月14日 -- 双令牌（Dual Token）.md",
     "100--剪藏/JavaScript/原型与原型链.md",
     "300--前端相关/08--每日一题/2023年8月4日 -- 原型和原型链.md",
@@ -279,7 +245,6 @@
     "300--前端相关/08--每日一题/2023年8月8日 -- 箭头函数（Arrow Function）的特点和使用场景.md",
     "300--前端相关/08--每日一题/2023年8月7日 -- 事件冒泡和事件捕获。.md",
     "300--前端相关/08--每日一题/2023年8月6日 -- Event Loop.md",
-    "300--前端相关/08--每日一题/2023年8月2日 -- this.md",
     "500--小技巧/vscode/附件/在vscode中的js文件中自动补全html标签.png",
     "500--小技巧/vscode/附件",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/附件/递归实现给每个对象打层级.png",
