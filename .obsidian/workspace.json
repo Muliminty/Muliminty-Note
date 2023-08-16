@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200--计算机基础/Git/Git.md",
-                "mode": "source",
+                "file": "300--前端相关/08--每日一题/2023年8月16日 -- 虚拟DOM.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200--计算机基础/Git/Git.md"
+                "file": "300--前端相关/08--每日一题/2023年8月16日 -- 虚拟DOM.md"
               }
             }
           },
@@ -116,8 +116,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200--计算机基础/Git/Git.md",
-                "collapseAll": false,
+                "file": "300--前端相关/08--每日一题/2023年8月16日 -- 虚拟DOM.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -133,14 +133,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200--计算机基础/Git/Git.md",
+                "file": "300--前端相关/08--每日一题/2023年8月16日 -- 虚拟DOM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "366e0e71d35865b6",
@@ -201,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5,
-    "collapsed": true
+    "width": 361.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,8 +217,10 @@
   },
   "active": "a307b66afad32872",
   "lastOpenFiles": [
-    "300--前端相关/08--每日一题/2023年8月15日 -- 什么是BFC（块级格式化上下文）？它有什么作用？.md",
+    "README.md",
+    "300--前端相关/08--每日一题/2023年8月16日 -- 虚拟DOM.md",
     "200--计算机基础/Git/Git.md",
+    "300--前端相关/08--每日一题/2023年8月15日 -- 什么是BFC（块级格式化上下文）？它有什么作用？.md",
     "06--Memos/delete.md",
     "06--Memos/2023-08-14.md",
     "9999--回收站/01--知识体系/git笔记.md",
@@ -243,8 +243,6 @@
     "300--前端相关/08--每日一题/2023年8月10日 -- OSI网络模型.md",
     "300--前端相关/08--每日一题/2023年8月9日 -- 跨域.md",
     "300--前端相关/08--每日一题/2023年8月8日 -- 箭头函数（Arrow Function）的特点和使用场景.md",
-    "300--前端相关/08--每日一题/2023年8月7日 -- 事件冒泡和事件捕获。.md",
-    "300--前端相关/08--每日一题/2023年8月6日 -- Event Loop.md",
     "500--小技巧/vscode/附件/在vscode中的js文件中自动补全html标签.png",
     "500--小技巧/vscode/附件",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/附件/递归实现给每个对象打层级.png",
