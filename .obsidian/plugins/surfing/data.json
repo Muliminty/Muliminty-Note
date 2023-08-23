@@ -126,6 +126,17 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "7837da94b09a0098",
+      "parent": 0,
+      "droppable": true,
+      "text": "New Tab",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }
