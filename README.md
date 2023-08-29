@@ -6,7 +6,7 @@
 
 ## 每天一个知识点
 
-  + [每日一题](https://github.com/Muliminty/Muliminty-Note/tree/master/300--%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/08--%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98)
+  + [每日一题](https://github.com/Muliminty/Muliminty-Note/tree/master/300--%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/08--%E6%AF%8F%E6%97%A5%E4%B8%80%E4%B8%AA%E7%9F%A5%E8%AF%86%E7%82%B9)
 ## 开发技巧
 
   + [JavaScript](https://github.com/Muliminty/Muliminty-Note/tree/master/300--%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/02--%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/JavaScript)

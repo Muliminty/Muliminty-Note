@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/08--每日一个知识点/2023年8月29日 -- Babel.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300--前端相关/08--每日一个知识点/2023年8月29日 -- Babel.md"
+                "file": "README.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300--前端相关/08--每日一个知识点/2023年8月29日 -- Babel.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300--前端相关/08--每日一个知识点/2023年8月29日 -- Babel.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,11 +196,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 361.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,8 +219,9 @@
   },
   "active": "9aebce042d37afe3",
   "lastOpenFiles": [
-    "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useUpdateEffect.md",
+    "README.md",
     "300--前端相关/08--每日一个知识点/2023年8月29日 -- Babel.md",
+    "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useUpdateEffect.md",
     "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useFullScreen.md",
     "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useFakeProgress.md",
     "300--前端相关/08--每日一个知识点/2023年8月28日 -- 网络安全.md",
@@ -246,7 +249,6 @@
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 分割成若干个指定长度的二维数组.md",
     "500--小技巧/Hexo/hexo指令.md",
     "500--小技巧/Hexo/教程文章.md",
-    "README.md",
     "200--计算机基础/Git/Git.md",
     "06--Memos/delete.md",
     "06--Memos/2023-08-14.md",
