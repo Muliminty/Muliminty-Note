@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/08--每日一个知识点/2023年9月1日 -- 生成器（Generator）.md",
+                "file": "300--前端相关/08--每日一个知识点/001--题目参考.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300--前端相关/08--每日一个知识点/2023年9月1日 -- 生成器（Generator）.md"
+                "file": "300--前端相关/08--每日一个知识点/001--题目参考.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300--前端相关/08--每日一个知识点/2023年9月1日 -- 生成器（Generator）.md",
+                "file": "300--前端相关/08--每日一个知识点/001--题目参考.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300--前端相关/08--每日一个知识点/2023年9月1日 -- 生成器（Generator）.md",
+                "file": "300--前端相关/08--每日一个知识点/001--题目参考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,6 +217,8 @@
   },
   "active": "9aebce042d37afe3",
   "lastOpenFiles": [
+    "300--前端相关/08--每日一个知识点/README.md",
+    "300--前端相关/08--每日一个知识点/001--题目参考.md",
     "300--前端相关/08--每日一个知识点/2023年9月1日 -- 生成器（Generator）.md",
     "README.md",
     "300--前端相关/08--每日一个知识点/2023年8月29日 -- Babel.md",
@@ -248,8 +250,6 @@
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 分割成若干个指定长度的二维数组.md",
     "500--小技巧/Hexo/hexo指令.md",
     "500--小技巧/Hexo/教程文章.md",
-    "200--计算机基础/Git/Git.md",
-    "06--Memos/delete.md",
     "500--小技巧/vscode/附件/在vscode中的js文件中自动补全html标签.png",
     "500--小技巧/vscode/附件",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/附件/递归实现给每个对象打层级.png",
