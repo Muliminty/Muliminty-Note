@@ -11,8 +11,13 @@
             "id": "668fc045ae152e9b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "300--前端相关/08--每日一个知识点/2023年9月5日 -- 装饰器.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -72,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -93,7 +97,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "300--前端相关/08--每日一个知识点/2023年9月5日 -- 装饰器.md"
+              }
             }
           },
           {
@@ -110,6 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "300--前端相关/08--每日一个知识点/2023年9月5日 -- 装饰器.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "300--前端相关/08--每日一个知识点/2023年9月5日 -- 装饰器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,6 +218,7 @@
   "active": "668fc045ae152e9b",
   "lastOpenFiles": [
     "300--前端相关/08--每日一个知识点/001--题目参考.md",
+    "300--前端相关/08--每日一个知识点/2023年9月5日 -- 装饰器.md",
     "100--剪藏/JavaScript/JavaScript中 FileReader 对象详解.md",
     "300--前端相关/02--开发技巧/JavaScript/下载相关/A标签下载重命名.md",
     "300--前端相关/02--开发技巧/JavaScript/下载相关/下载base64格式的图片.md",
@@ -241,7 +250,6 @@
     "300--前端相关/08--每日一个知识点/2023年8月22日 -- 浏览器的同源策略.md",
     "300--前端相关/08--每日一个知识点/2023年8月21日 -- UDP协议的工作原理.md",
     "300--前端相关/08--每日一个知识点/2023年8月18日 -- 为什么try catch为能捕获到promise的错误？.md",
-    "300--前端相关/08--每日一个知识点/2023年8月15日 -- 什么是BFC（块级格式化上下文）？它有什么作用？.md",
     "500--小技巧/vscode/附件/在vscode中的js文件中自动补全html标签.png",
     "500--小技巧/vscode/附件",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/附件/递归实现给每个对象打层级.png",
