@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/08--每日一个知识点/2023年9月7日 -- Event Loop 2.md",
-                "mode": "source",
+                "file": "300--前端相关/08--每日一个知识点/2023年9月8日 -- plugins 和 loader加载器的区别.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 447.5
+    "width": 447.5,
+    "collapsed": true
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300--前端相关/08--每日一个知识点/2023年9月7日 -- Event Loop 2.md"
+                "file": "300--前端相关/08--每日一个知识点/2023年9月8日 -- plugins 和 loader加载器的区别.md"
               }
             }
           },
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300--前端相关/08--每日一个知识点/2023年9月7日 -- Event Loop 2.md",
+                "file": "300--前端相关/08--每日一个知识点/2023年9月8日 -- plugins 和 loader加载器的区别.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300--前端相关/08--每日一个知识点/2023年9月7日 -- Event Loop 2.md",
+                "file": "300--前端相关/08--每日一个知识点/2023年9月8日 -- plugins 和 loader加载器的区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,8 +218,9 @@
   },
   "active": "668fc045ae152e9b",
   "lastOpenFiles": [
-    "300--前端相关/08--每日一个知识点/2023年8月6日 -- Event Loop.md",
     "300--前端相关/08--每日一个知识点/2023年9月7日 -- Event Loop 2.md",
+    "300--前端相关/08--每日一个知识点/2023年9月8日 -- plugins 和 loader加载器的区别.md",
+    "300--前端相关/08--每日一个知识点/2023年8月6日 -- Event Loop.md",
     "300--前端相关/08--每日一个知识点/2023年9月5日 -- 装饰器.md",
     "300--前端相关/08--每日一个知识点/001--题目参考.md",
     "100--剪藏/JavaScript/JavaScript中 FileReader 对象详解.md",
@@ -249,7 +251,6 @@
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月4日 -- 原型和原型链-1.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月4日 -- 原型和原型链.png",
-    "300--前端相关/08--每日一个知识点/2023年8月22日 -- 浏览器的同源策略.md",
     "500--小技巧/vscode/附件/在vscode中的js文件中自动补全html标签.png",
     "500--小技巧/vscode/附件",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/附件/递归实现给每个对象打层级.png",
