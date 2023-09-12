@@ -2,7 +2,7 @@
   "accentColor": "",
   "theme": "system",
   "cssTheme": "Obsidian Nord",
-  "baseFontSize": 11,
+  "baseFontSize": 15,
   "enabledCssSnippets": [
     "weread",
     "nav-folder",
