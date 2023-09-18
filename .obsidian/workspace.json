@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md",
+                "file": "000-Inbox/知识分享.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#antd/table",
+                "query": "~~",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md"
+                "file": "000-Inbox/知识分享.md"
               }
             }
           },
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md",
+                "file": "000-Inbox/知识分享.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,9 +134,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md",
+                "file": "000-Inbox/知识分享.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d04451167a8e4fd2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -216,7 +226,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9ecad09b246738b2",
+  "active": "552ba130c24e8242",
   "lastOpenFiles": [
     "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md",
     "300--前端相关/08--每日一个知识点/001--题目参考.md",
