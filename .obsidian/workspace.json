@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "bad264ed2324f847",
+        "id": "b256cd620396ecaf",
         "type": "tabs",
         "children": [
           {
-            "id": "a79c3b0e815b58e6",
+            "id": "80e25735d4d3e90d",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "600--资源&&网址书签/601--书签看板/有趣的网址.md"
+                "file": "300--前端相关/02--开发技巧/框架&库/React/组件/拖拽排序组件.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -46,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dnd-kit",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -95,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "600--资源&&网址书签/601--书签看板/有趣的网址.md"
+                "file": "300--前端相关/02--开发技巧/框架&库/React/组件/拖拽排序组件.md"
               }
             }
           },
@@ -113,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "600--资源&&网址书签/601--书签看板/有趣的网址.md",
+                "file": "300--前端相关/02--开发技巧/框架&库/React/组件/拖拽排序组件.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "600--资源&&网址书签/601--书签看板/有趣的网址.md",
+                "file": "300--前端相关/02--开发技巧/框架&库/React/组件/拖拽排序组件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,8 +226,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b5f9d18702c6bf89",
+  "active": "80e25735d4d3e90d",
   "lastOpenFiles": [
+    "300--前端相关/02--开发技巧/框架&库/dnd kit使用指南/参考文档.md",
+    "300--前端相关/02--开发技巧/框架&库/dnd kit使用指南/README.md",
+    "300--前端相关/02--开发技巧/框架&库/React/组件/拖拽排序组件.md",
+    "100--剪藏/js库/dnd kit.md",
+    "600--资源&&网址书签/601--书签看板/有趣的网址.md",
     "600--资源&&网址书签/601--书签看板/文章.md",
     "000-Inbox/知识分享.md",
     "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md",
@@ -246,11 +254,6 @@
     "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useFullScreen.md",
     "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useFakeProgress.md",
     "300--前端相关/08--每日一个知识点/2023年8月28日 -- 网络安全.md",
-    "300--前端相关/02--开发技巧/HTML/Input.md",
-    "300--前端相关/08--每日一个知识点/2023年8月25日 -- javaScript进行错误处理和异常捕获.md",
-    "300--前端相关/02--开发技巧/框架&库/dnd kit使用指南/参考文档.md",
-    "100--剪藏/js库/dnd kit.md",
-    "300--前端相关/02--开发技巧/框架&库/dnd kit使用指南/README.md",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-4.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-1.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-2.png",
