@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c7465dbb609019b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300--前端相关/06--代码片段/前端常用技巧.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dnd-kit",
+                "query": "复制",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -98,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300--前端相关/02--开发技巧/框架&库/React/组件/拖拽排序组件.md"
+                "file": "300--前端相关/06--代码片段/前端常用技巧.md"
               }
             }
           },
@@ -116,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300--前端相关/02--开发技巧/框架&库/React/组件/拖拽排序组件.md",
+                "file": "300--前端相关/06--代码片段/前端常用技巧.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300--前端相关/02--开发技巧/框架&库/React/组件/拖拽排序组件.md",
+                "file": "300--前端相关/06--代码片段/前端常用技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,8 +240,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "80e25735d4d3e90d",
+  "active": "b5f9d18702c6bf89",
   "lastOpenFiles": [
+    "300--前端相关/02--开发技巧/JavaScript/复制/复制内容到剪切板.md",
+    "300--前端相关/06--代码片段/前端常用技巧.md",
     "100--剪藏/js库/dnd kit.md",
     "300--前端相关/02--开发技巧/框架&库/React/组件/拖拽排序组件.md",
     "300--前端相关/02--开发技巧/框架&库/dnd kit使用指南/参考文档.md",
@@ -252,8 +268,6 @@
     "300--前端相关/08--每日一个知识点/2023年8月29日 -- Babel.md",
     "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useUpdateEffect.md",
     "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useFullScreen.md",
-    "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useFakeProgress.md",
-    "300--前端相关/08--每日一个知识点/2023年8月28日 -- 网络安全.md",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-4.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-1.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-2.png",
