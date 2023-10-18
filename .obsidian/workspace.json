@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "b256cd620396ecaf",
+        "id": "743a3c171a6ed2d8",
         "type": "tabs",
         "children": [
           {
-            "id": "80e25735d4d3e90d",
+            "id": "7058a54a1f114e91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/02--开发技巧/框架&库/React/组件/拖拽排序组件.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7465dbb609019b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300--前端相关/06--代码片段/前端常用技巧.md",
+                "file": "200--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,23 +49,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "复制",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabeticalReverse"
-              }
-            }
-          },
-          {
-            "id": "8e6faee164f44a88",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
               }
             }
           },
@@ -90,12 +65,22 @@
               "type": "surfing-tab-tree",
               "state": {}
             }
+          },
+          {
+            "id": "84a4ad212f5ba323",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://weread.qq.com/web/reader/3da32b505dd9f43da9a1acakc20321001cc20ad4d76f5ae"
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 329.51103591918945
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -111,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "300--前端相关/06--代码片段/前端常用技巧.md"
-              }
+              "state": {}
             }
           },
           {
@@ -125,45 +108,18 @@
             }
           },
           {
-            "id": "ac8491c37fdc1330",
+            "id": "8e6faee164f44a88",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "tag",
               "state": {
-                "file": "300--前端相关/06--代码片段/前端常用技巧.md",
-                "collapseAll": true,
-                "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "04effb4ec673ea0e",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "300--前端相关/06--代码片段/前端常用技巧.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "d04451167a8e4fd2",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
+                "useHierarchy": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "366e0e71d35865b6",
@@ -209,23 +165,13 @@
                 "url": "https://flowus.cn/fdbedd2a-7ae5-41f4-9448-669670ff0521"
               }
             }
-          },
-          {
-            "id": "c60a5d84904ace91",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://weread.qq.com/web/reader/8c632230715c01a18c683d8?"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 674.5,
-    "collapsed": true
+    "width": 385.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,18 +180,27 @@
       "graph:查看关系图谱": false,
       "obsidian-weread-plugin:Weread": false,
       "workspaces:管理工作区布局": false,
-      "smart-random-note:Open Random Note from Search": false,
       "random-note:开始漫游笔记": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "obsidian-memos:Memos": false
+      "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "b5f9d18702c6bf89",
+  "active": "ae088fc3cf22ae65",
   "lastOpenFiles": [
+    "200--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
+    "300--前端相关/02--开发技巧/框架&库/React/Fragment 空标签.md",
+    "300--前端相关/02--开发技巧/框架&库/Ant Design/Table/Table常用功能.md",
+    "999--读书笔记/00--微信读书/计算机/JavaScript设计模式与开发实践.md",
+    "200--计算机基础/计算机网络/计算机网络知识碎片/附件/Pasted image 20231018151131.png",
+    "200--计算机基础/计算机网络/计算机网络知识碎片/附件",
+    "200--计算机基础/计算机网络/附件Excalidraw/代理.excalidraw.md",
+    "999--读书笔记/设计模式/JavaScript设计模式与开发实践.md",
+    "300--前端相关/02--开发技巧/框架&库/React/组件/拖拽排序组件.md",
+    "300--前端相关/02--开发技巧/框架&库/ProComponents/ProFormDependency.md",
+    "300--前端相关/02--开发技巧/框架&库/ProComponents/ProFormText添加onClick事件.md",
     "300--前端相关/02--开发技巧/JavaScript/复制/复制内容到剪切板.md",
     "300--前端相关/06--代码片段/前端常用技巧.md",
     "100--剪藏/js库/dnd kit.md",
-    "300--前端相关/02--开发技巧/框架&库/React/组件/拖拽排序组件.md",
     "300--前端相关/02--开发技巧/框架&库/dnd kit使用指南/参考文档.md",
     "300--前端相关/02--开发技巧/框架&库/dnd kit使用指南/README.md",
     "600--资源&&网址书签/601--书签看板/有趣的网址.md",
@@ -260,14 +215,6 @@
     "100--剪藏/JavaScript/JavaScript中 FileReader 对象详解.md",
     "300--前端相关/02--开发技巧/JavaScript/下载相关/A标签下载重命名.md",
     "300--前端相关/02--开发技巧/JavaScript/下载相关/下载base64格式的图片.md",
-    "300--前端相关/02--开发技巧/JavaScript/下载相关/下载二进制文件.md",
-    "300--前端相关/02--开发技巧/JavaScript/下载相关/通过url链接下载图片.md",
-    "300--前端相关/08--每日一个知识点/README.md",
-    "300--前端相关/08--每日一个知识点/2023年9月1日 -- 生成器（Generator）.md",
-    "README.md",
-    "300--前端相关/08--每日一个知识点/2023年8月29日 -- Babel.md",
-    "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useUpdateEffect.md",
-    "300--前端相关/02--开发技巧/框架&库/React/自定义hook函数/useFullScreen.md",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-4.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-1.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-2.png",
@@ -278,7 +225,6 @@
     "500--小技巧/vscode/附件/在vscode中的js文件中自动补全html标签.png",
     "500--小技巧/vscode/附件",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/附件/递归实现给每个对象打层级.png",
-    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/附件/递归实现给每个对象打层级-1.png",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/附件",
     "300--前端相关/08--每日一个知识点/附件",
     "300--前端相关/02--开发技巧/HTML/附件",
@@ -287,7 +233,6 @@
     "300--前端相关/08--每日一个知识点",
     "300--前端相关/0",
     "100--剪藏/100-Inbox",
-    "100--剪藏/新建文件夹",
     "999--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"
