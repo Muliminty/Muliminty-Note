@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/08--每日一个知识点/2023年8月17日 -- JS类型判断有哪几种方法？.md",
+                "file": "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 交集、差集、并集、补集.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -76,8 +76,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -97,7 +96,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 交集、差集、并集、补集.md"
+              }
             }
           },
           {
@@ -125,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 交集、差集、并集、补集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,6 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 交集、差集、并集、补集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,8 +225,15 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "84a4ad212f5ba323",
+  "active": "7058a54a1f114e91",
   "lastOpenFiles": [
+    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 分割成若干个指定长度的二维数组.md",
+    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 过滤空值.md",
+    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 交集、差集、并集、补集.md",
+    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 快速初始化数组.md",
+    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 快速清空.md",
+    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 求和、最大值、最小值.md",
+    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 删除数组指定元素.md",
     "300--前端相关/08--每日一个知识点/2023年8月17日 -- JS类型判断有哪几种方法？.md",
     "300--前端相关/03--面试之道/面试宝典/javascript手写精通面试宝典.md",
     "200--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
@@ -245,13 +255,6 @@
     "600--资源&&网址书签/601--书签看板/有趣的网址.md",
     "600--资源&&网址书签/601--书签看板/文章.md",
     "000-Inbox/知识分享.md",
-    "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md",
-    "300--前端相关/08--每日一个知识点/001--题目参考.md",
-    "300--前端相关/08--每日一个知识点/2023年9月8日 -- plugins 和 loader加载器的区别.md",
-    "300--前端相关/08--每日一个知识点/2023年9月7日 -- Event Loop 2.md",
-    "300--前端相关/08--每日一个知识点/2023年8月6日 -- Event Loop.md",
-    "300--前端相关/08--每日一个知识点/2023年9月5日 -- 装饰器.md",
-    "100--剪藏/JavaScript/JavaScript中 FileReader 对象详解.md",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-4.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-1.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-2.png",
