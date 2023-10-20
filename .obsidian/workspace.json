@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
+                "file": "300--前端相关/08--每日一个知识点/2023年8月17日 -- JS类型判断有哪几种方法？.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "new",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -72,15 +72,16 @@
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://weread.qq.com/web/reader/3da32b505dd9f43da9a1acakc20321001cc20ad4d76f5ae"
+                "url": "https://weread.qq.com/web/reader/3da32b505dd9f43da9a1acakc20321001cc20ad4d76f5ae?"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 329.51103591918945
+    "width": 419.51103591918945
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -115,6 +116,43 @@
               "state": {
                 "sortOrder": "alphabetical",
                 "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bd4c1548a878c7f5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bed8f94c56327ab1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "47a53db78ef7e409",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -166,8 +204,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,8 +222,10 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "ae088fc3cf22ae65",
+  "active": "84a4ad212f5ba323",
   "lastOpenFiles": [
+    "300--前端相关/08--每日一个知识点/2023年8月17日 -- JS类型判断有哪几种方法？.md",
+    "300--前端相关/03--面试之道/面试宝典/javascript手写精通面试宝典.md",
     "200--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
     "300--前端相关/02--开发技巧/框架&库/React/Fragment 空标签.md",
     "300--前端相关/02--开发技巧/框架&库/Ant Design/Table/Table常用功能.md",
@@ -213,8 +252,6 @@
     "300--前端相关/08--每日一个知识点/2023年8月6日 -- Event Loop.md",
     "300--前端相关/08--每日一个知识点/2023年9月5日 -- 装饰器.md",
     "100--剪藏/JavaScript/JavaScript中 FileReader 对象详解.md",
-    "300--前端相关/02--开发技巧/JavaScript/下载相关/A标签下载重命名.md",
-    "300--前端相关/02--开发技巧/JavaScript/下载相关/下载base64格式的图片.md",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-4.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-1.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-2.png",
