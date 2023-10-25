@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="robots" content="noindex, nofollow"/>
+    <meta name="googlebot" content="noindex, nofollow"/>
+    <title>H5老虎机抽奖 - JSRUN 驱动</title>
+
+    <script type="text/javascript" src="" ></script>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+
+</head>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>适合 Vue/小程序/Angular/React 的老虎机抽奖系统</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <style type="text/css">
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .slots-box {
+      padding: 20px 0;
+      overflow: hidden;
+      text-align: center;
+    }
+    .slot-box {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    .slot-box-inner {
+      background: #eee;
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      padding: 0 10px;
+    }
+    .slot-box-inner.move {
+      background: linear-gradient(to right, #0be881 0%, #4bcffa 50%, #0be881 100%);
+      background-size: 300%;
+      animation: sbg 1s infinite alternate;
+    }
+    .slot-items {
+      /* padding: 0 10px; */
+    }
+    .slot-item {
+      margin: 10px 0;
+      height: 80px;
+      width: 80px;
+      text-align: center;
+      background: #f60;
+      color: white;
+      line-height: 80px;
+    }
+    .sele{
+      display: block;
+      margin: 10px auto;
+      width: 100px;
+      height: 48px;
+      border: 1px solid #eee;
+      color: #555;
+      outline: none;
+      background: #fff;
+    }
+    .btn {
+      display: block;
+      margin: 20px auto;
+      width: 200px;
+      height: 48px;
+      border-radius: 48px;
+      border: none;
+      color: #fff;
+      outline: none;
+      background: linear-gradient(to right, #f1c40f 0%, #e74c3c 100%);
+    }
+    @keyframes sbg {
+      0% {
+        background-position: 100%;
+      }
+      50% {
+        background-position: -100%;
+      }
+      100% {
+        background-position: 0;
+      }
+    }
+  </style>
+</head>
+<script src="https://cdn.bootcdn.net/ajax/libs/vue/2.5.16/vue.min.js"></script>
+<body>
+  <div id="app">
+    <div class="slots-box">
+      <div class="slot-box" v-for="(slot,i) in slots" >
+        <div class="slot-box-inner" :class="slotsOpts !== null ? 'move' : ''" >
+          <div class="slot-items" :style="'transform: translateY('+slot.trans+'px)'">
+            <div class="slot-item" v-for="opt in slot.items">{{ opt.name }}</div>
+            <div class="slot-item slot-item-copy" >{{ slot.items[0].name }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button @click="slotsStart" class="btn">开始抽奖</button>
+  </div>
+<script type="text/javascript">
+// 核心动画处理
+(function() {
+  var lastTime = 0;
+  var vendors = ['webkit', 'moz'];
+  for(var x = 0; x < vendors.length && !requestAnimationFrame; ++x) {
+    requestAnimationFrame = vendors[x]+'RequestAnimationFrame';
+    cancelAnimationFrame =
+          vendors[x]+'CancelAnimationFrame' || vendors[x]+'CancelRequestAnimationFrame';
+  }
+  if (!requestAnimationFrame)
+    requestAnimationFrame = function(callback) {
+      var currTime = new Date().getTime();
+      var timeToCall = Math.max(0, 16 - (currTime - lastTime));
+      var id = setTimeout(function() { callback(currTime + timeToCall); },
+        timeToCall);
+      lastTime = currTime + timeToCall;
+      return id;
+    };
+  if (!cancelAnimationFrame)
+    cancelAnimationFrame = function(id) {
+      clearTimeout(id);
+    };
+}());
+const nextRound = typeof window === 'object' && window.requestAnimationFrame ? window.requestAnimationFrame : requestAnimationFrame;
+
+var solts = new Vue({
+  el: '#app',
+  data: function () {
+    return {
+      s: '',// 指定结果
+      slotsData: [// 抽奖数据
+        {name: '1鼠标',isActived: 0},
+        {name: '2键盘',isActived: 0},
+        {name: '3笔记本',isActived: 0}      
+      ],
+      slots: [// 抽奖数据分组
+        {
+          title: "组1",trans:0, items: []
+        },
+        {
+          title: "组2",trans:0, items: []
+        },
+        {
+          title: "组3",trans:0, items: []
+        }
+      ],
+      slotsIndex: [-1,-1,-1],// 中奖索引值
+      slotsOpts: null,// 抽奖临时内存区
+      slotsStartedAt: null,// 动画内存区
+	  animateDuration: 5 //滚动时长：s,
+    //   isAward: false,
+    };
+  },
+  created() {
+    this.slotsResult();
+  },
+  methods: {
+
+    /**
+       * 获取抽奖结果序列
+       * @author crl
+       */
+    slotsResult() {
+	  this.slots[0].items = this.slotsData.slice(0)
+      this.slots[1].items = this.slotsData.slice(0)
+      this.slots[2].items = this.slotsData.slice(0)
+      let sl = this.slots;
+      let si = [];
+      for (let i = 0; i < sl.length; i++) {
+        si.push(sl[i].items.findIndex(k => k.isActived === 1));
+      }
+    //   this.slotsIndex = si;// 得到序列，没有则返回 -1
+      this.slotsIndex = [0, 0, 0];// 得到序列，没有则返回 -1
+    },
+
+    /**
+       * 点击抽奖
+       * @author crl
+       */
+    slotsStart: function () {
+      // 如果在抽奖中...不能点击
+      if (this.slotsOpts) {
+        return false;
+      }
+	  
+	  //
+	  //
+	  //请求后台中奖返回  
+        let resultIndex = Math.floor(Math.random()*3);
+        for (let i = 0; i < this.slotsData.length; i++) {
+            this.slotsData[i].isActived = 0;
+        }
+        this.slotsData[resultIndex].isActived = 1;
+        this.slotsResult();
+	  
+	  //
+	  //
+	  //
+
+      // 每一个奖品标签的高度，根据实际高度变化(注意 margin 和 padding)
+      const itemHeight = 90;
+
+      this.slotsOpts = this.slots.map((data, i) => {
+        let choice = this.slotsIndex[i];// 中奖了，根据序列返回结果
+        if (this.slotsIndex[0] === -1) {
+          choice = Math.floor(Math.random() * data.items.length);// 没中奖，随机返回结果
+        }
+        // 初始化定义动画动作结果
+        const opts = {
+          finalPos: choice * itemHeight,// 最终转动位置
+          startOffset: 3000 + Math.random() * 500 + i * 1600,// 影响转的圈数
+          height: data.items.length * itemHeight,// 总长度
+          duration: this.animateDuration * 1000 + i * 1000, // 持续时间，每一个奖品持续8秒，以此累加
+          isFinished: false// 是否完成了
+        };
+        return opts;
+      });
+
+      nextRound(this.slotsAnimate);// 开启抽奖动画
+    },
+
+    /**
+       * 抽奖动画
+       * @author crl
+       * @param  {[number]}   timestamp 当前的方法持续的毫秒数
+       */
+    slotsAnimate: function (timestamp) {
+      // 是否已经在转动了
+      if (this.slotsStartedAt === null) {
+        this.slotsStartedAt = timestamp;// 动画初始时间
+      }
+
+      const timeDiff = timestamp - this.slotsStartedAt;// 动画持续的时间
+
+      this.slotsOpts.forEach((opt,i) => {
+        // 完成后停止转动
+        if (opt.isFinished) {
+          return false;
+        }
+
+        const timeRemaining = Math.max(opt.duration - timeDiff, 0);// 总的持续时间 - 动画持续时间 = 剩下的时间,0表示结束
+        const power = 3;// 动画转动的力度
+        const offset = (Math.pow(timeRemaining, power) / Math.pow(opt.duration, power)) * opt.startOffset;// 偏移量
+        const pos = -1 * Math.floor((offset + opt.finalPos) % opt.height);// 转动值
+
+        // 如果持续时间大于总持续时间，则该项表示完成
+        if (timeDiff > opt.duration) {
+          opt.isFinished = true;
+        }
+
+        // 得到转动数据
+        this.slots[i].trans = pos;
+      });
+
+      // 当所有项已经完成，则停止转动，回归初始状态
+      if (this.slotsOpts.every(o => o.isFinished)) {
+        this.slotsOpts = null;
+        this.slotsStartedAt = null;
+		//因抽奖是100%中奖，取第一个结果即可
+		alert("恭喜获得："+this.slotsData[this.slotsIndex[0]].name)
+      } else {
+        // 否则继续转动
+        nextRound(this.slotsAnimate);
+      }
+    }
+  }
+});
+</script>
+</body>
+</html>
+<script type="application/javascript" src="main.js"></script>
+</html>
+
