@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "743a3c171a6ed2d8",
+        "id": "bfddf9105d4c443c",
         "type": "tabs",
         "children": [
           {
-            "id": "8bdca68c4e0571d9",
+            "id": "5b0ee7bab4a8b996",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
+              "type": "markdown",
               "state": {
-                "url": "file:///E:\\project\\MyNote/300--前端相关/04--前端特效/完整demo/老虎机/main.html"
+                "file": "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -77,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.51103591918945
+    "width": 419.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -93,7 +97,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md"
+              }
             }
           },
           {
@@ -121,6 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,6 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +226,7 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "8bdca68c4e0571d9",
+  "active": "5b0ee7bab4a8b996",
   "lastOpenFiles": [
     "600--资源&&网址书签/601--书签看板/有趣的网址.md",
     "300--前端相关/04--前端特效/完整demo/老虎机/main.css",
