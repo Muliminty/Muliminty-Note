@@ -104,6 +104,17 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "2b364667ce34875b",
+      "parent": 0,
+      "droppable": true,
+      "text": "前端下载二进制流文件_二进制文件下载-CSDN博客",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }

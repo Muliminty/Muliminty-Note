@@ -13,10 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md",
+                "file": "300--前端相关/02--开发技巧/JavaScript/下载相关/下载二进制文件.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "2b364667ce34875b",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://blog.csdn.net/q411020382/article/details/97625532"
               }
             }
           }
@@ -80,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.51103591918945,
-    "collapsed": true
+    "width": 419.51103591918945
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -98,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md"
+                "file": "300--前端相关/02--开发技巧/JavaScript/下载相关/下载二进制文件.md"
               }
             }
           },
@@ -127,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md",
+                "file": "300--前端相关/02--开发技巧/JavaScript/下载相关/下载二进制文件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md",
+                "file": "300--前端相关/02--开发技巧/JavaScript/下载相关/下载二进制文件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,6 +237,16 @@
   },
   "active": "5b0ee7bab4a8b996",
   "lastOpenFiles": [
+    "300--前端相关/02--开发技巧/JavaScript/下载相关/附件/下载二进制文件.png",
+    "300--前端相关/02--开发技巧/JavaScript/下载相关/附件",
+    "300--前端相关/02--开发技巧/JavaScript/下载相关/下载二进制文件.md",
+    "300--前端相关/02--开发技巧/JavaScript/下载相关/通过url链接下载图片.md",
+    "300--前端相关/02--开发技巧/JavaScript/下载相关/下载base64格式的图片.md",
+    "300--前端相关/02--开发技巧/框架&库/Ant Design/Table/Table样式调整/表格滚动条异常.md",
+    "300--前端相关/02--开发技巧/框架&库/Ant Design/Table/自定义表格空状态.md",
+    "300--前端相关/02--开发技巧/框架&库/Ant Design/Table/行悬浮样式修改.md",
+    "300--前端相关/02--开发技巧/框架&库/Ant Design/Table/columns技巧.md",
+    "300--前端相关/02--开发技巧/JavaScript/实用代码片段.md",
     "600--资源&&网址书签/601--书签看板/有趣的网址.md",
     "300--前端相关/04--前端特效/完整demo/老虎机/main.css",
     "300--前端相关/04--前端特效/完整demo/老虎机/README.txt",
@@ -238,7 +257,6 @@
     "300--前端相关/04--前端特效/完整demo/README.txt",
     "300--前端相关/04--前端特效/完整demo/main.js",
     "300--前端相关/04--前端特效/完整demo/main.css",
-    "300--前端相关/04--前端特效/完整demo/main.html",
     "600--资源&&网址书签/601--书签看板/文章.md",
     "300--前端相关/03--面试之道/面试之道知识碎片/浏览器是如何渲染页面的？.md",
     "300--前端相关/03--面试之道/面试之道知识碎片/垃圾回收机制.md",
@@ -255,15 +273,7 @@
     "300--前端相关/03--面试之道/面试宝典/javascript手写精通面试宝典.md",
     "200--计算机基础/计算机网络/计算机网络知识碎片/代理.md",
     "300--前端相关/02--开发技巧/框架&库/React/Fragment 空标签.md",
-    "300--前端相关/02--开发技巧/框架&库/Ant Design/Table/Table常用功能.md",
-    "999--读书笔记/00--微信读书/计算机/JavaScript设计模式与开发实践.md",
     "200--计算机基础/计算机网络/计算机网络知识碎片/附件/Pasted image 20231018151131.png",
-    "200--计算机基础/计算机网络/附件Excalidraw/代理.excalidraw.md",
-    "999--读书笔记/设计模式/JavaScript设计模式与开发实践.md",
-    "300--前端相关/02--开发技巧/框架&库/React/组件/拖拽排序组件.md",
-    "300--前端相关/02--开发技巧/框架&库/ProComponents/ProFormDependency.md",
-    "300--前端相关/02--开发技巧/框架&库/ProComponents/ProFormText添加onClick事件.md",
-    "300--前端相关/02--开发技巧/JavaScript/复制/复制内容到剪切板.md",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-4.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-1.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-2.png",
