@@ -115,6 +115,39 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "ded7361c079a5209",
+      "parent": 0,
+      "droppable": true,
+      "text": "前端下载二进制流文件_二进制文件下载-CSDN博客",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "4af622549fd2440d",
+      "parent": 0,
+      "droppable": true,
+      "text": "New Tab",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "d5f1068d4e54c8a9",
+      "parent": 0,
+      "droppable": true,
+      "text": "Download - Obsidian",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }
