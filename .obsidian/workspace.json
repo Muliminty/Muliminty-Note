@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/02--开发技巧/JavaScript/下载相关/下载base64格式的图片.md",
+                "file": "300--前端相关/02--开发技巧/JavaScript/简单数据类型/字符串技巧.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300--前端相关/02--开发技巧/JavaScript/下载相关/下载base64格式的图片.md"
+                "file": "300--前端相关/02--开发技巧/JavaScript/简单数据类型/字符串技巧.md"
               }
             }
           },
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300--前端相关/02--开发技巧/JavaScript/下载相关/下载base64格式的图片.md",
+                "file": "300--前端相关/02--开发技巧/JavaScript/简单数据类型/字符串技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300--前端相关/02--开发技巧/JavaScript/下载相关/下载base64格式的图片.md",
+                "file": "300--前端相关/02--开发技巧/JavaScript/简单数据类型/字符串技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,8 +226,11 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "b5f9d18702c6bf89",
+  "active": "5b0ee7bab4a8b996",
   "lastOpenFiles": [
+    "300--前端相关/06--代码片段/前端常用技巧.md",
+    "300--前端相关/08--每日一个知识点/2023年8月22日 -- 浏览器的同源策略.md",
+    "300--前端相关/08--每日一个知识点/2023年8月23日 -- MVC和MVVM的概念.md",
     "300--前端相关/02--开发技巧/JavaScript/下载相关/下载base64格式的图片.md",
     "300--前端相关/02--开发技巧/JavaScript/下载相关/下载二进制文件.md",
     "300--前端相关/02--开发技巧/JavaScript/下载相关/通过url链接下载图片.md",
@@ -262,9 +265,6 @@
     "600--资源&&网址书签/601--书签看板/电子书.md",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 交集、差集、并集、补集.md",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 分割成若干个指定长度的二维数组.md",
-    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 过滤空值.md",
-    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 快速初始化数组.md",
-    "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/数组类型/数组 -- 快速清空.md",
     "200--计算机基础/计算机网络/计算机网络知识碎片/附件/Pasted image 20231018151131.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-4.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-1.png",
