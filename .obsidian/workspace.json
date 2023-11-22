@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300--前端相关/02--开发技巧/框架&库/ProComponents/ProFormDependency.md",
-                "mode": "preview",
+                "file": "300--前端相关/01--前端基础/JavaScript/01--手写原生函数/New函数.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300--前端相关/02--开发技巧/框架&库/ProComponents/ProFormDependency.md"
+                "file": "300--前端相关/01--前端基础/JavaScript/01--手写原生函数/New函数.md"
               }
             }
           },
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300--前端相关/02--开发技巧/框架&库/ProComponents/ProFormDependency.md",
+                "file": "300--前端相关/01--前端基础/JavaScript/01--手写原生函数/New函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300--前端相关/02--开发技巧/框架&库/ProComponents/ProFormDependency.md",
+                "file": "300--前端相关/01--前端基础/JavaScript/01--手写原生函数/New函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,10 +228,12 @@
   },
   "active": "5b0ee7bab4a8b996",
   "lastOpenFiles": [
+    "300--前端相关/02--开发技巧/框架&库/ProComponents/ProFormDependency.md",
+    "300--前端相关/01--前端基础/JavaScript/01--手写原生函数/New函数.md",
+    "300--前端相关/01--前端基础/JavaScript/01--手写原生函数",
     "300--前端相关/02--开发技巧/框架&库/ProComponents/附件/ProTable.png",
     "300--前端相关/02--开发技巧/框架&库/ProComponents/ProTable.md",
     "300--前端相关/02--开发技巧/框架&库/ProComponents/附件",
-    "300--前端相关/02--开发技巧/框架&库/ProComponents/ProFormDependency.md",
     "300--前端相关/02--开发技巧/框架&库/ProComponents/ProFormText添加onClick事件.md",
     "300--前端相关/02--开发技巧/框架&库/Ant Design/日期选择器/日期选择器英文改中文.md",
     "300--前端相关/02--开发技巧/JavaScript/复杂数据类型/树结构/根据对象的type进行分组合并成tree.md",
@@ -264,7 +266,6 @@
     "300--前端相关/04--前端特效/完整demo/老虎机",
     "300--前端相关/04--前端特效/完整demo/新建文件夹",
     "300--前端相关/04--前端特效/完整demo/README.txt",
-    "300--前端相关/04--前端特效/完整demo/main.js",
     "200--计算机基础/计算机网络/计算机网络知识碎片/附件/Pasted image 20231018151131.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-4.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-1.png",
