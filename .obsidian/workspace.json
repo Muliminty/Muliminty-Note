@@ -65,22 +65,13 @@
               "type": "surfing-tab-tree",
               "state": {}
             }
-          },
-          {
-            "id": "84a4ad212f5ba323",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://weread.qq.com/web/reader/3da32b505dd9f43da9a1acakc20321001cc20ad4d76f5ae"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 419.51103591918945
+    "width": 255.5
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -193,7 +184,7 @@
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://www.dida365.com/webapp/#q/all/tasks"
+                "url": "https://www.dida365.com/#q/all/tasks"
               }
             }
           },
@@ -219,17 +210,17 @@
       "daily-notes:打开/创建今天的日记": false,
       "command-palette:打开命令面板": false,
       "graph:查看关系图谱": false,
-      "obsidian-weread-plugin:Weread": false,
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-weread-plugin:Weread": false,
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "5b0ee7bab4a8b996",
+  "active": "9ecad09b246738b2",
   "lastOpenFiles": [
-    "300--前端相关/02--开发技巧/框架&库/ProComponents/ProFormDependency.md",
     "300--前端相关/01--前端基础/JavaScript/01--手写原生函数/New函数.md",
+    "300--前端相关/02--开发技巧/框架&库/ProComponents/ProFormDependency.md",
     "300--前端相关/01--前端基础/JavaScript/01--手写原生函数",
     "300--前端相关/02--开发技巧/框架&库/ProComponents/附件/ProTable.png",
     "300--前端相关/02--开发技巧/框架&库/ProComponents/ProTable.md",
