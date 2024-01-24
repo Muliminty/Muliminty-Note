@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "bfddf9105d4c443c",
+        "id": "b9476965ab0e7e28",
         "type": "tabs",
         "children": [
           {
-            "id": "5b0ee7bab4a8b996",
+            "id": "bf1c4808e4284388",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf"
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -95,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf"
+                "file": "README.md"
               }
             }
           },
@@ -113,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,8 +218,9 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "5b0ee7bab4a8b996",
+  "active": "bf1c4808e4284388",
   "lastOpenFiles": [
+    "资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf",
     "05--前端框架/Vue/Vue知识碎片/尚硅谷_前端技术_Vue全家桶.pdf",
     "05--前端框架/Vue/Vue知识碎片/vue3快速上手.md",
     "05--前端框架/React/React知识体系.md",
@@ -257,7 +261,6 @@
     "前端特效/完整demo/老虎机/main.css",
     "前端特效/完整demo/老虎机/README.txt",
     "前端特效/完整demo/老虎机/main.js",
-    "前端特效/完整demo/老虎机/main.html",
     "200--计算机基础/计算机网络/计算机网络知识碎片/附件/Pasted image 20231018151131.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-4.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-1.png",
