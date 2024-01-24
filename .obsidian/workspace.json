@@ -11,8 +11,10 @@
             "id": "5b0ee7bab4a8b996",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf"
+              }
             }
           }
         ]
@@ -92,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf"
+              }
             }
           },
           {
@@ -109,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +215,7 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "b5f9d18702c6bf89",
+  "active": "5b0ee7bab4a8b996",
   "lastOpenFiles": [
     "05--前端框架/Vue/Vue知识碎片/尚硅谷_前端技术_Vue全家桶.pdf",
     "05--前端框架/Vue/Vue知识碎片/vue3快速上手.md",
@@ -218,17 +224,17 @@
     "05--前端框架/React/React知识碎片/React生命周期.md",
     "05--前端框架/React/React知识碎片/React的React.FC.md",
     "05--前端框架/React/React知识碎片/PropTypes 进行类型检查.md",
-    "500--小技巧/本地部署antd文档.md",
-    "500--小技巧/PicGo.md",
-    "500--小技巧/Clean-mark.md",
+    "小技巧/本地部署antd文档.md",
+    "小技巧/PicGo.md",
+    "小技巧/Clean-mark.md",
     "HTML常见技巧/Input.md",
     "框架&库常见技巧/百度地图Api使用/React-BMapGL/未命名看板.md",
     "02--开发技巧/README.md",
     "框架&库常见技巧/百度地图Api使用/React-BMapGL/报错处理.md",
     "框架&库常见技巧/百度地图Api使用/React-BMapGL/百度地图开发入门.md",
-    "100--剪藏/000-Inbox/sourceTree 添加 ssh key 方法.md",
+    "剪藏/000-Inbox/sourceTree 添加 ssh key 方法.md",
     "归档/笔记整理.md",
-    "100--剪藏/Git/克隆错误RPC failed  curl 56 Recv failure  Connection was reset.  及克隆速度慢问题解决.md",
+    "剪藏/Git/克隆错误RPC failed  curl 56 Recv failure  Connection was reset.  及克隆速度慢问题解决.md",
     "归档/知识分享.md",
     "000-Inbox/未命名",
     "归档/待剪藏.md",
@@ -248,10 +254,10 @@
     "JavaScript常见技巧/复杂数据类型/树结构/根据对象的type进行分组合并成tree.md",
     "JavaScript常见技巧/下载相关/附件/下载二进制文件.png",
     "JavaScript常见技巧/下载相关/附件",
-    "04--前端特效/完整demo/老虎机/main.css",
-    "04--前端特效/完整demo/老虎机/README.txt",
-    "04--前端特效/完整demo/老虎机/main.js",
-    "04--前端特效/完整demo/老虎机/main.html",
+    "前端特效/完整demo/老虎机/main.css",
+    "前端特效/完整demo/老虎机/README.txt",
+    "前端特效/完整demo/老虎机/main.js",
+    "前端特效/完整demo/老虎机/main.html",
     "200--计算机基础/计算机网络/计算机网络知识碎片/附件/Pasted image 20231018151131.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-4.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-1.png",

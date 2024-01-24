@@ -2,7 +2,7 @@
 
 [官方文档](https://echarts.apache.org/handbook/zh/get-started/)
 
-[echarts——各个配置项详细说明总结](../../../../100--剪藏/Apache%20ECharts/echarts——各个配置项详细说明总结.md)
+[echarts——各个配置项详细说明总结](../../剪藏/Apache%20ECharts/echarts——各个配置项详细说明总结.md)
 
 npm install echarts --save
 npm install --save echarts-for-react
