@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "JavaScript常见技巧/数据格式化/数值大小写转换.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "表单",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "JavaScript常见技巧/数据格式化/数值大小写转换.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "JavaScript常见技巧/数据格式化/数值大小写转换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "JavaScript常见技巧/数据格式化/数值大小写转换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,6 +220,15 @@
   },
   "active": "bf1c4808e4284388",
   "lastOpenFiles": [
+    "JavaScript常见技巧/数据格式化/数值相关.md",
+    "JavaScript常见技巧/数据格式化/数值大小写转换.md",
+    "JavaScript常见技巧/数据格式化/时间格式.md",
+    "JavaScript常见技巧/数据格式化/金额格式化.md",
+    "框架&库常见技巧/ProComponents/ProFormDependency.md",
+    "框架&库常见技巧/ProComponents/ProFormText添加onClick事件.md",
+    "框架&库常见技巧/ProComponents/ProTable.md",
+    "框架&库常见技巧/Ant Design/Form/validator 动态校验表单.md",
+    "README.md",
     "资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf",
     "05--前端框架/Vue/Vue知识碎片/尚硅谷_前端技术_Vue全家桶.pdf",
     "05--前端框架/Vue/Vue知识碎片/vue3快速上手.md",
@@ -239,28 +248,19 @@
     "剪藏/000-Inbox/sourceTree 添加 ssh key 方法.md",
     "归档/笔记整理.md",
     "剪藏/Git/克隆错误RPC failed  curl 56 Recv failure  Connection was reset.  及克隆速度慢问题解决.md",
-    "归档/知识分享.md",
     "000-Inbox/未命名",
-    "归档/待剪藏.md",
     "归档",
     "未命名",
     "归档/附件/知识分享-2.png",
     "归档/附件/知识分享-1.jpg",
     "归档/附件/知识分享.png",
-    "300--前端相关/01--前端基础/JavaScript/01--手写原生函数/New函数.md",
-    "框架&库常见技巧/ProComponents/ProFormDependency.md",
     "300--前端相关/01--前端基础/JavaScript/01--手写原生函数",
     "框架&库常见技巧/ProComponents/附件/ProTable.png",
-    "框架&库常见技巧/ProComponents/ProTable.md",
     "框架&库常见技巧/ProComponents/附件",
-    "框架&库常见技巧/ProComponents/ProFormText添加onClick事件.md",
-    "框架&库常见技巧/Ant Design/日期选择器/日期选择器英文改中文.md",
-    "JavaScript常见技巧/复杂数据类型/树结构/根据对象的type进行分组合并成tree.md",
     "JavaScript常见技巧/下载相关/附件/下载二进制文件.png",
     "JavaScript常见技巧/下载相关/附件",
     "前端特效/完整demo/老虎机/main.css",
     "前端特效/完整demo/老虎机/README.txt",
-    "前端特效/完整demo/老虎机/main.js",
     "200--计算机基础/计算机网络/计算机网络知识碎片/附件/Pasted image 20231018151131.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-4.png",
     "300--前端相关/08--每日一个知识点/附件/2023年8月23日 -- MVC和MVVM的概念-1.png",
