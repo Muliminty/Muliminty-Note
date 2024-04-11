@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5de59efcba59ade1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,8 +91,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript常见技巧/实用代码片段.md"
+                "file": "小技巧/浏览器使用技巧/知乎PC相关/无图模式.md"
               }
             }
           },
@@ -117,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript常见技巧/实用代码片段.md",
+                "file": "小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript常见技巧/实用代码片段.md",
+                "file": "小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,8 +232,15 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "9ecad09b246738b2",
+  "active": "5de59efcba59ade1",
   "lastOpenFiles": [
+    "小技巧/浏览器使用技巧/一键截图.md",
+    "小技巧/浏览器使用技巧/知乎PC相关/知乎（网页版）夜间模式（暗色模式）.md",
+    "JavaScript常见技巧/实用代码片段.md",
+    "小技巧/博客园/主题备份2.md",
+    "小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
+    "小技巧/博客园/主题备份3.md",
+    "小技巧/博客园/主题备份.md",
     "剪藏/Obsidian/7145351315705577485.md",
     "JavaScript常见技巧/下载相关/下载二进制文件.md",
     "JavaScript常见技巧/下载相关/附件/下载二进制文件.png",
@@ -246,13 +266,6 @@
     "框架&库常见技巧/Ant Design/Tree/拖拽排序.md",
     "框架&库常见技巧/Ant Design/Table/自定义表格空状态.md",
     "框架&库常见技巧/Ant Design/Table/行悬浮样式修改.md",
-    "框架&库常见技巧/Ant Design/Table/表格复选框.md",
-    "JavaScript常见技巧/数据格式化/数值大小写转换.md",
-    "JavaScript常见技巧/数据格式化/数值相关.md",
-    "JavaScript常见技巧/数据格式化/时间格式.md",
-    "JavaScript常见技巧/数据格式化/金额格式化.md",
-    "框架&库常见技巧/ProComponents/ProFormDependency.md",
-    "框架&库常见技巧/ProComponents/ProFormText添加onClick事件.md",
     "资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf",
     "05--前端框架/Vue/Vue知识碎片/尚硅谷_前端技术_Vue全家桶.pdf",
     "000-Inbox/未命名",
