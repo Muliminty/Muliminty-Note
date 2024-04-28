@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript常见技巧/实用代码片段.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5de59efcba59ade1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "框架&库常见技巧/React/自定义hook函数/useFakeProgress.md",
+                "file": "CSS常见技巧/纯 CSS 检测文本是否溢出.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#react/自定义hook",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -91,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -113,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "框架&库常见技巧/React/自定义hook函数/useFakeProgress.md"
+                "file": "CSS常见技巧/纯 CSS 检测文本是否溢出.md"
               }
             }
           },
@@ -131,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "框架&库常见技巧/React/自定义hook函数/useFakeProgress.md",
+                "file": "CSS常见技巧/纯 CSS 检测文本是否溢出.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "框架&库常见技巧/React/自定义hook函数/useFakeProgress.md",
+                "file": "CSS常见技巧/纯 CSS 检测文本是否溢出.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,15 +218,24 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "5de59efcba59ade1",
+  "active": "cde6923eeb7f5b92",
   "lastOpenFiles": [
+    "剪藏/CSS/纯 CSS 检测文本是否溢出.md",
+    "CSS常见技巧/纯 CSS 检测文本是否溢出.md",
+    "JavaScript常见技巧/实用代码片段.md",
+    "CSS常见技巧/附件/纯 CSS 检测文本是否溢出-2.png",
+    "CSS常见技巧/附件/纯 CSS 检测文本是否溢出-1.png",
+    "CSS常见技巧/附件/纯 CSS 检测文本是否溢出.png",
+    "CSS常见技巧/附件",
+    "剪藏/CSS",
+    "CSS常见技巧/多行展开收起自动隐藏（全兼容）.md",
+    "框架&库常见技巧/React/自定义hook函数/useFakeProgress.md",
     "框架&库常见技巧/React/自定义hook函数/useFullScreen.md",
     "框架&库常见技巧/React/自定义hook函数/useUpdateEffect.md",
     "框架&库常见技巧/Ant Design/Form/Form 样式.md",
     "小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
     "小技巧/浏览器使用技巧/一键截图.md",
     "小技巧/浏览器使用技巧/知乎PC相关/知乎（网页版）夜间模式（暗色模式）.md",
-    "JavaScript常见技巧/实用代码片段.md",
     "小技巧/博客园/主题备份2.md",
     "小技巧/博客园/主题备份3.md",
     "小技巧/博客园/主题备份.md",
@@ -262,11 +256,6 @@
     "框架&库常见技巧/React/react 首屏加载.md",
     "框架&库常见技巧/React/Fragment 空标签.md",
     "框架&库常见技巧/React/如何在react中使用less.md",
-    "框架&库常见技巧/React/路由跳转后URL改变了组件没变化.md",
-    "框架&库常见技巧/React/路由拦截.md",
-    "框架&库常见技巧/Ant Design/Table/columns技巧.md",
-    "框架&库常见技巧/Ant Design/Table/Table常用功能.md",
-    "框架&库常见技巧/Ant Design/报错总结.md",
     "资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf",
     "05--前端框架/Vue/Vue知识碎片/尚硅谷_前端技术_Vue全家桶.pdf",
     "000-Inbox/未命名",
@@ -274,13 +263,8 @@
     "未命名",
     "归档/附件/知识分享-2.png",
     "归档/附件/知识分享-1.jpg",
-    "归档/附件/知识分享.png",
     "300--前端相关/01--前端基础/JavaScript/01--手写原生函数",
-    "框架&库常见技巧/ProComponents/附件/ProTable.png",
     "框架&库常见技巧/ProComponents/附件",
-    "JavaScript常见技巧/下载相关/附件",
-    "前端特效/完整demo/老虎机/main.css",
-    "200--计算机基础/计算机网络/计算机网络知识碎片/附件/Pasted image 20231018151131.png",
     "999--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"
