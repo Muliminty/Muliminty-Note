@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS常见技巧/纯 CSS 检测文本是否溢出.md",
+                "file": "框架&库常见技巧/React/虚拟列表.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "虚拟列",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 255.5,
+    "collapsed": true
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS常见技巧/纯 CSS 检测文本是否溢出.md"
+                "file": "框架&库常见技巧/React/虚拟列表.md"
               }
             }
           },
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS常见技巧/纯 CSS 检测文本是否溢出.md",
+                "file": "框架&库常见技巧/React/虚拟列表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS常见技巧/纯 CSS 检测文本是否溢出.md",
+                "file": "框架&库常见技巧/React/虚拟列表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,8 +221,15 @@
   },
   "active": "cde6923eeb7f5b92",
   "lastOpenFiles": [
-    "剪藏/CSS/纯 CSS 检测文本是否溢出.md",
+    "CSS常见技巧/滚动条相关.md",
+    "框架&库常见技巧/React/虚拟列表.md",
+    "小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
+    "小技巧/浏览器使用技巧/知乎PC相关/s.json",
+    "小技巧/浏览器使用技巧/知乎PC相关/s.txt",
+    "小技巧/浏览器使用技巧/知乎PC相关/新建文本文档.txt",
+    "小技巧/浏览器使用技巧/知乎PC相关/知乎（网页版）夜间模式（暗色模式）.md",
     "CSS常见技巧/纯 CSS 检测文本是否溢出.md",
+    "剪藏/CSS/纯 CSS 检测文本是否溢出.md",
     "JavaScript常见技巧/实用代码片段.md",
     "CSS常见技巧/附件/纯 CSS 检测文本是否溢出-2.png",
     "CSS常见技巧/附件/纯 CSS 检测文本是否溢出-1.png",
@@ -233,9 +241,7 @@
     "框架&库常见技巧/React/自定义hook函数/useFullScreen.md",
     "框架&库常见技巧/React/自定义hook函数/useUpdateEffect.md",
     "框架&库常见技巧/Ant Design/Form/Form 样式.md",
-    "小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
     "小技巧/浏览器使用技巧/一键截图.md",
-    "小技巧/浏览器使用技巧/知乎PC相关/知乎（网页版）夜间模式（暗色模式）.md",
     "小技巧/博客园/主题备份2.md",
     "小技巧/博客园/主题备份3.md",
     "小技巧/博客园/主题备份.md",
@@ -255,16 +261,12 @@
     "面试之道/面试宝典/React面试宝典.md",
     "框架&库常见技巧/React/react 首屏加载.md",
     "框架&库常见技巧/React/Fragment 空标签.md",
-    "框架&库常见技巧/React/如何在react中使用less.md",
     "资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf",
     "05--前端框架/Vue/Vue知识碎片/尚硅谷_前端技术_Vue全家桶.pdf",
     "000-Inbox/未命名",
     "归档",
-    "未命名",
     "归档/附件/知识分享-2.png",
     "归档/附件/知识分享-1.jpg",
-    "300--前端相关/01--前端基础/JavaScript/01--手写原生函数",
-    "框架&库常见技巧/ProComponents/附件",
     "999--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"
