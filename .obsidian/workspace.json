@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "框架&库常见技巧/React/虚拟列表.md",
+                "file": "框架&库常见技巧/Ant Design/Form/常见正则校验.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -99,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "框架&库常见技巧/React/虚拟列表.md"
+                "file": "框架&库常见技巧/Ant Design/Form/常见正则校验.md"
               }
             }
           },
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "框架&库常见技巧/React/虚拟列表.md",
+                "file": "框架&库常见技巧/Ant Design/Form/常见正则校验.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "框架&库常见技巧/React/虚拟列表.md",
+                "file": "框架&库常见技巧/Ant Design/Form/常见正则校验.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,8 +220,8 @@
   },
   "active": "cde6923eeb7f5b92",
   "lastOpenFiles": [
-    "CSS常见技巧/滚动条相关.md",
     "框架&库常见技巧/React/虚拟列表.md",
+    "CSS常见技巧/滚动条相关.md",
     "小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
     "小技巧/浏览器使用技巧/知乎PC相关/s.json",
     "小技巧/浏览器使用技巧/知乎PC相关/s.txt",
