@@ -5,7 +5,7 @@
 
 下面是解决方案
 actionRef
-![](附件/ProTable.png)
+![](../附件/ProTable.png)
 
 const { setPageInfo, pageInfo, reload } = actionRef.current
 
