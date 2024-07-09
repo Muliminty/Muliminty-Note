@@ -150,7 +150,7 @@ export default App;
 
 ```json
 {
-  "name": "zlink_pc_cn_front_help",
+  "name": "project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
