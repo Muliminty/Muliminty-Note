@@ -1,0 +1,422 @@
+# 富文本解析组件
+
+核心组件
+```jsx
+import React, { useEffect, useState, useRef } from 'react';
+import map from 'lodash/map';
+import { Image } from 'antd';
+import CodeBlock from '@/components/codeBlock/CodeBlock.jsx';
+import TableOfContents, { extractHeadings } from './TableOfContents.jsx';
+import styles from './style.module.scss';
+
+/**
+ * 生成唯一的键值
+ * @returns {string} - 唯一的键值
+ */
+function generateUniqueId() {
+  return Math.random().toString(36).substr(2, 9);
+}
+
+/**
+ * 解析 HTML 字符串并转换为 React 元素数组
+ * @param {string} htmlString - HTML 字符串
+ * @param {Object} headingIds - 标题 id 映射
+ * @returns {Array<React.Element>} - 解析后的 React 元素数组
+ */
+export function parseHTML(htmlString, headingIds = {}) {
+  const wrapper = document.createElement('div');
+  wrapper.innerHTML = htmlString;
+  const elements = map(Array.from(wrapper.childNodes), (node) => convertNodeToElement(node, headingIds));
+  return elements;
+}
+
+/**
+ * 将 HTML 节点转换为 React 元素
+ * @param {Node} node - HTML 节点
+ * @param {Object} headingIds - 标题 id 映射
+ * @returns {React.Element} - 转换后的 React 元素
+ */
+function convertNodeToElement(node, headingIds) {
+  if (node.nodeType === Node.TEXT_NODE) {
+    if (node.textContent.trim() === '') {
+      return null;
+    }
+    return node.textContent;
+  }
+
+  const tagName = node.tagName.toLowerCase();
+  const props = { key: generateUniqueId() };
+
+  const inlineStyles = {};
+  Array.from(node.style).forEach((property) => {
+    inlineStyles[property] = node.style.getPropertyValue(property);
+  });
+  props.style = inlineStyles;
+
+  // 给标题元素生成并应用 id
+  if (['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes(tagName)) {
+    const id = node.textContent.trim().toLowerCase().replace(/\s+/g, '-');
+    props.id = id;
+    headingIds[node.textContent.trim()] = id;
+  }
+
+  if (tagName === 'img') {
+    return (
+      <Image
+        key={generateUniqueId()}
+        style={inlineStyles}
+        src={node.getAttribute('src')}
+        alt={node.getAttribute('alt')}
+      />
+    );
+  }
+
+  if (tagName === 'a') {
+    props.target = '_blank';
+    props.href = node.href || "";
+  }
+
+  if (tagName === 'hr' || tagName === 'br') {
+    return React.createElement(tagName, props);
+  }
+
+  if (tagName === 'input') {
+    const attributes = Array.from(node.attributes);
+    attributes.forEach((attribute) => {
+      props[attribute.name] = attribute.value;
+    });
+    return React.createElement(tagName, props);
+  }
+
+  if (tagName === 'video') {
+    const videoProps = {
+      style: inlineStyles,
+      controls: true,
+      poster: node.getAttribute('poster'),
+      key: generateUniqueId(),
+    };
+    const sourceElements = map(Array.from(node.getElementsByTagName('source')), (sourceNode) => {
+      return (
+        <source
+          key={generateUniqueId()}
+          src={sourceNode.getAttribute('src')}
+          type={sourceNode.getAttribute('type')}
+        />
+      );
+    });
+    return <video {...videoProps}>{sourceElements}</video>;
+  }
+
+  if (node.nodeType === Node.ELEMENT_NODE && tagName === 'pre') {
+    const codeNode = node.querySelector('code');
+    if (codeNode) {
+      const language = codeNode.getAttribute('class')?.split(' ')[0].replace('language-', '');
+      return (
+        <CodeBlock
+          key={generateUniqueId()}
+          language={language}
+          code={codeNode.textContent.trim()}
+        />
+      );
+    }
+  }
+
+  const children = map(Array.from(node.childNodes), (childNode) => convertNodeToElement(childNode, headingIds));
+
+  return React.createElement(tagName, props, children);
+}
+
+/**
+ * 富文本解析器组件
+ * @param {Object} props - 组件属性
+ * @param {string} props.html - HTML 字符串
+ * @param {ReactElement} props.slotTop - 插槽
+ * @param {ReactElement} props.slotBottom - 插槽
+ * @returns {React.Element} - 富文本解析器组件
+ */
+// eslint-disable-next-line react/prop-types
+const RichTextParser = ({ html, slotTop, slotBottom }) => {
+  const [elements, setElements] = useState([]);
+  const [headings, setHeadings] = useState([]);
+  const contentRef = useRef(null);
+
+  useEffect(() => {
+    const headingIds = {};
+    const parsedElements = parseHTML(html, headingIds);
+    const extractedHeadings = extractHeadings(html).map(heading => ({
+      ...heading,
+      id: headingIds[heading.text]
+    }));
+    setElements(parsedElements);
+    setHeadings(() => extractedHeadings);
+  }, [html]);
+
+  return (
+    <div className={styles['richText_parser']}>
+      {slotTop}
+      <div className={styles['content']} ref={contentRef}>
+        {elements}
+        {slotBottom}
+
+      </div>
+      <TableOfContents headings={headings} oneKEY={headings[0]} getContainer={() => contentRef.current} />
+    </div>
+  );
+};
+
+export default RichTextParser;
+
+```
+
+目录组件
+```jsx
+/* eslint-disable react/prop-types */
+import { useEffect, useState } from 'react';
+import { Anchor } from 'antd';
+import map from 'lodash/map';
+
+const { Link } = Anchor;
+
+/**
+ * 提取 HTML 字符串中的标题元素，并生成唯一的 id
+ * @param {string} htmlString - HTML 字符串
+ * @returns {Array<Object>} - 包含标题信息的数组
+ */
+// eslint-disable-next-line react-refresh/only-export-components
+export function extractHeadings(htmlString) {
+  const wrapper = document.createElement('div');
+  wrapper.innerHTML = htmlString;
+  const headings = [];
+  wrapper.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach((heading) => {
+    const id = heading.textContent.trim().toLowerCase().replace(/\s+/g, '-');
+    headings.push({
+      id,
+      text: heading.textContent.trim(),
+      level: parseInt(heading.tagName.replace('H', ''), 10),
+    });
+    heading.id = id; // 给原始 HTML 元素添加 id
+  });
+  return headings;
+}
+
+/**
+ * 构建层级结构
+ * @param {Array<Object>} headings - 包含标题信息的数组
+ * @returns {Array<Object>} - 构建的层级结构
+ */
+const buildHierarchy = (headings) => {
+  const hierarchy = [];
+  const stack = [];
+
+  headings.forEach((heading) => {
+    const item = { ...heading, children: [] };
+
+    while (stack.length && stack[stack.length - 1].level >= heading.level) {
+      stack.pop();
+    }
+
+    if (stack.length === 0) {
+      hierarchy.push(item);
+    } else {
+      stack[stack.length - 1].children.push(item);
+    }
+
+    stack.push(item);
+  });
+
+  return hierarchy;
+};
+
+/**
+ * 递归渲染目录链接
+ * @param {Array<Object>} headings - 包含标题信息的数组
+ * @returns {React.Element} - 渲染的目录链接
+ */
+const renderLinks = (headings) => {
+  return map(headings, (heading) => (
+    <Link key={heading.id} href={`#${heading.id}`} title={heading.text}>
+      {renderLinks(heading.children)}
+    </Link>
+  ));
+};
+
+/**
+ * 目录组件
+ * @param {Object} props - 组件属性
+ * @param {Array<Object>} props.headings - 标题信息数组
+ * @param {function} [props.getContainer] - 获取容器的函数
+ * @param {Object} [props.oneKEY] - 默认高亮的标题信息
+ * @returns {React.Element} - 目录组件
+ */
+const TableOfContents = ({ headings = [], getContainer, oneKEY }) => {
+  const hierarchy = buildHierarchy(headings);
+  const [activeLink, setActiveLink] = useState('');
+
+  const handleLinkChange = (link) => {
+    setActiveLink(link);
+    if (link.length === 0) {
+      focusFirstHeading();
+    }
+  };
+
+  const focusFirstHeading = () => {
+    if (oneKEY?.id) {
+      setActiveLink(`#${oneKEY.id}`);
+    }
+  };
+
+  useEffect(() => {
+    focusFirstHeading();
+  }, [oneKEY]);
+
+  return (
+    <Anchor
+      getCurrentAnchor={() => activeLink}
+      getContainer={getContainer}
+      affix={false}
+      onChange={handleLinkChange}
+    >
+      {renderLinks(hierarchy)}
+    </Anchor>
+  );
+};
+
+export default TableOfContents;
+
+```
+
+
+样式
+```scss
+@import '@/assets/scss/variables.scss';
+@import '@/assets/scss/utils.scss';
+
+/* 设置基础样式 */
+:root {
+  --primary-color: rgb(122, 193, 67);
+  --primary-dark: #65A43F;
+  --primary-light: #E1F0D1;
+  --text-color: #333333;
+  --background-color: #F9F9F9;
+}
+
+.richText_parser {
+  display: flex;
+
+  .content {
+    width: 60vw;
+    overflow-y: scroll;
+    height: 60vh;
+  }
+
+
+  :global {
+    .ant-anchor {
+      position: fixed;
+      right: 10px;
+    }
+  }
+
+  li,
+  ul,
+  ol {
+    list-style: revert !important;
+  }
+
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  figure,
+  blockquote,
+  dl,
+  dd,
+  ul,
+  ol,
+  li,
+  fieldset,
+  legend,
+  textarea,
+  th,
+  td {
+    margin: revert;
+    padding: revert;
+  }
+
+  a {
+    color: $theme-color;
+  }
+
+  hr {
+    background-color: #ccc;
+    border: 0;
+    display: block;
+    height: 1px;
+  }
+
+  blockquote {
+    // color: #fff;
+    background: #f5f2f0;
+    border-left: 10px solid $theme-color;
+    margin: 1.5em 10px;
+    margin-left: 0;
+    padding: 0.5em 10px;
+    quotes: "\201C" "\201D" "\2018" "\2019";
+  }
+
+
+  blockquote span {
+    display: block;
+    background-image: url(images/closequote1.gif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  p {
+    white-space: pre-wrap;
+    /* 保留空白符并自动换行 */
+    word-wrap: break-word;
+    /* 避免长单词溢出容器 */
+    word-break: break-all;
+    /* 强制换行 */
+    overflow-wrap: break-word;
+    /* 对于长单词，允许在任何地方进行换行 */
+  }
+
+  // 我用的是less，其他样式请写自己的语法
+  table {
+    // width: 700px;
+    // 下面设置表格整体的边框，左上
+    border-top: 1px solid #d2d2d2;
+    border-left: 1px solid #d2d2d2;
+
+    tr {
+      width: 100%;
+      height: 40px; //每一行高度
+
+      th,
+      td {
+        padding: 0 1vw;
+        // 下面设置每个格子边框，右下
+        border-right: 1px solid #d2d2d2;
+        border-bottom: 1px solid #d2d2d2;
+        text-align: center;
+
+        & * {
+          /* 解释下这个是干啥
+      	& 代表的就是当前选择器选中的项,也就是td
+      	* 匹配所有的元素(因为我不确定表格里是放的文本还是别的元素什么,就加分通配符,其实写成 &>* 会更好
+      	里面的属性是垂直居中，具体说明自己百度吧
+      */
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+}
+```
