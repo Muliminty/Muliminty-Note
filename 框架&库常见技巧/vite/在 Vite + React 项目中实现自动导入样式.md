@@ -138,3 +138,98 @@ export default ExampleComponent;
 通过这次趣味之旅，我们不仅解决了手动导入样式的烦恼，还让代码变得更加简洁优雅。这就是编写插件的魅力所在，简单几行代码，就能让我们从重复劳动中解放出来。希望这篇博客能给你带来一些启发，也希望大家能享受这种解决问题的乐趣！
 
 如果你也有类似的好点子，别忘了分享给大家哦！让我们一起在编程的世界里探索更多的可能性！
+
+
+---
+
+补充
+
+要解决 VSCode 中的 'styles' is not defined 报错问题
+可以在 ESLint 的配置文件 `.eslintrc.cjs` 中做如下设置：
+
+### 1. 更新 ESLint 配置文件
+
+在 `.eslintrc.cjs` 文件中添加一个规则，专门针对 `styles` 的未定义错误进行配置。由于你使用的是 CommonJS 模块 (`.cjs` 文件)，我们可以通过配置 `globals` 选项来声明 `styles` 为全局变量，或者通过禁用特定的规则来解决问题。
+
+#### 选项 A：声明 `styles` 为全局变量
+
+在 ESLint 配置中声明 `styles` 作为全局变量，这样 ESLint 就不会对 `styles` 未定义进行报错。
+
+```javascript
+module.exports = {
+  root: true,
+  env: { browser: true, es2020: true },
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
+    'plugin:react-hooks/recommended',
+  ],
+  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
+  settings: { react: { version: '18.2' } },
+  plugins: ['react-refresh'],
+  globals: {
+    styles: 'readonly', // 声明 `styles` 作为全局只读变量
+  },
+  rules: {
+    'react/jsx-no-target-blank': 'off',
+    'react-refresh/only-export-components': [
+      'warn',
+      { allowConstantExport: true },
+    ],
+  },
+}
+```
+
+#### 选项 B：禁用 `no-undef` 规则（不推荐）
+
+如果你只想在特定情况下禁用 `no-undef` 规则，可以将其禁用：
+
+```javascript
+module.exports = {
+  root: true,
+  env: { browser: true, es2020: true },
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
+    'plugin:react-hooks/recommended',
+  ],
+  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
+  settings: { react: { version: '18.2' } },
+  plugins: ['react-refresh'],
+  rules: {
+    'react/jsx-no-target-blank': 'off',
+    'react-refresh/only-export-components': [
+      'warn',
+      { allowConstantExport: true },
+    ],
+    'no-undef': 'off', // 关闭未定义变量检查（不推荐）
+  },
+}
+```
+
+### 2. VSCode 配置
+
+确保 VSCode 的 ESLint 插件配置一致，不会覆盖你的 ESLint 配置。检查 `.vscode/settings.json` 文件是否有如下配置：
+
+```json
+{
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "eslint.options": {
+    "globals": {
+      "styles": "readonly"
+    }
+  }
+}
+```
+
+### 总结
+
+- **声明 `styles` 为全局变量**：在 ESLint 配置中使用 `globals` 选项，将 `styles` 声明为只读全局变量。
+- **禁用 `no-undef` 规则**：虽然不推荐，但如果选择禁用 `no-undef` 规则，确保不会影响其他代码质量检查。
+
+通过这些配置，可以在 ESLint 中处理 `styles` 的未定义问题，同时保持代码的规范性。
