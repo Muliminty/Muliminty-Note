@@ -26,25 +26,45 @@ const MyComponent = () => (
 import fs from 'fs';
 import path from 'path';
 
+/**
+ * Vite 插件，用于自动导入组件同级目录下的样式文件。
+ * 
+ * @returns {import('vite').Plugin} Vite 插件配置对象
+ */
 export default function autoImportStyles() {
   return {
     name: 'auto-import-styles',
+    
+    /**
+     * 在 Vite 的编译过程中对代码进行转换。
+     * 
+     * @param {string} code - 当前正在被处理的文件内容
+     * @param {string} id - 当前正在被处理的文件路径
+     * @returns {{code: string, map: null} | undefined} 转换后的代码和 source map
+     */
     transform(code, id) {
+      // 如果文件不是以 .jsx 或 .tsx 结尾，则跳过处理
       if (!id.endsWith('.jsx') && !id.endsWith('.tsx')) return;
 
+      // 解析样式文件的路径
       const stylesPath = path.resolve(path.dirname(id), 'style.module.scss');
+
+      // 如果样式文件存在，则插入导入语句
       if (fs.existsSync(stylesPath)) {
-        const importStatement = `import styles from './style.module.scss';\n`;
+        // 插入 ESLint 禁用注释以避免 'styles' 未定义的报错
+        const importStatement = `/* eslint-disable-next-line */\nimport styles from './style.module.scss';\n`;
         return {
-          code: importStatement + code,
-          map: null,
+          code: importStatement + code, // 将导入语句添加到代码的开头
+          map: null, // 不生成 source map
         };
       }
 
+      // 如果样式文件不存在，则返回原始代码
       return { code, map: null };
     },
   };
 }
+
 ```
 
 ### 2. 配置 Vite 使用插件
