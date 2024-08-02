@@ -23,8 +23,8 @@ const path = require('path');
 const readline = require('readline');
 
 /**
- * 将字符串中的连字符去除，并将每个单词的首字母转换为大写字母，形成大驼峰命名法（PascalCase）。
- * @param {string} str - 要转换的字符串。可以包含连字符，也可以不包含连字符。
+ * 将字符串中的连字符或空格去除，并将每个单词的首字母转换为大写字母，形成大驼峰命名法（PascalCase）。
+ * @param {string} str - 要转换的字符串，可以包含连字符或空格。
  * @returns {string} 转换后的大驼峰命名字符串。
  */
 const toPascalCase = (str) => {
@@ -36,26 +36,26 @@ const toPascalCase = (str) => {
 };
 
 /**
- * 将字符串中的连字符去除，并将每个单词的首字母转换为大写字母（除了第一个单词），形成小驼峰命名法（camelCase）。
- * @param {string} str - 要转换的字符串。可以包含连字符，也可以不包含连字符。
+ * 将字符串中的连字符或空格去除，并将每个单词的首字母转换为大写字母（除了第一个单词），形成小驼峰命名法（camelCase）。
+ * @param {string} str - 要转换的字符串，可以包含连字符或空格。
  * @returns {string} 转换后的小驼峰命名字符串。
  */
 const toCamelCase = (str) => {
   return str
     .split(/[\s\-]/) // 按空格或连字符分割字符串
     .filter(Boolean) // 过滤掉空字符串
-    .map((word, index) => index === 0 ? word.toLowerCase() : word.charAt(0).toUpperCase() + word.slice(1)) // 首字母大写（除了第一个单词）
+    .map((word, index) => index === 0 ? word.toLowerCase() : word.charAt(0).toUpperCase() + word.slice(1)) // 第一个单词小写，其余单词首字母大写
     .join(''); // 连接成小驼峰格式
 };
 
+// 生成 React 组件的模板代码
 /**
  * 生成 React 组件的模板代码。
  * @param {string} name - 组件的名称（大驼峰命名法）。
  * @returns {string} 生成的组件模板代码。
  */
-const componentTemplate = (name) => `
+const getComponentTemplate = (name) => `
 import React from 'react';
-import styles from './${name}.module.scss';
 
 const ${name} = () => {
   return (
@@ -68,49 +68,68 @@ const ${name} = () => {
 export default ${name};
 `;
 
+// 生成样式文件的模板代码
 /**
  * 生成样式文件的模板代码。
  * @returns {string} 生成的样式模板代码。
  */
-const styleTemplate = `
+const getStyleTemplate = () => `
 .container {
   // 样式代码
 }
 `;
 
-// 创建 readline 接口
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
+// 文件模板和路径配置
+/**
+ * 文件模板和路径配置。
+ * @type {Array<{type: string, path: Function, content: Function}>}
+ */
+const templates = [
+  {
+    type: 'component',
+    path: (name) => path.join(__dirname, '..', 'src', 'page', name, `${toPascalCase(name)}.jsx`),
+    content: getComponentTemplate
+  },
+  {
+    type: 'style',
+    path: (name) => path.join(__dirname, '..', 'src', 'page', name, 'style.module.scss'),
+    content: getStyleTemplate
+  }
+];
 
 /**
  * 从用户处获取输入并创建页面组件及其样式文件。
  */
 const createPage = () => {
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+
   rl.question('请输入页面组件的名称: ', (rawName) => {
-    const componentName = toPascalCase(rawName);
-    const folderName = toCamelCase(rawName);
+    const componentName = toPascalCase(rawName); // 组件名称（大驼峰）
+    const folderName = toCamelCase(rawName); // 目录名称和 .jsx 文件名（小驼峰）
 
     const pageDir = path.join(__dirname, '..', 'src', 'page', folderName);
 
     if (!fs.existsSync(pageDir)) {
-      fs.mkdirSync(pageDir, { recursive: true });
+      fs.mkdirSync(pageDir, { recursive: true }); // 创建目录（如果不存在的话）
     }
 
-    const componentPath = path.join(pageDir, `${componentName}.jsx`);
-    const stylePath = path.join(pageDir, 'style.module.scss');
+    // 生成文件
+    templates.forEach(({ type, path: getPath, content }) => {
+      const filePath = getPath(folderName); // 获取文件路径
+      const fileContent = content(componentName); // 获取文件内容
+      fs.writeFileSync(filePath, fileContent, 'utf8'); // 写入文件
+      console.log(`已创建 ${type} 文件: ${filePath}`);
+    });
 
-    fs.writeFileSync(componentPath, componentTemplate(componentName), 'utf8');
-    fs.writeFileSync(stylePath, styleTemplate, 'utf8');
-
-    console.log(`已创建 ${componentName} 页面组件和样式文件`);
-
-    rl.close();
+    rl.close(); // 关闭 readline 接口
   });
 };
 
-createPage();
+createPage(); // 执行创建页面的函数
+
 ```
 
 #### 4. 使用说明
