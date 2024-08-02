@@ -157,10 +157,9 @@ createPage(); // 执行创建页面的函数
 
 #### 5. 错误处理
 
-- **错误提示**：如果在运行脚本时遇到 `SyntaxError: The requested module 'inquirer' does not provide an export named 'prompt'` 错误，可能是因为你的项目配置为 ES 模块（`.js` 文件扩展名），而你尝试使用了 CommonJS 模块语法。解决此问题的办法是将脚本文件扩展名改为 `.cjs`，或者将 `package.json` 中的 `"type": "module"` 配置移除。
+- **错误提示**：如果在运行脚本时遇到错误，可能是因为你的项目配置为 ES 模块（`.js` 文件扩展名），而你尝试使用了 CommonJS 模块语法。解决此问题的办法是将脚本文件扩展名改为 `.cjs`，或者将 `package.json` 中的 `"type": "module"` 配置移除。
 
 - **处理未处理的承诺拒绝**：脚本可能会报 `UnhandledPromiseRejectionWarning` 错误。确保在使用 `async` 函数时使用 `.catch()` 方法处理所有的承诺拒绝，或者在 Node.js 启动时使用 `--unhandled-rejections=strict` 标志来严格处理未处理的承诺拒绝。
 
 - **文件或目录不存在**：如果脚本报错提示文件或目录不存在，检查脚本路径和项目结构是否正确，确保 `src/page` 目录存在，并且你具有创建子目录和文件的权限。
 
-通过这个脚本，开发者可以快速创建符合命名规范的 React 组件及其样式文件，提升开发效率。
