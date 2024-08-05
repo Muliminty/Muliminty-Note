@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript常见技巧/复杂数据类型/树结构/父子节点联动.md",
+                "file": "小技巧/git/使用 SSH 配置 Git 和 Sourcetree 的详细技术文档.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "627a3ddd4ca3d91a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "小技巧/git/使用 SSH 配置 Git 和 Sourcetree 的详细技术文档.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript常见技巧/复杂数据类型/树结构/父子节点联动.md"
+                "file": "小技巧/git/使用 SSH 配置 Git 和 Sourcetree 的详细技术文档.md"
               }
             }
           },
@@ -116,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript常见技巧/复杂数据类型/树结构/父子节点联动.md",
+                "file": "小技巧/git/使用 SSH 配置 Git 和 Sourcetree 的详细技术文档.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript常见技巧/复杂数据类型/树结构/父子节点联动.md",
+                "file": "小技巧/git/使用 SSH 配置 Git 和 Sourcetree 的详细技术文档.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,10 +232,12 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "cde6923eeb7f5b92",
+  "active": "627a3ddd4ca3d91a",
   "lastOpenFiles": [
-    "框架&库常见技巧/Ant Design/Form/常见正则校验.md",
     "JavaScript常见技巧/复杂数据类型/树结构/父子节点联动.md",
+    "小技巧/git/使用 SSH 配置 Git 和 Sourcetree 的详细技术文档.md",
+    "小技巧/git",
+    "框架&库常见技巧/Ant Design/Form/常见正则校验.md",
     "框架&库常见技巧/React/虚拟列表.md",
     "CSS常见技巧/滚动条相关.md",
     "小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
@@ -259,11 +275,9 @@
     "框架&库常见技巧/Ant Design/Table/Table样式调整/附件/未命名-1.png",
     "框架&库常见技巧/Ant Design/Table/Table样式调整/附件/未命名.png",
     "框架&库常见技巧/Ant Design/Table/Table样式调整/附件",
-    "面试之道/面试宝典/React面试宝典.md",
     "资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf",
     "05--前端框架/Vue/Vue知识碎片/尚硅谷_前端技术_Vue全家桶.pdf",
     "000-Inbox/未命名",
-    "归档",
     "归档/附件/知识分享-2.png",
     "归档/附件/知识分享-1.jpg",
     "999--Test/未命名.canvas",
