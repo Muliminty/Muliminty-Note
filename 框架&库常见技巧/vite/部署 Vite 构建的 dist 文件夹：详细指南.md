@@ -35,7 +35,7 @@ Vite 是一个轻量级且快速的前端构建工具，能够生成高效的静
 
    你可以在启动命令中指定端口。例如，指定端口为 3131：
    ```bash
-   serve -s dist -l 5000
+   serve -s dist -l 3131
    ```
 
 ### 2. 使用 Node.js 和 Express
