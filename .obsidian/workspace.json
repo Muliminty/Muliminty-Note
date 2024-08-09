@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "框架&库常见技巧/vite/Vite 代理的作用和实现.md",
+                "file": "框架&库常见技巧/vite/Vite 项目中的代理配置与环境变量管理.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "框架&库常见技巧/vite/Vite 代理的作用和实现.md"
+                "file": "框架&库常见技巧/vite/Vite 项目中的代理配置与环境变量管理.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "框架&库常见技巧/vite/Vite 代理的作用和实现.md",
+                "file": "框架&库常见技巧/vite/Vite 项目中的代理配置与环境变量管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "框架&库常见技巧/vite/Vite 代理的作用和实现.md",
+                "file": "框架&库常见技巧/vite/Vite 项目中的代理配置与环境变量管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,6 +235,7 @@
   "active": "8f7ff01c32fda930",
   "lastOpenFiles": [
     "框架&库常见技巧/vite/Vite 代理的作用和实现.md",
+    "框架&库常见技巧/vite/Vite 项目中的代理配置与环境变量管理.md",
     "CSS常见技巧/附件/为什么英文单词总是超出容器边界？-1.png",
     "CSS常见技巧/附件/为什么英文单词总是超出容器边界？.png",
     "CSS常见技巧/为什么英文单词总是超出容器边界？.md",
@@ -273,7 +274,6 @@
     "框架&库常见技巧/Ant Design/Table/Table样式调整/附件/表格操作栏右浮动之后错位问题-1.png",
     "框架&库常见技巧/Ant Design/Table/Table样式调整/附件/表格操作栏右浮动之后错位问题.png",
     "框架&库常见技巧/Ant Design/Table/Table样式调整/table固定表头右浮动之后表头和内容因为滚动条错位.md",
-    "框架&库常见技巧/Ant Design/Table/Table样式调整/表格滚动条异常.md",
     "框架&库常见技巧/Ant Design/Table/Table样式调整/附件/未命名-1.png",
     "框架&库常见技巧/Ant Design/Table/Table样式调整/附件/未命名.png",
     "框架&库常见技巧/Ant Design/Table/Table样式调整/附件",
