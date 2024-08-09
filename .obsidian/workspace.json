@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8f7ff01c32fda930",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "框架&库常见技巧/vite/Vite 代理的作用和实现.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS常见技巧/为什么英文单词总是超出容器边界？.md"
+                "file": "框架&库常见技巧/vite/Vite 代理的作用和实现.md"
               }
             }
           },
@@ -116,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS常见技巧/为什么英文单词总是超出容器边界？.md",
+                "file": "框架&库常见技巧/vite/Vite 代理的作用和实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS常见技巧/为什么英文单词总是超出容器边界？.md",
+                "file": "框架&库常见技巧/vite/Vite 代理的作用和实现.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,8 +232,9 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "b5f9d18702c6bf89",
+  "active": "8f7ff01c32fda930",
   "lastOpenFiles": [
+    "框架&库常见技巧/vite/Vite 代理的作用和实现.md",
     "CSS常见技巧/附件/为什么英文单词总是超出容器边界？-1.png",
     "CSS常见技巧/附件/为什么英文单词总是超出容器边界？.png",
     "CSS常见技巧/为什么英文单词总是超出容器边界？.md",
@@ -265,7 +280,6 @@
     "资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf",
     "05--前端框架/Vue/Vue知识碎片/尚硅谷_前端技术_Vue全家桶.pdf",
     "000-Inbox/未命名",
-    "归档/附件/知识分享-2.png",
     "999--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"
