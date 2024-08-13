@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "框架&库常见技巧/vite/vite 打包报错.md",
+                "file": "框架&库常见技巧/vite/使用 GitHub Actions 自动部署 Vite React 项目到 GitHub Pages.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.51103591918945
+    "width": 326.51103591918945
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "框架&库常见技巧/vite/vite 打包报错.md"
+                "file": "框架&库常见技巧/vite/使用 GitHub Actions 自动部署 Vite React 项目到 GitHub Pages.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "框架&库常见技巧/vite/vite 打包报错.md",
+                "file": "框架&库常见技巧/vite/使用 GitHub Actions 自动部署 Vite React 项目到 GitHub Pages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "框架&库常见技巧/vite/vite 打包报错.md",
+                "file": "框架&库常见技巧/vite/使用 GitHub Actions 自动部署 Vite React 项目到 GitHub Pages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,9 +220,11 @@
   },
   "active": "8f7ff01c32fda930",
   "lastOpenFiles": [
+    "框架&库常见技巧/vite/部署 Vite 构建的 dist 文件夹：详细指南.md",
+    "框架&库常见技巧/vite/使用 GitHub Actions 自动部署 Vite React 项目到 GitHub Pages.md",
+    "框架&库常见技巧/vite/vite 打包报错.md",
     "框架&库常见技巧/vite/附件/vite 打包报错-3.png",
     "框架&库常见技巧/vite/在 Vite + React 项目中实现自动导入样式.md",
-    "框架&库常见技巧/vite/vite 打包报错.md",
     "框架&库常见技巧/vite/附件/vite 打包报错-2.png",
     "框架&库常见技巧/vite/附件/vite 打包报错-1.png",
     "框架&库常见技巧/vite/附件/vite 打包报错.png",
@@ -260,9 +262,7 @@
     "小技巧/博客园/主题备份2.md",
     "小技巧/博客园/主题备份3.md",
     "小技巧/博客园/主题备份.md",
-    "剪藏/Obsidian/7145351315705577485.md",
     "JavaScript常见技巧/下载相关/附件/下载二进制文件.png",
-    "框架&库常见技巧/Ant Design/Table/Table样式调整/附件/表格操作栏右浮动之后错位问题-1.png",
     "框架&库常见技巧/Ant Design/Table/Table样式调整/附件",
     "资源&&网址书签/602--pdf/hello-algo-1.0.0b3-zh-javascript.pdf",
     "05--前端框架/Vue/Vue知识碎片/尚硅谷_前端技术_Vue全家桶.pdf",
