@@ -38,18 +38,66 @@ npm install --save-dev vite @vitejs/plugin-react
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-export default defineConfig({
-  plugins: [react()],
-  build: {
-    rollupOptions: {
-      input: {
-        main: 'index.html',    // 主应用入口文件
-        admin: 'admin.html',   // Admin 页面入口文件
+// 使用 defineConfig 来定义 Vite 配置，支持导入 mode 和其他参数。
+export default defineConfig(({ mode }) => {
+  // 获取对应模式下的环境变量配置，默认为 'development' 模式。
+  const env = envConfig[mode || 'development'];
+  console.log('env.VITE_BASE_URL:', env.VITE_BASE_URL);
+
+  // 判断是否为 admin 模式，用于动态切换配置。
+  const isAdmin = mode === 'admin';
+
+  // 确保 env 对象存在，如果不存在则抛出错误。
+  if (!env) {
+    throw new Error(`环境变量配置错误: ${mode}`);
+  }
+
+  // 返回完整的 Vite 配置对象
+  return {
+    // 配置基础路径，用于解决资源加载问题，基于环境变量配置。
+    base: env.VITE_BASE_URL,
+    plugins: [
+      // 添加 React 插件，确保 JSX 语法和其他 React 特性能够正常工作。
+      react(),
+    ],
+    build: {
+      // 配置 Rollup 的构建选项。
+      rollupOptions: {
+        input: {
+          // 根据是否为 admin 模式，选择不同的入口文件。
+          main: isAdmin ? './admin.html' : './index.html',
+        },
+        output: {
+          // 配置生成的 JavaScript 文件名称格式，根据是否为 admin 模式生成不同的文件名。
+          entryFileNames: isAdmin ? 'assets/admin-[name]-[hash].js' : 'assets/index-[name]-[hash].js',
+          // 配置 chunk 文件名称格式，所有生成的 chunk 文件将遵循此格式。
+          chunkFileNames: 'assets/[name]-[hash].js',
+          // 配置静态资源文件名称格式，所有生成的静态资源（如图片、字体等）将遵循此格式。
+          assetFileNames: 'assets/[name]-[hash].[ext]',
+        },
       },
-      // 如果需要添加其他 Rollup 配置选项，可以在这里设置
     },
-  },
+    server: {
+      // 配置开发服务器启动时自动打开的页面，根据是否为 admin 模式打开不同的页面。
+      open: isAdmin ? '/admin.html' : '/index.html',
+    },
+  };
 });
+
+```
+
+通过修改 package.json 中的 scripts 字段，可以指定不同的 mode 来运行不同的入口文件。
+
+```json
+  "scripts": {
+    "start:admin": "vite --mode admin",
+    "start:dev": "vite --mode development",
+    "start:prod": "vite --mode production",
+    "build:dev": "vite build --mode development",
+    "build:prod": "vite build --mode production",
+    "lint": "eslint .",
+    "serve": "vite preview"
+  },
 ```
 
 ### 3. 创建和配置入口 HTML 文件
@@ -121,60 +169,9 @@ ReactDOM.render(<AdminApp />, document.getElementById('admin'));
 使用 Vite 启动开发服务器，并验证两个入口点是否正常工作：
 
 ```bash
-npm run dev
-```
+npm run start:dev
+npm run start:admin
 
-通常，Vite 默认会启动在 `http://localhost:3000`，你可以通过以下地址来检查不同入口点：
-
-- 主应用：`http://localhost:3000/`
-- Admin 页面：`http://localhost:3000/admin.html`
-
-**构建项目**：
-
-运行构建命令来生成生产环境的构建文件，并检查生成的输出目录（默认是 `dist`）：
-
-```bash
-npm run build
-```
-
-检查 `dist` 目录中是否包含 `index.html` 和 `admin.html` 以及相应的 JavaScript 和 CSS 文件。
-
-### 6. 公用组件的处理
-
-在多个入口点中，你可以公用组件和模块。确保这些公用组件位于一个共享目录中，例如 `src/components`，然后在各个入口文件中进行引入。例如：
-
-```tsx
-// src/app/App.tsx
-import React from 'react';
-import Header from '../components/Header';
-
-const App = () => (
-  <div>
-    <Header />
-    <main>
-      {/* 主应用内容 */}
-    </main>
-  </div>
-);
-
-export default App;
-```
-
-```tsx
-// src/admin/AdminApp.tsx
-import React from 'react';
-import Header from '../components/Header';
-
-const AdminApp = () => (
-  <div>
-    <Header />
-    <main>
-      {/* Admin 页面内容 */}
-    </main>
-  </div>
-);
-
-export default AdminApp;
 ```
 
 ### 7. 总结
