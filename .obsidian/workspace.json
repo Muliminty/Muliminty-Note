@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "服务端/java/java基础/Java 标识符的使用.md",
+                "file": "服务端/java/java基础/Java 变量详解.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "服务端/java/java基础/Java 标识符的使用.md"
+                "file": "服务端/java/java基础/Java 变量详解.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "服务端/java/java基础/Java 标识符的使用.md",
+                "file": "服务端/java/java基础/Java 变量详解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "服务端/java/java基础/Java 标识符的使用.md",
+                "file": "服务端/java/java基础/Java 变量详解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,6 +235,7 @@
   "active": "627a3ddd4ca3d91a",
   "lastOpenFiles": [
     "服务端/java/java基础/Java 关键字详细介绍.md",
+    "服务端/java/java基础/Java 变量详解.md",
     "服务端/java/java基础/Java 标识符的使用.md",
     "算法/时间复杂度与空间复杂度.md",
     "算法",
@@ -279,7 +280,6 @@
     "剪藏/CSS/纯 CSS 检测文本是否溢出.md",
     "JavaScript常见技巧/实用代码片段.md",
     "CSS常见技巧/附件/纯 CSS 检测文本是否溢出-2.png",
-    "CSS常见技巧/多行展开收起自动隐藏（全兼容）.md",
     "999--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"
