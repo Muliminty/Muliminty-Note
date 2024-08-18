@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "服务端/java/java基础/Java 数据类型详解.md",
+                "file": "服务端/java/java基础/Java 数据类型转换与类型提升详解.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 258.5
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "服务端/java/java基础/Java 数据类型详解.md"
+                "file": "服务端/java/java基础/Java 数据类型转换与类型提升详解.md"
               }
             }
           },
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "服务端/java/java基础/Java 数据类型详解.md",
+                "file": "服务端/java/java基础/Java 数据类型转换与类型提升详解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "服务端/java/java基础/Java 数据类型详解.md",
+                "file": "服务端/java/java基础/Java 数据类型转换与类型提升详解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,6 +246,7 @@
   "active": "662210e3bcc23363",
   "lastOpenFiles": [
     "服务端/java/java基础/Java 数据类型详解.md",
+    "服务端/java/java基础/Java 数据类型转换与类型提升详解.md",
     "服务端/java/java基础/Java 变量详解.md",
     "服务端/java/java基础/Java 关键字详细介绍.md",
     "服务端/java/java基础/Java 标识符的使用.md",
@@ -289,7 +290,6 @@
     "小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
     "小技巧/浏览器使用技巧/知乎PC相关/知乎（网页版）夜间模式（暗色模式）.md",
     "CSS常见技巧/纯 CSS 检测文本是否溢出.md",
-    "剪藏/CSS/纯 CSS 检测文本是否溢出.md",
     "CSS常见技巧/附件/纯 CSS 检测文本是否溢出-2.png",
     "999--Test/未命名.canvas",
     "Obsidian白板.canvas",
