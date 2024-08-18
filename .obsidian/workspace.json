@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "服务端/java/java基础/Java 数据类型转换与类型提升详解.md",
-                "mode": "source",
+                "file": "服务端/java/java基础/Java 中的 String 类型详解.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "服务端/java/java基础/Java 数据类型转换与类型提升详解.md"
+                "file": "服务端/java/java基础/Java 中的 String 类型详解.md"
               }
             }
           },
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "服务端/java/java基础/Java 数据类型转换与类型提升详解.md",
+                "file": "服务端/java/java基础/Java 中的 String 类型详解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "服务端/java/java基础/Java 数据类型转换与类型提升详解.md",
+                "file": "服务端/java/java基础/Java 中的 String 类型详解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,11 +245,12 @@
   },
   "active": "662210e3bcc23363",
   "lastOpenFiles": [
-    "服务端/java/java基础/Java 数据类型详解.md",
-    "服务端/java/java基础/Java 数据类型转换与类型提升详解.md",
-    "服务端/java/java基础/Java 变量详解.md",
     "服务端/java/java基础/Java 关键字详细介绍.md",
+    "服务端/java/java基础/Java 中的 String 类型详解.md",
     "服务端/java/java基础/Java 标识符的使用.md",
+    "服务端/java/java基础/Java 变量详解.md",
+    "服务端/java/java基础/Java 数据类型转换与类型提升详解.md",
+    "服务端/java/java基础/Java 数据类型详解.md",
     "算法/时间复杂度与空间复杂度.md",
     "算法",
     "框架&库常见技巧/vite/附件/vite 打包报错.png",
@@ -289,7 +290,6 @@
     "CSS常见技巧/滚动条相关.md",
     "小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
     "小技巧/浏览器使用技巧/知乎PC相关/知乎（网页版）夜间模式（暗色模式）.md",
-    "CSS常见技巧/纯 CSS 检测文本是否溢出.md",
     "CSS常见技巧/附件/纯 CSS 检测文本是否溢出-2.png",
     "999--Test/未命名.canvas",
     "Obsidian白板.canvas",
