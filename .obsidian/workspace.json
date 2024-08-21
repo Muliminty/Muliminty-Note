@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "服务端/java/大纲.md",
+                "file": "服务端/java/java基础/Java Scanner 类.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "服务端/java/大纲.md"
+                "file": "服务端/java/java基础/Java Scanner 类.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "服务端/java/大纲.md",
+                "file": "服务端/java/java基础/Java Scanner 类.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "服务端/java/大纲.md",
+                "file": "服务端/java/java基础/Java Scanner 类.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,8 +219,12 @@
   },
   "active": "baf896592a080830",
   "lastOpenFiles": [
-    "服务端/java/java基础/Java 进制理解与进制转换详解.md",
+    "小技巧/github/利用 GitHub API 将 Markdown 笔记仓库作为静态博客项目的数据来源.md",
+    "小技巧/github/GitHub API 请求示例（使用 `axios`）.md",
+    "小技巧/github",
     "服务端/java/大纲.md",
+    "服务端/java/java基础/Java Scanner 类.md",
+    "服务端/java/java基础/Java 进制理解与进制转换详解.md",
     "服务端/java/疑问解答/为什么'a' + 1的值是98.md",
     "服务端/java/java基础/Java 中的 String 类型详解.md",
     "服务端/java/疑问解答",
@@ -250,12 +254,9 @@
     "框架&库常见技巧/vite/在 Vite 中实现多入口文件支持的详细指南.md",
     "框架&库常见技巧/vite/使用 GitHub Actions 自动部署 Vite React 项目到 GitHub Pages.md",
     "框架&库常见技巧/vite/Vite 项目中的代理配置与环境变量管理.md",
-    "框架&库常见技巧/vite/Vite 代理的作用和实现.md",
-    "框架&库常见技巧/Moment/使用 Moment 和 React-i18next 进行日期时间国际化.md",
     "剪藏/Github/img/image-2024年8月14日.png",
     "剪藏/Github/img/image-2-2024年8月14日.png",
     "剪藏/Github/img/image-1-2024年8月14日.png",
-    "剪藏/Github/github action报错.md",
     "专栏/vite",
     "专栏/github",
     "专栏/Git",
@@ -263,7 +264,6 @@
     "CSS常见技巧/附件/为什么英文单词总是超出容器边界？.png",
     "CSS常见技巧/附件/为什么英文单词总是超出容器边界？-1.png",
     "服务端/java/java基础",
-    "服务端/java",
     "CSS常见技巧/附件/纯 CSS 检测文本是否溢出-2.png",
     "999--Test/未命名.canvas",
     "Obsidian白板.canvas",
