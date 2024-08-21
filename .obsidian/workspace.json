@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "服务端/java/java基础/Java 进制理解与进制转换详解.md",
-                "mode": "preview",
+                "file": "服务端/java/大纲.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "7e1eaf5aa558b397",
@@ -99,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "服务端/java/java基础/Java 进制理解与进制转换详解.md"
+                "file": "服务端/java/大纲.md"
               }
             }
           },
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "服务端/java/java基础/Java 进制理解与进制转换详解.md",
+                "file": "服务端/java/大纲.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "服务端/java/java基础/Java 进制理解与进制转换详解.md",
+                "file": "服务端/java/大纲.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,8 +219,9 @@
   },
   "active": "baf896592a080830",
   "lastOpenFiles": [
-    "服务端/java/疑问解答/为什么'a' + 1的值是98.md",
     "服务端/java/java基础/Java 进制理解与进制转换详解.md",
+    "服务端/java/大纲.md",
+    "服务端/java/疑问解答/为什么'a' + 1的值是98.md",
     "服务端/java/java基础/Java 中的 String 类型详解.md",
     "服务端/java/疑问解答",
     "服务端/java/java基础/Java 数据类型转换与类型提升详解.md",
@@ -255,7 +256,6 @@
     "剪藏/Github/img/image-2-2024年8月14日.png",
     "剪藏/Github/img/image-1-2024年8月14日.png",
     "剪藏/Github/github action报错.md",
-    "专栏/vite/vite项目初始化.md",
     "专栏/vite",
     "专栏/github",
     "专栏/Git",
