@@ -1,101 +1,101 @@
-# 使用 Node.js 定时从 GitHub 拉取代码的完整指南
+## 自动拉取 Git 仓库最新代码的定时任务
 
-在本篇博客中，我们将学习如何使用 Node.js 编写一个定时脚本，以便定期从 GitHub 拉取最新的代码。我们将使用 `node-schedule` 模块来设置定时任务，并利用 `child_process` 模块执行 Git 命令。
+在开发过程中，保持代码的最新状态非常重要。本文将介绍如何使用 Node.js 创建一个定时任务，自动拉取指定 GitHub 仓库的最新代码。我们将使用 `cron` 模块来设置定时任务，并通过 `child_process` 模块执行 Git 命令。
 
-## 1. 安装依赖
+### 1. 环境准备
 
-首先，你需要安装 `node-schedule`。打开终端并运行以下命令：
+首先，确保你的系统上安装了 Node.js 和 Git。接下来，在项目目录中安装所需的依赖包：
 
 ```bash
-npm install node-schedule
+npm install cron
 ```
 
-## 2. 编写脚本
+### 2. 代码实现
 
-创建一个名为 `updateRepo.js` 的文件，并添加以下代码：
+下面是完整的代码实现：
 
 ```javascript
-const { exec } = require('child_process');
-const schedule = require('node-schedule');
+const CronJob = require('cron').CronJob;
+const { execSync } = require('child_process');
+const fs = require('fs');
+const path = require('path');
 
 // 设置你的 GitHub 仓库 URL 和本地路径
-const gitRepoUrl = 'https://github.com/你的用户名/你的仓库.git'; // 替换为你的仓库 URL
-const localPath = '/path/to/your/local/repo'; // 替换为你的本地路径
+const gitRepoUrl = 'git@github.com:Muliminty/Muliminty-Note.git'; // 替换为你的仓库 URL
+const repositoryPath = 'C:\\project\\新建文件夹'; // 替换为你的本地路径
 
-// 定义拉取代码的函数
-function pullLatestCode() {
-    exec(`git -C ${localPath} pull`, (error, stdout, stderr) => {
-        if (error) {
-            console.error(`拉取代码失败: ${error.message}`);
-            return;
-        }
-        if (stderr) {
-            console.error(`错误: ${stderr}`);
-            return;
-        }
-        console.log(`拉取代码成功: ${stdout}`);
-    });
+// 配置对象
+const cronConfig = {
+    daily: '0 0 * * *',        // 每天凌晨
+    hourly: '0 * * * *',       // 每小时
+    halfDay: '0 */12 * * *',   // 半天
+    halfHour: '*/30 * * * *'   // 每半个小时
+};
+
+// 根据需要选择执行频率
+const schedule = cronConfig.daily; // 可以更改为 hourly, halfDay, halfHour
+
+function initializeGitRepo() {
+    try {
+        // 初始化 Git 仓库
+        execSync(`git init "${repositoryPath}"`);
+        execSync(`git -C "${repositoryPath}" remote add origin ${gitRepoUrl}`);
+        console.log(`成功初始化 Git 仓库并添加远程仓库: ${gitRepoUrl}`);
+    } catch (error) {
+        console.error('初始化 Git 仓库失败:', error.message);
+    }
 }
 
-// 定时任务，每小时拉取一次
-const job = schedule.scheduleJob('0 * * * *', () => {
-    console.log('开始拉取最新代码...');
-    pullLatestCode();
+function updateProject() {
+    try {
+        // 切换到项目目录
+        process.chdir(repositoryPath);
+        console.log('开始拉取最新代码...');
+        // 拉取最新的代码
+        execSync('git pull', { stdio: 'inherit' });
+        console.log('Project updated successfully');
+    } catch (error) {
+        console.error('Failed to update project:', error.message);
+    }
+}
+
+// 定义定时任务
+const updateJob = new CronJob(schedule, function () {
+    const gitDir = path.join(repositoryPath, '.git');
+
+    if (fs.existsSync(gitDir)) {
+        console.log('检测到 Git 仓库，开始拉取最新代码...');
+        updateProject();
+    } else {
+        console.log('未检测到 Git 仓库，正在初始化...');
+        initializeGitRepo();
+        // 初始化完成后立即拉取代码
+        updateProject();
+    }
 });
 
-// 如果需要，可以在程序结束时取消定时任务
-// job.cancel();
+// 启动定时任务
+updateJob.start();
 ```
 
-## 3. 配置你的仓库和本地路径
+### 3. 代码详解
 
-确保替换以下变量：
+- **仓库初始化**: `initializeGitRepo` 函数会检查指定路径是否是一个 Git 仓库，如果不是，就会进行初始化并添加远程仓库。
 
-- **gitRepoUrl**: 你的 GitHub 仓库的 URL。
-- **localPath**: 你的本地仓库的路径。
+- **代码更新**: `updateProject` 函数负责切换到项目目录并执行 `git pull` 命令，拉取最新的代码。
 
-## 4. 运行脚本
+- **定时任务配置**: 我们通过 `cronConfig` 对象定义了多种调度频率，可以轻松更改定时任务的执行频率。
 
-在终端中运行脚本：
+### 4. 启动和测试
+
+将上述代码保存为 `pullCode.js` 文件，然后在命令行中运行：
 
 ```bash
-node updateRepo.js
+node pullCode.js
 ```
 
-## 5. 持续运行
+此时，定时任务将会自动执行，按照配置的频率拉取最新代码。
 
-如果你希望这个脚本在后台持续运行，可以使用 `nohup` 或者 `pm2` 来管理它。以下是使用 `pm2` 的示例：
+### 5. 结论
 
-### 安装 pm2
-
-```bash
-npm install -g pm2
-```
-
-### 启动脚本
-
-```bash
-pm2 start updateRepo.js
-```
-
-### 保存 pm2 配置
-
-```bash
-pm2 save
-```
-
-### 设置开机自启
-
-```bash
-pm2 startup
-```
-
-## 注意事项
-
-1. 确保你的本地仓库已初始化并与远程仓库关联。
-2. 确保有适当的权限访问该仓库（如果是私有仓库，可能需要 SSH 访问或者 Token）。
-3. 如果你在 CI/CD 环境中，可以考虑使用该环境提供的定时任务功能。
-
-## 总结
-
-通过以上步骤，你已经成功创建了一个 Node.js 脚本，能够定期从 GitHub 拉取最新的代码。这在保持项目同步和更新时非常有用，尤其是在团队开发或持续集成的场景中。希望这篇博客能帮助你顺利实现自动化更新！
+通过这种方式，你可以确保你的本地项目始终与远程仓库保持同步，减少手动拉取的工作量，提高工作效率。根据不同的项目需求，你可以灵活调整拉取的频率，确保代码的及时更新。
