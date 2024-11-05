@@ -3,7 +3,7 @@
 ```
 @umijs/runtime“ does not exist in container
 ```
-![](附件图片/does%20not%20exist%20in%20container.png)
+![](附件/does%20not%20exist%20in%20container.png)
 
 ### 解决方案
 

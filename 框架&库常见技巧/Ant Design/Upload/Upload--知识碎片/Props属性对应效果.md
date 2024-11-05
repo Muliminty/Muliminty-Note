@@ -28,7 +28,7 @@
     </Upload>
 ```
 
-![alt](../Upload--Img/Pasted%20image%2020230427162931.png)
+![alt](../附件/Pasted%20image%2020230427162931.png)
 
 ## customRequest
 
@@ -63,7 +63,7 @@
 customRequest: async (options) => { setFile(options.file);}
 查看参数options的详细信息：
 
-![alt](../Upload--Img/Pasted%20image%2020230428112458.png)
+![alt](../附件/Pasted%20image%2020230428112458.png)
 
 可以发现onProgress事件与onSuccess事件，onProgress是上传进度相关的，onSuccess是上传成功监听事件。
 

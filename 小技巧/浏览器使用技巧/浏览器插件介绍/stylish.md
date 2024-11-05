@@ -1,2 +1,2 @@
-![](附件图片/stylish.png)
+![](附件/stylish.png)
 
