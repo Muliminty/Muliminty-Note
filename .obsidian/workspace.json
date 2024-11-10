@@ -246,7 +246,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 330.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,10 +263,10 @@
   },
   "active": "db6bdc9ff528d4ce",
   "lastOpenFiles": [
-    "前端特效/Loading/附件/Loading -- 彩虹转圈.png",
+    "前端特效/Loading/附件/Loading彩虹转圈.png",
+    "前端特效/Loading/Loading -- 彩虹转圈.md",
     "前端特效/鼠标点击/鼠标点击 -- 彩色烟花.md",
     "前端特效/鼠标点击/附件/20201105144555654.gif",
-    "前端特效/Loading/Loading -- 彩虹转圈.md",
     "框架&库常见技巧/node/构建sql技巧.md",
     "专栏/node/使用 dotenv 轻松管理 Node.js 项目的多环境变量.md",
     "专栏/node",
