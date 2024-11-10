@@ -1,5 +1,7 @@
-![这是图片](附件/Pasted%20image%2020230426113219.png '鼠标悬浮文案')
+![这是图片](https://raw.githubusercontent.com/Muliminty/Muliminty-Note/refs/heads/master/%E5%89%8D%E7%AB%AF%E7%89%B9%E6%95%88/Loading/%E9%99%84%E4%BB%B6/Pasted%20image%2020230426113219.png)
 
+
+![](附件/Loading%20--%20彩虹转圈.png)
 ```HTML
 <div class="loader">
 	<div class="loader-inner">

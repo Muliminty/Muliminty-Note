@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "使用 dotenv 轻松管理 Node.js 项目的多环境变量"
             }
+          },
+          {
+            "id": "db6bdc9ff528d4ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端特效/Loading/Loading -- 彩虹转圈.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Loading -- 彩虹转圈"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,10 +124,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "专栏/node/使用 dotenv 轻松管理 Node.js 项目的多环境变量.md"
+                "file": "前端特效/Loading/Loading -- 彩虹转圈.md"
               },
               "icon": "lucide-list",
-              "title": "使用 dotenv 轻松管理 Node.js 项目的多环境变量 的大纲"
+              "title": "Loading -- 彩虹转圈 的大纲"
             }
           },
           {
@@ -244,8 +260,12 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "44df5cfe22cb7b21",
+  "active": "db6bdc9ff528d4ce",
   "lastOpenFiles": [
+    "前端特效/Loading/附件/Loading -- 彩虹转圈.png",
+    "前端特效/鼠标点击/鼠标点击 -- 彩色烟花.md",
+    "前端特效/鼠标点击/附件/20201105144555654.gif",
+    "前端特效/Loading/Loading -- 彩虹转圈.md",
     "框架&库常见技巧/node/构建sql技巧.md",
     "专栏/node/使用 dotenv 轻松管理 Node.js 项目的多环境变量.md",
     "专栏/node",
@@ -273,10 +293,7 @@
     "服务端/java/java基础/Java 中的 String 类型详解.md",
     "服务端/java/java基础/IntelliJ IDEA 工程与模块管理详解.md",
     "服务端/java/java基础/Java Scanner 类.md",
-    "小技巧/github/利用 GitHub API 将 Markdown 笔记仓库作为静态博客项目的数据来源.md",
-    "小技巧/github/GitHub API 请求示例（使用 `axios`）.md",
     "小技巧/github",
-    "服务端/java/大纲.md",
     "服务端/java/疑问解答",
     "算法",
     "框架&库常见技巧/vite/附件/vite 打包报错.png",
@@ -290,8 +307,6 @@
     "剪藏/Github/附件/image-1-2024年8月14日.png",
     "专栏/vite",
     "CSS常见技巧/附件/为什么英文单词总是超出容器边界？.png",
-    "CSS常见技巧/附件/为什么英文单词总是超出容器边界？-1.png",
-    "CSS常见技巧/附件/纯 CSS 检测文本是否溢出-2.png",
     "999--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"
