@@ -11,15 +11,12 @@
             "id": "baf896592a080830",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "小技巧/RustDesk/只会 Windows 也能轻松搭建远程桌面 RustDesk 自用服务器 - 知乎.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "小技巧/RustDesk/附件/0b5b94cc-4f30-4e05-9bd5-d38e0174544a_1732676676003.jpg"
               },
-              "icon": "lucide-file",
-              "title": "只会 Windows 也能轻松搭建远程桌面 RustDesk 自用服务器 - 知乎"
+              "icon": "lucide-image",
+              "title": "0b5b94cc-4f30-4e05-9bd5-d38e0174544a_1732676676003"
             }
           }
         ]
@@ -257,7 +254,18 @@
   },
   "active": "baf896592a080830",
   "lastOpenFiles": [
-    "01-工作经验总结/小技巧/vscode/附件/在vscode中的js文件中自动补全html标签.png",
+    "小技巧/RustDesk/附件/1f860459-ef2b-43b6-8ac7-57046f67bb52_1732676676286.jpg",
+    "小技巧/RustDesk/只会 Windows 也能轻松搭建远程桌面 RustDesk 自用服务器 - 知乎.md",
+    "小技巧/RustDesk/附件/540f7fd6-3ddf-4ffe-b86d-51948770c5e9_1732676677248.jpg",
+    "小技巧/RustDesk/附件/88806b32-38d5-442f-b618-54edabce7056_1732676677140.jpg",
+    "小技巧/RustDesk/附件/bad4480a-8eb3-4235-a5e1-8332bc40c395_1732676677065.jpg",
+    "小技巧/RustDesk/附件/107fe289-d8f4-40b0-91fd-a17e82962c47_1732676676949.jpg",
+    "小技巧/RustDesk/附件/f9f563be-bc30-46da-b168-cc21e7eaca14_1732676676820.jpg",
+    "小技巧/RustDesk/附件/e407836d-4eef-4dfa-b93d-33d8be966105_1732676676761.jpg",
+    "小技巧/RustDesk/附件/3c7f5a30-d2b9-4257-8e90-481f09bc03ac_1732676676678.jpg",
+    "小技巧/RustDesk/附件/3b3b9633-bde9-4810-a8e1-6900cd85a495_1732676676557.jpg",
+    "小技巧/RustDesk/附件/8b7e5735-6202-44be-826a-d99094a5d158_1732676676376.jpg",
+    "小技巧/RustDesk/附件",
     "01-工作经验总结/小技巧/vscode/附件",
     "01-工作经验总结/小技巧/vscode/插件推荐.md",
     "01-工作经验总结/小技巧/vscode/快捷代码片段-table.json",
@@ -270,25 +278,14 @@
     "01-工作经验总结/小技巧/git/使用 SSH 配置 Git 和 Sourcetree 的详细技术文档.md",
     "01-工作经验总结/小技巧/git",
     "test.txt",
-    "01-工作经验总结/小技巧/附件/Pasted image 20230511111054.png",
-    "01-工作经验总结/小技巧/附件/只会 Windows 也能轻松搭建远程桌面 RustDesk 自用服务器 - 知乎.png",
     "01-工作经验总结/小技巧/附件",
-    "01-工作经验总结/小技巧/浏览器使用技巧/知乎PC相关/附件/无图模式.png",
-    "01-工作经验总结/小技巧/浏览器使用技巧/知乎PC相关/附件/无图模式-1.png",
-    "01-工作经验总结/小技巧/浏览器使用技巧/浏览器插件介绍/附件/stylish.png",
     "01-工作经验总结/小技巧/浏览器使用技巧/知乎PC相关/附件",
     "01-工作经验总结/小技巧/浏览器使用技巧/知乎PC相关/知乎（网页版）夜间模式（暗色模式）.md",
     "01-工作经验总结/小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
     "01-工作经验总结/小技巧/浏览器使用技巧/知乎PC相关/s.json",
-    "01-工作经验总结/小技巧/浏览器使用技巧/浏览器插件介绍/附件",
     "01-工作经验总结/小技巧/浏览器使用技巧/浏览器插件介绍/stylish.md",
     "01-工作经验总结/小技巧/浏览器使用技巧/一键截图.md",
     "01-工作经验总结/小技巧/本地部署antd文档.md",
-    "01-工作经验总结/小技巧/博客园/附件/Pasted image 20230426163027.png",
-    "01-工作经验总结/小技巧/博客园/附件/Pasted image 20230426162815.png",
-    "01-工作经验总结/小技巧/博客园/附件/Pasted image 20230426162800.png",
-    "01-工作经验总结/小技巧/博客园/附件/Pasted image 20230426152258.png",
-    "01-工作经验总结/小技巧/博客园/附件/Pasted image 20230426162723.png",
     "01-工作经验总结/小技巧/博客园/主题备份3.md",
     "01-工作经验总结/小技巧/博客园/主题备份2.md",
     "01-工作经验总结/小技巧/博客园/主题备份.md",
@@ -299,7 +296,6 @@
     "01-工作经验总结/小技巧/Obsidian/Obsidian-使用技巧.md",
     "01-工作经验总结/小技巧/Clean-mark.md",
     "小技巧/vscode/在vscode中的js文件中自动补全html标签.md",
-    "小技巧/RustDesk/只会 Windows 也能轻松搭建远程桌面 RustDesk 自用服务器 - 知乎.md",
     "01-工作经验总结/04-框架&库常见技巧/ProComponents/ProFormText添加onClick事件.md",
     "剪藏/TypeScript/TypeScript文档 -- 冴羽/基础/1. 基础.md",
     "01-工作经验总结/04-框架&库常见技巧/ProComponents/ProFormDependency.md",
