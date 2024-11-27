@@ -17,7 +17,7 @@ git clone https://github.com/ant-design/ant-design.git --depth 1 -b gh-pages // 
 
 这个时候文件夹生成对应文档的文件夹
 
-![这是图片](附件/只会%20Windows%20也能轻松搭建远程桌面%20RustDesk%20自用服务器%20-%20知乎.png 'Magic Gardens')
+![这是图片](附件/Pasted%20image%2020230511110635.png 'Magic Gardens')
 
 然后进入对应文件夹输入指令 
 
