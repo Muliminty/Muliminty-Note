@@ -4,19 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "06a8dbee46f2ab48",
+        "id": "520e133f116b1a6a",
         "type": "tabs",
         "children": [
           {
-            "id": "baf896592a080830",
+            "id": "031f4aaa87f8f8e4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "小技巧/RustDesk/附件/0b5b94cc-4f30-4e05-9bd5-d38e0174544a_1732676676003.jpg"
+                "file": "test.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "0b5b94cc-4f30-4e05-9bd5-d38e0174544a_1732676676003"
+              "icon": "lucide-file",
+              "title": "test"
             }
           }
         ]
@@ -50,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#vscode",
+                "query": "stylebot",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -252,8 +255,13 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "baf896592a080830",
+  "active": "031f4aaa87f8f8e4",
   "lastOpenFiles": [
+    "01-工作经验总结/04-框架&库常见技巧/Ant Design/Form/常见正则校验.md",
+    "test.md",
+    "小技巧/浏览器使用技巧/stylebot/stylebot 样式备份.md",
+    "小技巧/RustDesk/附件/0b5b94cc-4f30-4e05-9bd5-d38e0174544a_1732676676003.jpg",
+    "小技巧/浏览器使用技巧/stylebot",
     "小技巧/RustDesk/附件/1f860459-ef2b-43b6-8ac7-57046f67bb52_1732676676286.jpg",
     "小技巧/RustDesk/只会 Windows 也能轻松搭建远程桌面 RustDesk 自用服务器 - 知乎.md",
     "小技巧/RustDesk/附件/540f7fd6-3ddf-4ffe-b86d-51948770c5e9_1732676677248.jpg",
@@ -264,7 +272,6 @@
     "小技巧/RustDesk/附件/e407836d-4eef-4dfa-b93d-33d8be966105_1732676676761.jpg",
     "小技巧/RustDesk/附件/3c7f5a30-d2b9-4257-8e90-481f09bc03ac_1732676676678.jpg",
     "小技巧/RustDesk/附件/3b3b9633-bde9-4810-a8e1-6900cd85a495_1732676676557.jpg",
-    "小技巧/RustDesk/附件/8b7e5735-6202-44be-826a-d99094a5d158_1732676676376.jpg",
     "小技巧/RustDesk/附件",
     "01-工作经验总结/小技巧/vscode/附件",
     "01-工作经验总结/小技巧/vscode/插件推荐.md",
@@ -282,7 +289,6 @@
     "01-工作经验总结/小技巧/浏览器使用技巧/知乎PC相关/附件",
     "01-工作经验总结/小技巧/浏览器使用技巧/知乎PC相关/知乎（网页版）夜间模式（暗色模式）.md",
     "01-工作经验总结/小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
-    "01-工作经验总结/小技巧/浏览器使用技巧/知乎PC相关/s.json",
     "01-工作经验总结/小技巧/浏览器使用技巧/浏览器插件介绍/stylish.md",
     "01-工作经验总结/小技巧/浏览器使用技巧/一键截图.md",
     "01-工作经验总结/小技巧/本地部署antd文档.md",
@@ -297,8 +303,6 @@
     "01-工作经验总结/小技巧/Clean-mark.md",
     "小技巧/vscode/在vscode中的js文件中自动补全html标签.md",
     "01-工作经验总结/04-框架&库常见技巧/ProComponents/ProFormText添加onClick事件.md",
-    "剪藏/TypeScript/TypeScript文档 -- 冴羽/基础/1. 基础.md",
-    "01-工作经验总结/04-框架&库常见技巧/ProComponents/ProFormDependency.md",
     "999--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"
