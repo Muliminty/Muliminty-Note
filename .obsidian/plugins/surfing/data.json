@@ -7,7 +7,7 @@
   ],
   "alwaysShowCustomSearch": false,
   "showOtherSearchEngines": false,
-  "showSearchBarInPage": false,
+  "showSearchBarInPage": true,
   "markdownPath": "/",
   "customHighlightFormat": false,
   "highlightFormat": "[{CONTENT}]({URL})",

@@ -4,41 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "520e133f116b1a6a",
+        "id": "ca429721a8ce244a",
         "type": "tabs",
         "children": [
           {
-            "id": "031f4aaa87f8f8e4",
+            "id": "72499f136c99e9e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test.md",
+                "file": "00-专栏/JavaScript/树结构处理/JavaScript 树结构处理方法.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "test"
-            }
-          },
-          {
-            "id": "02d69c4765806665",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-专栏/node/使用 simple-git 操作 Git：详细指南.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "使用 simple-git 操作 Git：详细指南"
+              "title": "JavaScript 树结构处理方法"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,12 +53,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stylebot",
+                "query": "tag:#网址",
                 "matchingCase": false,
-                "explainSearch": true,
-                "collapseAll": true,
-                "extraContext": true,
-                "sortOrder": "alphabeticalReverse"
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
               "title": "搜索"
@@ -117,16 +101,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.5
+    "width": 355.5
   },
   "right": {
     "id": "7e1eaf5aa558b397",
     "type": "split",
     "children": [
       {
-        "id": "4ee6c0f648cd6fb3",
+        "id": "366e0e71d35865b6",
         "type": "tabs",
-        "dimension": 58.80281690140845,
         "children": [
           {
             "id": "44df5cfe22cb7b21",
@@ -134,10 +117,36 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端特效/Loading/Loading -- 彩虹转圈.md"
+                "file": "00-专栏/JavaScript/树结构处理/JavaScript 树结构处理方法.md"
               },
               "icon": "lucide-list",
-              "title": "Loading -- 彩虹转圈 的大纲"
+              "title": "JavaScript 树结构处理方法 的大纲"
+            }
+          },
+          {
+            "id": "43b6593cf335e777",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://dida365.com/webapp/#g/28e449c995bc5f0576163148/tasks"
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "💯 学习 - 滴答清单"
+            }
+          },
+          {
+            "id": "ae088fc3cf22ae65",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://flowus.cn/fdbedd2a-7ae5-41f4-9448-669670ff0521"
+              },
+              "icon": "lucide-file",
+              "title": "熵基相关账号管理"
             }
           },
           {
@@ -146,8 +155,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -156,8 +165,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "专栏/node/使用 dotenv 轻松管理 Node.js 项目的多环境变量.md",
-                "collapseAll": false,
+                "file": "00-专栏/JavaScript/树结构处理/JavaScript 树结构处理方法.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -166,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "使用 dotenv 轻松管理 Node.js 项目的多环境变量 的反向链接列表"
+              "title": "JavaScript 树结构处理方法 的反向链接列表"
             }
           },
           {
@@ -175,12 +184,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "框架&库常见技巧/vite/vite 打包报错.md",
+                "file": "00-专栏/JavaScript/树结构处理/JavaScript 树结构处理方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "vite 打包报错 的出链列表"
+              "title": "JavaScript 树结构处理方法 的出链列表"
             }
           },
           {
@@ -198,65 +207,10 @@
             }
           }
         ]
-      },
-      {
-        "id": "366e0e71d35865b6",
-        "type": "tabs",
-        "dimension": 41.19718309859155,
-        "children": [
-          {
-            "id": "8b3983fc61f6ffa6",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "http://yuindex.yupi.icu/#/"
-              },
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "fa9d31c059ecf26d",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://go.itab.link/"
-              },
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "43b6593cf335e777",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.dida365.com/#q/all/tasks"
-              },
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "ae088fc3cf22ae65",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://flowus.cn/fdbedd2a-7ae5-41f4-9448-669670ff0521"
-              },
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
+    "width": 437.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -271,10 +225,31 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "b5f9d18702c6bf89",
+  "active": "72499f136c99e9e4",
   "lastOpenFiles": [
+    "00-专栏/JavaScript/树结构处理/JavaScript 树结构处理方法.md",
+    "00-专栏/JavaScript/树结构处理",
+    "00-专栏/JavaScript/函数式编程/JavaScript 函数组合（Compose）.md",
+    "01-工作经验总结/02-JavaScript常见技巧/代码整洁/函数组合.md",
+    "00-专栏/JavaScript/函数式编程",
+    "01-工作经验总结/01-CSS常见技巧/多行展开收起自动隐藏（全兼容）.md",
+    "01-工作经验总结/01-CSS常见技巧/纯 CSS 检测文本是否溢出.md",
+    "00-专栏/奇技淫巧/css.md",
+    "01-工作经验总结/01-CSS常见技巧/文字布局.md",
+    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 3 路由管理规范技术文档.md",
+    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue3 + TS + Element Plus 后台管理系统搭建教程.md",
     "test.md",
+    "00-专栏/github/手把手教你实现vite项目自动化部署github page.md",
+    "00-专栏/github/GitHub Pages 部署 React 项目详细教程.md",
+    "00-专栏/github/GitHub Pages 自动部署常见问题及解决方案.md",
+    "资源&&网址书签/601--书签看板/有趣的网址.md",
+    "01-工作经验总结/04-框架&库常见技巧/Vue",
+    "01-工作经验总结/04-框架&库常见技巧/ProComponents/ProFormText添加onClick事件.md",
+    "剪藏/JavaScript/原型与原型链.md",
     "00-专栏/node/使用 simple-git 操作 Git：详细指南.md",
+    "00-专栏/css/grid/grid-template-columns 和 grid-template-rows 属性详解.md",
+    "00-专栏/css/grid/grid-column 和 grid-row 属性详解.md",
+    "00-专栏/css/grid/深入浅出 CSS Grid 布局一篇通俗易懂的入门教程.md",
     "00-专栏/git/未命名",
     "01-工作经验总结/04-框架&库常见技巧/Ant Design/Form/常见正则校验.md",
     "小技巧/浏览器使用技巧/stylebot/stylebot 样式备份.md",
@@ -297,28 +272,7 @@
     "01-工作经验总结/小技巧/vscode/在vscode中的js文件中自动补全html标签.md",
     "01-工作经验总结/小技巧/vscode/VSCode中markdown开启智能提示.md",
     "01-工作经验总结/小技巧/vscode",
-    "01-工作经验总结/小技巧/github/利用 GitHub API 将 Markdown 笔记仓库作为静态博客项目的数据来源.md",
-    "01-工作经验总结/小技巧/github/GitHub API 请求示例（使用 `axios`）.md",
     "01-工作经验总结/小技巧/github",
-    "01-工作经验总结/小技巧/git/使用 SSH 配置 Git 和 Sourcetree 的详细技术文档.md",
-    "01-工作经验总结/小技巧/git",
-    "test.txt",
-    "01-工作经验总结/小技巧/附件",
-    "01-工作经验总结/小技巧/浏览器使用技巧/知乎PC相关/知乎（网页版）夜间模式（暗色模式）.md",
-    "01-工作经验总结/小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
-    "01-工作经验总结/小技巧/浏览器使用技巧/浏览器插件介绍/stylish.md",
-    "01-工作经验总结/小技巧/浏览器使用技巧/一键截图.md",
-    "01-工作经验总结/小技巧/本地部署antd文档.md",
-    "01-工作经验总结/小技巧/博客园/主题备份3.md",
-    "01-工作经验总结/小技巧/博客园/主题备份2.md",
-    "01-工作经验总结/小技巧/博客园/主题备份.md",
-    "01-工作经验总结/小技巧/Hexo/教程文章.md",
-    "01-工作经验总结/小技巧/Hexo/hexo指令.md",
-    "01-工作经验总结/小技巧/Obsidian/语法技巧.md",
-    "01-工作经验总结/小技巧/Obsidian/微信读书插件模板备份.md",
-    "01-工作经验总结/小技巧/Obsidian/Obsidian-使用技巧.md",
-    "01-工作经验总结/小技巧/Clean-mark.md",
-    "小技巧/vscode/在vscode中的js文件中自动补全html标签.md",
     "999--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"
