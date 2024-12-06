@@ -4,25 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "ca429721a8ce244a",
+        "id": "995c0ca4204989cd",
         "type": "tabs",
         "children": [
           {
-            "id": "72499f136c99e9e4",
+            "id": "e39b4c3615344504",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-专栏/JavaScript/树结构处理/JavaScript 扁平化数据转树形结构.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JavaScript 扁平化数据转树形结构"
+            }
+          },
+          {
+            "id": "2ee8bbdc52c7a06a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "00-专栏/JavaScript/树结构处理/JavaScript 树结构处理方法.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
               "title": "JavaScript 树结构处理方法"
             }
+          },
+          {
+            "id": "5a5908833ac80010",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-专栏/JavaScript/树结构处理/递归实现给每个对象打层级.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "递归实现给每个对象打层级"
+            }
+          },
+          {
+            "id": "aff5b425b023eeb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-专栏/JavaScript/树结构处理/递归实现给每个对象打层级.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "递归实现给每个对象打层级"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -53,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#网址",
+                "query": "复杂数据",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,10 +163,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-专栏/JavaScript/树结构处理/JavaScript 树结构处理方法.md"
+                "file": "00-专栏/JavaScript/树结构处理/递归实现给每个对象打层级.md"
               },
               "icon": "lucide-list",
-              "title": "JavaScript 树结构处理方法 的大纲"
+              "title": "递归实现给每个对象打层级 的大纲"
             }
           },
           {
@@ -165,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-专栏/JavaScript/树结构处理/JavaScript 树结构处理方法.md",
+                "file": "00-专栏/JavaScript/树结构处理/递归实现给每个对象打层级.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +221,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "JavaScript 树结构处理方法 的反向链接列表"
+              "title": "递归实现给每个对象打层级 的反向链接列表"
             }
           },
           {
@@ -184,12 +230,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-专栏/JavaScript/树结构处理/JavaScript 树结构处理方法.md",
+                "file": "00-专栏/JavaScript/树结构处理/递归实现给每个对象打层级.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "JavaScript 树结构处理方法 的出链列表"
+              "title": "递归实现给每个对象打层级 的出链列表"
             }
           },
           {
@@ -225,9 +271,16 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "72499f136c99e9e4",
+  "active": "aff5b425b023eeb0",
   "lastOpenFiles": [
+    "00-专栏/JavaScript/树结构处理/父子节点联动.md",
+    "00-专栏/JavaScript/树结构处理/根据对象的type进行分组合并成tree.md",
+    "00-专栏/JavaScript/树结构处理/树结构扁平化方法.md",
+    "00-专栏/JavaScript/树结构处理/实现复杂数据查询（过滤）.md",
+    "00-专栏/JavaScript/树结构处理/树结构对象 Key 替换函数.md",
+    "00-专栏/JavaScript/树结构处理/JavaScript 扁平化数据转树形结构.md",
     "00-专栏/JavaScript/树结构处理/JavaScript 树结构处理方法.md",
+    "00-专栏/JavaScript/树结构处理/递归实现给每个对象打层级.md",
     "00-专栏/JavaScript/树结构处理",
     "00-专栏/JavaScript/函数式编程/JavaScript 函数组合（Compose）.md",
     "01-工作经验总结/02-JavaScript常见技巧/代码整洁/函数组合.md",
@@ -249,14 +302,10 @@
     "00-专栏/node/使用 simple-git 操作 Git：详细指南.md",
     "00-专栏/css/grid/grid-template-columns 和 grid-template-rows 属性详解.md",
     "00-专栏/css/grid/grid-column 和 grid-row 属性详解.md",
-    "00-专栏/css/grid/深入浅出 CSS Grid 布局一篇通俗易懂的入门教程.md",
     "00-专栏/git/未命名",
-    "01-工作经验总结/04-框架&库常见技巧/Ant Design/Form/常见正则校验.md",
-    "小技巧/浏览器使用技巧/stylebot/stylebot 样式备份.md",
     "小技巧/RustDesk/附件/0b5b94cc-4f30-4e05-9bd5-d38e0174544a_1732676676003.jpg",
     "小技巧/浏览器使用技巧/stylebot",
     "小技巧/RustDesk/附件/1f860459-ef2b-43b6-8ac7-57046f67bb52_1732676676286.jpg",
-    "小技巧/RustDesk/只会 Windows 也能轻松搭建远程桌面 RustDesk 自用服务器 - 知乎.md",
     "小技巧/RustDesk/附件/540f7fd6-3ddf-4ffe-b86d-51948770c5e9_1732676677248.jpg",
     "小技巧/RustDesk/附件/88806b32-38d5-442f-b618-54edabce7056_1732676677140.jpg",
     "小技巧/RustDesk/附件/bad4480a-8eb3-4235-a5e1-8332bc40c395_1732676677065.jpg",
@@ -267,10 +316,7 @@
     "小技巧/RustDesk/附件/3b3b9633-bde9-4810-a8e1-6900cd85a495_1732676676557.jpg",
     "小技巧/RustDesk/附件",
     "01-工作经验总结/小技巧/vscode/附件",
-    "01-工作经验总结/小技巧/vscode/插件推荐.md",
     "01-工作经验总结/小技巧/vscode/快捷代码片段-table.json",
-    "01-工作经验总结/小技巧/vscode/在vscode中的js文件中自动补全html标签.md",
-    "01-工作经验总结/小技巧/vscode/VSCode中markdown开启智能提示.md",
     "01-工作经验总结/小技巧/vscode",
     "01-工作经验总结/小技巧/github",
     "999--Test/未命名.canvas",
