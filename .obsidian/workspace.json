@@ -43,32 +43,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-专栏/JavaScript/树结构处理/递归实现给每个对象打层级.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "递归实现给每个对象打层级"
-            }
-          },
-          {
-            "id": "aff5b425b023eeb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-专栏/JavaScript/树结构处理/递归实现给每个对象打层级.md",
+                "file": "01-工作经验总结/02-JavaScript常见技巧/简单数据类型/数值类型.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "递归实现给每个对象打层级"
+              "title": "数值类型"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,10 +148,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-专栏/JavaScript/树结构处理/递归实现给每个对象打层级.md"
+                "file": "01-工作经验总结/02-JavaScript常见技巧/简单数据类型/数值类型.md"
               },
               "icon": "lucide-list",
-              "title": "递归实现给每个对象打层级 的大纲"
+              "title": "数值类型 的大纲"
             }
           },
           {
@@ -211,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-专栏/JavaScript/树结构处理/递归实现给每个对象打层级.md",
+                "file": "01-工作经验总结/02-JavaScript常见技巧/简单数据类型/数值类型.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +206,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "递归实现给每个对象打层级 的反向链接列表"
+              "title": "数值类型 的反向链接列表"
             }
           },
           {
@@ -230,12 +215,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-专栏/JavaScript/树结构处理/递归实现给每个对象打层级.md",
+                "file": "01-工作经验总结/02-JavaScript常见技巧/简单数据类型/数值类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "递归实现给每个对象打层级 的出链列表"
+              "title": "数值类型 的出链列表"
             }
           },
           {
@@ -271,8 +256,28 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "aff5b425b023eeb0",
+  "active": "5a5908833ac80010",
   "lastOpenFiles": [
+    "01-工作经验总结/02-JavaScript常见技巧/简单数据类型/字符串技巧.md",
+    "01-工作经验总结/02-JavaScript常见技巧/简单数据类型/数值类型.md",
+    "00-专栏/奇技淫巧/复制内容到剪切板.md",
+    "00-专栏/奇技淫巧/对象解构重命名.md",
+    "00-专栏/JavaScript/数组类型/数组 -- 删除数组指定元素.md",
+    "00-专栏/JavaScript/数组类型/数组 -- 求和、最大值、最小值.md",
+    "00-专栏/JavaScript/数组类型/数组 -- 快速清空.md",
+    "00-专栏/JavaScript/数组类型/数组 -- 快速初始化数组.md",
+    "00-专栏/JavaScript/数组类型/数组 -- 交集、差集、并集、补集.md",
+    "00-专栏/JavaScript/数组类型/数组 -- 过滤空值.md",
+    "00-专栏/JavaScript/数组类型/数组 -- 分割成若干个指定长度的二维数组.md",
+    "00-专栏/JavaScript/树结构处理/递归实现给每个对象打层级.md",
+    "01-工作经验总结/02-JavaScript常见技巧/复杂数据类型/数组类型/数组 -- 快速清空.md",
+    "00-专栏/JavaScript/数组类型/附件/数组 -- 分割成若干个指定长度的二维数组.png",
+    "00-专栏/JavaScript/数组类型/附件",
+    "00-专栏/JavaScript/数组类型",
+    "01-工作经验总结/02-JavaScript常见技巧/复杂数据类型/数组类型/数组 -- 快速初始化数组.md",
+    "01-工作经验总结/02-JavaScript常见技巧/复杂数据类型/数组类型/数组 -- 交集、差集、并集、补集.md",
+    "01-工作经验总结/02-JavaScript常见技巧/复杂数据类型/数组类型/数组 -- 过滤空值.md",
+    "01-工作经验总结/02-JavaScript常见技巧/复杂数据类型/数组类型/数组 -- 分割成若干个指定长度的二维数组.md",
     "00-专栏/JavaScript/树结构处理/父子节点联动.md",
     "00-专栏/JavaScript/树结构处理/根据对象的type进行分组合并成tree.md",
     "00-专栏/JavaScript/树结构处理/树结构扁平化方法.md",
@@ -280,28 +285,11 @@
     "00-专栏/JavaScript/树结构处理/树结构对象 Key 替换函数.md",
     "00-专栏/JavaScript/树结构处理/JavaScript 扁平化数据转树形结构.md",
     "00-专栏/JavaScript/树结构处理/JavaScript 树结构处理方法.md",
-    "00-专栏/JavaScript/树结构处理/递归实现给每个对象打层级.md",
     "00-专栏/JavaScript/树结构处理",
     "00-专栏/JavaScript/函数式编程/JavaScript 函数组合（Compose）.md",
     "01-工作经验总结/02-JavaScript常见技巧/代码整洁/函数组合.md",
     "00-专栏/JavaScript/函数式编程",
-    "01-工作经验总结/01-CSS常见技巧/多行展开收起自动隐藏（全兼容）.md",
-    "01-工作经验总结/01-CSS常见技巧/纯 CSS 检测文本是否溢出.md",
-    "00-专栏/奇技淫巧/css.md",
-    "01-工作经验总结/01-CSS常见技巧/文字布局.md",
-    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 3 路由管理规范技术文档.md",
-    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue3 + TS + Element Plus 后台管理系统搭建教程.md",
-    "test.md",
-    "00-专栏/github/手把手教你实现vite项目自动化部署github page.md",
-    "00-专栏/github/GitHub Pages 部署 React 项目详细教程.md",
-    "00-专栏/github/GitHub Pages 自动部署常见问题及解决方案.md",
-    "资源&&网址书签/601--书签看板/有趣的网址.md",
     "01-工作经验总结/04-框架&库常见技巧/Vue",
-    "01-工作经验总结/04-框架&库常见技巧/ProComponents/ProFormText添加onClick事件.md",
-    "剪藏/JavaScript/原型与原型链.md",
-    "00-专栏/node/使用 simple-git 操作 Git：详细指南.md",
-    "00-专栏/css/grid/grid-template-columns 和 grid-template-rows 属性详解.md",
-    "00-专栏/css/grid/grid-column 和 grid-row 属性详解.md",
     "00-专栏/git/未命名",
     "小技巧/RustDesk/附件/0b5b94cc-4f30-4e05-9bd5-d38e0174544a_1732676676003.jpg",
     "小技巧/浏览器使用技巧/stylebot",
@@ -313,12 +301,9 @@
     "小技巧/RustDesk/附件/f9f563be-bc30-46da-b168-cc21e7eaca14_1732676676820.jpg",
     "小技巧/RustDesk/附件/e407836d-4eef-4dfa-b93d-33d8be966105_1732676676761.jpg",
     "小技巧/RustDesk/附件/3c7f5a30-d2b9-4257-8e90-481f09bc03ac_1732676676678.jpg",
-    "小技巧/RustDesk/附件/3b3b9633-bde9-4810-a8e1-6900cd85a495_1732676676557.jpg",
     "小技巧/RustDesk/附件",
     "01-工作经验总结/小技巧/vscode/附件",
     "01-工作经验总结/小技巧/vscode/快捷代码片段-table.json",
-    "01-工作经验总结/小技巧/vscode",
-    "01-工作经验总结/小技巧/github",
     "999--Test/未命名.canvas",
     "Obsidian白板.canvas",
     "未命名.canvas"
