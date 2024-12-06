@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-工作经验总结/02-JavaScript常见技巧/简单数据类型/数值类型.md",
+                "file": "00-专栏/奇技淫巧/实用代码片段.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数值类型"
+              "title": "实用代码片段"
             }
           }
         ],
@@ -148,10 +148,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-工作经验总结/02-JavaScript常见技巧/简单数据类型/数值类型.md"
+                "file": "00-专栏/奇技淫巧/实用代码片段.md"
               },
               "icon": "lucide-list",
-              "title": "数值类型 的大纲"
+              "title": "实用代码片段 的大纲"
             }
           },
           {
@@ -196,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-工作经验总结/02-JavaScript常见技巧/简单数据类型/数值类型.md",
+                "file": "00-专栏/奇技淫巧/实用代码片段.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "数值类型 的反向链接列表"
+              "title": "实用代码片段 的反向链接列表"
             }
           },
           {
@@ -215,12 +215,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-工作经验总结/02-JavaScript常见技巧/简单数据类型/数值类型.md",
+                "file": "00-专栏/奇技淫巧/实用代码片段.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "数值类型 的出链列表"
+              "title": "实用代码片段 的出链列表"
             }
           },
           {
@@ -256,10 +256,14 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "5a5908833ac80010",
+  "active": "b5f9d18702c6bf89",
   "lastOpenFiles": [
-    "01-工作经验总结/02-JavaScript常见技巧/简单数据类型/字符串技巧.md",
-    "01-工作经验总结/02-JavaScript常见技巧/简单数据类型/数值类型.md",
+    "00-专栏/奇技淫巧/字符串技巧.md",
+    "00-专栏/奇技淫巧/数据格式化/数值大小写转换.md",
+    "00-专栏/奇技淫巧/数据格式化/数值相关.md",
+    "00-专栏/奇技淫巧/数据格式化/时间格式.md",
+    "00-专栏/奇技淫巧/数据格式化/金额格式化.md",
+    "00-专栏/奇技淫巧/数值类型操作技巧.md",
     "00-专栏/奇技淫巧/复制内容到剪切板.md",
     "00-专栏/奇技淫巧/对象解构重命名.md",
     "00-专栏/JavaScript/数组类型/数组 -- 删除数组指定元素.md",
@@ -283,11 +287,7 @@
     "00-专栏/JavaScript/树结构处理/树结构扁平化方法.md",
     "00-专栏/JavaScript/树结构处理/实现复杂数据查询（过滤）.md",
     "00-专栏/JavaScript/树结构处理/树结构对象 Key 替换函数.md",
-    "00-专栏/JavaScript/树结构处理/JavaScript 扁平化数据转树形结构.md",
-    "00-专栏/JavaScript/树结构处理/JavaScript 树结构处理方法.md",
     "00-专栏/JavaScript/树结构处理",
-    "00-专栏/JavaScript/函数式编程/JavaScript 函数组合（Compose）.md",
-    "01-工作经验总结/02-JavaScript常见技巧/代码整洁/函数组合.md",
     "00-专栏/JavaScript/函数式编程",
     "01-工作经验总结/04-框架&库常见技巧/Vue",
     "00-专栏/git/未命名",
