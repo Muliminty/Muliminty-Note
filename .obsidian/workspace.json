@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-专栏/TypeScript/常见问题/TypeScript 函数返回类型隐式推断及解决方案.md",
+                "file": "00-专栏/TypeScript/TypeScript interface 详解.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TypeScript 函数返回类型隐式推断及解决方案"
+              "title": "TypeScript interface 详解"
             }
           }
         ],
@@ -258,8 +258,9 @@
   },
   "active": "5a5908833ac80010",
   "lastOpenFiles": [
-    "01-工作经验总结/04-框架&库常见技巧/Vue/未命名.md",
     "00-专栏/TypeScript/常见问题/TypeScript 函数返回类型隐式推断及解决方案.md",
+    "00-专栏/TypeScript/TypeScript interface 详解.md",
+    "01-工作经验总结/04-框架&库常见技巧/Vue/未命名.md",
     "00-专栏/TypeScript/常见问题",
     "00-专栏/TypeScript",
     "00-专栏/github/利用 GitHub API 将 Markdown 笔记仓库作为静态博客项目的数据来源.md",
