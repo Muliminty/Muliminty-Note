@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-工作经验总结/04-框架&库常见技巧/React/React 嵌套路由详解.md",
+                "file": "00-专栏/css/CSS 盒子模型详解.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React 嵌套路由详解"
+              "title": "CSS 盒子模型详解"
             }
           }
         ],
@@ -258,8 +258,9 @@
   },
   "active": "5a5908833ac80010",
   "lastOpenFiles": [
-    "00-专栏/TypeScript/TypeScript 中 Interface 的管理规范.md",
     "01-工作经验总结/04-框架&库常见技巧/React/React 嵌套路由详解.md",
+    "00-专栏/css/CSS 盒子模型详解.md",
+    "00-专栏/TypeScript/TypeScript 中 Interface 的管理规范.md",
     "00-专栏/TypeScript/TypeScript interface 详解.md",
     "00-专栏/TypeScript/常见问题/TypeScript 函数返回类型隐式推断及解决方案.md",
     "01-工作经验总结/04-框架&库常见技巧/Vue/未命名.md",
@@ -285,7 +286,6 @@
     "00-专栏/奇技淫巧/数值类型操作技巧.md",
     "00-专栏/奇技淫巧/复制内容到剪切板.md",
     "00-专栏/奇技淫巧/对象解构重命名.md",
-    "00-专栏/JavaScript/数组类型/数组 -- 删除数组指定元素.md",
     "00-专栏/JavaScript/数组类型/附件/数组 -- 分割成若干个指定长度的二维数组.png",
     "00-专栏/JavaScript/数组类型/附件",
     "00-专栏/JavaScript/数组类型",
