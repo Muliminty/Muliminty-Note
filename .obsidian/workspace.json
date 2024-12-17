@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-工作经验总结/04-框架&库常见技巧/React/组件/导出按钮组件.md",
-                "mode": "preview",
+                "file": "00-专栏/奇技淫巧/使用 ExcelJS 导出 Excel 文件并实现样式修改与自定义下拉框.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "导出按钮组件"
+              "title": "使用 ExcelJS 导出 Excel 文件并实现样式修改与自定义下拉框"
             }
           }
         ]
@@ -227,8 +227,11 @@
   },
   "active": "a781962c86046c53",
   "lastOpenFiles": [
-    "01-工作经验总结/04-框架&库常见技巧/React/组件/时间国际化.md",
+    "Error  Invalid HTML  could not find table.md",
+    "00-专栏/奇技淫巧/使用 ExcelJS 导出 Excel 文件并实现样式修改与自定义下拉框.md",
+    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue3 登录和菜单权限控制.md",
     "01-工作经验总结/04-框架&库常见技巧/React/组件/导出按钮组件.md",
+    "01-工作经验总结/04-框架&库常见技巧/React/组件/时间国际化.md",
     "01-工作经验总结/04-框架&库常见技巧/Ant Design/Tree/选中联动父节点.md",
     "剪藏/TypeScript/TypeScript相关文章/Ts 声明文件 -- 什么是声明文件(declare).md",
     "02-前端架构师/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/附件/2-3从使用角度理解什么是脚手架？.png",
@@ -259,11 +262,8 @@
     "00-专栏/JavaScript/树结构处理/父子节点联动.md",
     "01-工作经验总结/04-框架&库常见技巧/vite/部署 Vite 构建的 dist 文件夹：详细指南.md",
     "01-工作经验总结/高级前端架构师知识图谱.md",
-    "00-专栏/node/Strapi 简介.md",
     "01-工作经验总结/附件/Snipaste_2024-12-11_21-08-15.png",
     "01-工作经验总结/附件",
-    "小技巧/RustDesk/只会 Windows 也能轻松搭建远程桌面 RustDesk 自用服务器 - 知乎.md",
-    "01-工作经验总结/04-框架&库常见技巧/React/虚拟列表.md",
     "00-专栏/TypeScript/常见问题",
     "00-专栏/TypeScript",
     "00-专栏/JavaScript/数组类型/附件/数组 -- 分割成若干个指定长度的二维数组.png",
