@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-专栏/奇技淫巧/使用 ExcelJS 导出 Excel 文件并实现样式修改与自定义下拉框.md",
-                "mode": "source",
+                "file": "01-工作经验总结/04-框架&库常见技巧/Vue/Vue3 登录和菜单权限控制.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "使用 ExcelJS 导出 Excel 文件并实现样式修改与自定义下拉框"
+              "title": "Vue3 登录和菜单权限控制"
             }
           }
         ]
@@ -227,9 +227,19 @@
   },
   "active": "a781962c86046c53",
   "lastOpenFiles": [
-    "Error  Invalid HTML  could not find table.md",
-    "00-专栏/奇技淫巧/使用 ExcelJS 导出 Excel 文件并实现样式修改与自定义下拉框.md",
+    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 动态布局实现.md",
+    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 3 实现夜间模式切换.md",
+    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 3 路由管理规范技术文档.md",
+    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 3 多布局路由管理.md",
+    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 3 + TypeScript + Element Plus 后台管理系统中的权限管理与鉴权.md",
+    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue3 + TS + Element Plus 后台管理系统搭建教程.md",
     "01-工作经验总结/04-框架&库常见技巧/Vue/Vue3 登录和菜单权限控制.md",
+    "01-工作经验总结/04-框架&库常见技巧/file-saver 使用笔记.md",
+    "00-专栏/奇技淫巧/Input.md",
+    "00-专栏/奇技淫巧/使用 Node.js 定时从 GitHub 拉取代码的完整指南.md",
+    "01-工作经验总结/04-框架&库常见技巧/react-highlight-words 使用指南.md",
+    "00-专栏/奇技淫巧/使用 ExcelJS 导出 Excel 文件并实现样式修改与自定义下拉框.md",
+    "Error  Invalid HTML  could not find table.md",
     "01-工作经验总结/04-框架&库常见技巧/React/组件/导出按钮组件.md",
     "01-工作经验总结/04-框架&库常见技巧/React/组件/时间国际化.md",
     "01-工作经验总结/04-框架&库常见技巧/Ant Design/Tree/选中联动父节点.md",
@@ -249,19 +259,9 @@
     "02-前端架构师/阶段一 课程设计以及前端脚手架开发/{1}--需求分析和架构设计：做什么，如何做？",
     "02-前端架构师/阶段一 课程设计以及前端脚手架开发",
     "02-前端架构师",
-    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 动态布局实现.md",
-    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 3 + TypeScript + Element Plus 后台管理系统中的权限管理与鉴权.md",
-    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue3 + TS + Element Plus 后台管理系统搭建教程.md",
-    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 3 实现夜间模式切换.md",
-    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 3 路由管理规范技术文档.md",
-    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 3 多布局路由管理.md",
     "01-工作经验总结/04-框架&库常见技巧/Vue/导读.md",
     "00-专栏/JavaScript/树结构处理/JavaScript 扁平化数据转树形结构.md",
     "00-专栏/JavaScript/树结构处理/JavaScript 树结构处理方法.md",
-    "01-工作经验总结/04-框架&库常见技巧/Axios/axios请求配置.md",
-    "00-专栏/JavaScript/树结构处理/父子节点联动.md",
-    "01-工作经验总结/04-框架&库常见技巧/vite/部署 Vite 构建的 dist 文件夹：详细指南.md",
-    "01-工作经验总结/高级前端架构师知识图谱.md",
     "01-工作经验总结/附件/Snipaste_2024-12-11_21-08-15.png",
     "01-工作经验总结/附件",
     "00-专栏/TypeScript/常见问题",
