@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "843da398ed3cf7fe",
+        "id": "3e985db03d75a832",
         "type": "tabs",
         "children": [
           {
-            "id": "a781962c86046c53",
+            "id": "06d8329c1a5d10de",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-工作经验总结/04-框架&库常见技巧/Vue/Vue3 登录和菜单权限控制.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Vue3 登录和菜单权限控制"
+              "title": "新标签页"
             }
           }
         ]
@@ -225,15 +220,17 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "a781962c86046c53",
+  "active": "b5f9d18702c6bf89",
   "lastOpenFiles": [
+    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue3 登录和菜单权限控制.md",
+    "00-专栏/面经/undefined 和 undeclared.md",
+    "00-专栏/面经",
     "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 动态布局实现.md",
     "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 3 实现夜间模式切换.md",
     "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 3 路由管理规范技术文档.md",
     "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 3 多布局路由管理.md",
     "01-工作经验总结/04-框架&库常见技巧/Vue/Vue 3 + TypeScript + Element Plus 后台管理系统中的权限管理与鉴权.md",
     "01-工作经验总结/04-框架&库常见技巧/Vue/Vue3 + TS + Element Plus 后台管理系统搭建教程.md",
-    "01-工作经验总结/04-框架&库常见技巧/Vue/Vue3 登录和菜单权限控制.md",
     "01-工作经验总结/04-框架&库常见技巧/file-saver 使用笔记.md",
     "00-专栏/奇技淫巧/Input.md",
     "00-专栏/奇技淫巧/使用 Node.js 定时从 GitHub 拉取代码的完整指南.md",
@@ -261,11 +258,9 @@
     "02-前端架构师",
     "01-工作经验总结/04-框架&库常见技巧/Vue/导读.md",
     "00-专栏/JavaScript/树结构处理/JavaScript 扁平化数据转树形结构.md",
-    "00-专栏/JavaScript/树结构处理/JavaScript 树结构处理方法.md",
     "01-工作经验总结/附件/Snipaste_2024-12-11_21-08-15.png",
     "01-工作经验总结/附件",
     "00-专栏/TypeScript/常见问题",
-    "00-专栏/TypeScript",
     "00-专栏/JavaScript/数组类型/附件/数组 -- 分割成若干个指定长度的二维数组.png",
     "小技巧/RustDesk/附件/0b5b94cc-4f30-4e05-9bd5-d38e0174544a_1732676676003.jpg",
     "小技巧/RustDesk/附件/1f860459-ef2b-43b6-8ac7-57046f67bb52_1732676676286.jpg",
