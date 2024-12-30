@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-工作经验总结/04-框架&库常见技巧/GridStack.js/GridStackOptions 配置项.md",
+                "file": "01-工作经验总结/04-框架&库常见技巧/React/React 动态路由实现.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GridStackOptions 配置项"
+              "title": "React 动态路由实现"
             }
           }
         ]
@@ -227,9 +227,12 @@
   },
   "active": "f02d1e6f2d526b9e",
   "lastOpenFiles": [
-    "01-工作经验总结/04-框架&库常见技巧/GridStack.js/gridstack.js  原文文档.md",
-    "01-工作经验总结/04-框架&库常见技巧/GridStack.js/GridStackOptions 配置项.md",
     "01-工作经验总结/04-框架&库常见技巧/GridStack.js/GridStack.js API 文档.md",
+    "01-工作经验总结/04-框架&库常见技巧/React/React 动态路由实现.md",
+    "01-工作经验总结/04-框架&库常见技巧/GridStack.js/gridstack.js  原文文档.md",
+    "01-工作经验总结/04-框架&库常见技巧/dnd kit使用指南/参考文档.md",
+    "01-工作经验总结/04-框架&库常见技巧/dnd kit使用指南/README.md",
+    "01-工作经验总结/04-框架&库常见技巧/GridStack.js/GridStackOptions 配置项.md",
     "01-工作经验总结/04-框架&库常见技巧/React/在 React 中使用 GSAP.md",
     "test.md",
     "00-专栏/零散知识点（概念）/LCP（Largest Contentful Paint）.md",
@@ -252,12 +255,9 @@
     "Error  Invalid HTML  could not find table.md",
     "01-工作经验总结/04-框架&库常见技巧/React/组件/导出按钮组件.md",
     "01-工作经验总结/04-框架&库常见技巧/React/组件/时间国际化.md",
-    "01-工作经验总结/04-框架&库常见技巧/Ant Design/Tree/选中联动父节点.md",
-    "剪藏/TypeScript/TypeScript相关文章/Ts 声明文件 -- 什么是声明文件(declare).md",
     "02-前端架构师/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/附件/2-3从使用角度理解什么是脚手架？.png",
     "02-前端架构师/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/附件/2-3从使用角度理解什么是脚手架？-1.png",
     "02-前端架构师/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/附件",
-    "02-前端架构师/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-5脚手架原理讲解（下）.md",
     "02-前端架构师/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门",
     "02-前端架构师/阶段一 课程设计以及前端脚手架开发/{1}--需求分析和架构设计：做什么，如何做？/第三章前端研发流程",
     "02-前端架构师/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建",
