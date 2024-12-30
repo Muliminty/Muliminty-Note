@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-工作经验总结/04-框架&库常见技巧/React/React 动态路由实现.md",
-                "mode": "preview",
+                "file": "test.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React 动态路由实现"
+              "title": "test"
             }
           }
         ]
@@ -227,8 +227,8 @@
   },
   "active": "f02d1e6f2d526b9e",
   "lastOpenFiles": [
-    "01-工作经验总结/04-框架&库常见技巧/GridStack.js/GridStack.js API 文档.md",
     "01-工作经验总结/04-框架&库常见技巧/React/React 动态路由实现.md",
+    "01-工作经验总结/04-框架&库常见技巧/GridStack.js/GridStack.js API 文档.md",
     "01-工作经验总结/04-框架&库常见技巧/GridStack.js/gridstack.js  原文文档.md",
     "01-工作经验总结/04-框架&库常见技巧/dnd kit使用指南/参考文档.md",
     "01-工作经验总结/04-框架&库常见技巧/dnd kit使用指南/README.md",
