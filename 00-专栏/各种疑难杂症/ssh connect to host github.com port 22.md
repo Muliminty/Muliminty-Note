@@ -54,6 +54,7 @@ Hi xxxx! You've successfully authenticated, but GitHub does not provide shell ac
      Port 443
    ```
 
+![](附件/ssh%20connect%20to%20host%20github.com%20port%2022-1.png)
 #### **步骤 3：验证 SSH 配置**
 
 配置文件修改完毕后，验证 Git 使用新的配置进行 SSH 连接：
