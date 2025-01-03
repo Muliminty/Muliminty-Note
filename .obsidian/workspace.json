@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-专栏/TypeScript/TypeScript  基础概念.md",
-                "mode": "preview",
+                "file": "01-工作经验总结/04-框架&库常见技巧/React/使用 React.lazy 和 Suspense 实现路由懒加载.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TypeScript  基础概念"
+              "title": "使用 React.lazy 和 Suspense 实现路由懒加载"
             }
           }
         ]
@@ -227,8 +227,9 @@
   },
   "active": "f02d1e6f2d526b9e",
   "lastOpenFiles": [
-    "00-专栏/TypeScript/常见问题/TypeScript 函数返回类型隐式推断及解决方案.md",
     "00-专栏/TypeScript/TypeScript  基础概念.md",
+    "01-工作经验总结/04-框架&库常见技巧/React/使用 React.lazy 和 Suspense 实现路由懒加载.md",
+    "00-专栏/TypeScript/常见问题/TypeScript 函数返回类型隐式推断及解决方案.md",
     "00-专栏/TypeScript/TypeScript interface 详解.md",
     "00-专栏/TypeScript/TypeScript 中 Interface 的管理规范.md",
     "00-专栏/css/文档流、盒子模型与BFC.md",
@@ -256,7 +257,6 @@
     "01-工作经验总结/04-框架&库常见技巧/dnd kit使用指南/README.md",
     "01-工作经验总结/04-框架&库常见技巧/GridStack.js/GridStackOptions 配置项.md",
     "01-工作经验总结/04-框架&库常见技巧/React/在 React 中使用 GSAP.md",
-    "00-专栏/零散知识点（概念）/LCP（Largest Contentful Paint）.md",
     "00-专栏/零散知识点（概念）",
     "00-专栏/面经",
     "02-前端架构师/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/附件/2-3从使用角度理解什么是脚手架？.png",
