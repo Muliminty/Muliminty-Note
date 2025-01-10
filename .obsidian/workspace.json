@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-专栏/源码解读/react/01-React 源码学习指南.md",
-                "mode": "source",
+                "file": "00-专栏/源码解读/react/03-Fiber 架构.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-React 源码学习指南"
+              "title": "03-Fiber 架构"
             }
           }
         ]
@@ -225,12 +225,12 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "b5f9d18702c6bf89",
+  "active": "1e59138fe1c03dfe",
   "lastOpenFiles": [
-    "00-专栏/源码解读/react-image-file-resizer 源码.md",
     "00-专栏/源码解读/react/01-React 源码学习指南.md",
-    "00-专栏/源码解读/react/03-Fiber 架构.md",
     "00-专栏/源码解读/react/02-虚拟 DOM.md",
+    "00-专栏/源码解读/react-image-file-resizer 源码.md",
+    "00-专栏/源码解读/react/03-Fiber 架构.md",
     "00-专栏/源码解读/react/React 基础",
     "00-专栏/零散知识点（概念）/LCP（Largest Contentful Paint）.md",
     "00-专栏/源码解读/react",
