@@ -28,32 +28,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-专栏/源码解读/react/04-createElement.md",
+                "file": "00-专栏/源码解读/react/01-React 源码学习指南.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-createElement"
+              "title": "01-React 源码学习指南"
             }
           },
           {
-            "id": "e8ebcda1cb10bf83",
+            "id": "055216c38adbc809",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "surfing-view",
               "state": {
-                "file": "00-专栏/源码解读/react/02-虚拟 DOM.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
+                "url": "https://react.iamkasong.com/preparation/newConstructure.html"
               },
               "icon": "lucide-file",
-              "title": "02-虚拟 DOM"
+              "title": "React技术揭秘"
+            }
+          },
+          {
+            "id": "75603d1597be66e4",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://7km.top/"
+              },
+              "icon": "lucide-file",
+              "title": "图解React原理系列"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,8 +123,8 @@
             "state": {
               "type": "surfing-tab-tree",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "chrome",
+              "title": "Surfing Tab Tree"
             }
           },
           {
@@ -274,13 +283,13 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "600488d194a9cf28",
+  "active": "75603d1597be66e4",
   "lastOpenFiles": [
     "00-专栏/源码解读/react/01-React 源码学习指南.md",
-    "00-专栏/源码解读/react/04-createElement.md",
     "00-专栏/源码解读/react/02-虚拟 DOM.md",
-    "00-专栏/源码解读/react/03-Fiber 架构.md",
+    "00-专栏/源码解读/react/04-createElement.md",
     "00-专栏/源码解读/react-image-file-resizer 源码.md",
+    "00-专栏/源码解读/react/03-Fiber 架构.md",
     "00-专栏/源码解读/react/React 基础",
     "00-专栏/零散知识点（概念）/LCP（Largest Contentful Paint）.md",
     "00-专栏/源码解读/react",

@@ -126,6 +126,8 @@ React 源码按模块划分，建议从核心部分开始，逐步深入。以�
 
 ### 5.3 开源书籍
 - [《React 技术揭秘》](https://react.iamkasong.com/)：详细解析 React 源码。
+- [图解React原理系列](https://7km.top/)
+- 
 
 ### 5.4 视频课程
 - B 站或其他平台的 React 源码解读系列课程。

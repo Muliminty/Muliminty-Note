@@ -1,6 +1,18 @@
 {
   "bookmarks": [
     {
+      "id": "2038739518",
+      "name": "New Tab",
+      "url": "https://7km.top/",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1736760325090,
+      "modified": 1736760325090
+    },
+    {
       "id": "-1783380247",
       "name": "图解HTTP-上野宣-微信读书",
       "url": "https://weread.qq.com/web/reader/3da32b505dd9f43da9a1aca?",
