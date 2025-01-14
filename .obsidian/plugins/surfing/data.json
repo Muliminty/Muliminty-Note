@@ -38,5 +38,17 @@
     ],
     "defaultFilterType": "menu"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "43b6593cf335e777",
+      "parent": 0,
+      "droppable": true,
+      "text": "💯 学习 - 滴答清单",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }

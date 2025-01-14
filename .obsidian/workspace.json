@@ -4,53 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "1b74ea1b6f5c2ef3",
+        "id": "61d1f5abf8027f15",
         "type": "tabs",
         "children": [
           {
-            "id": "1e59138fe1c03dfe",
+            "id": "2736e5eda9a69c71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-note/源码解读/react/01-React 源码学习指南.md",
+                "file": "README.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-React 源码学习指南"
-            }
-          },
-          {
-            "id": "5553115603ee8bec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-note/vite/如何编写 Vite 插件：从入门到实践.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "如何编写 Vite 插件：从入门到实践"
-            }
-          },
-          {
-            "id": "e03317efed5b74d0",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://overreacted.io/on-let-vs-const/"
-              },
-              "icon": "lucide-file",
-              "title": "On let vs const — overreacted"
+              "title": "README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#antd",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,13 +78,17 @@
             }
           },
           {
-            "id": "4f33b483a54b38b5",
+            "id": "bed8f94c56327ab1",
             "type": "leaf",
             "state": {
-              "type": "surfing-tab-tree",
-              "state": {},
-              "icon": "chrome",
-              "title": "Surfing Tab Tree"
+              "type": "outgoing-link",
+              "state": {
+                "file": "00-note/github/GitHub API 请求示例（使用 `axios`）.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "GitHub API 请求示例（使用 `axios`） 的出链列表"
             }
           },
           {
@@ -123,97 +99,6 @@
               "state": {},
               "icon": "chrome",
               "title": "Surfing Tab Tree"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 307.5
-  },
-  "right": {
-    "id": "7e1eaf5aa558b397",
-    "type": "split",
-    "children": [
-      {
-        "id": "366e0e71d35865b6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "44df5cfe22cb7b21",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {},
-              "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "43b6593cf335e777",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://dida365.com/webapp/#g/28e449c995bc5f0576163148/tasks"
-              },
-              "icon": "lucide-file",
-              "title": "💯 学习 - 滴答清单"
-            }
-          },
-          {
-            "id": "ac2262c433176a39",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://weread.qq.com/web/reader/c5c32170813ab7177g0181ae"
-              },
-              "icon": "lucide-file",
-              "title": "Vue.js设计与实现 - 霍春阳　著 - 微信读书"
-            }
-          },
-          {
-            "id": "0091c11f0415cf81",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "bd4c1548a878c7f5",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "01-工作经验总结/04-框架&库常见技巧/Vue/导读.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "导读 的反向链接列表"
-            }
-          },
-          {
-            "id": "bed8f94c56327ab1",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "01-工作经验总结/04-框架&库常见技巧/Vue/导读.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "导读 的出链列表"
             }
           },
           {
@@ -229,13 +114,109 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
+          },
+          {
+            "id": "bd4c1548a878c7f5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00-note/github/GitHub API 请求示例（使用 `axios`）.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "GitHub API 请求示例（使用 `axios`） 的反向链接列表"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 583.5
+    "width": 270.5
+  },
+  "right": {
+    "id": "7e1eaf5aa558b397",
+    "type": "split",
+    "children": [
+      {
+        "id": "366e0e71d35865b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44df5cfe22cb7b21",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              },
+              "icon": "lucide-list",
+              "title": "README 的大纲"
+            }
+          },
+          {
+            "id": "74f2c73d0fe458f7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://chat.deepseek.com/a/chat/s/7f7872a4-e160-464c-bf3a-1415ed511aad"
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "DeepSeek - 探索未至之境"
+            }
+          },
+          {
+            "id": "ac2262c433176a39",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://weread.qq.com/web/reader/c5c32170813ab7177g0181ae"
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Vue.js设计与实现 - 霍春阳　著 - 微信读书"
+            }
+          },
+          {
+            "id": "43b6593cf335e777",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://dida365.com/webapp/#g/28e449c995bc5f0576163148/tasks"
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "💯 学习 - 滴答清单"
+            }
+          },
+          {
+            "id": "0091c11f0415cf81",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 603.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,50 +230,50 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "ac2262c433176a39",
+  "active": "2736e5eda9a69c71",
   "lastOpenFiles": [
-    "00-note/vite/如何编写 Vite 插件：从入门到实践.md",
-    "README.md",
     "test.md",
-    "未命名",
-    "00-note/源码解读/react/ReactJSXElement.js.md",
-    "00-note/源码解读/react/03-Fiber 架构.md",
-    "00-note/源码解读/react/02-虚拟 DOM.md",
-    "00-note/源码解读/react/01-React 源码学习指南.md",
-    "00-note/源码解读/react/04-createElement.md",
-    "00-note/源码解读/react-image-file-resizer 源码.md",
+    "00-summaries/vite/前端构建工具打包与分包优化.md",
+    "00-summaries/奇技淫巧/数据格式化/数值大小写转换.md",
+    "00-summaries/奇技淫巧/数据格式化/数值相关.md",
+    "00-summaries/奇技淫巧/数据格式化/时间格式.md",
+    "00-summaries/奇技淫巧/数据格式化/金额格式化.md",
+    "00-summaries/github/GitHub API 请求示例（使用 `axios`）.md",
+    "00-summaries/github/如何通过 GitHub Discussions 构建博客后台.md",
+    "00-summaries/零散知识点（概念）/LCP（Largest Contentful Paint）.md",
+    "README.md",
+    "00-summaries/JavaScript/树结构处理/JavaScript 扁平化数据转树形结构.md",
+    "00-summaries/JavaScript/树结构处理/JavaScript 树结构处理方法.md",
+    "00-summaries/JavaScript/树结构处理/递归实现给每个对象打层级.md",
+    "00-summaries/JavaScript/函数式编程/JavaScript 函数组合（Compose）.md",
+    "00-summaries/git/Git 和 Sourcetree 使用 SSH 配置.md",
+    "00-summaries/vite/vite项目初始化.md",
+    "00-summaries/vite/如何编写 Vite 插件：从入门到实践.md",
+    "00-summaries/零散知识点（概念）/水合（Hydration）.md",
+    "00-summaries/node/使用 simple-git 操作 Git：详细指南.md",
+    "归档/个人网站项目参考/React 目录树控件.md",
+    "01-note/04-框架&库常见技巧/sass/ITCSS 开发规范文档.md",
+    "01-note/04-框架&库常见技巧/sass/SCSS 使用技巧详细文档.md",
+    "00-summaries/node/Strapi 简介.md",
+    "01-note/04-框架&库常见技巧/Umi/后台管理系统.md",
+    "01-note/04-框架&库常见技巧/Umi/异常处理/does not exist in container.md",
+    "01-note/04-框架&库常见技巧/百度地图Api使用/React-BMapGL/未命名看板.md",
+    "04-译文",
     "00-专栏/源码解读/react/React 基础",
-    "00-note/零散知识点（概念）/LCP（Largest Contentful Paint）.md",
-    "00-note/源码解读/react",
-    "00-note/react",
-    "01-summaries/04-框架&库常见技巧/Vue/Vue 3 实现夜间模式切换.md",
-    "01-summaries/04-框架&库常见技巧/Vue/Vue 3 路由管理规范技术文档.md",
-    "01-summaries/04-框架&库常见技巧/Vue/Vue 3 多布局路由管理.md",
-    "01-summaries/04-框架&库常见技巧/Vue/Vue 3 + TypeScript + Element Plus 后台管理系统中的权限管理与鉴权.md",
-    "01-summaries/04-框架&库常见技巧/Vue/导读.md",
-    "01-summaries/04-框架&库常见技巧/Vue/Vue 动态布局实现.md",
-    "01-summaries/04-框架&库常见技巧/vite/在 Vite + React 项目中实现自动导入样式.md",
-    "01-summaries/04-框架&库常见技巧/vite/插件/使用自定义 Vite 插件替换 index.html 路径.md",
-    "00-note/奇技淫巧/对象解构重命名.md",
-    "00-note/奇技淫巧/复制内容到剪切板.md",
-    "00-note/奇技淫巧/使用 ExcelJS 导出 Excel 文件并实现样式修改与自定义下拉框.md",
-    "00-note/奇技淫巧/数值类型操作技巧.md",
-    "00-note/奇技淫巧/通过 Git 地址安装依赖.md",
-    "00-note/奇技淫巧/Input.md",
-    "00-note/奇技淫巧/npm link.md",
-    "00-note/零散知识点（概念）/水合（Hydration）.md",
-    "01-summaries/04-框架&库常见技巧/React/Zustand",
-    "01-summaries/04-框架&库常见技巧/React/Redux",
-    "00-note/各种疑难杂症/附件/ssh connect to host github.com port 22-1.png",
-    "00-note/各种疑难杂症/附件/ssh connect to host github.com port 22.png",
-    "00-note/各种疑难杂症/附件",
-    "00-note/零散知识点（概念）",
-    "00-note/面经",
+    "00-summaries/源码解读/react",
+    "00-summaries/react",
+    "01-note/04-框架&库常见技巧/React/Zustand",
+    "01-note/04-框架&库常见技巧/React/Redux",
+    "00-summaries/各种疑难杂症/附件/ssh connect to host github.com port 22-1.png",
+    "00-summaries/各种疑难杂症/附件/ssh connect to host github.com port 22.png",
+    "00-summaries/各种疑难杂症/附件",
+    "00-summaries/零散知识点（概念）",
+    "00-summaries/面经",
     "02-前端架构师/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/附件/2-3从使用角度理解什么是脚手架？.png",
     "02-前端架构师/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/附件/2-3从使用角度理解什么是脚手架？-1.png",
     "02-前端架构师/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/附件",
-    "01-summaries/附件/Snipaste_2024-12-11_21-08-15.png",
-    "00-note/JavaScript/数组类型/附件/数组 -- 分割成若干个指定长度的二维数组.png",
+    "01-note/附件/Snipaste_2024-12-11_21-08-15.png",
+    "00-summaries/JavaScript/数组类型/附件/数组 -- 分割成若干个指定长度的二维数组.png",
     "归档/小技巧/RustDesk/附件/0b5b94cc-4f30-4e05-9bd5-d38e0174544a_1732676676003.jpg",
     "归档/小技巧/RustDesk/附件/1f860459-ef2b-43b6-8ac7-57046f67bb52_1732676676286.jpg",
     "归档/小技巧/RustDesk/附件/540f7fd6-3ddf-4ffe-b86d-51948770c5e9_1732676677248.jpg",
