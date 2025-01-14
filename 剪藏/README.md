@@ -2,7 +2,7 @@
 
 使用 Clean-mark 工具将文章 download 到本地进行保存
 
-[关于 Clean-mark ](../小技巧/Clean-mark.md)
+[关于 Clean-mark ](../归档/小技巧/Clean-mark.md)
 
 ## 免责声明
 
