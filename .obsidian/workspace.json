@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "00-note/vite/如何编写 Vite 插件：从入门到实践.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "如何编写 Vite 插件：从入门到实践"
             }
           },
           {
@@ -144,11 +144,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -251,17 +249,17 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "5553115603ee8bec",
+  "active": "ac2262c433176a39",
   "lastOpenFiles": [
-    "test.md",
+    "00-note/vite/如何编写 Vite 插件：从入门到实践.md",
     "README.md",
+    "test.md",
     "未命名",
     "00-note/源码解读/react/ReactJSXElement.js.md",
     "00-note/源码解读/react/03-Fiber 架构.md",
     "00-note/源码解读/react/02-虚拟 DOM.md",
     "00-note/源码解读/react/01-React 源码学习指南.md",
     "00-note/源码解读/react/04-createElement.md",
-    "00-note/vite/如何编写 Vite 插件：从入门到实践.md",
     "00-note/源码解读/react-image-file-resizer 源码.md",
     "00-专栏/源码解读/react/React 基础",
     "00-note/零散知识点（概念）/LCP（Largest Contentful Paint）.md",
