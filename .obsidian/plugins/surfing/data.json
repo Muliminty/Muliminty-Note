@@ -20,7 +20,7 @@
   "useIconList": false,
   "darkMode": false,
   "bookmarkManager": {
-    "openBookMark": true,
+    "openBookMark": false,
     "saveBookMark": false,
     "sendToReadWise": false,
     "pagination": "12",
@@ -36,7 +36,7 @@
       "modified",
       "action"
     ],
-    "defaultFilterType": "tree"
+    "defaultFilterType": "menu"
   },
   "treeData": []
 }
