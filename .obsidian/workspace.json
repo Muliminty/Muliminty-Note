@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "61d1f5abf8027f15",
+        "id": "e1fcafff03b7139f",
         "type": "tabs",
         "children": [
           {
-            "id": "2736e5eda9a69c71",
+            "id": "2be545226963ae4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "preview",
+                "file": "00-summaries/git/Git 版本管理规范与实践.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Git 版本管理规范与实践"
             }
           }
         ]
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "00-summaries/git/Git 版本管理规范与实践.md"
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "Git 版本管理规范与实践 的大纲"
             }
           },
           {
@@ -230,8 +230,19 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "2736e5eda9a69c71",
+  "active": "2be545226963ae4b",
   "lastOpenFiles": [
+    "00-summaries/git/Git 用户配置管理技术文档.md",
+    "00-summaries/git/Git 提交规范.md",
+    "00-summaries/源码解读/react/01-React 源码学习指南.md",
+    "01-note/04-框架&库常见技巧/Ant Design/Table/Table常用功能.md",
+    "01-note/04-框架&库常见技巧/Ant Design/Table/columns技巧.md",
+    "01-note/04-框架&库常见技巧/Ant Design/Table/自定义表格空状态.md",
+    "01-note/04-框架&库常见技巧/Ant Design/Table/行悬浮样式修改.md",
+    "01-note/04-框架&库常见技巧/Ant Design/Table/表格可拖动.md",
+    "01-note/04-框架&库常见技巧/Ant Design/Table/表格复选框.md",
+    "00-summaries/零散知识点（概念）/水合（Hydration）.md",
+    "README.md",
     "test.md",
     "00-summaries/vite/前端构建工具打包与分包优化.md",
     "00-summaries/奇技淫巧/数据格式化/数值大小写转换.md",
@@ -241,23 +252,12 @@
     "00-summaries/github/GitHub API 请求示例（使用 `axios`）.md",
     "00-summaries/github/如何通过 GitHub Discussions 构建博客后台.md",
     "00-summaries/零散知识点（概念）/LCP（Largest Contentful Paint）.md",
-    "README.md",
     "00-summaries/JavaScript/树结构处理/JavaScript 扁平化数据转树形结构.md",
     "00-summaries/JavaScript/树结构处理/JavaScript 树结构处理方法.md",
     "00-summaries/JavaScript/树结构处理/递归实现给每个对象打层级.md",
     "00-summaries/JavaScript/函数式编程/JavaScript 函数组合（Compose）.md",
     "00-summaries/git/Git 和 Sourcetree 使用 SSH 配置.md",
     "00-summaries/vite/vite项目初始化.md",
-    "00-summaries/vite/如何编写 Vite 插件：从入门到实践.md",
-    "00-summaries/零散知识点（概念）/水合（Hydration）.md",
-    "00-summaries/node/使用 simple-git 操作 Git：详细指南.md",
-    "归档/个人网站项目参考/React 目录树控件.md",
-    "01-note/04-框架&库常见技巧/sass/ITCSS 开发规范文档.md",
-    "01-note/04-框架&库常见技巧/sass/SCSS 使用技巧详细文档.md",
-    "00-summaries/node/Strapi 简介.md",
-    "01-note/04-框架&库常见技巧/Umi/后台管理系统.md",
-    "01-note/04-框架&库常见技巧/Umi/异常处理/does not exist in container.md",
-    "01-note/04-框架&库常见技巧/百度地图Api使用/React-BMapGL/未命名看板.md",
     "04-译文",
     "00-专栏/源码解读/react/React 基础",
     "00-summaries/源码解读/react",
