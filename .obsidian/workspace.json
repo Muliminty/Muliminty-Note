@@ -16,7 +16,7 @@
                 "file": "00-summaries/blog/实现一个迷你版的 React.md",
                 "mode": "preview",
                 "backlinks": true,
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "实现一个迷你版的 React"
