@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "test"
             }
+          },
+          {
+            "id": "8cbb482ad33aee0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-summaries/github/Giscus 使用文档.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Giscus 使用文档"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,7 +241,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 477.5
+    "width": 603.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,13 +254,14 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-weread-plugin:Weread": false,
       "smart-random-note:Open Random Note from Search": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "85c3022bfeca1c2c",
+  "active": "8cbb482ad33aee0b",
   "lastOpenFiles": [
+    "未命名.md",
+    "00-summaries/github/Giscus 使用文档.md",
+    "test.md",
     "00-summaries/blog/实现一个迷你版的 React.md",
     "00-summaries/blog",
     "00-summaries/各种疑难杂症/Ant Design Select组件下拉选项随页面滚动与Select框分离问题.md",
@@ -264,13 +282,10 @@
     "01-note/04-框架&库常见技巧/Ant Design/Table/表格复选框.md",
     "00-summaries/零散知识点（概念）/水合（Hydration）.md",
     "README.md",
-    "test.md",
     "00-summaries/vite/前端构建工具打包与分包优化.md",
     "00-summaries/奇技淫巧/数据格式化/数值大小写转换.md",
     "00-summaries/奇技淫巧/数据格式化/数值相关.md",
     "00-summaries/奇技淫巧/数据格式化/时间格式.md",
-    "00-summaries/奇技淫巧/数据格式化/金额格式化.md",
-    "00-summaries/github/GitHub API 请求示例（使用 `axios`）.md",
     "04-译文",
     "00-专栏/源码解读/react/React 基础",
     "00-summaries/源码解读/react",
