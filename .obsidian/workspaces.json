@@ -103,7 +103,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 200
+        "width": 200,
+        "collapsed": true
       },
       "right": {
         "id": "9ec9dc92d8196544",
@@ -191,7 +192,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 523.5
+        "width": 681.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -208,7 +209,7 @@
         }
       },
       "active": "117d65f620e47ddd",
-      "mtime": "2025-02-02T21:11:38+08:00"
+      "mtime": "2025-02-02T23:07:44+08:00"
     }
   },
   "active": "Vue设计与实现阅读"

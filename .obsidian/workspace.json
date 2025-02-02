@@ -4,24 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "13e6273207ddf670",
+        "id": "e89b1988815ad3fa",
         "type": "tabs",
         "children": [
           {
-            "id": "d5fd4944200ceb98",
+            "id": "117d65f620e47ddd",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://weread.qq.com/web/reader/c5c32170813ab7177g0181ae",
+                "title": "Vue.js设计与实现 - 霍春阳　著 - 微信读书",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Vue.js设计与实现 - 霍春阳　著 - 微信读书"
+            }
+          },
+          {
+            "id": "ff543e2e9874ed48",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://juejin.cn/",
+                "title": "稀土掘金",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "稀土掘金"
+            }
+          },
+          {
+            "id": "6162c02bbaff349d",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://juejin.cn/post/7345821800880324671",
+                "title": "字节跳动面试记录职级是 2-2，技术面一共 3 轮，每一面都要手写算法。我在 2023 年 7 月下旬被裁员，于 202 - 掘金",
+                "mode": "reader"
+              },
+              "icon": "globe-2",
+              "title": "字节跳动面试记录职级是 2-2，技术面一共 3 轮，每一面都要手写算法。我在 2023 年 7 月下旬被裁员，于 202 - 掘金"
+            }
+          },
+          {
+            "id": "58008aeca864ec70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-编程/008-奇技淫巧/使用 ExcelJS 导出 Excel 文件并实现样式修改与自定义下拉框.md",
-                "mode": "source",
+                "file": "剪藏/000-Inbox/字节跳动面试记录职级是 2-2，技术面一共 3 轮，每一面都要手写算法。我在 2023 年 7 月下旬被裁员，于 202.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "使用 ExcelJS 导出 Excel 文件并实现样式修改与自定义下拉框"
+              "title": "字节跳动面试记录职级是 2-2，技术面一共 3 轮，每一面都要手写算法。我在 2023 年 7 月下旬被裁员，于 202"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -33,6 +76,7 @@
       {
         "id": "dddd3d328ede567a",
         "type": "tabs",
+        "dimension": 62.222222222222214,
         "children": [
           {
             "id": "b76d5d4c5f29b876",
@@ -68,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#性能优化",
+                "query": "tag:#游戏",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +122,14 @@
               "icon": "lucide-search",
               "title": "搜索"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "3b634e9dce37d622",
+        "type": "tabs",
+        "dimension": 37.77777777777778,
+        "children": [
           {
             "id": "303c8d2fabb40564",
             "type": "leaf",
@@ -93,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -154,12 +206,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://chat.deepseek.com/a/chat/s/da708c94-286d-46df-9b33-a49a90e1aa5c",
-                "title": "DeepSeek - 探索未至之境",
+                "url": "https://chat.deepseek.com/sign_in",
+                "title": "DeepSeek",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "DeepSeek - 探索未至之境"
+              "title": "DeepSeek"
             }
           },
           {
@@ -181,8 +233,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 523.5,
-    "collapsed": true
+    "width": 681.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,10 +249,11 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "d5fd4944200ceb98",
+  "active": "58008aeca864ec70",
   "lastOpenFiles": [
-    "00-编程/008-奇技淫巧/使用 Node.js 定时从 GitHub 拉取代码的完整指南.md",
+    "剪藏/000-Inbox/字节跳动面试记录职级是 2-2，技术面一共 3 轮，每一面都要手写算法。我在 2023 年 7 月下旬被裁员，于 202.md",
     "00-编程/008-奇技淫巧/使用 ExcelJS 导出 Excel 文件并实现样式修改与自定义下拉框.md",
+    "00-编程/008-奇技淫巧/使用 Node.js 定时从 GitHub 拉取代码的完整指南.md",
     "00-编程/008-奇技淫巧/实用代码片段.md",
     "00-编程/008-奇技淫巧/复制内容到剪切板.md",
     "00-编程/008-奇技淫巧/对象解构重命名.md",
@@ -228,7 +280,6 @@
     "小记/开发大型后台管理系统 考虑.md",
     "小记/源码解析.md",
     "说明书/sunshine串流/Sunshine 配置与重启流程.md",
-    "说明书/飞行堡垒.md",
     "剪藏",
     "阅读/附件/你不知道的JavaScript（上卷）.pdf",
     "Excalidraw",
