@@ -15,7 +15,7 @@
   "slash-command": true,
   "editor-status": true,
   "starred": true,
-  "markdown-importer": false,
+  "markdown-importer": true,
   "zk-prefixer": false,
   "random-note": true,
   "outline": true,
@@ -27,5 +27,6 @@
   "publish": false,
   "sync": false,
   "bookmarks": false,
-  "properties": true
+  "properties": true,
+  "webviewer": true
 }
