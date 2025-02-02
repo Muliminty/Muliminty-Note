@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-编程/007-Blog/Svelte.js 入门指南.md",
+                "file": "00-编程/008-奇技淫巧/使用 ExcelJS 导出 Excel 文件并实现样式修改与自定义下拉框.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Svelte.js 入门指南"
+              "title": "使用 ExcelJS 导出 Excel 文件并实现样式修改与自定义下拉框"
             }
           }
         ]
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#游戏Snipaste_2024-12-11_21-08-15",
+                "query": "tag:#性能优化",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 324.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -198,9 +198,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "d5fd4944200ceb98",
   "lastOpenFiles": [
-    "00-编程/001-前端架构师课程/高级前端架构师知识图谱.md",
+    "00-编程/008-奇技淫巧/使用 Node.js 定时从 GitHub 拉取代码的完整指南.md",
+    "00-编程/008-奇技淫巧/使用 ExcelJS 导出 Excel 文件并实现样式修改与自定义下拉框.md",
+    "00-编程/008-奇技淫巧/实用代码片段.md",
+    "00-编程/008-奇技淫巧/复制内容到剪切板.md",
+    "00-编程/008-奇技淫巧/对象解构重命名.md",
+    "00-编程/008-奇技淫巧/002-框架&库常见技巧/React/使用 React.lazy 和 Suspense 实现路由懒加载.md",
+    "00-编程/008-奇技淫巧/002-框架&库常见技巧/React/虚拟列表.md",
+    "00-编程/007-Blog/Svelte.js 入门指南.md",
+    "00-编程/002-前端架构师课程/高级前端架构师知识图谱.md",
     "00-编程/附件/Snipaste_2024-12-11_21-08-15.png",
     "test.md",
     "01-科普",
@@ -221,17 +229,9 @@
     "小记/源码解析.md",
     "说明书/sunshine串流/Sunshine 配置与重启流程.md",
     "说明书/飞行堡垒.md",
-    "home 后端版本记录.md",
-    "欢迎.md",
-    "未命名 1.md",
-    "用 DeepSeek 打造你的超强代码助手大家好，今天我想给你们介绍一个我最近发现的工具，叫 DeepSeek Engi.md",
-    "程序员的出路最近几天渐渐悟出来一个道理，做技术没有出路。 我在想如果哪天我失业了，没有公司要我，以我现在的经验和能力，我 - 掘金.md",
     "剪藏",
     "阅读/附件/你不知道的JavaScript（上卷）.pdf",
-    "阅读/你不知道的JavaScript下.md",
-    "阅读/你不知道的JavaScript上.md",
     "Excalidraw",
-    "阅读/Vue.js设计与实现 (霍春阳（HcySunYang).md",
     "阅读/附件/编码：隐匿在计算机软硬件背后的语言.pdf",
     "阅读/附件/你不知道的JavaScript（下卷）.pdf",
     "阅读/附件/Vue.js设计与实现 (霍春阳（HcySunYang)) (Z-Library).pdf",
