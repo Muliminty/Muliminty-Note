@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-编程/001-前端架构师课程/高级前端架构师知识图谱.md",
+                "file": "00-编程/007-Blog/Svelte.js 入门指南.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "高级前端架构师知识图谱"
+              "title": "Svelte.js 入门指南"
             }
           }
         ]
@@ -200,6 +200,7 @@
   },
   "active": "b76d5d4c5f29b876",
   "lastOpenFiles": [
+    "00-编程/001-前端架构师课程/高级前端架构师知识图谱.md",
     "00-编程/附件/Snipaste_2024-12-11_21-08-15.png",
     "test.md",
     "01-科普",
