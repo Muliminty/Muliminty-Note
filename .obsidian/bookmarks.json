@@ -1,27 +1,48 @@
 {
   "items": [
     {
-      "type": "folder",
-      "ctime": 1684744122193,
-      "path": "01--知识体系/02--计算机基础/计算机网络",
-      "title": "计算机网络"
+      "type": "group",
+      "ctime": 1738500635026,
+      "items": [
+        {
+          "type": "url",
+          "ctime": 1738500625447,
+          "url": "https://kimi.moonshot.cn/chat/empty",
+          "title": "Kimi"
+        },
+        {
+          "type": "url",
+          "ctime": 1738501034650,
+          "url": "https://chat.deepseek.com/a/chat/s/da708c94-286d-46df-9b33-a49a90e1aa5c",
+          "title": "DeepSeek"
+        }
+      ],
+      "title": "AI"
     },
     {
-      "type": "folder",
-      "ctime": 1684744206473,
-      "path": "01--知识体系/01--前端程序员的自我修养/01--前端基础/TypeScript"
-    },
-    {
-      "type": "file",
-      "ctime": 1684745286803,
-      "path": "01--知识体系/02--计算机基础/计算机网络/计算机网络知识碎片/缓存.md",
-      "subpath": "#缓存的有效期限",
-      "title": "缓存的有效期限"
-    },
-    {
-      "type": "file",
-      "ctime": 1684805139987,
-      "path": "04--看板收集箱/电子书.md"
+      "type": "group",
+      "ctime": 1738500691094,
+      "items": [
+        {
+          "type": "url",
+          "ctime": 1738500596422,
+          "url": "https://weread.qq.com/web/reader/c5c32170813ab7177g0181ae",
+          "title": "Vue.js设计与实现"
+        },
+        {
+          "type": "url",
+          "ctime": 1738500666922,
+          "url": "https://juejin.cn/",
+          "title": "稀土掘金"
+        },
+        {
+          "type": "url",
+          "ctime": 1738502577527,
+          "url": "https://www.zhihu.com/",
+          "title": "知乎"
+        }
+      ],
+      "title": "阅读"
     }
   ]
 }

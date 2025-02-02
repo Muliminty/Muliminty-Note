@@ -1,0 +1,126 @@
+/* 文件夹 icon */
+/* .nav-folder-title[data-path*=""] .nav-folder-title-content::before {
+    content: "📁" !important;
+    position: relative !important;
+    right: 1px;
+} */
+
+/* 文件夹 icon */
+.nav-folder-title .nav-folder-title-content::before {
+    content: "📁" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+/* md 文件 icon */
+.nav-file-title-content::before {
+    content: "📄" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+
+
+
+/* 媒体格式 icon */
+[data-path$=".png"]::before {
+    content: "🎞" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+[data-path$=".png"] .nav-file-title-content::before {
+    display: none;
+}
+
+[data-path$=".jpg"]::before {
+    content: "🎞" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+[data-path$=".jpg"] .nav-file-title-content::before {
+    display: none;
+}
+
+[data-path$=".pdf"]::before {
+    content: "📙" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+[data-path$=".pdf"] .nav-file-title-content::before {
+    display: none;
+}
+
+
+/* 模糊匹配 icon */
+
+/* .nav-folder-title[data-path*="剪藏"] .nav-folder-title-content::before {
+    content: "✂️" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+.nav-folder-title[data-path*="计算机"] .nav-folder-title-content::before {
+    content: "💻" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+.nav-folder-title[data-path*="Excalidraw"] .nav-folder-title-content::before {
+    content: "🎨" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+.nav-folder-title[data-path*="前端"] .nav-folder-title-content::before {
+    content: "🖌" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+
+.nav-folder-title[data-path*="后端"] .nav-folder-title-content::before {
+    content: "🖍" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+.nav-folder-title[data-path*="小技巧"] .nav-folder-title-content::before {
+    content: "🔧" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+.nav-folder-title[data-path*="资源"] .nav-folder-title-content::before {
+    content: "🗂" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+.nav-folder-title[data-path*="读书"] .nav-folder-title-content::before {
+    content: "📚" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+.nav-folder-title[data-path*="Inbox"] .nav-folder-title-content::before {
+    content: "📦" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+.nav-folder-title[data-path*="回收站"] .nav-folder-title-content::before {
+    content: "🗑︎" !important;
+    position: relative !important;
+    right: 1px;
+}
+
+.nav-folder-title[data-path*="附件"] .nav-folder-title-content::before {
+    content: "💽" !important;
+    position: relative !important;
+    right: 1px;
+} */
+
+/* 一级文件夹   icon */

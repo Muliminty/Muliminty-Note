@@ -1,6 +1,12 @@
 {
   "defaultSearchEngine": "bing",
-  "customSearchEngine": [],
+  "customSearchEngine": [
+    {
+      "name": "duckduckgo",
+      "url": "https://duckduckgo.com/?q="
+    }
+  ],
+  "hoverPopover": true,
   "ignoreList": [
     "notion",
     "craft"
@@ -12,13 +18,15 @@
   "customHighlightFormat": false,
   "highlightFormat": "[{CONTENT}]({URL})",
   "highlightInSameTab": false,
-  "openInSameTab": false,
+  "openInSameTab": true,
   "showRefreshButton": true,
-  "openInObsidianWeb": true,
+  "openInObsidianWeb": false,
   "useCustomIcons": false,
   "useWebview": false,
-  "useIconList": false,
+  "useIconList": true,
   "darkMode": false,
+  "randomBackground": false,
+  "lastOpenedFiles": true,
   "bookmarkManager": {
     "openBookMark": false,
     "saveBookMark": false,
@@ -36,19 +44,11 @@
       "modified",
       "action"
     ],
-    "defaultFilterType": "menu"
+    "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "43b6593cf335e777",
-      "parent": 0,
-      "droppable": true,
-      "text": "💯 学习 - 滴答清单",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": [],
+  "enableHtmlPreview": true,
+  "supportLivePreviewInlineUrl": false,
+  "enableTreeView": false,
+  "focusSearchBarViaKeyboard": true
 }

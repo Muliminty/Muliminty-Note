@@ -1,0 +1,442 @@
+{
+  "workspaces": {
+    "默认工作区域": {
+      "main": {
+        "id": "a5ee6cc28a84e573",
+        "type": "split",
+        "children": [
+          {
+            "id": "743a3c171a6ed2d8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7058a54a1f114e91",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "e763b896eb5105de",
+        "type": "split",
+        "children": [
+          {
+            "id": "ab69140583894038",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b5f9d18702c6bf89",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "9ecad09b246738b2",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": true,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabeticalReverse"
+                  }
+                }
+              },
+              {
+                "id": "8e6faee164f44a88",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "eeda9bafedcd248d",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-tab-tree",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 322.5
+      },
+      "right": {
+        "id": "7e1eaf5aa558b397",
+        "type": "split",
+        "children": [
+          {
+            "id": "4ee6c0f648cd6fb3",
+            "type": "tabs",
+            "dimension": 32.285714285714285,
+            "children": [
+              {
+                "id": "44df5cfe22cb7b21",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "0091c11f0415cf81",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "366e0e71d35865b6",
+            "type": "tabs",
+            "dimension": 67.71428571428572,
+            "children": [
+              {
+                "id": "8b3983fc61f6ffa6",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "http://yuindex.yupi.icu/#/"
+                  }
+                }
+              },
+              {
+                "id": "fa9d31c059ecf26d",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://go.itab.link/"
+                  }
+                }
+              },
+              {
+                "id": "43b6593cf335e777",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://www.dida365.com/webapp/#q/all/tasks"
+                  }
+                }
+              },
+              {
+                "id": "ae088fc3cf22ae65",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://flowus.cn/fdbedd2a-7ae5-41f4-9448-669670ff0521"
+                  }
+                }
+              },
+              {
+                "id": "c60a5d84904ace91",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://weread.qq.com/"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 361.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "daily-notes:打开/创建今天的日记": false,
+          "command-palette:打开命令面板": false,
+          "graph:查看关系图谱": false,
+          "obsidian-weread-plugin:Weread": false,
+          "workspaces:管理工作区布局": false,
+          "smart-random-note:Open Random Note from Search": false,
+          "random-note:开始漫游笔记": false,
+          "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+          "obsidian-memos:Memos": false
+        }
+      },
+      "active": "b5f9d18702c6bf89"
+    },
+    "设计模式学习1": {
+      "main": {
+        "id": "a5ee6cc28a84e573",
+        "type": "split",
+        "children": [
+          {
+            "id": "d849d33a66afa4c0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3c3894cf85f6aa3e",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://weread.qq.com/web/reader/6bf3215071a123016bf0b74?"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "e763b896eb5105de",
+        "type": "split",
+        "children": [
+          {
+            "id": "ab69140583894038",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b5f9d18702c6bf89",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "8e6faee164f44a88",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "eeda9bafedcd248d",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-tab-tree",
+                  "state": {}
+                }
+              },
+              {
+                "id": "9ecad09b246738b2",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": true,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabeticalReverse"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 297.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "7e1eaf5aa558b397",
+        "type": "split",
+        "children": [
+          {
+            "id": "4ee6c0f648cd6fb3",
+            "type": "tabs",
+            "dimension": 57.80952380952381,
+            "children": [
+              {
+                "id": "44df5cfe22cb7b21",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "999--读书笔记/设计模式/JavaScript设计模式与开发实践.md"
+                  }
+                }
+              },
+              {
+                "id": "0091c11f0415cf81",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "8b3983fc61f6ffa6",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "http://yuindex.yupi.icu/#/"
+                  }
+                }
+              },
+              {
+                "id": "d3f4d85c6cf3212d",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://my.aigcplus.io/chat/13926146085957"
+                  }
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "366e0e71d35865b6",
+            "type": "tabs",
+            "dimension": 42.19047619047619,
+            "children": [
+              {
+                "id": "fa9d31c059ecf26d",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://go.itab.link/"
+                  }
+                }
+              },
+              {
+                "id": "43b6593cf335e777",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://www.dida365.com/#q/all/tasks"
+                  }
+                }
+              },
+              {
+                "id": "ae088fc3cf22ae65",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://flowus.cn/fdbedd2a-7ae5-41f4-9448-669670ff0521"
+                  }
+                }
+              },
+              {
+                "id": "c60a5d84904ace91",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://weread.qq.com/"
+                  }
+                }
+              },
+              {
+                "id": "0723d11289a9818d",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://www.json.cn/runcode/run_javascript/"
+                  }
+                }
+              },
+              {
+                "id": "b525538460f25a96",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://github.com/Muliminty"
+                  }
+                }
+              },
+              {
+                "id": "81d8bdad3f722fd0",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://code.juejin.cn/?utm_source=gold_browser_extension"
+                  }
+                }
+              },
+              {
+                "id": "5f1b3750eb1955eb",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://code.juejin.cn/pen/7259558824623915063"
+                  }
+                }
+              },
+              {
+                "id": "82758f48830fe987",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "999--读书笔记/设计模式/JavaScript设计模式与开发实践.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 8
+          }
+        ],
+        "direction": "horizontal",
+        "width": 1142.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "daily-notes:打开/创建今天的日记": false,
+          "command-palette:打开命令面板": false,
+          "graph:查看关系图谱": false,
+          "workspaces:管理工作区布局": false,
+          "random-note:开始漫游笔记": false,
+          "smart-random-note:Open Random Note from Search": false,
+          "obsidian-weread-plugin:Weread": false,
+          "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+          "obsidian-memos:Memos": false
+        }
+      },
+      "active": "82758f48830fe987"
+    }
+  },
+  "active": "默认工作区域"
+}

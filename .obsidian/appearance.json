@@ -1,24 +1,3 @@
 {
-  "accentColor": "",
-  "theme": "system",
-  "cssTheme": "Obsidian Nord",
-  "baseFontSize": 14,
-  "enabledCssSnippets": [
-    "weread",
-    "nav-folder",
-    "nav-folder-title-icon",
-    "test",
-    "donghua",
-    "animation-slide-up",
-    "base",
-    "search-bar",
-    "code-block",
-    "Excalidraw",
-    "mycss"
-  ],
-  "translucency": false,
-  "interfaceFontFamily": "",
-  "textFontFamily": "",
-  "monospaceFontFamily": "",
-  "nativeMenus": false
+  "theme": "system"
 }

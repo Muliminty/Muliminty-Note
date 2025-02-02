@@ -1,26 +1,10 @@
 {
-  "obsidian-kanban:toggle-kanban-view": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "K"
-    }
-  ],
-  "app:toggle-left-sidebar": [
+  "workspaces:load": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "L"
-    }
-  ],
-  "app:toggle-right-sidebar": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "R"
+      "key": "Q"
     }
   ]
 }

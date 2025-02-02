@@ -1,0 +1,23 @@
+{
+  "defaultViewMode": "preview",
+  "showFrontmatter": true,
+  "strictLineBreaks": false,
+  "spellcheck": true,
+  "newFileLocation": "folder",
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "./附件",
+  "alwaysUpdateLinks": true,
+  "smartIndentList": true,
+  "readableLineLength": false,
+  "autoConvertHtml": false,
+  "useMarkdownLinks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "newFileFolderPath": "000-Inbox",
+  "showLineNumber": false
+}

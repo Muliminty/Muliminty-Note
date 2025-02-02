@@ -1,5 +1,6 @@
 {
   "openExternalURLs": true,
   "enableAdblocking": true,
-  "searchEngine": "bing"
+  "searchEngine": "bing",
+  "markdownPath": "剪藏"
 }

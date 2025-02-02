@@ -1,0 +1,84 @@
+{
+  "bookmarks": [
+    {
+      "id": "2038739518",
+      "name": "New Tab",
+      "url": "https://7km.top/",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1736760325090,
+      "modified": 1736760325090
+    },
+    {
+      "id": "-1783380247",
+      "name": "图解HTTP-上野宣-微信读书",
+      "url": "https://weread.qq.com/web/reader/3da32b505dd9f43da9a1aca?",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1686644830581,
+      "modified": 1686644830581
+    },
+    {
+      "id": "668159498",
+      "name": "图解HTTP-上野宣-微信读书",
+      "url": "https://weread.qq.com/web/reader/3da32b505dd9f43da9a1acaka1d32a6022aa1d0c6e83eb4",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1686644801279,
+      "modified": 1686644801279
+    },
+    {
+      "id": "1307082721",
+      "name": "微信读书-正版书籍小说免费阅读",
+      "url": "https://weread.qq.com/",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1685330055679,
+      "modified": 1685330055679
+    },
+    {
+      "id": "-1800596730",
+      "name": "滴答清单",
+      "url": "https://dida365.com/webapp/#q/all/tasks",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1685329802121,
+      "modified": 1685329802121
+    },
+    {
+      "id": "2014068036",
+      "name": "Obsidian",
+      "url": "https://obsidian.md/",
+      "description": "A awesome note-taking tool",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1672840861051,
+      "modified": 1672840861052
+    }
+  ],
+  "categories": [
+    {
+      "value": "ROOT",
+      "text": "ROOT",
+      "label": "ROOT",
+      "children": []
+    }
+  ]
+}

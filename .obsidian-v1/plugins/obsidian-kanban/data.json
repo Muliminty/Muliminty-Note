@@ -1,0 +1,16 @@
+{
+  "hide-card-count": false,
+  "date-colors": [
+    {
+      "isToday": false,
+      "distance": 1,
+      "unit": "days",
+      "direction": "after"
+    }
+  ],
+  "show-add-list": true,
+  "show-archive-all": true,
+  "show-view-as-markdown": true,
+  "show-search": true,
+  "show-board-settings": true
+}

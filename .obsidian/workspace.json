@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "a5ee6cc28a84e573",
+    "id": "17185545f7c8d1cc",
     "type": "split",
     "children": [
       {
-        "id": "8f4b55821e22b7c4",
+        "id": "8613b92793c22545",
         "type": "tabs",
         "children": [
           {
-            "id": "eb7307bbb1f9abab",
+            "id": "328a6d2800ecd4ae",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "markdown",
               "state": {
-                "url": "https://www.google.com/",
-                "title": "Google",
-                "mode": "webview"
+                "file": "00-summaries/各种疑难杂症/ssh connect to host github.com port 22.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "globe-2",
-              "title": "Google"
+              "icon": "lucide-file",
+              "title": "ssh connect to host github.com port 22"
             }
           }
         ]
@@ -27,15 +27,16 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e763b896eb5105de",
+    "id": "05fb93f0d41dfb32",
     "type": "split",
     "children": [
       {
-        "id": "ab69140583894038",
+        "id": "dddd3d328ede567a",
         "type": "tabs",
+        "dimension": 69.83930778739185,
         "children": [
           {
-            "id": "b5f9d18702c6bf89",
+            "id": "b76d5d4c5f29b876",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,12 +49,27 @@
             }
           },
           {
-            "id": "9ecad09b246738b2",
+            "id": "5c53eb3decbcd3ad",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "30be7aca9a73ace4",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "tag:#游戏",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,66 +79,45 @@
               "icon": "lucide-search",
               "title": "搜索"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "3b634e9dce37d622",
+        "type": "tabs",
+        "dimension": 30.160692212608158,
+        "children": [
           {
-            "id": "8e6faee164f44a88",
+            "id": "303c8d2fabb40564",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
-          {
-            "id": "bed8f94c56327ab1",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "00-note/github/GitHub API 请求示例（使用 `axios`）.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "GitHub API 请求示例（使用 `axios`） 的出链列表"
-            }
-          },
-          {
-            "id": "a0db0b0706df58bb",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
+              "type": "bookmarks",
               "state": {},
-              "icon": "chrome",
-              "title": "Surfing Tab Tree"
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
-          },
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 339.5
+  },
+  "right": {
+    "id": "9ec9dc92d8196544",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffef919d0a9f365d",
+        "type": "tabs",
+        "children": [
           {
-            "id": "47a53db78ef7e409",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
-          },
-          {
-            "id": "bd4c1548a878c7f5",
+            "id": "2d8b45923dba1000",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-note/github/GitHub API 请求示例（使用 `axios`）.md",
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -131,167 +126,124 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "GitHub API 请求示例（使用 `axios`） 的反向链接列表"
+              "title": "反向链接"
             }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 270.5
-  },
-  "right": {
-    "id": "7e1eaf5aa558b397",
-    "type": "split",
-    "children": [
-      {
-        "id": "366e0e71d35865b6",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "44df5cfe22cb7b21",
+            "id": "b05309cfe1d2ecf3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "cc089dfc51082da7",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
               "title": "大纲"
             }
           },
           {
-            "id": "74f2c73d0fe458f7",
+            "id": "78cd2d7ff1222727",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "surfing-view",
+              "type": "webviewer",
               "state": {
-                "url": "https://chat.deepseek.com/"
+                "url": "https://chat.deepseek.com/a/chat/s/da708c94-286d-46df-9b33-a49a90e1aa5c",
+                "title": "DeepSeek - 探索未至之境",
+                "mode": "webview"
               },
-              "pinned": true,
-              "icon": "lucide-file",
+              "icon": "globe-2",
               "title": "DeepSeek - 探索未至之境"
             }
           },
           {
-            "id": "ac2262c433176a39",
+            "id": "8e3f6f675fa41f58",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "surfing-view",
+              "type": "webviewer",
               "state": {
-                "url": "https://weread.qq.com/web/reader/c5c32170813ab7177g0181ae"
+                "url": "https://kimi.moonshot.cn/",
+                "title": "Kimi 是一个有着超大“内存”的智能助手，可以一口气读完二十万字的小说，还会上网冲浪，快来跟他聊聊吧",
+                "mode": "webview"
               },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Vue.js设计与实现 - 霍春阳　著 - 微信读书"
-            }
-          },
-          {
-            "id": "43b6593cf335e777",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://dida365.com/webapp/#q/all/kanban"
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "所有 - 滴答清单"
-            }
-          },
-          {
-            "id": "0091c11f0415cf81",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "85c3022bfeca1c2c",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "globe-2",
+              "title": "Kimi 是一个有着超大“内存”的智能助手，可以一口气读完二十万字的小说，还会上网冲浪，快来跟他聊聊吧"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 603.5,
+    "width": 408.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:打开/创建今天的日记": false,
-      "command-palette:打开命令面板": false,
+      "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-kanban:创建新看板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
       "workspaces:管理工作区布局": false,
-      "random-note:开始漫游笔记": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "obsidian-weread-plugin:Weread": false,
-      "smart-random-note:Open Random Note from Search": false,
-      "copilot:Open Copilot Chat": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "eb7307bbb1f9abab",
+  "active": "328a6d2800ecd4ae",
   "lastOpenFiles": [
-    "00-summaries/面经/什么是 React Context.md",
-    "00-summaries/面经/array.map(parseInt).md",
-    "01-note/04-框架&库常见技巧/vite/部署 Vite 构建的 dist 文件夹：详细指南.md",
-    "01-note/04-框架&库常见技巧/vite/基于 Vite + React 实现国际化功能.md",
-    "00-summaries/vite/前端构建工具打包与分包优化.md",
-    "00-summaries/vite/如何编写 Vite 插件：从入门到实践.md",
-    "00-summaries/vite/vite项目初始化.md",
-    "00-summaries/node/使用 simple-git 操作 Git：详细指南.md",
-    "00-summaries/node/Node.js 使用 JavaScript 语法操作数据库的方案.md",
-    "00-summaries/node/Strapi 简介.md",
-    "00-summaries/node/使用 dotenv 轻松管理 Node.js 项目的多环境变量.md",
-    "00-summaries/blog/Svelte.js 入门指南.md",
-    "00-summaries/blog/实现一个迷你版的 React.md",
-    "00-summaries/github/Giscus 使用文档.md",
-    "00-summaries/未命名.md",
-    "未命名.md",
-    "test.md",
-    "00-summaries/blog",
+    "00-summaries/各种疑难杂症/iOS 各种疑难杂症汇总.md",
     "00-summaries/各种疑难杂症/Ant Design Select组件下拉选项随页面滚动与Select框分离问题.md",
-    "00-summaries/奇技淫巧/BAT 脚本编写指南.md",
-    "01-note/04-框架&库常见技巧/Ant Design/TreeSelect选择/样式异常.md",
-    "00-summaries/源码解读/react/01-React 源码学习指南.md",
-    "00-summaries/源码解读/react/03-Fiber 架构.md",
-    "00-summaries/源码解读/react/ReactJSXElement.js.md",
-    "00-summaries/git/Git 版本管理规范与实践.md",
-    "00-summaries/git/Git 用户配置管理技术文档.md",
-    "00-summaries/git/Git 提交规范.md",
-    "04-译文",
-    "00-专栏/源码解读/react/React 基础",
-    "00-summaries/源码解读/react",
-    "00-summaries/react",
-    "01-note/04-框架&库常见技巧/React/Zustand",
-    "01-note/04-框架&库常见技巧/React/Redux",
-    "00-summaries/各种疑难杂症/附件/ssh connect to host github.com port 22-1.png",
-    "00-summaries/各种疑难杂症/附件/ssh connect to host github.com port 22.png",
-    "00-summaries/各种疑难杂症/附件",
-    "00-summaries/零散知识点（概念）",
-    "00-summaries/面经",
-    "02-前端架构师/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/附件/2-3从使用角度理解什么是脚手架？.png",
-    "02-前端架构师/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/附件/2-3从使用角度理解什么是脚手架？-1.png",
-    "01-note/附件/Snipaste_2024-12-11_21-08-15.png",
-    "00-summaries/JavaScript/数组类型/附件/数组 -- 分割成若干个指定长度的二维数组.png",
-    "归档/小技巧/RustDesk/附件/0b5b94cc-4f30-4e05-9bd5-d38e0174544a_1732676676003.jpg",
-    "归档/小技巧/RustDesk/附件/1f860459-ef2b-43b6-8ac7-57046f67bb52_1732676676286.jpg",
-    "归档/小技巧/RustDesk/附件/540f7fd6-3ddf-4ffe-b86d-51948770c5e9_1732676677248.jpg",
-    "归档/小技巧/RustDesk/附件/88806b32-38d5-442f-b618-54edabce7056_1732676677140.jpg",
-    "999--Test/未命名.canvas",
-    "Obsidian白板.canvas",
-    "未命名.canvas"
+    "00-summaries/各种疑难杂症/如何实现单点登录.md",
+    "00-summaries/各种疑难杂症/纯前端获取视频任意一帧的方法.md",
+    "小记/给我一份针对高级前端开发的面试题.md",
+    "Excalidraw/Drawing 2025-02-02 21.11.23.excalidraw.md",
+    "home 前端版本记录.md",
+    "Excalidraw/Drawing 2025-02-02 20.36.22.excalidraw.md",
+    "收集箱.md",
+    "README.md",
+    "剪藏/关于尤雨溪的新公司，你需要知道的大家好，我卡颂。 国庆节当天，尤雨溪官宣成立了一家新公司VoidZero，这家公司的愿景 - 掘金.md",
+    "小记/开发大型后台管理系统 考虑.md",
+    "小记/源码解析.md",
+    "说明书/sunshine串流/Sunshine 配置与重启流程.md",
+    "说明书/飞行堡垒.md",
+    "home 后端版本记录.md",
+    "欢迎.md",
+    "未命名 1.md",
+    "用 DeepSeek 打造你的超强代码助手大家好，今天我想给你们介绍一个我最近发现的工具，叫 DeepSeek Engi.md",
+    "程序员的出路最近几天渐渐悟出来一个道理，做技术没有出路。 我在想如果哪天我失业了，没有公司要我，以我现在的经验和能力，我 - 掘金.md",
+    "剪藏",
+    "阅读/附件/你不知道的JavaScript（上卷）.pdf",
+    "阅读/你不知道的JavaScript下.md",
+    "阅读/你不知道的JavaScript上.md",
+    "Excalidraw",
+    "阅读/Vue.js设计与实现 (霍春阳（HcySunYang).md",
+    "阅读/图解HTTP.md",
+    "阅读/你不知道的JavaScript中.md",
+    "阅读/Next.js 开发指南/037_实战篇  React Notes  项目介绍与创建.md",
+    "阅读/附件/编码：隐匿在计算机软硬件背后的语言.pdf",
+    "阅读/附件/你不知道的JavaScript（下卷）.pdf",
+    "阅读/附件/Vue.js设计与实现 (霍春阳（HcySunYang)) (Z-Library).pdf",
+    "阅读/附件/你不知道的JavaScript（中卷）.pdf",
+    "阅读/附件/图解HTTP.pdf",
+    "阅读/附件",
+    "阅读",
+    "说明书/sunshine串流/附件/Pasted image 20241203194907.png"
   ]
 }
