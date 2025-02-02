@@ -2,6 +2,10 @@
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "attachmentFolderPath": "./attachments",
-  "readableLineLength": false,
-  "alwaysUpdateLinks": true
+  "readableLineLength": true,
+  "alwaysUpdateLinks": true,
+  "strictLineBreaks": true,
+  "foldHeading": false,
+  "foldIndent": false,
+  "showLineNumber": false
 }
