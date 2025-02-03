@@ -27,26 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-编程/006-面经/Promise 的状态吸收.md",
+                "file": "00-编程/005-零散知识点（概念）/Web Workers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Promise 的状态吸收"
+              "title": "Web Workers"
             }
           },
           {
-            "id": "a61bfa4d36f180f2",
+            "id": "833fd598b71ec97b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "webviewer",
               "state": {
-                "file": "小记/微前端.md",
-                "mode": "source",
-                "source": false
+                "url": "https://www.bing.com/search?q=%E6%BB%B4%E7%AD%94%E6%B8%85%E5%8D%95",
+                "title": "滴答清单 - 搜索",
+                "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "微前端"
+              "icon": "globe-2",
+              "title": "滴答清单 - 搜索"
             }
           }
         ],
@@ -71,7 +71,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -177,27 +177,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "小记/微前端.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "微前端 的大纲"
-            }
-          },
-          {
-            "id": "78cd2d7ff1222727",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://chat.deepseek.com/a/chat/s/da708c94-286d-46df-9b33-a49a90e1aa5c",
-                "title": "DeepSeek - 探索未至之境",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "DeepSeek - 探索未至之境"
+              "title": "大纲"
             }
           },
           {
@@ -213,13 +198,27 @@
               "icon": "globe-2",
               "title": "面试准备大纲 - Kimi.ai"
             }
+          },
+          {
+            "id": "166a979fe765caba",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://dida365.com/webapp/#q/all/tasks/668e6f84ff098e70dec8e669",
+                "title": "所有 - 滴答清单",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "所有 - 滴答清单"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 525.5
+    "width": 522.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,12 +234,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "166a979fe765caba",
   "lastOpenFiles": [
+    "00-编程/005-零散知识点（概念）/Web Workers.md",
+    "00-编程/005-零散知识点（概念）/LCP（Largest Contentful Paint）.md",
+    "00-编程/005-零散知识点（概念）/水合（Hydration）.md",
     "00-编程/006-面经/Promise 的状态吸收.md",
+    "小记/微前端.md",
     "小记/前端项目难点亮点.md",
     "小记/mt-面试题（答案.md",
-    "小记/微前端.md",
     "剪藏/000-Inbox/高频前端面试题汇总之浏览器原理篇 - 文章详情 - 前端面试题宝典.md",
     "小记/qiankun.md",
     "小记/Webpack 面试.md",
@@ -250,8 +252,6 @@
     "小记/mt-面试题.md",
     "README.md",
     "剪藏/000-Inbox/字节跳动面试记录职级是 2-2，技术面一共 3 轮，每一面都要手写算法。我在 2023 年 7 月下旬被裁员，于 202.md",
-    "00-编程/005-零散知识点（概念）/Web Workers.md",
-    "00-编程/005-零散知识点（概念）/LCP（Largest Contentful Paint）.md",
     "01-科普/中国神话",
     "test.md",
     "小记",
@@ -267,7 +267,6 @@
     "00-编程/附件/Snipaste_2024-12-11_21-08-15.png",
     "01-科普",
     "编程",
-    "00-编程/004-各种疑难杂症/ssh connect to host github.com port 22.md",
     "剪藏",
     "阅读/附件/你不知道的JavaScript（上卷）.pdf",
     "Excalidraw",

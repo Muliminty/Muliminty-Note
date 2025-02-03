@@ -6,15 +6,15 @@
       "items": [
         {
           "type": "url",
-          "ctime": 1738500625447,
-          "url": "https://kimi.moonshot.cn/chat/empty",
-          "title": "Kimi"
+          "ctime": 1738594880418,
+          "url": "https://chat.deepseek.com/",
+          "title": "DeepSeek - 探索未至之境"
         },
         {
           "type": "url",
-          "ctime": 1738501034650,
-          "url": "https://chat.deepseek.com/a/chat/s/da708c94-286d-46df-9b33-a49a90e1aa5c",
-          "title": "DeepSeek"
+          "ctime": 1738500625447,
+          "url": "https://kimi.moonshot.cn/chat/empty",
+          "title": "Kimi"
         }
       ],
       "title": "AI"
@@ -61,6 +61,25 @@
         }
       ],
       "title": "阅读"
+    },
+    {
+      "type": "group",
+      "ctime": 1738594013447,
+      "items": [
+        {
+          "type": "url",
+          "ctime": 1738594067864,
+          "url": "https://github.com/",
+          "title": "GitHub"
+        }
+      ],
+      "title": "社区"
+    },
+    {
+      "type": "url",
+      "ctime": 1738594782743,
+      "url": "https://dida365.com/signin",
+      "title": "滴答清单"
     }
   ]
 }
