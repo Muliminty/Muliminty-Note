@@ -7,5 +7,7 @@
   "strictLineBreaks": true,
   "foldHeading": false,
   "foldIndent": false,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "小记"
 }
