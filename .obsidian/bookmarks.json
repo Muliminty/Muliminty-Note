@@ -40,6 +40,12 @@
           "ctime": 1738502577527,
           "url": "https://www.zhihu.com/",
           "title": "知乎"
+        },
+        {
+          "type": "url",
+          "ctime": 1738584747180,
+          "url": "https://www.xiaohongshu.com/explore",
+          "title": "小红书"
         }
       ],
       "title": "阅读"
