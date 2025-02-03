@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -235,7 +235,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "bbd48fd43fb82096",
+  "active": "a61bfa4d36f180f2",
   "lastOpenFiles": [
     "小记/微前端.md",
     "小记/qiankun.md",
