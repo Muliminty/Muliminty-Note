@@ -70,8 +70,6 @@
 
 - **代码分割**：使用 `splitChunks` 配置项来优化代码分割，例如：
     
-    JavaScript复制
-    
     ```javascript
     optimization: {
       splitChunks: {
@@ -91,15 +89,11 @@
     
 - **动态导入**：使用 `import()` 函数实现按需加载，例如：
     
-    JavaScript复制
-    
     ```javascript
     const loadComponent = () => import('./MyComponent.vue');
     ```
     
 - **持久化缓存**：使用文件系统缓存来加速构建过程，例如：
-    
-    JavaScript复制
     
     ```javascript
     cache: {
@@ -114,7 +108,6 @@
 
 - Webpack 5 引入了内置缓存机制，开启缓存可以大幅减少构建时间。例如：
     
-    JavaScript复制
     
     ```javascript
     cache: {
@@ -127,7 +120,6 @@
 
 - 使用 `thread-loader` 将多个模块的构建过程分配到多个线程中进行，从而加速构建。例如：
     
-    JavaScript复制
     
     ```javascript
     module.exports = {
@@ -147,8 +139,6 @@
 
 - Tree Shaking 是一种去除未使用代码的技术。通过静态分析模块之间的依赖关系，剔除不必要的代码。例如：
     
-    JavaScript复制
-    
     ```javascript
     module.exports = {
       mode: 'production',
@@ -164,7 +154,6 @@
 
 - 按需加载可以将代码分割成多个小块，按需加载需要的模块。例如：
     
-    JavaScript复制
     
     ```javascript
     import('./module').then((module) => {
@@ -179,7 +168,6 @@
 
 - 模块联邦是 Webpack 5 中的重磅新特性，它使得多个独立构建的应用能够共享代码与依赖，从而实现微前端架构。例如：
     
-    JavaScript复制
     
     ```javascript
     new ModuleFederationPlugin({
@@ -195,7 +183,6 @@
 
 - Webpack 5 的持久化缓存功能将构建缓存保存到磁盘，在下次构建时，如果文件没有改变，Webpack 会跳过重新构建相同的部分，从而大大提高构建速度。例如：
     
-    JavaScript复制
     
     ```javascript
     cache: {
@@ -208,7 +195,6 @@
 
 - Webpack 5 对 Tree Shaking 进行了增强，使其变得更加智能，能够更加精准地删除未使用的代码。例如：
     
-    JavaScript复制
     
     ```javascript
     import { debounce } from 'lodash';
@@ -221,8 +207,6 @@
 **6.1 使用 `webpack-bundle-analyzer`**
 
 - `webpack-bundle-analyzer` 是一个可视化的 Webpack 打包分析工具，它能够帮助我们查看打包后各模块所占的体积，并找到可能的优化点。例如：
-    
-    JavaScript复制
     
     ```javascript
     const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
@@ -239,7 +223,6 @@
 
 - `speed-measure-webpack-plugin` 是一个用于测量 Webpack 构建过程时间的插件，它可以帮助你找出构建过程中最耗时的步骤。例如：
     
-    JavaScript复制
     
     ```javascript
     const SpeedMeasurePlugin = require('speed-measure-webpack-plugin');
@@ -255,7 +238,6 @@
 
 - `DllPlugin` 是 Webpack 提供的一个插件，适用于将一些不常变动的第三方依赖库打包到一个单独的文件中，避免每次构建时都重新打包这些库。例如：
     
-    JavaScript复制
     
     ```javascript
     module.exports = {
