@@ -41,30 +41,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "小记/Webpack 面试.md",
-                "mode": "preview",
-                "source": true
+                "file": "小记/mt-面试题.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Webpack 面试"
+              "title": "mt-面试题"
             }
           },
           {
             "id": "b3f8d0b80ef7f10b",
             "type": "leaf",
             "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://chat.deepseek.com/a/chat/s/f000d6b0-6025-4cc9-85a5-f6d52a1dc8a2",
+                "title": "DeepSeek - 探索未至之境",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "DeepSeek - 探索未至之境"
+            }
+          },
+          {
+            "id": "4fcf5c37327f1fa9",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://kimi.moonshot.cn/chat/cuhl214qdqeku56jdu20",
+                "title": "React性能优化：memoization与代码分割 - Kimi.ai",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "React性能优化：memoization与代码分割 - Kimi.ai"
+            }
+          },
+          {
+            "id": "72d237aac696621a",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "00-编程/008-奇技淫巧/002-框架&库常见技巧/React/Zustand/Zustand 详细介绍与使用.md",
+                "file": "小记/掌握 React 性能优化：运用 memoization 技术与代码分割提升效率.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zustand 详细介绍与使用"
+              "title": "掌握 React 性能优化：运用 memoization 技术与代码分割提升效率"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -249,9 +277,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "dc2b4d7abd3a06f6",
+  "active": "72d237aac696621a",
   "lastOpenFiles": [
+    "小记/掌握 React 性能优化：运用 memoization 技术与代码分割提升效率.md",
     "00-编程/008-奇技淫巧/002-框架&库常见技巧/React/Zustand/Zustand 详细介绍与使用.md",
+    "小记/mt-面试题.md",
+    "小记/Webpack 面试.md",
     "小记/前端项目难点亮点.md",
     "小记/扫码登录的实现方式：技术原理与实践.md",
     "00-编程/005-零散知识点（概念）/Web Workers.md",
@@ -262,11 +293,9 @@
     "小记/mt-面试题（答案.md",
     "剪藏/000-Inbox/高频前端面试题汇总之浏览器原理篇 - 文章详情 - 前端面试题宝典.md",
     "小记/qiankun.md",
-    "小记/Webpack 面试.md",
     "00-编程/006-面经/FiberTree.md",
     "00-编程/006-面经/undefined 和 undeclared.md",
     "小记/mt-面试大纲.md",
-    "小记/mt-面试题.md",
     "README.md",
     "剪藏/000-Inbox/字节跳动面试记录职级是 2-2，技术面一共 3 轮，每一面都要手写算法。我在 2023 年 7 月下旬被裁员，于 202.md",
     "01-科普/中国神话",
@@ -278,7 +307,6 @@
     "00-编程/008-奇技淫巧/复制内容到剪切板.md",
     "00-编程/008-奇技淫巧/对象解构重命名.md",
     "00-编程/008-奇技淫巧/002-框架&库常见技巧/React/使用 React.lazy 和 Suspense 实现路由懒加载.md",
-    "00-编程/008-奇技淫巧/002-框架&库常见技巧/React/虚拟列表.md",
     "00-编程/附件/Snipaste_2024-12-11_21-08-15.png",
     "01-科普",
     "编程",
