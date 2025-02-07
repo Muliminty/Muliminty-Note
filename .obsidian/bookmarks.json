@@ -82,16 +82,29 @@
       "title": "社区"
     },
     {
-      "type": "url",
-      "ctime": 1738594782743,
-      "url": "https://dida365.com/signin",
-      "title": "滴答清单"
-    },
-    {
-      "type": "url",
-      "ctime": 1738829477198,
-      "url": "https://www.yuque.com/dashboard",
-      "title": "工作台 · 语雀"
+      "type": "group",
+      "ctime": 1738909093821,
+      "items": [
+        {
+          "type": "url",
+          "ctime": 1738594782743,
+          "url": "https://dida365.com/signin",
+          "title": "滴答清单"
+        },
+        {
+          "type": "url",
+          "ctime": 1738829477198,
+          "url": "https://www.yuque.com/dashboard",
+          "title": "工作台 · 语雀"
+        },
+        {
+          "type": "url",
+          "ctime": 1738909042802,
+          "url": "https://kimi.moonshot.cn/chat/cuiq8gbbpak6vbqes8c0",
+          "title": "变量名翻译 - Kimi.ai"
+        }
+      ],
+      "title": "工具"
     }
   ]
 }
