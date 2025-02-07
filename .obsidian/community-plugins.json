@@ -2,5 +2,6 @@
   "obsidian-excalidraw-plugin",
   "obsidian-kanban",
   "obsidian-annotator",
-  "obsidian-linter"
+  "obsidian-linter",
+  "obsidian-auto-link-title"
 ]
