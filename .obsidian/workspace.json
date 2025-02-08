@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-编程/006-面经/ES6：ESM实时绑定.md",
+                "file": "00-编程/006-面经/ES6：模块系统的实时绑定.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ES6：ESM实时绑定"
+              "title": "ES6：模块系统的实时绑定"
             }
           }
         ]
@@ -148,13 +148,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-编程/006-面经/ES6：ESM实时绑定.md",
+                "file": "00-编程/006-面经/ES6：模块系统的实时绑定.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ES6：ESM实时绑定 的大纲"
+              "title": "ES6：模块系统的实时绑定 的大纲"
             }
           },
           {
@@ -223,7 +223,7 @@
   },
   "active": "afe5877dcac352cc",
   "lastOpenFiles": [
-    "00-编程/006-面经/ES6：ESM实时绑定.md",
+    "00-编程/006-面经/ES6：模块系统的实时绑定.md",
     "小记/渡一大师课：01-事件循环.md",
     "小记/附件/Pasted image 20250208145124.png",
     "00-编程/css/文档流、盒子模型与BFC.md",

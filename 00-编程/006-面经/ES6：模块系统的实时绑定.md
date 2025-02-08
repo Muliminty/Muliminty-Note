@@ -1,3 +1,4 @@
+#ES6 #面试 
 # ES6 模块系统的实时绑定（Live Binding）
 
 在现代 JavaScript 代码中，ES6 模块（ECMAScript Modules，简称 ESM）提供了一种结构化的方式来组织代码。与传统的 CommonJS 模块系统不同，ES6 模块支持**实时绑定**（Live Binding），即**导入的变量会动态反映导出模块中的最新值，而不是值的拷贝**。
