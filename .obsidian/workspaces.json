@@ -210,7 +210,256 @@
       },
       "active": "117d65f620e47ddd",
       "mtime": "2025-02-02T23:07:44+08:00"
+    },
+    "大师课": {
+      "main": {
+        "id": "17185545f7c8d1cc",
+        "type": "split",
+        "children": [
+          {
+            "id": "1303ed9c32538903",
+            "type": "tabs",
+            "dimension": 65.25787965616045,
+            "children": [
+              {
+                "id": "528923e89ecd9446",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://fe.duyiedu.com/p/t_pc/course_pc_detail/camp_pro/course_2VKbErGXkTSzvbl9aQ9HgndEtIz",
+                    "title": "WEB前端大师课",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "WEB前端大师课"
+                }
+              },
+              {
+                "id": "2c5be15b6a3a2537",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://fe.duyiedu.com/p/t_pc/course_pc_detail/video/v_674eb53ce4b0694c3c734913?product_id=course_2VKbErGXkTSzvbl9aQ9HgndEtIz",
+                    "title": "01. 原理-事件循环",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "01. 原理-事件循环"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "6dddaf158b553579",
+            "type": "tabs",
+            "dimension": 34.742120343839545,
+            "children": [
+              {
+                "id": "935a840e8ad15ecd",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "小记/事件循环.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "事件循环"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "05fb93f0d41dfb32",
+        "type": "split",
+        "children": [
+          {
+            "id": "dddd3d328ede567a",
+            "type": "tabs",
+            "dimension": 62.222222222222214,
+            "children": [
+              {
+                "id": "b76d5d4c5f29b876",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "5c53eb3decbcd3ad",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
+                }
+              },
+              {
+                "id": "30be7aca9a73ace4",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#游戏",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              }
+            ]
+          },
+          {
+            "id": "3b634e9dce37d622",
+            "type": "tabs",
+            "dimension": 37.77777777777778,
+            "children": [
+              {
+                "id": "303c8d2fabb40564",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200,
+        "collapsed": true
+      },
+      "right": {
+        "id": "9ec9dc92d8196544",
+        "type": "split",
+        "children": [
+          {
+            "id": "ffef919d0a9f365d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2d8b45923dba1000",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "反向链接"
+                }
+              },
+              {
+                "id": "b05309cfe1d2ecf3",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "出链"
+                }
+              },
+              {
+                "id": "cc089dfc51082da7",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "大纲"
+                }
+              },
+              {
+                "id": "78cd2d7ff1222727",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://chat.deepseek.com/a/chat/s/da708c94-286d-46df-9b33-a49a90e1aa5c",
+                    "title": "DeepSeek - 探索未至之境",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "DeepSeek - 探索未至之境"
+                }
+              },
+              {
+                "id": "8e3f6f675fa41f58",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://kimi.moonshot.cn/chat/cufmj2lkfv3mgjpo7k7g",
+                    "title": "虚拟DOM转真实DOM渲染器 - Kimi.ai",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "虚拟DOM转真实DOM渲染器 - Kimi.ai"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 681.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "obsidian-kanban:创建新看板": false,
+          "markdown-importer:打开 Markdown 格式转换器": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "935a840e8ad15ecd",
+      "mtime": "2025-02-08T13:31:23+08:00"
     }
   },
-  "active": "Vue设计与实现阅读"
+  "active": "大师课"
 }

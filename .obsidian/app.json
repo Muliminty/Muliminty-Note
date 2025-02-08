@@ -1,7 +1,7 @@
 {
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
-  "attachmentFolderPath": "./attachments",
+  "attachmentFolderPath": "./附件",
   "readableLineLength": true,
   "alwaysUpdateLinks": true,
   "strictLineBreaks": true,
