@@ -6,43 +6,28 @@
       {
         "id": "1303ed9c32538903",
         "type": "tabs",
-        "dimension": 69.34097421203438,
+        "dimension": 85.67335243553008,
         "children": [
           {
-            "id": "528923e89ecd9446",
+            "id": "2ad5c70cef99c42c",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://fe.duyiedu.com/",
-                "title": "渡一机构",
+                "url": "https://fe.duyiedu.com/p/t_pc/course_pc_detail/camp_pro/course_2VKbErGXkTSzvbl9aQ9HgndEtIz",
+                "title": "WEB前端大师课",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "渡一机构"
-            }
-          },
-          {
-            "id": "ca9778131d02f50f",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://fe.duyiedu.com/p/t_pc/course_pc_detail/video/v_674eb53ce4b0694c3c734913?product_id=course_2VKbErGXkTSzvbl9aQ9HgndEtIz",
-                "title": "01. 原理-事件循环",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "01. 原理-事件循环"
+              "title": "WEB前端大师课"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "6dddaf158b553579",
         "type": "tabs",
-        "dimension": 30.659025787965614,
+        "dimension": 14.326647564469914,
         "children": [
           {
             "id": "935a840e8ad15ecd",
@@ -186,13 +171,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "小记/渡一大师课：01-事件循环.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "渡一大师课：01-事件循环 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -245,7 +229,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "935a840e8ad15ecd",
+  "active": "2ad5c70cef99c42c",
   "lastOpenFiles": [
     "小记/渡一大师课：01-事件循环.md",
     "小记/附件/Pasted image 20250208145124.png",
