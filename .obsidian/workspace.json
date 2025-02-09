@@ -4,57 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "1303ed9c32538903",
+        "id": "8e8ddd138ad7daae",
         "type": "tabs",
-        "dimension": 65.18624641833811,
         "children": [
           {
-            "id": "2ad5c70cef99c42c",
+            "id": "28b73a75f8c2c9b5",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://fe.duyiedu.com/p/t_pc/course_pc_detail/camp_pro/course_2VKbErGXkTSzvbl9aQ9HgndEtIz",
-                "title": "WEB前端大师课",
+                "url": "https://juejin.cn/",
+                "title": "稀土掘金",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "WEB前端大师课"
-            }
-          }
-        ]
-      },
-      {
-        "id": "6dddaf158b553579",
-        "type": "tabs",
-        "dimension": 34.81375358166189,
-        "children": [
-          {
-            "id": "935a840e8ad15ecd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "小记/渡一大师课：01-事件循环.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "渡一大师课：01-事件循环"
+              "title": "稀土掘金"
             }
           },
           {
-            "id": "0d9dab5a408b0a5b",
+            "id": "d2f680cec1b047f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "小记/JavaScript 继承.md",
+                "file": "00-编程/008-奇技淫巧/npm link.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "npm link"
+            }
+          },
+          {
+            "id": "b9ab275510afc8bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "小记/浏览器的渲染机制详解.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaScript 继承"
+              "title": "浏览器的渲染机制详解"
             }
           }
         ],
@@ -106,10 +98,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#游戏",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -138,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 542.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -185,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "小记/JavaScript 继承.md",
+                "file": "00-编程/前端基础-框架-React/组件/富文本解析组件(将富文本解析成自定义组件).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "JavaScript 继承 的大纲"
+              "title": "富文本解析组件(将富文本解析成自定义组件) 的大纲"
             }
           },
           {
@@ -214,20 +206,20 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://kimi.moonshot.cn/chat/cufmj2lkfv3mgjpo7k7g",
-                "title": "虚拟DOM转真实DOM渲染器 - Kimi.ai",
+                "url": "https://kimi.moonshot.cn/chat/cuk9vsjmv21lvab8pkv0",
+                "title": "Vite+React+AntD帮助中心项目开发总结 - Kimi.ai",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "虚拟DOM转真实DOM渲染器 - Kimi.ai"
+              "title": "Vite+React+AntD帮助中心项目开发总结 - Kimi.ai"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 702.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -240,12 +232,16 @@
       "command-palette:打开命令面板": false,
       "obsidian-kanban:创建新看板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0d9dab5a408b0a5b",
+  "active": "d2f680cec1b047f3",
   "lastOpenFiles": [
+    "00-编程/前端基础-框架-React/组件/富文本解析组件(将富文本解析成自定义组件).md",
+    "小记/浏览器的渲染机制详解.md",
+    "小记/渡一大师课：01-事件循环.md",
+    "小记/JavaScript 继承.md",
     "小记/import 和 require.md",
     "小记/附件/Pasted image 20250209134038.png",
     "小记/附件/Pasted image 20250208145124.png",
@@ -258,7 +254,6 @@
     "小记/附件/Pasted image 20250209145422.png",
     "小记/渡一大师课：02-浏览器的渲染原理.md",
     "小记/附件/Pasted image 20250209150004.png",
-    "小记/渡一大师课：01-事件循环.md",
     "00-编程/轮子/轮子-拖拽-GridStack.js/gridstack.js  原文文档.md",
     "剪藏/js库/dnd kit.md",
     "00-编程/前端基础-框架-React/React 嵌套路由详解.md",
@@ -280,9 +275,6 @@
     "00-编程/前端基础-框架-React/Redux/01Redux 使用笔记.md",
     "00-编程/前端基础-框架-React/Redux/03使用 connect 连接 Redux 和 React.md",
     "00-编程/前端基础-框架-React/Redux/02用户登录状态管理demo(hook语法).md",
-    "00-编程/前端基础-框架-React/Redux/05Redux 使用高级场景与优化.md",
-    "小记/html代码第一行的作用.md",
-    "00-编程/前端基础-框架-React/组件/拖拽排序组件.md",
     "01-科普/中国神话",
     "小记",
     "01-科普",
