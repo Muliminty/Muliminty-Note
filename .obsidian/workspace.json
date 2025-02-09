@@ -49,12 +49,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "小记/渡一大师课：02-浏览器的渲染原理.md",
+                "file": "小记/JavaScript 继承.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "渡一大师课：02-浏览器的渲染原理"
+              "title": "JavaScript 继承"
             }
           }
         ],
@@ -138,8 +138,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
-    "collapsed": true
+    "width": 296.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -186,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "小记/渡一大师课：02-浏览器的渲染原理.md",
+                "file": "小记/JavaScript 继承.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "渡一大师课：02-浏览器的渲染原理 的大纲"
+              "title": "JavaScript 继承 的大纲"
             }
           },
           {
@@ -247,18 +246,18 @@
   },
   "active": "0d9dab5a408b0a5b",
   "lastOpenFiles": [
-    "小记/附件/Pasted image 20250209150004.png",
+    "小记/import 和 require.md",
+    "小记/附件/Pasted image 20250209134038.png",
+    "小记/附件/Pasted image 20250208145124.png",
+    "小记/附件/Pasted image 20250208133829.png",
+    "小记/附件/Pasted image 20250209142341.png",
+    "小记/附件/Pasted image 20250209142438.png",
+    "小记/附件/Pasted image 20250209143213.png",
     "小记/附件/Pasted image 20250209145942.png",
     "小记/附件/Pasted image 20250209145851.png",
     "小记/附件/Pasted image 20250209145422.png",
-    "小记/附件/Pasted image 20250209145327.png",
-    "小记/附件/Pasted image 20250209145008.png",
-    "小记/附件/Pasted image 20250209144914.png",
-    "小记/附件/Pasted image 20250209144713.png",
     "小记/渡一大师课：02-浏览器的渲染原理.md",
-    "小记/附件/Pasted image 20250209144432.png",
-    "小记/附件/Pasted image 20250209144339.png",
-    "小记/附件/Pasted image 20250209144035.png",
+    "小记/附件/Pasted image 20250209150004.png",
     "小记/渡一大师课：01-事件循环.md",
     "00-编程/轮子/轮子-拖拽-GridStack.js/gridstack.js  原文文档.md",
     "剪藏/js库/dnd kit.md",
