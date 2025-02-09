@@ -3,3 +3,5 @@
 希望我们都能保持清醒和有意义的生活😁
 
 本仓库基于 Obsidian编写，汇集了多年的开发经验。
+
+在线地址：http://muliminty.online/note
