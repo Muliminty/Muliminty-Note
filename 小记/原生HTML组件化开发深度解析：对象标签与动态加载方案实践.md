@@ -272,6 +272,9 @@ function postComponentMessage(componentId, message, targetOrigin = '*') {
 </html>
 
 ```
+
+[完整demo代码](https://github.com/Muliminty/demo/tree/main/single-file/HTML%20%E7%BB%84%E4%BB%B6%E5%8C%96)
+
 #### **关键实现要点：**
 
 1. **安全验证机制：**

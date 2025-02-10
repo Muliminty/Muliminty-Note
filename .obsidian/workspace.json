@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "dfefcbd351d028e9",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://juejin.cn/post/7460779695833333811",
+                "title": "在electron中实现一个桌面悬浮球在electron + vue3 搭建的应用中实现了一个桌面悬浮球/mini窗口的 - 掘金",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "在electron中实现一个桌面悬浮球在electron + vue3 搭建的应用中实现了一个桌面悬浮球/mini窗口的 - 掘金"
+            }
+          },
+          {
             "id": "d2f680cec1b047f3",
             "type": "leaf",
             "state": {
@@ -55,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "小记/原生HTML组件化开发深度解析：对象标签与动态加载方案实践.md",
-                "mode": "source",
+                "file": "00-编程/008-奇技淫巧/使用 Node.js 定时从 GitHub 拉取代码的完整指南.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "原生HTML组件化开发深度解析：对象标签与动态加载方案实践"
+              "title": "使用 Node.js 定时从 GitHub 拉取代码的完整指南"
             }
           },
           {
@@ -275,9 +289,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "1709e04bc80465f7",
+  "active": "53bb1d125bbd8980",
   "lastOpenFiles": [
     "小记/原生HTML组件化开发深度解析：对象标签与动态加载方案实践.md",
+    "00-编程/008-奇技淫巧/使用 Node.js 定时从 GitHub 拉取代码的完整指南.md",
+    "00-编程/前端基础-框架-React/性能优化/使用 `react-window` 实现虚拟列表以优化性能.md",
+    "00-编程/前端基础-框架-Umi/后台管理系统.md",
+    "00-编程/前端基础-框架-Umi/异常处理/does not exist in container.md",
     "小记/原生HTML组件化开发深度解析：对象标签与动态加载方案实践2.md",
     "小记/如何理解 JS 的异步？.md",
     "书签.md",
@@ -309,11 +327,7 @@
     "00-编程/前端提高-node/构建sql技巧.md",
     "00-编程/006-面经/ES6：模块系统的实时绑定.md",
     "00-编程/前端基础-css/文档流、盒子模型与BFC.md",
-    "小记/扫码登录的实现方式：技术原理与实践.md",
     "小记/附件",
-    "00-编程/前端基础-框架-React/Redux/04Redux 使用方式对比：connect 和 useDispatch与useSelector.md",
-    "00-编程/前端基础-框架-React/报错/React中获取target 报错.md",
-    "00-编程/前端基础-框架-React/使用 React.lazy 和 Suspense 实现路由懒加载.md",
     "01-科普/中国神话",
     "小记",
     "01-科普",
