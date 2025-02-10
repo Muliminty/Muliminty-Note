@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-编程/008-奇技淫巧/npm link.md",
-                "mode": "preview",
+                "file": "小记/如何理解 JS 的异步？.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "npm link"
+              "title": "如何理解 JS 的异步？"
+            }
+          },
+          {
+            "id": "53bb1d125bbd8980",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "小记/原生 HTML 组件化开发实践.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "原生 HTML 组件化开发实践"
             }
           },
           {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 542.5
+    "width": 295.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -213,14 +228,23 @@
               "icon": "globe-2",
               "title": "Vite+React+AntD帮助中心项目开发总结 - Kimi.ai"
             }
+          },
+          {
+            "id": "8c1a1a39901a89fb",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 702.5,
-    "collapsed": true
+    "width": 421.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,11 +257,17 @@
       "obsidian-kanban:创建新看板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "d2f680cec1b047f3",
+  "active": "53bb1d125bbd8980",
   "lastOpenFiles": [
+    "小记/如何理解 JS 的异步？.md",
+    "小记/原生 HTML 组件化开发实践.md",
+    "书签.md",
+    "test.md",
+    "00-编程/008-奇技淫巧/npm link.md",
     "00-编程/前端基础-框架-React/组件/富文本解析组件(将富文本解析成自定义组件).md",
     "小记/浏览器的渲染机制详解.md",
     "小记/渡一大师课：01-事件循环.md",
@@ -264,17 +294,12 @@
     "00-编程/前端提高-node/构建sql技巧.md",
     "00-编程/006-面经/ES6：模块系统的实时绑定.md",
     "00-编程/前端基础-css/文档流、盒子模型与BFC.md",
-    "小记/如何理解 JS 的异步？.md",
     "小记/扫码登录的实现方式：技术原理与实践.md",
     "小记/附件",
     "00-编程/前端基础-框架-React/Redux/04Redux 使用方式对比：connect 和 useDispatch与useSelector.md",
     "00-编程/前端基础-框架-React/报错/React中获取target 报错.md",
     "00-编程/前端基础-框架-React/使用 React.lazy 和 Suspense 实现路由懒加载.md",
     "00-编程/前端基础-框架-React/路由拦截.md",
-    "00-编程/前端基础-框架-React/Zustand/Zustand 详细介绍与使用.md",
-    "00-编程/前端基础-框架-React/Redux/01Redux 使用笔记.md",
-    "00-编程/前端基础-框架-React/Redux/03使用 connect 连接 Redux 和 React.md",
-    "00-编程/前端基础-框架-React/Redux/02用户登录状态管理demo(hook语法).md",
     "01-科普/中国神话",
     "小记",
     "01-科普",
