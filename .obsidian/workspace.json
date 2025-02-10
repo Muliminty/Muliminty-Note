@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "剪藏/000-Inbox/【25年最新版docker教程】2小时入门docker，全是干货，少走弯路，教会你最实用的docker技能_docker的使用教程-CSDN博客.md",
+                "file": "00-编程/运维-docker/文档.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "【25年最新版docker教程】2小时入门docker，全是干货，少走弯路，教会你最实用的docker技能_docker的使用教程-CSDN博客"
+              "title": "文档"
             }
           }
         ],
@@ -313,8 +313,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 823.5,
-    "collapsed": true
+    "width": 504.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -331,10 +330,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "bdefcc356e017c6f",
   "lastOpenFiles": [
-    "剪藏/000-Inbox/【25年最新版docker教程】2小时入门docker，全是干货，少走弯路，教会你最实用的docker技能_docker的使用教程-CSDN博客.md",
     "小记/完整流程：Vite + Nginx + Docker 部署.md",
+    "00-编程/运维-docker/文档.md",
+    "00-编程/运维-docker",
+    "未命名",
+    "小记/微前端.md",
+    "剪藏/000-Inbox/【25年最新版docker教程】2小时入门docker，全是干货，少走弯路，教会你最实用的docker技能_docker的使用教程-CSDN博客.md",
     "小记/渡一大师课：02-浏览器的渲染原理.md",
     "小记/渡一大师课：01-事件循环.md",
     "小记/原生HTML组件化开发深度解析：对象标签与动态加载方案实践.md",
@@ -367,8 +370,6 @@
     "00-编程/前端基础-框架-React/react 首屏加载.md",
     "00-编程/前端基础-框架-React/react-highlight-words 使用指南.md",
     "00-编程/轮子/file-saver 使用笔记.md",
-    "00-编程/前端提高-node/sqlBase.md",
-    "00-编程/前端提高-node/构建sql技巧.md",
     "小记/附件",
     "01-科普/中国神话",
     "小记",
@@ -376,8 +377,6 @@
     "编程",
     "剪藏",
     "阅读/附件/你不知道的JavaScript（上卷）.pdf",
-    "Excalidraw",
-    "阅读/附件/编码：隐匿在计算机软硬件背后的语言.pdf",
-    "阅读/附件/你不知道的JavaScript（下卷）.pdf"
+    "Excalidraw"
   ]
 }
