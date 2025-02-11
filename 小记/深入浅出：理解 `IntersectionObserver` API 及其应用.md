@@ -1,4 +1,3 @@
-### **深入浅出：理解 `IntersectionObserver` API 及其应用**
 
 在现代网页开发中，随着用户交互的复杂性增加，如何高效地监控页面元素的可见性，成为了一个重要的课题。传统的解决方案往往依赖于监听 `scroll` 事件或者定时检测元素的位置变化，这不仅影响性能，还增加了代码的复杂性。为了简化这一过程，浏览器提供了一个强大的原生 API —— **`IntersectionObserver`**。
 
@@ -10,7 +9,7 @@
 
 `IntersectionObserver` 是一种用于检测元素是否进入或离开视口（viewport）或某个指定容器的 API。它允许我们在目标元素与视口（或指定元素）相交时触发回调函数，从而有效地监控元素的可见性变化。
 
-**`IntersectionObserver` API`** 的核心优势在于：
+**`IntersectionObserver` API** 的核心优势在于：
 
 - **性能优越**：相比传统的滚动事件监听，它会自动优化性能，避免频繁的重排与重绘。
 - **易于使用**：只需定义回调函数并观察目标元素，代码简洁明了。
@@ -20,7 +19,7 @@
 
 ### **基本用法**
 
-`IntersectionObserver` 的基本语法分为三步：
+`IntersectionObserver` 的基本语法可以分为以下三步：
 
 1. **创建 `IntersectionObserver` 实例**：定义回调函数来处理元素进入或离开的事件。
 2. **开始观察目标元素**：调用 `observe()` 方法来观察指定的元素。
@@ -58,14 +57,14 @@ observer.observe(targetElement);
 #### 1. **`callback(entries, observer)`**
 
 - 这是每次交集状态变化时执行的回调函数。`entries` 是一个 `IntersectionObserverEntry` 对象的数组，其中包含了每个被观察元素的状态。
-- `IntersectionObserverEntry` 对象有以下几个常用属性：
+- `IntersectionObserverEntry` 对象的常用属性：
     - `isIntersecting`: 布尔值，表示目标元素是否与根元素相交（即是否在视口内）。
-    - `intersectionRatio`: 表示目标元素与根元素的交集比例，值在 `0` 到 `1` 之间。
+    - `intersectionRatio`: 目标元素与根元素的交集比例，值在 `0` 到 `1` 之间。
     - `target`: 被观察的目标元素。
 
 #### 2. **`options`**
 
-- **`root`**：指定观察的根元素（也就是视口以外的其他容器），默认为 `null`，即视口。
+- **`root`**：指定观察的根元素（即视口以外的其他容器），默认为 `null`，即视口。
 - **`rootMargin`**：定义视口的外边距，类似 CSS 的 `margin`。例如，`'10px 0px'` 表示在视口上下各加 10px 的边距。
 - **`threshold`**：设置触发回调的交集比例。它可以是一个数字（0 到 1 之间的值），也可以是一个数组，表示多个阈值，回调函数会在这些阈值变化时被触发。
 
@@ -151,9 +150,9 @@ animateElements.forEach(element => {
 
 ### **`IntersectionObserver` 优势**
 
-4. **性能优化**：与传统的滚动事件监听相比，`IntersectionObserver` 是基于浏览器的底层优化机制，它减少了不必要的重排和重绘，避免了过多的 DOM 操作。
-5. **响应性**：无需反复查询元素的位置和尺寸，`IntersectionObserver` 会在视口状态变化时自动通知我们。
-6. **简化代码**：`IntersectionObserver` 提供了更加直观、易用的 API，减少了监听事件的复杂性。
+- **性能优化**：与传统的滚动事件监听相比，`IntersectionObserver` 是基于浏览器的底层优化机制，它减少了不必要的重排和重绘，避免了过多的 DOM 操作。
+- **响应性**：无需反复查询元素的位置和尺寸，`IntersectionObserver` 会在视口状态变化时自动通知我们。
+- **简化代码**：`IntersectionObserver` 提供了更加直观、易用的 API，减少了监听事件的复杂性。
 
 ---
 
@@ -163,5 +162,4 @@ animateElements.forEach(element => {
 
 希望本文能够帮助你深入理解 `IntersectionObserver`，并在实际开发中得心应手。
 
-完整演示demo
-[demo/single-file/IntersectionObserver.html at main · Muliminty/demo · GitHub](https://github.com/Muliminty/demo/blob/main/single-file/IntersectionObserver.html)
+完整演示 Demo：[demo/single-file/IntersectionObserver.html at main · Muliminty/demo · GitHub](https://github.com/Muliminty/demo/blob/main/single-file/IntersectionObserver.html)
