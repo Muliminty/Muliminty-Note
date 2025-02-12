@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "小记/浏览器的渲染机制详解.md",
+                "file": "00-编程/前端基础-JavaScript/cv：this指向.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cv：this指向"
+            }
+          },
+          {
+            "id": "2504d09132e4c500",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "小记/cv：CommonJS和ESM 的区别？.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "浏览器的渲染机制详解"
+              "title": "cv：CommonJS和ESM 的区别？"
             }
           },
           {
@@ -35,7 +49,8 @@
               "title": "lesson01"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 476.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -163,13 +178,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "小记/浏览器的渲染机制详解.md",
+                "file": "小记/cv：CommonJS和ESM 的区别？.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "浏览器的渲染机制详解 的大纲"
+              "title": "cv：CommonJS和ESM 的区别？ 的大纲"
             }
           },
           {
@@ -232,40 +247,40 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "730c870ad44d17a2",
+  "active": "2504d09132e4c500",
   "lastOpenFiles": [
-    "小记/浏览器如何缓存域名IP地址？.md",
-    "小记/浏览器的渲染机制详解.md",
-    "小记/性能优化.md",
-    "00-编程/计算机基础-操作系统/进程和线程.md",
-    "00-编程/计算机基础-网络/DNS：解析和优化.md",
-    "00-编程/计算机基础-网络/附件/Pasted image 20250212214418.png",
-    "00-编程/计算机基础-网络/附件/Pasted image 20250212213840.png",
-    "00-编程/计算机基础-网络/附件",
-    "小记/微前端.md",
-    "小记/js迭代器.md",
-    "00-编程/计算机基础-网络/未命名",
-    "小记/meta 标签及其常见属性解析.md",
+    "小记/扫码登录的实现方式：技术原理与实践.md",
+    "小记/cv：如何理解 JS 的异步？.md",
+    "小记/cv：前端项目难点亮点.md",
+    "小记/cv：原型链.md",
+    "小记/前端提高：性能优化.md",
+    "小记/前端提高：微前端.md",
+    "小记/cv：CommonJS和ESM 的区别？.md",
+    "小记/cv：Webpack 面试.md",
+    "小记/cv：React 源码 ：闭包的使用.md",
+    "小记/cv：mt-面试题（答案.md",
+    "小记/cv：meta 标签及其常见属性解析.md",
+    "小记/cv：mt-面试题.md",
+    "小记/cv：mt-面试大纲.md",
+    "小记/cv：js迭代器.md",
+    "小记/原生HTML组件化开发深度解析：对象标签与动态加载方案实践.md",
+    "小记/cv：JS 判断数据类型的方式.md",
+    "小记/cv：JavaScript 中的变量提升与暂时性死区.md",
+    "小记/cv：JavaScript 内存泄漏场景、监控与分析.md",
+    "小记/cv：JavaScript 继承.md",
+    "小记/cv：import 和 require.md",
+    "小记/cv：html代码第一行的作用.md",
+    "00-编程/前端基础-JavaScript/cv：this指向.md",
+    "00-编程/005-零散知识点（概念）/浏览器指纹.md",
     "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson03.md",
     "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson02.md",
     "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson01.md",
-    "00-编程/计算机基础-操作系统/什么是并行处理.md",
-    "README.md",
-    "小记/渡一大师课：01-事件循环.md",
+    "00-编程/计算机基础-网络/附件/Pasted image 20250212214418.png",
+    "00-编程/计算机基础-网络/附件/Pasted image 20250212213840.png",
+    "00-编程/计算机基础-网络/附件",
+    "00-编程/计算机基础-网络/未命名",
     "00-编程/计算机基础-操作系统",
-    "剪藏/000-Inbox/深入理解JavaScript的进程、线程与Event-Loop在Web开发中，我们经常听到关于JavaScript是单 - 掘金.md",
-    "小记/运维：完整流程：Vite + Nginx + Docker 部署.md",
-    "小记/运维：Dockerfile每个关键词的意义.md",
-    "小记/深入浅出：理解 `IntersectionObserver` API 及其应用.md",
-    "小记/前端工程化： Webpack 搭建 React 项目.md",
-    "剪藏/000-Inbox/😈leader - 你知道Pnpm为何如此强大吗？说说怎么用Pnpm治理冗余重复依赖(万字精华干货)本文深入剖析了包管理工 - 掘金.md",
-    "剪藏/000-Inbox/计算机网络——TCP的三次握手与四次挥手（超详细）.md",
-    "剪藏/000-Inbox/前端性能优化的几个大招（理论+实践，看完就是Leader水平）前言 性能优化，一个掣肘用户体验的关键模块。它没有固定的标 - 掘金.md",
-    "00-编程/计算机基础-网络/三次握手和四次挥手.md",
     "00-编程/计算机基础-网络",
-    "小册/浏览器工作原理与实践/06-浏览器中的网络/lesson36.md",
-    "小册/浏览器工作原理与实践/06-浏览器中的网络/lesson35.md",
-    "小册/浏览器工作原理与实践/06-浏览器中的网络/lesson34.md",
     "小册/浏览器工作原理与实践/06-浏览器中的网络",
     "小册/浏览器工作原理与实践/05-浏览器中的页面",
     "小册/浏览器工作原理与实践/04-浏览器中的页面循环系统",
