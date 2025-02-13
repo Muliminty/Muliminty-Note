@@ -2,12 +2,13 @@
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "attachmentFolderPath": "./附件",
-  "readableLineLength": true,
+  "readableLineLength": false,
   "alwaysUpdateLinks": true,
   "strictLineBreaks": true,
   "foldHeading": false,
   "foldIndent": false,
   "showLineNumber": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "小记"
+  "newFileFolderPath": "小记",
+  "propertiesInDocument": "hidden"
 }

@@ -1,5 +1,3 @@
-# 深入理解 JavaScript 的即时编译（JIT）：现代引擎的性能秘密
-
 JavaScript 是目前 Web 开发的核心语言，而其运行时性能的提升，离不开**即时编译（JIT，Just-In-Time Compilation）**技术。通过 JIT 编译，JavaScript 不再是单纯的解释执行，而是通过动态优化的方式将代码转换为高效的机器码，极大提高了执行效率。本文将深入探讨 JIT 编译的原理、工作流程及其在 JavaScript 引擎中的实现，并讨论如何通过优化代码来更好地利用 JIT 提升性能。
 
 ---
