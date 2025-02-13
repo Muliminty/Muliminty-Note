@@ -21,6 +21,12 @@
           "ctime": 1738811899757,
           "url": "https://chatgpt.com/",
           "title": "ChatGPT"
+        },
+        {
+          "type": "url",
+          "ctime": 1739414887515,
+          "url": "https://training.xfyun.cn/experience/text2text",
+          "title": "星火大模型精调平台"
         }
       ],
       "title": "AI"

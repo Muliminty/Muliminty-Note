@@ -8,49 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "730c870ad44d17a2",
+            "id": "e03183d40c91ccc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-编程/前端基础-JavaScript/cv：this指向.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cv：this指向"
-            }
-          },
-          {
-            "id": "84c52e62174e197d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson03.md",
+                "file": "00-编程/前端工程化-webpack/概念：前端构建工具的工作流.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lesson03"
+              "title": "概念：前端构建工具的工作流"
             }
           },
           {
-            "id": "f20235fe187b5115",
+            "id": "433be8f469d0346b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-编程/前端工程化-webpack/使用 `.env` 文件管理环境变量的完整指南.md",
+                "file": "00-编程/前端工程化-webpack/概念：前端构建工具的工作流.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "使用 `.env` 文件管理环境变量的完整指南"
+              "title": "概念：前端构建工具的工作流"
+            }
+          },
+          {
+            "id": "88538231907ab80e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-编程/006-面经/cv：为什么需要构建工具来打包、压缩和优化资源.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cv：为什么需要构建工具来打包、压缩和优化资源"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +129,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 220.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -146,6 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00-编程/前端工程化-webpack/概念：前端构建工具的工作流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "概念：前端构建工具的工作流 的反向链接列表"
             }
           },
           {
@@ -164,12 +164,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson01.md",
+                "file": "00-编程/前端工程化-webpack/概念：前端构建工具的工作流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "lesson01 的出链列表"
+              "title": "概念：前端构建工具的工作流 的出链列表"
             }
           },
           {
@@ -178,13 +178,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-编程/前端工程化-webpack/使用 `.env` 文件管理环境变量的完整指南.md",
+                "file": "00-编程/前端工程化-webpack/概念：前端构建工具的工作流.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "使用 `.env` 文件管理环境变量的完整指南 的大纲"
+              "title": "概念：前端构建工具的工作流 的大纲"
             }
           },
           {
@@ -230,7 +230,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 272.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,34 +247,34 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f20235fe187b5115",
+  "active": "e03183d40c91ccc5",
   "lastOpenFiles": [
-    "00-编程/前端工程化-webpack/完善的 React 项目架构文档(webpack).md",
-    "00-编程/前端工程化-webpack/使用 `.env` 文件管理环境变量的完整指南.md",
-    "小记/cv：Webpack 面试.md",
+    "00-编程/006-面经/cv：为什么需要构建工具来打包、压缩和优化资源.md",
+    "00-编程/前端工程化-webpack/概念：前端构建工具的工作流.md",
+    "00-编程/前端工程化-webpack/01-学习路线.md",
+    "00-编程/前端工程化-webpack/概念：什么是模块化.md",
     "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson03.md",
-    "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson01.md",
-    "00-编程/前端基础-JavaScript/cv：this指向.md",
+    "00-编程/006-面经/cv：ES6：模块系统的实时绑定.md",
+    "00-编程/006-面经/cv：array.map(parseInt).md",
+    "00-编程/006-面经/cv：事件冒泡与事件委托.md",
+    "00-编程/006-面经/cv：undefined 和 undeclared.md",
+    "00-编程/006-面经/cv：Promise 的状态吸收.md",
+    "00-编程/006-面经/cv：FiberTree.md",
+    "00-编程/006-面经/cv：什么是 React Context.md",
     "小记/cv：CommonJS和ESM 的区别？.md",
+    "00-编程/前端基础-JavaScript/编译原理/编译原理.md",
+    "00-编程/前端工程化-webpack/实战：完善的 React 项目架构文档(webpack).md",
+    "00-编程/前端工程化-webpack/实战：使用 `.env` 文件管理环境变量的完整指南.md",
+    "00-编程/前端基础-JavaScript/编译原理/编译原理-词法分析.md",
+    "00-编程/前端基础-JavaScript/cv：this指向.md",
+    "小记/cv：Webpack 面试.md",
+    "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson01.md",
     "小记/扫码登录的实现方式：技术原理与实践.md",
     "小记/cv：如何理解 JS 的异步？.md",
     "小记/cv：前端项目难点亮点.md",
     "小记/cv：原型链.md",
     "小记/前端提高：性能优化.md",
     "小记/前端提高：微前端.md",
-    "小记/cv：React 源码 ：闭包的使用.md",
-    "小记/cv：mt-面试题（答案.md",
-    "小记/cv：meta 标签及其常见属性解析.md",
-    "小记/cv：mt-面试题.md",
-    "小记/cv：mt-面试大纲.md",
-    "小记/cv：js迭代器.md",
-    "小记/原生HTML组件化开发深度解析：对象标签与动态加载方案实践.md",
-    "小记/cv：JS 判断数据类型的方式.md",
-    "小记/cv：JavaScript 中的变量提升与暂时性死区.md",
-    "小记/cv：JavaScript 内存泄漏场景、监控与分析.md",
-    "小记/cv：JavaScript 继承.md",
-    "小记/cv：import 和 require.md",
-    "小记/cv：html代码第一行的作用.md",
     "00-编程/计算机基础-网络/附件/Pasted image 20250212214418.png",
     "00-编程/计算机基础-网络/附件/Pasted image 20250212213840.png",
     "00-编程/计算机基础-网络/附件",
