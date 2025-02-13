@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-编程/轮子/轮子-UI-ProComponents/使用 ProForm 和 Form.List 实现动态表单项.md",
+                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "使用 ProForm 和 Form.List 实现动态表单项"
+              "title": "lesson08-调用栈：为什么JavaScript代码会出现栈溢出"
             }
           }
         ]
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-编程/轮子/轮子-UI-ProComponents/使用 ProForm 和 Form.List 实现动态表单项.md",
+                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "使用 ProForm 和 Form.List 实现动态表单项 的反向链接列表"
+              "title": "lesson08-调用栈：为什么JavaScript代码会出现栈溢出 的反向链接列表"
             }
           },
           {
@@ -136,12 +136,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-编程/轮子/轮子-UI-ProComponents/使用 ProForm 和 Form.List 实现动态表单项.md",
+                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "使用 ProForm 和 Form.List 实现动态表单项 的出链列表"
+              "title": "lesson08-调用栈：为什么JavaScript代码会出现栈溢出 的出链列表"
             }
           },
           {
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-编程/轮子/轮子-UI-ProComponents/使用 ProForm 和 Form.List 实现动态表单项.md",
+                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "使用 ProForm 和 Form.List 实现动态表单项 的大纲"
+              "title": "lesson08-调用栈：为什么JavaScript代码会出现栈溢出 的大纲"
             }
           },
           {
@@ -202,8 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5,
-    "collapsed": true
+    "width": 385.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,9 +221,9 @@
   },
   "active": "345ca7451a8c465e",
   "lastOpenFiles": [
+    "00-编程/轮子/轮子-UI-ProComponents/使用 ProForm 和 Form.List 实现动态表单项.md",
     "00-编程/轮子/轮子-UI-ProComponents/附件/Pasted image 20250213162706.png",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
-    "00-编程/轮子/轮子-UI-ProComponents/使用 ProForm 和 Form.List 实现动态表单项.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson07-变量提升：JavaScript代码是按顺序执行的吗.md",
     "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson06-渲染流程（下）：HTML、CSS和JavaScript是如何变成页面的.md",
     "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson05-渲染流程（上）：HTML、CSS和JavaScript是如何变成页面的.md",
@@ -266,7 +265,6 @@
     "小记/附件/Pasted image 20250209142341.png",
     "小记/附件/Pasted image 20250209142438.png",
     "小记/附件/Pasted image 20250209143213.png",
-    "小记/附件/Pasted image 20250209145942.png",
-    "小记/附件/Pasted image 20250209145851.png"
+    "小记/附件/Pasted image 20250209145942.png"
   ]
 }
