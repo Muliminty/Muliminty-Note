@@ -34,7 +34,7 @@ div{
 
 这两段代码分别由 CSS 文件和 HTML 文件构成，我们来分析下打开这段 HTML 文件时的渲染流水线，你可以先参考下面这张渲染流水线示意图：
 
-![](https://blog.poetries.top/img/static/gitee/2019/11/65.png)
+![](./附件/1f4a2b49-c1a9-47c6-aa51-821222312226_1739517208438.png)
 
 下面我们结合上图来分析这个页面文件的渲染流水线。
 
@@ -79,7 +79,7 @@ div{
 
 
 
-![](https://blog.poetries.top/img/static/gitee/2019/11/66.png)
+![](./附件/605d1363-4df6-48b4-811a-e2f05890a1f9_1739517221899.png)
 
 那我们就结合这张图来分析含有外部 CSS 文件和 JavaScript 代码的页面渲染流水线，上一篇文章中我们提到过在解析 DOM 的过程中，如果遇到了 JavaScript 脚本，那么需要先暂停 DOM 解析去执行 JavaScript，因为 JavaScript 有可能会修改当前状态下的 DOM。
 
@@ -115,7 +115,7 @@ console.log('time.geekbang.org')
 
 从上面代码可以看出来，HTML 文件中包含了 CSS 的外部引用和 JavaScript 外部文件，那它们的渲染流水线是怎样的呢？可参考下图
 
-![](https://blog.poetries.top/img/static/gitee/2019/11/67.png)
+![](./附件/54433d96-3ec9-4263-a3cf-bf997173704a_1739517235148.png)
 
 从图中可以看出来，在接收到 HTML 数据之后的预解析过程中，HTML 预解析器识别出来了有 CSS 文件和 JavaScript 文件需要下载，然后就同时发起这两个文件的下载请求，需要注意的是，这两个文件的下载过程是重叠的，所以下载时间按照最久的那个文件来算。
 

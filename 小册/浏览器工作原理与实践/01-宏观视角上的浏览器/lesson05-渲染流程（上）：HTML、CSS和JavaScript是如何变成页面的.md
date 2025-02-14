@@ -11,13 +11,13 @@ pageClass: custom-code-highlight
 
 通常，我们编写好HTML、CSS、JavaScript等文件，经过浏览器就会显示出漂亮的页面（如下图所示），但是你知道它们是如何转化成页面的吗？这背后的原理，估计很多人都答不上来。
 
-![](https://static001.geekbang.org/resource/image/2b/79/2b08a85c63bee68c6fd95dabb648fd79.png)
+![](./附件/67daf137-c40e-4aee-acfb-55a5fd3464a9_1739515390398.png)
 
 从图中可以看出，左边输入的是HTML、CSS、JavaScript数据，这些数据经过中间渲染模块的处理，最终输出为屏幕上的像素。
 
 这中间的渲染模块就是我们今天要讨论的主题。为了能更好地理解下文，你可以先结合下图快速抓住HTML、CSS和JavaScript的含义：
 
-![](https://static001.geekbang.org/resource/image/31/e6/31cd7172f743193d682d088a60cb44e6.png)
+![](./附件/484a0445-aafa-44b4-9e81-79f3f45d6542_1739515390464.png)
 
 从上图可以看出，HTML的内容是由标记和文本组成。标记也称为标签，每个标签都有它自己的语意，浏览器会根据标签的语意来正确展示HTML内容。比如上面的`<p>`标签是告诉浏览器在这里的内容需要创建一个新段落，中间的文本就是段落中需要显示的内容
 
@@ -29,7 +29,7 @@ pageClass: custom-code-highlight
 
 由于渲染机制过于复杂，所以渲染模块在执行过程中会被划分为很多子阶段，输入的HTML经过这些子阶段，最后输出像素。我们把这样的一个处理流程叫做**渲染流水线**，其大致流程如下图所示：
 
-![](https://static001.geekbang.org/resource/image/92/e8/9259f8732ddad472e5e08a633ad46de8.png)
+![](./附件/b64d92b6-74a2-4bd5-bbe0-8b1ade13a1a1_1739515390517.png)
 
 按照渲染的时间顺序，流水线可分为如下几个子阶段：**构建DOM树、样式计算、布局阶段、分层、绘制、分块、光栅化和合成**。内容比较多，我会用两篇文章来为你详细讲解这各个子阶段。接下来，在介绍每个阶段的过程中，你应该重点关注以下三点内容
 
@@ -45,19 +45,19 @@ pageClass: custom-code-highlight
 
 这里我们还需要简单介绍下什么是树结构，为了更直观地理解，你可以参考下面我画的几个树结构：
 
-![](https://static001.geekbang.org/resource/image/fc/38/fcad0a4e3e73c796f00d6120284a3638.png)
+![](./附件/9a41b6b6-40be-4aa4-96be-a57d89267c3e_1739515390568.png)
 
 从图中可以看出，树这种结构非常像我们现实生活中的“树”，其中每个点我们称为节点，相连的节点称为父子节点。树结构在浏览器中的应用还是比较多的，比如下面我们要介绍的渲染流程，就在频繁地使用树结构。
 
 接下来咱们还是言归正传，来看看DOM树的构建过程，你可以参考下图
 
-![](https://static001.geekbang.org/resource/image/12/79/125849ec56a3ea98d4b476c66c754f79.png)
+![](./附件/a5c89626-2a9c-4046-a77f-9c52193f9caf_1739515390614.png)
 
 从图中可以看出，构建DOM树的输入内容是一个非常简单的HTML文件，然后经由HTML解析器解析，最终输出树状结构的DOM。
 
 为了更加直观地理解DOM树，你可以打开Chrome的“开发者工具”，选择“Console”标签来打开控制台，然后在控制台里面输入“document”后回车，这样你就能看到一个完整的DOM树结构，如下图所示：
 
-![](https://static001.geekbang.org/resource/image/47/73/47f57c3eee749dd838939bfe5dd64573.png)
+![](./附件/4a1e9775-a082-4552-bde6-b7862856fce3_1739515390672.png)
 
 图中的document就是DOM结构，你可以看到，DOM和HTML内容几乎是一样的，但是和HTML不同的是，DOM是保存在内存中树状结构，可以通过JavaScript来查询或修改其内容。
 
@@ -69,7 +69,7 @@ document.getElementsByTagName("p")[0].innerText = "black"
 
 这行代码的作用是把第一个`<p>`标签的内容修改为black，具体执行结果你可以参考下图：
 
-![](https://static001.geekbang.org/resource/image/e7/74/e730aa1d73c1151c588e2f8c7e22c274.png)
+![](./附件/e321b5ec-b63c-4f73-b0b3-a11fc938033f_1739515390733.png)
 
 从图中可以看出，在执行了一段修改第一个`<p>`标签的JavaScript代码后，DOM的第一个p节点的内容成功被修改，同时页面中的内容也被修改了
 
@@ -83,7 +83,7 @@ document.getElementsByTagName("p")[0].innerText = "black"
 
 那CSS样式的来源主要有哪些呢？你可以先参考下图：
 
-![](https://static001.geekbang.org/resource/image/bc/7c/bc93df7b8d03b2675f21e1d9e4e1407c.png)
+![](./附件/c3966053-9549-45bf-ba20-9b58aca1f5ba_1739515391206.png)
 
 从图中可以看出，CSS样式来源主要有三种：
 
@@ -94,7 +94,7 @@ document.getElementsByTagName("p")[0].innerText = "black"
 - 和HTML文件一样，浏览器也是无法直接理解这些纯文本的CSS样式，所以当渲染引擎接收到CSS文本时，会执行一个转换操作，将CSS文本转换为浏览器可以理解的结构——styleSheets。
 - 为了加深理解，你可以在Chrome控制台中查看其结构，只需要在控制台中输入`document.styleSheets`，然后就看到如下图所示的结构
 
-![](https://static001.geekbang.org/resource/image/8e/ab/8ec7d5ecfadcd05b3f1ec762223a9aab.png)
+![](./附件/af21e255-3744-47b8-bcbf-2be4788e549c_1739515391276.png)
 
 从图中可以看出，这个样式表包含了很多种样式，已经把那三种来源的样式都包含进去了。当然样式表的具体结构不是我们今天讨论的重点，你只需要知道渲染引擎会把获取到的CSS文本全部转换为styleSheets结构中的数据，并且该结构同时具备了查询和修改功能，这会为后面的样式操作提供基础
 
@@ -117,7 +117,7 @@ div {color:red; }
 
 那标准化后的属性值是什么样子的？
 
-![](https://static001.geekbang.org/resource/image/12/60/1252c6d3c1a51714606daa6bdad3a560.png)
+![](./附件/50ad34b1-af39-45dd-9f9e-5c6f8ea55284_1739515391373.png)
 
 从图中可以看到，2em被解析成了32px，red被解析成了rgb(255,0,0)，bold被解析成了700……
 
@@ -139,13 +139,13 @@ div  p {color:green;}
 
 这张样式表最终应用到DOM节点的效果如下图所示：
 
-![](https://static001.geekbang.org/resource/image/fe/b4/fe9a0ea868dc02a3c4a59f6080aa80b4.png)
+![](./附件/fef6c216-a2bf-42c7-9854-3f3af0cf0851_1739515391455.png)
 
 从图中可以看出，所有子节点都继承了父节点样式。比如body节点的font-size属性是20，那body节点下面的所有节点的font-size都等于20。
 
 为了加深你对CSS继承的理解，你可以打开Chrome的“开发者工具”，选择第一个“element”标签，再选择“style”子标签，你会看到如下界面
 
-![](https://static001.geekbang.org/resource/image/88/b2/88a3aac427cc7c09361eac01a85fc7b2.png)
+![](./附件/7cd15a93-6467-4387-b4c5-6f063e651dc2_1739515391560.png)
 
 这个界面展示的信息很丰富，大致可描述为如下
 
@@ -161,7 +161,7 @@ div  p {color:green;}
 
 如果你想了解每个DOM元素最终的计算样式，可以打开Chrome的“开发者工具”，选择第一个“element”标签，然后再选择“Computed”子标签，如下图所示：
 
-![](https://static001.geekbang.org/resource/image/d8/46/d87415b0187e3860404bf963f1c3d646.png)
+![](./附件/79c8f235-2aaf-4db0-8890-97f1f3f47be1_1739515392111.png)
 
 上图红色方框中显示了html.body.div.p标签的ComputedStyle的值。你想要查看哪个元素，点击左边对应的标签就可以了
 
@@ -177,7 +177,7 @@ Chrome在布局阶段需要完成两个任务：创建布局树和布局计算
 
 我们结合下图来看看布局树的构造过程：
 
-![](https://static001.geekbang.org/resource/image/8e/0e/8e48b77dd48bdc509958e73b9935710e.png)
+![](./附件/f699c36a-2ce2-44c4-b068-8e8ec6deeebe_1739515392201.png)
 
 从上图可以看出，DOM树中所有不可见的节点都没有包含到布局树中。
 
@@ -196,7 +196,7 @@ Chrome在布局阶段需要完成两个任务：创建布局树和布局计算
 
 好了，今天正文就到这里，我画了下面这张比较完整的渲染流水线，你可以结合这张图来回顾下今天的内容。
 
-![](https://static001.geekbang.org/resource/image/a4/9a/a4a0ea4da58260aafc9aabdd37613f9a.png)
+![](./附件/67f72be9-d3a6-4e7c-bafd-8bc897817e34_1739515392292.png)
 
 从图中可以看出，本节内容我们介绍了渲染流程的前三个阶段：DOM生成、样式计算和布局。要点可大致总结为如下：
 

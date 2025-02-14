@@ -29,7 +29,7 @@ function showName() {
 
 然而实际执行结果却并非如此， 如下图：
 
-![](https://static001.geekbang.org/resource/image/fb/03/fbafaba4ad7092cbee011a8a02e38903.png)
+![](./附件/9ed5c418-f0c7-4c08-b60f-afa6a00b84d9_1739515454213.png)
 
 第1行输出“函数showName被执行”，第2行输出“undefined”，这和前面想象中的顺序执行有点不一样啊！
 
@@ -45,7 +45,7 @@ function showName() {
 
 然后再次执行这段代码时，JavaScript引擎就会报错，结果如下：
 
-![](https://static001.geekbang.org/resource/image/a5/c2/a5262e2ca891ea114dfaf1e37f9ca4c2.png)
+![](./附件/4df6650a-edc5-4dd9-8d70-62c92ae7463e_1739515454303.png)
 
 从上面两段代码的执行结果来看，我们可以得出如下三个结论。
 
@@ -77,7 +77,7 @@ var myname    //声明部分
 myname = '极客时间'  //赋值部分
 ```
 
-![](https://static001.geekbang.org/resource/image/ec/3c/ec882f2d9deec26ce168b409f274533c.png)
+![](./附件/cbd3c3e8-1072-4679-8ad2-39ac6544bc57_1739515454369.png)
 
 上面是变量的声明和赋值，那接下来我们再来看看函数的声明和赋值，结合下面这段代码：
 
@@ -93,7 +93,7 @@ var bar = function(){
 
 第一个函数foo是一个完整的函数声明，也就是说没有涉及到赋值操作；第二个函数是先声明变量bar，再把`function(){console.log('bar')}`赋值给bar。为了直观理解，你可以参考下图：
 
-![](https://static001.geekbang.org/resource/image/61/77/611c09ab995b9b608d9c0db193266777.png)
+![](./附件/107f9c26-19d9-41fd-98b4-8b6be9b5b286_1739515454452.png)
 
 好了，理解了声明和赋值操作，那接下来我们就可以聊聊什么是变量提升了。
 
@@ -124,7 +124,7 @@ myname = '极客时间'
 
 为了模拟变量提升的效果，我们对代码做了以下调整，如下图：
 
-![](https://static001.geekbang.org/resource/image/ce/d5/cefe564dbff729e735a834fd9e3bd0d5.png)
+![](./附件/f8f7ae72-1b21-4810-ba89-897b5c628757_1739515454497.png)
 
 从图中可以看出，对原来的代码主要做了两处调整：
 
@@ -138,7 +138,7 @@ myname = '极客时间'
 
 从概念的字面意义上来看，“变量提升”意味着变量和函数的声明会在物理层面移动到代码的最前面，正如我们所模拟的那样。但，这并不准确。实际上变量和函数声明在代码里的位置是不会改变的，而且是在编译阶段被JavaScript引擎放入内存中。对，你没听错，一段JavaScript代码在执行之前需要被JavaScript引擎编译，编译完成之后，才会进入执行阶段。大致流程你可以参考下图：
 
-![](https://static001.geekbang.org/resource/image/64/1e/649c6e3b5509ffd40e13ce9c91b3d91e.png)
+![](./附件/a5a4b50c-0e16-4823-8b20-b9e0a30236d8_1739515454570.png)
 
 ### 1. 编译阶段
 
@@ -165,7 +165,7 @@ myname = '极客时间'
 
 下面我们就可以把JavaScript的执行流程细化，如下图所示：
 
-![](https://static001.geekbang.org/resource/image/06/13/0655d18ec347a95dfbf843969a921a13.png)
+![](./附件/c65d421b-ecb8-42ba-84e4-a07531e7d695_1739515454620.png)
 
 从上图可以看出，输入一段代码，经过编译后，会生成两部分内容：执行上下文（Execution context）和可执行代码。
 

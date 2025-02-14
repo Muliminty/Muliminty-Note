@@ -63,7 +63,7 @@ https://time.geekbang.org/?category=0
 
 比如，恶意程序在 HTML 文件内容中插入如下一段 JavaScript 代码
 
-![](https://blog.poetries.top/img/static/gitee/2019/11/92.png)
+![](./附件/fe907c1e-c0d9-4dbd-9d68-054de7820ca1_1739517710215.png)
 
 当这段 HTML 文件的数据被送达浏览器时，浏览器是无法区分被插入的文件是恶意的还是正常的，这样恶意脚本就寄生在页面之中，当页面启动时，它可以修改用户的搜索结果、改变一些内容的连接指向，等等。
 

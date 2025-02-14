@@ -21,7 +21,7 @@ pageClass: custom-code-highlight
 
 比如你在写JavaScript代码的时候，有时候可能会遇到栈溢出的错误，如下图所示：
 
-![](https://static001.geekbang.org/resource/image/0c/70/0c9e2c4f7ee8ca59cfa99a6f51510470.png)
+![](./附件/b58dffd3-b17d-440a-bda5-e1e0b38c556e_1739515454731.png)
 
 那为什么会出现这种错误呢？这就涉及到了调用栈的内容。你应该知道JavaScript中有很多函数，经常会出现在一个函数中调用另外一个函数的情况，调用栈就是用来管理函数调用关系的一种数据结构。因此要讲清楚调用栈，你还要先弄明白函数调用和栈结构
 
@@ -44,7 +44,7 @@ add()
 
 在执行到函数add()之前，JavaScript引擎会为上面这段代码创建**全局执行上下文**，包含了声明的函数和变量，你可以参考下图：
 
-![](https://static001.geekbang.org/resource/image/7f/da/7fa2ed18e702861890d767ea547533da.png)
+![](./附件/2e66b4bf-581f-4c50-914c-4e011cadbe97_1739515454812.png)
 
 从图中可以看出，代码中全局变量和函数都保存在全局上下文的变量环境中。
 
@@ -56,7 +56,7 @@ add()
 
 完整流程你可以参考下图：
 
-![](https://static001.geekbang.org/resource/image/53/ca/537efd9e96771dc50737117e615533ca.png)
+![](./附件/663e17b1-0262-406a-9132-43fbdf1520e5_1739515454934.png)
 
 就这样，当执行到add函数的时候，我们就有了两个执行上下文了——全局执行上下文和add函数的执行上下文。
 
@@ -72,7 +72,7 @@ add()
 
 所以，栈就是类似于一端被堵住的单行线，车子类似于栈中的元素，栈中的元素满足后进先出的特点。你可以参看下图：
 
-![](https://static001.geekbang.org/resource/image/5e/05/5e2bb65019053abfd5e7710e41d1b405.png)
+![](./附件/e469297c-d491-4c0a-93e7-6465d45615b4_1739515455237.png)
 
 ## 什么是JavaScript的调用栈
 
@@ -99,31 +99,31 @@ addAll(3,6)
 
 **第一步，创建全局上下文，并将其压入栈底**。如下图所示
 
-![](https://static001.geekbang.org/resource/image/a5/1d/a5d7ec1f8f296412acc045835b85431d.png)
+![](./附件/c0598a36-06bc-47b3-8d54-03904f53ac0f_1739515455631.png)
 
 从图中你也可以看出，变量a、函数add和addAll都保存到了全局上下文的变量环境对象中。
 
 全局执行上下文压入到调用栈后，JavaScript引擎便开始执行全局代码了。首先会执行a=2的赋值操作，执行该语句会将全局上下文变量环境中a的值设置为2。设置后的全局上下文的状态如下图所示：
 
-![](https://static001.geekbang.org/resource/image/1d/1d/1d50269dbc5b4c69f83662ecdd977b1d.png)
+![](./附件/4c972988-61ed-4eb5-ae7b-695e5454f849_1739515455998.png)
 
 接下来，**第二步是调用addAll函数**。当调用该函数时，JavaScript引擎会编译该函数，并为其创建一个执行上下文，最后还将该函数的执行上下文压入栈中，如下图所示：
 
-![](https://static001.geekbang.org/resource/image/7d/52/7d6c4c45db4ef9b900678092e6c53652.png)
+![](./附件/928103cf-6af2-40d7-9dcd-e43c60181ec0_1739515456641.png)
 
 addAll函数的执行上下文创建好之后，便进入了函数代码的执行阶段了，这里先执行的是d=10的赋值操作，执行语句会将addAll函数执行上下文中的d由undefined变成了10。
 
 然后接着往下执行，**第三步，当执行到add函数调用语句时，同样会为其创建执行上下文，并将其压入调用栈**，如下图所示：
 
-![](https://static001.geekbang.org/resource/image/cc/37/ccfe41d906040031a7df1e4f1bce5837.png)
+![](./附件/bb3296f4-640b-4c06-a4bb-db28589e6e53_1739515457123.png)
 
 当add函数返回时，该函数的执行上下文就会从栈顶弹出，并将result的值设置为add函数的返回值，也就是9。如下图所示：
 
-![](https://static001.geekbang.org/resource/image/03/96/03ca801a5372f941bf17d6088fee0f96.png)
+![](./附件/58c7fc6d-68bb-4483-ad44-4a999a913eeb_1739515457486.png)
 
 紧接着addAll执行最后一个相加操作后并返回，addAll的执行上下文也会从栈顶部弹出，此时调用栈中就只剩下全局上下文了。最终如下图所示：
 
-![](https://static001.geekbang.org/resource/image/d0/7b/d0ac1d6e77735338fa97cc9a3f6c717b.png)
+![](./附件/86725cd1-e3d6-4570-8c7d-166a18044d8d_1739515457887.png)
 
 至此，整个JavaScript流程执行结束了。
 
@@ -139,13 +139,13 @@ addAll函数的执行上下文创建好之后，便进入了函数代码的执�
 
 这么说可能有点抽象，这里我们拿上面的那段代码做个演示，你可以打开“开发者工具”，点击“Source”标签，选择JavaScript代码的页面，然后在第3行加上断点，并刷新页面。你可以看到执行到add函数时，执行流程就暂停了，这时可以通过右边“call stack”来查看当前的调用栈的情况，如下图：
 
-![](https://static001.geekbang.org/resource/image/c0/a2/c0d303a289a535b87a6c445ba7f34fa2.png)
+![](./附件/cbed566f-194c-47a2-a9da-27ad7175fae4_1739515458324.png)
 
 从图中可以看出，右边的“call stack”下面显示出来了函数的调用关系：栈的最底部是anonymous，也就是全局的函数入口；中间是addAll函数；顶部是add函数。这就清晰地反映了函数的调用关系，所以在分析复杂结构代码，或者检查Bug时，调用栈都是非常有用的。
 
 除了通过断点来查看调用栈，你还可以使用`console.trace()`来输出当前的函数调用关系，比如在示例代码中的add函数里面加上了`console.trace()`，你就可以看到控制台输出的结果，如下图：
 
-![](https://static001.geekbang.org/resource/image/ab/ce/abfba06cd23a7704a6eb148cff443ece.png)
+![](./附件/72148abb-c61b-4474-9c8d-d2d77e97cd01_1739515458659.png)
 
 ### 2. 栈溢出（Stack Overflow）
 

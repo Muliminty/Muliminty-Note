@@ -9,7 +9,7 @@ pageClass: custom-code-highlight
 
 那么今天我们就一起来探索下这个流程，下图是我梳理出的“从输入URL到页面展示完整流程示意图”：
 
-![](https://static001.geekbang.org/resource/image/92/5d/92d73c75308e50d5c06ad44612bcb45d.png)
+![](./附件/d6a1afce-8a3b-441e-8a89-3caa1e46bf6a_1739515385259.png)
 
 从图中可以看出，整个过程需要各个进程之间的配合，所以在开始正式流程之前，我们还是先来快速回顾下浏览器进程、渲染进程和网络进程的主要职责。
 
@@ -40,7 +40,7 @@ pageClass: custom-code-highlight
 
 当用户输入关键字并键入回车之后，浏览器便进入下图的状态：
 
-![](https://static001.geekbang.org/resource/image/fa/30/fad33fc7c5f2bdf4e20cac7691484130.png)
+![](./附件/73e70790-a22d-44ee-a55a-c0b9ecd065a8_1739515385855.png)
 
 从图中可以看出，当浏览器刚开始加载一个地址之后，标签页上的图标便进入了加载状态。但此时图中页面显示的依然是之前打开的页面内容，并没立即替换为极客时间的页面。因为需要等待提交文档阶段，页面内容才会被替换。
 
@@ -66,7 +66,7 @@ curl -I http://time.geekbang.org/
 
 `curl -I + URL`的命令是接收服务器返回的响应头的信息。执行命令后，我们看到服务器返回的响应头信息如下：
 
-![](https://static001.geekbang.org/resource/image/65/7e/655cbf32dd4bb6f9decc5c7f9a535a7e.png)
+![](./附件/b7f43a2c-be39-4270-bd12-5a73b163f71f_1739515386442.png)
 
 从图中可以看出，极客时间服务器会通过重定向的方式把所有HTTP请求转换为HTTPS请求。也就是说你使用HTTP向极客时间服务器请求时，服务器会返回一个包含有301或者302状态码响应头，并把响应头的Location字段中填上HTTPS的地址，这就是告诉了浏览器要重新导航到新的地址上。
 
@@ -78,7 +78,7 @@ curl -I https://time.geekbang.org/
 
 我们看到服务器返回如下信息：
 
-![](https://static001.geekbang.org/resource/image/0c/43/0c4987fe5d05646fa8245d8cc50d1a43.png)
+![](./附件/ba78c9a3-8328-4275-b81f-41a8cf5e3e77_1739515386972.png)
 
 从图中可以看出，服务器返回的响应头的状态码是200，这是告诉浏览器一切正常，可以继续往下处理该请求了。
 
@@ -98,7 +98,7 @@ curl -I https://time.geekbang.org/
 
 返回信息如下图：
 
-![](https://static001.geekbang.org/resource/image/89/1c/8951e161b5f44a73e52c16b631a63e1c.png)
+![](./附件/3a7a3f76-0aeb-4c25-8835-d63a9487428a_1739515387598.png)
 
 从图中可以看到，响应头中的Content-type字段的值是text/html，这就是告诉浏览器，服务器返回的数据是HTML格式。
 
@@ -110,7 +110,7 @@ curl -I https://res001.geekbang.org/apps/geektime/android/2.3.1/official/geektim
 
 请求后返回的响应头信息如下：
 
-![](https://static001.geekbang.org/resource/image/59/3b/595902748d7d4c2f9c1d4783962ae43b.png)
+![](./附件/0fe78f45-d0ce-40f9-beef-be4aa689fdbf_1739515388277.png)
 
 从返回的响应头信息来看，其Content-Type的值是application/octet-stream，显示数据是字节流类型的，通常情况下，浏览器会按照下载类型来处理该请求。
 
@@ -124,7 +124,7 @@ curl -I https://res001.geekbang.org/apps/geektime/android/2.3.1/official/geektim
 
 比如我从极客时间的首页里面打开了另外一个页面——算法训练营，我们看下图的Chrome的任务管理器截图：
 
-![](https://static001.geekbang.org/resource/image/d8/28/d8fe2afbd8ea2d4a8d8cc4bb14c50f28.png)
+![](./附件/83635f39-22a5-4bc7-b9a4-1e2fc66fec7a_1739515388842.png)
 
 从图中可以看出，打开的这三个页面都是运行在同一个渲染进程中，进程ID是23601。
 
@@ -144,7 +144,7 @@ Chrome的默认策略是，每个标签对应一个渲染进程。但如果从�
 
 那若新页面和当前页面不属于同一站点，情况又会发生什么样的变化呢？比如我通过极客邦页面里的链接打开InfoQ的官网（https://www.infoq.cn/ ）， 因为infoq.cn和geekbang.org不属于同一站点，所以infoq.cn会使用一个新的渲染进程，你可以参考下图
 
-![](https://static001.geekbang.org/resource/image/fb/74/fba1dd05f0aeba93a5cb25f305971274.png)
+![](./附件/059a2a5d-7de2-4b41-a36e-b05cacd3643f_1739515389513.png)
 
 从图中任务管理器可以看出：由于极客邦和极客时间的标签页拥有相同的协议和根域名，所以它们属于同一站点，并运行在同一个渲染进程中；而infoq.cn的根域名不同于geekbang.org，也就是说InfoQ和极客邦不属于同一站点，因此它们会运行在两个不同的渲染进程之中。
 
@@ -165,7 +165,7 @@ Chrome的默认策略是，每个标签对应一个渲染进程。但如果从�
 
 更新内容如下图所示：
 
-![](https://static001.geekbang.org/resource/image/a1/6f/a1b77a61361561e74e86fdae10ee246f.png)
+![](./附件/b40e1815-c6b3-47ed-9ac6-6f5cf283cd80_1739515390114.png)
 
 这也就解释了为什么在浏览器的地址栏里面输入了一个地址后，之前的页面没有立马消失，而是要加载一会儿才会更新页面。
 
@@ -175,7 +175,7 @@ Chrome的默认策略是，每个标签对应一个渲染进程。但如果从�
 
 一旦文档被提交，渲染进程便开始页面解析和子资源加载了，关于这个阶段的完整过程，我会在下一篇文章中来专门介绍。这里你只需要先了解一旦页面生成完成，渲染进程会发送一个消息给浏览器进程，浏览器接收到消息后，会停止标签图标上的加载动画。如下所示：
 
-![](https://static001.geekbang.org/resource/image/be/58/bef45eb5b01c34e328486004feedd658.png)
+![](./附件/51954052-b117-4a76-a6e8-23e8b285deab_1739515390330.png)
 
 至此，一个完整的页面就生成了。那文章开头的“从输入URL到页面展示，这中间发生了什么？”这个过程极其“串联”的问题也就解决了。
 
