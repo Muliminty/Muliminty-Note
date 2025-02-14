@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
+                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lesson09-块级作用域：var缺陷以及为什么要引入let和const"
+              "title": "lesson11"
             }
           }
         ]
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
+                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson11.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "lesson09-块级作用域：var缺陷以及为什么要引入let和const 的大纲"
+              "title": "lesson11 的大纲"
             }
           },
           {
@@ -222,6 +222,7 @@
   "active": "17fe5018b0ea3c71",
   "lastOpenFiles": [
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择.md",
+    "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson11.md",
     "小册/浏览器工作原理与实践/06-浏览器中的网络/lesson33.md",
     "小册/浏览器工作原理与实践/06-浏览器中的网络/lesson32.md",
@@ -232,7 +233,6 @@
     "小册/浏览器工作原理与实践/03-V8工作原理/lesson13.md",
     "小册/浏览器工作原理与实践/03-V8工作原理/lesson14.md",
     "小册/浏览器工作原理与实践/03-V8工作原理/lesson12.md",
-    "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
     "00-编程/前端基础-JavaScript/编译原理/执行上下文.md",
     "00-编程/前端基础-JavaScript/深入：作用域（Scope）.md",
     "00-编程/轮子/轮子-UI-Ant Design/Upload/Upload--知识碎片/Props属性对应效果.md",
