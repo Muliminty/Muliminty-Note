@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#antd/Upload",
+                "query": "执行上下文",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -95,7 +95,8 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "3b634e9dce37d622",
@@ -236,8 +237,9 @@
   },
   "active": "4e24a6e1b8655c3f",
   "lastOpenFiles": [
-    "00-编程/计算机基础-网络/概念：Content-Type.md",
+    "00-编程/前端基础-JavaScript/编译原理/执行上下文.md",
     "小记/cv：执行上下文.md",
+    "00-编程/计算机基础-网络/概念：Content-Type.md",
     "00-编程/007-Blog/实现一个迷你版的 React.md",
     "00-编程/007-Blog/掌握 React 性能优化：运用 memoization 技术与代码分割提升效率.md",
     "00-编程/007-Blog/Svelte.js 入门指南.md",
@@ -270,7 +272,6 @@
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
     "小册/浏览器工作原理与实践/06-浏览器中的网络/lesson33.md",
     "小册/浏览器工作原理与实践/06-浏览器中的网络/lesson32.md",
-    "小册/浏览器工作原理与实践/06-浏览器中的网络/lesson31.md",
     "未命名.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas",
