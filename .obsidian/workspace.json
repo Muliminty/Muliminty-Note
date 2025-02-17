@@ -11,18 +11,14 @@
             "id": "1eabccba61f2a509",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "书签.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false
-                  ]
-                }
+                "file": "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--章脚手架框架搭建/3-1本章的收获是什么，难点是什么？.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "书签"
+              "icon": "lucide-file",
+              "title": "3-1本章的收获是什么，难点是什么？"
             }
           }
         ]
@@ -164,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "书签.md",
+                "file": "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--章脚手架框架搭建/3-1本章的收获是什么，难点是什么？.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "书签 的大纲"
+              "title": "3-1本章的收获是什么，难点是什么？ 的大纲"
             }
           },
           {
@@ -251,9 +247,10 @@
   },
   "active": "1eabccba61f2a509",
   "lastOpenFiles": [
+    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--章脚手架框架搭建/3-1本章的收获是什么，难点是什么？.md",
+    "书签.md",
     "index.md",
     "README.md",
-    "书签.md",
     "Excalidraw/javscript.md",
     "test.md",
     "归档/面试之道/面试之道知识碎片/垃圾回收机制.md",
@@ -278,7 +275,6 @@
     "00-编程/前端工程化-webpack/概念：webpack 梳理.md",
     "00-编程/前端工程化-webpack/概念：Bundle（捆绑包）.md",
     "00-编程/前端工程化-webpack/01-学习路线.md",
-    "00-编程/前端工程化-webpack/概念：前端构建工具的工作流.md",
     "小记/附件/Pasted image 20250214170620.png",
     "小记/附件/Pasted image 20250214170603.png",
     "小记/附件/Pasted image 20250214170413.png",
