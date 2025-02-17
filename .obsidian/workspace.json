@@ -71,7 +71,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -264,11 +264,11 @@
   },
   "active": "b18723bb0b70e6a3",
   "lastOpenFiles": [
+    "00-编程/前端工程化-webpack/概念：Bundle（捆绑包）.md",
+    "00-编程/前端工程化-webpack/概念：webpack 梳理.md",
     "00-编程/前端工程化-webpack/01-学习路线.md",
     "00-编程/前端工程化-webpack/概念：前端构建工具的工作流.md",
     "00-编程/前端工程化-webpack/概念：Chunk（块）.md",
-    "00-编程/前端工程化-webpack/概念：webpack 梳理.md",
-    "00-编程/前端工程化-webpack/概念：Bundle（捆绑包）.md",
     "00-编程/前端工程化-webpack/概念：什么是模块化.md",
     "00-编程/计算机基础-网络/概念：Content-Type.md",
     "00-编程/005-零散知识点（概念）/JS语言通识：什么是产生式 BNF.md",
