@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0d107a355bedc930",
+        "id": "58c0e24ff646a9ea",
         "type": "tabs",
         "children": [
           {
-            "id": "15dc6b6ce6b22b4e",
+            "id": "13b3a0bc8ed28296",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "lesson08-调用栈：为什么JavaScript代码会出现栈溢出"
-            }
-          },
-          {
-            "id": "1982fa2a7d364275",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "小记/js：JavaScript 引擎如何管理执行上下文.md",
+                "file": "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-11脚手架项目发布.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "js：JavaScript 引擎如何管理执行上下文"
+              "title": "2-11脚手架项目发布"
             }
           }
         ]
@@ -174,13 +160,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "lesson08-调用栈：为什么JavaScript代码会出现栈溢出 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -258,18 +243,21 @@
       "markdown-importer:打开 Markdown 格式转换器": false,
       "workspaces:管理工作区布局": false,
       "copilot:Open Copilot Chat": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-memos:Thino": false
+      "obsidian-memos:Thino": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "15dc6b6ce6b22b4e",
+  "active": "3c58e2a115d6b408",
   "lastOpenFiles": [
+    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-11脚手架项目发布.md",
+    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-10脚手架命令注册和参数解析.md",
+    "README.md",
+    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-9脚手架本地调试标准流程总结.md",
+    "小记/js：JavaScript 引擎如何管理执行上下文.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-什么是JavaScript的调用栈代码解析.md",
-    "小记/js：JavaScript 引擎如何管理执行上下文.md",
     "小记/js：JavaScript引擎编译的过程.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson07-变量提升：JavaScript代码是按顺序执行的吗.md",
-    "README.md",
     "Thino/2025-02-17.md",
     "Excalidraw/javscript.md",
     "00-编程/前端基础-JavaScript/编译原理/执行上下文.md",
@@ -285,12 +273,9 @@
     "00-编程/前端工程化-webpack/概念：什么是模块化.md",
     "00-编程/计算机基础-网络/概念：Content-Type.md",
     "00-编程/005-零散知识点（概念）/JS语言通识：什么是产生式 BNF.md",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-9脚手架本地调试标准流程总结.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-8脚手架本地调试方法.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-7快速入门第一个脚手架.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-5脚手架原理讲解（下）.md",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-6脚手架开发流程和难点解析.md",
-    "小记/cv：执行上下文.md",
     "小记/附件/Pasted image 20250214170620.png",
     "小记/附件/Pasted image 20250214170603.png",
     "小记/附件/Pasted image 20250214170413.png",
