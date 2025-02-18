@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
+                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lesson08-调用栈：为什么JavaScript代码会出现栈溢出"
+              "title": "lesson09-块级作用域：var缺陷以及为什么要引入let和const"
             }
           },
           {
@@ -174,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
+                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "lesson08-调用栈：为什么JavaScript代码会出现栈溢出 的大纲"
+              "title": "lesson09-块级作用域：var缺陷以及为什么要引入let和const 的大纲"
             }
           },
           {
@@ -264,8 +264,8 @@
   },
   "active": "167192580f66bc4e",
   "lastOpenFiles": [
-    "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/lesson08-什么是JavaScript的调用栈代码解析.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
+    "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/lesson08-什么是JavaScript的调用栈代码解析.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记",
     "index.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
