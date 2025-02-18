@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/lesson08-什么是JavaScript的调用栈代码解析.md",
+                "file": "00-编程/005-零散知识点（概念）/SSE（Server-Sent Events）协议.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lesson08-什么是JavaScript的调用栈代码解析"
+              "title": "SSE（Server-Sent Events）协议"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
+                "file": "00-编程/005-零散知识点（概念）/SSE（Server-Sent Events）协议.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "lesson09-块级作用域：var缺陷以及为什么要引入let和const 的大纲"
+              "title": "SSE（Server-Sent Events）协议 的大纲"
             }
           },
           {
@@ -240,11 +241,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 472.5
+    "width": 413.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,13 +263,17 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "167192580f66bc4e",
+  "active": "93d751c98b994cd4",
   "lastOpenFiles": [
-    "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/lesson08-什么是JavaScript的调用栈代码解析.md",
-    "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记",
+    "00-编程/005-零散知识点（概念）/SSE（Server-Sent Events）协议.md",
     "index.md",
+    "Thino/2025-02-17.md",
+    "Thino/2025-02-18.md",
+    "test.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
+    "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
+    "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记",
     "00-编程/006-面经/cv：单点登录（SSO）和 Token 刷新机制概述.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--章脚手架框架搭建/3-1本章的收获是什么，难点是什么？.md",
@@ -280,7 +285,6 @@
     "小记/js：JavaScript引擎编译的过程.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson07-变量提升：JavaScript代码是按顺序执行的吗.md",
     "README.md",
-    "Thino/2025-02-17.md",
     "Excalidraw/javscript.md",
     "00-编程/前端基础-JavaScript/编译原理/执行上下文.md",
     "Thino",
@@ -290,8 +294,6 @@
     "00-编程/前端工程化-webpack/概念：Bundle（捆绑包）.md",
     "00-编程/前端工程化-webpack/01-学习路线.md",
     "00-编程/前端工程化-webpack/概念：前端构建工具的工作流.md",
-    "00-编程/前端工程化-webpack/概念：Chunk（块）.md",
-    "00-编程/前端工程化-webpack/概念：什么是模块化.md",
     "小记/附件/Pasted image 20250214170620.png",
     "小记/附件/Pasted image 20250214170603.png",
     "小记/附件/Pasted image 20250214170413.png",
