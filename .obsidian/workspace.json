@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-编程/006-面经/cv：单点登录（SSO）和 Token 刷新机制概述.md",
+                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lesson08-调用栈：为什么JavaScript代码会出现栈溢出"
+            }
+          },
+          {
+            "id": "93d751c98b994cd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/lesson08-什么是JavaScript的调用栈代码解析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cv：单点登录（SSO）和 Token 刷新机制概述"
+              "title": "lesson08-什么是JavaScript的调用栈代码解析"
             }
           }
         ]
@@ -175,12 +189,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://chatgpt.com/c/67b296f2-0180-8001-89b6-79f0b88bb388",
-                "title": "Webpack概念详解",
+                "url": "https://chatgpt.com/",
+                "title": "ChatGPT",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Webpack概念详解"
+              "title": "ChatGPT"
             }
           },
           {
@@ -226,7 +240,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -248,18 +262,20 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3c58e2a115d6b408",
+  "active": "167192580f66bc4e",
   "lastOpenFiles": [
+    "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/lesson08-什么是JavaScript的调用栈代码解析.md",
+    "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
+    "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记",
+    "index.md",
+    "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
     "00-编程/006-面经/cv：单点登录（SSO）和 Token 刷新机制概述.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--章脚手架框架搭建/3-1本章的收获是什么，难点是什么？.md",
-    "index.md",
     "00-编程/002-前端架构师课程/高级前端架构师知识图谱.md",
-    "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--章脚手架框架搭建",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-11脚手架项目发布.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-10脚手架命令注册和参数解析.md",
-    "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-什么是JavaScript的调用栈代码解析.md",
     "小记/js：JavaScript 引擎如何管理执行上下文.md",
     "小记/js：JavaScript引擎编译的过程.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson07-变量提升：JavaScript代码是按顺序执行的吗.md",
@@ -276,8 +292,6 @@
     "00-编程/前端工程化-webpack/概念：前端构建工具的工作流.md",
     "00-编程/前端工程化-webpack/概念：Chunk（块）.md",
     "00-编程/前端工程化-webpack/概念：什么是模块化.md",
-    "00-编程/计算机基础-网络/概念：Content-Type.md",
-    "00-编程/005-零散知识点（概念）/JS语言通识：什么是产生式 BNF.md",
     "小记/附件/Pasted image 20250214170620.png",
     "小记/附件/Pasted image 20250214170603.png",
     "小记/附件/Pasted image 20250214170413.png",
@@ -297,7 +311,6 @@
     "00-编程/计算机基础-操作系统",
     "00-编程/计算机基础-网络",
     "小册/浏览器工作原理与实践/06-浏览器中的网络",
-    "小册/浏览器工作原理与实践/05-浏览器中的页面",
-    "小册/浏览器工作原理与实践/04-浏览器中的页面循环系统"
+    "小册/浏览器工作原理与实践/05-浏览器中的页面"
   ]
 }

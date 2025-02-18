@@ -95,7 +95,8 @@ return  a+result+d
 addAll(3,6)
 ```
 
-[lesson08-什么是JavaScript的调用栈代码解析](lesson08-什么是JavaScript的调用栈代码解析.md)
+[lesson08-什么是JavaScript的调用栈代码解析](读书笔记/lesson08-什么是JavaScript的调用栈代码解析.md)
+
 
 在上面这段代码中，你可以看到它是在addAll函数中调用了add函数，那在整个代码的执行过程中，调用栈是怎么变化的呢？
 

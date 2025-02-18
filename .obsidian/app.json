@@ -1,4 +1,9 @@
 {
   "attachmentFolderPath": "./附件",
-  "propertiesInDocument": "hidden"
+  "propertiesInDocument": "hidden",
+  "newLinkFormat": "relative",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "小记",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true
 }
