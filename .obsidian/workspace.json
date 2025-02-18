@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "eb243628dc7eb674",
+        "id": "21655aac9448d5b6",
         "type": "tabs",
         "children": [
           {
-            "id": "1eabccba61f2a509",
+            "id": "167192580f66bc4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--章脚手架框架搭建/3-1本章的收获是什么，难点是什么？.md",
+                "file": "00-编程/006-面经/cv：单点登录（SSO）和 Token 刷新机制概述.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3-1本章的收获是什么，难点是什么？"
+              "title": "cv：单点登录（SSO）和 Token 刷新机制概述"
             }
           }
         ]
@@ -160,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--章脚手架框架搭建/3-1本章的收获是什么，难点是什么？.md",
+                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3-1本章的收获是什么，难点是什么？ 的大纲"
+              "title": "lesson08-调用栈：为什么JavaScript代码会出现栈溢出 的大纲"
             }
           },
           {
@@ -193,8 +193,8 @@
                 "title": "SiliconCloud",
                 "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "globe-2",
+              "title": "SiliconCloud"
             }
           },
           {
@@ -207,8 +207,8 @@
                 "title": "DeepSeek - 探索未至之境",
                 "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "globe-2",
+              "title": "DeepSeek - 探索未至之境"
             }
           },
           {
@@ -221,8 +221,8 @@
                 "title": "编译流程梳理：词法分析、语法解析、代码优化、代码生成 - Kimi.ai",
                 "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "globe-2",
+              "title": "编译流程梳理：词法分析、语法解析、代码优化、代码生成 - Kimi.ai"
             }
           }
         ],
@@ -240,41 +240,44 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-kanban:创建新看板": false,
-      "obsidian-memos:Thino": false
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false,
+      "copilot:Open Copilot Chat": false,
+      "obsidian-memos:Thino": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1eabccba61f2a509",
+  "active": "3c58e2a115d6b408",
   "lastOpenFiles": [
+    "00-编程/006-面经/cv：单点登录（SSO）和 Token 刷新机制概述.md",
+    "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--章脚手架框架搭建/3-1本章的收获是什么，难点是什么？.md",
-    "书签.md",
     "index.md",
-    "README.md",
-    "Excalidraw/javscript.md",
-    "test.md",
-    "归档/面试之道/面试之道知识碎片/垃圾回收机制.md",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-8脚手架本地调试方法.md",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-7快速入门第一个脚手架.md",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-3从使用角度理解什么是脚手架？.md",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-11脚手架项目发布.md",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--章脚手架框架搭建",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-10脚手架命令注册和参数解析.md",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-9脚手架本地调试标准流程总结.md",
-    "小记/js：JavaScript 引擎如何管理执行上下文.md",
+    "00-编程/002-前端架构师课程/高级前端架构师知识图谱.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
+    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--章脚手架框架搭建",
+    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-11脚手架项目发布.md",
+    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{2}--第2章脚手架开发入门/2-10脚手架命令注册和参数解析.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-什么是JavaScript的调用栈代码解析.md",
+    "小记/js：JavaScript 引擎如何管理执行上下文.md",
     "小记/js：JavaScript引擎编译的过程.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson07-变量提升：JavaScript代码是按顺序执行的吗.md",
+    "README.md",
     "Thino/2025-02-17.md",
+    "Excalidraw/javscript.md",
     "00-编程/前端基础-JavaScript/编译原理/执行上下文.md",
     "Thino",
     "小记/2025-02-17.md",
-    "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson11.md",
     "00-编程/前端工程化-webpack/概念：webpack 梳理.md",
     "00-编程/前端工程化-webpack/概念：Bundle（捆绑包）.md",
     "00-编程/前端工程化-webpack/01-学习路线.md",
+    "00-编程/前端工程化-webpack/概念：前端构建工具的工作流.md",
+    "00-编程/前端工程化-webpack/概念：Chunk（块）.md",
+    "00-编程/前端工程化-webpack/概念：什么是模块化.md",
+    "00-编程/计算机基础-网络/概念：Content-Type.md",
+    "00-编程/005-零散知识点（概念）/JS语言通识：什么是产生式 BNF.md",
     "小记/附件/Pasted image 20250214170620.png",
     "小记/附件/Pasted image 20250214170603.png",
     "小记/附件/Pasted image 20250214170413.png",

@@ -1,6 +1,9 @@
 [
-  "obsidian-auto-link-title",
   "obsidian-excalidraw-plugin",
   "obsidian-kanban",
+  "obsidian-annotator",
+  "obsidian-linter",
+  "obsidian-auto-link-title",
+  "copilot",
   "obsidian-memos"
 ]
