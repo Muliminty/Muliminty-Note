@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-编程/005-零散知识点（概念）/惰性求值（Lazy Evaluation）.md",
-                "mode": "source",
+                "file": "00-编程/前端基础-JavaScript/深入：迭代器（Iterator）.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "惰性求值（Lazy Evaluation）"
+              "title": "深入：迭代器（Iterator）"
             }
           }
         ],
@@ -175,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-编程/005-零散知识点（概念）/惰性求值（Lazy Evaluation）.md",
+                "file": "00-编程/前端基础-JavaScript/深入：迭代器（Iterator）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "惰性求值（Lazy Evaluation） 的大纲"
+              "title": "深入：迭代器（Iterator） 的大纲"
             }
           },
           {
@@ -265,8 +265,9 @@
   },
   "active": "93d751c98b994cd4",
   "lastOpenFiles": [
-    "00-编程/005-零散知识点（概念）/SSE（Server-Sent Events）协议.md",
     "00-编程/005-零散知识点（概念）/惰性求值（Lazy Evaluation）.md",
+    "00-编程/前端基础-JavaScript/深入：迭代器（Iterator）.md",
+    "00-编程/005-零散知识点（概念）/SSE（Server-Sent Events）协议.md",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/lesson08-什么是JavaScript的调用栈代码解析.md",
     "index.md",
     "Thino/2025-02-17.md",
@@ -293,7 +294,6 @@
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson11.md",
     "00-编程/前端工程化-webpack/概念：webpack 梳理.md",
     "00-编程/前端工程化-webpack/概念：Bundle（捆绑包）.md",
-    "00-编程/前端工程化-webpack/01-学习路线.md",
     "小记/附件/Pasted image 20250214170620.png",
     "小记/附件/Pasted image 20250214170603.png",
     "小记/附件/Pasted image 20250214170413.png",
