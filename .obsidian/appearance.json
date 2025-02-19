@@ -1,4 +1,5 @@
 {
-  "cssTheme": "Things",
-  "nativeMenus": false
+  "cssTheme": "Sanctum",
+  "nativeMenus": false,
+  "theme": "moonstone"
 }
