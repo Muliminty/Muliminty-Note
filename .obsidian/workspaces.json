@@ -1,0 +1,280 @@
+{
+  "workspaces": {
+    "你不知道的JavaScript": {
+      "main": {
+        "id": "17185545f7c8d1cc",
+        "type": "split",
+        "children": [
+          {
+            "id": "25e95c614e6377f1",
+            "type": "tabs",
+            "dimension": 40.3485254691689,
+            "children": [
+              {
+                "id": "5d85b53a484542e1",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://weread.qq.com/web/reader/8c632230715c01a18c683d8kd3d322001ad3d9446802347",
+                    "title": "你不知道的JavaScript（上卷） - 1.1 编译原理 - 凯尔辛普森 - 微信读书",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "你不知道的JavaScript（上卷） - 1.1 编译原理 - 凯尔辛普森 - 微信读书"
+                }
+              }
+            ]
+          },
+          {
+            "id": "21655aac9448d5b6",
+            "type": "tabs",
+            "dimension": 59.651474530831095,
+            "children": [
+              {
+                "id": "16207a2c8dd9a8bb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "读书笔记/你不知道的JavaScript/01-作用域和闭包.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "01-作用域和闭包"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "05fb93f0d41dfb32",
+        "type": "split",
+        "children": [
+          {
+            "id": "dddd3d328ede567a",
+            "type": "tabs",
+            "dimension": 72.80593325092707,
+            "children": [
+              {
+                "id": "b76d5d4c5f29b876",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": true
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "5c53eb3decbcd3ad",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
+                }
+              },
+              {
+                "id": "30be7aca9a73ace4",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              }
+            ]
+          },
+          {
+            "id": "3b634e9dce37d622",
+            "type": "tabs",
+            "dimension": 27.19406674907293,
+            "children": [
+              {
+                "id": "303c8d2fabb40564",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 283.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "9ec9dc92d8196544",
+        "type": "split",
+        "children": [
+          {
+            "id": "ffef919d0a9f365d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2d8b45923dba1000",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "lesson08-调用栈：为什么JavaScript代码会出现栈溢出 的反向链接列表"
+                }
+              },
+              {
+                "id": "b05309cfe1d2ecf3",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "小册/冴羽-深入系列文章/01-JavaScript深入之从原型到原型链.md",
+                    "linksCollapsed": true,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-going-out",
+                  "title": "01-JavaScript深入之从原型到原型链 的出链列表"
+                }
+              },
+              {
+                "id": "cc089dfc51082da7",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "读书笔记/你不知道的JavaScript/01-作用域和闭包.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "01-作用域和闭包 的大纲"
+                }
+              },
+              {
+                "id": "f251d2b7ad4cadaf",
+                "type": "leaf",
+                "state": {
+                  "type": "thino_view",
+                  "state": {},
+                  "icon": "Memos",
+                  "title": "Thino"
+                }
+              },
+              {
+                "id": "3c58e2a115d6b408",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://chatgpt.com/",
+                    "title": "chatgpt.com",
+                    "mode": "error"
+                  },
+                  "icon": "globe-2",
+                  "title": "chatgpt.com"
+                }
+              },
+              {
+                "id": "31245816106a0e68",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://m.siliconflow.cn/playground/chat/17885302723",
+                    "title": "SiliconCloud",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "SiliconCloud"
+                }
+              },
+              {
+                "id": "78cd2d7ff1222727",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://chat.deepseek.com/a/chat/s/a74b7ad5-ca58-477e-b0d6-44d451be2932",
+                    "title": "DeepSeek - 探索未至之境",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "DeepSeek - 探索未至之境"
+                }
+              },
+              {
+                "id": "8e3f6f675fa41f58",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://kimi.moonshot.cn/chat/cus45euf2kqfpdmh6r3g",
+                    "title": "分词/词法分析 - Kimi.ai",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "分词/词法分析 - Kimi.ai"
+                }
+              }
+            ],
+            "currentTab": 7
+          }
+        ],
+        "direction": "horizontal",
+        "width": 361.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "obsidian-kanban:创建新看板": false,
+          "workspaces:管理工作区布局": false,
+          "obsidian-memos:Thino": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false
+        }
+      },
+      "active": "16207a2c8dd9a8bb",
+      "mtime": "2025-02-21T17:16:28+08:00"
+    }
+  },
+  "active": "你不知道的JavaScript"
+}
