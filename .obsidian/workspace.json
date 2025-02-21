@@ -25,18 +25,14 @@
             "id": "16e86b7fe738f7fc",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "书签.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false
-                  ]
-                }
+                "file": "小记/CSS：视觉格式化模型.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "书签"
+              "icon": "lucide-file",
+              "title": "CSS：视觉格式化模型"
             }
           }
         ],
@@ -88,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "异步",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -99,8 +95,7 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "3b634e9dce37d622",
@@ -180,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "书签.md",
+                "file": "小记/CSS：视觉格式化模型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "书签 的大纲"
+              "title": "CSS：视觉格式化模型 的大纲"
             }
           },
           {
@@ -267,15 +262,17 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "30be7aca9a73ace4",
+  "active": "16e86b7fe738f7fc",
   "lastOpenFiles": [
+    "小记/antd x.md",
+    "test.md",
     "README.md",
+    "书签.md",
     "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson05-渲染流程（上）：HTML、CSS和JavaScript是如何变成页面的.md",
     "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson01-Chrome架构：仅仅打开了1个页面，为什么有4个进程.md",
     "小册/冴羽-深入系列文章/02-JavaScript深入之词法作用域和动态作用域.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计/2-1聊一个很多同学很感兴趣的话题：大厂是如何做项目的？.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计/2-2前端研发过程中的痛点和需求分析.md",
-    "小记/antd x.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计/附件/Pasted image 20250219220636.png",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计/附件",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计",
@@ -300,8 +297,6 @@
     "小册/冴羽-深入系列文章/15-JavaScript深入之继承的多种方式和优缺点.md",
     "小册/冴羽-深入系列文章/14-JavaScript深入之创建对象的多种方式以及优缺点.md",
     "小册/冴羽-深入系列文章/13-JavaScript深入之类数组对象与arguments.md",
-    "小册/冴羽-深入系列文章/06-JavaScript深入之从ECMAScript规范解读this.md",
-    "小册/冴羽-深入系列文章/09-JavaScript深入之参数按值传递.md",
     "小册/冴羽-深入系列文章",
     "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--章脚手架框架搭建",
