@@ -6,7 +6,7 @@
       {
         "id": "25e95c614e6377f1",
         "type": "tabs",
-        "dimension": 48.79356568364611,
+        "dimension": 46.297872340425535,
         "children": [
           {
             "id": "5d85b53a484542e1",
@@ -41,7 +41,7 @@
       {
         "id": "21655aac9448d5b6",
         "type": "tabs",
-        "dimension": 51.20643431635389,
+        "dimension": 53.70212765957447,
         "children": [
           {
             "id": "16207a2c8dd9a8bb",
@@ -51,10 +51,24 @@
               "state": {
                 "file": "读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "01-1作用域是什么"
+            }
+          },
+          {
+            "id": "4b8a630a94a43605",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "小记/抽象语法树：Abstract Syntax Tree,AST.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "抽象语法树：Abstract Syntax Tree,AST"
             }
           }
         ]
@@ -262,12 +276,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 649.5,
-    "collapsed": true
+    "width": 316.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -286,6 +299,8 @@
   "active": "5d85b53a484542e1",
   "lastOpenFiles": [
     "读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
+    "00-编程/前端基础-JavaScript/编译原理/编译原理-即时编译JIT.md",
+    "小记/抽象语法树：Abstract Syntax Tree,AST.md",
     "读书笔记/你不知道的JavaScript/备注/20250221182630.md",
     "读书笔记/你不知道的JavaScript/未命名/未命名",
     "读书笔记/你不知道的JavaScript/备注",
@@ -323,8 +338,6 @@
     "小册/README.md",
     "小册/冴羽-深入系列文章/12-JavaScript深入之new的模拟实现.md",
     "小册/冴羽-深入系列文章/10-JavaScript深入之call和apply的模拟实现.md",
-    "小册/冴羽-深入系列文章/11-JavaScript深入之bind的模拟实现.md",
-    "小册/冴羽-深入系列文章/05-JavaScript深入之作用域链.md",
     "小记/附件/Pasted image 20250214170620.png",
     "小记/附件/Pasted image 20250214170603.png",
     "小记/附件/Pasted image 20250214170413.png",
