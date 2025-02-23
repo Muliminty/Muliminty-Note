@@ -5,5 +5,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "小记",
   "alwaysUpdateLinks": true,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "readableLineLength": false
 }
