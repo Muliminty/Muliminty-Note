@@ -6,7 +6,7 @@
       {
         "id": "25e95c614e6377f1",
         "type": "tabs",
-        "dimension": 46.297872340425535,
+        "dimension": 53.531914893617014,
         "children": [
           {
             "id": "5d85b53a484542e1",
@@ -21,27 +21,13 @@
               "icon": "globe-2",
               "title": "你不知道的JavaScript（上卷） - 1.2 理解作用域 - 凯尔辛普森 - 微信读书"
             }
-          },
-          {
-            "id": "6341820c64e6b896",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.zhihu.com/?theme=dark",
-                "title": "(6 封私信 / 80 条消息) 首页 - 知乎",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "(6 封私信 / 80 条消息) 首页 - 知乎"
-            }
           }
         ]
       },
       {
         "id": "21655aac9448d5b6",
         "type": "tabs",
-        "dimension": 53.70212765957447,
+        "dimension": 46.46808510638298,
         "children": [
           {
             "id": "16207a2c8dd9a8bb",
@@ -51,7 +37,7 @@
               "state": {
                 "file": "读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "01-1作用域是什么"
@@ -201,13 +187,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "01-1作用域是什么 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -297,7 +282,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "16207a2c8dd9a8bb",
+  "active": "5d85b53a484542e1",
   "lastOpenFiles": [
     "读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
     "读书笔记/你不知道的JavaScript/未命名.md",
