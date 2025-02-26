@@ -11,32 +11,17 @@
             "id": "1c7168cafe5431fc",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "markdown",
               "state": {
-                "url": "https://juejin.cn/",
-                "title": "稀土掘金",
-                "mode": "webview"
+                "file": "00-编程/前端基础-框架-React/useImperativeHandle和forwardRef.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "globe-2",
-              "title": "稀土掘金"
-            }
-          },
-          {
-            "id": "393f9f97b0edb4cd",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://juejin.cn/post/7432314654288199690",
-                "title": "前端开发神器的webStorm！简直不要太好用！最近听说webStorm 免费了，赶紧来试试传说中的前端开发神器！虽然不 - 掘金",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "前端开发神器的webStorm！简直不要太好用！最近听说webStorm 免费了，赶紧来试试传说中的前端开发神器！虽然不 - 掘金"
+              "icon": "lucide-file",
+              "title": "useImperativeHandle和forwardRef"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "父子",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -165,12 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "00-编程/前端基础-框架-React/useImperativeHandle和forwardRef.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "useImperativeHandle和forwardRef 的大纲"
             }
           },
           {
@@ -260,8 +246,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "393f9f97b0edb4cd",
+  "active": "1c7168cafe5431fc",
   "lastOpenFiles": [
+    "00-编程/前端基础-框架-React/React 嵌套路由详解.md",
+    "00-编程/前端基础-框架-React/useImperativeHandle和forwardRef.md",
+    "小册/浏览器工作原理与实践/05-浏览器中的页面/lesson22.md",
+    "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson05-渲染流程（上）：HTML、CSS和JavaScript是如何变成页面的.md",
+    "00-编程/前端基础-JavaScript/树结构处理/父子节点联动.md",
+    "00-编程/前端基础-框架-React/路由拦截.md",
     "剪藏/Next.js + tRPC + Auth.js + Drizzle ORM： 打造极致全栈开发体验Next.js 全.md",
     "剪藏",
     "00-编程/004-各种疑难杂症/npm install时报错deprecated core-js@2.6.12.md",
@@ -287,18 +279,12 @@
     "读书笔记/你不知道的JavaScript/备注/20250221182630.md",
     "读书笔记/你不知道的JavaScript/未命名/未命名",
     "读书笔记/你不知道的JavaScript/备注",
-    "小册/冴羽-深入系列文章/08-JavaScript深入之闭包.md",
     "读书笔记/你不知道的JavaScript",
     "读书笔记",
-    "归档/面试之道/面试宝典/计算机网络面试宝典.md",
-    "小册/冴羽-深入系列文章/01-JavaScript深入之从原型到原型链.md",
     "小册/冴羽-深入系列文章/附件/Pasted image 20250221163214.png",
     "小册/冴羽-深入系列文章/附件/Pasted image 20250221163208.png",
     "小册/冴羽-深入系列文章/附件/Pasted image 20250221163124.png",
-    "小册/冴羽-深入系列文章/02-JavaScript深入之词法作用域和动态作用域.md",
     "小册/冴羽-深入系列文章/附件",
-    "书签.md",
-    "README.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计/附件/Pasted image 20250219220636.png",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计/附件",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计",
