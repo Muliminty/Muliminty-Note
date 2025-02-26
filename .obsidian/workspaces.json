@@ -1,6 +1,6 @@
 {
   "workspaces": {
-    "你不知道的JavaScript": {
+    "j1": {
       "main": {
         "id": "17185545f7c8d1cc",
         "type": "split",
@@ -16,26 +16,12 @@
                 "state": {
                   "type": "webviewer",
                   "state": {
-                    "url": "https://weread.qq.com/web/reader/8c632230715c01a18c683d8kd3d322001ad3d9446802347",
-                    "title": "你不知道的JavaScript（上卷） - 1.1 编译原理 - 凯尔辛普森 - 微信读书",
+                    "url": "https://weread.qq.com/web/reader/8c632230715c01a18c683d8k65132ca01b6512bd43d90e3",
+                    "title": "你不知道的JavaScript（上卷） - 1.2 理解作用域 - 凯尔辛普森 - 微信读书",
                     "mode": "webview"
                   },
                   "icon": "globe-2",
-                  "title": "你不知道的JavaScript（上卷） - 1.1 编译原理 - 凯尔辛普森 - 微信读书"
-                }
-              },
-              {
-                "id": "6341820c64e6b896",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://www.zhihu.com/?theme=dark",
-                    "title": "(6 封私信 / 80 条消息) 首页 - 知乎",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "(6 封私信 / 80 条消息) 首页 - 知乎"
+                  "title": "你不知道的JavaScript（上卷） - 1.2 理解作用域 - 凯尔辛普森 - 微信读书"
                 }
               }
             ]
@@ -229,11 +215,25 @@
                   "type": "webviewer",
                   "state": {
                     "url": "https://chatgpt.com/",
-                    "title": "chatgpt.com",
-                    "mode": "error"
+                    "title": "请稍候…",
+                    "mode": "webview"
                   },
                   "icon": "globe-2",
-                  "title": "chatgpt.com"
+                  "title": "请稍候…"
+                }
+              },
+              {
+                "id": "493010ac00643f5c",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://gitcode.com/ai/?id=1894595223932964866",
+                    "title": "GitCode AI",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "GitCode AI"
                 }
               },
               {
@@ -279,11 +279,11 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 5
           }
         ],
         "direction": "horizontal",
-        "width": 316.5
+        "width": 400.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -300,8 +300,8 @@
         }
       },
       "active": "16207a2c8dd9a8bb",
-      "mtime": "2025-02-23T20:44:06+08:00"
+      "mtime": "2025-02-26T16:18:33+08:00"
     }
   },
-  "active": "你不知道的JavaScript"
+  "active": "j1"
 }
