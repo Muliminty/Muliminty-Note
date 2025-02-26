@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3f7db8a00afede48",
+            "id": "464926f04484ec37",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "webviewer",
               "state": {
-                "file": "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{4}--第4章Lernai源码分析（加餐）/4-4lerna初始化过程源码详细分析.md",
-                "mode": "source",
-                "source": false
+                "url": "https://www.bilibili.com/",
+                "title": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+                "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "4-4lerna初始化过程源码详细分析"
+              "icon": "globe-2",
+              "title": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili"
             }
           }
         ]
@@ -101,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -150,13 +151,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{4}--第4章Lernai源码分析（加餐）/4-4lerna初始化过程源码详细分析.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "4-4lerna初始化过程源码详细分析 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -230,7 +230,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 316.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,10 +247,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3f7db8a00afede48",
+  "active": "464926f04484ec37",
   "lastOpenFiles": [
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{3}--第3章脚手架模块拆分策略和core模块技术方案/3-1脚手架模块拆分策略.md",
+    "书签.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{4}--第4章Lernai源码分析（加餐）/4-4lerna初始化过程源码详细分析.md",
+    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{3}--第3章脚手架模块拆分策略和core模块技术方案/3-1脚手架模块拆分策略.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{4}--第4章Lernai源码分析（加餐）/4-3Node源码调试过程中必会的小技巧.md",
     "小记/抽象语法树：Abstract Syntax Tree,AST.md",
     "读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
@@ -281,7 +283,6 @@
     "小册/冴羽-深入系列文章/附件/Pasted image 20250221163124.png",
     "小册/冴羽-深入系列文章/02-JavaScript深入之词法作用域和动态作用域.md",
     "小册/冴羽-深入系列文章/附件",
-    "书签.md",
     "README.md",
     "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson05-渲染流程（上）：HTML、CSS和JavaScript是如何变成页面的.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计/附件/Pasted image 20250219220636.png",
