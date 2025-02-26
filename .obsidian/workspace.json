@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "7cabc3398a2e8dd1",
+        "id": "222a368c3efabb2a",
         "type": "tabs",
         "children": [
           {
-            "id": "11d971db94fd522c",
+            "id": "1c7168cafe5431fc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "webviewer",
               "state": {
-                "file": "00-编程/004-各种疑难杂症/npm install时报错deprecated core-js@2.6.12.md",
-                "mode": "source",
-                "source": false
+                "url": "https://juejin.cn/",
+                "title": "稀土掘金",
+                "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "npm install时报错deprecated core-js@2.6.12"
+              "icon": "globe-2",
+              "title": "稀土掘金"
+            }
+          },
+          {
+            "id": "393f9f97b0edb4cd",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://juejin.cn/post/7432314654288199690",
+                "title": "前端开发神器的webStorm！简直不要太好用！最近听说webStorm 免费了，赶紧来试试传说中的前端开发神器！虽然不 - 掘金",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "前端开发神器的webStorm！简直不要太好用！最近听说webStorm 免费了，赶紧来试试传说中的前端开发神器！虽然不 - 掘金"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,13 +165,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-编程/004-各种疑难杂症/npm install时报错deprecated core-js@2.6.12.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "npm install时报错deprecated core-js@2.6.12 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -246,8 +260,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "11d971db94fd522c",
+  "active": "393f9f97b0edb4cd",
   "lastOpenFiles": [
+    "剪藏/Next.js + tRPC + Auth.js + Drizzle ORM： 打造极致全栈开发体验Next.js 全.md",
+    "剪藏",
     "00-编程/004-各种疑难杂症/npm install时报错deprecated core-js@2.6.12.md",
     "小记/抽象语法树：Abstract Syntax Tree,AST.md",
     "读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
@@ -283,11 +299,9 @@
     "小册/冴羽-深入系列文章/附件",
     "书签.md",
     "README.md",
-    "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson05-渲染流程（上）：HTML、CSS和JavaScript是如何变成页面的.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计/附件/Pasted image 20250219220636.png",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计/附件",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发",
     "小记/附件/Pasted image 20250214170620.png",
     "小记/附件/Pasted image 20250214170603.png",
     "小记/附件/Pasted image 20250214170413.png",
