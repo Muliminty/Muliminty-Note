@@ -4,21 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "8dbc47515aecc9f5",
+        "id": "0daf744d493f15fc",
         "type": "tabs",
         "children": [
           {
-            "id": "464926f04484ec37",
+            "id": "e9d722c49dd158cb",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "kanban",
               "state": {
-                "url": "https://www.bilibili.com/",
-                "title": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
-                "mode": "webview"
+                "file": "未命名看板.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
+                }
               },
-              "icon": "globe-2",
-              "title": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili"
+              "icon": "lucide-trello",
+              "title": "未命名看板"
             }
           }
         ]
@@ -101,8 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -151,12 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "01-1作用域是什么 的大纲"
             }
           },
           {
@@ -181,6 +183,20 @@
               },
               "icon": "globe-2",
               "title": "chatgpt.com"
+            }
+          },
+          {
+            "id": "493010ac00643f5c",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://gitcode.com/ai/?id=1894595223932964866",
+                "title": "GitCode AI",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "GitCode AI"
             }
           },
           {
@@ -226,11 +242,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 316.5,
+    "width": 400.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -247,48 +263,48 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "464926f04484ec37",
+  "active": "b76d5d4c5f29b876",
   "lastOpenFiles": [
     "书签.md",
+    "未命名看板.md",
+    "index.md",
+    "README.md",
+    "test.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{4}--第4章Lernai源码分析（加餐）/4-4lerna初始化过程源码详细分析.md",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{3}--第3章脚手架模块拆分策略和core模块技术方案/3-1脚手架模块拆分策略.md",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{4}--第4章Lernai源码分析（加餐）/4-3Node源码调试过程中必会的小技巧.md",
-    "小记/抽象语法树：Abstract Syntax Tree,AST.md",
     "读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
+    "剪藏/Next.js + tRPC + Auth.js + Drizzle ORM： 打造极致全栈开发体验Next.js 全.md",
+    "Excalidraw/Drawing 2025-02-26 13.47.06.excalidraw.md",
     "Excalidraw/Drawing 2025-02-24 21.42.44.excalidraw.md",
+    "小记/未命名.md",
+    "00-编程/前端基础-框架-React/组件/富文本解析组件(将富文本解析成自定义组件).md",
+    "00-编程/前端基础-框架-React/useImperativeHandle和forwardRef.md",
+    "00-编程/前端基础-框架-React/React 嵌套路由详解.md",
+    "小册/浏览器工作原理与实践/05-浏览器中的页面/lesson22.md",
+    "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson05-渲染流程（上）：HTML、CSS和JavaScript是如何变成页面的.md",
+    "00-编程/前端基础-JavaScript/树结构处理/父子节点联动.md",
+    "00-编程/前端基础-框架-React/路由拦截.md",
+    "剪藏",
+    "00-编程/004-各种疑难杂症/npm install时报错deprecated core-js@2.6.12.md",
+    "小记/抽象语法树：Abstract Syntax Tree,AST.md",
     "Excalidraw/javscript.md",
+    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{4}--第4章Lernai源码分析（加餐）/4-3Node源码调试过程中必会的小技巧.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{2}--脚手架架构设计和框架搭建/{4}--第4章Lernai源码分析（加餐）/4-2 lerna源码结构分析和调试技巧.md",
     "00-编程/002-前端架构师课程/学习进度.md",
     "00-编程/002-前端架构师课程/高级前端架构师知识图谱.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{4}--第4章脚手架执行准备过程实现/4-1脚手架框架代码拆包+import-local应用.md",
-    "读书笔记/你不知道的JavaScript/未命名.md",
-    "小记/队列来控制并发任务.md",
-    "index.md",
-    "小记/antd x.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{4}--第4章脚手架执行准备过程实现",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计/2-4高端操作：脚手架架构设计+绘制架构图.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{3}--第3章脚手架模块拆分策略和core模块技术方案",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计/2-2前端研发过程中的痛点和需求分析.md",
-    "00-编程/前端基础-JavaScript/编译原理/编译原理-即时编译JIT.md",
-    "读书笔记/你不知道的JavaScript/备注/20250221182630.md",
     "读书笔记/你不知道的JavaScript/未命名/未命名",
     "读书笔记/你不知道的JavaScript/备注",
-    "小册/冴羽-深入系列文章/08-JavaScript深入之闭包.md",
     "读书笔记/你不知道的JavaScript",
     "读书笔记",
-    "归档/面试之道/面试宝典/计算机网络面试宝典.md",
-    "小册/冴羽-深入系列文章/01-JavaScript深入之从原型到原型链.md",
     "小册/冴羽-深入系列文章/附件/Pasted image 20250221163214.png",
     "小册/冴羽-深入系列文章/附件/Pasted image 20250221163208.png",
     "小册/冴羽-深入系列文章/附件/Pasted image 20250221163124.png",
-    "小册/冴羽-深入系列文章/02-JavaScript深入之词法作用域和动态作用域.md",
     "小册/冴羽-深入系列文章/附件",
-    "README.md",
-    "小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson05-渲染流程（上）：HTML、CSS和JavaScript是如何变成页面的.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计/附件/Pasted image 20250219220636.png",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计/附件",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发",
     "小记/附件/Pasted image 20250214170620.png",
     "小记/附件/Pasted image 20250214170603.png",
     "小记/附件/Pasted image 20250214170413.png",
