@@ -4,57 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "25e95c614e6377f1",
+        "id": "0daf744d493f15fc",
         "type": "tabs",
-        "dimension": 46.297872340425535,
         "children": [
           {
-            "id": "5d85b53a484542e1",
+            "id": "e9d722c49dd158cb",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://weread.qq.com/web/reader/8c632230715c01a18c683d8k65132ca01b6512bd43d90e3",
-                "title": "你不知道的JavaScript（上卷） - 1.2 理解作用域 - 凯尔辛普森 - 微信读书",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "你不知道的JavaScript（上卷） - 1.2 理解作用域 - 凯尔辛普森 - 微信读书"
-            }
-          }
-        ]
-      },
-      {
-        "id": "21655aac9448d5b6",
-        "type": "tabs",
-        "dimension": 53.70212765957447,
-        "children": [
-          {
-            "id": "16207a2c8dd9a8bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "01-1作用域是什么"
-            }
-          },
-          {
-            "id": "4b8a630a94a43605",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "小记/抽象语法树：Abstract Syntax Tree,AST.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "抽象语法树：Abstract Syntax Tree,AST"
+              "title": "新标签页"
             }
           }
         ]
@@ -137,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -281,7 +240,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 400.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -297,7 +257,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "16207a2c8dd9a8bb",
+  "active": "b76d5d4c5f29b876",
   "lastOpenFiles": [
     "读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
     "书签.md",
