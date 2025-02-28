@@ -13,15 +13,30 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://juejin.cn/",
-                "title": "稀土掘金",
+                "url": "https://juejin.cn/recommended",
+                "title": "推荐 - 文章 - 掘金",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "稀土掘金"
+              "title": "推荐 - 文章 - 掘金"
+            }
+          },
+          {
+            "id": "4d7253554cae9af7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "小记/React Fiber 架构核心原理笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "React Fiber 架构核心原理笔记"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Express",
+                "query": "Fiber",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -80,7 +95,8 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "3b634e9dce37d622",
@@ -101,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -262,8 +277,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "432a007445f57504",
+  "active": "30be7aca9a73ace4",
   "lastOpenFiles": [
+    "小记/React Fiber 架构核心原理笔记.md",
     "test.md",
     "书签.md",
     "index.md",
@@ -291,7 +307,6 @@
     "剪藏",
     "00-编程/004-各种疑难杂症/npm install时报错deprecated core-js@2.6.12.md",
     "小记/抽象语法树：Abstract Syntax Tree,AST.md",
-    "Excalidraw/javscript.md",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{4}--第4章脚手架执行准备过程实现",
     "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{3}--第3章脚手架模块拆分策略和core模块技术方案",
     "读书笔记/你不知道的JavaScript/未命名/未命名",
