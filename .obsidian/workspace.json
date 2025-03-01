@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -290,14 +290,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "bfd3d978b9fe931b",
+  "active": "4b8a630a94a43605",
   "lastOpenFiles": [
+    "index.md",
     "未命名看板.md",
     "书签.md",
     "前端知识图谱.md",
     "前端大纲.md",
     "小记/未命名.md",
-    "index.md",
     "test.md",
     "00-编程/002-前端架构师课程/高级前端架构师知识图谱.md",
     "读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
