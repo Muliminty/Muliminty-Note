@@ -4,51 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "5d16e500adbf4b69",
+        "id": "3b105c4cf7e054e2",
         "type": "tabs",
+        "dimension": 62.03438395415473,
         "children": [
           {
-            "id": "3ddc2974629f48af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-编程/前端基础-JavaScript/JavaScript.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JavaScript"
-            }
-          },
-          {
-            "id": "1a1eb0f7af1dca91",
+            "id": "927999b52a5afec1",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "网课/coderwhy/JavaScript基础/07_JavaScript函数的使用.pdf"
+                "file": "网课/coderwhy/JavaScript高级pdf/01_JavaScript高级-this指向.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "07_JavaScript函数的使用"
+              "title": "01_JavaScript高级-this指向"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "b84c6da5011fe301",
+        "type": "tabs",
+        "dimension": 37.96561604584527,
+        "children": [
           {
-            "id": "c81124401301ac43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端大纲.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "前端大纲"
-            }
-          },
-          {
-            "id": "222c40c82e688e4b",
+            "id": "275c4d445c586b97",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,17 +42,17 @@
             }
           },
           {
-            "id": "dc5c7d59440c4f45",
+            "id": "785128b0f6c6b3c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-编程/前端基础-JavaScript/基础-关键字/0001-var let const.md",
+                "file": "00-编程/前端基础-JavaScript/基础-关键字/this.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0001-var let const"
+              "title": "this"
             }
           }
         ],
@@ -156,7 +136,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 400.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -186,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网课/coderwhy/JavaScript基础/07_JavaScript函数的使用.pdf",
+                "file": "00-编程/前端基础-JavaScript/基础-关键字/this.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "07_JavaScript函数的使用 的大纲"
+              "title": "this 的大纲"
             }
           },
           {
@@ -329,25 +310,26 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "785128b0f6c6b3c1",
   "lastOpenFiles": [
-    "网课/coderwhy/JavaScript基础/05_JavaScript分支语句和逻辑运算符.pdf",
-    "网课/coderwhy/JavaScript基础/04_JavaScript常见的运算符.pdf",
-    "网课/coderwhy/JavaScript基础/03_JavaScript变量和数据类型.pdf",
-    "网课/coderwhy/JavaScript基础/01_邂逅JavaScript.pdf",
-    "网课/coderwhy/JavaScript高级pdf/02_深入浏览器的渲染原理.pdf",
+    "网课/coderwhy/JavaScript高级pdf/01_JavaScript高级-this指向.pdf",
     "网课/coderwhy/JavaScript基础/14_JavaScript的BOM操作.pdf",
     "网课/coderwhy/JavaScript基础/13_JavaScript-DOM实战案例.pdf",
     "网课/coderwhy/JavaScript基础/12_JavaScript的事件监听.pdf",
     "网课/coderwhy/JavaScript基础/11_JavaScript的DOM操作（二）.pdf",
     "网课/coderwhy/JavaScript基础/10_JavaScript的DOM操作（一）.pdf",
     "网课/coderwhy/JavaScript基础/09_JavaScript的内置类.pdf",
-    "小记/草稿.md",
-    "00-编程/前端基础-JavaScript/基础-关键字/0001-var let const.md",
-    "小记/blog-当你输入var之后发生了什么.md",
+    "网课/coderwhy/JavaScript基础/08_JavaScript的面向对象.pdf",
+    "网课/coderwhy/JavaScript基础/08_JavaScript的事件监听.pdf",
+    "网课/coderwhy/JavaScript基础/05_JavaScript分支语句和逻辑运算符.pdf",
+    "网课/coderwhy/JavaScript基础/07_JavaScript函数的使用.pdf",
+    "00-编程/前端基础-JavaScript/基础-关键字/this.md",
     "00-编程/前端基础-JavaScript/JavaScript.md",
     "前端大纲.md",
     "前端知识图谱.md",
+    "小记/草稿.md",
+    "00-编程/前端基础-JavaScript/基础-关键字/0001-var let const.md",
+    "小记/blog-当你输入var之后发生了什么.md",
     "fsj-cv复盘.md",
     "未命名看板.md",
     "00-编程/前端基础-JavaScript/基础-关键字/promise/promise.md",
@@ -366,7 +348,6 @@
     "网课/002-前端架构师课程/高级前端架构师知识图谱.md",
     "小记/React Fiber 架构核心原理笔记.md",
     "00-编程/前端提高-node/使用 simple-git 操作 Git：详细指南.md",
-    "剪藏/核弹级产品 MetaGPT X 发布：一键生成全栈应用程序！最近，一款名为 MetaGPT X（MetaGPT X）的产.md",
     "小册/冴羽-深入系列文章/附件/Pasted image 20250221163214.png",
     "小册/冴羽-深入系列文章/附件/Pasted image 20250221163208.png",
     "小册/冴羽-深入系列文章/附件/Pasted image 20250221163124.png",
