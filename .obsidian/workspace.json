@@ -27,10 +27,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "网课/coderwhy/JavaScript高级pdf/01_JavaScript高级-this指向.pdf"
+                "file": "网课/coderwhy/JavaScript基础/07_JavaScript函数的使用.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "01_JavaScript高级-this指向"
+              "title": "07_JavaScript函数的使用"
             }
           },
           {
@@ -156,7 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 400.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -186,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网课/coderwhy/JavaScript高级pdf/01_JavaScript高级-this指向.pdf",
+                "file": "网课/coderwhy/JavaScript基础/07_JavaScript函数的使用.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "01_JavaScript高级-this指向 的大纲"
+              "title": "07_JavaScript函数的使用 的大纲"
             }
           },
           {
@@ -331,18 +331,19 @@
   },
   "active": "1a1eb0f7af1dca91",
   "lastOpenFiles": [
+    "网课/coderwhy/JavaScript基础/05_JavaScript分支语句和逻辑运算符.pdf",
+    "网课/coderwhy/JavaScript基础/04_JavaScript常见的运算符.pdf",
+    "网课/coderwhy/JavaScript基础/03_JavaScript变量和数据类型.pdf",
+    "网课/coderwhy/JavaScript基础/01_邂逅JavaScript.pdf",
+    "网课/coderwhy/JavaScript高级pdf/02_深入浏览器的渲染原理.pdf",
+    "网课/coderwhy/JavaScript基础/14_JavaScript的BOM操作.pdf",
+    "网课/coderwhy/JavaScript基础/13_JavaScript-DOM实战案例.pdf",
+    "网课/coderwhy/JavaScript基础/12_JavaScript的事件监听.pdf",
+    "网课/coderwhy/JavaScript基础/11_JavaScript的DOM操作（二）.pdf",
+    "网课/coderwhy/JavaScript基础/10_JavaScript的DOM操作（一）.pdf",
+    "网课/coderwhy/JavaScript基础/09_JavaScript的内置类.pdf",
     "小记/草稿.md",
-    "网课/coderwhy/JavaScript高级pdf/01_JavaScript高级-this指向.pdf",
     "00-编程/前端基础-JavaScript/基础-关键字/0001-var let const.md",
-    "网课/coderwhy/JavaScript高级pdf/16_storage和正则表达式.pdf",
-    "网课/coderwhy/JavaScript高级pdf/15_await-async-事件循环.pdf",
-    "网课/coderwhy/JavaScript高级pdf/14_Iterator-Generator.pdf",
-    "网课/coderwhy/JavaScript高级pdf/13_Promise用法详解.pdf",
-    "网课/coderwhy/JavaScript高级pdf/12_Proxy-Reflect详解.pdf",
-    "网课/coderwhy/JavaScript高级pdf/11_ES6~ES13新特性（三）.pdf",
-    "网课/coderwhy/JavaScript高级pdf/10_ES6~ES13新特性（二）.pdf",
-    "网课/coderwhy/JavaScript高级pdf/09_ES6~ES13新特性（一）.pdf",
-    "网课/coderwhy/JavaScript高级pdf/08_JavaScript ES6实现继承.pdf",
     "小记/blog-当你输入var之后发生了什么.md",
     "00-编程/前端基础-JavaScript/JavaScript.md",
     "前端大纲.md",
