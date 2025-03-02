@@ -25,14 +25,12 @@
             "id": "1a1eb0f7af1dca91",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "00-编程/前端基础-JavaScript/基础-关键字/0001-var let const.md",
-                "mode": "source",
-                "source": false
+                "file": "网课/coderwhy/JavaScript高级pdf/01_JavaScript高级-this指向.pdf"
               },
-              "icon": "lucide-file",
-              "title": "0001-var let const"
+              "icon": "lucide-file-text",
+              "title": "01_JavaScript高级-this指向"
             }
           },
           {
@@ -79,26 +77,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "5778cfcac5ba49d4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1cc559fb8912ba8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "小记/blog-当你输入var之后发生了什么.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "blog-当你输入var之后发生了什么"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +97,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -178,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -209,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "小记/blog-当你输入var之后发生了什么.md",
+                "file": "网课/coderwhy/JavaScript高级pdf/01_JavaScript高级-this指向.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "blog-当你输入var之后发生了什么 的大纲"
+              "title": "01_JavaScript高级-this指向 的大纲"
             }
           },
           {
@@ -331,8 +308,7 @@
               "title": "分词/词法分析 - Kimi.ai"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -353,20 +329,27 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1cc559fb8912ba8d",
+  "active": "1a1eb0f7af1dca91",
   "lastOpenFiles": [
+    "小记/草稿.md",
+    "网课/coderwhy/JavaScript高级pdf/01_JavaScript高级-this指向.pdf",
     "00-编程/前端基础-JavaScript/基础-关键字/0001-var let const.md",
+    "网课/coderwhy/JavaScript高级pdf/16_storage和正则表达式.pdf",
+    "网课/coderwhy/JavaScript高级pdf/15_await-async-事件循环.pdf",
+    "网课/coderwhy/JavaScript高级pdf/14_Iterator-Generator.pdf",
+    "网课/coderwhy/JavaScript高级pdf/13_Promise用法详解.pdf",
+    "网课/coderwhy/JavaScript高级pdf/12_Proxy-Reflect详解.pdf",
+    "网课/coderwhy/JavaScript高级pdf/11_ES6~ES13新特性（三）.pdf",
+    "网课/coderwhy/JavaScript高级pdf/10_ES6~ES13新特性（二）.pdf",
+    "网课/coderwhy/JavaScript高级pdf/09_ES6~ES13新特性（一）.pdf",
+    "网课/coderwhy/JavaScript高级pdf/08_JavaScript ES6实现继承.pdf",
     "小记/blog-当你输入var之后发生了什么.md",
     "00-编程/前端基础-JavaScript/JavaScript.md",
     "前端大纲.md",
     "前端知识图谱.md",
     "fsj-cv复盘.md",
-    "小记/草稿.md",
     "未命名看板.md",
     "00-编程/前端基础-JavaScript/基础-关键字/promise/promise.md",
-    "00-编程/前端基础-JavaScript/开发技巧",
-    "00-编程/前端基础-JavaScript/深入-知识点",
-    "00-编程/前端基础-JavaScript/基础-关键字",
     "index.md",
     "00-编程/006-面经/cv：ES6：模块系统的实时绑定.md",
     "小册/冴羽-深入系列文章/01-JavaScript深入之从原型到原型链.md",
@@ -383,14 +366,6 @@
     "小记/React Fiber 架构核心原理笔记.md",
     "00-编程/前端提高-node/使用 simple-git 操作 Git：详细指南.md",
     "剪藏/核弹级产品 MetaGPT X 发布：一键生成全栈应用程序！最近，一款名为 MetaGPT X（MetaGPT X）的产.md",
-    "00-编程/前端工程化-脚手架开发/生成代码模板的实现原理.md",
-    "00-编程/前端工程化-脚手架开发",
-    "剪藏",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{4}--第4章脚手架执行准备过程实现",
-    "00-编程/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{3}--第3章脚手架模块拆分策略和core模块技术方案",
-    "读书笔记/你不知道的JavaScript/未命名/未命名",
-    "读书笔记/你不知道的JavaScript/备注",
-    "读书笔记/你不知道的JavaScript",
     "小册/冴羽-深入系列文章/附件/Pasted image 20250221163214.png",
     "小册/冴羽-深入系列文章/附件/Pasted image 20250221163208.png",
     "小册/冴羽-深入系列文章/附件/Pasted image 20250221163124.png",
