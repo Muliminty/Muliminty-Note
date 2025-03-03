@@ -14,7 +14,7 @@
   - CSS预处理器（Sass/Less）  
   - CSS架构（BEM/OOCSS）
 
-- **[JavaScript](00-编程/前端基础-JavaScript/JavaScript.md)**  
+- **[JavaScript](00-Core/JavaScript/前端基础-JavaScript/JavaScript.md)**  
   - ES6+核心语法（箭头函数、解构、Promise等）  
   - 原型链、闭包、事件循环机制  
   - DOM/BOM操作  
