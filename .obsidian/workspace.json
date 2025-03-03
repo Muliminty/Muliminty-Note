@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-计算机科学体系/Theory/编译原理/概述.md",
+                "file": "01-计算机科学体系/Theory/算法与数据结构/概述.md",
                 "mode": "source",
                 "source": false
               },
@@ -276,8 +276,11 @@
   },
   "active": "af588e848d691f42",
   "lastOpenFiles": [
-    "obsidian规范/未命名 3.md",
+    "obsidian规范/未命名.md",
+    "obsidian规范/笔记规范2.md",
+    "01-计算机科学体系/Theory/算法与数据结构/概述.md",
     "01-计算机科学体系/Theory/编译原理/概述.md",
+    "obsidian规范/未命名 3.md",
     "02-开发运维/Infra",
     "02-开发运维/VCS",
     "01-计算机科学体系/Theory/编译原理",
@@ -291,8 +294,6 @@
     "00-前端/!MOC-Frontend.md",
     "02-开发运维/Infra/运维-docker/文档.md",
     "obsidian规范/未命名 1.md",
-    "obsidian规范/未命名.md",
-    "obsidian规范/笔记规范2.md",
     "obsidian规范/笔记规范.md",
     "前端大纲.md",
     "obsidian规范/未命名 2.md",
@@ -311,7 +312,6 @@
     "小册/冴羽-深入系列文章/01-JavaScript深入之从原型到原型链.md",
     "小册/浏览器工作原理与实践/README.md",
     "小记/前端提高：性能优化.md",
-    "归档/面试之道/面试宝典/计算机网络面试宝典.md",
     "小册/冴羽-深入系列文章/附件/Pasted image 20250221163214.png",
     "小册/冴羽-深入系列文章/附件/Pasted image 20250221163208.png",
     "小册/冴羽-深入系列文章/附件/Pasted image 20250221163124.png",
