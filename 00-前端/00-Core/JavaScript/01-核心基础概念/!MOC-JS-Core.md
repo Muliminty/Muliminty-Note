@@ -4,15 +4,17 @@
   - !MOC-JS-Core        # 核心概念导航地图
   - 0-Execution-Context # 执行上下文体系
     - [[变量对象]]     # variable-object
+    - 变量查找机制
+	    - [LHS 和 RHS](执行上下文体系/LHS%20和%20RHS.md)
     - [[作用域链]]     # scope-chain
 	- [声明机制](执行上下文体系/声明机制.md)        # declaration # scope
-    - var的变量提升
-    - let/const的暂时性死区（TDZ）
-    - 块级作用域实现
+	    - var的变量提升
+	    - let/const的暂时性死区（TDZ）
+	    - 块级作用域实现
 	- [[作用域类型]]      # scope-type
-    - 全局作用域
-    - 函数作用域
-    - 块级作用域
+	    - 全局作用域
+	    - 函数作用域
+	    - 块级作用域
   - 1-Type-System       # 类型系统
     - [[原始类型]]     # primitive-type
     - [[类型转换]]     # type-coercion
