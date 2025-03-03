@@ -1,5 +1,6 @@
 {
-  "cssTheme": "Blue Topaz",
+  "cssTheme": "Things",
   "nativeMenus": false,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "accentColor": "#09a6fb"
 }

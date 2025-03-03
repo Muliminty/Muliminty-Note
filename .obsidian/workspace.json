@@ -4,38 +4,61 @@
     "type": "split",
     "children": [
       {
-        "id": "8651279cca9895ca",
+        "id": "25e95c614e6377f1",
         "type": "tabs",
+        "dimension": 49.128686327077745,
         "children": [
           {
-            "id": "ffa91b137e948bf0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-计算机科学体系/Theory/算法与数据结构/概述.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "概述"
-            }
-          },
-          {
-            "id": "054ea335d7049334",
+            "id": "5d85b53a484542e1",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://weread.qq.com/web/reader/8c632230715c01a18c683d8",
-                "title": "你不知道的JavaScript（上卷） - 凯尔辛普森 - 微信读书",
-                "mode": "blank"
+                "url": "https://weread.qq.com/web/reader/8c632230715c01a18c683d8k65132ca01b6512bd43d90e3",
+                "title": "你不知道的JavaScript（上卷） - 1.2 理解作用域 - 凯尔辛普森 - 微信读书",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "你不知道的JavaScript（上卷） - 凯尔辛普森 - 微信读书"
+              "title": "你不知道的JavaScript（上卷） - 1.2 理解作用域 - 凯尔辛普森 - 微信读书"
             }
           }
         ]
+      },
+      {
+        "id": "21655aac9448d5b6",
+        "type": "tabs",
+        "dimension": 50.87131367292225,
+        "children": [
+          {
+            "id": "16207a2c8dd9a8bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01-1作用域是什么"
+            }
+          },
+          {
+            "id": "1e087d0b7e291b8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-前端/00-Core/JavaScript/03-引擎原理/LHS 和 RHS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LHS 和 RHS"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -56,7 +79,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -69,7 +92,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -83,7 +106,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "数组",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -115,7 +138,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -126,41 +150,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d530c91dc201658",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "小记/草稿.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "草稿"
-            }
-          },
-          {
-            "id": "cc089dfc51082da7",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "00-编程/前端基础-JavaScript/基础-关键字/this.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "this 的大纲"
-            }
-          },
-          {
             "id": "2d8b45923dba1000",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "小记/blog-当你输入var之后发生了什么.md",
+                "file": "小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +165,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "blog-当你输入var之后发生了什么 的反向链接列表"
+              "title": "lesson08-调用栈：为什么JavaScript代码会出现栈溢出 的反向链接列表"
             }
           },
           {
@@ -185,6 +180,21 @@
               },
               "icon": "links-going-out",
               "title": "01-JavaScript深入之从原型到原型链 的出链列表"
+            }
+          },
+          {
+            "id": "cc089dfc51082da7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "01-1作用域是什么 的大纲"
             }
           },
           {
@@ -217,7 +227,7 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://gitcode.com/ai/?id=1895767429534228482",
+                "url": "https://gitcode.com/ai/?id=1894595223932964866",
                 "title": "GitCode AI",
                 "mode": "webview"
               },
@@ -267,11 +277,12 @@
               "title": "分词/词法分析 - Kimi.ai"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 483.5,
+    "width": 473.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -283,22 +294,26 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-kanban:创建新看板": false,
-      "workspaces:管理工作区布局": false,
       "obsidian-memos:Thino": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "ffa91b137e948bf0",
+  "active": "1e087d0b7e291b8e",
   "lastOpenFiles": [
+    "读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
+    "00-前端/00-Core/JavaScript/01-核心基础概念/!MOC-JS-Core.md",
+    "00-前端/00-Core/JavaScript/JavaScript.md",
+    "00-前端/00-Core/JavaScript/03-引擎原理/LHS 和 RHS.md",
+    "读书笔记/你不知道的JavaScript/完整大纲整理.md",
+    "Excalidraw/Drawing 2025-03-03 15.25.23.excalidraw.md",
+    "01-计算机科学体系/Theory/算法与数据结构/概述.md",
     "01-计算机科学体系/Theory/算法与数据结构/时间复杂度与空间复杂度.md",
     "01-计算机科学体系/Theory/编译原理/概述.md",
-    "01-计算机科学体系/Theory/算法与数据结构/概述.md",
     "00-前端/00-Core/JavaScript/01-核心基础概念/函数机制/this绑定.md",
     "00-前端/00-Core/JavaScript/01-核心基础概念/函数机制/箭头函数.md",
     "00-前端/00-Core/JavaScript/01-核心基础概念/执行上下文体系/声明机制.md",
-    "00-前端/00-Core/JavaScript/01-核心基础概念/!MOC-JS-Core.md",
     "(函数机制/this绑定.md).md",
-    "00-前端/00-Core/JavaScript/JavaScript.md",
     "00-前端/00-Core/JavaScript/02-进阶机制/深入-知识点/编译原理/执行上下文.md",
     "(函数机制",
     "00-前端/!MOC-Frontend.md",
@@ -318,10 +333,6 @@
     "00-前端/00-Core/JavaScript/04-实战技巧/开发技巧/数组类型/附件/数组 -- 分割成若干个指定长度的二维数组.png",
     "00-前端/00-Core/JavaScript/04-实战技巧/开发技巧/树结构处理/附件",
     "00-前端/00-Core/JavaScript/04-实战技巧/开发技巧/树结构处理/递归实现给每个对象打层级.md",
-    "00-前端/00-Core/JavaScript/04-实战技巧/开发技巧/树结构处理/父子节点联动.md",
-    "00-前端/00-Core/JavaScript/04-实战技巧/开发技巧/树结构处理/根据对象的type进行分组合并成tree.md",
-    "00-前端/00-Core/JavaScript/04-实战技巧/开发技巧/树结构处理/树结构扁平化方法.md",
-    "00-前端/00-Core/JavaScript/04-实战技巧/开发技巧/树结构处理/JavaScript 树结构处理方法.md",
     "00-前端/00-Core/JavaScript/04-实战技巧/开发技巧/数组类型/附件",
     "00-前端/00-Core/JavaScript/04-实战技巧/开发技巧/树结构处理",
     "00-前端/00-Core/JavaScript/04-实战技巧/开发技巧/数组类型",
