@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian规范/未命名 3.md",
+                "file": "01-计算机科学体系/Theory/编译原理/概述.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名 3"
+              "title": "概述"
             }
           }
         ]
@@ -276,6 +276,8 @@
   },
   "active": "af588e848d691f42",
   "lastOpenFiles": [
+    "obsidian规范/未命名 3.md",
+    "01-计算机科学体系/Theory/编译原理/概述.md",
     "02-开发运维/Infra",
     "02-开发运维/VCS",
     "01-计算机科学体系/Theory/编译原理",
@@ -286,9 +288,7 @@
     "00-前端/工程化体系/架构设计",
     "00-前端/工程化体系/构建工具",
     "00-前端/框架生态/React/源码解析",
-    "00-前端/框架生态/React/核心机制",
     "00-前端/!MOC-Frontend.md",
-    "obsidian规范/未命名 3.md",
     "02-开发运维/Infra/运维-docker/文档.md",
     "obsidian规范/未命名 1.md",
     "obsidian规范/未命名.md",
