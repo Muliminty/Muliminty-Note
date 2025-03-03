@@ -4,45 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3b105c4cf7e054e2",
+        "id": "4948726f1487d34b",
         "type": "tabs",
-        "dimension": 62.03438395415473,
         "children": [
           {
-            "id": "927999b52a5afec1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "网课/coderwhy/JavaScript高级pdf/01_JavaScript高级-this指向.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "01_JavaScript高级-this指向"
-            }
-          }
-        ]
-      },
-      {
-        "id": "b84c6da5011fe301",
-        "type": "tabs",
-        "dimension": 37.96561604584527,
-        "children": [
-          {
-            "id": "275c4d445c586b97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-编程/前端基础-JavaScript/JavaScript.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JavaScript"
-            }
-          },
-          {
-            "id": "785128b0f6c6b3c1",
+            "id": "af588e848d691f42",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,8 +21,7 @@
               "title": "this"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,8 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5,
-    "collapsed": true
+    "width": 310.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -310,8 +274,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "785128b0f6c6b3c1",
+  "active": "af588e848d691f42",
   "lastOpenFiles": [
+    "网课/coderwhy/JavaScript基础/02_JavaScript基础语法.pdf",
+    "网课/coderwhy/JavaScript基础/01_邂逅JavaScript.pdf",
+    "小记/fsj-cv复盘.md",
+    "00-编程/前端基础-JavaScript/JavaScript.md",
+    "00-编程/前端基础-JavaScript/基础-关键字/this.md",
     "网课/coderwhy/JavaScript高级pdf/01_JavaScript高级-this指向.pdf",
     "网课/coderwhy/JavaScript基础/14_JavaScript的BOM操作.pdf",
     "网课/coderwhy/JavaScript基础/13_JavaScript-DOM实战案例.pdf",
@@ -321,16 +290,11 @@
     "网课/coderwhy/JavaScript基础/09_JavaScript的内置类.pdf",
     "网课/coderwhy/JavaScript基础/08_JavaScript的面向对象.pdf",
     "网课/coderwhy/JavaScript基础/08_JavaScript的事件监听.pdf",
-    "网课/coderwhy/JavaScript基础/05_JavaScript分支语句和逻辑运算符.pdf",
-    "网课/coderwhy/JavaScript基础/07_JavaScript函数的使用.pdf",
-    "00-编程/前端基础-JavaScript/基础-关键字/this.md",
-    "00-编程/前端基础-JavaScript/JavaScript.md",
     "前端大纲.md",
     "前端知识图谱.md",
     "小记/草稿.md",
     "00-编程/前端基础-JavaScript/基础-关键字/0001-var let const.md",
     "小记/blog-当你输入var之后发生了什么.md",
-    "fsj-cv复盘.md",
     "未命名看板.md",
     "00-编程/前端基础-JavaScript/基础-关键字/promise/promise.md",
     "index.md",
