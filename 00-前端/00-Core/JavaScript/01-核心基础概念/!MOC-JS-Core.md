@@ -1,32 +1,30 @@
 
 ### **目录架构设计（三维模型）**
-```markdown
-📂 01-核心基础概念
-├─ !MOC-JS-Core        # 核心概念导航地图
-├─ 0-Execution-Context # 执行上下文体系
-│  ├─ [[变量对象]]     #variable-object
-│  └─ [[作用域链]]     #scope-chain
-   ├─ [[声明机制]]        #declaration #scope
-   │  ├─ var的变量提升
-   │  ├─ let/const的暂时性死区（TDZ）
-   │  └─ 块级作用域实现
-   └─ [[作用域类型]]      #scope-type
-      ├─ 全局作用域
-      ├─ 函数作用域
-      └─ 块级作用域
-├─ 1-Type-System       # 类型系统
-│  ├─ [[原始类型]]     #primitive-type
-│  └─ [[类型转换]]     #type-coercion
-├─ 2-Function-Mechanism# 函数机制
-│  ├─ [[闭包]]        #closure
-│  └─ [[this绑定]]    #this-binding
-├─ 3-Object-Model      # 对象模型
-│  ├─ [[原型链]]      #prototype-chain
-│  └─ [[属性描述符]]  #property-descriptor
-└─ 4-Concurrency       # 并发模型
-   ├─ [[事件循环]]    #event-loop
-   └─ [[微任务队列]]  #microtask
-```
+- 📂 01-核心基础概念
+  - !MOC-JS-Core        # 核心概念导航地图
+  - 0-Execution-Context # 执行上下文体系
+    - [[变量对象]]     # variable-object
+    - [[作用域链]]     # scope-chain
+	- [声明机制](执行上下文体系/声明机制.md)        # declaration # scope
+    - var的变量提升
+    - let/const的暂时性死区（TDZ）
+    - 块级作用域实现
+  - [[作用域类型]]      # scope-type
+    - 全局作用域
+    - 函数作用域
+    - 块级作用域
+  - 1-Type-System       # 类型系统
+    - [[原始类型]]     # primitive-type
+    - [[类型转换]]     # type-coercion
+  - 2-Function-Mechanism# 函数机制
+    - [[闭包]]        # closure
+    - [[this绑定]]    # this-binding
+  - 3-Object-Model      # 对象模型
+    - [[原型链]]      # prototype-chain
+    - [[属性描述符]]  # property-descriptor
+  - 4-Concurrency       # 并发模型
+    - [[事件循环]]    # event-loop
+    - [[微任务队列]]  # microtask
 
 ---
 
