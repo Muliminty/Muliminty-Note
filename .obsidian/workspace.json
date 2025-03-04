@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "90c2697146a23cab",
+        "id": "e9ebef8cf5d84945",
         "type": "tabs",
         "children": [
           {
-            "id": "4d686eb909018d34",
+            "id": "80bcd5c1cd69d222",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习资源总库/未命名.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "新标签页"
             }
           }
         ]
@@ -117,13 +113,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习资源总库/未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -150,12 +145,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习资源总库/未命名.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "未命名 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -243,7 +237,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 557.5
+    "width": 557.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -261,9 +256,12 @@
   },
   "active": "b76d5d4c5f29b876",
   "lastOpenFiles": [
+    "学习资源总库/读书笔记/你不知道的JavaScript/备注/20250221182630.md",
+    "碎片整理/Thino/2025-03-03.md",
+    "书签.md",
+    "README.md",
     "学习资源总库/未命名.md",
     "学习资源总库",
-    "碎片整理/Thino/2025-03-03.md",
     "碎片整理/Thino/2025-02-17.md",
     "碎片整理/Thino/2025-02-18.md",
     "碎片整理/小记/2025-03-03.md",
@@ -287,9 +285,6 @@
     "(函数机制/this绑定.md).md",
     "00-前端/00-Core/JavaScript/02-进阶机制/深入-知识点/编译原理/执行上下文.md",
     "(函数机制",
-    "00-前端/!MOC-Frontend.md",
-    "00-编程经验/007-Blog/blog-当你输入var之后发生了什么.md",
-    "00-编程经验/007-Blog/掌握 React 性能优化：运用 memoization 技术与代码分割提升效率.md",
     "00-前端/00-Core/JavaScript/01-核心基础概念/执行上下文体系",
     "00-前端/00-Core/JavaScript/01-核心基础概念/函数机制",
     "00-前端/00-Core/JavaScript/04-实战技巧/开发技巧/树结构处理/附件/递归实现给每个对象打层级.png",
