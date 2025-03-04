@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson11-this：从JavaScript执行上下文视角讲this.md",
+                "file": "学习资源总库/小册/浏览器工作原理与实践/03-V8工作原理/lesson12-栈空间和堆空间：数据是如何存储的.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lesson11-this：从JavaScript执行上下文视角讲this"
+              "title": "lesson12-栈空间和堆空间：数据是如何存储的"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson11-this：从JavaScript执行上下文视角讲this.md",
+                "file": "学习资源总库/小册/浏览器工作原理与实践/03-V8工作原理/lesson12-栈空间和堆空间：数据是如何存储的.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "lesson11-this：从JavaScript执行上下文视角讲this 的大纲"
+              "title": "lesson12-栈空间和堆空间：数据是如何存储的 的大纲"
             }
           },
           {
@@ -284,6 +284,8 @@
   "active": "2d0b7350726bc590",
   "lastOpenFiles": [
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson11-this：从JavaScript执行上下文视角讲this.md",
+    "学习资源总库/小册/浏览器工作原理与实践/03-V8工作原理/lesson12-栈空间和堆空间：数据是如何存储的.md",
+    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择.md",
     "学习资源总库/小册/浏览器工作原理与实践/README.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/词法环境-outer.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/MOC-执行模型.md",
@@ -293,7 +295,6 @@
     "00-前端/00-核心/JavaScript/01-核心概念/MOC-核心概念.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/附件/Pasted image 20250304180341.png",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/附件",
-    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择.md",
     "00-编程经验/006-面经/cv：词法作用域和词法环境.md",
     "00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量声明.md",
     "00-前端/00-核心/JavaScript/01-核心概念/函数机制/this绑定.md",
@@ -310,7 +311,6 @@
     "00-编程经验/007-Blog/原生HTML组件化开发深度解析：对象标签与动态加载方案实践.md",
     "00-编程经验/007-Blog/实现一个迷你版的 React.md",
     "00-编程经验/007-Blog/深入剖析 React Context Provider：原理、性能优化与高级实践.md",
-    "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson03-HTTP请求流程：为什么很多站点第二次打开速度会很快.md",
     "学习资源总库/小册/冴羽-深入系列文章/附件/Pasted image 20250221163214.png",
     "学习资源总库/小册/冴羽-深入系列文章/附件/Pasted image 20250221163208.png",
     "学习资源总库/小册/冴羽-深入系列文章/附件/Pasted image 20250221163124.png",
