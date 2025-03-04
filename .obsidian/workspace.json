@@ -4,35 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "5d420712546d936f",
+        "id": "7920aa1f9aceedfc",
         "type": "tabs",
         "children": [
           {
-            "id": "c9ebed052c94a33b",
+            "id": "2d0b7350726bc590",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
-                "mode": "source",
+                "file": "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lesson08-调用栈：为什么JavaScript代码会出现栈溢出"
+              "title": "lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择"
             }
           },
           {
-            "id": "8aa2cc4726586e76",
+            "id": "ec4e7206ce857dea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/全局执行上下文的变量与词法环境.md",
+                "file": "00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量声明.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "全局执行上下文的变量与词法环境"
+              "title": "变量声明"
+            }
+          },
+          {
+            "id": "a62d60babb88a066",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-前端/00-核心/JavaScript/01-核心概念/函数机制/this绑定.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "this绑定"
             }
           }
         ],
@@ -48,7 +62,6 @@
       {
         "id": "dddd3d328ede567a",
         "type": "tabs",
-        "dimension": 72.80593325092707,
         "children": [
           {
             "id": "b76d5d4c5f29b876",
@@ -84,10 +97,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "this绑定",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -96,27 +109,11 @@
             }
           }
         ]
-      },
-      {
-        "id": "3b634e9dce37d622",
-        "type": "tabs",
-        "dimension": 27.19406674907293,
-        "children": [
-          {
-            "id": "303c8d2fabb40564",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "书签"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 301.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -132,13 +129,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/全局执行上下文的变量与词法环境.md",
+                "file": "00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量声明.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "全局执行上下文的变量与词法环境 的大纲"
+              "title": "变量声明 的大纲"
             }
           },
           {
@@ -256,7 +253,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 275.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -272,9 +269,16 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "8aa2cc4726586e76",
+  "active": "ec4e7206ce857dea",
   "lastOpenFiles": [
+    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/函数机制/this绑定.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量声明.md",
+    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
+    "书签.md",
+    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/lesson08-什么是JavaScript的调用栈代码解析.md",
+    "碎片整理/小记/js：JavaScript 引擎如何管理执行上下文.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/全局执行上下文的变量与词法环境.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson07-变量提升：JavaScript代码是按顺序执行的吗.md",
     "00-前端/00-核心/JavaScript/01-核心概念/MOC-核心概念.md",
@@ -296,15 +300,8 @@
     "学习资源总库/小册/冴羽-深入系列文章/附件/Pasted image 20250221163214.png",
     "学习资源总库/小册/冴羽-深入系列文章/附件/Pasted image 20250221163208.png",
     "学习资源总库/小册/冴羽-深入系列文章/附件/Pasted image 20250221163124.png",
-    "学习资源总库/小册/冴羽-深入系列文章/13-JavaScript深入之类数组对象与arguments.md",
-    "学习资源总库/小册/冴羽-深入系列文章/14-JavaScript深入之创建对象的多种方式以及优缺点.md",
-    "学习资源总库/小册/冴羽-深入系列文章/15-JavaScript深入之继承的多种方式和优缺点.md",
-    "学习资源总库/小册/冴羽-深入系列文章/10-JavaScript深入之call和apply的模拟实现.md",
     "学习资源总库/网课/coderwhy/JavaScript高级pdf/02_深入浏览器的渲染原理.pdf",
     "学习资源总库/网课/coderwhy/JavaScript高级pdf/01_JavaScript高级-this指向.pdf",
-    "学习资源总库/读书笔记/你不知道的JavaScript/第2章 词法作用域.md",
-    "学习资源总库/读书笔记/你不知道的JavaScript/完整大纲整理.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/内存管理/MOC-内存管理.md",
     "00-前端/00-核心/JavaScript/01-核心概念/基础语法",
     "00-前端/00-核心/JavaScript/01-核心概念/内存管理",
     "00-前端/00-核心/JavaScript/01-核心概念/00-收集箱/碎片",
