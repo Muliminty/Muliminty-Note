@@ -59,7 +59,7 @@ printName: function () {
 }
 ```
 
-接下来咱们就展开来介绍 this，不过在讲解之前，希望你能区分清楚作用域链和this是两套不同的系统，它们之间基本没太多联系。在前期明确这点，可以避免你在学习 this 的过程中，和作用域产生一些不必要的关联。
+接下来咱们就展开来介绍 this，不过在讲解之前，希望你能区分清楚**作用域链和this是两套不同的系统**，它们之间基本没太多联系。在前期明确这点，可以避免你在学习 this 的过程中，和作用域产生一些不必要的关联。
 
 ## JavaScript 中的 this 是什么
 
@@ -132,7 +132,7 @@ myObj.showThis()
 
 其实，你也可以认为 JavaScript 引擎在执行myObject.showThis()时，将其转化为了：
 
-```
+```js
 myObj.showThis.call(myObj)
 ```
 
@@ -147,15 +147,31 @@ var myObj = {
   }
 }
 var foo = myO
+上面是原文感觉有问题
+---
+下面是调整的版本
+var myObj = {
+  name: "极客时间",
+  showThis: function() {
+    this.name = "极客邦";
+    console.log(this);
+  }
+};
+
+var foo = myObj.showThis; // 将方法赋值给变量 foo
+
+foo(); // 在全局环境中调用
+
+
 ```
 
 执行这段代码，你会发现 this 又指向了全局 window 对象。
 
 所以通过以上两个例子的对比，你可以得出下面这样两个结论：
 
-在全局环境中调用一个函数，函数内部的 this 指向的是全局变量 window。
+在**全局环境中调用一个函数，函数内部的 this 指向的是全局变量 window**。
 
-通过一个对象来调用其内部的一个方法，该方法的执行上下文中的 this 指向对象本身。
+通过一个**对象来调用其内部的一个方法**，该方法的执行上下文中的 this 指向对象本身。
 
 
 **3. 通过构造函数中设置**
@@ -250,6 +266,19 @@ var myObj = {
 myObj.showThis()
 console.log(myObj.name)
 console.log(window.name)
+```
+执行过程详解
+```
+1. myObj.showThis() 调用时：
+   - showThis 是普通函数，this 指向调用者 myObj
+   - 箭头函数 bar 继承 showThis 的 this（即 myObj）
+
+2. 修改 this.name：
+   - 等同于 myObj.name = "极客邦"
+
+3. window.name 未定义：
+   - 浏览器环境中 window.name 默认是空字符串
+   - 此处未操作 window 对象
 ```
 
 执行这段代码，你会发现它也输出了我们想要的结果，也就是箭头函数 bar 里面的 this 是指向 myObj 对象的。这是因为 ES6 中的箭头函数并不会创建其自身的执行上下文，所以箭头函数中的 this 取决于它的外部函数。
