@@ -8,3 +8,6 @@
 		+  eval with 作用域
 	+ this指向
 	+ 闭包
+	+ [outer](outer.md)
+
+![](附件/Pasted%20image%2020250304180341.png)

@@ -13,40 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择"
-            }
-          },
-          {
-            "id": "ec4e7206ce857dea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量声明.md",
+                "file": "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson11-this：从JavaScript执行上下文视角讲this.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "变量声明"
+              "title": "lesson11-this：从JavaScript执行上下文视角讲this"
             }
           },
           {
-            "id": "a62d60babb88a066",
+            "id": "ab9e8b9254af1412",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/01-核心概念/函数机制/this绑定.md",
+                "file": "00-前端/00-核心/JavaScript/01-核心概念/执行模型/outer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "this绑定"
+              "title": "outer"
+            }
+          },
+          {
+            "id": "c502f1c49e3ac121",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-前端/00-核心/JavaScript/01-核心概念/执行模型/MOC-执行模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MOC-执行模型"
             }
           }
         ],
@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -129,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量声明.md",
+                "file": "00-前端/00-核心/JavaScript/01-核心概念/执行模型/outer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "变量声明 的大纲"
+              "title": "outer 的大纲"
             }
           },
           {
@@ -269,11 +268,19 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "ec4e7206ce857dea",
+  "active": "ab9e8b9254af1412",
   "lastOpenFiles": [
+    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson11-this：从JavaScript执行上下文视角讲this.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/MOC-执行模型.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/outer.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/附件/Pasted image 20250304180341.png",
+    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/附件",
+    "00-前端/00-核心/JavaScript/01-核心概念/MOC-核心概念.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/执行上下文.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/函数机制/this绑定.md",
+    "00-编程经验/006-面经/cv：词法作用域和词法环境.md",
     "00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量声明.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/函数机制/this绑定.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
     "书签.md",
@@ -281,7 +288,6 @@
     "碎片整理/小记/js：JavaScript 引擎如何管理执行上下文.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/全局执行上下文的变量与词法环境.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson07-变量提升：JavaScript代码是按顺序执行的吗.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/MOC-核心概念.md",
     "00-编程经验/007-Blog/00-JavaScript 变量提升时究竟干了啥？.md",
     "00-编程经验/007-Blog/00-当你输入var之后发生了什么？.md",
     "00-编程经验/007-Blog/掌握 React 性能优化：运用 memoization 技术与代码分割提升效率.md",
@@ -291,12 +297,6 @@
     "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson03-HTTP请求流程：为什么很多站点第二次打开速度会很快.md",
     "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson02-TCP协议：如何保证页面文件能被完整送达浏览器.md",
     "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson01-Chrome架构：仅仅打开了1个页面，为什么有4个进程.md",
-    "01-计算机科学体系/Systems/操作系统/MOC-操作系统.md",
-    "01-计算机科学体系/Systems/操作系统/进程和线程.md",
-    "学习资源总库/小册/冴羽-深入系列文章/未命名.md",
-    "学习资源总库/小册/冴羽-深入系列文章/03-JavaScript深入之执行上下文栈.md",
-    "学习资源总库/小册/冴羽-深入系列文章/02-JavaScript深入之词法作用域和动态作用域.md",
-    "学习资源总库/小册/冴羽-深入系列文章/01-JavaScript深入之从原型到原型链.md",
     "学习资源总库/小册/冴羽-深入系列文章/附件/Pasted image 20250221163214.png",
     "学习资源总库/小册/冴羽-深入系列文章/附件/Pasted image 20250221163208.png",
     "学习资源总库/小册/冴羽-深入系列文章/附件/Pasted image 20250221163124.png",
@@ -309,14 +309,12 @@
     "学习资源总库",
     "碎片整理",
     "(函数机制",
-    "00-前端/00-核心/JavaScript/01-核心基础概念/执行模型/执行上下文体系",
     "00-前端/00-核心/JavaScript/04-实战技巧/开发技巧/树结构处理/附件/递归实现给每个对象打层级.png",
     "00-前端/00-核心/JavaScript/04-实战技巧/开发技巧/数组类型/附件/数组 -- 分割成若干个指定长度的二维数组.png",
     "学习资源总库/网课/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计/附件/Pasted image 20250219220636.png",
     "碎片整理/小记/附件/Pasted image 20250214170620.png",
     "碎片整理/小记/附件/Pasted image 20250214170603.png",
     "碎片整理/小记/附件/Pasted image 20250214170413.png",
-    "碎片整理/小记/附件/Pasted image 20250214170355.png",
     "未命名.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas"

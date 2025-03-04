@@ -220,3 +220,4 @@ bar.printName()
 
 > 这道题其实是个障眼法，只需要确定好函数调用栈就可以很轻松的解答，调用了foo()后，返回的是bar.printName，后续就跟foo函数没有关系了，所以结果就是调用了两次bar.printName()，根据词法作用域，结果都是“极客邦”，也不会形成闭包
 
+[lesson11-this：从JavaScript执行上下文视角讲this](lesson11-this：从JavaScript执行上下文视角讲this.md)
