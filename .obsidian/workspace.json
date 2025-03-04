@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-计算机科学体系/Systems/操作系统/MOC-操作系统.md",
+                "file": "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MOC-操作系统"
+              "title": "lesson08-调用栈：为什么JavaScript代码会出现栈溢出"
+            }
+          },
+          {
+            "id": "8aa2cc4726586e76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/全局执行上下文的变量与词法环境.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "全局执行上下文的变量与词法环境"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,12 +132,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/全局执行上下文的变量与词法环境.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "全局执行上下文的变量与词法环境 的大纲"
             }
           },
           {
@@ -240,8 +256,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5,
-    "collapsed": true
+    "width": 213.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,12 +272,23 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "c9ebed052c94a33b",
+  "active": "8aa2cc4726586e76",
   "lastOpenFiles": [
+    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
+    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/全局执行上下文的变量与词法环境.md",
+    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson07-变量提升：JavaScript代码是按顺序执行的吗.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/MOC-核心概念.md",
+    "00-编程经验/007-Blog/00-JavaScript 变量提升时究竟干了啥？.md",
+    "00-编程经验/007-Blog/00-当你输入var之后发生了什么？.md",
+    "00-编程经验/007-Blog/掌握 React 性能优化：运用 memoization 技术与代码分割提升效率.md",
+    "00-编程经验/007-Blog/原生HTML组件化开发深度解析：对象标签与动态加载方案实践.md",
+    "00-编程经验/007-Blog/实现一个迷你版的 React.md",
+    "00-编程经验/007-Blog/深入剖析 React Context Provider：原理、性能优化与高级实践.md",
+    "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson03-HTTP请求流程：为什么很多站点第二次打开速度会很快.md",
+    "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson02-TCP协议：如何保证页面文件能被完整送达浏览器.md",
     "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson01-Chrome架构：仅仅打开了1个页面，为什么有4个进程.md",
     "01-计算机科学体系/Systems/操作系统/MOC-操作系统.md",
     "01-计算机科学体系/Systems/操作系统/进程和线程.md",
-    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson07-变量提升：JavaScript代码是按顺序执行的吗.md",
     "学习资源总库/小册/冴羽-深入系列文章/未命名.md",
     "学习资源总库/小册/冴羽-深入系列文章/03-JavaScript深入之执行上下文栈.md",
     "学习资源总库/小册/冴羽-深入系列文章/02-JavaScript深入之词法作用域和动态作用域.md",
@@ -274,26 +300,15 @@
     "学习资源总库/小册/冴羽-深入系列文章/14-JavaScript深入之创建对象的多种方式以及优缺点.md",
     "学习资源总库/小册/冴羽-深入系列文章/15-JavaScript深入之继承的多种方式和优缺点.md",
     "学习资源总库/小册/冴羽-深入系列文章/10-JavaScript深入之call和apply的模拟实现.md",
-    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
     "学习资源总库/网课/coderwhy/JavaScript高级pdf/02_深入浏览器的渲染原理.pdf",
     "学习资源总库/网课/coderwhy/JavaScript高级pdf/01_JavaScript高级-this指向.pdf",
     "学习资源总库/读书笔记/你不知道的JavaScript/第2章 词法作用域.md",
     "学习资源总库/读书笔记/你不知道的JavaScript/完整大纲整理.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/MOC-核心概念.md",
     "00-前端/00-核心/JavaScript/01-核心概念/内存管理/MOC-内存管理.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量声明.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/基础语法/MOC-基础语法.md",
     "00-前端/00-核心/JavaScript/01-核心概念/基础语法",
-    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/MOC-执行模型.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/执行上下文.md",
     "00-前端/00-核心/JavaScript/01-核心概念/内存管理",
-    "00-前端/!MOC-Frontend.md",
     "00-前端/00-核心/JavaScript/01-核心概念/00-收集箱/碎片",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型",
-    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/作用域链.md",
-    "学习资源总库/读书笔记/你不知道的JavaScript/备注/20250221182630.md",
-    "碎片整理/Thino/2025-03-03.md",
-    "书签.md",
     "学习资源总库",
     "碎片整理",
     "(函数机制",
