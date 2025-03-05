@@ -4,17 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "51dbf6e37978ade5",
+        "id": "e1e2f9815dc91b14",
         "type": "tabs",
         "children": [
           {
-            "id": "ee4b1aa80cb3b1c1",
+            "id": "1d41e390235d6cd4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "学习资源总库/小册/浏览器工作原理与实践/03-V8工作原理/lesson14-编译器和解析器：V8如何执行一段JavaScript代码的.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "lesson14-编译器和解析器：V8如何执行一段JavaScript代码的"
+            }
+          },
+          {
+            "id": "212e90a2ee7f577d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-前端/00-核心/JavaScript/01-核心概念/00-收集箱/碎片/抽象语法树：Abstract Syntax Tree,AST.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "抽象语法树：Abstract Syntax Tree,AST"
+            }
+          },
+          {
+            "id": "c133e0f2cc2c3d02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-编程经验/005-零散知识点（概念）/执行栈指针（ESP）.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "执行栈指针（ESP）"
             }
           }
         ]
@@ -89,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 273.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -105,12 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "学习资源总库/小册/浏览器工作原理与实践/03-V8工作原理/lesson14-编译器和解析器：V8如何执行一段JavaScript代码的.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "lesson14-编译器和解析器：V8如何执行一段JavaScript代码的 的大纲"
             }
           },
           {
@@ -228,7 +261,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 400.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,13 +277,26 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "ee4b1aa80cb3b1c1",
+  "active": "1d41e390235d6cd4",
   "lastOpenFiles": [
+    "00-前端/00-核心/JavaScript/01-核心概念/00-收集箱/碎片/抽象语法树：Abstract Syntax Tree,AST.md",
+    "学习资源总库/小册/浏览器工作原理与实践/03-V8工作原理/lesson14-编译器和解析器：V8如何执行一段JavaScript代码的.md",
+    "学习资源总库/小册/浏览器工作原理与实践/03-V8工作原理/lesson13-垃圾回收：垃圾数据如何自动回收.md",
+    "00-编程经验/005-零散知识点（概念）/执行栈指针（ESP）.md",
+    "00-编程经验/005-零散知识点（概念）/JS语言通识：什么是产生式 BNF.md",
+    "学习资源总库/小册/浏览器工作原理与实践/03-V8工作原理/lesson12-栈空间和堆空间：数据是如何存储的.md",
+    "00-编程经验/007-Blog/00-为什么需要区分堆和栈？.md",
+    "学习资源总库/小册/浏览器工作原理与实践/04-浏览器中的页面循环系统/lesson15.md",
+    "00-前端/工具库/轮子/轮子-UI-Ant Design/Model/模态框按钮修改样式.md",
+    "00-编程经验/代码片段库/008-奇技淫巧/软件工具小技巧/附件/只会 Windows 也能轻松搭建远程桌面 RustDesk 自用服务器 - 知乎.png",
+    "00-前端/00-核心/JavaScript/01-核心概念/内存管理/垃圾回收.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/内存管理/MOC-内存管理.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/内存管理/变量存储.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/MOC-核心概念.md",
     "学习资源总库/网课/coderwhy/JavaScript高级pdf/01_JavaScript高级-this指向.pdf",
     "书签.md",
     "碎片整理/剪藏/【万字总结】2025 前端+大前端+全栈 知识体系（上）大家好，我是双越老师。本文是 2025 前端 大前端 全栈 知识.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/词法环境.md",
-    "学习资源总库/小册/浏览器工作原理与实践/03-V8工作原理/lesson12-栈空间和堆空间：数据是如何存储的.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson11-this：从JavaScript执行上下文视角讲this.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择.md",
     "学习资源总库/小册/浏览器工作原理与实践/README.md",
@@ -258,22 +304,11 @@
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/MOC-执行模型.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/作用域链.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/执行上下文.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/MOC-核心概念.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/附件/Pasted image 20250304180341.png",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/附件",
     "00-编程经验/006-面经/cv：词法作用域和词法环境.md",
     "00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量声明.md",
     "00-前端/00-核心/JavaScript/01-核心概念/函数机制/this绑定.md",
-    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
-    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
-    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/lesson08-什么是JavaScript的调用栈代码解析.md",
-    "碎片整理/小记/js：JavaScript 引擎如何管理执行上下文.md",
-    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/全局执行上下文的变量与词法环境.md",
-    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson07-变量提升：JavaScript代码是按顺序执行的吗.md",
-    "00-编程经验/007-Blog/00-JavaScript 变量提升时究竟干了啥？.md",
-    "00-编程经验/007-Blog/00-当你输入var之后发生了什么？.md",
-    "00-编程经验/007-Blog/掌握 React 性能优化：运用 memoization 技术与代码分割提升效率.md",
-    "00-编程经验/007-Blog/原生HTML组件化开发深度解析：对象标签与动态加载方案实践.md",
     "学习资源总库/小册/冴羽-深入系列文章/附件/Pasted image 20250221163214.png",
     "学习资源总库/小册/冴羽-深入系列文章/附件/Pasted image 20250221163208.png",
     "学习资源总库/小册/冴羽-深入系列文章/附件/Pasted image 20250221163124.png",
@@ -290,7 +325,6 @@
     "学习资源总库/网课/002-前端架构师课程/阶段一 课程设计以及前端脚手架开发/{3}--脚手架核心流程开发/{2}--第2章脚手架整体架构设计/附件/Pasted image 20250219220636.png",
     "碎片整理/小记/附件/Pasted image 20250214170620.png",
     "碎片整理/小记/附件/Pasted image 20250214170603.png",
-    "碎片整理/小记/附件/Pasted image 20250214170413.png",
     "未命名.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas"

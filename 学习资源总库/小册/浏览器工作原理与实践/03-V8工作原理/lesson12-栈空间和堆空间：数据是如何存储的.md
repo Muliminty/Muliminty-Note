@@ -291,4 +291,6 @@ console.log(jack.like.dog.color) // 打印出来的应该是 "black"
 - 打开“开发者工具”
 - 在控制台执行上述代码
 - 然后选择“Memory”标签，点击"take snapshot" 获取V8的堆内存快照。
-- 然后“command+f"(mac) 或者 "ctrl+f"(win),搜索“setName”，然后你就会发现setName对象下面包含了 `raw_outer_scope_info_or_feedback_metadata`，对闭包的引用数据就在这里面。`
+- 然后“command+f"(mac) 或者 "ctrl+f"(win),搜索“setName”，然后你就会发现setName对象下面包含了 `raw_outer_scope_info_or_feedback_metadata`，对闭包的引用数据就在这里面。
+
+[lesson13-垃圾回收：垃圾数据如何自动回收](lesson13-垃圾回收：垃圾数据如何自动回收.md)
