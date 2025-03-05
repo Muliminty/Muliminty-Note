@@ -214,7 +214,7 @@ var MyObj = {
 setTimeout(MyObj.showName,1000)
 ```
 
-这里输出的是 1，因为这段代码在编译的时候，执行上下文中的 this 会被设置为全局 window，如果是严格模式，会被设置为 undefined。
+这里输出的是 1，因为这段代码在编译的时候，执行上下文l中的 this 会被设置为全局 window，如果是严格模式，会被设置为 undefined。
 
 那么该怎么解决这个问题呢？通常可以使用下面这两种方法。
 
@@ -243,3 +243,4 @@ setTimeout(MyObj.showName.bind(MyObj), 1000)
 - 最后，在定时器中使用过程中，还存在一些陷阱，需要你多加注意。
 
 通过分析和讲解，你会发现函数 setTimeout 在时效性上面有很多先天的不足，所以对于一些时间精度要求比较高的需求，应该有针对性地采取一些其他的方案
+[lesson17-Webapi：XMLHttpRequest是怎么实现的](lesson17-Webapi：XMLHttpRequest是怎么实现的.md)

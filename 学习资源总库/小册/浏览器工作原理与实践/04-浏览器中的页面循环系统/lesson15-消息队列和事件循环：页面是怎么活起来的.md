@@ -228,3 +228,4 @@ void MainThread(){
 
 基于消息队列的设计是目前使用最广的消息架构，无论是安卓还是 Chrome 都采用了类似的任务机制，所以理解了本篇文章的内容后，你再理解其他项目的任务机制也会比较轻松。
 
+[lesson16-Webapi：setTimeout是怎么实现的](lesson16-Webapi：setTimeout是怎么实现的.md)

@@ -188,7 +188,7 @@ onreadystatechange，用来监控后台请求过程中的状态，比如可以�
 
 **1. 跨域问题**
 
-比如在极客邦的官网使用 XMLHttpRequest 请求极客时间的页面内容，由于极客邦的官网是www.geekbang.org，极客时间的官网是time.geekbang.org，它们不是同一个源，所以就涉及到了跨域（在 A 站点中去访问不同源的 B 站点的内容）。默认情况下，跨域请求是不被允许的，你可以看下面的示例代码：
+比如在极客邦的官网使用 XMLHttpRequest 请求极客时间的页面内容，由于极客邦的官网是 www.geekbang.org 极客时间的官网是 time.geekbang.org，它们不是同一个源，所以就涉及到了跨域（在 A 站点中去访问不同源的 B 站点的内容）。默认情况下，跨域请求是不被允许的，你可以看下面的示例代码：
 
 ```js
 var xhr = new XMLHttpRequest()
@@ -256,3 +256,5 @@ Access to XMLHttpRequest at 'https://time.geekbang.org/' from origin 'https://ww
 本篇文章跨度比较大，不是单纯地讲一个问题，而是将回调类型、循环系统、网络请求和安全问题“串联”起来了。
 
 对比上一篇文章，setTimeout 是直接将延迟任务添加到延迟队列中，而 XMLHttpRequest 发起请求，是由浏览器的其他进程或者线程去执行，然后再将执行结果利用 IPC 的方式通知渲染进程，之后渲染进程再将对应的消息添加到消息队列中。如果你搞懂了 setTimeout 和 XMLHttpRequest 的工作机制后，再来理解其他 WebAPI 就会轻松很多了，因为大部分 WebAPI 的工作逻辑都是类似的。
+
+[lesson18-宏任务和微任务：不是所有的任务都是一个待遇](lesson18-宏任务和微任务：不是所有的任务都是一个待遇.md)
