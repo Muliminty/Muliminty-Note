@@ -4,63 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7920aa1f9aceedfc",
+        "id": "51dbf6e37978ade5",
         "type": "tabs",
         "children": [
           {
-            "id": "2d0b7350726bc590",
+            "id": "ee4b1aa80cb3b1c1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习资源总库/小册/浏览器工作原理与实践/03-V8工作原理/lesson12-栈空间和堆空间：数据是如何存储的.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "lesson12-栈空间和堆空间：数据是如何存储的"
-            }
-          },
-          {
-            "id": "ab9e8b9254af1412",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-前端/00-核心/JavaScript/01-核心概念/执行模型/词法环境.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "词法环境"
-            }
-          },
-          {
-            "id": "ac10bfabeadc9dab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-前端/00-核心/JavaScript/01-核心概念/执行模型/词法环境-outer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "词法环境-outer"
-            }
-          },
-          {
-            "id": "c502f1c49e3ac121",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-前端/00-核心/JavaScript/01-核心概念/执行模型/MOC-执行模型.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MOC-执行模型"
+              "title": "新标签页"
             }
           }
         ]
@@ -120,12 +74,22 @@
               "icon": "lucide-search",
               "title": "搜索"
             }
+          },
+          {
+            "id": "21fefd9d31313cb1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 239.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -141,13 +105,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习资源总库/小册/浏览器工作原理与实践/03-V8工作原理/lesson12-栈空间和堆空间：数据是如何存储的.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "lesson12-栈空间和堆空间：数据是如何存储的 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -281,17 +244,20 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "2d0b7350726bc590",
+  "active": "ee4b1aa80cb3b1c1",
   "lastOpenFiles": [
-    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson11-this：从JavaScript执行上下文视角讲this.md",
+    "学习资源总库/网课/coderwhy/JavaScript高级pdf/01_JavaScript高级-this指向.pdf",
+    "书签.md",
+    "碎片整理/剪藏/【万字总结】2025 前端+大前端+全栈 知识体系（上）大家好，我是双越老师。本文是 2025 前端 大前端 全栈 知识.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/词法环境.md",
     "学习资源总库/小册/浏览器工作原理与实践/03-V8工作原理/lesson12-栈空间和堆空间：数据是如何存储的.md",
+    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson11-this：从JavaScript执行上下文视角讲this.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择.md",
     "学习资源总库/小册/浏览器工作原理与实践/README.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/词法环境-outer.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/MOC-执行模型.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/作用域链.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/执行上下文.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/词法环境.md",
     "00-前端/00-核心/JavaScript/01-核心概念/MOC-核心概念.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/附件/Pasted image 20250304180341.png",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/附件",
@@ -300,7 +266,6 @@
     "00-前端/00-核心/JavaScript/01-核心概念/函数机制/this绑定.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
-    "书签.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/lesson08-什么是JavaScript的调用栈代码解析.md",
     "碎片整理/小记/js：JavaScript 引擎如何管理执行上下文.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/读书笔记/全局执行上下文的变量与词法环境.md",
@@ -309,13 +274,10 @@
     "00-编程经验/007-Blog/00-当你输入var之后发生了什么？.md",
     "00-编程经验/007-Blog/掌握 React 性能优化：运用 memoization 技术与代码分割提升效率.md",
     "00-编程经验/007-Blog/原生HTML组件化开发深度解析：对象标签与动态加载方案实践.md",
-    "00-编程经验/007-Blog/实现一个迷你版的 React.md",
-    "00-编程经验/007-Blog/深入剖析 React Context Provider：原理、性能优化与高级实践.md",
     "学习资源总库/小册/冴羽-深入系列文章/附件/Pasted image 20250221163214.png",
     "学习资源总库/小册/冴羽-深入系列文章/附件/Pasted image 20250221163208.png",
     "学习资源总库/小册/冴羽-深入系列文章/附件/Pasted image 20250221163124.png",
     "学习资源总库/网课/coderwhy/JavaScript高级pdf/02_深入浏览器的渲染原理.pdf",
-    "学习资源总库/网课/coderwhy/JavaScript高级pdf/01_JavaScript高级-this指向.pdf",
     "00-前端/00-核心/JavaScript/01-核心概念/基础语法",
     "00-前端/00-核心/JavaScript/01-核心概念/内存管理",
     "00-前端/00-核心/JavaScript/01-核心概念/00-收集箱/碎片",
