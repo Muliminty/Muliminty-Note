@@ -7,7 +7,7 @@
 	+ 作用域
 		+ 作用域链
 		+  eval with 作用域
-	+ this指向
+	+ [this绑定](this绑定.md)
 	+ 闭包
 
 ![](附件/Pasted%20image%2020250304180341.png)

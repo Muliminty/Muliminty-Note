@@ -7,6 +7,7 @@
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
   "readableLineLength": false,
-  "showLineNumber": true,
-  "defaultViewMode": "preview"
+  "showLineNumber": false,
+  "defaultViewMode": "preview",
+  "showIndentGuide": false
 }

@@ -2,7 +2,6 @@
 sidebarDepth: 1
 pageClass: custom-code-highlight
 ---
-
 # async await使用同步方式写异步代码
 
 在上篇文章中，我们介绍了怎么使用 Promise 来实现回调操作，使用 Promise 能很好地解决回调地狱的问题，但是这种方式充满了 Promise 的 then() 方法，如果处理流程比较复杂的话，那么整段代码将充斥着 then，语义化不明显，代码不能很好地表示执行流程。

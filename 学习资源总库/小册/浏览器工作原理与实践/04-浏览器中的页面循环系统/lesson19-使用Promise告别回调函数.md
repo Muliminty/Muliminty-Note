@@ -380,3 +380,4 @@ Promise 通过回调函数延迟绑定、回调函数返回值穿透和错误“
 
 最后，我们还分析了 Promise 之所以要使用微任务是由 Promise 回调函数延迟绑定技术导致的。
 
+[lesson20-async await使用同步方式写异步代码](lesson20-async%20await使用同步方式写异步代码.md)
