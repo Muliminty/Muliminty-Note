@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "lesson19-使用Promise告别回调函数"
             }
-          },
-          {
-            "id": "13c6acb105f1dafe",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://juejin.cn/",
-                "title": "稀土掘金",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "稀土掘金"
-            }
           }
         ]
       }
@@ -123,13 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习资源总库/小册/浏览器工作原理与实践/04-浏览器中的页面循环系统/lesson19-使用Promise告别回调函数.md",
+                "file": "Z-归档/obsidian规范/未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "lesson19-使用Promise告别回调函数 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -138,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Z-归档/obsidian规范/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "未命名 的反向链接列表"
             }
           },
           {
@@ -263,8 +250,18 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "4c877d650072cc8f",
+  "active": "b76d5d4c5f29b876",
   "lastOpenFiles": [
+    "Z-归档/obsidian规范/未命名 1.md",
+    "Z-归档/obsidian规范/未命名 2.md",
+    "Z-归档/obsidian规范/未命名 3.md",
+    "学习资源总库/知识库架构设计.md",
+    "学习资源总库/小册/张云龙-blog/201508/01.md",
+    "学习资源总库/小册/张云龙-blog/201508/02.md",
+    "学习资源总库/小册/张云龙-blog/201406/01.md",
+    "学习资源总库/小册/张云龙-blog/201405/01.md",
+    "学习资源总库/小册/张云龙-blog/201404/01.md",
+    "学习资源总库/小册/浏览器工作原理与实践/04-浏览器中的页面循环系统/lesson19-使用Promise告别回调函数.md",
     "学习资源总库/小册/浏览器工作原理与实践/04-浏览器中的页面循环系统/lesson18-宏任务和微任务：不是所有的任务都是一个待遇.md",
     "00-前端/00-核心/JavaScript/01-核心概念/MOC-核心概念.md",
     "00-编程经验/006-面经/cv：原型链.md",
@@ -273,12 +270,9 @@
     "学习资源总库/小册/张云龙-blog/201805/01.md",
     "学习资源总库/小册/README.md",
     "学习资源总库/小册/张云龙-blog/README.md",
-    "学习资源总库/小册/张云龙-blog/201508/02.md",
-    "学习资源总库/小册/张云龙-blog/201508/01.md",
     "学习资源总库/小册/张云龙-blog/201505/01.md",
     "学习资源总库/小册/张云龙-blog/201505/assets/02.jpg",
     "学习资源总库/小册/张云龙-blog/201505/assets/01.jpg",
-    "学习资源总库/小册/张云龙-blog/201404/01.md",
     "学习资源总库/小册/张云龙-blog/assets/resource/deploy.png",
     "学习资源总库/小册/张云龙-blog/assets/resource/17.png",
     "学习资源总库/小册/张云龙-blog/assets/resource/16.png",
@@ -298,19 +292,12 @@
     "学习资源总库/小册/张云龙-blog/201805/assets",
     "学习资源总库/小册/张云龙-blog/201805",
     "学习资源总库/小册/张云龙-blog/201410/01.md",
-    "学习资源总库/小册/张云龙-blog/201406/01.md",
-    "学习资源总库/小册/张云龙-blog/201405/01.md",
     "学习资源总库/小册/blog-master/blog-master/README.md",
     "学习资源总库/小册/blog-master/blog-master/201805/01.md",
     "学习资源总库/小册/blog-master/blog-master/201508/02.md",
     "学习资源总库/小册/blog-master/blog-master/201508/01.md",
     "学习资源总库/小册/blog-master/blog-master/201505/01.md",
     "学习资源总库/小册/blog-master/blog-master/201410/01.md",
-    "学习资源总库/小册/blog-master/blog-master/201405/01.md",
-    "学习资源总库/小册/blog-master/blog-master/201406/01.md",
-    "学习资源总库/小册/blog-master/blog-master/201404/01.md",
-    "碎片整理/剪藏/细数国内外的前端大牛本文将枚举一些前端界内比较熟知的前端技术大牛，分为个人简介、技术博客、擅长领域几个方向，希望能对初步 - 掘金.md",
-    "学习资源总库/小册/浏览器工作原理与实践/04-浏览器中的页面循环系统/lesson17-Webapi：XMLHttpRequest是怎么实现的.md",
     "未命名.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas"

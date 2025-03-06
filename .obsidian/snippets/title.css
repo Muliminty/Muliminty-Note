@@ -1,0 +1,217 @@
+body {
+    --font-bold: bold;
+
+    /* 颜色 */
+    --h1-color: #f03f28;
+    --h2-color: #e4980c;
+    --h3-color: #51bc00;
+    --h4-color: #0993d3;
+    --h5-color: #9084e9;
+    --h6-color: var(--color-cyan);
+
+    /* 字体大小 */
+    --h1-size: calc(var(--font-text-size) * 1.6);
+    --h2-size: calc(var(--font-text-size) * 1.5);
+    --h3-size: calc(var(--font-text-size) * 1.4);
+    --h4-size: calc(var(--font-text-size) * 1.3);
+    --h5-size: calc(var(--font-text-size) * 1.2);
+    --h6-size: calc(var(--font-text-size) * 1.1);
+
+    /* 字重 */
+    --h1-weight: var(--font-bold);
+    --h2-weight: var(--font-bold);
+    --h3-weight: var(--font-bold);
+    --h4-weight: var(--font-bold);
+    --h5-weight: var(--font-bold);
+    --h6-weight: var(--font-bold);
+
+    /* 行高 */
+    --h1-line-height: calc(var(--line-height-normal) * 1.2);
+    --h2-line-height: calc(var(--line-height-normal) * 1.2);
+    --h3-line-height: var(--line-height-normal);
+    --h4-line-height: var(--line-height-normal);
+    --h5-line-height: var(--line-height-normal);
+    --h6-line-height: var(--line-height-normal);
+
+    --animation: var(--anim-duration-fast) var(--anim-motion-smooth);
+}
+
+.theme-light {
+    --header-indicator-color-h1: var(--h1-color);
+    --header-indicator-bg-h1: transparent;
+    --header-indicator-color-h2: var(--h2-color);
+    --header-indicator-bg-h2: transparent;
+    --header-indicator-color-h3: var(--h3-color);
+    --header-indicator-bg-h3: transparent;
+    --header-indicator-color-h4: var(--h4-color);
+    --header-indicator-bg-h4: transparent;
+    --header-indicator-color-h5: var(--h5-color);
+    --header-indicator-bg-h5: transparent;
+    --header-indicator-color-h6: var(--h6-color);
+    --header-indicator-bg-h6: transparent;
+}
+
+.theme-dark {
+    --header-indicator-color-h1: var(--background-primary);
+    --header-indicator-bg-h1: var(--h1-color);
+    --header-indicator-color-h2: var(--background-primary);
+    --header-indicator-bg-h2: var(--h2-color);
+    --header-indicator-color-h3: var(--background-primary);
+    --header-indicator-bg-h3: var(--h3-color);
+    --header-indicator-color-h4: var(--background-primary);
+    --header-indicator-bg-h4: var(--h4-color);
+    --header-indicator-color-h5: var(--background-primary);
+    --header-indicator-bg-h5: var(--h5-color);
+    --header-indicator-color-h6: var(--background-primary);
+    --header-indicator-bg-h6: var(--h6-color);
+}
+
+:is(div.markdown-reading-view > div > div > div > :is(h1, h2, h3, h4, h5, h6),
+    .markdown-source-view.mod-cm6.is-live-preview :is(.HyperMD-header-1, .HyperMD-header-2, .HyperMD-header-3, .HyperMD-header-4, .HyperMD-header-5, .HyperMD-header-6)) {
+    position: relative;
+    margin: 0;
+}
+
+:is(div.markdown-reading-view > div > div > div > :is(h1, h2, h3, h4, h5, h6),
+    .markdown-source-view.mod-cm6.is-live-preview :is(.HyperMD-header-1, .HyperMD-header-2, .HyperMD-header-3, .HyperMD-header-4, .HyperMD-header-5, .HyperMD-header-6))::before {
+    position: absolute;
+    border-radius: var(--radius-s);
+    z-index: 1;
+    padding: 2px 2px 1px 2px;
+    font-size: 0.6rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    letter-spacing: 0.5px;
+    font-family: var(--font-interface);
+    opacity: 0;
+    cursor: pointer;
+    transition: var(--animation);
+    top: 48%;
+    transform: translateY(-50%);
+    left: calc(var(--size-4-6) * -1);
+}
+
+:is(div.markdown-reading-view > div > div > div > :is(h1, h2, h3, h4, h5, h6),
+    .markdown-source-view.mod-cm6.is-live-preview :is(.HyperMD-header-1, .HyperMD-header-2, .HyperMD-header-3, .HyperMD-header-4, .HyperMD-header-5, .HyperMD-header-6)):hover::before {
+    opacity: 0.8;
+}
+
+div.markdown-reading-view>div>div>div> :is(h1, h2, h3, h4, h5, h6)::before {
+    left: -24px !important;
+}
+
+:not(.popup) :is(h1, h2, h3, h4, h5, h6) {
+    margin: calc(var(--font-text-size) / 4) 0;
+}
+
+:is(div.markdown-reading-view > div > div > div > h1,
+    .markdown-source-view.mod-cm6.is-live-preview .HyperMD-header-1)::before {
+    border: 2px solid var(--h1-color);
+    content: "H1";
+    color: var(--header-indicator-color-h1);
+    background-color: var(--header-indicator-bg-h1);
+}
+
+:is(div.markdown-reading-view > div > div > div > h2,
+    .markdown-source-view.mod-cm6.is-live-preview .HyperMD-header-2)::before {
+    border: 2px solid var(--h2-color);
+    content: "H2";
+    color: var(--header-indicator-color-h2);
+    background-color: var(--header-indicator-bg-h2);
+}
+
+:is(div.markdown-reading-view > div > div > div > h3,
+    .markdown-source-view.mod-cm6.is-live-preview .HyperMD-header-3)::before {
+    border: 2px solid var(--h3-color);
+    content: "H3";
+    color: var(--header-indicator-color-h3);
+    background-color: var(--header-indicator-bg-h3);
+}
+
+:is(div.markdown-reading-view > div > div > div > h4,
+    .markdown-source-view.mod-cm6.is-live-preview .HyperMD-header-4)::before {
+    border: 2px solid var(--h4-color);
+    content: "H4";
+    color: var(--header-indicator-color-h4);
+    background-color: var(--header-indicator-bg-h4);
+}
+
+:is(div.markdown-reading-view > div > div > div > h5,
+    .markdown-source-view.mod-cm6.is-live-preview .HyperMD-header-5)::before {
+    border: 2px solid var(--h5-color);
+    content: "H5";
+    color: var(--header-indicator-color-h5);
+    background-color: var(--header-indicator-bg-h5);
+}
+
+:is(div.markdown-reading-view > div > div > div > h6,
+    .markdown-source-view.mod-cm6.is-live-preview .HyperMD-header-6)::before {
+    border: 2px solid var(--h6-color);
+    content: "H6";
+    color: var(--header-indicator-color-h6);
+    background-color: var(--header-indicator-bg-h6);
+}
+
+.heading-collapse-indicator {
+    position: absolute;
+    z-index: 99;
+    height: 16px;
+    width: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+.heading-collapse-indicator svg {
+    display: none;
+}
+
+.HyperMD-header {
+    position: relative;
+}
+
+.HyperMD-header .cm-fold-indicator .collapse-indicator {
+    z-index: 99;
+    opacity: 0 !important;
+    width: 24px;
+    height: 14px !important;
+    padding-right: 6px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
+
+.cm-formatting.cm-formatting-header {
+    filter: grayscale(70%);
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+:is(h2, .HyperMD-header-2) {
+    position: relative;
+}
+
+:is(h2, .HyperMD-header-2)::after {
+    content: "";
+    position: absolute;
+    height: var(--size-4-1);
+    width: 100%;
+    bottom: var(--size-4-1);
+    left: 0;
+    background-image: linear-gradient(to right, var(--h2-color) 30%, transparent 70%);
+}
+
+h6,
+.cm-header-6 {
+    font-variant: small-caps;
+}
+
+p {
+    margin: var(--size-4-1) 0;
+}

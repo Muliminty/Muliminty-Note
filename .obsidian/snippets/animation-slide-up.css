@@ -1,0 +1,37 @@
+body {
+    --animation: 200ms ease-in;
+}
+
+body .workspace-split .workspace-tabs:not(.mod-stacked) .view-content,
+.workspace-leaf-content:not(:has(.view-content)) {
+    animation: slide-up var(--animation) forwards;
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(0%);
+        opacity: 0;
+    }
+
+    15% {
+        transform: translateY(0.1rem);
+        opacity: 0;
+    }
+
+    25% {
+        transform: translateY(0.15rem);
+    }
+
+    45% {
+        opacity: 0.5;
+    }
+
+    65% {
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}

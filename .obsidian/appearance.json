@@ -2,5 +2,8 @@
   "cssTheme": "Things",
   "nativeMenus": false,
   "theme": "moonstone",
-  "accentColor": "#09a6fb"
+  "accentColor": "#09a6fb",
+  "enabledCssSnippets": [
+    "nav-folder-title-icon"
+  ]
 }

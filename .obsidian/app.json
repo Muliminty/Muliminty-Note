@@ -6,5 +6,7 @@
   "newFileFolderPath": "碎片整理/小记",
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "showLineNumber": true,
+  "defaultViewMode": "preview"
 }

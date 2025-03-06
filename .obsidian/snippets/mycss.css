@@ -1,0 +1,65 @@
+/* 引用样式 */
+
+[class="cm-link"],
+[class="external-link"],
+[class="cm-underline"],
+[class="internal-link"],
+.cm-link {
+    background-image: linear-gradient(120deg, #1D976C, #93F9B9 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.3em;
+    background-position: 0 110%;
+    transition: background-size 0.25s;
+    padding: 0;
+}
+
+[class="cm-link"]:hover,
+[class="external-link"]:hover,
+[class="cm-underline"]:hover,
+[class="internal-link"]:hover,
+.cm-link:hover {
+    color: #333 !important;
+    background-size: 100% 88% !important;
+}
+
+/*Excalidraw样式 图片 样式 */
+[class="internal-embed media-embed image-embed is-loaded"] {
+    width: 60% !important;
+    max-width: 450px;
+}
+
+[class="internal-embed media-embed image-embed is-loaded"] img {
+    width: 100%;
+    height: 100%;
+    transition: transform .2s, box-shadow .2s;
+
+    border: 5px solid #ddd;
+    border-image: -webkit-linear-gradient(#1D976C, #93F9B9) 20 20;
+    border-image: -moz-linear-gradient(#1D976C, #93F9B9) 20 20;
+    border-image: -o-linear-gradient(#1D976C, #93F9B9) 20 20;
+    border-image: linear-gradient(#1D976C, #93F9B9) 20 20;
+
+}
+
+[class^="excalidraw-svg-"] img {
+    width: 80% !important;
+    max-width: 80% !important;
+    transition: transform .2s, box-shadow .2s;
+
+    border: 5px solid #ddd;
+    border-image: -webkit-linear-gradient(#1D976C, #93F9B9) 20 20;
+    border-image: -moz-linear-gradient(#1D976C, #93F9B9) 20 20;
+    border-image: -o-linear-gradient(#1D976C, #93F9B9) 20 20;
+    border-image: linear-gradient(#1D976C, #93F9B9) 20 20;
+}
+
+
+/* Banners 插件样式优化 */
+.frontmatter-container {
+    display: none;
+}
+
+.obsidian-banner-wrapper {
+    margin-top: calc(var(--banner-height) - 75px);
+    padding-top: 0.5em;
+}
