@@ -7,14 +7,14 @@
 
 /* 文件夹 icon */
 .nav-folder-title .nav-folder-title-content::before {
-    content: "📁" !important;
+    content: "📁 " !important;
     position: relative !important;
     right: 1px;
 }
 
 /* md 文件 icon */
 .nav-file-title-content::before {
-    content: "📄" !important;
+    content: "📄 " !important;
     position: relative !important;
     right: 1px;
 }
