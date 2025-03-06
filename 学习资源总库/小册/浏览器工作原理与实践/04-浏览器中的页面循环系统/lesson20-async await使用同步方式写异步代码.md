@@ -175,17 +175,16 @@ co(foo());
 
 关于异步执行的原因，我们一会儿再分析。这里我们先来看看是如何隐式返回 Promise 的，你可以参考下面的代码：
 
-```
+```js
 async function foo() {
     return 2
 }
-
 console.log(foo())  // Promise {<resolved>: 2}
 ```
 
 执行这段代码，我们可以看到调用 async 声明的 foo 函数返回了一个 Promise 对象，状态是 resolved，返回结果如下所示：
 
-```
+```js
 Promise {<resolved>: 2}
 ```
 
@@ -254,3 +253,5 @@ foo 协程激活之后，会把刚才的 value 值赋给了变量 a，然后 foo
 - 使用 async/await 可以实现用同步代码的风格来编写异步代码，这是因为 async/await 的基础技术使用了生成器和 Promise，生成器是协程的实现，利用生成器能实现生成器函数的暂停和恢复。
 - 另外，V8 引擎还为 async/await 做了大量的语法层面包装，所以了解隐藏在背后的代码有助于加深你对 async/await 的理解。
 - `async/await` 无疑是异步编程领域非常大的一个革新，也是未来的一个主流的编程风格。其实，除了 JavaScript，Python、Dart、C# 等语言也都引入了 `async/await`，使用它不仅能让代码更加整洁美观，而且还能确保该函数始终都能返回 Promise
+
+[lesson21-页面性能分析：利用chrome做web性能分析](../05-浏览器中的页面/lesson21-页面性能分析：利用chrome做web性能分析.md)
