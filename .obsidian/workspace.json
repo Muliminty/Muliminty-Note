@@ -4,39 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "28bb4a81314ad40b",
+        "id": "11ec1f3c8af38797",
         "type": "tabs",
         "children": [
           {
-            "id": "622ead2f2d959ecf",
+            "id": "acc6e7f15cab9dda",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "pdf-annotator",
               "state": {
-                "url": "https://juejin.cn/",
-                "title": "稀土掘金",
-                "mode": "webview"
+                "file": "学习资源总库/读书笔记/你不知道的JavaScript/Annotator-你不知道的JavaScript上.md"
               },
-              "icon": "globe-2",
-              "title": "稀土掘金"
-            }
-          },
-          {
-            "id": "911a4062346bf353",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://juejin.cn/post/7463016392909111296",
-                "title": "小小DeepSeek、Cursor、Winsurf、Trae都是弟弟，程序员的饭碗仍然坚不可摧GPT 3.5发布已近两年 - 掘金",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "小小DeepSeek、Cursor、Winsurf、Trae都是弟弟，程序员的饭碗仍然坚不可摧GPT 3.5发布已近两年 - 掘金"
+              "icon": "lucide-file",
+              "title": "Annotator-你不知道的JavaScript上"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,12 +87,12 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 228.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -125,12 +108,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "学习资源总库/读书笔记/你不知道的JavaScript/Annotator-你不知道的JavaScript上.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Annotator-你不知道的JavaScript上 的大纲"
             }
           },
           {
@@ -243,8 +227,23 @@
               "icon": "globe-2",
               "title": "分词/词法分析 - Kimi.ai"
             }
+          },
+          {
+            "id": "302274ee5b35c842",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -265,8 +264,15 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "21fefd9d31313cb1",
+  "active": "acc6e7f15cab9dda",
   "lastOpenFiles": [
+    "学习资源总库/读书笔记/你不知道的JavaScript/Annotator-你不知道的JavaScript上.md",
+    "学习资源总库/读书笔记/你不知道的JavaScript/第2章 词法作用域.md",
+    "学习资源总库/小册/README.md",
+    "学习资源总库/小册/PDF/你不知道的JavaScript（上卷）.pdf",
+    "学习资源总库/小册/PDF",
+    "书签.md",
+    "碎片整理/Thino/2025-03-07.md",
     "index.md",
     "00-编程经验/代码片段库/008-奇技淫巧/npm link.md",
     "00-编程经验/问题解决方案/权限控制.md",
@@ -306,13 +312,6 @@
     "00-前端/工具库/轮子-工具-百度地图",
     "00-前端/工具库/轮子-工具-vitePress/深入 VitePress 源码解析：Markdown 解析.md",
     "00-前端/工具库/轮子-工具-vitePress",
-    "00-前端/工具库/轮子-UI-ProComponents/ProTable/动态高度.md",
-    "00-前端/工具库/轮子-UI-ProComponents/ProTable/ProTable.md",
-    "00-前端/工具库/轮子-UI-ProComponents/ProTable/ProTable 搜索配置详解.md",
-    "00-前端/工具库/轮子-UI-ProComponents/附件",
-    "00-前端/工具库/轮子-UI-ProComponents/使用 ProForm 和 Form.List 实现动态表单项.md",
-    "00-前端/工具库/轮子-UI-ProComponents/ProTable",
-    "00-前端/工具库/轮子-UI-ProComponents/ProFormText添加onClick事件.md",
     "未命名.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas"
