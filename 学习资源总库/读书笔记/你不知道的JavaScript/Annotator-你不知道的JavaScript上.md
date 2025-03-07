@@ -103,13 +103,15 @@ annotation-target: ../../小册/PDF/你不知道的JavaScript（上卷）.pdf
 
 >%%
 >```annotation-json
->{"created":"2024-12-18T03:48:14.200Z","updated":"2024-12-18T03:48:14.200Z","document":{"title":"","link":[{"href":"urn:x-pdf:b461c29b2ae560e1cb6142263aa3e67a"}],"documentFingerprint":"b461c29b2ae560e1cb6142263aa3e67a"},"uri":"urn:x-pdf:b461c29b2ae560e1cb6142263aa3e67a","target":[{"source":"urn:x-pdf:b461c29b2ae560e1cb6142263aa3e67a","selector":[{"type":"TextPositionSelector","start":25843,"end":25846},{"type":"TextQuoteSelector","exact":"作用域","prefix":"编译，然后做好执行它的准备，并且通常马上就会执行它。1.2 理解","suffix":"我们学习作用域的方式是将这个过程模拟成几个人物之间的对话。那么，"}]}]}
+>{"text":"\n","target":[{"source":"urn:x-pdf:b461c29b2ae560e1cb6142263aa3e67a","selector":[{"type":"TextPositionSelector","start":25843,"end":25846},{"type":"TextQuoteSelector","exact":"作用域","prefix":"编译，然后做好执行它的准备，并且通常马上就会执行它。1.2 理解","suffix":"我们学习作用域的方式是将这个过程模拟成几个人物之间的对话。那么，"}]}],"created":"2024-12-18T03:48:14.200Z","updated":"2024-12-18T03:48:14.200Z","document":{"title":"","link":[{"href":"urn:x-pdf:b461c29b2ae560e1cb6142263aa3e67a"}],"documentFingerprint":"b461c29b2ae560e1cb6142263aa3e67a"},"uri":"urn:x-pdf:b461c29b2ae560e1cb6142263aa3e67a"}
 >```
 >%%
 >*%%PREFIX%%编译，然后做好执行它的准备，并且通常马上就会执行它。1.2 理解%%HIGHLIGHT%% ==作用域== %%POSTFIX%%我们学习作用域的方式是将这个过程模拟成几个人物之间的对话。那么，*
 >%%LINK%%[[#^ax3mx3kpfxm|show annotation]]
 >%%COMMENT%%
 >
+>
 >%%TAGS%%
 >
 ^ax3mx3kpfxm
+
