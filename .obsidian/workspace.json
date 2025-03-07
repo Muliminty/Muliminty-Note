@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "39857f60ce127e03",
+        "id": "28bb4a81314ad40b",
         "type": "tabs",
         "children": [
           {
-            "id": "3523bcba6e20b977",
+            "id": "622ead2f2d959ecf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "webviewer",
               "state": {
-                "file": "学习资源总库/小册/浏览器工作原理与实践/05-浏览器中的页面/lesson22-DOM树：JavaScript是如何影响DOM树构建的.md",
-                "mode": "preview",
-                "source": false
+                "url": "https://juejin.cn/",
+                "title": "稀土掘金",
+                "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "lesson22-DOM树：JavaScript是如何影响DOM树构建的"
+              "icon": "globe-2",
+              "title": "稀土掘金"
             }
           },
           {
-            "id": "e875c1e3dd69e87c",
+            "id": "911a4062346bf353",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "webviewer",
               "state": {
-                "file": "00-前端/工具库/!MOC-工具库.md",
-                "mode": "source",
-                "source": false
+                "url": "https://juejin.cn/post/7463016392909111296",
+                "title": "小小DeepSeek、Cursor、Winsurf、Trae都是弟弟，程序员的饭碗仍然坚不可摧GPT 3.5发布已近两年 - 掘金",
+                "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "!MOC-工具库"
+              "icon": "globe-2",
+              "title": "小小DeepSeek、Cursor、Winsurf、Trae都是弟弟，程序员的饭碗仍然坚不可摧GPT 3.5发布已近两年 - 掘金"
             }
           }
         ],
@@ -104,11 +104,12 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 228.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -124,13 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-前端/工具库/!MOC-工具库.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "!MOC-工具库 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -139,7 +139,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-前端/工具库/!MOC-工具库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +148,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "!MOC-工具库 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -158,12 +157,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-前端/工具库/!MOC-工具库.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "!MOC-工具库 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -267,10 +265,15 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e875c1e3dd69e87c",
+  "active": "21fefd9d31313cb1",
   "lastOpenFiles": [
-    "00-前端/工具库/file-saver 使用笔记.md",
+    "index.md",
+    "00-编程经验/代码片段库/008-奇技淫巧/npm link.md",
+    "00-编程经验/问题解决方案/权限控制.md",
     "00-前端/工具库/!MOC-工具库.md",
+    "学习资源总库/小册/浏览器工作原理与实践/05-浏览器中的页面/lesson22-DOM树：JavaScript是如何影响DOM树构建的.md",
+    "00-前端/框架生态/React/生态库/前端基础-框架-Umi/后台管理系统.md",
+    "00-前端/工具库/file-saver 使用笔记.md",
     "00-前端/工具库/轮子-Three.js/!MOC-Three.js.md",
     "00-前端/工具库/轮子-Three.js",
     "00-前端/工具库/轮子-拖拽-GridStack.js/GridStackOptions 配置项.md",
@@ -310,11 +313,6 @@
     "00-前端/工具库/轮子-UI-ProComponents/使用 ProForm 和 Form.List 实现动态表单项.md",
     "00-前端/工具库/轮子-UI-ProComponents/ProTable",
     "00-前端/工具库/轮子-UI-ProComponents/ProFormText添加onClick事件.md",
-    "00-前端/工具库/轮子-UI-ProComponents/ProFormDependency.md",
-    "00-前端/工具库/轮子-UI-Ant Design/Model/外部控制 Modal.confirm 的打开和关闭.md",
-    "00-前端/工具库/轮子-UI-Ant Design/Model/模态框按钮修改样式.md",
-    "00-前端/工具库/轮子-UI-Ant Design/Model/基于Modal.confirm的封装.md",
-    "00-前端/工具库/轮子-UI-Ant Design/Model/Modal.confirm.md",
     "未命名.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas"
