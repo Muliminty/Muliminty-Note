@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c9fa260b44228c9a",
+        "id": "9435016d13338e20",
         "type": "tabs",
         "children": [
           {
-            "id": "3bb2cb94d79bf28a",
+            "id": "54b38381665e60a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "index"
+              "title": "新标签页"
             }
           }
         ]
@@ -109,13 +105,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -242,13 +237,23 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
+          },
+          {
+            "id": "8bbc71f2c1ac579e",
+            "type": "leaf",
+            "state": {
+              "type": "mxmind-view",
+              "state": {},
+              "icon": "network",
+              "title": "Mxmind"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 503.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -261,37 +266,41 @@
       "obsidian-kanban:创建新看板": false,
       "obsidian-memos:Thino": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "mxmind:Mxmind": false
     }
   },
-  "active": "3bb2cb94d79bf28a",
+  "active": "54b38381665e60a6",
   "lastOpenFiles": [
-    "README.md",
-    "index.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/!MOC-执行模型.md",
-    "碎片整理/Thino/2025-03-08.md",
-    "碎片整理/小记/().md",
-    "00-前端/00-核心/JavaScript/01-核心概念/!MOC-核心概念.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/词法环境.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/内存管理/垃圾回收.md",
-    "00-编程经验/007-Blog/原生HTML组件化开发深度解析：对象标签与动态加载方案实践.md",
-    "00-编程经验/007-Blog/Svelte.js 入门指南.md",
-    "00-编程经验/007-Blog/00-JavaScript 变量提升时究竟干了啥？.md",
-    "00-编程经验/007-Blog/00-为什么需要区分堆和栈？.md",
-    "00-编程经验/007-Blog/00-当你输入var之后发生了什么？.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量声明.md",
-    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
     "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
-    "00-前端/!MOC-Frontend.md",
-    "00-前端/前端大纲.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/!MOC-核心概念.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/!MOC-执行模型.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/词法环境.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/基础语法/箭头函数.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/基础语法/!MOC-基础语法.md",
     "00-前端/前端知识图谱.md",
-    "01-计算机科学体系/计算机组成原理/!MOC-计算机组成原理.md",
-    "01-计算机科学体系/!MOC-计算机科学知识地图.md",
-    "01-计算机科学体系/编译原理/概述.md",
-    "学习资源总库/读书笔记/你不知道的JavaScript/Annotator-你不知道的JavaScript上.md",
-    "学习资源总库/读书笔记/你不知道的JavaScript/完整大纲整理.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/作用域链.md",
+    "00-前端/前端大纲.md",
+    "00-前端/!MOC-Frontend.md",
+    "Z-归档/tt.md",
+    "Z-归档/test.md",
+    "学习资源总库/(前端)-不高兴就喝水出品.xmind",
+    "学习资源总库/前端-不高兴就喝水出品.png",
+    "00-前端/roadmap-完整路线.jpeg",
+    "碎片整理/剪藏/互联网是如何工作的.md",
     "书签.md",
+    "README.md",
+    "学习资源总库/读书笔记/你不知道的JavaScript/Annotator-你不知道的JavaScript上.md",
+    "学习资源总库/读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
+    "学习资源总库/读书笔记/你不知道的JavaScript/第2章 词法作用域.md",
+    "学习资源总库/读书笔记/你不知道的JavaScript/完整大纲整理.md",
+    "Z-归档/个人网站项目参考/React 目录树控件.md",
+    "Z-归档/面试之道/面试宝典/计算机网络面试宝典.md",
+    "Z-归档/面试之道/面试宝典/性能优化面试宝典.md",
+    "Z-归档/面试之道/面试宝典/javascript手写精通面试宝典.md",
+    "Z-归档/面试之道/面试宝典/javascript面试宝典.md",
+    "Z-归档/面试之道/面试宝典/React面试宝典.md",
+    "Z-归档/面试之道/面试宝典/Vue面试宝典.md",
+    "Z-归档/面试之道/README.md",
     "学习资源总库/小册/PDF/你不知道的JavaScript（上卷）.pdf",
     "学习资源总库/小册/PDF",
     "00-前端/工具库/轮子-Three.js",
@@ -306,12 +315,9 @@
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/百度地图开发入门-3.png",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/百度地图开发入门-2.png",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/百度地图开发入门-1.png",
-    "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/报错处理.png",
-    "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/报错处理-1.png",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL",
     "00-前端/工具库/轮子-工具-百度地图",
-    "00-前端/工具库/轮子-工具-vitePress",
     "未命名.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas"

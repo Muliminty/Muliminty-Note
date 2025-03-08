@@ -115,3 +115,19 @@ annotation-target: ../../小册/PDF/你不知道的JavaScript（上卷）.pdf
 >
 ^ax3mx3kpfxm
 
+
+
+
+>%%
+>```annotation-json
+>{"text":"\n","target":[{"source":"vault:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E6%80%BB%E5%BA%93/%E5%B0%8F%E5%86%8C/PDF/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript%EF%BC%88%E4%B8%8A%E5%8D%B7%EF%BC%89.pdf","selector":[{"type":"TextPositionSelector","start":38253,"end":38302},{"type":"TextQuoteSelector","exact":"从所写的代码中挑选出一个任意的片段，然后用函数声明对它进行包装，实际上就是把这些代码“隐藏”起来了","prefix":"明一个函数，然后再向里面添加代码。但反过来想也可以带来一些启示：","suffix":"。实际的结果就是在这个代码片段的周围创建了一个作用域气泡，也就是"}]}],"created":"2025-03-08T12:13:47.756Z","updated":"2025-03-08T12:13:47.756Z","document":{"title":"%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript%EF%BC%88%E4%B8%8A%E5%8D%B7%EF%BC%89.pdf","link":[{"href":"urn:x-pdf:b461c29b2ae560e1cb6142263aa3e67a"},{"href":"vault:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E6%80%BB%E5%BA%93/%E5%B0%8F%E5%86%8C/PDF/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript%EF%BC%88%E4%B8%8A%E5%8D%B7%EF%BC%89.pdf"}],"documentFingerprint":"b461c29b2ae560e1cb6142263aa3e67a"},"uri":"vault:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E6%80%BB%E5%BA%93/%E5%B0%8F%E5%86%8C/PDF/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript%EF%BC%88%E4%B8%8A%E5%8D%B7%EF%BC%89.pdf"}
+>```
+>%%
+>*%%PREFIX%%明一个函数，然后再向里面添加代码。但反过来想也可以带来一些启示：%%HIGHLIGHT%% ==从所写的代码中挑选出一个任意的片段，然后用函数声明对它进行包装，实际上就是把这些代码“隐藏”起来了== %%POSTFIX%%。实际的结果就是在这个代码片段的周围创建了一个作用域气泡，也就是*
+>%%LINK%%[[#^j8gavieh4o|show annotation]]
+>%%COMMENT%%
+>
+>
+>%%TAGS%%
+>
+^j8gavieh4o
