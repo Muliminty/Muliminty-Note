@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-计算机科学体系/计算机组成原理/!MOC-计算机组成原理.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!MOC-计算机组成原理"
+              "title": "index"
             }
           }
         ]
@@ -54,7 +54,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "对象结构",
+                "query": "运行时和编译时确定的特性",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 303.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -109,13 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-计算机科学体系/计算机组成原理/!MOC-计算机组成原理.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "!MOC-计算机组成原理 的大纲"
+              "title": "index 的大纲"
             }
           },
           {
@@ -243,7 +243,8 @@
               "title": "添加笔记属性"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -265,37 +266,37 @@
   },
   "active": "3bb2cb94d79bf28a",
   "lastOpenFiles": [
-    "01-计算机科学体系/!MOC-计算机科学知识地图.md",
-    "01-计算机科学体系/计算机组成原理/!MOC-计算机组成原理.md",
     "README.md",
+    "index.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/!MOC-执行模型.md",
+    "碎片整理/Thino/2025-03-08.md",
+    "碎片整理/小记/().md",
+    "00-前端/00-核心/JavaScript/01-核心概念/!MOC-核心概念.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/词法环境.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/内存管理/垃圾回收.md",
+    "00-编程经验/007-Blog/原生HTML组件化开发深度解析：对象标签与动态加载方案实践.md",
+    "00-编程经验/007-Blog/Svelte.js 入门指南.md",
+    "00-编程经验/007-Blog/00-JavaScript 变量提升时究竟干了啥？.md",
+    "00-编程经验/007-Blog/00-为什么需要区分堆和栈？.md",
+    "00-编程经验/007-Blog/00-当你输入var之后发生了什么？.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量声明.md",
+    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
+    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
+    "00-前端/!MOC-Frontend.md",
+    "00-前端/前端大纲.md",
+    "00-前端/前端知识图谱.md",
+    "01-计算机科学体系/计算机组成原理/!MOC-计算机组成原理.md",
+    "01-计算机科学体系/!MOC-计算机科学知识地图.md",
     "01-计算机科学体系/编译原理/概述.md",
     "学习资源总库/读书笔记/你不知道的JavaScript/Annotator-你不知道的JavaScript上.md",
     "学习资源总库/读书笔记/你不知道的JavaScript/完整大纲整理.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/作用域链.md",
     "书签.md",
-    "学习资源总库/读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
-    "学习资源总库/读书笔记/你不知道的JavaScript/第2章 词法作用域.md",
-    "学习资源总库/小册/README.md",
     "学习资源总库/小册/PDF/你不知道的JavaScript（上卷）.pdf",
     "学习资源总库/小册/PDF",
-    "碎片整理/Thino/2025-03-07.md",
-    "index.md",
-    "00-编程经验/代码片段库/008-奇技淫巧/npm link.md",
-    "00-编程经验/问题解决方案/权限控制.md",
-    "00-前端/工具库/!MOC-工具库.md",
-    "学习资源总库/小册/浏览器工作原理与实践/05-浏览器中的页面/lesson22-DOM树：JavaScript是如何影响DOM树构建的.md",
-    "00-前端/框架生态/React/生态库/前端基础-框架-Umi/后台管理系统.md",
-    "00-前端/工具库/file-saver 使用笔记.md",
-    "00-前端/工具库/轮子-Three.js/!MOC-Three.js.md",
     "00-前端/工具库/轮子-Three.js",
-    "00-前端/工具库/轮子-拖拽-GridStack.js/GridStackOptions 配置项.md",
-    "00-前端/工具库/轮子-拖拽-GridStack.js/GridStack.js API 文档.md",
-    "00-前端/工具库/轮子-拖拽-GridStack.js/gridstack.js  原文文档.md",
     "00-前端/工具库/轮子-拖拽-GridStack.js",
-    "00-前端/工具库/轮子-拖拽-dnd kit使用指南/参考文档.md",
-    "00-前端/工具库/轮子-拖拽-dnd kit使用指南/README.md",
     "00-前端/工具库/轮子-拖拽-dnd kit使用指南",
-    "00-前端/工具库/轮子-时间库-Moment/常用时间键值对.md",
     "00-前端/工具库/轮子-时间库-Moment",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/百度地图开发入门.png",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/百度地图开发入门.jpg",
