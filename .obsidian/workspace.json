@@ -13,30 +13,49 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量声明.md",
+                "file": "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "变量声明"
+              "title": "!MOC-JavaScript"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "f8f5944de9efa429",
+        "type": "tabs",
+        "children": [
           {
             "id": "4464341a2bd5372d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
+                "file": "index.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "!MOC-JavaScript"
+              "title": "index"
+            }
+          },
+          {
+            "id": "c8c79049dad793a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -291,15 +310,18 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "4464341a2bd5372d",
+  "active": "54b38381665e60a6",
   "lastOpenFiles": [
-    "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
+    "index.md",
+    "README.md",
+    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
+    "01-计算机科学体系/!MOC-计算机科学知识地图.md",
     "00-前端/!MOC-Frontend.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量声明.md",
+    "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/!MOC-执行模型.md",
     "00-前端/00-核心/JavaScript/01-核心概念/基础语法/!MOC-基础语法.md",
-    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
     "00-前端/00-核心/JavaScript/01-核心概念/!MOC-核心概念.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量声明.md",
     "00-前端/00-核心/JavaScript/01-核心概念/基础语法/箭头函数.md",
     "书签.md",
     "学习资源总库/知识库架构设计.md",
@@ -312,7 +334,6 @@
     "Z-归档/test.md",
     "00-前端/roadmap-完整路线.jpeg",
     "碎片整理/剪藏/互联网是如何工作的.md",
-    "README.md",
     "学习资源总库/读书笔记/你不知道的JavaScript/Annotator-你不知道的JavaScript上.md",
     "学习资源总库/读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
     "学习资源总库/读书笔记/你不知道的JavaScript/第2章 词法作用域.md",
@@ -320,8 +341,6 @@
     "Z-归档/个人网站项目参考/React 目录树控件.md",
     "Z-归档/面试之道/面试宝典/计算机网络面试宝典.md",
     "Z-归档/面试之道/面试宝典/性能优化面试宝典.md",
-    "Z-归档/面试之道/面试宝典/javascript手写精通面试宝典.md",
-    "Z-归档/面试之道/面试宝典/javascript面试宝典.md",
     "学习资源总库/小册/PDF/你不知道的JavaScript（上卷）.pdf",
     "学习资源总库/小册/PDF",
     "00-前端/工具库/轮子-Three.js",
