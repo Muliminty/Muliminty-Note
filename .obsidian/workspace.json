@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-计算机科学体系/!MOC-计算机科学知识地图.md",
+                "file": "01-计算机科学体系/计算机组成原理/!MOC-计算机组成原理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!MOC-计算机科学知识地图"
+              "title": "!MOC-计算机组成原理"
             }
           }
         ]
@@ -109,13 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习资源总库/读书笔记/你不知道的JavaScript/Annotator-你不知道的JavaScript上.md",
+                "file": "01-计算机科学体系/计算机组成原理/!MOC-计算机组成原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Annotator-你不知道的JavaScript上 的大纲"
+              "title": "!MOC-计算机组成原理 的大纲"
             }
           },
           {
@@ -243,13 +243,11 @@
               "title": "添加笔记属性"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 401.5,
-    "collapsed": true
+    "width": 401.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,8 +265,10 @@
   },
   "active": "3bb2cb94d79bf28a",
   "lastOpenFiles": [
-    "01-计算机科学体系/编译原理/概述.md",
     "01-计算机科学体系/!MOC-计算机科学知识地图.md",
+    "01-计算机科学体系/计算机组成原理/!MOC-计算机组成原理.md",
+    "README.md",
+    "01-计算机科学体系/编译原理/概述.md",
     "学习资源总库/读书笔记/你不知道的JavaScript/Annotator-你不知道的JavaScript上.md",
     "学习资源总库/读书笔记/你不知道的JavaScript/完整大纲整理.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/作用域链.md",
@@ -296,8 +296,6 @@
     "00-前端/工具库/轮子-拖拽-dnd kit使用指南/README.md",
     "00-前端/工具库/轮子-拖拽-dnd kit使用指南",
     "00-前端/工具库/轮子-时间库-Moment/常用时间键值对.md",
-    "00-前端/工具库/轮子-时间库-Moment/常用时间段操作整理 - 使用 MomentJs.md",
-    "00-前端/工具库/轮子-时间库-Moment/使用 Moment 和 React-i18next 进行日期时间国际化.md",
     "00-前端/工具库/轮子-时间库-Moment",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/百度地图开发入门.png",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/百度地图开发入门.jpg",
