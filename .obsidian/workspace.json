@@ -4,53 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6fe9297a70891c38",
+        "id": "c9fa260b44228c9a",
         "type": "tabs",
         "children": [
           {
-            "id": "79a7b7a375d99ba2",
-            "type": "leaf",
-            "state": {
-              "type": "pdf-annotator",
-              "state": {
-                "file": "学习资源总库/读书笔记/你不知道的JavaScript/Annotator-你不知道的JavaScript上.md"
-              },
-              "icon": "lucide-file",
-              "title": "Annotator-你不知道的JavaScript上"
-            }
-          },
-          {
-            "id": "8c4f861b717533d5",
+            "id": "3bb2cb94d79bf28a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/01-核心概念/执行模型/作用域链.md",
-                "mode": "preview",
+                "file": "01-计算机科学体系/!MOC-计算机科学知识地图.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "作用域链"
-            }
-          },
-          {
-            "id": "88fa47e3426d85a4",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "书签.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "书签"
+              "title": "!MOC-计算机科学知识地图"
             }
           }
         ]
@@ -125,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5,
-    "collapsed": true
+    "width": 228.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -298,11 +265,14 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "79a7b7a375d99ba2",
+  "active": "3bb2cb94d79bf28a",
   "lastOpenFiles": [
-    "书签.md",
+    "01-计算机科学体系/编译原理/概述.md",
+    "01-计算机科学体系/!MOC-计算机科学知识地图.md",
     "学习资源总库/读书笔记/你不知道的JavaScript/Annotator-你不知道的JavaScript上.md",
+    "学习资源总库/读书笔记/你不知道的JavaScript/完整大纲整理.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/作用域链.md",
+    "书签.md",
     "学习资源总库/读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
     "学习资源总库/读书笔记/你不知道的JavaScript/第2章 词法作用域.md",
     "学习资源总库/小册/README.md",
@@ -328,7 +298,6 @@
     "00-前端/工具库/轮子-时间库-Moment/常用时间键值对.md",
     "00-前端/工具库/轮子-时间库-Moment/常用时间段操作整理 - 使用 MomentJs.md",
     "00-前端/工具库/轮子-时间库-Moment/使用 Moment 和 React-i18next 进行日期时间国际化.md",
-    "00-前端/工具库/轮子-时间库-Moment/moment常用方法.md",
     "00-前端/工具库/轮子-时间库-Moment",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/百度地图开发入门.png",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/百度地图开发入门.jpg",
@@ -341,8 +310,6 @@
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/报错处理.png",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/报错处理-1.png",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件",
-    "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/未命名看板.md",
-    "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/百度地图开发入门.md",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL",
     "00-前端/工具库/轮子-工具-百度地图",
     "00-前端/工具库/轮子-工具-vitePress",
