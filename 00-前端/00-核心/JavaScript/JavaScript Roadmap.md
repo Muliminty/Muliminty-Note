@@ -1,7 +1,7 @@
 + [原文地址](https://roadmap.sh/javascript)
 + JavaScript简介
 + JavaScript变量
-	+ [变量声明](01-核心概念/基础语法/变量声明.md)（var let const
+	+ [变量声明](00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量声明.md)（var let const
 	+ 变量提升
 	+ 命名规则
 	+ 作用域

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
+                "file": "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "JavaScript Roadmap"
+              "title": "!MOC-JavaScript"
             }
           }
         ],
@@ -293,21 +293,21 @@
   },
   "active": "4464341a2bd5372d",
   "lastOpenFiles": [
+    "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
+    "00-前端/!MOC-Frontend.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/!MOC-执行模型.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/基础语法/!MOC-基础语法.md",
+    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
+    "00-前端/00-核心/JavaScript/01-核心概念/!MOC-核心概念.md",
     "00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量声明.md",
     "00-前端/00-核心/JavaScript/01-核心概念/基础语法/箭头函数.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/基础语法/!MOC-基础语法.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/!MOC-核心概念.md",
-    "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
-    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
     "书签.md",
     "学习资源总库/知识库架构设计.md",
     "学习资源总库/(前端)-不高兴就喝水出品.xmind",
     "学习资源总库/前端-不高兴就喝水出品.png",
-    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/!MOC-执行模型.md",
     "00-前端/00-核心/JavaScript/01-核心概念/执行模型/词法环境.md",
     "00-前端/前端知识图谱.md",
     "00-前端/前端大纲.md",
-    "00-前端/!MOC-Frontend.md",
     "Z-归档/tt.md",
     "Z-归档/test.md",
     "00-前端/roadmap-完整路线.jpeg",
