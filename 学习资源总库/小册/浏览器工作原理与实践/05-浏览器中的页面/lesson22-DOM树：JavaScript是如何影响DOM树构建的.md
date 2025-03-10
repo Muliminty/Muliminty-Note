@@ -50,7 +50,7 @@ pageClass: custom-code-highlight
 
 ![](附件/d26f4fee-08f7-4f05-b914-8e142774dacf_1739517129125.png)
 
-由图可以看出，Tag Token 又分 StartTag 和 EndTag，比如<body>就是 StartTag ，</body>就是EndTag，分别对于图中的蓝色和红色块，文本 Token 对应的绿色块。
+由图可以看出，Tag Token 又分 StartTag 和 EndTag，比如`<body>`就是 StartTag ，`</body>`就是EndTag，分别对于图中的蓝色和红色块，文本 Token 对应的绿色块。
 
 **至于后续的第二个和第三个阶段是同步进行的，需要将 Token 解析为 DOM 节点，并将 DOM 节点添加到 DOM 树中**。
 
@@ -141,11 +141,11 @@ div1.innerText = 'time.geekbang'
 </html>
 ```
 
-这段代码的功能还是和前面那段代码是一样的，不过这里我把内嵌 JavaScript 脚本修改成了通过 JavaScript 文件加载。其整个执行流程还是一样的，执行到 JavaScript 标签时，暂停整个 DOM 的解析，执行 JavaScript 代码，不过这里执行 JavaScript 时，需要先下载这段 JavaScript 代码。这里需要重点关注下载环境，因为JavaScript 文件的下载过程会阻塞 DOM 解析，而通常下载又是非常耗时的，会受到网络环境、JavaScript 文件大小等因素的影响。
+这段代码的功能还是和前面那段代码是一样的，不过这里我把内嵌 JavaScript 脚本修改成了通过 JavaScript 文件加载。其整个执行流程还是一样的，执行到 JavaScript 标签时，**暂停整个 DOM 的解析**，执行 JavaScript 代码，不过这里执行 JavaScript 时，需要先下载这段 JavaScript 代码。这里需要重点关注下载环境，因为JavaScript 文件的下载过程会阻塞 DOM 解析，而通常下载又是非常耗时的，会受到网络环境、JavaScript 文件大小等因素的影响。
 
-不过 Chrome 浏览器做了很多优化，其中一个主要的优化是预解析操作。当渲染引擎收到字节流之后，会开启一个预解析线程，用来分析 HTML 文件中包含的 JavaScript、CSS 等相关文件，解析到相关文件之后，预解析线程会提前下载这些文件。
+不过 Chrome 浏览器做了很多优化，其中一个主要的优化是**预解析操作**。当渲染引擎收到字节流之后，会开启一个预解析线程，用来分析 HTML 文件中包含的 JavaScript、CSS 等相关文件，解析到相关文件之后，预解析线程会提前下载这些文件。
 
-再回到 DOM 解析上，我们知道引入 JavaScript 线程会阻塞 DOM，不过也有一些相关的策略来规避，比如使用 CDN 来加速 JavaScript 文件的加载，压缩 JavaScript 文件的体积。另外，如果 JavaScript 文件中没有操作 DOM 相关代码，就可以将该 JavaScript 脚本设置为异步加载，通过 async 或 defer 来标记代码，使用方式如下所示：
+再回到 DOM 解析上，我们知道引入 JavaScript 线程会阻塞 DOM，不过也有一些相关的策略来规避，比如使用 CDN 来加速 JavaScript 文件的加载，压缩 JavaScript 文件的体积。另外，如果 JavaScript 文件中没有操作 DOM 相关代码，就可以将该 JavaScript 脚本设置为异步加载，通过 **async 或 defer** 来标记代码，使用方式如下所示：
 
 ```
 <script async type="text/javascript" src='foo.js'></script>
@@ -155,7 +155,9 @@ div1.innerText = 'time.geekbang'
 <script defer type="text/javascript" src='foo.js'></script>
 ```
 
-async 和 defer 虽然都是异步的，不过还有一些差异，使用 async 标志的脚本文件一旦加载完成，会立即执行；而使用了 defer 标记的脚本文件，需要在 DOMContentLoaded 事件之前执行。
+async 和 defer 虽然都是异步的，不过还有一些差异，使用 async 标志的脚本文件一旦加载完成，会立即执行；而使用了 defer 标记的脚本文件，需要在 [DOMContentLoaded](00-前端/00-核心/JavaScript/01-核心概念/基础语法/DOM操作/DOMContentLoaded.md) 事件之前执行。
+
+[async defer核心差异对比表](碎片整理/Thino/2025-03-10.md#^7yiudq)
 
 现在我们知道了 JavaScript 是如何阻塞 DOM 解析的了，那接下来我们再来结合文中代码看看另外一种情况：
 
