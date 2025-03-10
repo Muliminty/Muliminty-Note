@@ -88,7 +88,7 @@ curl -I https://time.geekbang.org/
 
 在处理了跳转信息之后，我们继续导航流程的分析。URL请求的数据类型，有时候是一个下载类型，有时候是正常的HTML页面，那么浏览器是如何区分它们呢？
 
-答案是[Content-Type](../../../../01-计算机科学体系/计算机网络/概念：Content-Type.md)。Content-Type是HTTP头中一个非常重要的字段， 它告诉浏览器服务器返回的响应体数据是什么类型，然后浏览器会根据Content-Type的值来决定如何显示响应体的内容。
+答案是[Content-Type](01-计算机科学体系/计算机网络/应用层/Content-Type.md)。Content-Type是HTTP头中一个非常重要的字段， 它告诉浏览器服务器返回的响应体数据是什么类型，然后浏览器会根据Content-Type的值来决定如何显示响应体的内容。
 
 这里我们还是以极客时间为例，看看极客时间官网返回的Content-Type值是什么。在终端输入以下命令：
 
