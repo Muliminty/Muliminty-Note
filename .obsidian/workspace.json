@@ -134,6 +134,16 @@
             }
           },
           {
+            "id": "70999e069002e33c",
+            "type": "leaf",
+            "state": {
+              "type": "mxmind-view",
+              "state": {},
+              "icon": "network",
+              "title": "Mxmind"
+            }
+          },
+          {
             "id": "2d8b45923dba1000",
             "type": "leaf",
             "state": {
@@ -244,11 +254,12 @@
               "title": "分词/词法分析 - Kimi.ai"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 613.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -261,17 +272,18 @@
       "obsidian-kanban:创建新看板": false,
       "obsidian-memos:Thino": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "mxmind:Mxmind": false
     }
   },
   "active": "500f7794aefa4661",
   "lastOpenFiles": [
-    "01-计算机科学体系/计算机网络/传输层/!MOC-传输层.md",
+    "01-计算机科学体系/计算机网络/!MOC-计算机网络.md",
     "01-计算机科学体系/计算机网络/网络层/!MOC-网络层.md",
+    "01-计算机科学体系/计算机网络/传输层/!MOC-传输层.md",
     "01-计算机科学体系/计算机网络/应用层/!MOC-应用层.md",
     "01-计算机科学体系/计算机网络/应用层/DNS.md",
     "01-计算机科学体系/计算机网络/应用层/状态码.md",
-    "01-计算机科学体系/计算机网络/!MOC-计算机网络.md",
     "01-计算机科学体系/!MOC-计算机科学知识地图.md",
     "学习资源总库/小册/浏览器工作原理与实践/05-浏览器中的页面/lesson22-DOM树：JavaScript是如何影响DOM树构建的.md",
     "01-计算机科学体系/计算机网络/网络层",
