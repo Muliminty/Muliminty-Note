@@ -11,20 +11,10 @@
             "id": "2cf6d6789d5eb795",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "书签.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "书签"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -257,13 +247,17 @@
   },
   "active": "2cf6d6789d5eb795",
   "lastOpenFiles": [
+    "学习资源总库/读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
+    "学习资源总库/读书笔记/你不知道的JavaScript/第2章 词法作用域.md",
+    "学习资源总库/读书笔记/你不知道的JavaScript/完整大纲整理.md",
+    "学习资源总库/读书笔记/你不知道的JavaScript/Annotator-你不知道的JavaScript上.md",
+    "书签.md",
     "00-前端/!MOC-Frontend.md",
     "index.md",
     "碎片整理/剪藏/互联网是如何工作的.md",
     "碎片整理/剪藏/「好文翻译」为什么你可以删除 90% 的 useMemo 和 useCallback ？原作博客可以说是我全网所见的关于.md",
     "碎片整理/Thino/2025-03-08.md",
     "碎片整理/Thino/2025-03-07.md",
-    "学习资源总库/读书笔记/你不知道的JavaScript/Annotator-你不知道的JavaScript上.md",
     "学习资源总库/小册/PDF/你不知道的JavaScript（上卷）.pdf",
     "学习资源总库/小册/PDF",
     "学习资源总库/前端-不高兴就喝水出品.png",
@@ -288,10 +282,6 @@
     "01-计算机科学体系/!MOC-计算机科学知识地图.md",
     "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
     "00-前端/00-核心/JavaScript/01-核心概念/基础语法/变量提升.md",
-    "00-编程经验/代码片段库/008-奇技淫巧/npm link.md",
-    "00-编程经验/问题解决方案/权限控制.md",
-    "00-前端/工具库/!MOC-工具库.md",
-    "学习资源总库/小册/浏览器工作原理与实践/05-浏览器中的页面/lesson22-DOM树：JavaScript是如何影响DOM树构建的.md",
     "00-前端/工具库/轮子-Three.js",
     "00-前端/工具库/轮子-拖拽-GridStack.js",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/百度地图开发入门.png",
