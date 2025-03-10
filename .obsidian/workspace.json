@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-计算机科学体系/计算机网络/网络层/!MOC-网络层.md",
-                "mode": "source",
-                "source": false
+                "file": "01-计算机科学体系/计算机网络/!MOC-计算机网络.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "!MOC-网络层"
+              "title": "!MOC-计算机网络"
             }
           }
         ],
@@ -124,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-计算机科学体系/计算机网络/网络层/!MOC-网络层.md",
+                "file": "01-计算机科学体系/计算机网络/!MOC-计算机网络.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "!MOC-网络层 的大纲"
+              "title": "!MOC-计算机网络 的大纲"
             }
           },
           {
@@ -253,13 +253,27 @@
               "icon": "globe-2",
               "title": "分词/词法分析 - Kimi.ai"
             }
+          },
+          {
+            "id": "f907bcb412dfe0ea",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 613.5
+    "width": 426.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -278,8 +292,8 @@
   },
   "active": "500f7794aefa4661",
   "lastOpenFiles": [
-    "01-计算机科学体系/计算机网络/!MOC-计算机网络.md",
     "01-计算机科学体系/计算机网络/网络层/!MOC-网络层.md",
+    "01-计算机科学体系/计算机网络/!MOC-计算机网络.md",
     "01-计算机科学体系/计算机网络/传输层/!MOC-传输层.md",
     "01-计算机科学体系/计算机网络/应用层/!MOC-应用层.md",
     "01-计算机科学体系/计算机网络/应用层/DNS.md",
