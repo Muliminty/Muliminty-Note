@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "73e4fdaff2254e59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-计算机科学体系/计算机网络/应用层/状态码.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "状态码"
-            }
-          },
-          {
             "id": "500f7794aefa4661",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-计算机科学体系/计算机网络/!MOC-计算机网络.md",
-                "mode": "preview",
-                "source": true
+                "file": "学习资源总库/小册/浏览器工作原理与实践/05-浏览器中的页面/lesson22-DOM树：JavaScript是如何影响DOM树构建的.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "!MOC-计算机网络"
+              "title": "lesson22-DOM树：JavaScript是如何影响DOM树构建的"
+            }
+          },
+          {
+            "id": "bc5f31e68c181a30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-前端/00-核心/JavaScript/02-进阶机制/编译原理/!MOC-编译原理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "!MOC-编译原理"
             }
           }
         ],
@@ -56,7 +56,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -108,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 489.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -124,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-计算机科学体系/计算机网络/!MOC-计算机网络.md",
+                "file": "00-前端/00-核心/JavaScript/02-进阶机制/编译原理/!MOC-编译原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "!MOC-计算机网络 的大纲"
+              "title": "!MOC-编译原理 的大纲"
             }
           },
           {
@@ -268,12 +268,11 @@
               "title": "添加笔记属性"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 426.5
+    "width": 398.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -290,16 +289,23 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "500f7794aefa4661",
+  "active": "bc5f31e68c181a30",
   "lastOpenFiles": [
-    "01-计算机科学体系/计算机网络/网络层/!MOC-网络层.md",
+    "00-前端/00-核心/JavaScript/02-进阶机制/编译原理/有限自动机FSM.md",
+    "00-前端/00-核心/JavaScript/02-进阶机制/编译原理/确定性有限自动机DFA.md",
+    "00-前端/00-核心/JavaScript/02-进阶机制/编译原理/!MOC-编译原理.md",
+    "00-前端/00-核心/JavaScript/02-进阶机制/编译原理/blog-编译原理.md",
+    "00-前端/00-核心/JavaScript/02-进阶机制/编译原理/垃圾回收.md",
+    "00-前端/00-核心/JavaScript/02-进阶机制/编译原理/即时编译JIT.md",
+    "00-前端/00-核心/JavaScript/02-进阶机制/编译原理/词法分析.md",
+    "学习资源总库/小册/浏览器工作原理与实践/05-浏览器中的页面/lesson22-DOM树：JavaScript是如何影响DOM树构建的.md",
+    "01-计算机科学体系/计算机网络/应用层/状态码.md",
     "01-计算机科学体系/计算机网络/!MOC-计算机网络.md",
+    "01-计算机科学体系/计算机网络/网络层/!MOC-网络层.md",
     "01-计算机科学体系/计算机网络/传输层/!MOC-传输层.md",
     "01-计算机科学体系/计算机网络/应用层/!MOC-应用层.md",
     "01-计算机科学体系/计算机网络/应用层/DNS.md",
-    "01-计算机科学体系/计算机网络/应用层/状态码.md",
     "01-计算机科学体系/!MOC-计算机科学知识地图.md",
-    "学习资源总库/小册/浏览器工作原理与实践/05-浏览器中的页面/lesson22-DOM树：JavaScript是如何影响DOM树构建的.md",
     "01-计算机科学体系/计算机网络/网络层",
     "01-计算机科学体系/计算机网络/传输层/三次握手和四次挥手.md",
     "01-计算机科学体系/计算机网络/传输层",
@@ -316,13 +322,6 @@
     "00-前端/00-核心/JavaScript/01-核心概念/基础语法/!MOC-基础语法.md",
     "00-前端/00-核心/JavaScript/01-核心概念/基础语法/内置对象",
     "00-前端/00-核心/JavaScript/01-核心概念/!MOC-核心概念.md",
-    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
-    "碎片整理/Thino/2025-03-06.md",
-    "学习资源总库/小册/浏览器工作原理与实践/05-浏览器中的页面/lesson23-渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
-    "学习资源总库/小册/README.md",
-    "README.md",
-    "学习资源总库/读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
-    "学习资源总库/读书笔记/你不知道的JavaScript/第2章 词法作用域.md",
     "学习资源总库/小册/PDF/你不知道的JavaScript（上卷）.pdf",
     "学习资源总库/小册/PDF",
     "学习资源总库/(前端)-不高兴就喝水出品.xmind",
