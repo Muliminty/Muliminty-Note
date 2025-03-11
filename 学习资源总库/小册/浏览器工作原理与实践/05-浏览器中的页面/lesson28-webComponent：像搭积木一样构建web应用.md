@@ -61,10 +61,7 @@ WebComponent 给出了解决思路，它提供了对局部视图封装能力，�
 
 前面我们说了，WebComponent 是一套技术的组合，具体涉及到了Custom elements（自定义元素）、Shadow DOM（影子 DOM）和HTML templates（HTML 模板），详细内容你可以参考 MDN 上的[相关链接](https://developer.mozilla.org/zh-CN/docs/Web/Web_Components)。
 
-下面我们就来演示下这 3 个技术是怎么实现数据封装的，如下面代码所
-
 下面我们就来演示下这 3 个技术是怎么实现数据封装的，如下面代码所示：
-
 
 ```html
 <!DOCTYPE html>
@@ -179,4 +176,6 @@ WebComponent 给出了解决思路，它提供了对局部视图封装能力，�
 首先，我们介绍了组件化开发是程序员的刚需，所谓组件化就是功能模块要实现高内聚、低耦合的特性。不过由于 DOM 和 CSSOM 都是全局的，所以它们是影响了前端组件化的主要元素。基于这个原因，就出现 WebComponent，它包含自定义元素、影子 DOM 和 HTML 模板三种技术，使得开发者可以隔离 CSS 和 DOM。在此基础上，我们还重点介绍了影子 DOM 到底是怎么实现的。
 
 关于 WebComponent 的未来如何，这里我们不好预测和评判，但是有一点可以肯定，WebComponent 也会采用渐进式迭代的方式向前推进，未来依然有很多坑需要去填
+
+[lesson29-HTTP1：HTTP性能优化](学习资源总库/小册/浏览器工作原理与实践/06-浏览器中的网络/lesson29-HTTP1：HTTP性能优化.md)
 
