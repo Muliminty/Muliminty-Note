@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/01-核心概念/执行模型/作用域.md",
+                "file": "00-前端/00-核心/JavaScript/核心概念/执行模型/作用域.md",
                 "mode": "preview",
                 "source": false
               },
@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/01-核心概念/执行模型/!MOC-执行模型.md",
+                "file": "00-前端/00-核心/JavaScript/核心概念/!MOC-核心概念.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!MOC-执行模型"
+              "title": "!MOC-核心概念"
+            }
+          },
+          {
+            "id": "d22a2892c971681f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "「静态语法」与「运行时机制」知识脉络"
             }
           },
           {
@@ -41,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/01-核心概念/00-收集箱/碎片/词法作用域实现原理.md",
+                "file": "00-前端/00-核心/JavaScript/核心概念/00-收集箱/碎片（临时内容）/词法作用域实现原理.md",
                 "mode": "preview",
                 "source": true
               },
@@ -55,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/01-核心概念/00-收集箱/碎片/词法作用域实现原理.md",
+                "file": "00-前端/00-核心/JavaScript/核心概念/00-收集箱/碎片（临时内容）/词法作用域实现原理.md",
                 "mode": "source",
                 "source": false
               },
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -152,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/01-核心概念/执行模型/!MOC-执行模型.md",
+                "file": "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "!MOC-执行模型 的大纲"
+              "title": "「静态语法」与「运行时机制」知识脉络 的大纲"
             }
           },
           {
@@ -318,45 +332,45 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "d15579a53ca2a2e1",
+  "active": "d22a2892c971681f",
   "lastOpenFiles": [
-    "00-前端/00-核心/JavaScript/01-核心概念/00-收集箱/碎片/词法环境和作用域的关系.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/词法环境-outer.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/!MOC-执行模型.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/执行上下文.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/作用域.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/作用域链.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/00-收集箱/碎片/JavaScript 编译时 vs.运行时确定的内容.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/this绑定.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/!MOC-核心概念.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/执行模型/词法环境.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/00-收集箱/碎片/词法作用域实现原理.md",
+    "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
+    "00-前端/00-核心/JavaScript/核心概念/!MOC-核心概念.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/变量声明.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/内置对象/AbortController.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/DOM操作/DOMContentLoaded.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/内置对象/!MOC-内置对象.md",
+    "00-前端/00-核心/JavaScript/未命名.md",
+    "00-前端/00-核心/JavaScript/核心概念/编译原理/!MOC-编译原理.md",
+    "00-前端/00-核心/JavaScript/核心概念/编译原理/词法分析-有限自动机FSM.md",
+    "00-前端/00-核心/JavaScript/核心概念/编译原理/词法分析-确定性有限自动机DFA.md",
+    "00-前端/00-核心/JavaScript/02-进阶机制/核心模块详解.md",
+    "00-前端/00-核心/JavaScript/02-进阶机制/!MOC-进阶机制.md",
+    "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
     "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/00-收集箱/碎片/深入：作用域（Scope）.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/内存管理/!MOC-内存管理.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/基础语法/!MOC-基础语法.md",
-    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson07-变量提升：JavaScript代码是按顺序执行的吗.md",
-    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson09-块级作用域：var缺陷以及为什么要引入let和const.md",
-    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择.md",
-    "学习资源总库/小册/浏览器工作原理与实践/06-浏览器中的网络/lesson29-HTTP1：HTTP性能优化.md",
-    "学习资源总库/小册/浏览器工作原理与实践/05-浏览器中的页面/lesson28-webComponent：像搭积木一样构建web应用.md",
-    "学习资源总库/小册/浏览器工作原理与实践/05-浏览器中的页面/lesson27-PWA：解决了web应用哪些问题.md",
-    "学习资源总库/小册/浏览器工作原理与实践/05-浏览器中的页面/lesson26-虚拟DOM：虚拟DOM和实际DOM有何不同.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/基础语法/内置对象/!MOC-内置对象.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/基础语法/内置对象/AbortController.md",
-    "碎片整理/剪藏/【万字总结】2025 前端+大前端+全栈 知识体系（下）大家好，我是双越老师。本文是 2025 前端 大前端 全栈 知识.md",
-    "学习资源总库/小册/浏览器工作原理与实践/05-浏览器中的页面/lesson25-页面性能：如何系统优化页面.md",
-    "00-前端/00-核心/JavaScript/01-核心概念/基础语法/DOM操作",
+    "00-前端/00-核心/JavaScript/核心概念/执行模型/!MOC-执行模型.md",
+    "事件循环/!MOC-事件循环.md",
+    "事件循环",
+    "00-前端/00-核心/JavaScript/核心概念/00-收集箱/碎片（临时内容）/词法环境和作用域的关系.md",
+    "00-前端/00-核心/JavaScript/核心概念/执行模型/词法环境-outer.md",
+    "00-前端/00-核心/JavaScript/核心概念/执行模型/执行上下文.md",
+    "00-前端/00-核心/JavaScript/核心概念/执行模型/作用域.md",
+    "00-前端/00-核心/JavaScript/核心概念/执行模型/作用域链.md",
+    "00-前端/00-核心/JavaScript/核心概念/00-收集箱/碎片（临时内容）/JavaScript 编译时 vs.运行时确定的内容.md",
+    "00-前端/00-核心/JavaScript/核心概念/执行模型/this绑定.md",
+    "00-前端/00-核心/JavaScript/核心概念/执行模型/词法环境.md",
+    "00-前端/00-核心/JavaScript/核心概念/00-收集箱/碎片（临时内容）/词法作用域实现原理.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/DOM操作",
     "01-计算机科学体系/计算机网络/网络层",
     "01-计算机科学体系/计算机网络/传输层",
     "01-计算机科学体系/计算机网络/应用层",
     "学习资源总库/前端-不高兴就喝水出品.png",
-    "00-前端/00-核心/JavaScript/01-核心概念/基础语法/内置对象",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/内置对象",
     "学习资源总库/小册/PDF/你不知道的JavaScript（上卷）.pdf",
     "学习资源总库/小册/PDF",
     "学习资源总库/(前端)-不高兴就喝水出品.xmind",
     "01-计算机科学体系/计算机网络",
-    "01-计算机科学体系/计算机组成原理",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/百度地图开发入门.png",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/百度地图开发入门.jpg",
     "00-前端/工具库/轮子-工具-百度地图/React-BMapGL/附件/百度地图开发入门-6.png",

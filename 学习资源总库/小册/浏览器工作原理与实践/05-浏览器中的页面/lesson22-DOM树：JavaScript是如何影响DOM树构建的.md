@@ -45,7 +45,7 @@ pageClass: custom-code-highlight
 
 **第一个阶段，通过分词器将字节流转换为 Token。**
 
-前面《14 | 编译器和解释器：V8 是如何执行一段 JavaScript 代码的？》文章中我们介绍过，V8 编译 JavaScript 过程中的第一步是做[词法分析](00-前端/00-核心/JavaScript/02-进阶机制/编译原理/词法分析.md)，将 JavaScript 先分解为一个个 Token。解析 HTML 也是一样的，需要通过分词器先将字节流转换为一个个 Token，分为 Tag Token 和文本 Token。上述 HTML 代码通过词法分析生成的 Token 如下所示：
+前面《14 | 编译器和解释器：V8 是如何执行一段 JavaScript 代码的？》文章中我们介绍过，V8 编译 JavaScript 过程中的第一步是做[词法分析](00-前端/00-核心/JavaScript/核心概念/编译原理/词法分析.md)，将 JavaScript 先分解为一个个 Token。解析 HTML 也是一样的，需要通过分词器先将字节流转换为一个个 Token，分为 Tag Token 和文本 Token。上述 HTML 代码通过词法分析生成的 Token 如下所示：
 
 
 ![](附件/d26f4fee-08f7-4f05-b914-8e142774dacf_1739517129125.png)
@@ -155,7 +155,7 @@ div1.innerText = 'time.geekbang'
 <script defer type="text/javascript" src='foo.js'></script>
 ```
 
-async 和 defer 虽然都是异步的，不过还有一些差异，使用 async 标志的脚本文件一旦加载完成，会立即执行；而使用了 defer 标记的脚本文件，需要在 [DOMContentLoaded](00-前端/00-核心/JavaScript/01-核心概念/基础语法/DOM操作/DOMContentLoaded.md) 事件之前执行。
+async 和 defer 虽然都是异步的，不过还有一些差异，使用 async 标志的脚本文件一旦加载完成，会立即执行；而使用了 defer 标记的脚本文件，需要在 [DOMContentLoaded](00-前端/00-核心/JavaScript/核心概念/基础语法/DOM操作/DOMContentLoaded.md) 事件之前执行。
 
 [async defer核心差异对比表](碎片整理/Thino/2025-03-10.md#^7yiudq)
 
