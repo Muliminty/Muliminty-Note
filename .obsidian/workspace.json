@@ -13,12 +13,54 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://juejin.cn/",
+                "url": "https://juejin.cn/hot/articles/1",
                 "title": "稀土掘金",
                 "mode": "webview"
               },
               "icon": "globe-2",
               "title": "稀土掘金"
+            }
+          },
+          {
+            "id": "218767de4126d026",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://juejin.cn/post/7480841665681162275",
+                "title": "春招面试拷打实录(一)：揭秘高频难题与应对策略🧐最近有几次面试，被狠狠拷打了，深刻体会到准备不足是多么致命。于是痛定思 - 掘金",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "春招面试拷打实录(一)：揭秘高频难题与应对策略🧐最近有几次面试，被狠狠拷打了，深刻体会到准备不足是多么致命。于是痛定思 - 掘金"
+            }
+          },
+          {
+            "id": "e5acda51177dcd76",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://juejin.cn/post/7480841665681162275#heading-8",
+                "title": "春招面试拷打实录(一)：揭秘高频难题与应对策略🧐最近有几次面试，被狠狠拷打了，深刻体会到准备不足是多么致命。于是痛定思 - 掘金",
+                "mode": "reader"
+              },
+              "icon": "globe-2",
+              "title": "春招面试拷打实录(一)：揭秘高频难题与应对策略🧐最近有几次面试，被狠狠拷打了，深刻体会到准备不足是多么致命。于是痛定思 - 掘金"
+            }
+          },
+          {
+            "id": "236213a176254483",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "碎片整理/剪藏/春招面试拷打实录(一)：揭秘高频难题与应对策略🧐最近有几次面试，被狠狠拷打了，深刻体会到准备不足是多么致命。于是痛定思 - 掘金.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "春招面试拷打实录(一)：揭秘高频难题与应对策略🧐最近有几次面试，被狠狠拷打了，深刻体会到准备不足是多么致命。于是痛定思 - 掘金"
             }
           },
           {
@@ -35,7 +77,8 @@
               "title": "稀土掘金"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -124,12 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "碎片整理/剪藏/春招面试拷打实录(一)：揭秘高频难题与应对策略🧐最近有几次面试，被狠狠拷打了，深刻体会到准备不足是多么致命。于是痛定思 - 掘金.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "春招面试拷打实录(一)：揭秘高频难题与应对策略🧐最近有几次面试，被狠狠拷打了，深刻体会到准备不足是多么致命。于是痛定思 - 掘金 的大纲"
             }
           },
           {
@@ -271,7 +315,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 266.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -288,8 +333,9 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "bdb29f684e576fc5",
+  "active": "236213a176254483",
   "lastOpenFiles": [
+    "碎片整理/剪藏/春招面试拷打实录(一)：揭秘高频难题与应对策略🧐最近有几次面试，被狠狠拷打了，深刻体会到准备不足是多么致命。于是痛定思 - 掘金.md",
     "碎片整理/剪藏/前端性能优化的几个大招（理论+实践，看完就是Leader水平）前言 性能优化，一个掣肘用户体验的关键模块。它没有固定的标 - 掘金.md",
     "00-前端/00-核心/JavaScript/核心概念/执行模型/作用域.md",
     "00-前端/00-核心/JavaScript/核心概念/执行模型/!MOC-执行模型.md",
@@ -315,7 +361,6 @@
     "00-前端/00-核心/JavaScript/核心概念/编译原理/词法分析-有限自动机FSM.md",
     "00-前端/00-核心/JavaScript/核心概念/编译原理/词法分析-确定性有限自动机DFA.md",
     "00-前端/00-核心/JavaScript/02-进阶机制/核心模块详解.md",
-    "00-前端/00-核心/JavaScript/02-进阶机制/!MOC-进阶机制.md",
     "事件循环",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/DOM操作",
     "01-计算机科学体系/计算机网络/网络层",
