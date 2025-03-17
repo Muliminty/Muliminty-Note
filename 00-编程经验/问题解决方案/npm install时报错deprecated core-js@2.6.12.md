@@ -64,3 +64,53 @@ npm install --legacy-peer-deps
   }
 }
 ```
+
+
+
+
+
+`resolutions` 字段是用于强制锁定特定依赖版本的特殊配置，主要用来解决嵌套依赖冲突问题。在您的配置中：
+
+```json:e:\project2\zlink_pc_cn_front\package.json
+"resolutions": {
+  "core-js": "3.41.0",
+  "babel-runtime": "7.24.1"
+}
+```
+
+表示强制项目中**所有依赖链**都必须使用：
+1. `core-js@3.41.0`（覆盖旧版 2.x）
+2. `babel-runtime@7.24.1`（覆盖旧版 6.x）
+
+该配置常见于以下场景：
+```bash
+# 当出现类似这样的警告时
+npm WARN Could not resolve dependency:
+npm WARN peer dependency core-js@^2.6.5 from babel-runtime@6.26.0
+```
+
+需要特别注意：
+1. 这是 **Yarn** 的官方特性，在 npm 中需配合 [`npm-force-resolutions`](https://www.npmjs.com/package/npm-force-resolutions) 使用
+2. 在您的项目中需要这样配置：
+
+```diff json:e:\project2\zlink_pc_cn_front\package.json
+{
+  "name": "zlink_pc_cn_front",
+  "version": "5.0.0",
++ "scripts": {
++   "preinstall": "npx npm-force-resolutions"
++ },
+  "resolutions": {
+    "core-js": "3.41.0",
+    "babel-runtime": "7.24.1"
+  }
+}
+```
+
+安装必要工具：
+```bash:e:\project2\zlink_pc_cn_front
+npm install npm-force-resolutions --save-dev
+npm install --legacy-peer-deps
+```
+
+该方案比 `overrides` 更彻底，会强制所有层级的子依赖都使用指定版本。如果不需要这么强制的控制，可以使用 npm 官方推荐的 `overrides` 字段替代。
