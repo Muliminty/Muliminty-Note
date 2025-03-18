@@ -4,27 +4,73 @@
     "type": "split",
     "children": [
       {
-        "id": "667b221a7aa728df",
+        "id": "b9d2b9515bf58b99",
         "type": "tabs",
         "children": [
           {
-            "id": "f07de3f13f257370",
+            "id": "b7c8b64fc72ae7d7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "kanban",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/知识图谱.canvas",
-                "viewState": {
-                  "x": 6,
-                  "y": 231.20004272460938,
-                  "zoom": 0
+                "file": "书签.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "知识图谱"
+              "icon": "lucide-trello",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "252385b6ed8fbc34",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "http://liubin.org/promises-book/#introduction",
+                "title": "JavaScript Promise迷你书（中文版）",
+                "mode": "reader"
+              },
+              "icon": "globe-2",
+              "title": "JavaScript Promise迷你书（中文版）"
+            }
+          },
+          {
+            "id": "eeeaecff9da02d43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-前端/00-核心/JavaScript/核心概念/异步编程体系/promise.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "promise"
+            }
+          },
+          {
+            "id": "539cd09090ad9f59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "碎片整理/剪藏/JavaScript Promise迷你书（中文版）.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JavaScript Promise迷你书（中文版）"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -112,12 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "碎片整理/剪藏/JavaScript Promise迷你书（中文版）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "JavaScript Promise迷你书（中文版） 的大纲"
             }
           },
           {
@@ -259,8 +306,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
-    "collapsed": true
+    "width": 401.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -277,15 +323,20 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "f07de3f13f257370",
+  "active": "539cd09090ad9f59",
   "lastOpenFiles": [
+    "00-前端/00-核心/JavaScript/核心概念/异步编程体系/promise.md",
+    "00-前端/00-核心/JavaScript/核心概念/异步编程体系/!MOC-异步编程体系.md",
+    "00-前端/00-核心/JavaScript/核心概念/!MOC-核心概念.md",
+    "碎片整理/剪藏/JavaScript Promise迷你书（中文版）.md",
+    "书签.md",
+    "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
+    "00-前端/00-核心/JavaScript/未命名.md",
+    "00-前端/工具库/轮子-UI-Ant Design/Table/Table样式调整/表格操作栏右浮动之后错位问题.md",
     "00-编程经验/问题解决方案/npm install时报错deprecated core-js@2.6.12.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
-    "00-前端/00-核心/JavaScript/未命名.md",
     "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
-    "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
     "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
-    "00-前端/00-核心/JavaScript/核心概念/!MOC-核心概念.md",
     "00-编程经验/问题解决方案/ssh connect to host github.com port 22.md",
     "00-前端/00-核心/JavaScript/核心概念/00-收集箱/碎片（临时内容）/抽象语法树：Abstract Syntax Tree,AST.md",
     "碎片整理/剪藏/手把手带你实现 Vite+React 的简易 SSR 改造【含部分原理讲解】本文主要手把手带领读者实现 Vite+Rea.md",
@@ -301,10 +352,6 @@
     "00-前端/00-核心/JavaScript/核心概念/执行模型/变量环境.md",
     "00-前端/00-核心/JavaScript/核心概念/执行模型/词法环境.md",
     "00-前端/00-核心/JavaScript/核心概念/编译原理/!MOC-编译原理.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/箭头函数.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/变量提升.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/变量声明.md",
     "事件循环",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/DOM操作",
     "01-计算机科学体系/计算机网络/网络层",
