@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
-                "mode": "preview",
+                "file": "00-前端/00-核心/JavaScript/核心概念/基础语法/对象与原型.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!MOC-基础语法"
+              "title": "对象与原型"
             }
           }
         ]
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5,
-    "collapsed": true
+    "width": 370.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -110,13 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
+                "file": "00-前端/00-核心/JavaScript/核心概念/基础语法/对象与原型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "!MOC-基础语法 的大纲"
+              "title": "对象与原型 的大纲"
             }
           },
           {
@@ -279,6 +278,10 @@
   "active": "baf07bd177d80e2e",
   "lastOpenFiles": [
     "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/变量提升.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/变量声明.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/对象与原型.md",
+    "碎片整理/剪藏/前端视界：前端搞基建-工程化&AI赋能本文主要介绍企业级前端工程化全景图，从需求规范、开发联调、测试优化、构建部署、运维 - 掘金.md",
     "00-前端/00-核心/JavaScript/核心概念/!MOC-核心概念.md",
     "碎片整理/剪藏/JavaScript Promise迷你书（中文版）.md",
     "碎片整理/剪藏/为什么我们要删掉 100% 的 useEffect · 语雀.md",
@@ -314,10 +317,6 @@
     "00-前端/00-核心/JavaScript/核心概念/异步编程体系/promise.md",
     "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
     "00-前端/00-核心/JavaScript/核心概念/异步编程体系/!MOC-异步编程体系.md",
-    "书签.md",
-    "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
-    "00-前端/00-核心/JavaScript/未命名.md",
-    "00-前端/工具库/轮子-UI-Ant Design/Table/Table样式调整/表格操作栏右浮动之后错位问题.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "事件循环",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/DOM操作",
