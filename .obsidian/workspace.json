@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/核心概念/基础语法/箭头函数.md",
-                "mode": "preview",
+                "file": "00-前端/00-核心/JavaScript/核心概念/基础语法/ES6 类语法/!MOC-ES6 类语法.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "箭头函数"
+              "title": "!MOC-ES6 类语法"
             }
           }
         ]
@@ -277,10 +277,14 @@
   },
   "active": "baf07bd177d80e2e",
   "lastOpenFiles": [
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/变量提升.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/变量声明.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/变量声明.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/箭头函数.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/变量提升.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/ES6 类语法/!MOC-ES6 类语法.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/ES6 类语法",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/对象与原型/!MOC-对象与原型.md",
+    "00-前端/00-核心/JavaScript/未命名.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/对象与原型",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/DOM操作/DOMContentLoaded.md",
     "碎片整理/剪藏/前端视界：前端搞基建-工程化&AI赋能本文主要介绍企业级前端工程化全景图，从需求规范、开发联调、测试优化、构建部署、运维 - 掘金.md",
@@ -315,14 +319,11 @@
     "学习资源总库/网课/渡一/基础大师课",
     "学习资源总库/网课/渡一/从源码到架构大师课集训营",
     "学习资源总库/网课/渡一",
-    "00-前端/工程化体系/构建工具/前端工程化-webpack/怎么优化webpack的打包速度.md",
-    "00-前端/00-核心/JavaScript/核心概念/异步编程体系/promise.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "事件循环",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/DOM操作",
     "01-计算机科学体系/计算机网络/网络层",
     "01-计算机科学体系/计算机网络/传输层",
-    "01-计算机科学体系/计算机网络/应用层",
     "未命名.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas"
