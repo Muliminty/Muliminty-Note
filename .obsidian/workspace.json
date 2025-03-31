@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/核心概念/基础语法/函数/!MOC-函数.md",
-                "mode": "source",
+                "file": "学习资源总库/网课/渡一/Web前端工程化大师课集训营/01. 前端工程化的意义.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!MOC-函数"
+              "title": "01. 前端工程化的意义"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 370.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -109,13 +110,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/核心概念/基础语法/箭头函数.md",
+                "file": "学习资源总库/网课/渡一/Web前端工程化大师课集训营/01. 前端工程化的意义.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "箭头函数 的大纲"
+              "title": "01. 前端工程化的意义 的大纲"
+            }
+          },
+          {
+            "id": "109447327a47c02d",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/3a1ece9b-1575-4db0-8067-37fead2cc155",
+                "title": "腾讯元宝 - 轻松工作 多点生活",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "腾讯元宝 - 轻松工作 多点生活"
             }
           },
           {
@@ -253,12 +268,12 @@
               "title": "添加笔记属性"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 401.5,
-    "collapsed": true
+    "width": 774.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -277,8 +292,11 @@
   },
   "active": "baf07bd177d80e2e",
   "lastOpenFiles": [
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
+    "学习资源总库/网课/渡一/Web前端工程化大师课集训营/01. 前端工程化的意义.md",
+    "学习资源总库/网课/渡一/从源码到架构大师课集训营/MOC.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/函数/!MOC-函数.md",
+    "学习资源总库/网课/渡一/Web前端工程化大师课集训营",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/函数",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/箭头函数.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/ES6 类语法/!MOC-ES6 类语法.md",
@@ -299,7 +317,6 @@
     "00-前端/!MOC-Frontend.md",
     "00-前端/前端大纲.md",
     "学习资源总库/网课/渡一/基础大师课/MOC.md",
-    "学习资源总库/网课/渡一/从源码到架构大师课集训营/MOC.md",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477199952.jpg",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477196362.jpg",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477181819.jpg",
@@ -316,14 +333,12 @@
     "学习资源总库/网课/渡一/基础大师课/渡一大师课：CSS 属性计算过程.md",
     "学习资源总库/网课/渡一/基础大师课/渡一大师课：02-浏览器的渲染原理.md",
     "学习资源总库/网课/渡一/基础大师课/渡一大师课：01-事件循环.md",
-    "学习资源总库/网课/渡一/从源码到架构大师课集训营/02. 像架构师一样思考.md",
     "学习资源总库/网课/渡一/基础大师课",
     "学习资源总库/网课/渡一/从源码到架构大师课集训营",
     "学习资源总库/网课/渡一",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "事件循环",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/DOM操作",
-    "01-计算机科学体系/计算机网络/网络层",
     "未命名.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas"
