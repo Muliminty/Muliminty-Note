@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7b906f52870bc08d",
+        "id": "9d6ec0bb0841c868",
         "type": "tabs",
         "children": [
           {
-            "id": "dcc25931ede6b336",
+            "id": "baf07bd177d80e2e",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "markdown",
               "state": {
-                "url": "https://juejin.cn/",
-                "title": "稀土掘金",
-                "mode": "webview"
+                "file": "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "globe-2",
-              "title": "稀土掘金"
+              "icon": "lucide-file",
+              "title": "!MOC-基础语法"
             }
           }
         ]
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5,
-    "collapsed": true
+    "width": 370.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -125,12 +124,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/91310ac9-6a24-4293-9306-cc24fd4d071c",
-                "title": "腾讯元宝 - 轻松工作 多点生活",
-                "mode": "webview"
+                "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/3a1ece9b-1575-4db0-8067-37fead2cc155",
+                "title": "yuanbao.tencent.com/chat/naQivTmsDa/3a1ece9b-1575-4db0-8067-37fead2cc155",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "腾讯元宝 - 轻松工作 多点生活"
+              "title": "yuanbao.tencent.com/chat/naQivTmsDa/3a1ece9b-1575-4db0-8067-37fead2cc155"
             }
           },
           {
@@ -273,8 +272,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 651.5,
-    "collapsed": true
+    "width": 1099.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -291,39 +289,45 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "dcc25931ede6b336",
+  "active": "baf07bd177d80e2e",
   "lastOpenFiles": [
-    "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
-    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
-    "00-前端/00-核心/JavaScript/核心概念/!MOC-核心概念.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/对象与原型/!MOC-对象与原型.md",
-    "00-前端/00-核心/JavaScript/核心概念/执行模型/!MOC-执行模型.md",
-    "00-前端/00-核心/JavaScript/未命名.md",
     "00-前端/框架生态/React/实战技巧/工具函数/parseHTML.md",
-    "00-前端/框架生态/React/0-收集箱/组件/富文本解析组件(将富文本解析成自定义组件).md",
     "00-前端/框架生态/React/实战技巧/工具函数",
     "00-前端/框架生态/React/实战技巧",
-    "学习资源总库/网课/渡一/Web前端工程化大师课集训营/02. 模块化和包管理.md",
-    "学习资源总库/网课/渡一/Web前端工程化大师课集训营/01. 前端工程化的意义.md",
-    "学习资源总库/网课/渡一/从源码到架构大师课集训营/MOC.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/函数/!MOC-函数.md",
-    "学习资源总库/网课/渡一/Web前端工程化大师课集训营",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/函数",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/箭头函数.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/ES6 类语法/!MOC-ES6 类语法.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/变量声明.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/变量提升.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/ES6 类语法",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/对象与原型",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/DOM操作/DOMContentLoaded.md",
-    "碎片整理/剪藏/前端视界：前端搞基建-工程化&AI赋能本文主要介绍企业级前端工程化全景图，从需求规范、开发联调、测试优化、构建部署、运维 - 掘金.md",
-    "碎片整理/剪藏/JavaScript Promise迷你书（中文版）.md",
-    "碎片整理/剪藏/为什么我们要删掉 100% 的 useEffect · 语雀.md",
-    "00-前端/00-核心/JavaScript/核心概念/执行模型/this绑定.md",
-    "00-前端/!MOC-Frontend.md",
-    "00-前端/前端大纲.md",
-    "学习资源总库/网课/渡一/基础大师课/MOC.md",
+    "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通/附件/Pasted image 20230426151310.png",
+    "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通/附件",
+    "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通/useState 页面不更新.md",
+    "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通/useState 异步相关问题.md",
+    "00-前端/框架生态/React/0-收集箱/自定义hook函数/useUpdateEffect.md",
+    "00-前端/框架生态/React/0-收集箱/自定义hook函数/usePersistedTab.md",
+    "00-前端/框架生态/React/0-收集箱/自定义hook函数/useFakeProgress.md",
+    "00-前端/框架生态/React/0-收集箱/自定义hook函数/useFullScreen.md",
+    "00-前端/框架生态/React/0-收集箱/自定义hook函数/useDoubleClick.md",
+    "00-前端/框架生态/React/0-收集箱/报错/React中获取target 报错.md",
+    "00-前端/框架生态/React/0-收集箱/组件/权限按钮.md",
+    "00-前端/框架生态/React/0-收集箱/组件/音频播放组件.md",
+    "00-前端/框架生态/React/0-收集箱/组件/时间国际化.md",
+    "00-前端/框架生态/React/0-收集箱/组件/数字滚动组件.md",
+    "00-前端/框架生态/React/0-收集箱/组件/拖拽排序组件.md",
+    "00-前端/框架生态/React/0-收集箱/组件/导出按钮组件.md",
+    "00-前端/框架生态/React/0-收集箱/组件/MProTable.md",
+    "00-前端/框架生态/React/0-收集箱/组件/富文本解析组件(将富文本解析成自定义组件).md",
+    "00-前端/框架生态/React/0-收集箱/文件上传/react 导入表格.md",
+    "00-前端/框架生态/React/0-收集箱/性能优化/使用 `react-window` 实现虚拟列表以优化性能.md",
+    "00-前端/框架生态/React/0-收集箱/Zustand/Zustand 详细介绍与使用.md",
+    "00-前端/框架生态/React/0-收集箱/库/react 使用qrcode.react插件生成二维码并下载.md",
+    "00-前端/框架生态/React/0-收集箱/Redux/05Redux 使用高级场景与优化.md",
+    "00-前端/框架生态/React/0-收集箱/Redux/04Redux 使用方式对比：connect 和 useDispatch与useSelector.md",
+    "00-前端/框架生态/React/0-收集箱/Redux/03使用 connect 连接 Redux 和 React.md",
+    "00-前端/框架生态/React/0-收集箱/Redux/02用户登录状态管理demo(hook语法).md",
+    "00-前端/框架生态/React/0-收集箱/Redux/01Redux 使用笔记.md",
+    "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通",
+    "00-前端/框架生态/React/0-收集箱/自定义hook函数",
+    "00-前端/框架生态/React/0-收集箱/报错",
+    "00-前端/框架生态/React/0-收集箱/组件",
+    "00-前端/框架生态/React/0-收集箱/文件上传",
+    "00-前端/框架生态/React/0-收集箱/性能优化",
+    "00-前端/框架生态/React/0-收集箱/库",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477199952.jpg",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477196362.jpg",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477181819.jpg",
@@ -333,12 +337,6 @@
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477161585.jpg",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477157309.jpg",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477152866.png",
-    "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742199024780.jpg",
-    "学习资源总库/网课/渡一/基础大师课/附件",
-    "学习资源总库/网课/渡一/基础大师课/课件.md",
-    "学习资源总库/网课/渡一/基础大师课",
-    "学习资源总库/网课/渡一/从源码到架构大师课集训营",
-    "学习资源总库/网课/渡一",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
