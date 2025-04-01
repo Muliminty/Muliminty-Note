@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6cb7a9a1b431e7f3",
+        "id": "7b906f52870bc08d",
         "type": "tabs",
         "children": [
           {
-            "id": "56c8e82d64eb2512",
+            "id": "dcc25931ede6b336",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "webviewer",
               "state": {
-                "file": "00-前端/框架生态/React/实战技巧/工具函数/parseHTML.md",
-                "mode": "source",
-                "source": false
+                "url": "https://juejin.cn/",
+                "title": "稀土掘金",
+                "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "parseHTML"
+              "icon": "globe-2",
+              "title": "稀土掘金"
             }
           }
         ]
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 370.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -124,7 +125,7 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://yuanbao.tencent.com/chat/naQivTmsDa",
+                "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/91310ac9-6a24-4293-9306-cc24fd4d071c",
                 "title": "腾讯元宝 - 轻松工作 多点生活",
                 "mode": "webview"
               },
@@ -272,7 +273,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.5
+    "width": 651.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -289,10 +291,17 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "56c8e82d64eb2512",
+  "active": "dcc25931ede6b336",
   "lastOpenFiles": [
-    "00-前端/框架生态/React/0-收集箱/组件/富文本解析组件(将富文本解析成自定义组件).md",
+    "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
+    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
+    "00-前端/00-核心/JavaScript/核心概念/!MOC-核心概念.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/对象与原型/!MOC-对象与原型.md",
+    "00-前端/00-核心/JavaScript/核心概念/执行模型/!MOC-执行模型.md",
+    "00-前端/00-核心/JavaScript/未命名.md",
     "00-前端/框架生态/React/实战技巧/工具函数/parseHTML.md",
+    "00-前端/框架生态/React/0-收集箱/组件/富文本解析组件(将富文本解析成自定义组件).md",
     "00-前端/框架生态/React/实战技巧/工具函数",
     "00-前端/框架生态/React/实战技巧",
     "学习资源总库/网课/渡一/Web前端工程化大师课集训营/02. 模块化和包管理.md",
@@ -300,24 +309,18 @@
     "学习资源总库/网课/渡一/从源码到架构大师课集训营/MOC.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/函数/!MOC-函数.md",
     "学习资源总库/网课/渡一/Web前端工程化大师课集训营",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/函数",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/箭头函数.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/ES6 类语法/!MOC-ES6 类语法.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/变量声明.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/变量提升.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/ES6 类语法",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/对象与原型/!MOC-对象与原型.md",
-    "00-前端/00-核心/JavaScript/未命名.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/对象与原型",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/DOM操作/DOMContentLoaded.md",
     "碎片整理/剪藏/前端视界：前端搞基建-工程化&AI赋能本文主要介绍企业级前端工程化全景图，从需求规范、开发联调、测试优化、构建部署、运维 - 掘金.md",
-    "00-前端/00-核心/JavaScript/核心概念/!MOC-核心概念.md",
     "碎片整理/剪藏/JavaScript Promise迷你书（中文版）.md",
     "碎片整理/剪藏/为什么我们要删掉 100% 的 useEffect · 语雀.md",
     "00-前端/00-核心/JavaScript/核心概念/执行模型/this绑定.md",
-    "00-前端/00-核心/JavaScript/核心概念/执行模型/!MOC-执行模型.md",
-    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
     "00-前端/!MOC-Frontend.md",
     "00-前端/前端大纲.md",
     "学习资源总库/网课/渡一/基础大师课/MOC.md",
@@ -333,7 +336,6 @@
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742199024780.jpg",
     "学习资源总库/网课/渡一/基础大师课/附件",
     "学习资源总库/网课/渡一/基础大师课/课件.md",
-    "学习资源总库/网课/渡一/基础大师课/渡一大师课：你不知道的 CSS 之包含块.md",
     "学习资源总库/网课/渡一/基础大师课",
     "学习资源总库/网课/渡一/从源码到架构大师课集训营",
     "学习资源总库/网课/渡一",
