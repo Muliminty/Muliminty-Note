@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9d6ec0bb0841c868",
+        "id": "c6f100aed0ae8b8d",
         "type": "tabs",
         "children": [
           {
-            "id": "baf07bd177d80e2e",
+            "id": "e1e4b3b81ac63ca7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
-                "mode": "source",
+                "file": "00-前端/工具库/轮子-UI-ProComponents/ProFormDependency.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!MOC-基础语法"
+              "title": "ProFormDependency"
             }
           }
         ]
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#浏览器工作原理与实践",
+                "query": "表单",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -124,12 +124,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/3a1ece9b-1575-4db0-8067-37fead2cc155",
-                "title": "yuanbao.tencent.com/chat/naQivTmsDa/3a1ece9b-1575-4db0-8067-37fead2cc155",
-                "mode": "error"
+                "url": "https://yuanbao.tencent.com/chat/naQivTmsDa",
+                "title": "腾讯元宝 - 轻松工作 多点生活",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "yuanbao.tencent.com/chat/naQivTmsDa/3a1ece9b-1575-4db0-8067-37fead2cc155"
+              "title": "腾讯元宝 - 轻松工作 多点生活"
             }
           },
           {
@@ -272,7 +272,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 1099.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -289,8 +290,12 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "baf07bd177d80e2e",
+  "active": "e1e4b3b81ac63ca7",
   "lastOpenFiles": [
+    "00-前端/工具库/轮子-UI-ProComponents/使用 ProForm 和 Form.List 实现动态表单项.md",
+    "00-前端/前端知识图谱.md",
+    "00-前端/!MOC-Frontend.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
     "00-前端/框架生态/React/实战技巧/工具函数/parseHTML.md",
     "00-前端/框架生态/React/实战技巧/工具函数",
     "00-前端/框架生态/React/实战技巧",
@@ -317,10 +322,6 @@
     "00-前端/框架生态/React/0-收集箱/Zustand/Zustand 详细介绍与使用.md",
     "00-前端/框架生态/React/0-收集箱/库/react 使用qrcode.react插件生成二维码并下载.md",
     "00-前端/框架生态/React/0-收集箱/Redux/05Redux 使用高级场景与优化.md",
-    "00-前端/框架生态/React/0-收集箱/Redux/04Redux 使用方式对比：connect 和 useDispatch与useSelector.md",
-    "00-前端/框架生态/React/0-收集箱/Redux/03使用 connect 连接 Redux 和 React.md",
-    "00-前端/框架生态/React/0-收集箱/Redux/02用户登录状态管理demo(hook语法).md",
-    "00-前端/框架生态/React/0-收集箱/Redux/01Redux 使用笔记.md",
     "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通",
     "00-前端/框架生态/React/0-收集箱/自定义hook函数",
     "00-前端/框架生态/React/0-收集箱/报错",
