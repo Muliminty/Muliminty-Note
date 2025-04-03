@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/工具库/轮子-UI-ProComponents/ProFormDependency.md",
-                "mode": "preview",
+                "file": "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ProFormDependency"
+              "title": "!MOC-基础语法"
             }
           }
         ]
@@ -292,10 +292,13 @@
   },
   "active": "e1e4b3b81ac63ca7",
   "lastOpenFiles": [
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/函数/!MOC-函数.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
+    "00-前端/00-核心/JavaScript/核心概念/!MOC-核心概念.md",
+    "00-前端/工具库/轮子-UI-ProComponents/ProFormDependency.md",
     "00-前端/工具库/轮子-UI-ProComponents/使用 ProForm 和 Form.List 实现动态表单项.md",
     "00-前端/前端知识图谱.md",
     "00-前端/!MOC-Frontend.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
     "00-前端/框架生态/React/实战技巧/工具函数/parseHTML.md",
     "00-前端/框架生态/React/实战技巧/工具函数",
     "00-前端/框架生态/React/实战技巧",
@@ -319,9 +322,6 @@
     "00-前端/框架生态/React/0-收集箱/组件/富文本解析组件(将富文本解析成自定义组件).md",
     "00-前端/框架生态/React/0-收集箱/文件上传/react 导入表格.md",
     "00-前端/框架生态/React/0-收集箱/性能优化/使用 `react-window` 实现虚拟列表以优化性能.md",
-    "00-前端/框架生态/React/0-收集箱/Zustand/Zustand 详细介绍与使用.md",
-    "00-前端/框架生态/React/0-收集箱/库/react 使用qrcode.react插件生成二维码并下载.md",
-    "00-前端/框架生态/React/0-收集箱/Redux/05Redux 使用高级场景与优化.md",
     "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通",
     "00-前端/框架生态/React/0-收集箱/自定义hook函数",
     "00-前端/框架生态/React/0-收集箱/报错",
