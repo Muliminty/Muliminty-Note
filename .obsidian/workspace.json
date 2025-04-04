@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
+                "file": "学习资源总库/网课/渡一/Web前端工程化大师课集训营/03. JS工具链.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!MOC-基础语法"
+              "title": "03. JS工具链"
             }
           }
         ]
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 282.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -109,13 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习资源总库/网课/渡一/Web前端工程化大师课集训营/02. 模块化和包管理.md",
+                "file": "学习资源总库/网课/渡一/Web前端工程化大师课集训营/03. JS工具链.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "02. 模块化和包管理 的大纲"
+              "title": "03. JS工具链 的大纲"
             }
           },
           {
@@ -125,11 +125,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/3a1ece9b-1575-4db0-8067-37fead2cc155",
-                "title": "yuanbao.tencent.com/chat/naQivTmsDa/3a1ece9b-1575-4db0-8067-37fead2cc155",
-                "mode": "error"
+                "title": "腾讯元宝 - 轻松工作 多点生活",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "yuanbao.tencent.com/chat/naQivTmsDa/3a1ece9b-1575-4db0-8067-37fead2cc155"
+              "title": "腾讯元宝 - 轻松工作 多点生活"
             }
           },
           {
@@ -267,12 +267,11 @@
               "title": "添加笔记属性"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 1099.5
+    "width": 389.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -291,6 +290,8 @@
   },
   "active": "baf07bd177d80e2e",
   "lastOpenFiles": [
+    "学习资源总库/网课/渡一/Web前端工程化大师课集训营/03. JS工具链.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
     "00-前端/框架生态/React/实战技巧/工具函数/parseHTML.md",
     "00-前端/框架生态/React/实战技巧/工具函数",
     "00-前端/框架生态/React/实战技巧",
@@ -319,8 +320,6 @@
     "00-前端/框架生态/React/0-收集箱/Redux/05Redux 使用高级场景与优化.md",
     "00-前端/框架生态/React/0-收集箱/Redux/04Redux 使用方式对比：connect 和 useDispatch与useSelector.md",
     "00-前端/框架生态/React/0-收集箱/Redux/03使用 connect 连接 Redux 和 React.md",
-    "00-前端/框架生态/React/0-收集箱/Redux/02用户登录状态管理demo(hook语法).md",
-    "00-前端/框架生态/React/0-收集箱/Redux/01Redux 使用笔记.md",
     "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通",
     "00-前端/框架生态/React/0-收集箱/自定义hook函数",
     "00-前端/框架生态/React/0-收集箱/报错",
