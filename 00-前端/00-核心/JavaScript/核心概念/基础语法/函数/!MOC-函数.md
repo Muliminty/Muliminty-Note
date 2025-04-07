@@ -3,7 +3,7 @@
   - 定义方式
     - 函数声明：`function funcName() {}`
     - 函数表达式：`const func = function() {}`
-    - 箭头函数：`const func = () => {}`
+    - [箭头函数](00-前端/00-核心/JavaScript/核心概念/基础语法/函数/箭头函数.md)：`const func = () => {}`
     - `Function` 构造函数：`new Function('a', 'b', 'return a + b')`
   - 函数调用
     - 直接调用：`func()`
