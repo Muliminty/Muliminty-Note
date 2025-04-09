@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7e461b3c82067ee9",
+        "id": "533b98f693c05b05",
         "type": "tabs",
         "children": [
           {
-            "id": "dd985aaf7fd31a5b",
+            "id": "a97e05c370a733de",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "markdown",
               "state": {
-                "url": "https://juejin.cn/",
-                "title": "稀土掘金",
-                "mode": "webview"
+                "file": "00-编程经验/006-面经/cv：JavaScript 执行百万级任务不卡顿的解决方案.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "globe-2",
-              "title": "稀土掘金"
-            }
-          },
-          {
-            "id": "c21f1d642c316051",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://juejin.cn/hot/collected-articles",
-                "title": "稀土掘金",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "稀土掘金"
+              "icon": "lucide-file",
+              "title": "cv：JavaScript 执行百万级任务不卡顿的解决方案"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "全屏",
+                "query": "tag:#浏览器工作原理与实践",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -104,13 +89,11 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 282.5,
-    "collapsed": true
+    "width": 282.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -126,12 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "00-前端/00-核心/JavaScript/核心概念/基础语法/WEB API/!MOC-WEBAPI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "!MOC-WEBAPI 的大纲"
             }
           },
           {
@@ -283,11 +267,13 @@
               "title": "添加笔记属性"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 894.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -304,16 +290,15 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "c21f1d642c316051",
+  "active": "a97e05c370a733de",
   "lastOpenFiles": [
-    "碎片整理/剪藏/没想到学会这个canvas库，竟能做这么多项目如果打算学习Canvas做图片设计、定制设计相关的工具，我建议你学习一下f - 掘金.md",
-    "00-前端/框架生态/React/0-收集箱/自定义hook函数/useFullScreen.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/变量提升.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/函数/!MOC-函数.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/函数/箭头函数.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/变量声明.md",
+    "00-编程经验/006-面经/cv：JavaScript 执行百万级任务不卡顿的解决方案.md",
+    "00-编程经验/006-面经/cv：单点登录（SSO）和 Token 刷新机制概述.md",
+    "学习资源总库/网课/渡一/网络大师课/1.分层模型和应用协议.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/WEB API/!MOC-WEBAPI.md",
+    "碎片整理/剪藏/没想到学会这个canvas库，竟能做这么多项目如果打算学习Canvas做图片设计、定制设计相关的工具，我建议你学习一下f - 掘金.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/函数/箭头函数.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/WEB API",
     "00-前端/00-核心/JavaScript/核心概念/!MOC-核心概念.md",
     "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
@@ -325,7 +310,6 @@
     "书签.md",
     "index.md",
     "README.md",
-    "学习资源总库/网课/渡一/网络大师课/1.分层模型和应用协议.md",
     "学习资源总库/网课/渡一/网络大师课",
     "学习资源总库/网课/渡一/Web前端工程化大师课集训营/05. 构建工具和脚手架.md",
     "学习资源总库/网课/渡一/Web前端工程化大师课集训营/04. CSS工具链.md",
@@ -338,6 +322,8 @@
     "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通/附件/Pasted image 20230426151310.png",
     "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通/附件",
     "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通/useState 页面不更新.md",
+    "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通/useState 异步相关问题.md",
+    "00-前端/框架生态/React/0-收集箱/自定义hook函数/useUpdateEffect.md",
     "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通",
     "00-前端/框架生态/React/0-收集箱/自定义hook函数",
     "00-前端/框架生态/React/0-收集箱/报错",
