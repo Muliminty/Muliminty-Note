@@ -34,37 +34,9 @@
               "icon": "globe-2",
               "title": "稀土掘金"
             }
-          },
-          {
-            "id": "f68b18eafc09849f",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://juejin.cn/post/7459286862839054373",
-                "title": "没想到学会这个canvas库，竟能做这么多项目如果打算学习Canvas做图片设计、定制设计相关的工具，我建议你学习一下f - 掘金",
-                "mode": "reader"
-              },
-              "icon": "globe-2",
-              "title": "没想到学会这个canvas库，竟能做这么多项目如果打算学习Canvas做图片设计、定制设计相关的工具，我建议你学习一下f - 掘金"
-            }
-          },
-          {
-            "id": "59d0582c8825e516",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "碎片整理/剪藏/没想到学会这个canvas库，竟能做这么多项目如果打算学习Canvas做图片设计、定制设计相关的工具，我建议你学习一下f - 掘金.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "没想到学会这个canvas库，竟能做这么多项目如果打算学习Canvas做图片设计、定制设计相关的工具，我建议你学习一下f - 掘金"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,13 +126,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/核心概念/基础语法/WEB API/!MOC-WEBAPI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "!MOC-WEBAPI 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -312,13 +283,11 @@
               "title": "添加笔记属性"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 329.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -335,7 +304,7 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "59d0582c8825e516",
+  "active": "c21f1d642c316051",
   "lastOpenFiles": [
     "碎片整理/剪藏/没想到学会这个canvas库，竟能做这么多项目如果打算学习Canvas做图片设计、定制设计相关的工具，我建议你学习一下f - 掘金.md",
     "00-前端/框架生态/React/0-收集箱/自定义hook函数/useFullScreen.md",
