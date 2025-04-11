@@ -20,8 +20,23 @@
               "icon": "globe-2",
               "title": "稀土掘金"
             }
+          },
+          {
+            "id": "56557ae452e7f765",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://juejin.cn/hot/articles/1",
+                "title": "稀土掘金",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "稀土掘金"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -290,8 +305,9 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "dd985aaf7fd31a5b",
+  "active": "56557ae452e7f765",
   "lastOpenFiles": [
+    "00-编程经验/006-面经/cv：JavaScript 执行百万级任务不卡顿的解决方案.md",
     "碎片整理/剪藏/牛逼！仅用一行代码实现全网站暗黑模式一行核心代码即可使用 CSS 滤镜的方案实现暗黑模式主题，性价比是非常高！兼容性也不 - 掘金.md",
     "碎片整理/剪藏/没想到学会这个canvas库，竟能做这么多项目如果打算学习Canvas做图片设计、定制设计相关的工具，我建议你学习一下f - 掘金.md",
     "00-前端/框架生态/React/0-收集箱/自定义hook函数/useFullScreen.md",
@@ -319,7 +335,6 @@
     "学习资源总库/网课/渡一/Web前端工程化大师课集训营/03. JS工具链.md",
     "学习资源总库/网课/渡一/Web前端工程化大师课集训营/02. 模块化和包管理.md",
     "学习资源总库/网课/渡一/课件.md",
-    "00-前端/框架生态/React/实战技巧/工具函数/parseHTML.md",
     "00-前端/框架生态/React/实战技巧/工具函数",
     "00-前端/框架生态/React/实战技巧",
     "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通/附件/Pasted image 20230426151310.png",
