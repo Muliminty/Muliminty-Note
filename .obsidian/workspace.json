@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7e461b3c82067ee9",
+        "id": "76d0ec30eff7801f",
         "type": "tabs",
         "children": [
           {
-            "id": "dd985aaf7fd31a5b",
+            "id": "993fc20a884a91d2",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "markdown",
               "state": {
-                "url": "https://juejin.cn/",
-                "title": "稀土掘金",
-                "mode": "webview"
+                "file": "02-开发运维/VCS/计算机基础-git/Git 和 Sourcetree 使用 SSH 配置.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "globe-2",
-              "title": "稀土掘金"
-            }
-          },
-          {
-            "id": "56557ae452e7f765",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://juejin.cn/hot/articles/1",
-                "title": "稀土掘金",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "稀土掘金"
+              "icon": "lucide-file",
+              "title": "Git 和 Sourcetree 使用 SSH 配置"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "全屏",
+                "query": "ssh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,12 +90,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 282.5,
-    "collapsed": true
+    "width": 282.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -126,12 +110,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "02-开发运维/VCS/计算机基础-git/Git 和 Sourcetree 使用 SSH 配置.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Git 和 Sourcetree 使用 SSH 配置 的大纲"
             }
           },
           {
@@ -305,8 +290,13 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "56557ae452e7f765",
+  "active": "993fc20a884a91d2",
   "lastOpenFiles": [
+    "Z-归档/小技巧/git/使用 SSH 配置 Git 和 Sourcetree 的详细技术文档.md",
+    "00-前端/工具库/轮子-时间库-Moment/使用 Moment 和 React-i18next 进行日期时间国际化.md",
+    "00-编程经验/问题解决方案/ssh connect to host github.com port 22.md",
+    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson10-作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择.md",
+    "02-开发运维/VCS/计算机基础-git/Git 和 Sourcetree 使用 SSH 配置.md",
     "00-编程经验/006-面经/cv：JavaScript 执行百万级任务不卡顿的解决方案.md",
     "碎片整理/剪藏/牛逼！仅用一行代码实现全网站暗黑模式一行核心代码即可使用 CSS 滤镜的方案实现暗黑模式主题，性价比是非常高！兼容性也不 - 掘金.md",
     "碎片整理/剪藏/没想到学会这个canvas库，竟能做这么多项目如果打算学习Canvas做图片设计、定制设计相关的工具，我建议你学习一下f - 掘金.md",
@@ -330,11 +320,6 @@
     "README.md",
     "学习资源总库/网课/渡一/网络大师课/1.分层模型和应用协议.md",
     "学习资源总库/网课/渡一/网络大师课",
-    "学习资源总库/网课/渡一/Web前端工程化大师课集训营/05. 构建工具和脚手架.md",
-    "学习资源总库/网课/渡一/Web前端工程化大师课集训营/04. CSS工具链.md",
-    "学习资源总库/网课/渡一/Web前端工程化大师课集训营/03. JS工具链.md",
-    "学习资源总库/网课/渡一/Web前端工程化大师课集训营/02. 模块化和包管理.md",
-    "学习资源总库/网课/渡一/课件.md",
     "00-前端/框架生态/React/实战技巧/工具函数",
     "00-前端/框架生态/React/实战技巧",
     "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通/附件/Pasted image 20230426151310.png",
