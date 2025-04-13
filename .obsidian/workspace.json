@@ -139,8 +139,8 @@
             "state": {
               "type": "mxmind-view",
               "state": {},
-              "icon": "network",
-              "title": "Mxmind"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -180,8 +180,8 @@
             "state": {
               "type": "thino_view",
               "state": {},
-              "icon": "Memos",
-              "title": "Thino"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -283,10 +283,10 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-kanban:创建新看板": false,
       "obsidian-memos:Thino": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "workspaces:管理工作区布局": false,
       "mxmind:Mxmind": false
     }
   },
