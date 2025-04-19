@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/00-核心/JavaScript/核心概念/基础语法/对象与原型/!MOC-对象与原型.md",
-                "mode": "preview",
+                "file": "01-计算机科学体系/操作系统/Linux/!MOC-linux.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!MOC-对象与原型"
+              "title": "!MOC-linux"
             }
           }
         ]
@@ -289,8 +289,11 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "cc567e8d58a7c45d",
   "lastOpenFiles": [
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/对象与原型/!MOC-对象与原型.md",
+    "01-计算机科学体系/操作系统/Linux/!MOC-linux.md",
+    "01-计算机科学体系/操作系统/Linux",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/面向对象设计模式",
     "00-前端/00-核心/JavaScript/未命名.md",
     "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
@@ -317,7 +320,6 @@
     "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/变量提升.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/函数/!MOC-函数.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/函数/箭头函数.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/WEB API",
     "学习资源总库/网课/渡一/网络大师课",
     "00-前端/框架生态/React/实战技巧/工具函数",
@@ -327,8 +329,6 @@
     "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通",
     "00-前端/框架生态/React/0-收集箱/自定义hook函数",
     "00-前端/框架生态/React/0-收集箱/报错",
-    "00-前端/框架生态/React/0-收集箱/组件",
-    "00-前端/框架生态/React/0-收集箱/文件上传",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477199952.jpg",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477196362.jpg",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477181819.jpg",
