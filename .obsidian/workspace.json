@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "!MOC-linux"
             }
+          },
+          {
+            "id": "6cb77e1fac6d7b0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-计算机科学体系/算法与数据结构/leetCode/20250420：两数字和.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20250420：两数字和"
+            }
+          },
+          {
+            "id": "d6517f1cad079591",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://leetcode.cn/problems/two-sum/description/?envType=study-plan-v2&envId=top-100-liked",
+                "title": "1. 两数之和 - 力扣（LeetCode）",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "1. 两数之和 - 力扣（LeetCode）"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5
+    "width": 509.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -289,10 +318,12 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "cc567e8d58a7c45d",
+  "active": "d6517f1cad079591",
   "lastOpenFiles": [
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/对象与原型/!MOC-对象与原型.md",
+    "01-计算机科学体系/算法与数据结构/leetCode/20250420：两数字和.md",
     "01-计算机科学体系/操作系统/Linux/!MOC-linux.md",
+    "01-计算机科学体系/算法与数据结构/leetCode",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/对象与原型/!MOC-对象与原型.md",
     "01-计算机科学体系/操作系统/Linux",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/面向对象设计模式",
     "00-前端/00-核心/JavaScript/未命名.md",
@@ -319,7 +350,6 @@
     "00-前端/框架生态/React/0-收集箱/自定义hook函数/useFullScreen.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/变量提升.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/函数/!MOC-函数.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/WEB API",
     "学习资源总库/网课/渡一/网络大师课",
     "00-前端/框架生态/React/实战技巧/工具函数",
@@ -328,7 +358,6 @@
     "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通/附件",
     "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通",
     "00-前端/框架生态/React/0-收集箱/自定义hook函数",
-    "00-前端/框架生态/React/0-收集箱/报错",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477199952.jpg",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477196362.jpg",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477181819.jpg",

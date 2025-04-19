@@ -23,6 +23,12 @@
       "ctime": 1740128708790,
       "url": "https://weread.qq.com/",
       "title": "微信读书"
+    },
+    {
+      "type": "url",
+      "ctime": 1745082145029,
+      "url": "https://leetcode.cn/",
+      "title": "LeetCode"
     }
   ]
 }
