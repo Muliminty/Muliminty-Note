@@ -34,23 +34,9 @@
               "icon": "lucide-file",
               "title": "20250420：两数字和"
             }
-          },
-          {
-            "id": "d6517f1cad079591",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://leetcode.cn/problems/two-sum/description/?envType=study-plan-v2&envId=top-100-liked",
-                "title": "1. 两数之和 - 力扣（LeetCode）",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "1. 两数之和 - 力扣（LeetCode）"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -318,7 +304,7 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "d6517f1cad079591",
+  "active": "6cb77e1fac6d7b0c",
   "lastOpenFiles": [
     "01-计算机科学体系/算法与数据结构/leetCode/20250420：两数字和.md",
     "01-计算机科学体系/操作系统/Linux/!MOC-linux.md",
