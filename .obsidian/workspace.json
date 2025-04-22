@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-计算机科学体系/算法与数据结构/leetCode/20250421：移动零.md",
-                "mode": "source",
+                "file": "01-计算机科学体系/算法与数据结构/​前端工程师的算法与数据结构入门指南.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20250421：移动零"
+              "title": "​前端工程师的算法与数据结构入门指南"
             }
           }
         ],
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-开发运维/VCS/计算机基础-git/Git 和 Sourcetree 使用 SSH 配置.md",
+                "file": "01-计算机科学体系/算法与数据结构/​前端工程师的算法与数据结构入门指南.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Git 和 Sourcetree 使用 SSH 配置 的大纲"
+              "title": "​前端工程师的算法与数据结构入门指南 的大纲"
             }
           },
           {
@@ -329,8 +329,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 329.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -350,6 +349,7 @@
   "active": "b52873bc3d00606a",
   "lastOpenFiles": [
     "01-计算机科学体系/算法与数据结构/leetCode/20250421：移动零.md",
+    "01-计算机科学体系/算法与数据结构/​前端工程师的算法与数据结构入门指南.md",
     "00-前端/工程化体系/构建工具/前端工程化-webpack/01-学习路线.md",
     "00-前端/工程化体系/构建工具/前端工程化-webpack/概念：前端构建工具的工作流.md",
     "00-前端/工程化体系/构建工具/前端工程化-webpack/概念：什么是模块化.md",
@@ -378,7 +378,6 @@
     "00-编程经验/006-面经/cv：JavaScript 中的变量提升与暂时性死区.md",
     "00-编程经验/006-面经/cv：JS 判断数据类型的方式.md",
     "00-编程经验/006-面经/cv：Suspense和lazy的实现原理.md",
-    "00-编程经验/006-面经/cv：词法作用域和词法环境.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/WEB API",
     "学习资源总库/网课/渡一/网络大师课",
     "00-前端/框架生态/React/实战技巧/工具函数",
