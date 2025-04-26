@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "33f261b103b18703",
+        "id": "cbe45429ddd69565",
         "type": "tabs",
         "children": [
           {
-            "id": "26c881050a25a9db",
+            "id": "c60781d610e59048",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-前端/框架生态/React/0-收集箱/useImperativeHandle和forwardRef.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "useImperativeHandle和forwardRef"
-            }
-          },
-          {
-            "id": "8c2c84426bda7c5e",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://juejin.cn/post/6951300894684577823?searchId=202504241148013AEC1EA407613548280A",
-                "title": "使用 Tailwind CSS 一年后，我的一些感受Tailwind CSS 在过去两年的流行程度一直保持一个高速增长的 - 掘金",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "使用 Tailwind CSS 一年后，我的一些感受Tailwind CSS 在过去两年的流行程度一直保持一个高速增长的 - 掘金"
+              "title": "新标签页"
             }
           }
         ]
@@ -107,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 509.5
+    "width": 359.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -303,8 +285,29 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "c60781d610e59048",
   "lastOpenFiles": [
+    "00-前端/前端大纲.md",
+    "00-前端/工程化体系/构建工具/前端工程化-vite/使用 Vite 的 CSS 预处理器选项实现全局样式注入.md",
+    "00-前端/工程化体系/构建工具/前端工程化-vite/使用 Vite 和 React 实现类似 VitePress 的文档网站.md",
+    "00-前端/工程化体系/构建工具/前端工程化-vite/在 Vite + React 项目中实现自动导入样式.md",
+    "00-前端/工程化体系/构建工具/前端工程化-vite/使用 GitHub Actions 自动部署 Vite React 项目到 GitHub Pages.md",
+    "00-前端/工程化体系/构建工具/前端工程化-vite/前端构建工具打包与分包优化.md",
+    "00-前端/工程化体系/构建工具/前端工程化-vite/部署 Vite 构建的 dist 文件夹：详细指南.md",
+    "00-前端/工程化体系/构建工具/前端工程化-webpack/01-学习路线.md",
+    "00-前端/00-核心/JavaScript/核心概念/编译原理/!MOC-编译原理.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
+    "00-前端/00-核心/JavaScript/核心概念/内存管理/!MOC-内存管理.md",
+    "00-前端/00-核心/JavaScript/核心概念/异步编程体系/!MOC-异步编程体系.md",
+    "00-前端/00-核心/JavaScript/核心概念/执行模型/!MOC-执行模型.md",
+    "00-前端/00-核心/JavaScript/核心概念/!MOC-核心概念.md",
+    "学习资源总库/网课/coderwhy/JavaScript高级pdf/07_JavaScript ES5实现继承.pdf",
+    "学习资源总库/网课/coderwhy/JavaScript高级pdf/06_JavaScript对象的增强知识.pdf",
+    "学习资源总库/网课/coderwhy/JavaScript高级pdf/08_JavaScript ES6实现继承.pdf",
+    "学习资源总库/网课/coderwhy/JavaScript高级pdf/18_JavaScript网络编程.pdf",
+    "00-前端/框架生态/React/0-收集箱/useImperativeHandle和forwardRef.md",
+    "碎片整理/剪藏/前端性能优化的几个大招（理论+实践，看完就是Leader水平）前言 性能优化，一个掣肘用户体验的关键模块。它没有固定的标 - 掘金.md",
+    "碎片整理/剪藏/JavaScript Promise迷你书（中文版）.md",
     "00-前端/框架生态/React/0-收集箱/Fragment 空标签.md",
     "00-前端/框架生态/React/0-收集箱/文件上传/react 导入表格.md",
     "00-前端/工具库/轮子-UI-ProComponents/ProFormDependency.md",
@@ -314,35 +317,14 @@
     "碎片整理/剪藏/快速掌握 Tailwind：最流行的原子化 CSS 框架Tailwind 是流行的原子化 css 框架。 有多流行呢？.md",
     "碎片整理/剪藏/前端自给自足UI设计稿（Claude AI 版本）前端自给自足UI设计稿（Claude AI 版本） 先看效果 输入：健.md",
     "01-计算机科学体系/操作系统/Linux/!MOC-linux.md",
-    "00-前端/工程化体系/构建工具/前端工程化-webpack/01-学习路线.md",
-    "01-计算机科学体系/算法与数据结构/​前端工程师的算法与数据结构入门指南.md",
-    "01-计算机科学体系/算法与数据结构/leetCode/20250421：移动零.md",
-    "00-前端/工程化体系/构建工具/前端工程化-webpack/概念：前端构建工具的工作流.md",
-    "00-前端/工程化体系/构建工具/前端工程化-webpack/概念：什么是模块化.md",
-    "00-前端/工程化体系/构建工具/前端工程化-webpack/概念：Bundle（捆绑包）.md",
-    "00-前端/工程化体系/构建工具/前端工程化-webpack/概念：Chunk（块）.md",
-    "00-前端/工程化体系/构建工具/前端工程化-webpack/实战：使用 `.env` 文件管理环境变量的完整指南.md",
-    "00-前端/工程化体系/构建工具/前端工程化-webpack/实战：完善的 React 项目架构文档(webpack).md",
-    "00-前端/工程化体系/构建工具/前端工程化-webpack/怎么优化webpack的打包速度.md",
-    "01-计算机科学体系/算法与数据结构/概述.md",
-    "01-计算机科学体系/算法与数据结构/leetCode/20250420：两数字和.md",
     "01-计算机科学体系/算法与数据结构/leetCode",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/对象与原型/!MOC-对象与原型.md",
     "01-计算机科学体系/操作系统/Linux",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/面向对象设计模式",
-    "00-前端/00-核心/JavaScript/未命名.md",
-    "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
-    "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
-    "00-前端/优化目录树.md",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/WEB API",
     "学习资源总库/网课/渡一/网络大师课",
     "00-前端/框架生态/React/实战技巧/工具函数",
-    "00-前端/框架生态/React/实战技巧",
     "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通/附件/Pasted image 20230426151310.png",
-    "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通/附件",
-    "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通",
-    "00-前端/框架生态/React/0-收集箱/自定义hook函数",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477199952.jpg",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477196362.jpg",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477181819.jpg",
