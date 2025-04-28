@@ -1,4 +1,20 @@
 
+```
+npm WARN deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issu
+es. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is
+polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+npm ERR! cb() never called!
+
+npm ERR! This is an error with npm itself. Please report this error at:
+npm ERR!     <https://npm.community>
+```
+
+npm install core-js@3
+3不行就试试2
+npm install core-js@2
+
+
 npm i core-js
 
 ---
