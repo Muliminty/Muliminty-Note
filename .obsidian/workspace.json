@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "!MOC-异步编程体系"
             }
+          },
+          {
+            "id": "4cd639430256988c",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://cn.vuejs.org/guide/quick-start",
+                "title": "快速上手 | Vue.js",
+                "mode": "reader"
+              },
+              "icon": "globe-2",
+              "title": "快速上手 | Vue.js"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -288,8 +303,10 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "38911be4a2b2af63",
+  "active": "b76d5d4c5f29b876",
   "lastOpenFiles": [
+    "碎片整理/剪藏/Vue.js.md",
+    "00-前端/00-核心/JavaScript/核心概念/异步编程体系/!MOC-异步编程体系.md",
     "00-前端/00-核心/JavaScript/核心概念/!MOC-核心概念.md",
     "学习资源总库/小册/冴羽-深入系列文章/08-JavaScript深入之闭包.md",
     "00-前端/00-核心/JavaScript/核心概念/执行模型/!MOC-执行模型.md",
@@ -314,8 +331,6 @@
     "01-计算机科学体系/算法与数据结构/​前端工程师的算法与数据结构入门指南.md",
     "01-计算机科学体系/算法与数据结构/leetCode/20250421：移动零.md",
     "00-前端/工程化体系/构建工具/前端工程化-webpack/概念：前端构建工具的工作流.md",
-    "00-前端/工程化体系/构建工具/前端工程化-webpack/概念：什么是模块化.md",
-    "00-前端/工程化体系/构建工具/前端工程化-webpack/概念：Bundle（捆绑包）.md",
     "01-计算机科学体系/算法与数据结构/leetCode",
     "01-计算机科学体系/操作系统/Linux",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/面向对象设计模式",
