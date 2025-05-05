@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-开发运维/VCS/计算机基础-github/疑难杂症/ssh 443 22 相关问题.md",
-                "mode": "source",
+                "file": "00-编程经验/006-面经/cv：常见图片懒加载方式有哪些.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ssh 443 22 相关问题"
+              "title": "cv：常见图片懒加载方式有哪些"
             }
           }
         ],
@@ -305,8 +305,8 @@
   },
   "active": "7636ac01b517c961",
   "lastOpenFiles": [
-    "碎片整理/剪藏/Next.js + tRPC + Auth.js + Drizzle ORM： 打造极致全栈开发体验Next.js 全.md",
     "02-开发运维/VCS/计算机基础-github/疑难杂症/ssh 443 22 相关问题.md",
+    "碎片整理/剪藏/Next.js + tRPC + Auth.js + Drizzle ORM： 打造极致全栈开发体验Next.js 全.md",
     "01-计算机科学体系/算法与数据结构/时间复杂度与空间复杂度.md",
     "00-编程经验/问题解决方案/ssh connect to host github.com port 22.md",
     "02-开发运维/VCS/计算机基础-github/疑难杂症",
