@@ -94,6 +94,10 @@ ssh: connect to host github.com port 22: Connection refused
 
 Windows下执行`ipconfig /flushdns` 清楚DNS缓存后也没用，最后修改hosts文件，增加一条github.com的域名映射搞定。
 
+```bash
+140.82.113.4 github.com
+```
+
 查找[http://github.com](https://link.zhihu.com/?target=http%3A//github.com)的ip地址可以使用[https://dnschecker.org/](https://link.zhihu.com/?target=https%3A//dnschecker.org/)来查询github.com在全球的ip地址，也可以通过
 
 [https://api.github.com/meta](https://link.zhihu.com/?target=https%3A//api.github.com/meta) 查看github.com官方公布的IP地址
