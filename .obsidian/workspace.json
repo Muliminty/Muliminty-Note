@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-编程经验/006-面经/cv：常见图片懒加载方式有哪些.md",
+                "file": "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cv：常见图片懒加载方式有哪些"
+              "title": "!MOC-JavaScript"
             }
           }
         ],
@@ -305,6 +305,10 @@
   },
   "active": "7636ac01b517c961",
   "lastOpenFiles": [
+    "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
+    "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
+    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
+    "00-编程经验/006-面经/cv：常见图片懒加载方式有哪些.md",
     "02-开发运维/VCS/计算机基础-github/疑难杂症/ssh 443 22 相关问题.md",
     "碎片整理/剪藏/Next.js + tRPC + Auth.js + Drizzle ORM： 打造极致全栈开发体验Next.js 全.md",
     "01-计算机科学体系/算法与数据结构/时间复杂度与空间复杂度.md",
@@ -325,15 +329,11 @@
     "00-前端/00-核心/JavaScript/核心概念/!MOC-核心概念.md",
     "学习资源总库/小册/冴羽-深入系列文章/08-JavaScript深入之闭包.md",
     "00-前端/00-核心/JavaScript/核心概念/执行模型/!MOC-执行模型.md",
-    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
     "00-前端/工程化体系/构建工具/前端工程化-webpack/实战：完善的 React 项目架构文档(webpack).md",
     "00-编程经验/问题解决方案/npm install时报错deprecated core-js@2.6.12.md",
     "00-前端/工程化体系/构建工具/前端工程化-vite/基于 Vite + React 实现国际化功能.md",
     "03-后端/后端基础-java/java基础/IntelliJ IDEA 工程与模块管理详解.md",
     "03-后端/后端基础-java/java基础/!MOC-java.md",
-    "03-后端/后端基础-java/java基础/Java环境变量的详细教程.md",
-    "00-前端/框架生态/React/0-收集箱/useImperativeHandle和forwardRef.md",
-    "00-前端/框架生态/React/0-收集箱/Fragment 空标签.md",
     "01-计算机科学体系/算法与数据结构/leetCode",
     "01-计算机科学体系/操作系统/Linux",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/面向对象设计模式",
