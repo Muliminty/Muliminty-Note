@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "!MOC-JavaScript"
             }
+          },
+          {
+            "id": "2cb03795a9f8edc2",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://juejin.cn/",
+                "title": "稀土掘金",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "稀土掘金"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 325.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -303,11 +318,13 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "7636ac01b517c961",
+  "active": "2cb03795a9f8edc2",
   "lastOpenFiles": [
+    "00-编程经验/006-面经/cv：如何取消一个正在发送的请求.md",
+    "00-编程经验/006-面经/cv：如何取消一个正在发送的请求",
+    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
     "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
     "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
-    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
     "00-编程经验/006-面经/cv：常见图片懒加载方式有哪些.md",
     "02-开发运维/VCS/计算机基础-github/疑难杂症/ssh 443 22 相关问题.md",
     "碎片整理/剪藏/Next.js + tRPC + Auth.js + Drizzle ORM： 打造极致全栈开发体验Next.js 全.md",
@@ -333,7 +350,6 @@
     "00-编程经验/问题解决方案/npm install时报错deprecated core-js@2.6.12.md",
     "00-前端/工程化体系/构建工具/前端工程化-vite/基于 Vite + React 实现国际化功能.md",
     "03-后端/后端基础-java/java基础/IntelliJ IDEA 工程与模块管理详解.md",
-    "03-后端/后端基础-java/java基础/!MOC-java.md",
     "01-计算机科学体系/算法与数据结构/leetCode",
     "01-计算机科学体系/操作系统/Linux",
     "00-前端/00-核心/JavaScript/核心概念/基础语法/面向对象设计模式",
@@ -341,7 +357,6 @@
     "00-前端/00-核心/JavaScript/核心概念/基础语法/WEB API",
     "学习资源总库/网课/渡一/网络大师课",
     "00-前端/框架生态/React/实战技巧/工具函数",
-    "00-前端/框架生态/React/实战技巧",
     "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通/附件/Pasted image 20230426151310.png",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477199952.jpg",
     "学习资源总库/网课/渡一/基础大师课/附件/mmexport1742477196362.jpg",
