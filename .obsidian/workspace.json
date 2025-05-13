@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4d9cb6003e5302eb",
+        "id": "53ba78fbdc199aa4",
         "type": "tabs",
         "children": [
           {
-            "id": "d7306c28bdd6e0fe",
+            "id": "403191cd40e75a06",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "markdown",
               "state": {
-                "url": "https://juejin.cn/",
-                "title": "稀土掘金",
-                "mode": "webview"
+                "file": "00-前端/00-核心/JavaScript/核心概念/!MOC-核心概念.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "globe-2",
-              "title": "稀土掘金"
+              "icon": "lucide-file",
+              "title": "!MOC-核心概念"
             }
           }
         ]
@@ -89,13 +89,11 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 325.5,
-    "collapsed": true
+    "width": 325.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -290,7 +288,7 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "d7306c28bdd6e0fe",
+  "active": "403191cd40e75a06",
   "lastOpenFiles": [
     "00-前端/00-核心/node/包管理器/nvm.md",
     "00-前端/00-核心/node/包管理器/nvm",
