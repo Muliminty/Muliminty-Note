@@ -62,9 +62,37 @@
               "icon": "lucide-file",
               "title": "Git 用户配置管理技术文档"
             }
+          },
+          {
+            "id": "0bc05cac45a3828d",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://juejin.cn/post/7504714890360619017#heading-26",
+                "title": "你不知道的Javascript(上卷) | 第一章难点与细节解读(作用域是什么？)作为《你不知道的Javascript》 - 掘金",
+                "mode": "reader"
+              },
+              "icon": "globe-2",
+              "title": "你不知道的Javascript(上卷) | 第一章难点与细节解读(作用域是什么？)作为《你不知道的Javascript》 - 掘金"
+            }
+          },
+          {
+            "id": "ff9c69ceec7f5f65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "碎片整理/剪藏/你不知道的Javascript(上卷) 第一章难点与细节解读(作用域是什么？).md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "你不知道的Javascript(上卷) 第一章难点与细节解读(作用域是什么？)"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -137,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 832.5
+    "width": 832.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -153,12 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "碎片整理/剪藏/你不知道的Javascript(上卷) 第一章难点与细节解读(作用域是什么？).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "你不知道的Javascript(上卷) 第一章难点与细节解读(作用域是什么？) 的大纲"
             }
           },
           {
@@ -314,8 +344,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 329.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -332,8 +361,10 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "c94e4524868fbf62",
+  "active": "ff9c69ceec7f5f65",
   "lastOpenFiles": [
+    "碎片整理/剪藏/你不知道的Javascript(上卷) 第一章难点与细节解读(作用域是什么？).md",
+    "02-开发运维/VCS/计算机基础-git/Git 用户配置管理技术文档.md",
     "02-开发运维/VCS/计算机基础-git/Git 和 Sourcetree 使用 SSH 配置.md",
     "02-开发运维/VCS/计算机基础-git/Git 版本管理规范与实践.md",
     "碎片整理/剪藏/前端史上最简单且实用的大文件上传npm库本文介绍大文件上传的概念，带你搞懂什么是大文件上传以及大文件上传解决了什么痛点。 - 掘金.md",
@@ -367,8 +398,6 @@
     "00-编程经验/006-面经/为什么表单提交不会触发跨域限制.md",
     "00-编程经验/006-面经/cv：如何取消一个正在发送的请求.md",
     "00-编程经验/006-面经/cv：如何取消一个正在发送的请求",
-    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
-    "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
     "02-开发运维/VCS/计算机基础-github/疑难杂症",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "00-前端/框架生态/React/0-收集箱/hook相关技巧/useState精通/附件/Pasted image 20230426151310.png",
