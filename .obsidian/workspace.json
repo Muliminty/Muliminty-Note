@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "index.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "index"
             }
           }
         ]
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 324.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -291,7 +291,12 @@
   },
   "active": "f8bda497852810e1",
   "lastOpenFiles": [
+    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
+    "00-前端/框架生态/React/!MOC-React.md",
     "index.md",
+    "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
+    "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
+    "README.md",
     "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson01-Chrome架构：仅仅打开了1个页面，为什么有4个进程.md",
     "碎片整理/小记/大文件分片上传并保存上传进度.md",
     "02-开发运维/VCS/计算机基础-git/Git 用户配置管理技术文档.md",
@@ -320,11 +325,6 @@
     "00-前端/00-核心/JavaScript/核心概念/基础语法/WEB API/BOM",
     "00-编程经验/006-面经/跨域.md",
     "00-编程经验/006-面经/跨域",
-    "00-编程经验/006-面经/cv：为什么表单提交不会触发跨域限制.md",
-    "00-编程经验/006-面经/cv为什么表单提交不会触发跨域限制.md",
-    "碎片整理/剪藏/V8 是怎么跑起来的 —— V8 的 JavaScript 执行管道“V8 是怎么跑起来的” 系列是我学习 V8 过程中.md",
-    "碎片整理/剪藏/JavaScript 引擎 V8 执行流程概述本文主要讲解的是V8的技术，是V8的入门篇，主要目的是了解V8的内部机制， - 掘金.md",
-    "碎片整理/剪藏/2万字 前端基础拾遗90问.md",
     "00-编程经验/006-面经/cv：如何取消一个正在发送的请求",
     "02-开发运维/VCS/计算机基础-github/疑难杂症",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
