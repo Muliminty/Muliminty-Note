@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/!MOC-Frontend.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!MOC-Frontend"
-            }
-          },
-          {
-            "id": "45470d7144e4a881",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-前端/框架生态/React/!MOC-React.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "!MOC-React"
+              "title": "index"
             }
           }
         ]
@@ -306,6 +292,7 @@
   "active": "7f3e297f7146df5b",
   "lastOpenFiles": [
     "00-前端/框架生态/React/!MOC-React.md",
+    "index.md",
     "00-前端/!MOC-Frontend.md",
     "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
     "00-前端/00-核心/CSS/!MOC-CSS.md",
@@ -315,7 +302,6 @@
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "00-前端/00-核心/node/!MOC-node.md",
     "00-前端/00-核心/node/使用 dotenv 轻松管理 Node.js 项目的多环境变量.md",
-    "index.md",
     "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
     "README.md",
     "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson01-Chrome架构：仅仅打开了1个页面，为什么有4个进程.md",
