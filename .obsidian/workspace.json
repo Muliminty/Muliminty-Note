@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "edb3c870a02c3f3a",
+        "id": "353cec55348e6c6c",
         "type": "tabs",
         "children": [
           {
-            "id": "7f3e297f7146df5b",
+            "id": "b9ad5e423a8bfa71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "source",
+                "file": "02-开发运维/VCS/计算机基础-git/Git 和 Sourcetree 使用 SSH 配置.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Git 和 Sourcetree 使用 SSH 配置"
             }
           }
         ]
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "SSH",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,7 +89,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -289,10 +290,14 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "7f3e297f7146df5b",
+  "active": "b9ad5e423a8bfa71",
   "lastOpenFiles": [
-    "00-前端/框架生态/React/!MOC-React.md",
+    "Z-归档/小技巧/git/使用 SSH 配置 Git 和 Sourcetree 的详细技术文档.md",
+    "02-开发运维/VCS/计算机基础-git/Git 和 Sourcetree 使用 SSH 配置.md",
+    "02-开发运维/VCS/计算机基础-github/疑难杂症/ssh 443 22 相关问题.md",
+    "00-编程经验/问题解决方案/ssh connect to host github.com port 22.md",
     "index.md",
+    "00-前端/框架生态/React/!MOC-React.md",
     "00-前端/!MOC-Frontend.md",
     "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
     "00-前端/00-核心/CSS/!MOC-CSS.md",
@@ -308,7 +313,6 @@
     "碎片整理/小记/大文件分片上传并保存上传进度.md",
     "02-开发运维/VCS/计算机基础-git/Git 用户配置管理技术文档.md",
     "碎片整理/剪藏/你不知道的Javascript(上卷) 第一章难点与细节解读(作用域是什么？).md",
-    "02-开发运维/VCS/计算机基础-git/Git 和 Sourcetree 使用 SSH 配置.md",
     "02-开发运维/VCS/计算机基础-git/Git 版本管理规范与实践.md",
     "碎片整理/剪藏/前端史上最简单且实用的大文件上传npm库本文介绍大文件上传的概念，带你搞懂什么是大文件上传以及大文件上传解决了什么痛点。 - 掘金.md",
     "碎片整理/小记/前端工程化：Webpack打包删除console.log方案.md",
@@ -318,9 +322,6 @@
     "00-前端/00-核心/node/包管理器/nvm.md",
     "00-前端/00-核心/node/包管理器/nvm",
     "00-前端/00-核心/node/包管理器",
-    "00-前端/00-核心/node/构建sql技巧.md",
-    "00-前端/00-核心/node/使用 simple-git 操作 Git：详细指南.md",
-    "00-前端/00-核心/node/Strapi 简介.md",
     "00-前端/00-核心/node",
     "00-前端/00-核心/JavaScript/实战技巧/开发技巧/树结构处理/查询该节点的所有父级节点、查询该节点的所有子节点",
     "00-前端/00-核心/JavaScript/实战技巧/开发技巧/树结构处理/查找节点对应",
