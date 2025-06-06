@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0bb17865aa275c2e",
+        "id": "cd835961cd7d9b70",
         "type": "tabs",
         "children": [
           {
-            "id": "6ec287848c1a19e1",
+            "id": "b282c5c421ffd78e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "碎片整理/小记/2025年6月6日梳理.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2025年6月6日梳理"
             }
           }
         ]
@@ -37,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -105,13 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-前端/!MOC-Frontend.md",
+                "file": "碎片整理/小记/2025年6月6日梳理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "!MOC-Frontend 的大纲"
+              "title": "2025年6月6日梳理 的大纲"
             }
           },
           {
@@ -267,8 +271,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5,
-    "collapsed": true
+    "width": 326.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -285,8 +288,17 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "6ec287848c1a19e1",
+  "active": "b282c5c421ffd78e",
   "lastOpenFiles": [
+    "碎片整理/小记/2025年6月6日梳理.md",
+    "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson04-导航流程：从输入URL到页面展示这中间发生了什么.md",
+    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson07-变量提升：JavaScript代码是按顺序执行的吗.md",
+    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
+    "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson06-渲染流程（下）：HTML、CSS和JavaScript是如何变成页面的.md",
+    "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson05-渲染流程（上）：HTML、CSS和JavaScript是如何变成页面的.md",
+    "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson03-HTTP请求流程：为什么很多站点第二次打开速度会很快.md",
+    "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson02-TCP协议：如何保证页面文件能被完整送达浏览器.md",
+    "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson01-Chrome架构：仅仅打开了1个页面，为什么有4个进程.md",
     "index.md",
     "01-计算机科学体系/!MOC-计算机科学知识地图.md",
     "README.md",
@@ -305,15 +317,6 @@
     "00-前端/00-核心/node/!MOC-node.md",
     "00-前端/00-核心/node/使用 dotenv 轻松管理 Node.js 项目的多环境变量.md",
     "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
-    "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson01-Chrome架构：仅仅打开了1个页面，为什么有4个进程.md",
-    "碎片整理/小记/大文件分片上传并保存上传进度.md",
-    "02-开发运维/VCS/计算机基础-git/Git 用户配置管理技术文档.md",
-    "碎片整理/剪藏/你不知道的Javascript(上卷) 第一章难点与细节解读(作用域是什么？).md",
-    "02-开发运维/VCS/计算机基础-git/Git 版本管理规范与实践.md",
-    "碎片整理/剪藏/前端史上最简单且实用的大文件上传npm库本文介绍大文件上传的概念，带你搞懂什么是大文件上传以及大文件上传解决了什么痛点。 - 掘金.md",
-    "碎片整理/小记/前端工程化：Webpack打包删除console.log方案.md",
-    "00-前端/00-核心/JavaScript/核心概念/!MOC-核心概念.md",
-    "碎片整理/小记/File和Blob.md",
     "碎片整理/小记/blob",
     "00-前端/00-核心/node/包管理器/nvm",
     "00-前端/00-核心/node/包管理器",
