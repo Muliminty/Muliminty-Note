@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "碎片整理/小记/2025年6月6日梳理.md",
+                "file": "学习资源总库/小册/浏览器工作原理与实践/04-浏览器中的页面循环系统/lesson16-Webapi：setTimeout是怎么实现的.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lesson16-Webapi：setTimeout是怎么实现的"
+            }
+          },
+          {
+            "id": "c299678ba3e0a2a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "碎片整理/小记/浏览器如何实现setTimeout.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025年6月6日梳理"
+              "title": "浏览器如何实现setTimeout"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -68,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SSH",
+                "query": "状态吸收",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -93,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 490.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -109,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "碎片整理/小记/2025年6月6日梳理.md",
+                "file": "碎片整理/小记/浏览器如何实现setTimeout.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025年6月6日梳理 的大纲"
+              "title": "浏览器如何实现setTimeout 的大纲"
             }
           },
           {
@@ -288,9 +303,17 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "b282c5c421ffd78e",
+  "active": "c299678ba3e0a2a8",
   "lastOpenFiles": [
-    "碎片整理/小记/2025年6月6日梳理.md",
+    "学习资源总库/小册/浏览器工作原理与实践/04-浏览器中的页面循环系统/lesson16-Webapi：setTimeout是怎么实现的.md",
+    "碎片整理/小记/浏览器如何实现setTimeout.md",
+    "学习资源总库/小册/浏览器工作原理与实践/04-浏览器中的页面循环系统/lesson15-消息队列和事件循环：页面是怎么活起来的.md",
+    "碎片整理/剪藏/JavaScript Promise迷你书（中文版）.md",
+    "00-前端/00-核心/JavaScript/核心概念/异步编程体系/promise.md",
+    "00-编程经验/006-面经/cv：Promise 的状态吸收.md",
+    "碎片整理/小记/什么是响应式.md",
+    "学习资源总库/小册/浏览器工作原理与实践/03-V8工作原理/lesson12-栈空间和堆空间：数据是如何存储的.md",
+    "学习资源总库/小册/浏览器工作原理与实践/03-V8工作原理/lesson13-垃圾回收：垃圾数据如何自动回收.md",
     "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson04-导航流程：从输入URL到页面展示这中间发生了什么.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson07-变量提升：JavaScript代码是按顺序执行的吗.md",
     "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson08-调用栈：为什么JavaScript代码会出现栈溢出.md",
@@ -308,15 +331,7 @@
     "00-编程经验/问题解决方案/ssh connect to host github.com port 22.md",
     "00-前端/框架生态/React/!MOC-React.md",
     "00-前端/!MOC-Frontend.md",
-    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
-    "00-前端/00-核心/CSS/!MOC-CSS.md",
-    "00-前端/00-核心/CSS/CSS 盒子模型详解.md",
-    "00-前端/优化目录树.md",
-    "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
-    "00-前端/00-核心/node/!MOC-node.md",
-    "00-前端/00-核心/node/使用 dotenv 轻松管理 Node.js 项目的多环境变量.md",
-    "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
     "碎片整理/小记/blob",
     "00-前端/00-核心/node/包管理器/nvm",
     "00-前端/00-核心/node/包管理器",
