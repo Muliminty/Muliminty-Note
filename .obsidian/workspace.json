@@ -152,27 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "快捷备忘.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "快捷备忘 的大纲"
-            }
-          },
-          {
-            "id": "109447327a47c02d",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/3a1ece9b-1575-4db0-8067-37fead2cc155",
-                "title": "腾讯元宝 - 轻松工作 多点生活",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "腾讯元宝 - 轻松工作 多点生活"
+              "title": "大纲"
             }
           },
           {
@@ -181,8 +166,8 @@
             "state": {
               "type": "mxmind-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "network",
+              "title": "Mxmind"
             }
           },
           {
@@ -222,78 +207,8 @@
             "state": {
               "type": "thino_view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "3c58e2a115d6b408",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://chatgpt.com/",
-                "title": "请稍候…",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "请稍候…"
-            }
-          },
-          {
-            "id": "493010ac00643f5c",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://gitcode.com/ai/?id=1894595223932964866",
-                "title": "GitCode AI",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "GitCode AI"
-            }
-          },
-          {
-            "id": "31245816106a0e68",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://m.siliconflow.cn/playground/chat/17885302723",
-                "title": "SiliconCloud",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "SiliconCloud"
-            }
-          },
-          {
-            "id": "78cd2d7ff1222727",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://chat.deepseek.com/a/chat/s/a74b7ad5-ca58-477e-b0d6-44d451be2932",
-                "title": "DeepSeek - 探索未至之境",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "DeepSeek - 探索未至之境"
-            }
-          },
-          {
-            "id": "8e3f6f675fa41f58",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://kimi.moonshot.cn/chat/cus45euf2kqfpdmh6r3g",
-                "title": "分词/词法分析 - Kimi.ai",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "分词/词法分析 - Kimi.ai"
+              "icon": "Memos",
+              "title": "Thino"
             }
           },
           {
@@ -314,7 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 686.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -331,8 +246,10 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "cc089dfc51082da7",
   "lastOpenFiles": [
+    "快捷备忘.md",
+    "04-学习资源/网课/渡一/课件.md",
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/附件/无图模式.png",
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/附件/无图模式-1.png",
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/浏览器插件介绍/附件/stylish.png",
@@ -343,7 +260,6 @@
     "碎片整理/Z-归档/小技巧/博客园/附件/Pasted image 20230426152258.png",
     "碎片整理/Z-归档/小技巧/博客园/附件/Pasted image 20230426162800.png",
     "碎片整理/Z-归档/小技巧/博客园/附件/Pasted image 20230426152139.png",
-    "碎片整理/Z-归档/小技巧/博客园/附件/Pasted image 20230426152009.png",
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/附件",
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/知乎（网页版）夜间模式（暗色模式）.md",
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
@@ -378,7 +294,6 @@
     "碎片整理/Z-归档/小技巧/vscode/插件推荐.md",
     "碎片整理/Z-归档/小技巧/vscode/在vscode中的js文件中自动补全html标签.md",
     "碎片整理/Z-归档/小技巧/vscode/VSCode中markdown开启智能提示.md",
-    "碎片整理/Z-归档/小技巧/RustDesk/只会 Windows 也能轻松搭建远程桌面 RustDesk 自用服务器 - 知乎.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
