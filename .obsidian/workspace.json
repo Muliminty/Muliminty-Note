@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "cd835961cd7d9b70",
+        "id": "bdc1ca688c732a51",
         "type": "tabs",
         "children": [
           {
-            "id": "b282c5c421ffd78e",
+            "id": "b59242f2a9034666",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://zhuanlan.zhihu.com/p/544310970",
+                "title": "(1 封私信 / 45 条消息) Linux 下的 Docker 入门教程 | Linux 中国 - 知乎",
+                "mode": "reader"
+              },
+              "icon": "globe-2",
+              "title": "(1 封私信 / 45 条消息) Linux 下的 Docker 入门教程 | Linux 中国 - 知乎"
+            }
+          },
+          {
+            "id": "ab9d2ce3e8635868",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习资源总库/小册/浏览器工作原理与实践/06-浏览器中的网络/lesson36.md",
-                "mode": "preview",
+                "file": "快捷备忘.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lesson36"
+              "title": "快捷备忘"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习资源总库/小册/浏览器工作原理与实践/06-浏览器中的网络/lesson36.md",
+                "file": "快捷备忘.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "lesson36 的大纲"
+              "title": "快捷备忘 的大纲"
             }
           },
           {
@@ -288,10 +303,12 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "b282c5c421ffd78e",
+  "active": "ab9d2ce3e8635868",
   "lastOpenFiles": [
-    "学习资源总库/小册/浏览器工作原理与实践/README.md",
+    "碎片整理/剪藏/Linux 下的 Docker 入门教程 - Linux 中国.md",
+    "快捷备忘.md",
     "学习资源总库/小册/浏览器工作原理与实践/06-浏览器中的网络/lesson36.md",
+    "学习资源总库/小册/浏览器工作原理与实践/README.md",
     "学习资源总库/小册/浏览器工作原理与实践/06-浏览器中的网络/lesson35.md",
     "学习资源总库/小册/浏览器工作原理与实践/06-浏览器中的网络/lesson34.md",
     "学习资源总库/小册/浏览器工作原理与实践/06-浏览器中的网络/lesson33.md",
@@ -314,8 +331,6 @@
     "碎片整理/小记/什么是响应式.md",
     "学习资源总库/小册/浏览器工作原理与实践/03-V8工作原理/lesson12-栈空间和堆空间：数据是如何存储的.md",
     "学习资源总库/小册/浏览器工作原理与实践/03-V8工作原理/lesson13-垃圾回收：垃圾数据如何自动回收.md",
-    "学习资源总库/小册/浏览器工作原理与实践/01-宏观视角上的浏览器/lesson04-导航流程：从输入URL到页面展示这中间发生了什么.md",
-    "学习资源总库/小册/浏览器工作原理与实践/02-浏览器中的JavaScript执行机制/lesson07-变量提升：JavaScript代码是按顺序执行的吗.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "碎片整理/小记/blob",
     "00-前端/00-核心/node/包管理器/nvm",
