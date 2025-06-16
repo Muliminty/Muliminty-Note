@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "xx-快捷目录/linux.md",
+                "file": "xxx-快捷目录/linux相关技巧.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linux"
+              "title": "linux相关技巧"
             }
           }
         ]
@@ -207,17 +207,18 @@
   },
   "active": "fc63ebaa4ae182ae",
   "lastOpenFiles": [
-    "xx-快捷目录/快捷备忘.md",
-    "xx-快捷目录/linux.md",
-    "书签.md",
-    "xx-快捷目录",
+    "xxx-快捷目录/快捷备忘.md",
+    "碎片整理/书签.md",
+    "01-计算机科学体系/操作系统/Linux/开发环境.md",
+    "xxx-快捷目录/linux相关技巧.md",
+    "index.md",
+    "xxx-快捷目录",
     "01-计算机科学体系/操作系统/Linux/vim.md",
     "碎片整理/剪藏/从0开始的Ubuntu中使用Nginx部署前端项目并配置代理教程(Vue或者React)前言 之前一直以为前端项目结束就 - 掘金.md",
     "碎片整理/小记/在 Ubuntu 上安装 `docker-compose` 有两种主流方法：.md",
     "碎片整理/剪藏/docker配置镜像Docker pull时报错.md",
     "碎片整理/小记/Docker Compose 的核心操作指令，用于重启服务.md",
     "01-计算机科学体系/操作系统/Linux/nohup.md",
-    "index.md",
     "碎片整理/剪藏/超详细的 RustDesk 自建中继节点教程.md",
     "碎片整理/剪藏/Install Docker Engine And Docker Compose In Ubuntu - OSTechNix.md",
     "碎片整理/小记/在 Linux 上配置 Git 和 Node.js 环境的完整指南.md",
