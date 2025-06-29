@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-计算机科学体系/操作系统/macos/Homebrew 终极使用指南​.md",
+                "file": "01-计算机科学体系/操作系统/macos/zshrc.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Homebrew 终极使用指南​"
+              "title": "zshrc"
             }
           }
         ],
@@ -223,8 +223,8 @@
   "active": "277d3b3229edae34",
   "lastOpenFiles": [
     "01-计算机科学体系/操作系统/macos/nvm.md",
-    "01-计算机科学体系/操作系统/macos/zshrc.md",
     "01-计算机科学体系/操作系统/macos/Homebrew 终极使用指南​.md",
+    "01-计算机科学体系/操作系统/macos/zshrc.md",
     "01-计算机科学体系/操作系统/macos/Homebrew 详细安装.md",
     "01-计算机科学体系/操作系统/macos/使用 Vim 编辑 .zshrc 文件的详细流程.md",
     "01-计算机科学体系/操作系统/macos/开发环境配置.md",
