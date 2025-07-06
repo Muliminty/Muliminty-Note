@@ -3,7 +3,7 @@
 ```
 @umijs/runtime“ does not exist in container
 ```
-![](附件/does%20not%20exist%20in%20container.png)
+![](00-前端/框架生态/React/生态库/Umi/异常处理/附件/does%20not%20exist%20in%20container.png)
 
 ### 解决方案
 

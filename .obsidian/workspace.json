@@ -4,67 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "292bdba1e863ed29",
+        "id": "5b8cb7ae63d9fdc1",
         "type": "tabs",
         "children": [
           {
-            "id": "c2ef30bf4039b488",
+            "id": "dda87a9b0649f2e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-计算机科学体系/操作系统/macos/使用 Vim 编辑 .zshrc 文件的详细流程.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "使用 Vim 编辑 .zshrc 文件的详细流程"
-            }
-          },
-          {
-            "id": "277d3b3229edae34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-开发运维/版本控制系统/计算机基础-git/Git 用户配置管理技术文档.md",
+                "file": "00-前端/00-核心/node/包管理器/Volta.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git 用户配置管理技术文档"
+              "title": "Volta"
             }
           },
           {
-            "id": "e6efdfcf7d3f7ef3",
+            "id": "06c63884f81d5d37",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://juejin.cn/post/7399468828361359397",
-                "title": "Mac m3芯片笔记本启动Node老项目的一些坑1. Mac M系列芯片的机子使用nvm安装Node16以下版本的Nod - 掘金",
+                "url": "https://v2.umijs.org/zh/guide/router.html#%E6%9D%83%E9%99%90%E8%B7%AF%E7%94%B1",
+                "title": "路由 | UmiJS",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Mac m3芯片笔记本启动Node老项目的一些坑1. Mac M系列芯片的机子使用nvm安装Node16以下版本的Nod - 掘金"
-            }
-          },
-          {
-            "id": "c8041af43562ea18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-计算机科学体系/操作系统/macos/node 14 安装失败.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "node 14 安装失败"
+              "title": "路由 | UmiJS"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -248,12 +219,18 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "c8041af43562ea18",
+  "active": "dda87a9b0649f2e2",
   "lastOpenFiles": [
+    "00-前端/00-核心/node/包管理器/Volta.md",
+    "00-前端/框架生态/React/生态库/DvaJS/快速入门.md",
+    "02-开发运维/版本控制系统/计算机基础-git/Git 用户配置管理技术文档.md",
     "01-计算机科学体系/操作系统/macos/node 14 安装失败.md",
     "碎片整理/剪藏/Mac m3芯片笔记本启动Node老项目的一些坑1. Mac M系列芯片的机子使用nvm安装Node16以下版本的Nod - 掘金.md",
+    "碎片整理/Excalidraw/Drawing 2025-07-04 16.08.35.excalidraw.md",
+    "00-前端/框架生态/React/生态库/Umi/后台管理系统.md",
+    "00-前端/框架生态/React/生态库/Umi/异常处理/does not exist in container.md",
     "01-计算机科学体系/操作系统/macos/使用 Vim 编辑 .zshrc 文件的详细流程.md",
-    "02-开发运维/版本控制系统/计算机基础-git/Git 用户配置管理技术文档.md",
+    "00-前端/框架生态/React/生态库/DvaJS",
     "02-开发运维/版本控制系统/计算机基础-git/Git 和 Sourcetree 使用 SSH 配置.md",
     "02-开发运维/版本控制系统/计算机基础-git/Git 版本管理规范与实践.md",
     "00-前端/00-核心/node/!MOC-node.md",
@@ -274,12 +251,7 @@
     "05-AI",
     "05",
     "01-计算机科学体系/操作系统/Linux/开发环境.md",
-    "碎片整理/书签.md",
-    "index.md",
     "xxx-快捷目录",
-    "01-计算机科学体系/操作系统/Linux/vim.md",
-    "碎片整理/剪藏/从0开始的Ubuntu中使用Nginx部署前端项目并配置代理教程(Vue或者React)前言 之前一直以为前端项目结束就 - 掘金.md",
-    "碎片整理/小记/在 Ubuntu 上安装 `docker-compose` 有两种主流方法：.md",
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/附件/无图模式.png",
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/附件/无图模式-1.png",
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/浏览器插件介绍/附件/stylish.png",
@@ -295,7 +267,6 @@
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/浏览器插件介绍/附件",
     "碎片整理/Z-归档/前端特效/完整demo/老虎机/README.txt",
     "碎片整理/Z-归档/前端特效/完整demo/老虎机/main.js",
-    "碎片整理/Z-归档/前端特效/完整demo/老虎机/main.html",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
