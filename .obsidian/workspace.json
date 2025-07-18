@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端/框架生态/React/0-收集箱/组件/MProTable.md",
-                "mode": "preview",
+                "file": "05-AI/提示词/交接文档.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MProTable"
+              "title": "交接文档"
             }
           }
         ]
@@ -205,12 +205,13 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "11dec7a7029b7921",
   "lastOpenFiles": [
+    "05-AI/提示词/软件开发专家与编码助手.md",
+    "00-前端/框架生态/React/0-收集箱/组件/未命名.md",
     "00-前端/框架生态/React/0-收集箱/组件/modalWithForm.md",
     "00-前端/框架生态/React/0-收集箱/组件/modal_Fn.md",
     "00-前端/框架生态/React/0-收集箱/组件/MProTable.md",
-    "00-前端/框架生态/React/0-收集箱/组件/未命名.md",
     "index.md",
     "00-前端/00-核心/JavaScript/核心概念/异步编程体系/promise.md",
     "00-前端/00-核心/JavaScript/核心概念/!MOC-核心概念.md",
@@ -233,7 +234,6 @@
     "README.md",
     "00-前端/优化目录树.md",
     "00-前端/前端知识图谱.md",
-    "01-计算机科学体系/操作系统/Ubuntu/查找docker文件位置.md",
     "00-前端/框架生态/React/生态库/DvaJS",
     "05-AI/提示词",
     "05-AI",
