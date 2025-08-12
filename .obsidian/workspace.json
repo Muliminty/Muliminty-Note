@@ -4,20 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "35becb55b731563c",
+        "id": "6933c6e1a2113f5b",
         "type": "tabs",
         "children": [
           {
-            "id": "50b38d8f437b8d06",
+            "id": "ea09cc324794d402",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "000-JavaScript(new)/整理方案/00-文法、语义 和 运行时 的层次划分.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "00-文法、语义 和 运行时 的层次划分"
+            }
+          },
+          {
+            "id": "bae8a8ff2e534cbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-JavaScript(new)/整理方案/00-文法、语义 和 运行时 的层次划分.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "00-文法、语义 和 运行时 的层次划分"
+            }
+          },
+          {
+            "id": "66b78f8f445c42f9",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://freegeektime.com/100023201/77749/",
+                "title": "明确你的前端学习路线与方法 - 极客时间已完结课程限时免费阅读",
+                "mode": "reader"
+              },
+              "icon": "globe-2",
+              "title": "明确你的前端学习路线与方法 - 极客时间已完结课程限时免费阅读"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -64,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "数组",
+                "query": "ngnix",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,7 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 393.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -105,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -120,8 +152,24 @@
             "state": {
               "type": "mxmind-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "network",
+              "title": "Mxmind"
+            }
+          },
+          {
+            "id": "a564317c6d1bddf2",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.notion.so/10732ee5ecaa4568843c0b2cc6bdd213",
+                "title": "重学前端",
+                "mode": "webview"
+              },
+              "pinned": true,
+              "icon": "globe-2",
+              "title": "重学前端"
             }
           },
           {
@@ -178,13 +226,23 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
+          },
+          {
+            "id": "547e2cc35a5c25f2",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 401.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,46 +256,49 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-kanban:创建新看板": false,
       "obsidian-memos:Thino": false,
-      "mxmind:Mxmind": false
+      "mxmind:Mxmind": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "50b38d8f437b8d06",
+  "active": "66b78f8f445c42f9",
   "lastOpenFiles": [
-    "00-前端/框架生态/React/生态库/状态管理/Redux-Saga 入门&实战教程.md",
+    "000-JavaScript(new)/整理方案/00-文法、语义 和 运行时 的层次划分.md",
+    "000-JavaScript(new)/整理方案/00-笔记整理方案!.md",
+    "000-JavaScript(new)/整理方案/JavaScript 知识体系范式.md",
+    "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
+    "index.md",
+    "00-前端/00-核心/JavaScript/核心概念/执行模型/执行上下文.md",
+    "README.md",
+    "xxx-快捷目录/快捷备忘.md",
+    "xxx-快捷目录/linux相关技巧.md",
+    "02-开发运维/开发运维-MOC.md",
+    "02-开发运维/基础设施/ngnix",
+    "000-JavaScript(new)/整理方案/概念-名词解释.md",
+    "000-JavaScript(new)/整理方案/参考.md",
+    "00-前端/00-核心/JavaScript/核心概念/编译原理/词法分析.md",
+    "00-前端/00-核心/JavaScript/核心概念/编译原理/!MOC-编译原理.md",
+    "00-前端/00-核心/JavaScript/核心概念/编译原理/词法分析-确定性有限自动机DFA.md",
+    "00-前端/00-核心/JavaScript/核心概念/编译原理/即时编译JIT.md",
+    "00-前端/00-核心/JavaScript/核心概念/编译原理/垃圾回收.md",
+    "00-前端/00-核心/JavaScript/核心概念/编译原理/blog-编译原理.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/变量声明.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/!MOC-基础语法.md",
+    "00-前端/00-核心/JavaScript/核心概念/基础语法/变量提升.md",
+    "00-前端/00-核心/JavaScript/核心概念/内存管理/变量存储.md",
+    "00-前端/00-核心/JavaScript/核心概念/内存管理/!MOC-内存管理.md",
+    "00-前端/00-核心/JavaScript/知识图谱.canvas",
+    "00-前端/00-核心/JavaScript/JavaScript Roadmap.md",
+    "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
+    "00-前端/00-核心/JavaScript/核心概念/00-收集箱/碎片（临时内容）/词法环境和作用域的关系.md",
     "00-前端/框架生态/React/生态库/状态管理",
-    "000-JavaScript(new)/000-文法/语法-表达式.md",
-    "000-JavaScript(new)/000-文法/!MOC-文法.md",
-    "00-编程经验/问题解决方案/混合开发调试/app 控制台.md",
-    "01-计算机科学体系/C语言/概念/编译型语言 vs. 解释型语言.md",
-    "01-计算机科学体系/C语言/C 语言程序设计.md",
-    "01-计算机科学体系/C语言/收集箱/VSCode 配置 C 语言开发环境.md",
     "01-计算机科学体系/C语言/收集箱",
     "01-计算机科学体系/C语言/概念",
-    "01-计算机科学体系/C语言/!MOC-编程语言.md",
-    "00-编程经验/代码片段库/调试神器.md",
     "00-编程经验/问题解决方案/混合开发调试",
-    "xxx-快捷目录/快捷备忘.md",
-    "index.md",
-    "01-计算机科学体系/!MOC-计算机科学知识地图.md",
-    "000-JavaScript(new)/000-文法/词法-关键字.md",
     "000-JavaScript(new)/000-文法/未命名",
-    "000-JavaScript(new)/整理方案/参考 2.md",
-    "00-前端/工程化体系/前端工程化-脚手架开发/生成代码模板的实现原理.md",
-    "00-前端/工程化体系/前端工程化-脚手架开发/脚手架工具的核心原理.md",
-    "00-前端/工程化体系/前端工程化-脚手架开发/脚手架工具 草稿方案.md",
-    "00-前端/工程化体系/前端工程化-脚手架开发/00-脚手架开发练习!!.md",
-    "00-编程经验/问题解决方案/react jsonp.md",
-    "00-编程经验/006-面经/CV：jsonp.md",
-    "000-JavaScript(new)/整理方案/概念-名词解释.md",
-    "000-JavaScript(new)/整理方案/00-笔记整理方案!.md",
-    "000-JavaScript(new)/整理方案/参考.md",
     "000-JavaScript(new)/002-运行时",
     "000-JavaScript(new)/001-语义",
     "000-JavaScript(new)/000-文法",
     "000-JavaScript(new)",
-    "00-前端/00-核心/JavaScript/「静态语法」与「运行时机制」知识脉络.md",
-    "000-JavaScript(new)/整理方案/00-文法、语义 和 运行时 的层次划分.md",
-    "000-JavaScript(new)/整理方案",
     "00-前端/附件/Pasted image 20250718162420.png",
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/附件/无图模式.png",
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/附件/无图模式-1.png",
@@ -248,7 +309,6 @@
     "碎片整理/Z-归档/小技巧/博客园/附件/Pasted image 20230426162723.png",
     "碎片整理/Z-归档/小技巧/博客园/附件/Pasted image 20230426152258.png",
     "碎片整理/Z-归档/小技巧/博客园/附件/Pasted image 20230426162800.png",
-    "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas"
