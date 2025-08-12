@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6231f6cf0dccb1b7",
+        "id": "f588c640bbcb4846",
         "type": "tabs",
         "children": [
           {
-            "id": "c9d251593dbe3175",
+            "id": "335b28d915c360ac",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -95,8 +95,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -229,7 +228,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9d251593dbe3175",
+  "active": "b76d5d4c5f29b876",
   "lastOpenFiles": [
     "000-JavaScript(new)/000-文法/JavaScript 词法与语法知识点树状整理.md",
     "000-JavaScript(new)/!MOC.md",
