@@ -1,46 +1,26 @@
 {
   "workspaces": {
-    "j11": {
+    "重学": {
       "main": {
         "id": "17185545f7c8d1cc",
         "type": "split",
         "children": [
           {
-            "id": "21655aac9448d5b6",
+            "id": "ab63dca813a5d0c1",
             "type": "tabs",
             "children": [
               {
-                "id": "182ee3a44994568a",
+                "id": "ccc1524090d6a3df",
                 "type": "leaf",
                 "state": {
                   "type": "webviewer",
                   "state": {
-                    "url": "https://weread.qq.com/web/reader/8c632230715c01a18c683d8",
-                    "title": "你不知道的JavaScript（上卷） - 凯尔辛普森 - 微信读书",
+                    "url": "https://freegeektime.com/100023201/78884/",
+                    "title": "JavaScript类型：关于类型，有哪些你不知道的细节？ - 极客时间已完结课程限时免费阅读",
                     "mode": "webview"
                   },
                   "icon": "globe-2",
-                  "title": "你不知道的JavaScript（上卷） - 凯尔辛普森 - 微信读书"
-                }
-              }
-            ]
-          },
-          {
-            "id": "7276971111936808",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3f329ba925a3eab5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "读书笔记/你不知道的JavaScript/01-1作用域是什么.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "01-1作用域是什么"
+                  "title": "JavaScript类型：关于类型，有哪些你不知道的细节？ - 极客时间已完结课程限时免费阅读"
                 }
               }
             ]
@@ -55,7 +35,6 @@
           {
             "id": "dddd3d328ede567a",
             "type": "tabs",
-            "dimension": 72.80593325092707,
             "children": [
               {
                 "id": "b76d5d4c5f29b876",
@@ -91,7 +70,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "ngnix",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": true,
@@ -101,16 +80,9 @@
                   "icon": "lucide-search",
                   "title": "搜索"
                 }
-              }
-            ]
-          },
-          {
-            "id": "3b634e9dce37d622",
-            "type": "tabs",
-            "dimension": 27.19406674907293,
-            "children": [
+              },
               {
-                "id": "303c8d2fabb40564",
+                "id": "21fefd9d31313cb1",
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
@@ -118,12 +90,22 @@
                   "icon": "lucide-bookmark",
                   "title": "书签"
                 }
+              },
+              {
+                "id": "547e2cc35a5c25f2",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 283.5,
+        "width": 266.5,
         "collapsed": true
       },
       "right": {
@@ -134,6 +116,30 @@
             "id": "ffef919d0a9f365d",
             "type": "tabs",
             "children": [
+              {
+                "id": "cc089dfc51082da7",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "大纲"
+                }
+              },
+              {
+                "id": "70999e069002e33c",
+                "type": "leaf",
+                "state": {
+                  "type": "mxmind-view",
+                  "state": {},
+                  "icon": "network",
+                  "title": "Mxmind"
+                }
+              },
               {
                 "id": "2d8b45923dba1000",
                 "type": "leaf",
@@ -166,106 +172,51 @@
                 }
               },
               {
-                "id": "cc089dfc51082da7",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "大纲"
-                }
-              },
-              {
-                "id": "f251d2b7ad4cadaf",
+                "id": "ffc7586e1facca5c",
                 "type": "leaf",
                 "state": {
                   "type": "thino_view",
                   "state": {},
-                  "icon": "Memos",
-                  "title": "Thino"
+                  "icon": "lucide-file",
+                  "title": "插件不再活动"
                 }
               },
               {
-                "id": "3c58e2a115d6b408",
+                "id": "f907bcb412dfe0ea",
                 "type": "leaf",
                 "state": {
-                  "type": "webviewer",
+                  "type": "all-properties",
                   "state": {
-                    "url": "https://chatgpt.com/",
-                    "title": "请稍候…",
-                    "mode": "webview"
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
-                  "icon": "globe-2",
-                  "title": "请稍候…"
+                  "icon": "lucide-archive",
+                  "title": "添加笔记属性"
                 }
               },
               {
-                "id": "493010ac00643f5c",
+                "id": "a564317c6d1bddf2",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "webviewer",
                   "state": {
-                    "url": "https://gitcode.com/ai/?id=1894595223932964866",
-                    "title": "GitCode AI",
+                    "url": "https://www.notion.so/10732ee5ecaa4568843c0b2cc6bdd213",
+                    "title": "重学前端",
                     "mode": "webview"
                   },
+                  "pinned": true,
                   "icon": "globe-2",
-                  "title": "GitCode AI"
-                }
-              },
-              {
-                "id": "31245816106a0e68",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://m.siliconflow.cn/playground/chat/17885302723",
-                    "title": "SiliconCloud",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "SiliconCloud"
-                }
-              },
-              {
-                "id": "78cd2d7ff1222727",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://chat.deepseek.com/a/chat/s/a74b7ad5-ca58-477e-b0d6-44d451be2932",
-                    "title": "DeepSeek - 探索未至之境",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "DeepSeek - 探索未至之境"
-                }
-              },
-              {
-                "id": "8e3f6f675fa41f58",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://kimi.moonshot.cn/chat/cus45euf2kqfpdmh6r3g",
-                    "title": "分词/词法分析 - Kimi.ai",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "分词/词法分析 - Kimi.ai"
+                  "title": "重学前端"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 6
           }
         ],
         "direction": "horizontal",
-        "width": 473.5,
-        "collapsed": true
+        "width": 419.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -275,15 +226,17 @@
           "daily-notes:打开/创建今天的日记": false,
           "templates:插入模板": false,
           "command-palette:打开命令面板": false,
+          "workspaces:管理工作区布局": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
           "obsidian-kanban:创建新看板": false,
           "obsidian-memos:Thino": false,
-          "obsidian-excalidraw-plugin:新建绘图文件": false,
-          "workspaces:管理工作区布局": false
+          "mxmind:Mxmind": false,
+          "obsidian-git:Open Git source control": false
         }
       },
-      "active": "182ee3a44994568a",
-      "mtime": "2025-03-03T16:14:15+08:00"
+      "active": "ccc1524090d6a3df",
+      "mtime": "2025-08-13T09:10:12+08:00"
     }
   },
-  "active": "j11"
+  "active": "重学"
 }

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f588c640bbcb4846",
+        "id": "ab63dca813a5d0c1",
         "type": "tabs",
         "children": [
           {
-            "id": "335b28d915c360ac",
+            "id": "72beb687428fff61",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01-计算机科学体系/操作系统/Ubuntu/Ubuntu 前端开发环境安装文档.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Ubuntu 前端开发环境安装文档"
             }
           }
         ]
@@ -99,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.5
+    "width": 266.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -196,12 +200,12 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.notion.so/10732ee5ecaa4568843c0b2cc6bdd213",
-                "title": "重学前端",
-                "mode": "webview"
+                "title": "notion.so/10732ee5ecaa4568843c0b2cc6bdd213",
+                "mode": "error"
               },
               "pinned": true,
               "icon": "globe-2",
-              "title": "重学前端"
+              "title": "notion.so/10732ee5ecaa4568843c0b2cc6bdd213"
             }
           }
         ],
@@ -209,8 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5,
-    "collapsed": true
+    "width": 419.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,11 +231,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "72beb687428fff61",
   "lastOpenFiles": [
+    "00-编程经验/问题解决方案/混合开发调试/模拟页面从后台切回前台.md",
+    "01-计算机科学体系/操作系统/Ubuntu/Ubuntu 前端开发环境安装文档.md",
+    "00-前端/!MOC-Frontend.md",
+    "00-编程经验/代码片段库/008-奇技淫巧/实用代码片段.md",
+    "00-编程经验/代码片段库/008-奇技淫巧/复制内容到剪切板.md",
+    "000-JavaScript(new)/000-文法/词法作用域和词法的关联.md",
     "000-JavaScript(new)/000-文法/JavaScript 词法与语法知识点树状整理.md",
-    "000-JavaScript(new)/!MOC.md",
     "000-JavaScript(new)/000-文法/00-关于文法-词法-语法的理解.md",
+    "000-JavaScript(new)/!MOC.md",
     "000-JavaScript(new)/000-文法/词法-关键字.md",
     "000-JavaScript(new)/000-文法/语法-表达式.md",
     "000-JavaScript(new)/000-文法/!MOC-文法.md",
@@ -251,12 +260,6 @@
     "02-开发运维/基础设施/ngnix",
     "000-JavaScript(new)/整理方案/概念-名词解释.md",
     "00-前端/00-核心/JavaScript/核心概念/编译原理/词法分析.md",
-    "00-前端/00-核心/JavaScript/核心概念/编译原理/!MOC-编译原理.md",
-    "00-前端/00-核心/JavaScript/核心概念/编译原理/词法分析-确定性有限自动机DFA.md",
-    "00-前端/00-核心/JavaScript/核心概念/编译原理/即时编译JIT.md",
-    "00-前端/00-核心/JavaScript/核心概念/编译原理/垃圾回收.md",
-    "00-前端/00-核心/JavaScript/核心概念/编译原理/blog-编译原理.md",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/变量声明.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "00-前端/框架生态/React/生态库/状态管理",
     "01-计算机科学体系/C语言/收集箱",

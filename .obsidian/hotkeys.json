@@ -1,0 +1,10 @@
+{
+  "workspaces:open-modal": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "W"
+    }
+  ]
+}
