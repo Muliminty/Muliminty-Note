@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-计算机科学体系/操作系统/Ubuntu/Neovim.md",
+                "file": "02-开发运维/开发工具/vim/Neovim 常用指令速查表（对照 VS Code）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Neovim"
+              "title": "Neovim 常用指令速查表（对照 VS Code）"
             }
           }
         ]
@@ -119,13 +119,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-计算机科学体系/操作系统/Ubuntu/Neovim.md",
+                "file": "02-开发运维/开发工具/vim/Neovim 常用指令速查表（对照 VS Code）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Neovim 的大纲"
+              "title": "Neovim 常用指令速查表（对照 VS Code） 的大纲"
             }
           },
           {
@@ -234,8 +234,14 @@
   },
   "active": "72beb687428fff61",
   "lastOpenFiles": [
+    "01-计算机科学体系/操作系统/Ubuntu/memos数据备份方案.md",
+    "01-计算机科学体系/操作系统/Ubuntu/文件管理.md",
+    "01-计算机科学体系/操作系统/Ubuntu/一键命令.md",
     "01-计算机科学体系/操作系统/Ubuntu/Ubuntu 前端开发环境安装文档.md",
-    "01-计算机科学体系/操作系统/Ubuntu/Neovim.md",
+    "02-开发运维/开发工具/vim/vim.md",
+    "02-开发运维/开发工具/vim",
+    "02-开发运维/开发工具/vim/Neovim 常用指令速查表（对照 VS Code）.md",
+    "02-开发运维/开发工具/vim/Neovim.md",
     "00-编程经验/问题解决方案/混合开发调试/模拟页面从后台切回前台.md",
     "00-前端/!MOC-Frontend.md",
     "00-编程经验/代码片段库/008-奇技淫巧/实用代码片段.md",
@@ -255,12 +261,7 @@
     "00-前端/00-核心/JavaScript/!MOC-JavaScript.md",
     "index.md",
     "00-前端/00-核心/JavaScript/核心概念/执行模型/执行上下文.md",
-    "README.md",
-    "xxx-快捷目录/快捷备忘.md",
-    "xxx-快捷目录/linux相关技巧.md",
-    "02-开发运维/开发运维-MOC.md",
     "02-开发运维/基础设施/ngnix",
-    "000-JavaScript(new)/整理方案/概念-名词解释.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "00-前端/框架生态/React/生态库/状态管理",
     "01-计算机科学体系/C语言/收集箱",
@@ -270,7 +271,6 @@
     "000-JavaScript(new)/002-运行时",
     "000-JavaScript(new)/001-语义",
     "000-JavaScript(new)/000-文法",
-    "000-JavaScript(new)",
     "00-前端/附件/Pasted image 20250718162420.png",
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/附件/无图模式.png",
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/附件/无图模式-1.png",
