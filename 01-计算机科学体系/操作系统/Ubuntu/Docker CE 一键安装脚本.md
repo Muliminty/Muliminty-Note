@@ -167,3 +167,84 @@ echo ">>> Docker 安装完成！请注销或重启终端使免 sudo 生效。"
    ```
 
 安装结束后，**注销或重开终端**即可免 `sudo` 运行 Docker。
+
+# 一键脚本设置代理
+
+明白 ✅
+我帮你写一个 **一键脚本**，可以直接配置 Docker 的 **HTTP/HTTPS 代理**（适合你在 VMware 里跑 Linux，需要走代理才能拉取镜像的情况）。
+
+下面的脚本适合 **systemd 管理 Docker 的 Linux 系统（Ubuntu / Debian / CentOS 7+）**。
+
+---
+
+### 脚本：`set-docker-proxy.sh`
+
+```bash
+#!/bin/bash
+# 一键设置 Docker 代理 (systemd)
+
+set -e
+
+# 代理地址 (请修改为你自己的代理地址)
+HTTP_PROXY="http://127.0.0.1:7890"
+HTTPS_PROXY="http://127.0.0.1:7890"
+NO_PROXY="localhost,127.0.0.1"
+
+# 创建目录
+sudo mkdir -p /etc/systemd/system/docker.service.d
+
+# 写入代理配置
+cat <<EOF | sudo tee /etc/systemd/system/docker.service.d/http-proxy.conf
+[Service]
+Environment="HTTP_PROXY=${HTTP_PROXY}"
+Environment="HTTPS_PROXY=${HTTPS_PROXY}"
+Environment="NO_PROXY=${NO_PROXY}"
+EOF
+
+# 重新加载并重启 Docker
+echo ">>> 重新加载 systemd..."
+sudo systemctl daemon-reexec
+sudo systemctl daemon-reload
+
+echo ">>> 重启 Docker..."
+sudo systemctl restart docker
+
+echo ">>> Docker 代理配置完成！"
+echo "验证配置: systemctl show --property=Environment docker"
+```
+
+---
+
+### 使用方法
+
+1. 保存为 `set-docker-proxy.sh`
+
+2. 赋予执行权限：
+
+   ```bash
+   chmod +x set-docker-proxy.sh
+   ```
+
+3. 执行：
+
+   ```bash
+   ./set-docker-proxy.sh
+   ```
+
+4. 验证：
+
+   ```bash
+   systemctl show --property=Environment docker
+   ```
+
+   应该能看到你设置的 `HTTP_PROXY` / `HTTPS_PROXY`。
+
+5. 再测试：
+
+   ```bash
+   docker run --rm hello-world
+   ```
+
+---
+
+要不要我帮你扩展一下脚本，加上 **一键取消代理** 的功能（比如 `./set-docker-proxy.sh --unset`）？
