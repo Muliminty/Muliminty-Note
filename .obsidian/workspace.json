@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "007-Blog/README.md",
+                "file": "007-Blog/前端如何把文字渲染到屏幕上.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "前端如何把文字渲染到屏幕上"
             }
           }
         ]
@@ -119,13 +119,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-开发运维/开发工具/vim/Neovim 常用指令速查表（对照 VS Code）.md",
+                "file": "007-Blog/前端如何把文字渲染到屏幕上.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Neovim 常用指令速查表（对照 VS Code） 的大纲"
+              "title": "前端如何把文字渲染到屏幕上 的大纲"
             }
           },
           {
@@ -213,8 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.5,
-    "collapsed": true
+    "width": 419.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,6 +235,7 @@
   "active": "ef1672040231811c",
   "lastOpenFiles": [
     "007-Blog/README.md",
+    "007-Blog/前端如何把文字渲染到屏幕上.md",
     "00-前端/00-核心/JavaScript/核心概念/执行模型/!MOC-执行模型.md",
     "00-前端/!数据库.base",
     "00-前端/框架生态/React/0-收集箱/使用 React.lazy 和 Suspense 实现路由懒加载.md",
@@ -264,7 +264,6 @@
     "000-JavaScript(new)/000-文法/JavaScript 词法与语法知识点树状整理.md",
     "000-JavaScript(new)/000-文法/00-关于文法-词法-语法的理解.md",
     "000-JavaScript(new)/000-文法/词法-关键字.md",
-    "000-JavaScript(new)/000-文法/语法-表达式.md",
     "02-开发运维/基础设施/ngnix",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "00-前端/框架生态/React/生态库/状态管理",
