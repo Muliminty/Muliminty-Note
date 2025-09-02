@@ -18,6 +18,7 @@
                   "kanban-plugin": "board",
                   "list-collapse": [
                     false,
+                    false,
                     false
                   ]
                 }
@@ -25,8 +26,23 @@
               "icon": "lucide-trello",
               "title": "书签整理"
             }
+          },
+          {
+            "id": "169d2b8baa70b752",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://hansimov.gitbook.io/csapp/ch01-a-tour-of-computer-systems",
+                "title": "第 1 章：计算机系统漫游 | 深入理解计算机系统（CSAPP）",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "第 1 章：计算机系统漫游 | 深入理解计算机系统（CSAPP）"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5
+    "width": 252.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -238,7 +255,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "169d2b8baa70b752",
   "lastOpenFiles": [
     "书签整理.md",
     "index.md",
