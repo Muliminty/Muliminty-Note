@@ -11,19 +11,14 @@
             "id": "8ca95358913f3528",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "书签整理.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false
-                  ]
-                }
+                "file": "01-计算机科学体系/操作系统/Ubuntu/一键脚本示例.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "书签整理"
+              "icon": "lucide-file",
+              "title": "一键脚本示例"
             }
           }
         ]
@@ -240,8 +235,11 @@
   },
   "active": "8ca95358913f3528",
   "lastOpenFiles": [
-    "碎片整理/小记/未命名.md",
+    "01-计算机科学体系/操作系统/Ubuntu/Ubuntu 前端开发环境安装文档.md",
+    "01-计算机科学体系/操作系统/Ubuntu/一键脚本示例.md",
+    "01-计算机科学体系/操作系统/Ubuntu/Docker CE 一键安装脚本.md",
     "书签整理.md",
+    "碎片整理/小记/未命名.md",
     "碎片整理/Thino/2025-02-17.md",
     "index.md",
     "00-前端/框架生态/React/0-收集箱/自定义hook函数/监听离开页面.md",
@@ -266,9 +264,6 @@
     "00-前端/Untitled.md",
     "000-JavaScript(new)/未命名.base",
     "000-JavaScript(new)/数据库.base",
-    "00-前端/00-核心/JavaScript/核心概念/基础语法/ES6 类语法/!MOC-ES6 类语法.md",
-    "01-计算机科学体系/操作系统/Ubuntu/Docker CE 一键安装脚本.md",
-    "02-开发运维/开发工具/vim/Neovim 常用指令速查表（对照 VS Code）.md",
     "02-开发运维/开发工具/vim",
     "02-开发运维/基础设施/ngnix",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
