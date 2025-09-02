@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6926ca89e5e8a9c0",
+        "id": "47651fb2b083085c",
         "type": "tabs",
         "children": [
           {
-            "id": "8ca95358913f3528",
+            "id": "716f76f6f6bf0ba3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-计算机科学体系/操作系统/Ubuntu/一键脚本示例.md",
-                "mode": "source",
+                "file": "README.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "一键脚本示例"
+              "title": "README"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "git add",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -103,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5
+    "width": 200
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -119,13 +119,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "书签整理.md",
+                "file": "02-开发运维/开发工具/vim/Neovim 常用指令速查表（对照 VS Code）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "书签整理 的大纲"
+              "title": "Neovim 常用指令速查表（对照 VS Code） 的大纲"
             }
           },
           {
@@ -134,8 +134,8 @@
             "state": {
               "type": "mxmind-view",
               "state": {},
-              "icon": "network",
-              "title": "Mxmind"
+              "icon": "lucide-ghost",
+              "title": "mxmind-view"
             }
           },
           {
@@ -175,8 +175,8 @@
             "state": {
               "type": "thino_view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "thino_view"
             }
           },
           {
@@ -201,19 +201,19 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.notion.so/10732ee5ecaa4568843c0b2cc6bdd213",
-                "title": "重学前端",
-                "mode": "webview"
+                "title": "notion.so/10732ee5ecaa4568843c0b2cc6bdd213",
+                "mode": "error"
               },
               "pinned": true,
               "icon": "globe-2",
-              "title": "重学前端"
+              "title": "notion.so/10732ee5ecaa4568843c0b2cc6bdd213"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 491.5,
+    "width": 419.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -233,37 +233,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ca95358913f3528",
+  "active": "716f76f6f6bf0ba3",
   "lastOpenFiles": [
-    "01-计算机科学体系/操作系统/Ubuntu/Ubuntu 前端开发环境安装文档.md",
-    "01-计算机科学体系/操作系统/Ubuntu/一键脚本示例.md",
-    "01-计算机科学体系/操作系统/Ubuntu/Docker CE 一键安装脚本.md",
     "书签整理.md",
-    "碎片整理/小记/未命名.md",
-    "碎片整理/Thino/2025-02-17.md",
     "index.md",
-    "00-前端/框架生态/React/0-收集箱/自定义hook函数/监听离开页面.md",
-    "000-JavaScript(new)/000-文法/!MOC-文法.md",
-    "000-JavaScript(new)/!MOC.md",
+    "碎片整理/小记/未命名.md",
+    "README.md",
+    "007-Blog/深入剖析 React Context Provider：原理、性能优化与高级实践.md",
+    "02-开发运维/版本控制系统/计算机基础-git/Git 版本管理规范与实践.md",
+    "01-计算机科学体系/操作系统/Ubuntu/Docker CE 一键安装脚本.md",
+    "007-Blog/掌握 React 性能优化：运用 memoization 技术与代码分割提升效率.md",
+    "007-Blog/实现一个迷你版的 React.md",
+    "007-Blog/原生HTML组件化开发深度解析：对象标签与动态加载方案实践.md",
     "007-Blog/前端如何把文字渲染到屏幕上.md",
     "007-Blog/Svelte.js 入门指南.md",
     "007-Blog/README.md",
-    "007-Blog/掌握 React 性能优化：运用 memoization 技术与代码分割提升效率.md",
-    "007-Blog/原生HTML组件化开发深度解析：对象标签与动态加载方案实践.md",
-    "007-Blog/实现一个迷你版的 React.md",
-    "007-Blog/深入剖析 React Context Provider：原理、性能优化与高级实践.md",
-    "007-Blog/00-JavaScript 变量提升时究竟干了啥？.md",
-    "007-Blog/00-为什么需要区分堆和栈？.md",
     "007-Blog/00-当你输入var之后发生了什么？.md",
-    "00-前端/00-核心/JavaScript/核心概念/执行模型/!MOC-执行模型.md",
+    "007-Blog/00-为什么需要区分堆和栈？.md",
+    "007-Blog/00-JavaScript 变量提升时究竟干了啥？.md",
+    "007-Blog",
+    "00-前端/框架生态/React/0-收集箱/自定义hook函数/监听离开页面.md",
     "00-前端/!数据库.base",
-    "00-前端/框架生态/React/0-收集箱/使用 React.lazy 和 Suspense 实现路由懒加载.md",
-    "00-编程经验/006-面经/判断页面是否在 iframe 中加载.md",
-    "README.md",
-    "00-前端/!MOC-Frontend.md",
-    "00-前端/Untitled.md",
-    "000-JavaScript(new)/未命名.base",
-    "000-JavaScript(new)/数据库.base",
+    "test.txt",
+    "02-开发运维/版本控制系统/计算机基础-git/Git 和 Sourcetree 使用 SSH 配置.md",
+    "02-开发运维/版本控制系统/计算机基础-git/gitignore 文件语法详解.md",
+    "02-开发运维/版本控制系统/计算机基础-git/Git 提交规范.md",
+    "02-开发运维/开发工具/vim/Neovim 常用指令速查表（对照 VS Code）.md",
+    "01-计算机科学体系/操作系统/Ubuntu/memos数据备份方案.md",
+    "01-计算机科学体系/操作系统/Ubuntu/文件管理.md",
+    "01-计算机科学体系/操作系统/Ubuntu/一键命令.md",
+    "01-计算机科学体系/操作系统/Ubuntu/Ubuntu 前端开发环境安装文档.md",
+    "02-开发运维/开发工具/vim/vim.md",
     "02-开发运维/开发工具/vim",
     "02-开发运维/基础设施/ngnix",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
