@@ -4,19 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "059ead8f7c53d2d2",
+        "id": "6926ca89e5e8a9c0",
         "type": "tabs",
         "children": [
           {
-            "id": "5b3ef4f9402c4967",
+            "id": "8ca95358913f3528",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "kanban",
               "state": {
-                "currentVersion": "1.9.12"
+                "file": "书签整理.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.9.12"
+              "icon": "lucide-trello",
+              "title": "书签整理"
             }
           }
         ]
@@ -66,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:React",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -101,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 379.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -117,12 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "书签整理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "书签整理 的大纲"
             }
           },
           {
@@ -206,12 +214,11 @@
               "title": "重学前端"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 344.5,
+    "width": 491.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -231,8 +238,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b3ef4f9402c4967",
+  "active": "8ca95358913f3528",
   "lastOpenFiles": [
+    "碎片整理/小记/未命名.md",
+    "书签整理.md",
+    "碎片整理/Thino/2025-02-17.md",
+    "index.md",
     "00-前端/框架生态/React/0-收集箱/自定义hook函数/监听离开页面.md",
     "000-JavaScript(new)/000-文法/!MOC-文法.md",
     "000-JavaScript(new)/!MOC.md",
@@ -249,7 +260,6 @@
     "00-前端/00-核心/JavaScript/核心概念/执行模型/!MOC-执行模型.md",
     "00-前端/!数据库.base",
     "00-前端/框架生态/React/0-收集箱/使用 React.lazy 和 Suspense 实现路由懒加载.md",
-    "index.md",
     "00-编程经验/006-面经/判断页面是否在 iframe 中加载.md",
     "README.md",
     "00-前端/!MOC-Frontend.md",
@@ -259,9 +269,6 @@
     "00-前端/00-核心/JavaScript/核心概念/基础语法/ES6 类语法/!MOC-ES6 类语法.md",
     "01-计算机科学体系/操作系统/Ubuntu/Docker CE 一键安装脚本.md",
     "02-开发运维/开发工具/vim/Neovim 常用指令速查表（对照 VS Code）.md",
-    "01-计算机科学体系/操作系统/Ubuntu/memos数据备份方案.md",
-    "01-计算机科学体系/操作系统/Ubuntu/文件管理.md",
-    "01-计算机科学体系/操作系统/Ubuntu/一键命令.md",
     "02-开发运维/开发工具/vim",
     "02-开发运维/基础设施/ngnix",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
