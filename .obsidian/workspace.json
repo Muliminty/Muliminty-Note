@@ -4,45 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4ddcfd5d97f486a0",
+        "id": "2890a3e92cfbe380",
         "type": "tabs",
         "children": [
           {
-            "id": "ae834d0f403bdcf8",
+            "id": "07d647a89a876f76",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "书签整理.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "书签整理"
-            }
-          },
-          {
-            "id": "169d2b8baa70b752",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://hansimov.gitbook.io/csapp/ch01-a-tour-of-computer-systems",
-                "title": "第 1 章：计算机系统漫游 | 深入理解计算机系统（CSAPP）",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "第 1 章：计算机系统漫游 | 深入理解计算机系统（CSAPP）"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#资源",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -124,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5,
-    "collapsed": true
+    "width": 252.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -141,13 +115,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "书签整理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "书签整理 的大纲"
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "ffc7586e1facca5c",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "icon": "Memos",
+              "title": "Thino"
             }
           },
           {
@@ -192,16 +175,6 @@
             }
           },
           {
-            "id": "ffc7586e1facca5c",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
             "id": "f907bcb412dfe0ea",
             "type": "leaf",
             "state": {
@@ -231,11 +204,12 @@
               "title": "重学前端"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 491.5,
+    "width": 387.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -255,9 +229,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "169d2b8baa70b752",
+  "active": "07d647a89a876f76",
   "lastOpenFiles": [
+    "01-计算机科学体系/计算机组成原理/入门方向.md",
     "书签整理.md",
+    "碎片整理/读书笔记/透视 HTTP 协议/02 - HTTP是什么？HTTP又不是什么？.md",
+    "碎片整理/Thino/2025-09-02.md",
     "index.md",
     "01-计算机科学体系/计算机组成原理/!MOC-计算机组成原理.md",
     "01-计算机科学体系/!MOC-计算机科学知识地图.md",
@@ -280,9 +257,6 @@
     "007-Blog/掌握 React 性能优化：运用 memoization 技术与代码分割提升效率.md",
     "007-Blog/原生HTML组件化开发深度解析：对象标签与动态加载方案实践.md",
     "007-Blog/实现一个迷你版的 React.md",
-    "007-Blog/深入剖析 React Context Provider：原理、性能优化与高级实践.md",
-    "007-Blog/00-JavaScript 变量提升时究竟干了啥？.md",
-    "007-Blog/00-为什么需要区分堆和栈？.md",
     "00-前端/!数据库.base",
     "000-JavaScript(new)/未命名.base",
     "000-JavaScript(new)/数据库.base",
