@@ -11,10 +11,14 @@
             "id": "07d647a89a876f76",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01-计算机科学体系/计算机网络/!MOC-计算机网络.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "!MOC-计算机网络"
             }
           }
         ]
@@ -231,6 +235,9 @@
   },
   "active": "07d647a89a876f76",
   "lastOpenFiles": [
+    "01-计算机科学体系/计算机网络/小记.md",
+    "01-计算机科学体系/计算机网络/!MOC-计算机网络.md",
+    "01-计算机科学体系/计算机网络/传输层/!MOC-传输层.md",
     "01-计算机科学体系/计算机组成原理/入门方向.md",
     "书签整理.md",
     "碎片整理/读书笔记/透视 HTTP 协议/02 - HTTP是什么？HTTP又不是什么？.md",
@@ -254,9 +261,6 @@
     "007-Blog/前端如何把文字渲染到屏幕上.md",
     "007-Blog/Svelte.js 入门指南.md",
     "007-Blog/README.md",
-    "007-Blog/掌握 React 性能优化：运用 memoization 技术与代码分割提升效率.md",
-    "007-Blog/原生HTML组件化开发深度解析：对象标签与动态加载方案实践.md",
-    "007-Blog/实现一个迷你版的 React.md",
     "00-前端/!数据库.base",
     "000-JavaScript(new)/未命名.base",
     "000-JavaScript(new)/数据库.base",
