@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fc1aae5e93a843e9",
+        "id": "48afc1fa5bd1897a",
         "type": "tabs",
         "children": [
           {
-            "id": "b0636f4bd3ff13a7",
+            "id": "395f8a523b26dbec",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -229,7 +229,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b0636f4bd3ff13a7",
+  "active": "395f8a523b26dbec",
   "lastOpenFiles": [
     "书签整理.md",
     "02-开发运维/一键半自动部署更新方案.md",
