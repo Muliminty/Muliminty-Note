@@ -11,10 +11,14 @@
             "id": "395f8a523b26dbec",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00-前端/框架生态/React/0-收集箱/CSS 类名动态组合写法.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "CSS 类名动态组合写法"
             }
           }
         ]
@@ -231,6 +235,7 @@
   },
   "active": "395f8a523b26dbec",
   "lastOpenFiles": [
+    "00-前端/框架生态/React/0-收集箱/CSS 类名动态组合写法.md",
     "书签整理.md",
     "02-开发运维/一键半自动部署更新方案.md",
     "02-开发运维/开发运维-MOC.md",
@@ -256,7 +261,6 @@
     "01-计算机科学体系/!MOC-计算机科学知识地图.md",
     "01-计算机科学体系/操作系统/macos/nvm.md",
     "01-计算机科学体系/操作系统/macos/zshrc.md",
-    "01-计算机科学体系/编译原理/概述.md",
     "00-前端/!数据库.base",
     "000-JavaScript(new)/未命名.base",
     "000-JavaScript(new)/数据库.base",
