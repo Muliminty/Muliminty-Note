@@ -11,10 +11,14 @@
             "id": "b683aa3498885563",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "项目灵感/云剪切板.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "云剪切板"
             }
           }
         ]
