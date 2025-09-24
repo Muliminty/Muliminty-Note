@@ -1,0 +1,4498 @@
+/* @settings
+
+name: HiNote
+id: highlight-comment-settings
+settings:
+    - 
+        id: highlight-comment-general
+        title: 高亮卡片
+        type: heading
+        level: 1
+    - 
+        id: highlight-text-settings
+        title: 文本设置
+        type: heading
+        level: 2
+    - 
+        id: highlight-text-font-size
+        title: 高亮文本字号
+        type: variable-number
+        default: 12
+        format: px
+        description: 调整高亮文本的字体大小
+    - 
+        id: highlight-text-line-height
+        title: 高亮文本行高
+        type: variable-number-slider
+        default: 1.5
+        min: 1
+        max: 2
+        step: 0.1
+    - 
+        id: highlight-note-settings
+        title: 评论设置
+        type: heading
+        level: 2
+    - 
+        id: hi-note-font-size
+        title: 评论文本字号
+        type: variable-number
+        default: 13
+        format: px
+        description: 调整评论文本的字体大小
+    - 
+        id: hi-note-line-height
+        title: 评论文本行高
+        type: variable-number-slider
+        default: 1.5
+        min: 1
+        max: 2
+        step: 0.1
+        description: 调整评论文本的行间距
+*/
+
+/* 只针对评论插件内容移除内边距 */
+.workspace-leaf-content[data-type="comment-view"] .view-content {
+    padding: 0 !important;
+}
+
+/* Markdown 渲染样式修复 - 移除段落上下边距 */
+.highlight-text-content.markdown-rendered p,
+.hi-note-content.markdown-rendered p,
+.flashcard-content.markdown-rendered p,
+.flashcard-paragraph.markdown-rendered p,
+.hi-note-tooltip-content.markdown-rendered p,
+.highlight-chat-message-content.markdown-rendered p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Markdown 渲染样式修复 - 移除 callout 上下边距 */
+.highlight-text-content.markdown-rendered .callout,
+.hi-note-content.markdown-rendered .callout,
+.flashcard-content.markdown-rendered .callout,
+.flashcard-paragraph.markdown-rendered .callout,
+.hi-note-tooltip-content.markdown-rendered .callout,
+.highlight-chat-message-content.markdown-rendered .callout {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Markdown 渲染样式修复 - 设置分割线的上下边距 */
+.highlight-text-content.markdown-rendered hr,
+.hi-note-content.markdown-rendered hr,
+.flashcard-content.markdown-rendered hr,
+.flashcard-paragraph.markdown-rendered hr,
+.hi-note-tooltip-content.markdown-rendered hr,
+.highlight-chat-message-content.markdown-rendered hr {
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
+}
+
+/* Markdown 渲染样式修复 - 移除引用块的边距 */
+.highlight-text-content.markdown-rendered blockquote,
+.hi-note-content.markdown-rendered blockquote,
+.flashcard-content.markdown-rendered blockquote,
+.flashcard-paragraph.markdown-rendered blockquote,
+.hi-note-tooltip-content.markdown-rendered blockquote,
+.highlight-chat-message-content.markdown-rendered blockquote {
+    margin: 0 !important;
+}
+
+/* Markdown 渲染样式修复 - 移除代码块的边距 */
+.highlight-text-content.markdown-rendered pre,
+.hi-note-content.markdown-rendered pre,
+.flashcard-content.markdown-rendered pre,
+.flashcard-paragraph.markdown-rendered pre,
+.hi-note-tooltip-content.markdown-rendered pre,
+.highlight-chat-message-content.markdown-rendered pre {
+    margin: 0 !important;
+}
+
+/* Markdown 渲染样式修复 - 移除表格相关元素的边距 */
+.highlight-text-content.markdown-rendered div.table-wrapper,
+.hi-note-content.markdown-rendered div.table-wrapper,
+.flashcard-content.markdown-rendered div.table-wrapper,
+.flashcard-paragraph.markdown-rendered div.table-wrapper,
+.hi-note-tooltip-content.markdown-rendered div.table-wrapper,
+.highlight-chat-message-content.markdown-rendered div.table-wrapper,
+.highlight-text-content.markdown-rendered table,
+.hi-note-content.markdown-rendered table,
+.flashcard-content.markdown-rendered table,
+.flashcard-paragraph.markdown-rendered table,
+.hi-note-tooltip-content.markdown-rendered table,
+.highlight-chat-message-content.markdown-rendered table {
+    margin: 0 !important;
+}
+
+/* Markdown 渲染样式修复 - 移除标题上下边距 */
+.highlight-text-content.markdown-rendered h1,
+.highlight-text-content.markdown-rendered h2,
+.highlight-text-content.markdown-rendered h3,
+.highlight-text-content.markdown-rendered h4,
+.highlight-text-content.markdown-rendered h5,
+.highlight-text-content.markdown-rendered h6,
+.hi-note-content.markdown-rendered h1,
+.hi-note-content.markdown-rendered h2,
+.hi-note-content.markdown-rendered h3,
+.hi-note-content.markdown-rendered h4,
+.hi-note-content.markdown-rendered h5,
+.hi-note-content.markdown-rendered h6,
+.flashcard-content.markdown-rendered h1,
+.flashcard-content.markdown-rendered h2,
+.flashcard-content.markdown-rendered h3,
+.flashcard-content.markdown-rendered h4,
+.flashcard-content.markdown-rendered h5,
+.flashcard-content.markdown-rendered h6,
+.flashcard-paragraph.markdown-rendered h1,
+.flashcard-paragraph.markdown-rendered h2,
+.flashcard-paragraph.markdown-rendered h3,
+.flashcard-paragraph.markdown-rendered h4,
+.flashcard-paragraph.markdown-rendered h5,
+.flashcard-paragraph.markdown-rendered h6,
+.hi-note-tooltip-content.markdown-rendered h1,
+.hi-note-tooltip-content.markdown-rendered h2,
+.hi-note-tooltip-content.markdown-rendered h3,
+.hi-note-tooltip-content.markdown-rendered h4,
+.hi-note-tooltip-content.markdown-rendered h5,
+.hi-note-tooltip-content.markdown-rendered h6,
+.highlight-chat-message-content.markdown-rendered h1,
+.highlight-chat-message-content.markdown-rendered h2,
+.highlight-chat-message-content.markdown-rendered h3,
+.highlight-chat-message-content.markdown-rendered h4,
+.highlight-chat-message-content.markdown-rendered h5,
+.highlight-chat-message-content.markdown-rendered h6 {
+    margin-top: 0.2em !important;
+    margin-bottom: 0.2em !important;
+    line-height: 1.3 !important;
+}
+
+/* 修复有序和无序列表的边距问题 */
+.highlight-text-content.markdown-rendered ul,
+.highlight-text-content.markdown-rendered ol,
+.hi-note-content.markdown-rendered ul,
+.hi-note-content.markdown-rendered ol,
+.flashcard-content.markdown-rendered ul,
+.flashcard-content.markdown-rendered ol,
+.flashcard-paragraph.markdown-rendered ul,
+.flashcard-paragraph.markdown-rendered ol,
+.highlight-chat-message-content.markdown-rendered ul,
+.highlight-chat-message-content.markdown-rendered ol {
+    margin-top: -1.4em !important; /* 使用负值减小上边距 */
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 1.5em !important; /* 保留左侧缩进以显示列表标记 */
+}
+
+/* 减小列表项之间的间距 */
+.highlight-text-content.markdown-rendered li,
+.hi-note-content.markdown-rendered li,
+.flashcard-content.markdown-rendered li,
+.flashcard-paragraph.markdown-rendered li,
+.highlight-chat-message-content.markdown-rendered li {
+    margin: 0 !important;
+    margin-bottom: -1em !important; /* 使用负值边距使列表项更紧凑 */
+    padding: 0 !important;
+    line-height: 1.5 !important; /* 减小行高 */
+    min-height: 0 !important;
+}
+
+/* 处理列表项内的段落 */
+.highlight-text-content.markdown-rendered li > p,
+.hi-note-content.markdown-rendered li > p,
+.flashcard-content.markdown-rendered li > p,
+.flashcard-paragraph.markdown-rendered li > p,
+.hi-note-tooltip-content.markdown-rendered li > p,
+.highlight-chat-message-content.markdown-rendered li > p {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline; /* 使段落内容与列表标记在同一行 */
+}
+
+.highlight-empty-state,
+.no-highlights-message,
+.highlight-loading-indicator {
+    color: var(--text-muted);
+    text-align: center;
+    padding: 32px 16px;
+    font-size: 13px;
+}
+
+/* 搜索区域样式 */
+.highlight-search-container {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    border-bottom: 1px solid var(--background-modifier-border);
+    background-color: var(--background-primary);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+/* 搜索框样式 */
+.highlight-search-input {
+    flex: 1 0 auto;
+    width: 0;
+    min-width: 0;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--background-modifier-border);
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    font-size: 13px;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.highlight-search-container.focused .highlight-search-input {
+    width: 100%;
+}
+
+.highlight-search-input:focus {
+    outline: none;
+    border-color: var(--interactive-accent);
+    box-shadow: 0 0 0 2px var(--background-modifier-border-hover);
+}
+
+/* 搜索加载指示器 */
+.highlight-search-loading {
+    position: absolute;
+    right: 50px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.loading-spinner {
+    animation: spin 1.5s linear infinite;
+    width: 20px;
+    height: 20px;
+    color: var(--text-muted);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+/* 搜索框图标容器 */
+.highlight-search-icons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    will-change: transform, opacity; /* 提示浏览器优化动画性能 */
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
+                opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-origin: right center;
+}
+
+/* 搜索前缀提示容器 */
+.search-prefix-hints {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    margin-top: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    padding: 8px;
+    display: none;
+}
+
+/* 搜索提示容器定位样式 */
+.search-hints-container {
+    position: fixed;
+    z-index: 9999; /* 确保在最顶层 */
+}
+
+/* 搜索前缀提示显示 */
+.search-prefix-hints.show {
+    display: block;
+    animation: fadeIn 0.2s ease;
+}
+
+/* 搜索前缀提示项 */
+.search-prefix-hint-item {
+    padding: 6px 8px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s ease;
+}
+
+.search-prefix-hint-item:last-child {
+    margin-bottom: 0;
+}
+
+.search-prefix-hint-item:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+/* 前缀标签 */
+.search-prefix-tag {
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+/* 前缀描述 */
+.search-prefix-description {
+    font-size: 12px;
+    color: var(--text-normal);
+}
+
+/* 搜索框获得焦点时的图标状态 */
+.highlight-search-container.focused .highlight-search-icons {
+    opacity: 0;
+    transform: scaleX(0);
+    margin-left: 0;
+    pointer-events: none; /* 确保在动画过程中无法点击 */
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
+                opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.highlight-icon-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 4px;
+    border: none;
+    background: none;
+    color: var(--icon-color);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.highlight-icon-button:hover {
+    color: var(--text-accent);
+    background-color: var(--background-modifier-hover);
+}
+
+.highlight-icon-button:hover svg {
+    stroke: var(--text-accent);
+    transform: scale(1.1);
+}
+
+.highlight-list {
+    column-count: auto;
+    column-width: 250px;
+    column-gap: 12px;
+}
+
+.highlight-card {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    background-color: var(--highlight-card-bg-color, var(--background-primary));
+    transition: all 0.2s ease;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 12px;
+    display: inline-block;
+    width: 100%;
+    animation: fadeIn 0.3s ease;
+}
+
+.highlight-card-filename svg {
+    opacity: 0.7;
+    transition: all 200ms ease-in-out;
+}
+
+.highlight-card-filename:hover svg {
+    opacity: 1;
+    transform: scale(1.1);
+    color: var(--text-accent);
+}
+
+.highlight-card.selected {
+    border-color: var(--interactive-accent);
+    border-width: 2px;
+}
+
+.highlight-content {
+    padding: 6px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+}
+
+.highlight-text-container {
+    display: flex;
+    gap: 12px;
+    align-items: stretch;
+    position: relative;
+    min-height: 0;
+}
+
+.highlight-text {
+    position: relative;
+    color: var(--text-muted);
+    line-height: var(--highlight-text-line-height, 1.5);
+    font-size: var(--highlight-text-font-size, 12px);
+    flex-grow: 1;
+    padding: 2px 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.highlight-text-decorator {
+    width: 3px;
+    background-color: var(--text-highlight-bg);
+    border-radius: 1.5px;
+    flex-shrink: 0;
+}
+
+/* 已删除 highlight-action-buttons 相关样式 */
+
+/* 已删除 highlight-action-btn 相关样式 */
+
+.hi-note {
+    padding: 8px;
+    background-color: var(--background-secondary);
+    border-radius: 4px;
+    margin-bottom: 4px;
+    position: relative;
+}
+
+.hi-note-content {
+    color: var(--text-normal);
+    font-size: var(--hi-note-font-size, 13px);
+    line-height: var(--hi-note-line-height, 1.5);
+    margin-bottom: 0;
+    cursor: text;
+    transition: background-color 0.2s ease;
+    padding: 2px;
+    white-space: pre-wrap;       /* 保留空格和换行符 */
+    word-wrap: break-word;       /* 允许在单词内换行 */
+    word-break: break-word;      /* 在需要时在单词内换行 */
+}
+
+.hi-note-content:hover {
+    background-color: var(--hi-note-hover-bg-color, var(--background-modifier-hover));
+}
+
+.hi-note-edit-hint {
+    display: none;
+    font-size: 11px;
+    color: var(--text-faint);
+    margin-left: 4px;
+    opacity: 0.7;
+}
+
+/* 当鼠标悬停在内容区域时显示编辑提示 */
+.hi-note-content:hover + .hi-note-footer .hi-note-edit-hint {
+    display: inline-block;
+}
+
+.hi-note-content:hover::after {
+    display: inline;
+}
+
+.hi-note-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.hi-note-time {
+    font-size: 11px;
+    color: var(--text-faint);
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+.hi-note-actions {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.hi-note:hover .hi-note-actions {
+    opacity: 1;
+}
+
+.hi-note-actions button:not(.clickable-icon) {
+    background: none;
+    border: none;
+    padding: 4px;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: none;
+}
+
+.hi-note-actions button:not(.clickable-icon):hover {
+    color: var(--text-error);
+    background: none;
+    box-shadow: none;
+}
+
+/* 标签相关样式 */
+.highlight-tags-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+.highlight-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background-color: var(--background-secondary);
+    color: var(--text-accent);
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+/* 纯标签评论的特殊样式 */
+.pure-tags-comment {
+    background-color: var(--background-primary);
+    border-radius: 4px;
+    padding: 8px;
+    position: relative;
+    border: 2px solid color-mix(in srgb, var(--text-accent) 10%, transparent);
+}
+
+.pure-tags-comment .hi-note-footer {
+    display: none; /* 隐藏时间显示 */
+}
+
+.pure-tags-comment .hi-note-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 0;
+}
+
+/* 纯标签评论不显示双击提示 */
+.pure-tags-comment .hi-note-content:hover::after {
+    display: none;
+}
+
+.hi-note-input {
+    padding: 8px;
+    background-color: var(--background-secondary);
+    border-radius: 6px;
+    margin: 0 0 4px 0;
+    width: 100%;
+}
+
+.hi-note-input textarea {
+    width: 100%;
+    min-height: 80px;
+    padding: 8px 12px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    font-size: 13px;
+    line-height: 1.5;
+    resize: vertical;
+    margin: 0;
+    transition: border-color 0.2s ease;
+}
+
+.hi-note-input textarea:focus {
+    outline: none;
+    border-color: var(--interactive-accent);
+}
+
+.hi-note-input textarea::placeholder {
+    color: var(--text-faint);
+}
+
+/* 移动端保存按钮样式 */
+.hi-note-save-button {
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    border-radius: 4px;
+    padding: 2px 12px;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 4px;
+    transition: background-color 0.2s ease;
+    width: 100%;
+    height: 28px;
+}
+
+.hi-note-save-button:hover {
+    background-color: var(--interactive-accent-hover);
+}
+
+.hi-note-save-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* 导出为图片按钮 */
+.highlight-btn {
+    /* 布局相关 */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 64px;
+}
+
+.highlight-btn:hover {
+    background-color: var(--background-modifier-hover);
+    color: var(--text-accent);
+}
+
+.hi-notes-section {
+    background-color: var(--background-primary);
+    padding: 0px 12px 8px 12px;
+    border-bottom-right-radius: 8px; /* 右下角圆角 */
+    border-bottom-left-radius: 8px; /* 左下角圆角 */
+}
+
+.hi-notes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+/* 已合并到上面的样式定义中 */
+
+/* 已合并到下面的样式定义中（L3542-3547） */
+
+.hi-note-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    padding: 0px 2px;
+    border: none;
+    border-radius: 3px;
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.2s ease;
+    height: 20px;
+    z-index: 1;
+    line-height: 1;
+}
+
+.hi-note-button-hidden {
+    opacity: 0;
+    visibility: hidden; /* 隐藏按钮但保留空间位置 */
+    width: 0; /* 减少占用的空间 */
+    margin: 0; /* 移除外边距 */
+    padding: 0; /* 移除内边距 */
+    overflow: hidden; /* 隐藏溢出内容 */
+}
+
+/* 鼠标悬停时显示按钮 */
+.cm-line:hover .hi-note-button-hidden,
+.cm-highlight:hover + .hi-note-widget .hi-note-button-hidden,
+.hi-note-widget:hover .hi-note-button-hidden {
+    opacity: 1;
+    visibility: visible;
+    width: auto;
+    margin: 0;
+    padding: 0px 2px; /* 恢复原来的内边距 */
+    overflow: visible;
+}
+
+/* 新样式：没有评论的按钮半透明显示 */
+/* .hi-note-button-no-comments {
+    opacity: 0.5; /* 半透明而不是完全隐藏 */
+
+/* 鼠标悬停时显示没有评论的按钮 */
+/* .cm-line:hover .hi-note-button-no-comments,
+.cm-highlight:hover + .hi-note-widget .hi-note-button-no-comments,
+.hi-note-widget:hover .hi-note-button-no-comments {
+    opacity: 1;
+} */
+
+.hi-note-icon-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 1px;
+    color: var(--text-muted);
+    transform: scale(0.9);
+    line-height: 1;
+}
+
+.hi-note-count {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-muted);
+    margin-left: 1px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.hi-note-tooltip {
+    position: fixed;
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    padding: 10px 12px;
+    min-width: 240px;
+    max-width: 360px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 99999;
+    pointer-events: auto;
+}
+
+.hi-note-tooltip-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.hi-note-tooltip-item {
+    padding: 1px 0;
+}
+
+.hi-note-tooltip-content {
+    font-size: 12px;
+    line-height: 1.4;
+    color: var(--text-normal);
+    word-break: break-word;
+    padding: 2px 0;
+}
+
+/* 只处理 tooltip 中列表的上下边距 */
+.hi-note-tooltip-content.markdown-rendered ul,
+.hi-note-tooltip-content.markdown-rendered ol {
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+}
+
+
+.hi-note-tooltip-time {
+    font-size: 10px;
+    color: var(--text-faint);
+    margin-top: 0px;
+}
+
+.hi-note-tooltip-more {
+    font-size: 11px;
+    color: var(--text-muted);
+    text-align: center;
+    padding-top: 4px;
+    border-top: 1px solid var(--background-modifier-border);
+    margin-top: 4px;
+}
+
+.hi-note-tooltip.hi-note-tooltip-hidden {
+    display: none !important;
+}
+
+/* Flashcard styles */
+
+/* 闪卡统计面板样式 */
+.flashcard-stats-panel {
+    border-radius: 8px;
+    background-color: var(--background-secondary);
+    padding: 15px;
+}
+
+.flashcard-stats-area {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8px;
+    gap: 10px;
+}
+
+.flashcard-stat-item {
+    text-align: center;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 60px;
+}
+
+.flashcard-stat-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-accent);
+}
+
+.flashcard-stat-label {
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+.flashcard-heatmap-area {
+    position: relative;
+    overflow: hidden;
+}
+
+.flashcard-heatmap-container {
+    transform-origin: left top;
+}
+
+.flashcard-heatmap-grid {
+    display: grid;
+    grid-gap: 2px;
+}
+
+.flashcard-heatmap-cell {
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+    background-color: var(--background-primary);
+    transition: all 0.2s ease;
+}
+
+.flashcard-heatmap-cell:hover {
+    transform: scale(1.2);
+}
+
+/* 闪卡挖空样式 */
+.flashcard-cloze {
+    border-bottom: 2px solid currentColor;
+    color: var(--text-accent);
+    padding: 0 2px;
+    letter-spacing: 3px;
+    margin: 0 2px;
+}
+
+/* 热力图颜色级别 - 使用固定颜色而不是变量 */
+.flashcard-heatmap-level-0 {
+    background-color: var(--background-primary, #f0f0f0);
+    border: 1px solid var(--background-modifier-border, #ddd);
+}
+
+.flashcard-heatmap-level-1 {
+    background-color: rgba(76, 175, 80, 0.2);
+    border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.flashcard-heatmap-level-2 {
+    background-color: rgba(76, 175, 80, 0.4);
+    border: 1px solid rgba(76, 175, 80, 0.5);
+}
+
+.flashcard-heatmap-level-3 {
+    background-color: rgba(76, 175, 80, 0.6);
+    border: 1px solid rgba(76, 175, 80, 0.7);
+}
+
+.flashcard-heatmap-level-4 {
+    background-color: rgba(76, 175, 80, 0.8);
+    border: 1px solid rgba(76, 175, 80, 0.9);
+}
+
+.flashcard-heatmap-level-5 {
+    background-color: rgba(76, 175, 80, 1);
+    border: 1px solid rgba(76, 175, 80, 1);
+}
+
+/* 当天的单元格样式 - 使用特殊的边框和背景样式 */
+.flashcard-heatmap-today {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(33, 150, 243, 0.8); /* 使用蓝色边框 */
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
+    transform: scale(1.1); /* 缩放效果，使其更突出 */
+    z-index: 1; /* 确保它显示在其他单元格上面 */
+}
+
+/* 已删除热力图缩放相关样式 */
+
+/* 统计信息容器水平布局 */
+.flashcard-stats-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+/* 自定义分组标题区域 */
+.flashcard-groups-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* 从flashcard-groups-actions合并过来 */
+}
+
+.flashcard-groups-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-normal);
+}
+
+/* flashcard-groups-actions类已移除，相关样式已合并到flashcard-groups-header中 */
+
+/* 分组操作按钮 - 已合并 */
+.flashcard-group-action {
+    cursor: pointer;
+    padding: 4px; /* 使用第一个样式的padding */
+    border-radius: 4px;
+    color: var(--text-muted);
+    transition: all 0.2s ease;
+}
+
+.flashcard-group-action:hover {
+    color: var(--text-normal);
+    background-color: var(--background-modifier-hover);
+}
+
+/* 添加分组按钮样式 */
+.flashcard-add-group {
+    width: 100%;
+    padding: 6px 8px;
+    background-color: var(--background-secondary);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.flashcard-add-group:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+/* flashcard-add-group-content类已移除，相关样式已合并到flashcard-add-group中 */
+
+.flashcard-add-group svg {
+    width: 16px;
+    height: 16px;
+    color: var(--text-muted);
+}
+
+
+.flashcard-stat-label .flashcard-stat-value{
+    font-size: 12px;
+    color: var(--text-faint);
+}
+
+.flashcard-progress-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: var(--progress-width, 0%);
+    background: linear-gradient(to right, var(--interactive-accent-hover), var(--interactive-accent));
+    opacity: 0.15;
+    transition: width 0.3s ease;
+    z-index: 0;
+    border-radius: 8px 0 0 8px;
+}
+
+.flashcard-index-container {
+    font-size: 13px;
+}
+
+/* 当进度为 100% 时显示完整圆角 */
+.flashcard-progress-container::before[style*="width: 100%"] {
+    border-radius: 8px;
+}
+
+.flashcard-progress-container > * {
+    position: relative;
+    z-index: 1;
+}
+
+.flashcard-progress-text {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+.flashcard-progress-text .separator {
+    color: var(--text-faint);
+}
+
+.flashcard-progress-text .stat {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.flashcard-progress-text .stat-value {
+    color: var(--text-normal);
+}
+
+.flashcard-progress-text .group-name {
+    font-weight: 500;
+    color: var(--text-normal);
+}
+
+/* Rating buttons - 基本外观和尺寸 */
+.flashcard-rating-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 600;
+}
+
+.flashcard-rating-button[data-rating='again'] {
+    background-color: #6A8390;
+}
+
+.flashcard-rating-button[data-rating='hard'] {
+    background-color: #FF977B;
+}
+
+.flashcard-rating-button[data-rating='good'] {
+    background-color: #77D1C1;
+}
+
+.flashcard-rating-button[data-rating='easy'] {
+    background-color: #6BC8FC;
+}
+
+.flashcard-rating-button:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.flashcard-rating-button .days {
+    font-size: 0.8em;
+    margin-top: 4px;
+    opacity: 0.9;
+}
+
+.flashcard-mode {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.flashcard-main-container {
+    display: flex;
+    flex: 1;
+    gap: 12px;
+}
+
+.flashcard-sidebar {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* 这里的样式已合并到上面的 .flashcard-add-group 定义中 */
+
+/* 正则规则添加按钮样式 */
+.regex-rule-add {
+    padding: 6px;
+    margin: 8px 0px;
+    border-radius: 4px;
+    color: var(--text-normal);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-modifier-border);
+}
+
+.regex-rule-add:hover {
+    color: var(--text-accent);
+    background-color: var(--background-secondary);
+}
+
+.regex-rule-add-text {
+    font-size: 14px;
+    color: var(--text-muted);
+}
+
+.regex-rule-add-text:hover {
+    color: var(--text-accent);
+}
+
+.flashcard-default-groups,
+.flashcard-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.flashcard-group-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* 自定义分组卡片样式 */
+.flashcard-groups .flashcard-group-item {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    margin: 4px 0;
+    background: var(--background-primary);
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    align-items: stretch;
+    border: 1px solid var(--background-modifier-border);
+}
+
+.flashcard-groups .flashcard-group-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.flashcard-groups .flashcard-group-item.active {
+    border: 1px solid var(--interactive-accent);
+}
+
+/* 分组标题和操作按钮行 */
+.flashcard-groups .flashcard-group-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.flashcard-groups .flashcard-group-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.flashcard-groups .flashcard-group-icon svg {
+    width: 16px;
+    height: 16px;
+}
+
+.flashcard-groups .flashcard-group-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.flashcard-groups .flashcard-group-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: all 0.2s ease;
+}
+
+.flashcard-groups .flashcard-group-action:hover {
+    color: var(--text-accent);
+    background: var(--background-modifier-hover);
+}
+
+/* 统计数据行 */
+.flashcard-groups .flashcard-group-stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    background: var(--background-secondary);
+    border-radius: 4px;
+    margin-top: auto;
+}
+
+.flashcard-groups .flashcard-group-stat {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--text-muted);
+}
+
+.flashcard-groups .flashcard-stat-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flashcard-groups .flashcard-stat-icon svg {
+    width: 16px;
+    height: 16px;
+}
+
+.flashcard-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.flashcard-group-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flashcard-group-item-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.flashcard-group-icon {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+}
+
+.flashcard-group-item.active .flashcard-group-icon {
+    color: var(--text-accent);
+}
+
+.flashcard-group-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    min-width: 0; /* 允许子元素缩小到比其内容更小 */
+    overflow: hidden;
+}
+
+.flashcard-group-name {
+    font-size: 0.9em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+    min-width: 0; /* 允许文本缩小到比其内容更小 */
+}
+
+.flashcard-group-actions {
+    display: flex;
+    gap: 4px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    flex-shrink: 0; /* 防止操作按钮被挤压 */
+    margin-left: 8px; /* 与分组名称保持一定距离 */
+}
+
+.flashcard-group-item:hover .flashcard-group-actions {
+    opacity: 1;
+}
+
+/* 已合并到上面的样式定义中 */
+
+.flashcard-group-item:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.flashcard-group-item.active {
+    background-color: var(--background-modifier-hover);
+    font-weight: 600;
+    color: var(--text-accent);
+}
+
+.flashcard-group-count {
+    font-size: 11px;
+    color: var(--text-faint);
+    background: var(--background-secondary);
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.flashcard-content-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.flashcard-progress-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+    background: var(--background-secondary);
+    border-radius: 4px;
+}
+
+.flashcard-stats {
+    font-size: 0.9em;
+    color: var(--text-muted);
+}
+
+.flashcard-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background: var(--background-secondary);
+    border-radius: 8px;
+}
+
+.flashcard {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    perspective: 2000px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 0.1s;
+}
+
+/* 移动端闪卡高度自适应 */
+@media (max-width: 768px) {
+    .flashcard {
+        height: 100%;
+        min-height: 350px;
+        flex: 1;
+    }
+    
+    .flashcard-container {
+        height: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.flashcard-side {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 12px;
+    border: 1px solid var(--background-modifier-border);
+    background: var(--background-primary);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+}
+
+.flashcard-content {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: left;
+    max-width: 90%;
+    overflow-y: auto;
+    max-height: 100%;
+    padding: 16px 0px;
+    white-space: pre-wrap;
+}
+
+.flashcard-back .flashcard-content hr {
+    margin: 16px 0;
+    border: none;
+    height: 1px;
+    background: var(--text-muted);
+    background-color: var(--background-modifier-border);
+}
+
+/* 卡片正面初始状态 */
+.flashcard-side.flashcard-front {
+    transform: rotateY(0deg);
+    z-index: 2;
+}
+
+/* 卡片背面初始状态，旋转180度隐藏 */
+.flashcard-side.flashcard-back {
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+
+/* 卡片翻转后，正面旋转180度隐藏 */
+.flashcard.is-flipped .flashcard-side.flashcard-front {
+    transform: rotateY(-180deg);
+    z-index: 1;
+}
+
+/* 卡片翻转后，背面旋转回0度显示 */
+.flashcard.is-flipped .flashcard-side.flashcard-back {
+    transform: rotateY(0deg);
+    z-index: 2;
+}
+
+.flashcard-rating {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    flex-wrap: wrap; /* 允许按钮在小屏幕上换行 */
+    gap: 10px; /* 按钮之间的间距 */
+}
+
+/* 当卡片翻转时显示评分按钮 */
+.flashcard.is-flipped ~ .flashcard-rating {
+    opacity: 1;
+}
+
+/* Rating buttons - 初始隐藏状态和动画效果 */
+.flashcard-rating-button {
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+/* 当卡片翻转时，评分按钮显示动画 */
+.flashcard.is-flipped ~ .flashcard-rating .flashcard-rating-button {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 为评分按钮添加依次出现的延迟 */
+.flashcard.is-flipped ~ .flashcard-rating .flashcard-rating-button:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.flashcard.is-flipped ~ .flashcard-rating .flashcard-rating-button:nth-child(2) {
+    transition-delay: 0.15s;
+}
+
+.flashcard.is-flipped ~ .flashcard-rating .flashcard-rating-button:nth-child(3) {
+    transition-delay: 0.2s;
+}
+
+.flashcard.is-flipped ~ .flashcard-rating .flashcard-rating-button:nth-child(4) {
+    transition-delay: 0.25s;
+}
+
+.flashcard.is-flipped + .flashcard-rating {
+    margin-top: 30px;
+    max-height: 100px;
+    opacity: 1;
+}
+
+.flashcard.is-flipped + .flashcard-rating .flashcard-rating-button {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.flashcard.is-flipped + .flashcard-rating .flashcard-rating-button:nth-child(1) { transition-delay: 0.1s; }
+.flashcard.is-flipped + .flashcard-rating .flashcard-rating-button:nth-child(2) { transition-delay: 0.2s; }
+.flashcard.is-flipped + .flashcard-rating .flashcard-rating-button:nth-child(3) { transition-delay: 0.3s; }
+.flashcard.is-flipped + .flashcard-rating .flashcard-rating-button:nth-child(4) { transition-delay: 0.4s; }
+
+.flashcard-counter {
+    font-size: 0.9em;
+    color: var(--text-muted);
+    margin-top: 10px;
+}
+
+.flashcard-source {
+    font-size: 0.8em;
+    color: var(--text-faint);
+    margin-top: 5px;
+}
+
+.flashcard-empty {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 1.2em;
+    padding: 40px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .flashcard {
+        height: 250px;
+    }
+
+    .flashcard-content {
+        font-size: 1em;
+    }
+
+    .flashcard-rating {
+        flex-wrap: wrap;
+    }
+}
+
+/* 深色模式优化 */
+.theme-dark .workspace-leaf-content[data-type="comment-view"] .highlight-container.flashcard-mode .flashcard-front,
+.theme-dark .workspace-leaf-content[data-type="comment-view"] .highlight-container.flashcard-mode .flashcard-back {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2),
+        0 2px 4px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* 模板选择器样式 */
+/* 移除了中间容器，样式直接应用到选择器上 */
+.highlight-template-select {
+    width: 100%;
+    padding: 8px 32px 8px 8px;  /* 右侧留出箭头的空间 */
+    border-radius: 4px;
+    background-color: var(--background-modifier-form-field);
+    border: 1px solid var(--background-modifier-border);
+    height: 36px;  /* 设置固定高度 */
+    line-height: 1.4;  /* 添加行高 */
+    font-size: 14px;
+    margin-bottom: 16px;
+    position: relative;  /* 添加相对定位 */
+    z-index: 1;         /* 确保选择器在按钮上方 */
+    color: var(--text-normal);
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 16px;
+}
+
+.highlight-template-select:hover {
+    border-color: var(--interactive-accent);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.highlight-template-select:focus {
+    outline: none;
+    border-color: var(--interactive-accent);
+    box-shadow: 0 0 0 2px var(--interactive-accent-hover);
+}
+
+/* 导出预览弹窗样式 */
+.highlight-export-modal {
+    max-width: 800px;
+    min-height: 400px;  /* 设置最小高度 */
+    max-height: 90vh;   /* 设置最大高度 */
+    height: auto;       /* 自适应内容高度 */
+    display: flex;
+    flex-direction: column;
+}
+
+.highlight-export-main-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: visible;  /* 改为 visible，允许内容超出而不被裁切 */
+    padding: 12px 0px;  /* 保持内边距 */
+}
+
+.highlight-export-preview-container {
+    padding: 20px;
+    margin: 16px 0;
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.highlight-export-modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    padding: 16px;
+    margin: 0 -16px -16px -16px;  /* 抵消 Modal 的 padding */
+    border-top: 1px solid var(--background-modifier-border);
+    background-color: var(--background-primary);  /* 添加背景色 */
+}
+
+/* 导出容器样式 */
+.highlight-export-container {
+    padding: 20px;
+    margin: 0;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    width: 480px;
+}
+
+/* 预览容器样式 */
+.highlight-export-preview {
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 4px;
+}
+
+/* 悬停效果 */
+.highlight-export-card-modern:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+/* 深色模式适配 */
+.theme-dark .highlight-export-card-modern {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.theme-dark .highlight-export-card-modern:hover {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+}
+
+/* 亮色模式适配 */
+.theme-light .highlight-export-card-modern {
+    background: linear-gradient(to bottom right,
+        var(--background-primary) 0%,
+        var(--background-primary-alt) 100%);
+}
+
+/* 设置页面样式 */
+.prompt-settings-container {
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+}
+
+.prompt-settings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.prompt-settings-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.new-prompt-section {
+    background-color: var(--background-primary);
+    border-radius: 6px;
+    padding: 16px;
+    margin: 12px 0px;
+}
+
+.prompt-list {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column; /* 元素垂直排列 */
+    gap: 8px; /* 设置元素之间的间距 */
+}
+
+.prompt-item {
+    background-color: var(--background-primary);
+    border-radius: 6px;
+    padding: 12px;
+    position: relative;
+}
+
+.prompt-name-input {
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--background-modifier-border);
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    font-size: 13px;
+    line-height: 1.4;
+    resize: vertical;
+}
+
+.prompt-content-input {
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid var(--background-modifier-border);
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    font-size: 13px;
+    line-height: 1.5;
+    resize: vertical;
+}
+
+.prompt-add-btn {
+    padding: 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.prompt-display-mode {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4px;
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
+
+.prompt-info {
+    flex: 1;
+    margin-right: 16px;
+}
+
+.prompt-name {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.prompt-content-preview {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    line-height: 1.4;
+    max-height: 2.8em;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-clamp: 2;
+    text-overflow: ellipsis;
+}
+
+.prompt-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.prompt-edit-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8px;
+}
+
+/* 当在视图中时，移鼠标悬停效果和相关提示 */
+.highlight-card.in-main-view {
+    cursor: default;
+}
+
+.highlight-card:hover {
+    background-color: var(--background-primary);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.highlight-card.in-main-view .highlight-text-content {
+    cursor: default;
+}
+
+/* 隐藏主视图中的点击提示 */
+.highlight-card.in-main-view .highlight-text-content::after {
+    display: none;
+}
+
+/* 文件名显示样式已移至 highlight-card-title-bar */
+
+/* 调整提示文本样式 */
+.hi-note-hint {
+    font-size: 11px;
+    color: var(--text-faint);
+    margin-right: auto;
+}
+
+/* 主容布局 */
+.highlight-main-container {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* 文件表容器样式优化 */
+.highlight-file-list-container {
+    width: 240px;
+    border-right: 1px solid var(--background-modifier-border);
+    display: none;
+    overflow: hidden;
+    background-color: var(--background-primary);
+    padding: 0;
+}
+
+.highlight-file-list {
+    padding: 8px;
+    overflow-y: auto;
+    height: calc(100% - 50px); /* 减去标题高度 */
+}
+
+/* 主内容区域样式 */
+.highlight-content-container {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 文件表标题样式优化 - 调整高度与索容器一致 */
+.highlight-file-list-header {
+    padding: 13.25px 16px;  /* 与搜索容器保持一致 */
+    background-color: var(--background-primary);
+    border-bottom: 1px solid var(--background-modifier-border);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;  /* 垂直居中 */
+}
+
+.highlight-file-list-title {
+    margin: 4px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* 件列表样式优化 */
+.highlight-file-list {
+    padding: 8px;
+}
+
+/* 文件项样式优化 */
+.highlight-file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 8px;
+    margin: 2px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    min-height: 32px;
+    width: 100%;
+}
+
+.highlight-file-item:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.highlight-file-item.is-active {
+    background-color: var(--nav-item-background-active);
+}
+
+/* "全部"选项特殊样式优化 */
+.highlight-file-item-all {
+    font-weight: 500;
+    color: var(--text-normal);
+    background-color: var(--background-primary);
+    margin: 4px 0 8px;
+}
+
+.highlight-file-item-all:hover {
+    background-color: var(--background-modifier-hover);
+    transform: translateY(-1px);
+}
+
+.highlight-file-item-all.is-active {
+    background-color: var(--nav-item-background-active);
+    color: var(--text-accent);
+    transform: none;
+}
+
+/* 文件列表分隔线优化 */
+.highlight-file-list-separator {
+    height: 1px;
+    background-color: var(--background-modifier-border);
+    margin: 8px 0;
+    opacity: 0.6;
+}
+
+/* 高亮数量标签样式优化 */
+.highlight-file-item-count {
+    flex-shrink: 0;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--text-faint);
+    background-color: var(--background-secondary);
+    padding: 2px 8px;
+    border-radius: 10px;
+    min-width: 24px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+/* 文件项左侧容器样式优化 */
+.highlight-file-item-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    min-width: 0;
+    margin-right: 8px;
+}
+
+/* 文件名样式优化 */
+.highlight-file-item-name {
+    font-size: 13px;
+    line-height: 1.4;
+    color: var(--text-muted);
+    transition: color 0.2s ease;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+    min-width: 0;
+}
+
+.highlight-file-item:hover .highlight-file-item-name {
+    color: var(--text-normal);
+}
+
+.highlight-file-item.is-active .highlight-file-item-name {
+    color: var(--text-accent);
+    font-weight: 500;
+}
+
+/* 文件图标样式优化 */
+.highlight-file-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    opacity: 0.7;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.highlight-file-item:hover .highlight-file-item-icon {
+    opacity: 0.9;
+    color: var(--text-accent);
+}
+
+.highlight-file-item.is-active .highlight-file-item-icon {
+    opacity: 1;
+    color: var(--text-accent);
+}
+
+/* 添加浮动按钮样式 */
+.highlight-floating-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--interactive-accent);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 999;
+    transition: all 0.3s ease;
+}
+
+.highlight-floating-button:hover {
+    transform: scale(1.1);
+    background-color: var(--interactive-accent-hover);
+}
+
+.highlight-floating-button svg {
+    width: 24px;
+    height: 24px;
+    color: var(--text-on-accent);
+}
+
+/* 浮动按钮隐藏状态 */
+.highlight-floating-button-hidden {
+    display: none !important;
+}
+
+/* 聊天窗口基础样式 */
+.highlight-chat-window {
+    position: fixed !important;
+    min-height: 300px;
+    min-width: 300px;
+    width: 350px;
+    height: 60vh;
+    max-width: 90vw;
+    max-height: 90vh;
+    border-radius: 12px;
+    background-color: var(--background-primary-alt);
+    border: 1px solid var(--background-modifier-border);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden;
+    z-index: 9999 !important;
+    bottom: 20px;
+    right: 20px;
+    top: auto;
+    left: auto;
+}
+
+/* 聊天窗口隐藏状态 */
+.highlight-chat-window.highlight-chat-hidden {
+    display: none !important;
+}
+
+/* 聊天窗口组件样式 */
+.highlight-chat-header {
+padding: 14px 16px;
+background: var(--background-primary);
+border-bottom: 1px solid var(--background-modifier-border);
+display: flex;
+justify-content: space-between;
+align-items: center;
+cursor: grab;
+user-select: none;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* 聊天输入框样式 */
+.highlight-chat-input-container .hi-note-input {
+    padding: 4px;
+    background: none;
+    border: none;
+}
+
+.highlight-chat-input-container .hi-note-input textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    background-color: var(--background-primary);
+    font-size: 14px;
+    line-height: 1.5;
+    resize: none;
+    overflow-y: auto;
+}
+
+/* 聊天消息样式 */
+.highlight-chat-message {
+    max-width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    animation: fade-slide-up 0.2s ease;
+}
+
+.highlight-chat-message-user {
+    align-self: flex-end;
+}
+
+.highlight-chat-message-assistant {
+    align-self: flex-start;
+}
+
+.highlight-chat-message-content {
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.highlight-chat-message-user .highlight-chat-message-content {
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border-bottom-right-radius: 4px;
+}
+
+.highlight-chat-message-assistant .highlight-chat-message-content {
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
+    border-bottom-left-radius: 4px;
+    white-space: pre-wrap;
+}
+
+/* 打字机效果相关样式 */
+.highlight-chat-message-assistant.typing .highlight-chat-message-content {
+    user-select: none;
+}
+
+.highlight-chat-message-assistant:not(.typing) .highlight-chat-message-content {
+    user-select: text;
+}
+
+.highlight-chat-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1.2em;
+    background-color: currentColor;
+    margin-left: 2px;
+    vertical-align: middle;
+    animation: blink 0.7s infinite;
+}
+
+/* 动画定 */
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+@keyframes fade-slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 聊天历史记录区域 */
+.highlight-chat-history {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: var(--background-primary);
+    position: relative;
+}
+
+.highlight-chat-history.drag-over::before {
+    content: '';
+    position: absolute;
+    top: var(--drag-guide-top);
+    left: var(--drag-guide-left);
+    right: var(--drag-guide-right);
+    height: var(--drag-guide-height);  /* 使用计算出的高度而不是bottom */
+    border: 2px dashed var(--interactive-accent);
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+/* 拖拽状态下的消息透明度 */
+.highlight-chat-history.drag-over .highlight-chat-message {
+    opacity: 0.5;
+    transition: opacity 0.2s ease;
+}
+
+/* 拖拽动画 */
+@keyframes pulse {
+    0% { opacity: 0.3; }
+    50% { opacity: 0.6; }
+    100% { opacity: 0.3; }
+}
+
+/* 拖拽预览容器 */
+.highlight-chat-previews {
+    padding: 4px 8px 8px 8px;
+    background-color: var(--background-primary);
+    border-radius: 8px;
+    border: 1px solid var(--background-modifier-border);
+}
+
+/* 预览标题 */
+/* .highlight-chat-preview-header {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--background-modifier-border);
+} */
+
+/* 预览卡片容器 */
+.highlight-chat-preview-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2px; /* 增加卡片间距 */
+    padding: 4px 0;
+}
+
+/* 预览卡片 */
+.highlight-chat-preview-card {
+    position: relative;
+    padding: 8px 12px;
+    background-color: var(--background-secondary);
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    min-height: 40px; /* 最小高度 */
+    max-height: 80px; /* 最大高度 */
+    margin-bottom: 8px;
+}
+
+.highlight-chat-preview-card:last-child {
+    margin-bottom: 0;
+}
+
+/* 预览内容 */
+.highlight-chat-preview-content {
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--text-normal);
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-line-clamp: 3; /* 最多显示3行 */
+    -moz-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1; /* 让内容填充剩余空间 */
+}
+
+/* 兼容性回退 */
+@supports not ((display: -webkit-box) or (display: -moz-box) or (display: box)) {
+    .highlight-chat-preview-content {
+        max-height: 4.5em; /* 3行文本的大致高度 */
+        overflow: hidden;
+        position: relative;
+    }
+}
+
+/* 删除按钮 */
+.highlight-chat-preview-delete {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: var(--text-muted);
+    font-size: 14px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.highlight-chat-preview-card:hover .highlight-chat-preview-delete {
+    opacity: 1;
+    background-color: var(--background-secondary);
+}
+
+.highlight-chat-preview-delete:hover {
+    color: var(--text-error);
+}
+
+/* 简化的计数标签 */
+.highlight-chat-preview-count {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+/* 预览消息样式 */
+.highlight-chat-message-preview {
+    align-self: stretch;
+    max-width: 100%;
+    margin: 8px 0;
+    animation: fade-slide-up 0.2s ease;
+}
+
+/* 拖拽目标区域的反馈 */
+.highlight-chat-history.drag-over {
+    position: relative;
+}
+
+.highlight-text-content:active {
+    cursor: grabbing;
+}
+
+/* 拖拽中的预览样式 */
+.highlight-dragging {
+    position: fixed;
+    pointer-events: none;
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 13px;
+    width: 250px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    opacity: 0.95;
+    transform: scale(0.95);
+    color: var(--text-normal);
+}
+
+.highlight-dragging::before {
+    margin-right: 8px;
+    color: var(--interactive-accent);
+    font-size: 14px;
+}
+
+.highlight-dragging-content {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.highlight-chat-input-wrapper {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    padding: 12px;
+    border-top: 1px solid var(--background-modifier-border);
+    background: var(--background-primary);
+}
+
+.highlight-chat-input {
+    flex: 1;
+    min-height: 36px;
+    max-height: 150px;
+    padding: 8px 12px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    background: var(--background-primary);
+    font-size: 14px;
+    line-height: 1.5;
+    resize: none;
+    overflow-y: auto;
+}
+
+.highlight-chat-input:focus {
+    outline: none;
+    border-color: var(--interactive-accent);
+    box-shadow: 0 0 0 2px rgba(var(--interactive-accent-rgb), 0.2);
+}
+
+.highlight-chat-buttons {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.highlight-chat-clear,
+.highlight-chat-close,
+.highlight-chat-context-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: all 0.2s ease;
+}
+
+.highlight-chat-clear:hover,
+.highlight-chat-close:hover,
+.highlight-chat-context-close:hover {
+    color: var(--text-normal);
+    background-color: var(--background-modifier-hover);
+}
+
+/* 聊天窗口标题栏样式 */
+.highlight-chat-title {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.highlight-chat-model {
+    color: var(--text-faint);
+    font-size: 12px;
+    background: none;
+    border: none;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.highlight-chat-model:hover {
+    color: var(--text-muted);
+    background-color: var(--background-modifier-hover);
+}
+
+/* 聊天窗口隐藏样式 */
+.highlight-chat-hidden {
+    display: none !important;
+}
+
+/* 修改评论按钮容器的样式 */
+.hi-note-widget {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    isolation: isolate;
+    z-index: 999;
+    height: 20px;
+    vertical-align: text-top;
+    margin-top: 0px;
+    background-color: var(--background-secondary-alt);
+    border-radius: 4px;
+}
+
+/* 确保 CommentWidget 始终可见 */
+/* .hi-note-widget {
+    display: inline-flex !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+} */
+
+/* 当没有评论时，最小化 widget 的空间占用 */
+.hi-note-widget-no-comments {
+    width: 0;
+    opacity: 0.9;
+    transition: opacity 0.2s ease, width 0.2s ease, margin 0.2s ease;
+}
+
+/* 当鼠标悬停在高亮文本上时，恢复 widget 的宽度 */
+.hi-note-widget-no-comments:hover {
+    width: auto;
+    opacity: 1;
+}
+
+/* AI 按钮和下拉菜单样式 */
+.highlight-ai-container {
+    position: relative;
+    z-index: 1000;
+}
+
+.highlight-ai-btn:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.highlight-ai-btn:hover svg {
+    stroke: var(--text-accent);
+}
+
+/* 加载状态样式 */
+.highlight-ai-btn.loading svg {
+    animation: spin 2s linear infinite;
+    stroke: var(--text-accent);
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* 更多操作容器样式 */
+.highlight-more-actions-container {
+    position: relative;
+    z-index: 1000;
+}
+
+/* AI 按钮样式 */
+.highlight-ai-btn {
+    order: -1;
+    position: relative;
+    padding: 6px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+@keyframes ai-loading-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* AI 服务设置区域样式 */
+.ai-service-settings {
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 16px 0;
+}
+
+/* 设置项容器样式 */
+.ai-service-settings .setting-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75em 0;
+}
+
+/* 设置项控制区域样式 */
+.ai-service-settings .setting-item-control {
+    flex-shrink: 0;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 200px;
+}
+
+/* 添加新的操作提示区域样式 */
+.hi-note-actions-hint {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+    padding-top: 8px;
+    border-top: 1px solid var(--background-modifier-border);
+}
+
+/* 删除按钮样式，Obsidian默认按钮样式，不需要重复定义 */
+.hi-note-delete-link {
+    font-size: 11px;
+    padding: 4px 6px;
+    color: var(--text-muted);
+}
+
+.hi-note-delete-link:hover {
+    color: var(--text-error);
+}
+
+/* AI内联生成功能样式 */
+.ai-loading-hint {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: var(--text-accent);
+    font-weight: 500;
+}
+
+.ai-loading-icon {
+    width: 12px;
+    height: 12px;
+    animation: spin 1s linear infinite;
+    transform-origin: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.ai-loading-icon svg {
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* AI处理时的输入框样式 */
+.hi-note-input[disabled] {
+    cursor: not-allowed;
+    background-color: var(--background-modifier-form-field-highlighted);
+}
+
+/* 增强快捷键提示的可读性 */
+.hi-note-hint {
+    font-size: 10px;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+/* 特定样式 */
+.highlight-export-card {
+    transition: all 0.3s ease;
+}
+
+/* 学术模板 */
+.highlight-export-card-academic {
+    padding: 12px 24px 24px 24px;
+    background-color: var(--background-primary);
+    border: 2px solid var(--background-modifier-border);
+    font-family: "Times New Roman", Times, serif;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.highlight-export-card-academic .highlight-export-quote {
+    font-size: 1em;
+    line-height: 1.8;
+    font-style: italic;
+    color: var(--text-normal);
+    margin: 16px 0;
+}
+
+.highlight-export-card-academic .highlight-export-footer {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    line-height: var(--highlight-text-line-height);
+}
+
+/* 交媒体模板 */
+.highlight-export-card-social {
+    padding: 20px;
+    background-color: var(--background-primary);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-export-card-social .highlight-export-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.highlight-export-card-social .highlight-export-logo {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.highlight-export-card-social .highlight-export-app-name {
+    font-weight: 600;
+    color: var(--text-normal);
+    line-height: 24px; /* 与Logo高度匹配 */
+    display: flex;
+    align-items: center;
+}
+
+.highlight-export-card-social .highlight-export-quote {
+    font-size: 1em;
+    line-height: 1.6;
+    color: var(--text-normal);
+    margin: 20px 0;
+}
+
+.highlight-export-card-social .highlight-export-footer {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    line-height: var(--highlight-text-line-height);
+}
+
+/* 默认模板（现代风格）样式优化 */
+.highlight-export-card-modern {
+    padding: 24px;
+    background-color: var(--background-primary);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    position: relative;
+    overflow: hidden;
+}
+
+/* 批注导出样式 */
+.highlight-export-comments-section {
+    margin: 4px 0;
+    padding: 4px 0;
+}
+
+.highlight-export-comments-divider {
+    height: 1px;
+    background-color: var(--background-modifier-border);
+    margin: 10px 0;
+    opacity: 0.5;
+}
+
+.highlight-export-comments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.highlight-export-comment-item {
+    margin-bottom: 8px;
+    padding: 10px 12px;
+    background-color: var(--background-secondary);
+    border-radius: 6px;
+}
+
+.highlight-export-comment-content {
+    color: var(--text-normal);
+    line-height: 1.5;
+    font-size: 0.95em;
+}
+
+.highlight-export-comment-time {
+    margin-top: 5px;
+    font-size: 0.75em;
+    color: var(--text-muted);
+    text-align: right;
+}
+
+/* 开关样式 */
+/* 新的复选框样式 */
+.highlight-export-checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* 将复选框推到左侧 */
+    gap: 4px;
+}
+
+.highlight-export-checkbox {
+    cursor: pointer;
+    margin: 0;
+}
+
+.highlight-export-checkbox-label {
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px;
+    color: var(--text-normal);
+}
+
+/* 背景装饰 */
+.highlight-export-card-modern::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to bottom right,
+        var(--interactive-accent) 0%,
+        var(--interactive-accent-hover) 100%);
+}
+
+/* 引号装饰 */
+.highlight-export-card-modern .highlight-export-quote-decoration {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    opacity: 0.06;
+    transform: scale(2);
+}
+
+/* 引用内容区域 */
+.highlight-export-card-modern .highlight-export-quote-section {
+    position: relative;
+    padding: 24px 0;
+}
+
+.highlight-export-card-modern .highlight-export-quote {
+    font-size: 1em;
+    line-height: 1.7;
+    color: var(--text-normal);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* 底部信息样式 */
+.highlight-export-card-modern .highlight-export-footer {
+    margin-top: 8px;
+    padding-top: 20px;
+    border-top: 1px solid var(--background-modifier-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-muted);
+}
+
+.highlight-export-card-modern .highlight-export-source {
+    font-size: 0.9em;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.highlight-export-card-modern .highlight-export-date {
+    font-size: 0.9em;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+/* 虚拟高亮的样式  */
+.virtual-highlight {
+    font-style: italic;
+    color: var(--text-muted);
+    background-color: var(--background-secondary);
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+.highlight-card .virtual-highlight::before {
+    content: "📝";  /* 使用笔记图标 */
+    margin-right: 6px;
+}
+
+/* 虚拟高亮卡片样式 */
+.virtual-highlight-card .highlight-content {
+    display: none;  /* 隐藏整个高亮内容区域 */
+}
+
+.virtual-highlight-card {
+    padding-top: 0;  /* 移除顶部内边距 */
+}
+
+.virtual-highlight-card .hi-notes-section {
+    margin-top: 12px;  /* 移除评论区域的顶部边距 */
+    border-radius: 8px;
+}
+
+/* 插件作用域内的隐藏类 */
+.hi-note-plugin .hi-note-hidden {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+/* 设置标签页样式 */
+.setting-tabs {
+    display: flex;
+    margin-bottom: 24px;
+    gap: 20px;
+    background-color: var(--background-secondary);
+    border-radius: var(--radius-m);
+    padding: 0px 12px;
+}
+
+.setting-tab-btn {
+    padding: 8px 2px;
+    cursor: pointer;
+    color: var(--text-muted);
+    border-bottom: 2px solid transparent;
+}
+
+.setting-tab-btn:hover {
+    color: var(--text-normal);
+}
+
+.setting-tab-btn.active {
+    color: var(--text-accent);
+    border-bottom-color: var(--text-accent);
+    font-weight: 600;
+}
+
+/* Prompt textarea styling */
+.prompt-textarea {
+    min-height: 100px;
+    width: 100%;
+}
+
+/* OpenAI Settings styling */
+.custom-model-container {
+    display: none;
+    margin-right: 10px;
+}
+
+.custom-model-container.visible {
+    display: block;
+}
+
+.openai-dropdown-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.openai-setting-no-border {
+    border: none;
+    padding: 0;
+}
+
+.openai-setting-no-margin {
+    margin-left: 0;
+}
+
+/* ChatView styling */
+.highlight-chat-window {
+    position: fixed;
+    z-index: 1000;
+}
+
+.highlight-chat-preview {
+    position: absolute;
+}
+
+.highlight-chat-history-drag-guide {
+    --drag-guide-top: 12px;
+    --drag-guide-left: 12px;
+    --drag-guide-right: 12px;
+    --drag-guide-height: calc(100% - 24px);
+}
+
+.highlight-chat-input {
+    height: auto;
+    min-height: 24px;
+    max-height: 150px;
+}
+
+/* DragPreview positioning */
+.highlight-dragging {
+    position: absolute;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+/* CommentView display states */
+.highlight-display-block {
+    display: block;
+}
+
+.highlight-display-none {
+    display: none;
+}
+
+.highlight-display-flex {
+    display: flex;
+}
+
+.highlight-display-default {
+    display: '';
+}
+
+/* Highlight text formatting */
+.highlight-text-line-spacing {
+    margin-bottom: 4px;
+}
+
+.setting-tab-btn:focus {
+    outline: none;
+}
+
+.setting-tab-content {
+    padding-top: 8px;
+}
+
+.setting-tab-pane {
+    display: none;
+}
+
+.setting-tab-pane.active {
+    display: block;
+}
+
+/* 插件专用隐藏类 */
+.hi-note-hidden {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+/* 评论页脚隐藏状态 */
+.hi-note-footer.hi-note-hidden {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+/* Prompt 编辑模式隐藏状态 */
+.prompt-display-mode.hi-note-hidden {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+/* Flashcard Activation Styles */
+.flashcard-activation-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: var(--background-primary);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flashcard-activation-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--text-normal);
+}
+
+.flashcard-activation-description {
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.flashcard-activation-input-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.flashcard-activation-input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background: var(--background-primary);
+    color: var(--text-normal);
+}
+
+.flashcard-activation-input:focus {
+    outline: none;
+    border-color: var(--interactive-accent);
+    box-shadow: 0 0 0 2px rgba(var(--interactive-accent-rgb), 0.2);
+}
+
+.flashcard-activation-button {
+    padding: 8px 16px;
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.flashcard-activation-button:hover {
+    background: var(--interactive-accent-hover);
+}
+
+/* 帮助图标样式 */
+.help-icon {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 4px;
+    color: var(--text-faint);
+    cursor: help;
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+.help-icon:hover {
+    color: var(--text-accent);
+    opacity: 0.9;
+}
+
+.progress-text {
+    margin-left: auto;
+    color: var(--text-accent);
+    font-size: 12px;
+    min-width: 60px;
+    text-align: right;
+    font-weight: 500;
+}
+
+/* 使用 Obsidian 的内置提示样式 */
+.help-icon[aria-label] {
+    position: relative;
+}
+
+.highlight-text-content {
+    white-space: pre-wrap;
+    word-break: break-word;
+    cursor: grab;
+}
+
+.highlight-text-line {
+    margin: 0;
+}
+
+/* 完成消息样式 */
+.flashcard-completion-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+    background: var(--background-primary);
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.flashcard-completion-message .completion-icon {
+    font-size: 48px;
+    color: var(--interactive-accent);
+    margin-bottom: 20px;
+}
+
+.completion-icon svg {
+    width: 56px;
+    height: 56px;
+}
+
+.flashcard-completion-message h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 16px 0;
+    color: var(--text-normal);
+}
+
+.flashcard-completion-message p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 24px 0;
+    color: var(--text-muted);
+}
+
+/* 空分组样式 */
+.flashcard-empty-group .completion-icon {
+    color: var(--text-muted); /* 使用淡色而非强调色 */
+}
+
+.flashcard-empty-group h3 {
+    color: var(--text-normal);
+}
+
+.flashcard-empty-tip {
+    font-size: 14px !important;
+    color: var(--text-accent) !important;
+    background-color: var(--background-secondary-alt);
+    padding: 8px 12px !important;
+    border-radius: 6px;
+    margin-top: 8px !important;
+}
+
+.flashcard-return-button {
+    padding: 8px 16px;
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.flashcard-return-button:hover {
+    background-color: var(--interactive-accent-hover);
+    color: var(--interactive-normal);
+}
+
+.settings-title {
+    margin: 0;
+    font-size: 16px;
+    color: var(--text-normal);
+}
+
+.use-global-option {
+    margin-bottom: 0 !important;
+}
+
+.slider-option {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.slider-with-value {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.slider-value {
+    min-width: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-normal);
+}
+
+.slider-option.disabled .slider-value {
+    opacity: 0.5;
+}
+
+.flashcard-rating-button span,
+.flashcard-rating-button .days {
+    color: white;
+}
+
+/* 设置页面样式 */
+.modal-button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.orphaned-data-count {
+    color: var(--text-error);
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.no-orphaned-data {
+    color: var(--text-success);
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+/* 正则表达式规则编辑器样式 */
+.regex-rules-container {
+    margin-top: 10px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.regex-rule-item {
+    display: grid;
+    grid-template-columns: 100px 2fr 80px 30px 40px;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+/* 开关样式调整 */
+.regex-rule-toggle {
+    justify-self: center;
+}
+
+.regex-rule-delete {
+    cursor: pointer;
+    color: var(--icon-color);
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.2s ease;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.regex-rule-delete:hover {
+    color: var(--text-error);
+    background-color: var(--background-secondary);
+}
+
+.regex-rule-warning {
+    color: var(--text-warning);
+    font-size: 0.8em;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* 颜色输入框样式 */
+.regex-rule-item .color-input {
+    width: 80px;
+}
+
+/* 模态框样式 */
+.flashcard-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flashcard-modal-container {
+    background-color: var(--background-primary);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    animation: modal-appear 0.2s ease;
+}
+
+@keyframes modal-appear {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.flashcard-modal-content {
+    padding: 0;
+}
+
+.flashcard-modal-header {
+    padding: 16px 16px 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flashcard-modal-header h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-normal);
+}
+
+/* 表单输入样式 */
+.flashcard-modal-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    font-size: 14px;
+    line-height: 1.5;
+    resize: vertical;
+}
+
+textarea.flashcard-modal-input {
+    min-height: 80px;
+    font-family: var(--font-text);
+}
+
+.flashcard-modal-input.small {
+    width: 80px;
+    margin-bottom: 0;
+    margin-left: 8px;
+    padding: 4px 8px;
+}
+
+.flashcard-modal-settings {
+    margin-top: 16px;
+    padding: 16px;
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+}
+
+.flashcard-modal-settings h4 {
+    font-size: 14px;
+    color: var(--text-normal);
+    margin: 0;
+}
+
+.flashcard-modal-settings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.use-global-option {
+    margin-bottom: 0 !important;
+}
+
+.flashcard-modal-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.flashcard-modal-checkbox {
+    margin-right: 8px;
+}
+
+.flashcard-modal-label {
+    font-size: 14px;
+    color: var(--text-normal);
+}
+
+.flashcard-group-edit-modal .modal-content {
+    padding: 0;
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+}
+
+.flashcard-group-form {
+    padding: 16px;
+    background-color: var(--background-primary);
+    border-radius: 8px;
+}
+
+/* 分组名称输入框 */
+.flashcard-group-form input[type="text"] {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+/* 过滤条件文本域 */
+.flashcard-group-form textarea {
+    width: 100%;
+    height: 80px;
+    padding: 8px 12px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    font-size: 14px;
+    resize: vertical;
+    margin-bottom: 16px;
+}
+
+/* 反转卡片复选框容器 */
+.reverse-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.reverse-checkbox {
+    margin-right: 8px;
+}
+
+.reverse-label {
+    font-size: 14px;
+    color: var(--text-normal);
+}
+
+/* 学习设置标题 */
+.settings-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-normal);
+    margin: 16px 0 12px 0;
+}
+
+/* 全局设置复选框容器 */
+.global-settings-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.global-checkbox {
+    margin-right: 8px;
+}
+
+.checkmark {
+    color: var(--text-accent);
+    margin-right: 8px;
+}
+
+.global-label {
+    font-size: 14px;
+    color: var(--text-normal);
+}
+
+/* 卡片设置容器 */
+.cards-setting-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding: 8px 0;
+}
+
+.cards-setting-container.disabled {
+    opacity: 0.5;
+}
+
+.setting-label {
+    flex: 0 0 120px;
+    font-size: 14px;
+    color: var(--text-normal);
+}
+
+.slider-container {
+    flex: 1;
+    margin-right: 16px;
+}
+
+.cards-slider {
+    width: 100%;
+    height: 6px;
+}
+
+/* 按钮容器 */
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin: 0px 16px 16px 16px;
+}
+
+/* 取消按钮 */
+.flashcard-cancel-btn {
+    padding: 8px 16px;
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.flashcard-cancel-btn:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+/* 禁用的按钮样式 */
+.disabled-button {
+    color: var(--text-muted);
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.disabled-button:hover {
+    background-color: transparent;
+}
+
+/* 创建/保存按钮 */
+.flashcard-save-group-btn {
+    padding: 8px 16px;
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.flashcard-save-group-btn:hover {
+    background-color: var(--interactive-accent-hover);
+    color: var(--text-on-accent);
+}
+
+/* 高亮多选功能样式 */
+
+/* 已删除多选模式下的 highlight-action-buttons 相关样式 */
+
+/* 不聚焦的批注输入框样式 */
+.unfocused-comment-input {
+    padding: 6px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.unfocused-input-area {
+    min-height: 30px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 2px solid var(--background-modifier-border);
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    cursor: text;
+    font-size: 13px;
+    transition: all 0.2s ease;
+}
+
+.unfocused-input-area:hover {
+    border-color: var(--text-accent);
+    background-color: var(--background-primary);
+}
+
+.unfocused-input-area::before {
+    content: attr(placeholder);
+    color: var(--text-faint);
+}
+
+/* 高亮卡片标题栏样式 */
+.highlight-card-title-bar {
+    display: flex;
+    align-items: center;
+    padding: 2px 10px;
+    background-color: var(--background-primary);
+    border-bottom: 1px solid var(--background-modifier-border);
+    border-radius: 6px 6px 0 0;
+    justify-content: space-between;
+    gap: 6px;
+    cursor: grab;
+}
+
+.highlight-card-title-bar.dragging {
+    cursor: grabbing;
+    opacity: 0.7;
+}
+
+.highlight-card-title-left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+
+/* 行号标签样式 */
+.highlight-line-number-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+    background-color: var(--background-primary);
+    border-radius: 4px;
+    padding: 1px 2px;
+    font-size: 11px;
+    color: var(--text-muted);
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+    /* 添加垂直对齐 */
+    vertical-align: middle;
+    line-height: 1;
+    /* 确保高度与图标一致 */
+    height: 12px;
+}
+
+.highlight-line-number {
+    font-weight: 500;
+    font-family: var(--font-monospace);
+    /* 添加垂直对齐 */
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.highlight-card:hover {
+    opacity: 1;
+    color: var(--text-accent);
+}
+
+.highlight-card-title-right {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 8px;
+}
+
+.highlight-card-icon.has-flashcard {
+    color: var(--text-accent);
+}
+
+.highlight-card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    color: var(--text-muted);
+    flex-shrink: 0;
+}
+
+.highlight-card-icon:hover {
+    color: var(--text-accent);
+}
+
+.highlight-card-icon svg {
+    width: 14px;
+    height: 14px;
+}
+
+.highlight-card-title-text {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: var(--text-muted);
+    font-size: 12px;
+}
+
+.highlight-card-blockid {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: var(--text-muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+    min-width: 0;
+}
+
+.highlight-card-blockid-value {
+    font-family: var(--font-monospace);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 标题栏按钮样式 */
+.highlight-title-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 0;
+    transition: all 0.2s ease;
+}
+
+.highlight-title-btn:hover {
+    background-color: var(--background-modifier-hover);
+    color: var(--text-normal);
+}
+
+.highlight-title-btn svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* AI 按钮加载状态 */
+.highlight-title-btn.loading svg {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* AI 下拉菜单容器 */
+.highlight-ai-container {
+    position: relative;
+}
+
+/* 隐藏类 */
+.hi-note-hidden {
+    display: none;
+}
+
+/* 当鼠标悬停在标题栏上时显示按钮 */
+.highlight-card-title-bar:not(:hover) .highlight-title-btn {
+    opacity: 0.5;
+}
+
+.highlight-card-title-bar:hover .highlight-title-btn {
+    opacity: 1;
+}
+
+/* 拖拽状态样式 */
+.highlight-card-title-left.dragging {
+    opacity: 0.7;
+}
+
+/* 多选操作按钮容器 */
+/* 选择框样式 */
+.selection-box {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    background-color: rgba(0, 122, 255, 0.2);
+    border: 1px solid rgba(0, 122, 255, 0.5);
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.multi-select-actions {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    padding: 4px 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1001;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+/* 确保 highlight-container 有相对定位，以便子元素可以相对于它定位 */
+.highlight-container {
+    position: relative;
+    height: calc(100%);
+    overflow-y: auto;
+    padding: 12px;
+}
+
+/* 选中数量显示 */
+.selected-count {
+    font-size: 14px;
+    color: var(--text-muted);
+    background-color: var(--background-secondary);
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 多选操作按钮 */
+.multi-select-action-button {
+    color: var(--text-muted);
+    border-radius: 6px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.multi-select-action-button:hover {
+    background-color: var(--background-secondary);
+    color: var(--text-accent);
+}
+
+.delete-flashcard-button:hover {
+    background-color: var(--background-modifier-error-hover);
+    color: white;
+}
+
+.multi-select-action-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.multi-select-action-button.cancel {
+    background-color: var(--background-modifier-error-hover);
+    color: white;
+}
+
+.multi-select-action-button.cancel:hover {
+    background-color: var(--background-modifier-error);
+}
+
+/* FSRS 参数编辑样式 */
+.fsrs-params-container {
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--background-secondary);
+}
+
+.fsrs-weights-textarea {
+    font-family: var(--font-monospace);
+    width: 100%;
+    min-height: 80px;
+    resize: vertical;
+}
+
+.fsrs-buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.fsrs-buttons-container button {
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* 移动端视图样式 */
+
+/* 返回按钮样式 */
+.highlight-back-button-container {
+    padding: 13.25px 8px;
+    display: none; /* 默认不显示 */
+    border-bottom: 1px solid var(--background-modifier-border);
+    background-color: var(--background-primary);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+    align-items: center;
+}
+
+/* 只在小屏幕移动端主视图模式下显示返回按钮 */
+.is-mobile .comment-view-container.is-in-main-view.is-small-screen .highlight-back-button-container {
+    display: flex;
+}
+
+/* 小屏幕移动端主视图中的全宽文件列表 */
+.is-mobile .is-small-screen .highlight-file-list-container.highlight-full-width {
+    width: 100% !important;
+    flex: 1 !important;
+}
+
+/* 小屏幕移动端主视图中调整主容器布局 */
+.is-mobile .comment-view-container.is-in-main-view.is-small-screen .highlight-main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 大屏幕设备（如iPad）保持原来的布局 */
+@media (min-width: 768px) {
+    .is-mobile .highlight-file-list-container {
+        width: 250px !important;
+        min-width: 200px;
+        max-width: 300px;
+    }
+    
+    .is-mobile .comment-view-container .highlight-main-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.highlight-back-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px 6px;
+    border-radius: 4px;
+}
+
+.highlight-back-button svg {
+    color: var(--text-muted);
+}
+
+.highlight-back-button:hover {
+    background-color: var(--background-secondary);
+}
+
+.highlight-back-button-text {
+    margin-left: 4px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* 闪卡移动端样式 */
+.is-mobile.is-small-screen.flashcard-mode {
+    position: relative;
+}
+
+/* 移动端闪卡评分按钮自适应样式 */
+@media (max-width: 480px) {
+    .flashcard-rating {
+        margin-top: 15px;
+    }
+    
+    .flashcard-rating-button {
+        width: 60px;
+        height: 60px;
+        margin: 0 5px;
+        font-size: 0.9em;
+    }
+    
+    .flashcard-rating-button .days {
+        font-size: 0.75em;
+    }
+}
+
+/* 超小屏幕设备的闪卡评分按钮样式 */
+@media (max-width: 360px) {
+    .flashcard-rating-button {
+        width: 50px;
+        height: 50px;
+        margin: 0 4px;
+        font-size: 0.85em;
+    }
+}
+
+/* 移动端闪卡主容器 */
+.is-mobile.is-small-screen .flashcard-main-container {
+    flex-direction: column;
+}
+
+/* 移动端闪卡侧边栏 */
+.is-mobile.is-small-screen .flashcard-sidebar {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* 移动端闪卡内容区域 */
+.is-mobile.is-small-screen .flashcard-content-area {
+    width: 100%;
+}
+
+/* 移动端显示侧边栏时隐藏内容区域 */
+.is-mobile.is-small-screen.show-sidebar .flashcard-sidebar {
+    display: flex;
+}
+
+.is-mobile.is-small-screen.show-sidebar .flashcard-content-area {
+    display: none;
+}
+
+/* 移动端显示内容区域时隐藏侧边栏 */
+.is-mobile.is-small-screen.show-content .flashcard-sidebar {
+    display: none;
+}
+
+.is-mobile.is-small-screen.show-content .flashcard-content-area {
+    display: flex;
+}
+
+/* 聊天窗口调整大小手柄样式 */
+.highlight-chat-resize-handle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    cursor: nw-resize;
+    background: linear-gradient(-45deg, transparent 0%, transparent 40%, var(--background-modifier-border) 40%, var(--background-modifier-border) 60%, transparent 60%, transparent 100%);
+    background-size: 4px 4px;
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+}
+
+.highlight-chat-resize-handle:hover {
+    opacity: 1;
+}
+
+.highlight-chat-window.resizing {
+    user-select: none;
+    pointer-events: none;
+}
+
+.highlight-chat-window.resizing .highlight-chat-resize-handle {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+/* 上下文控制样式 */
+.highlight-chat-preview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.highlight-chat-preview-header-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.highlight-chat-preview-header-right {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.highlight-chat-context-strategy {
+    padding: 2px 6px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background: var(--background-primary);
+    color: var(--text-normal);
+    font-size: 12px;
+    min-width: 80px;
+}
+
+.highlight-chat-context-length {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+}
+
+.highlight-chat-context-length-label {
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.highlight-chat-context-length-slider {
+    width: 60px;
+    height: 4px;
+    background: var(--background-modifier-border);
+    border-radius: 2px;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.highlight-chat-context-length-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--interactive-accent);
+    cursor: pointer;
+}
+
+.highlight-chat-context-length-value {
+    color: var(--text-muted);
+    font-size: 10px;
+    min-width: 30px;
+    text-align: center;
+}
+
+.highlight-chat-context-preview,
+.highlight-chat-context-settings {
+    padding: 4px 8px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background: var(--background-primary);
+    color: var(--text-normal);
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.highlight-chat-context-preview:hover,
+.highlight-chat-context-settings:hover {
+    background: var(--background-modifier-hover);
+    border-color: var(--interactive-accent);
+}
+
+.highlight-chat-context-settings {
+    padding: 4px;
+    min-width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 预览模态框样式 */
+.highlight-chat-context-preview-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.highlight-chat-context-preview-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.highlight-chat-context-preview-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px 64px;
+    line-height: 1.6;
+    color: var(--text-normal);
+}
+
+.highlight-chat-context-preview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background: var(--background-secondary);
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.highlight-chat-context-preview-header h3 {
+    margin: 0;
+    color: var(--text-normal);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.highlight-chat-context-preview-close {
+    padding: 6px;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.highlight-chat-context-preview-close:hover {
+    background: var(--background-modifier-hover);
+    color: var(--text-normal);
+}
+
+.highlight-chat-context-preview-body {
+    flex: 1;
+    overflow: auto;
+    padding: 0;
+}
+
+.highlight-chat-context-preview-text {
+    padding: 20px;
+    line-height: 1.6;
+    color: var(--text-normal);
+}
+
+.highlight-chat-context-preview-footer {
+    padding: 12px 20px;
+    background: var(--background-secondary);
+    border-top: 1px solid var(--background-modifier-border);
+}
+
+.highlight-chat-context-preview-stats {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+/* 简化后的预览按钮样式 */
+.highlight-chat-preview-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 4px;
+    border: none;
+    background: none;
+    color: var(--icon-color);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.highlight-chat-preview-btn:hover {
+background: var(--background-modifier-hover);
+border-color: var(--interactive-accent);
+}
+
+/* 新的模态框样式 */
+.highlight-chat-context-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.highlight-chat-context-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.highlight-chat-context-content {
+    position: relative;
+    width: 90vw;
+    max-width: 1200px;
+    height: 80vh;
+    background: var(--background-primary);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.highlight-chat-context-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background: var(--background-secondary);
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.highlight-chat-context-header h3 {
+    margin: 0;
+    color: var(--text-normal);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.highlight-chat-context-body {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+/* 设置面板样式 */
+.highlight-chat-context-settings-panel {
+    width: 300px;
+    padding: 20px;
+    background: var(--background-secondary);
+    border-right: 1px solid var(--background-modifier-border);
+    overflow-y: auto;
+}
+
+.highlight-chat-settings-section {
+    margin-bottom: 20px;
+}
+
+.highlight-chat-settings-section h5 {
+    margin: 0 0 8px 0;
+    color: var(--text-normal);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.highlight-chat-settings-select {
+    width: 100%;
+}
+
+.highlight-chat-settings-slider-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.highlight-chat-settings-slider {
+    flex: 1;
+    height: 6px;
+    background: var(--background-modifier-border);
+    border-radius: 3px;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.highlight-chat-settings-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--interactive-accent);
+    cursor: pointer;
+}
+
+.highlight-chat-settings-value {
+    color: var(--text-muted);
+    font-size: 12px;
+    min-width: 60px;
+    text-align: right;
+}
+
+.highlight-chat-settings-checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 13px;
+    color: var(--text-normal);
+}
+
+.highlight-chat-settings-checkbox input {
+    margin-right: 6px;
+}
+
+.highlight-chat-settings-reset {
+    width: 100%;
+}
+
+.highlight-chat-settings-reset:hover {
+    background: var(--background-modifier-hover);
+    border-color: var(--interactive-accent);
+}
+
+.highlight-chat-surrounding-section {
+    display: none;
+}
+
+/* 预览面板样式 */
+.highlight-chat-context-preview-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.highlight-chat-context-preview-panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background: var(--background-primary);
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.highlight-chat-context-preview-panel-header h4 {
+    margin: 0;
+    color: var(--text-normal);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.highlight-chat-context-loading,
+.highlight-chat-context-error {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+.highlight-chat-context-error {
+    color: var(--text-error);
+}
+
+/* 底部按钮样式 */
+.highlight-chat-context-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background: var(--background-secondary);
+    border-top: 1px solid var(--background-modifier-border);
+}
+
+.highlight-chat-context-stats {
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+.highlight-chat-context-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.highlight-chat-context-cancel,
+.highlight-chat-context-confirm {
+    padding: 8px 16px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.2s ease;
+}
+
+.highlight-chat-context-cancel {
+    background: var(--background-primary);
+    color: var(--text-normal);
+}
+
+.highlight-chat-context-cancel:hover {
+    background: var(--background-modifier-hover);
+}
+
+.highlight-chat-context-confirm {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border-color: var(--interactive-accent);
+}
+
+.highlight-chat-context-confirm:hover {
+    background: var(--interactive-accent-hover);
+    border-color: var(--interactive-accent-hover);
+}

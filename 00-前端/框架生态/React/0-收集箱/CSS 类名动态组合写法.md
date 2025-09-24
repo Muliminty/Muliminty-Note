@@ -10,7 +10,7 @@
 
 ## 示例代码
 
-```
+```jsx
 import styles from './styles.module.css';
 
 const DynamicClassNameDemo = ({ curPage, isApp, isWeiXin }) => {

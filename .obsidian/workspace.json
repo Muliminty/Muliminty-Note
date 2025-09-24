@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "723efae40efee80d",
+        "id": "0a299dc2f86c617a",
         "type": "tabs",
         "children": [
           {
-            "id": "b683aa3498885563",
+            "id": "b13a31f55f660f55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目灵感/云剪切板.md",
-                "mode": "preview",
+                "file": "碎片整理/剪藏/「好文翻译」为什么你可以删除 90% 的 useMemo 和 useCallback ？原作博客可以说是我全网所见的关于.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "云剪切板"
+              "title": "「好文翻译」为什么你可以删除 90% 的 useMemo 和 useCallback ？原作博客可以说是我全网所见的关于"
             }
           }
         ]
@@ -128,6 +128,16 @@
             }
           },
           {
+            "id": "926de4536f5b42e3",
+            "type": "leaf",
+            "state": {
+              "type": "comment-view",
+              "state": {},
+              "icon": "highlighter",
+              "title": "HiNote"
+            }
+          },
+          {
             "id": "ffc7586e1facca5c",
             "type": "leaf",
             "state": {
@@ -213,8 +223,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5,
-    "collapsed": true
+    "width": 387.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,15 +239,20 @@
       "obsidian-kanban:创建新看板": false,
       "obsidian-memos:Thino": false,
       "mxmind:Mxmind": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "hi-note:HiNote": false
     }
   },
-  "active": "b683aa3498885563",
+  "active": "926de4536f5b42e3",
   "lastOpenFiles": [
-    "项目灵感/云剪切板.md",
+    "README.md",
+    "碎片整理/剪藏/「好文翻译」为什么你可以删除 90% 的 useMemo 和 useCallback ？原作博客可以说是我全网所见的关于.md",
+    "碎片整理/脚手架开发.md",
     "00-前端/框架生态/React/0-收集箱/CSS 类名动态组合写法.md",
-    "项目灵感",
+    "00-前端/框架生态/React/0-收集箱/在 React 中使用 GSAP.md",
     "书签整理.md",
+    "项目灵感/云剪切板.md",
+    "项目灵感",
     "02-开发运维/一键半自动部署更新方案.md",
     "02-开发运维/开发运维-MOC.md",
     "000-JavaScript(new)/000-文法/!MOC-文法.md",
@@ -258,10 +272,6 @@
     "01-计算机科学体系/计算机组成原理/入门方向.md",
     "碎片整理/读书笔记/透视 HTTP 协议/02 - HTTP是什么？HTTP又不是什么？.md",
     "碎片整理/Thino/2025-09-02.md",
-    "index.md",
-    "01-计算机科学体系/计算机组成原理/!MOC-计算机组成原理.md",
-    "01-计算机科学体系/!MOC-计算机科学知识地图.md",
-    "01-计算机科学体系/操作系统/macos/nvm.md",
     "00-前端/!数据库.base",
     "000-JavaScript(new)/未命名.base",
     "000-JavaScript(new)/数据库.base",
