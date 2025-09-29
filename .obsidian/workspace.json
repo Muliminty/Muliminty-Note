@@ -11,10 +11,14 @@
             "id": "43d21b5a34fb7ac5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "README"
             }
           }
         ]
@@ -240,8 +244,9 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "43d21b5a34fb7ac5",
   "lastOpenFiles": [
+    "README.md",
     "xx-归档/xxx-快捷目录/macos 虚拟机.md",
     "xx-归档/xxx-快捷目录/快捷备忘.md",
     "xx-归档/xxx-快捷目录/linux相关技巧.md",
@@ -287,7 +292,6 @@
     "xx-归档/碎片整理/Z-归档/小技巧/浏览器使用技巧/一键截图.md",
     "xx-归档/碎片整理/Z-归档/小技巧/博客园/主题备份3.md",
     "xx-归档/碎片整理/Z-归档/小技巧/博客园/主题备份2.md",
-    "xx-归档/碎片整理/Z-归档/小技巧/博客园/主题备份.md",
     "xx-归档/00-前端/00-核心/JavaScript/知识图谱.canvas",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名.canvas",
