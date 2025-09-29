@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c270e074c7ee36b1",
+        "id": "d438ef87a3f48382",
         "type": "tabs",
         "children": [
           {
-            "id": "a12f29b67fcaebf0",
+            "id": "8a252e33c598af4b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "xx-草稿/js/文件夹这样整理.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "文件夹这样整理"
+              "title": "新标签页"
             }
           }
         ]
@@ -244,23 +240,23 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "a12f29b67fcaebf0",
+  "active": "8a252e33c598af4b",
   "lastOpenFiles": [
+    "00-前端体系/02-javascript/!MOC-javascript.md",
+    "00-前端体系/!MOC-前端体系.md",
+    "xx-草稿/js/文件夹这样整理.md",
     "xx-草稿/js/JavaScript 知识体系 2.0.md",
     "xx-草稿/js/JavaScript 知识体系范式.md",
     "xx-草稿/js/MOC 示例文件内容.md",
     "xx-草稿/📂 前端知识体系 Obsidian 目录模板.md",
-    "xx-草稿/js/文件夹这样整理.md",
     "xx-草稿/MOC 示例文件内容.md",
     "xx-草稿/js/全局导航-MOC.md",
     "xx-草稿/JavaScript 知识体系范式.md",
     "xx-草稿/js",
-    "00-前端体系/!MOC-前端体系.md",
     "xx-草稿/文件夹这样整理.md",
     "xx-草稿/全局导航-MOC.md",
     "xx-草稿/JavaScript 知识体系 2.0.md",
     "xx-草稿",
-    "00-前端体系/02-javascript/!MOC-javascript.md",
     "00-前端体系/02-javascript",
     "00-前端体系/00-javascript/xx-草稿/文件夹这样整理.md",
     "00-前端体系/00-javascript/xx-草稿/全局导航-MOC.md",

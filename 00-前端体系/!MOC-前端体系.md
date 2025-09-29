@@ -26,7 +26,7 @@
 - [[性能与关键渲染路径]]  
 
 ### JavaScript / TypeScript
-- [!MOC-javascript](00-前端体系/02-javascript/!MOC-javascript.md)
+- [!MOC-javascript](../00-前端体系/02-javascript/!MOC-javascript.md)
 - [[TypeScript-MOC]]  
 - [[编译时类型设计]]  
 - [[运行时类型保护与模式]]  
