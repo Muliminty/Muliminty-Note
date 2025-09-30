@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d438ef87a3f48382",
+        "id": "423e0d311e4d29c1",
         "type": "tabs",
         "children": [
           {
-            "id": "8a252e33c598af4b",
+            "id": "7e199ac877248564",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -244,11 +244,17 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "8a252e33c598af4b",
+  "active": "7e199ac877248564",
   "lastOpenFiles": [
-    "xx-草稿/js/ECMAScript 规范总体结构.md",
+    "00-前端体系/02-javascript/从语法、语义到运行时.md",
+    "00-前端体系/02-javascript/体系/从语法、语义到运行时.md",
+    "00-前端体系/02-javascript/体系",
     "00-前端体系/02-javascript/!MOC-javascript.md",
+    "xx-草稿/js/ECMAScript 规范总体结构.md",
+    "00-前端体系/02-javascript/js 体系.md",
     "00-前端体系/!MOC-前端体系.md",
+    "00-经验技巧/!MOC-经验技巧.md",
+    "README.md",
     "xx-草稿/js/文件夹这样整理.md",
     "xx-草稿/js/JavaScript 知识体系 2.0.md",
     "xx-草稿/js/JavaScript 知识体系范式.md",
@@ -272,16 +278,10 @@
     "00-前端体系/00-javascript/!MOC-javascript.md",
     "00-前端体系/00-javascript",
     "00-前端体系/javaScript/xx-草稿/文件夹这样整理.md",
-    "00-前端体系/javaScript/xx-草稿/全局导航-MOC.md",
-    "00-前端体系/javaScript/xx-草稿/MOC 示例文件内容.md",
-    "00-前端体系/javaScript/xx-草稿/JavaScript 知识体系范式.md",
-    "00-前端体系/javaScript/xx-草稿/JavaScript 知识体系 2.0.md",
     "00-前端体系/javaScript/xx-草稿",
-    "00-前端体系/javaScript/!MOC-javascript.md",
     "00-前端体系/javaScript",
     "00-前端体系/JavaScript知识体系/xx-草稿",
     "00-前端体系/JavaScript知识体系",
-    "xx-草稿/1",
     "00-前端体系/附件/Pasted image 20250929165559.png",
     "碎片整理/小记/附件/Pasted image 20250214170620.png",
     "碎片整理/小记/附件/Pasted image 20250214170603.png",
