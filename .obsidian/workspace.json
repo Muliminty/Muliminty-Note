@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端体系/02-javascript/体系/从语法、语义到运行时.md",
+                "file": "00-前端体系/02-javascript/!MOC-javascript.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "从语法、语义到运行时"
+              "title": "!MOC-javascript"
             }
           }
         ]
@@ -246,13 +246,13 @@
   },
   "active": "7e199ac877248564",
   "lastOpenFiles": [
+    "00-前端体系/!MOC-前端体系.md",
     "00-前端体系/02-javascript/!MOC-javascript.md",
-    "00-前端体系/02-javascript/从语法、语义到运行时.md",
     "00-前端体系/02-javascript/体系/从语法、语义到运行时.md",
+    "00-前端体系/02-javascript/从语法、语义到运行时.md",
     "00-前端体系/02-javascript/体系",
     "xx-草稿/js/ECMAScript 规范总体结构.md",
     "00-前端体系/02-javascript/js 体系.md",
-    "00-前端体系/!MOC-前端体系.md",
     "00-经验技巧/!MOC-经验技巧.md",
     "README.md",
     "xx-草稿/js/文件夹这样整理.md",
