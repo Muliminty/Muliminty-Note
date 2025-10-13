@@ -48,7 +48,11 @@
     "xx-草稿/未命名": "xx-草稿_未命名.json",
     "xx-草稿/js": "xx-草稿_js.json",
     "xx-草稿/js/未命名.md": "xx-草稿_js_未命名.md.json",
-    "xx-草稿/js/ECMAScript 规范总体结构.md": "xx-草稿_js_ecmascript_规范总体结构.md.json"
+    "xx-草稿/js/ECMAScript 规范总体结构.md": "xx-草稿_js_ecmascript_规范总体结构.md.json",
+    "03-服务端/未命名": "03-服务端_未命名.json",
+    "03-服务端/部署": "03-服务端_部署.json",
+    "03-服务端/部署/未命名.md": "03-服务端_部署_未命名.md.json",
+    "03-服务端/部署/腾讯云部署(ai.md": "03-服务端_部署_腾讯云部署(ai.md.json"
   },
-  "lastUpdated": 1759138280460
+  "lastUpdated": 1760324782258
 }

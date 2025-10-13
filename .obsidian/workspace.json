@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "423e0d311e4d29c1",
+        "id": "b6838cc19d0e1784",
         "type": "tabs",
         "children": [
           {
-            "id": "7e199ac877248564",
+            "id": "84e122e053fb09f7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-前端体系/02-javascript/!MOC-javascript.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "!MOC-javascript"
+              "title": "新标签页"
             }
           }
         ]
@@ -244,16 +240,20 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "7e199ac877248564",
+  "active": "b76d5d4c5f29b876",
   "lastOpenFiles": [
-    "00-前端体系/!MOC-前端体系.md",
+    "03-服务端/部署/腾讯云部署(ai.md",
+    "03-服务端/!MOC-服务端.md",
+    "03-服务端/部署",
+    "02-代码管理/!MOC-代码管理.md",
+    "00-经验技巧/!MOC-经验技巧.md",
     "00-前端体系/02-javascript/!MOC-javascript.md",
     "00-前端体系/02-javascript/体系/从语法、语义到运行时.md",
+    "00-前端体系/!MOC-前端体系.md",
     "00-前端体系/02-javascript/从语法、语义到运行时.md",
     "00-前端体系/02-javascript/体系",
     "xx-草稿/js/ECMAScript 规范总体结构.md",
     "00-前端体系/02-javascript/js 体系.md",
-    "00-经验技巧/!MOC-经验技巧.md",
     "README.md",
     "xx-草稿/js/文件夹这样整理.md",
     "xx-草稿/js/JavaScript 知识体系 2.0.md",
@@ -273,15 +273,11 @@
     "00-前端体系/00-javascript/xx-草稿/全局导航-MOC.md",
     "00-前端体系/00-javascript/xx-草稿/MOC 示例文件内容.md",
     "00-前端体系/00-javascript/xx-草稿/JavaScript 知识体系范式.md",
-    "00-前端体系/00-javascript/xx-草稿/JavaScript 知识体系 2.0.md",
     "00-前端体系/00-javascript/xx-草稿",
-    "00-前端体系/00-javascript/!MOC-javascript.md",
     "00-前端体系/00-javascript",
-    "00-前端体系/javaScript/xx-草稿/文件夹这样整理.md",
     "00-前端体系/javaScript/xx-草稿",
     "00-前端体系/javaScript",
     "00-前端体系/JavaScript知识体系/xx-草稿",
-    "00-前端体系/JavaScript知识体系",
     "00-前端体系/附件/Pasted image 20250929165559.png",
     "碎片整理/小记/附件/Pasted image 20250214170620.png",
     "碎片整理/小记/附件/Pasted image 20250214170603.png",
