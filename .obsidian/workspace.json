@@ -11,14 +11,14 @@
             "id": "5560e071c2cf420d",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "markdown",
               "state": {
-                "url": "https://nginx.mosong.cc/guide/nginx_architecture.html",
-                "title": "Nginx源码架构分析 | Nginx 教程",
-                "mode": "webview"
+                "file": "00-经验技巧/!MOC-经验技巧.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "globe-2",
-              "title": "Nginx源码架构分析 | Nginx 教程"
+              "icon": "lucide-file",
+              "title": "!MOC-经验技巧"
             }
           }
         ]
@@ -246,6 +246,9 @@
   },
   "active": "5560e071c2cf420d",
   "lastOpenFiles": [
+    "00-经验技巧/收集箱/apng-js.md",
+    "00-经验技巧/!MOC-经验技巧.md",
+    "00-经验技巧/收集箱",
     "03-服务端/nginx/!MOC-nginx.md.md",
     "书签整理.md",
     "03-服务端/!MOC-服务端.md",
@@ -266,12 +269,10 @@
     "02-代码管理",
     "01-计算机基础/!MOC-计算机基础.md",
     "01-计算机基础",
-    "00-经验技巧/!MOC-经验技巧.md",
     "00-经验技巧",
     "00-前端体系/02-javascript/体系/从语法、语义到运行时.md",
     "00-前端体系/02-javascript/体系",
     "00-前端体系/02-javascript/!MOC-javascript.md",
-    "00-前端体系/02-javascript",
     "00-前端体系/!MOC-前端体系.md",
     "项目灵感/云剪切板.md",
     "碎片整理/读书笔记/透视 HTTP 协议/02 - HTTP是什么？HTTP又不是什么？.md",
@@ -291,7 +292,6 @@
     "碎片整理/小记/运维：完整流程：Vite + Nginx + Docker 部署.md",
     "碎片整理/小记/队列来控制并发任务.md",
     "碎片整理/小记/运维：Dockerfile每个关键词的意义.md",
-    "碎片整理/小记/草稿.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名.canvas",
     "xx-归档/00-前端/00-核心/JavaScript/知识图谱.canvas",

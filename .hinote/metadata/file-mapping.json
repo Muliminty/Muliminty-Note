@@ -55,7 +55,11 @@
     "03-服务端/部署/腾讯云部署(ai.md": "03-服务端_部署_腾讯云部署(ai.md.json",
     "03-服务端/nginx": "03-服务端_nginx.json",
     "03-服务端/nginx/未命名.md": "03-服务端_nginx_未命名.md.json",
-    "03-服务端/nginx/!MOC-nginx.md.md": "03-服务端_nginx_!moc-nginx.md.md.json"
+    "03-服务端/nginx/!MOC-nginx.md.md": "03-服务端_nginx_!moc-nginx.md.md.json",
+    "00-经验技巧/未命名": "00-经验技巧_未命名.json",
+    "00-经验技巧/收集箱": "00-经验技巧_收集箱.json",
+    "00-经验技巧/收集箱/未命名.md": "00-经验技巧_收集箱_未命名.md.json",
+    "00-经验技巧/收集箱/apng-js.md": "00-经验技巧_收集箱_apng-js.md.json"
   },
-  "lastUpdated": 1760403814869
+  "lastUpdated": 1760493309957
 }
