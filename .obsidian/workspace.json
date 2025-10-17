@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b6838cc19d0e1784",
+        "id": "2c6626ebc22b1e98",
         "type": "tabs",
         "children": [
           {
-            "id": "5560e071c2cf420d",
+            "id": "dee1567f3ee456c0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-经验技巧/!MOC-经验技巧.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "!MOC-经验技巧"
+              "title": "新标签页"
             }
           }
         ]
@@ -244,13 +240,13 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "5560e071c2cf420d",
+  "active": "dee1567f3ee456c0",
   "lastOpenFiles": [
+    "书签整理.md",
     "00-经验技巧/收集箱/apng-js.md",
     "00-经验技巧/!MOC-经验技巧.md",
     "00-经验技巧/收集箱",
     "03-服务端/nginx/!MOC-nginx.md.md",
-    "书签整理.md",
     "03-服务端/!MOC-服务端.md",
     "03-服务端/nginx",
     "02-代码管理/!MOC-代码管理.md",
