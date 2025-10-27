@@ -8,23 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "70468dc8a6548705",
+            "id": "dfb21f648ebbbe02",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "webviewer",
               "state": {
-                "file": "书签整理.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "url": "https://freegeektime.com/100039701/164312/",
+                "title": "01 | delete 0：JavaScript中到底有什么是可以销毁的 - 极客时间已完结课程限时免费阅读",
+                "mode": "webview"
               },
-              "icon": "lucide-trello",
-              "title": "书签整理"
+              "icon": "globe-2",
+              "title": "01 | delete 0：JavaScript中到底有什么是可以销毁的 - 极客时间已完结课程限时免费阅读"
             }
           }
         ]
@@ -134,6 +128,20 @@
             }
           },
           {
+            "id": "19930c9e330ea194",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://freegeektime.com/posts/100039701/",
+                "title": "JavaScript 核心原理解析 - 极客时间已完结课程限时免费阅读",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "JavaScript 核心原理解析 - 极客时间已完结课程限时免费阅读"
+            }
+          },
+          {
             "id": "926de4536f5b42e3",
             "type": "leaf",
             "state": {
@@ -229,8 +237,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5,
-    "collapsed": true
+    "width": 387.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,7 +257,7 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "70468dc8a6548705",
+  "active": "dfb21f648ebbbe02",
   "lastOpenFiles": [
     "书签整理.md",
     "README.md",
