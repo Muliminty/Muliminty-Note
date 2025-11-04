@@ -51,7 +51,7 @@
 
 ### 兼容性问题
 
-- 待补充
+- [iOS 动图模糊问题完整解决方案](收集箱/iOS_GIF_Blur_Solution.md) — iOS Safari 中 GIF 动图在 opacity 过渡时的模糊问题分析与解决
 
 ---
 
