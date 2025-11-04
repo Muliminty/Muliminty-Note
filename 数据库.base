@@ -1,0 +1,24 @@
+filters:
+  and:
+    - file.basename.startsWith("!MOC")
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.basename.startsWith("!")
+    order:
+      - file.name
+      - file.backlinks
+      - file.path
+      - file.folder
+    sort:
+      - property: file.name
+        direction: DESC
+      - property: file.basename
+        direction: ASC
+  - type: cards
+    name: 视图
+    order:
+      - file.name
+      - file.path
