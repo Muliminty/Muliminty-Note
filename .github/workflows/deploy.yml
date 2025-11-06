@@ -1,5 +1,11 @@
 name: Deploy Quartz site to GitHub Pages
 
+# 使用说明：
+# 1. 在 GitHub 仓库 Settings → Pages → Source 中选择 "GitHub Actions"
+# 2. 这样会使用此自定义工作流进行构建和部署
+# 3. 如果选择 "Deploy from a branch"，GitHub 会使用默认的 pages-build-deployment 工作流
+# 4. 两个工作流不能同时使用，必须在 GitHub Pages 设置中选择一个
+
 on:
   push:
     branches:
@@ -13,7 +19,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true  # 取消正在进行的部署，避免冲突
 
 jobs:
   build:
@@ -27,6 +33,8 @@ jobs:
           node-version: 20
       - name: Install Dependencies
         run: npm ci
+      - name: Disable CustomOgImages plugin
+        run: node scripts/disable-og.js
       - name: Verify Configuration
         run: |
           echo "Checking configuration files..."
