@@ -1,5 +1,6 @@
 import { QuartzConfig } from "quartz/config"
 import * as Plugin from "quartz/plugins"
+import * as Shared from "./quartz.layout"
 
 /**
  * Quartz 4.0 Configuration
@@ -70,7 +71,16 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtml: true }),
+      Plugin.ObsidianFlavoredMarkdown({ 
+        enableInHtml: true,
+        comments: true,
+        highlight: true,
+        wikilinks: true,
+        callouts: true,
+        mermaid: true,
+        parseTags: true,
+        enableLatex: true,
+      }),
       Plugin.GitHubFlavoredMarkdown({
         enableHardLineBreaks: true,
         enableTaskList: true,
@@ -107,6 +117,11 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.NotFoundPage(),
     ],
+  },
+  layout: {
+    sharedPageComponents: Shared.sharedPageComponents,
+    defaultContentPageLayout: Shared.defaultContentPageLayout,
+    defaultListPageLayout: Shared.defaultListPageLayout,
   },
 }
 
