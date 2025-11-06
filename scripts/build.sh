@@ -1,5 +1,5 @@
 #!/bin/bash
-# Quartz 构建脚本，自动修复图片路径
+# Quartz 构建脚本，自动修复图片路径和 Markdown 链接
 
 echo "Building Quartz site..."
 npx quartz build -d .

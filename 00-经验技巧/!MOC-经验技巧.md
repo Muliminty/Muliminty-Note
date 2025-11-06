@@ -15,7 +15,7 @@
 
 ### JavaScript 库
 
-- [apng-js](收集箱/apng-js.md) — 用于在浏览器中解析并播放 APNG 动画
+- [apng-js](./收集箱/apng-js.md) — 用于在浏览器中解析并播放 APNG 动画
 
 ### 实用工具
 
@@ -51,7 +51,7 @@
 
 ### 兼容性问题
 
-- [iOS 动图模糊问题完整解决方案](收集箱/iOS_GIF_Blur_Solution.md) — iOS Safari 中 GIF 动图在 opacity 过渡时的模糊问题分析与解决
+- [iOS 动图模糊问题完整解决方案](./收集箱/iOS_GIF_Blur_Solution.md) — iOS Safari 中 GIF 动图在 opacity 过渡时的模糊问题分析与解决
 
 ---
 
