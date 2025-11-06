@@ -11,10 +11,28 @@
             "id": "42e0065130c3a792",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00-前端体系/状态管理/Redux-Saga.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Redux-Saga"
+            }
+          },
+          {
+            "id": "fddad833f9523355",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://cactus-proj.github.io/The-Mythical-Man-Month-zh/ch6.html",
+                "title": "第 6 章 贯彻执行（Passing the Word） | 《人月神话》中文版",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "第 6 章 贯彻执行（Passing the Word） | 《人月神话》中文版"
             }
           }
         ]
@@ -115,12 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "00-前端体系/状态管理/Redux-Saga.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Redux-Saga 的大纲"
             }
           },
           {
@@ -218,7 +237,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 337.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,15 +259,17 @@
   },
   "active": "42e0065130c3a792",
   "lastOpenFiles": [
+    "00-前端体系/!MOC-前端体系.md",
+    "00-前端体系/状态管理/Redux.md",
+    "00-前端体系/状态管理/!MOC-状态管理.md",
+    "书签整理.md",
     "数据库.base",
     "00-前端体系/02-javascript/!MOC-javascript.md",
-    "00-前端体系/!MOC-前端体系.md",
     "README.md",
     "03-服务端/!MOC-服务端.md",
     "02-代码管理/!MOC-代码管理.md",
     "00-经验技巧/!MOC-经验技巧.md",
     "01-计算机基础/!MOC-计算机基础.md",
-    "书签整理.md",
     "xx-草稿/📂 前端知识体系 Obsidian 目录模板.md",
     "03-服务端/nginx/!MOC-nginx.md.md",
     "00-经验技巧/收集箱/apng-js.md",
@@ -284,7 +305,6 @@
     "碎片整理/小记/附件/Pasted image 20250214170127.png",
     "碎片整理/小记/附件/Pasted image 20250214170053.png",
     "碎片整理/小记/附件/Pasted image 20250209150004.png",
-    "碎片整理/小记/运维：完整流程：Vite + Nginx + Docker 部署.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名.canvas",
     "xx-归档/00-前端/00-核心/JavaScript/知识图谱.canvas",
