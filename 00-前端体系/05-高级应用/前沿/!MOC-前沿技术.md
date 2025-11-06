@@ -1,15 +1,17 @@
 # 前沿技术 MOC
 
 > 前端前沿技术，包括 WebAssembly、边缘计算、服务端渲染等。
+> 
+> **学习路径**：前沿技术是前端技术的最新发展方向，需要掌握前端基础（[JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md)）、前端框架（[React](../../02-框架进阶/React/!MOC-React.md)）和 [网络与传输](../网络与传输/!MOC-网络与传输.md) 基础。
 
 ---
 
 ## 📚 核心主题
 
-- [WebAssembly](./WebAssembly.md) — WebAssembly 技术
-- [Edge Computing / Functions at Edge](./Edge-Computing.md) — 边缘计算
-- [Server Components / SSR / ISR](./Server-Components-SSR-ISR.md) — 服务端渲染
-- [GraphQL进阶（订阅/性能）](./GraphQL进阶.md) — GraphQL 高级应用
+- [WebAssembly](./WebAssembly.md) — WebAssembly 技术（与 [JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md) 配合使用）
+- [Edge Computing / Functions at Edge](./Edge-Computing.md) — 边缘计算（与 [部署与发布](../部署与发布/!MOC-部署与发布.md) 相关）
+- [Server Components / SSR / ISR](./Server-Components-SSR-ISR.md) — 服务端渲染（配合 [React](../../02-框架进阶/React/!MOC-React.md) 使用，详见 [网络与传输](../网络与传输/!MOC-网络与传输.md)）
+- [GraphQL进阶（订阅/性能）](./GraphQL进阶.md) — GraphQL 高级应用（详见 [网络与传输 - GraphQL](../网络与传输/REST-GraphQL-Streaming.md)）
 
 ---
 
@@ -35,9 +37,21 @@
 
 ### GraphQL
 - 订阅机制
-- 性能优化
-- 缓存策略
+- 性能优化（详见 [性能优化 MOC](../../04-质量保障/性能/!MOC-性能.md)）
+- 缓存策略（详见 [网络与传输 - 缓存策略](../网络与传输/缓存策略.md)）
 - 最佳实践
+
+---
+
+## 📝 学习建议
+
+1. **前置知识**：需要掌握前端基础（[JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md)）和前端框架（[React](../../02-框架进阶/React/!MOC-React.md)）
+2. **学习顺序**：基础 → 框架 → 网络基础 → 前沿技术
+3. **相关主题**：
+   - [网络与传输](../网络与传输/!MOC-网络与传输.md)：GraphQL、SSR 等与网络相关
+   - [性能优化](../../04-质量保障/性能/!MOC-性能.md)：前沿技术通常关注性能
+   - [部署与发布](../部署与发布/!MOC-部署与发布.md)：边缘计算与部署相关
+4. **实践应用**：前沿技术需要根据项目需求选择，关注技术成熟度和团队能力
 
 ---
 

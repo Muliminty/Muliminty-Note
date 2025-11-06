@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端体系/!MOC-前端体系.md",
+                "file": "00-前端体系/02-框架进阶/React/!MOC-React.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!MOC-前端体系"
+              "title": "!MOC-React"
             }
           },
           {
@@ -133,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-前端体系/!MOC-前端体系.md",
+                "file": "00-前端体系/02-框架进阶/React/!MOC-React.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "!MOC-前端体系 的大纲"
+              "title": "!MOC-React 的大纲"
             }
           },
           {
@@ -257,14 +257,19 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "42e0065130c3a792",
   "lastOpenFiles": [
+    "00-前端体系/!MOC-前端体系.md",
+    "00-前端体系/目录结构调整说明.md",
+    "00-前端体系/目录结构规划.md",
+    "00-前端体系/MOC使用说明.md",
+    "00-前端体系/MOC文件创建清单.md",
+    "00-前端体系/README.md",
     "00-前端体系/05-高级应用/README.md",
     "00-前端体系/04-质量保障/README.md",
     "00-前端体系/03-工程化实践/README.md",
     "00-前端体系/02-框架进阶/README.md",
     "00-前端体系/01-基础入门/README.md",
-    "00-前端体系/MOC文件创建清单.md",
     "00-前端体系/01-基础入门/JavaScript/体系/README.md",
     "00-前端体系/02-框架进阶/状态管理/05-实践与最佳实践/README.md",
     "00-前端体系/02-框架进阶/状态管理/04-通用方案/README.md",
@@ -280,11 +285,6 @@
     "00-前端体系/05-高级应用/网络与传输/!MOC-网络与传输.md",
     "00-前端体系/05-高级应用/架构/!MOC-架构.md",
     "00-前端体系/04-质量保障/无障碍/!MOC-无障碍.md",
-    "00-前端体系/04-质量保障/安全/!MOC-前端安全.md",
-    "00-前端体系/04-质量保障/性能/!MOC-性能.md",
-    "00-前端体系/04-质量保障/测试/!MOC-测试.md",
-    "00-前端体系/03-工程化实践/工程化/!MOC-工程化.md",
-    "00-前端体系/03-工程化实践/工具链与构建/!MOC-工具链与构建.md",
     "00-前端体系/02-框架进阶/状态管理/05-实践与最佳实践",
     "00-前端体系/02-框架进阶/状态管理/04-通用方案",
     "00-前端体系/02-框架进阶/状态管理/03-Vue生态",

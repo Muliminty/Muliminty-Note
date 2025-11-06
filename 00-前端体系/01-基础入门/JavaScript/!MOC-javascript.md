@@ -2,13 +2,15 @@
 
 这是 JavaScript 学习与整理的内容地图，按照 **语法（Syntax）→ 语义（Semantics）→ 运行时（Runtime）** 三个层次来组织，方便扩展与深化。
 
+> **学习路径**：JavaScript 是前端三大基础之一，与 [HTML](../HTML/!MOC-HTML.md) 和 [CSS](../CSS/!MOC-CSS.md) 配合使用。掌握 JavaScript 后，可以学习 [TypeScript](../TypeScript/!MOC-TypeScript.md) 或前端框架（[React](../../02-框架进阶/React/!MOC-React.md)、[Vue](../../02-框架进阶/Vue/!MOC-Vue.md) 等）。
+
 ---
 
 ## 体系整理
 
 主线笔记（串联语法、语义到运行时的脉络）：
 
-+ [从语法、语义到运行时](../../00-前端体系/02-javascript/体系/从语法、语义到运行时.md)
++ [从语法、语义到运行时](./体系/从语法、语义到运行时.md)
 ---
 
 ## 一、语法（Syntax）
@@ -169,10 +171,22 @@ JavaScript 程序执行时的环境与机制。
 
 ### 3. 工具与生态
 
-* 包管理：NPM / Yarn / PNPM
-* 编译与构建：Babel / Webpack / Vite / Rollup
-* Lint & Format：ESLint / Prettier
-* 测试框架：Jest / Mocha / Vitest
+* 包管理：NPM / Yarn / PNPM（详见 [包管理](../../03-工程化实践/工具链与构建/包管理与版本策略.md)）
+* 编译与构建：Babel / Webpack / Vite / Rollup（详见 [工具链与构建 MOC](../../03-工程化实践/工具链与构建/!MOC-工具链与构建.md)）
+* Lint & Format：ESLint / Prettier（详见 [代码规范](../../03-工程化实践/工程化/代码规范.md)）
+* 测试框架：Jest / Mocha / Vitest（详见 [测试 MOC](../../04-质量保障/测试/!MOC-测试.md)）
+
+---
+
+## 📝 学习建议
+
+1. **前置知识**：需要先掌握 [HTML](../HTML/!MOC-HTML.md) 和 [CSS](../CSS/!MOC-CSS.md) 基础
+2. **学习顺序**：HTML → CSS → JavaScript → [TypeScript](../../02-框架进阶/TypeScript/!MOC-TypeScript.md) → 前端框架
+3. **进阶方向**：
+   - 学习 [TypeScript](../../02-框架进阶/TypeScript/!MOC-TypeScript.md) 增强类型安全
+   - 学习前端框架：[React](../../02-框架进阶/React/!MOC-React.md) 或 [Vue](../../02-框架进阶/Vue/!MOC-Vue.md)
+   - 学习 [工程化工具](../../03-工程化实践/工具链与构建/!MOC-工具链与构建.md) 提升开发效率
+4. **实践应用**：JavaScript 操作 DOM（HTML）和样式（CSS），实现页面交互
 
 ---
 
