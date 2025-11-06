@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端体系/状态管理/Redux-Saga.md",
+                "file": "00-前端体系/!MOC-前端体系.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Redux-Saga"
+              "title": "!MOC-前端体系"
             }
           },
           {
@@ -133,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-前端体系/状态管理/Redux-Saga.md",
+                "file": "00-前端体系/!MOC-前端体系.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Redux-Saga 的大纲"
+              "title": "!MOC-前端体系 的大纲"
             }
           },
           {
@@ -259,12 +259,25 @@
   },
   "active": "42e0065130c3a792",
   "lastOpenFiles": [
+    "00-前端体系/MOC使用说明.md",
     "00-前端体系/!MOC-前端体系.md",
-    "00-前端体系/状态管理/Redux.md",
+    "00-前端体系/优化总结.md",
+    "00-前端体系/目录结构规划.md",
+    "00-前端体系/状态管理/README.md",
     "00-前端体系/状态管理/!MOC-状态管理.md",
+    "00-前端体系/README.md",
+    "00-前端体系/02-javascript/!MOC-javascript.md",
+    "00-前端体系/状态管理/Redux-Saga.md",
+    "00-前端体系/状态管理/02-React生态/Redux-Saga.md",
+    "00-前端体系/状态管理/02-React生态/Redux.md",
+    "00-前端体系/状态管理/05-实践与最佳实践",
+    "00-前端体系/状态管理/04-通用方案",
+    "00-前端体系/状态管理/03-Vue生态",
+    "00-前端体系/状态管理/02-React生态",
+    "00-前端体系/状态管理/01-核心概念",
+    "00-前端体系/状态管理/Redux.md",
     "书签整理.md",
     "数据库.base",
-    "00-前端体系/02-javascript/!MOC-javascript.md",
     "README.md",
     "03-服务端/!MOC-服务端.md",
     "02-代码管理/!MOC-代码管理.md",
@@ -280,21 +293,8 @@
     "xx-草稿/js/MOC 示例文件内容.md",
     "xx-草稿/js/JavaScript 知识体系范式.md",
     "xx-草稿/js/JavaScript 知识体系 2.0.md",
-    "xx-草稿/js/ECMAScript 规范总体结构.md",
     "xx-草稿/js",
     "xx-草稿",
-    "03-服务端/部署/腾讯云部署(ai.md",
-    "03-服务端/部署",
-    "03-服务端",
-    "02-代码管理",
-    "01-计算机基础",
-    "00-经验技巧",
-    "00-前端体系/02-javascript/体系/从语法、语义到运行时.md",
-    "项目灵感/云剪切板.md",
-    "碎片整理/读书笔记/透视 HTTP 协议/02 - HTTP是什么？HTTP又不是什么？.md",
-    "碎片整理/读书笔记/透视 HTTP 协议/01 - 时势与英雄：HTTP的前世今生.md",
-    "碎片整理/读书笔记/趣谈 Linux 操作系统/README.md",
-    "碎片整理/脚手架开发.md",
     "碎片整理/小记/附件/Pasted image 20250214170620.png",
     "碎片整理/小记/附件/Pasted image 20250214170603.png",
     "碎片整理/小记/附件/Pasted image 20250214170413.png",
