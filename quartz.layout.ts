@@ -108,3 +108,12 @@ export const defaultContentPageLayout: PageLayout = {
 
 export const defaultListPageLayout: PageLayout = defaultContentPageLayout
 
+// 404 页面布局（自定义）
+export const notFoundPageLayout: PageLayout = {
+  beforeBody: [
+    Component.ArticleTitle(),
+  ],
+  left: [],
+  right: [],
+}
+

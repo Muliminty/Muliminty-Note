@@ -1,0 +1,62 @@
+/* 自定义 404 页面样式 */
+.home-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--light);
+  background-color: var(--secondary);
+  border: 2px solid var(--secondary);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.home-button:hover {
+  background-color: var(--tertiary);
+  border-color: var(--tertiary);
+  color: var(--light);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+}
+
+.home-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 深色模式下的按钮样式 */
+@media (prefers-color-scheme: dark) {
+  .home-button {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: var(--light);
+  }
+  
+  .home-button:hover {
+    background-color: var(--tertiary);
+    border-color: var(--tertiary);
+  }
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .home-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .home-button-container {
+    margin: 2rem 0;
+  }
+}
+

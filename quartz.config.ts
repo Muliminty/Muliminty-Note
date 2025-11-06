@@ -120,6 +120,7 @@ const config: QuartzConfig = {
     sharedPageComponents: Shared.sharedPageComponents,
     defaultContentPageLayout: Shared.defaultContentPageLayout,
     defaultListPageLayout: Shared.defaultListPageLayout,
+    notFoundPageLayout: Shared.notFoundPageLayout,
   },
 }
 
