@@ -33,6 +33,8 @@ jobs:
           node-version: 20
       - name: Install Dependencies
         run: npm ci
+      - name: Normalize markdown links
+        run: npm run fix:links
       - name: Disable CustomOgImages plugin
         run: node scripts/disable-og.js
       - name: Verify Configuration

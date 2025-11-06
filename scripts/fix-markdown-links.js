@@ -26,18 +26,17 @@ function fixMarkdownLinks(dir) {
       let content = fs.readFileSync(filePath, 'utf8');
       const originalContent = content;
       
-      // 修复相对路径链接：将 [文本](路径/文件.md) 改为 [文本](./路径/文件.md)
+      // 1) 修复以 / 开头的绝对路径为相对路径： [文本](/路径/文件.md) -> [文本](路径/文件.md)
+      content = content.replace(/\((\/[^(\)]*\.md)\)/g, (m, p1) => `(${p1.replace(/^\//, '')})`)
+
+      // 2) 修复缺少 ./ 前缀的相对路径链接：将 [文本](路径/文件.md) 改为 [文本](./路径/文件.md)
       // 匹配模式：[文本](路径/文件.md)，但不匹配 [文本](./路径/文件.md) 或 [文本](../路径/文件.md) 或 [文本](#锚点)
-      content = content.replace(
-        /\[([^\]]+)\]\(([^./#][^)]*\.md)\)/g,
-        (match, text, linkPath) => {
-          // 如果链接路径不是以 ./ 或 ../ 或 # 开头，添加 ./
-          if (!linkPath.startsWith('./') && !linkPath.startsWith('../') && !linkPath.startsWith('#')) {
-            return `[${text}](./${linkPath})`;
-          }
-          return match;
+      content = content.replace(/\[([^\]]+)\]\(([^./#][^)]*\.md)\)/g, (match, text, linkPath) => {
+        if (!linkPath.startsWith('./') && !linkPath.startsWith('../') && !linkPath.startsWith('#')) {
+          return `[${text}](./${linkPath})`
         }
-      );
+        return match
+      })
       
       if (content !== originalContent) {
         fs.writeFileSync(filePath, content, 'utf8');
