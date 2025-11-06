@@ -33,6 +33,8 @@ jobs:
           node-version: 20
       - name: Install Dependencies
         run: npm ci
+      - name: Ensure quartz link
+        run: node scripts/ensure-link.js
       - name: Normalize markdown links
         run: npm run fix:links
       - name: Disable CustomOgImages plugin

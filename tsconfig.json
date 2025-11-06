@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext", "DOM", "DOM.Iterable"],
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "incremental": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "baseUrl": ".",
+    "paths": {
+      "quartz/plugins": ["./quartz/plugins"],
+      "quartz/plugins/*": ["./quartz/plugins/*"],
+      "quartz/components": ["./quartz/components"],
+      "quartz/components/*": ["./quartz/components/*"],
+      "quartz/cfg": ["./quartz/cfg"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", ".quartz-cache", "public"]
+}
+

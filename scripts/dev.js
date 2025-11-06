@@ -101,7 +101,8 @@ prepareQuartz()
 console.log('Starting Quartz development server...');
 const quartz = spawn('npx', ['quartz', 'build', '--serve', '--port', '4399', '-d', '.'], {
   stdio: 'inherit',
-  shell: true
+  shell: true,
+  env: { ...process.env, NODE_OPTIONS: '--preserve-symlinks' }
 });
 
 // 延迟启动文件监听，等待首次构建完成

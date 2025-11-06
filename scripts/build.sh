@@ -7,7 +7,11 @@ rm -rf .quartz-cache public
 echo "Ensuring quartz symlink exists..."
 [ -d quartz ] || ln -s node_modules/quartz/quartz quartz
 
+echo "Ensuring config shim exists..."
+node scripts/ensure-link.js
+
 echo "Building Quartz site..."
+export NODE_OPTIONS=--preserve-symlinks
 npx quartz build -d .
 
 if [ $? -eq 0 ]; then
