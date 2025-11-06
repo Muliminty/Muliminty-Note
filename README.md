@@ -232,10 +232,8 @@
 
 本笔记已部署到 GitHub Pages，支持 Obsidian 双链语法：
 
-- 📖 [在线访问地址](https://你的用户名.github.io/Muliminty-Note/)（部署后更新）
-- 🔗 [部署说明](./部署说明.md)
-- 🚀 [快速开始](./快速开始.md)
-- ⚙️ [配置说明](./配置说明.md)
+- 📖 [在线访问地址](https://muliminty.github.io/Muliminty-Note/)（部署后更新）
+- 📘 [完整部署指南](./部署指南.md) **← 推荐从这里开始**
 
 ### 特性
 

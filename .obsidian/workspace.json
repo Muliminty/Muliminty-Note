@@ -11,10 +11,14 @@
             "id": "67f07872dc2985c7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "README"
             }
           }
         ]
@@ -115,12 +119,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "README 的大纲"
             }
           },
           {
@@ -240,15 +245,17 @@
   },
   "active": "67f07872dc2985c7",
   "lastOpenFiles": [
+    "数据库.base",
+    "部署说明.md",
+    "快速开始.md",
+    "配置说明.md",
     "配置问题排查.md",
+    "部署指南.md",
     "03-服务端/04-部署与运维/静态网站部署/Quartz定制教程.md",
     "03-服务端/04-部署与运维/静态网站部署/GitHub-Pages部署指南.md",
     "03-服务端/04-部署与运维/静态网站部署",
-    "配置说明.md",
     "quartz.layout.ts",
     "安装依赖.sh",
-    "快速开始.md",
-    "部署说明.md",
     "quartz.config.ts",
     "package.json",
     "00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md",
@@ -256,7 +263,6 @@
     "xx-草稿/📂 前端知识体系 Obsidian 目录模板.md",
     "书籍/BrowserPrinciple-main/README.md",
     "00-前端体系/07-团队协作/运营/!MOC-运营.md",
-    "数据库.base",
     "README.md",
     "00-前端体系/01-基础入门/JavaScript/01-语言核心/变量声明.md",
     "03-服务端/04-部署与运维/云平台部署/腾讯云部署.md",
@@ -284,8 +290,6 @@
     "书籍/BrowserPrinciple-main/浏览器中的页面循环系统/宏任务和微任务：不是所有的任务都是一个待遇/index.md",
     "书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/index.md",
     "书籍/BrowserPrinciple-main/浏览器中的页面循环系统/async-await使用同步方式写异步代码/index.md",
-    "书籍/BrowserPrinciple-main/浏览器中的页面循环系统/Webapi：setTimeout是怎么实现的/index.md",
-    "书籍/BrowserPrinciple-main/浏览器中的页面循环系统/Webapi：XMLHttpRequest是怎么实现的/index.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名.canvas",
     "xx-归档/00-前端/00-核心/JavaScript/知识图谱.canvas",
