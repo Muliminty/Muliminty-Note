@@ -276,10 +276,12 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
      "version": "1.0.0",
      "description": "我的笔记",
      "scripts": {
-       "dev": "node scripts/dev.js",
+       "dev": "node scripts/ensure-link.js && node scripts/dev.js",
+       "prebuild": "node scripts/ensure-link.js && node scripts/fix-markdown-links.js",
        "build": "./scripts/build.sh",
-       "preview": "npx quartz build --serve --port 4399 -d . && node scripts/fix-image-paths.js",
-       "fix": "node scripts/fix-image-paths.js"
+       "preview": "node scripts/ensure-link.js && npx quartz build --serve --port 4399 -d . && node scripts/fix-image-paths.js",
+       "fix": "node scripts/fix-image-paths.js",
+       "fix:links": "node scripts/fix-markdown-links.js"
      },
      "dependencies": {
        "quartz": "github:jackyzha0/quartz#v4"
@@ -289,6 +291,10 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
      }
    }
    ```
+   
+   **重要说明**：
+   - `prebuild` 脚本会在构建前自动运行，确保符号链接正确并修复 Markdown 链接
+   - `dev` 和 `preview` 脚本会自动创建符号链接，无需手动创建
 
 3. **保存文件**
 
@@ -392,16 +398,315 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
 
 3. **保存文件**
 
-### 5.5 创建 `scripts/build.sh` 文件
+### 5.5 创建 `scripts/ensure-link.js` 文件
+
+1. **在 `scripts` 文件夹中创建新文件**，命名为 `ensure-link.js`
+
+2. **复制以下内容**：
+   ```javascript
+   #!/usr/bin/env node
+   const fs = require('fs')
+   const path = require('path')
+
+   // 使用相对路径（在 CI 环境中更可靠）
+   const projectRoot = path.resolve(__dirname, '..')
+   const symlinkPath = path.join(projectRoot, 'quartz')
+   const target = path.join(projectRoot, 'node_modules', 'quartz', 'quartz')
+   // 计算相对路径（相对于符号链接所在目录）
+   const relativeTarget = path.relative(path.dirname(symlinkPath), target)
+
+   // 检查目标目录是否存在
+   if (!fs.existsSync(target)) {
+     console.warn(`Target directory does not exist: ${target}`)
+     console.warn('Skipping symlink creation. This is normal if dependencies are not installed yet.')
+   } else {
+     // 检查符号链接是否存在
+     if (!fs.existsSync(symlinkPath)) {
+       // 符号链接不存在，创建它（使用相对路径）
+       try {
+         fs.symlinkSync(relativeTarget, symlinkPath, 'dir')
+         console.log('Created symlink: quartz -> node_modules/quartz/quartz')
+       } catch (e) {
+         // 如果失败，可能是因为文件已存在（race condition）
+         if (e.code !== 'EEXIST') {
+           console.warn('Ensure symlink failed:', e?.message)
+         }
+         // 不退出，继续执行其他操作
+       }
+     } else {
+       // 检查现有符号链接是否有效
+       try {
+         const linkStat = fs.lstatSync(symlinkPath)
+         if (linkStat.isSymbolicLink()) {
+           // 检查符号链接指向的路径
+           const currentTarget = fs.readlinkSync(symlinkPath)
+           // 如果指向绝对路径，需要重新创建为相对路径
+           if (path.isAbsolute(currentTarget)) {
+             console.warn('quartz symlink points to absolute path, recreating with relative path')
+             try {
+               // 强制删除旧的符号链接
+               if (fs.existsSync(symlinkPath)) {
+                 fs.unlinkSync(symlinkPath)
+               }
+               // 确保删除成功
+               if (fs.existsSync(symlinkPath)) {
+                 console.warn('Failed to remove old symlink, trying again...')
+                 // 尝试使用 rm -rf（如果可能）
+                 const { execSync } = require('child_process')
+                 try {
+                   execSync(`rm -rf "${symlinkPath}"`, { stdio: 'ignore' })
+                 } catch {}
+               }
+               // 创建新的符号链接
+               if (!fs.existsSync(symlinkPath)) {
+                 fs.symlinkSync(relativeTarget, symlinkPath, 'dir')
+                 console.log('Recreated symlink: quartz -> node_modules/quartz/quartz')
+               } else {
+                 console.warn('Cannot create symlink, old one still exists')
+               }
+             } catch (e2) {
+               console.warn('Failed to recreate symlink:', e2?.message)
+             }
+           } else {
+             // 验证符号链接指向的目标是否存在
+             let isValid = false
+             try {
+               const realPath = fs.realpathSync(symlinkPath)
+               if (fs.existsSync(realPath) && fs.existsSync(path.join(realPath, 'build.ts'))) {
+                 isValid = true
+                 console.log('quartz symlink is valid')
+               }
+             } catch (e) {
+               // 符号链接损坏或指向不存在的路径
+               console.warn('quartz symlink is broken or points to invalid location:', e?.message)
+             }
+             
+             // 如果无效，删除并重新创建
+             if (!isValid) {
+               try {
+                 if (fs.existsSync(symlinkPath)) {
+                   fs.unlinkSync(symlinkPath)
+                 }
+                 // 确保删除成功
+                 if (!fs.existsSync(symlinkPath)) {
+                   fs.symlinkSync(relativeTarget, symlinkPath, 'dir')
+                   console.log('Recreated symlink: quartz -> node_modules/quartz/quartz')
+                 }
+               } catch (e2) {
+                 console.warn('Failed to recreate symlink:', e2?.message)
+               }
+             }
+           }
+         } else {
+           // 存在但不是符号链接，由 build.sh 处理
+           console.warn('quartz exists but is not a symlink, will be handled by build.sh')
+         }
+       } catch (e) {
+         // 检查失败，可能是文件不存在或权限问题
+         if (e.code !== 'ENOENT') {
+           console.warn('Failed to check symlink:', e?.message)
+         }
+         // 不尝试重新创建，由 build.sh 处理
+       }
+     }
+   }
+
+   // Ensure node_modules/quartz/quartz.config.ts re-exports the project's root config
+   try {
+     const injected = path.join(__dirname, '..', 'node_modules', 'quartz', 'quartz.config.ts')
+     const targetDir = path.join(__dirname, '..', 'node_modules', 'quartz')
+     if (fs.existsSync(targetDir)) {
+       const content = 'export { default } from "../../quartz.config"\n'
+       fs.writeFileSync(injected, content, 'utf8')
+       console.log('Injected config shim:', injected)
+     }
+   } catch (e) {
+     console.warn('Inject config failed:', e?.message)
+   }
+
+   process.exit(0)
+   ```
+
+3. **保存文件**
+
+4. **说明**：这个脚本会自动创建和管理 `quartz` 符号链接，确保在本地和 CI 环境中都能正常工作。
+
+### 5.6 创建 `scripts/fix-markdown-links.js` 文件
+
+1. **在 `scripts` 文件夹中创建新文件**，命名为 `fix-markdown-links.js`
+
+2. **复制以下内容**：
+   ```javascript
+   #!/usr/bin/env node
+   /**
+    * 修复 Markdown 文件中的相对路径链接
+    * 将缺少 ./ 前缀的相对路径链接添加 ./ 前缀
+    * 例如：将 [链接](路径/文件.md) 改为 [链接](./路径/文件.md)
+    */
+
+   const fs = require('fs');
+   const path = require('path');
+
+   function fixMarkdownLinks(dir) {
+     const files = fs.readdirSync(dir);
+     let fixedCount = 0;
+     
+     for (const file of files) {
+       const filePath = path.join(dir, file);
+       
+       // 跳过某些目录（在 stat 之前检查，避免访问问题）
+       if (file.startsWith('.') || file === 'node_modules' || file === 'public' || file === 'scripts' || file === 'quartz') {
+         continue;
+       }
+       
+       let stat;
+       try {
+         stat = fs.statSync(filePath);
+       } catch (error) {
+         // 如果无法访问文件/目录（如损坏的符号链接），跳过它
+         console.warn(`Skipping inaccessible path: ${filePath} (${error.message})`);
+         continue;
+       }
+       
+       if (stat.isDirectory()) {
+         fixedCount += fixMarkdownLinks(filePath);
+       } else if (file.endsWith('.md')) {
+         let content = fs.readFileSync(filePath, 'utf8');
+         const originalContent = content;
+         
+         // 1) 修复以 / 开头的绝对路径为相对路径： [文本](/路径/文件.md) -> [文本](路径/文件.md)
+         content = content.replace(/\((\/[^(\)]*\.md)\)/g, (m, p1) => `(${p1.replace(/^\//, '')})`)
+
+         // 2) 修复缺少 ./ 前缀的相对路径链接：将 [文本](路径/文件.md) 改为 [文本](./路径/文件.md)
+         // 匹配模式：[文本](路径/文件.md)，但不匹配 [文本](./路径/文件.md) 或 [文本](../路径/文件.md) 或 [文本](#锚点)
+         content = content.replace(/\[([^\]]+)\]\(([^./#][^)]*\.md)\)/g, (match, text, linkPath) => {
+           if (!linkPath.startsWith('./') && !linkPath.startsWith('../') && !linkPath.startsWith('#')) {
+             return `[${text}](./${linkPath})`
+           }
+           return match
+         })
+         
+         if (content !== originalContent) {
+           fs.writeFileSync(filePath, content, 'utf8');
+           console.log(`Fixed links in: ${filePath}`);
+           fixedCount++;
+         }
+       }
+     }
+     
+     return fixedCount;
+   }
+
+   const rootDir = process.cwd();
+   console.log('Fixing markdown links in all .md files...');
+   const fixedCount = fixMarkdownLinks(rootDir);
+   console.log(`Done! Fixed ${fixedCount} file(s).`);
+   ```
+
+3. **保存文件**
+
+4. **说明**：这个脚本会在构建前自动修复 Markdown 文件中的链接路径，确保链接能正常工作。
+
+### 5.7 创建 `scripts/build.sh` 文件
 
 1. **在 `scripts` 文件夹中创建新文件**，命名为 `build.sh`
 
 2. **复制以下内容**：
    ```bash
    #!/bin/bash
-   # Quartz 构建脚本，自动修复图片路径
+   # Quartz 构建脚本，自动修复图片路径和 Markdown 链接
+
+   echo "Cleaning cache and output..."
+   rm -rf .quartz-cache public
+
+   echo "Ensuring quartz symlink exists..."
+   if [ ! -d node_modules/quartz/quartz ]; then
+     echo "Error: node_modules/quartz/quartz does not exist"
+     echo "Please run 'npm install' first"
+     exit 1
+   fi
+
+   # 使用相对路径创建符号链接（在 CI 环境中更可靠）
+   QUARTZ_TARGET="node_modules/quartz/quartz"
+
+   # 强制删除旧的 quartz（无论是符号链接还是目录）
+   if [ -e quartz ]; then
+     if [ -L quartz ]; then
+       LINK_TARGET=$(readlink quartz)
+       echo "Found existing symlink pointing to: $LINK_TARGET"
+       if [[ "$LINK_TARGET" == /* ]]; then
+         echo "Warning: quartz symlink points to absolute path, will recreate with relative path"
+       elif [ -d quartz ] && [ -f quartz/build.ts ]; then
+         echo "quartz symlink already exists and is valid"
+         # 符号链接有效，不需要重新创建
+         QUARTZ_VALID=true
+       else
+         echo "Warning: quartz symlink is broken, will recreate"
+       fi
+     else
+       echo "Warning: quartz exists but is not a symlink, will recreate"
+     fi
+     
+     # 如果需要重新创建，先删除旧的
+     if [ "${QUARTZ_VALID:-false}" != "true" ]; then
+       echo "Removing old quartz..."
+       rm -rf quartz
+       # 确保删除成功
+       if [ -e quartz ]; then
+         echo "Error: Failed to remove quartz"
+         exit 1
+       fi
+       echo "Creating new symlink..."
+       ln -s "$QUARTZ_TARGET" quartz
+       echo "Created quartz symlink"
+     fi
+   else
+     # 不存在，创建符号链接（使用相对路径）
+     echo "Creating quartz symlink..."
+     ln -s "$QUARTZ_TARGET" quartz
+     echo "Created quartz symlink"
+   fi
+
+   # 验证符号链接是否有效
+   echo "Verifying quartz symlink..."
+   if [ ! -L quartz ]; then
+     echo "Error: quartz is not a symlink"
+     exit 1
+   fi
+
+   LINK_TARGET=$(readlink quartz)
+   echo "Symlink target: $LINK_TARGET"
+
+   if [ ! -f quartz/build.ts ]; then
+     echo "Error: quartz symlink is invalid or build.ts not found"
+     echo "Symlink target: $LINK_TARGET"
+     echo "Expected target: $QUARTZ_TARGET"
+     echo "Current directory: $(pwd)"
+     echo "Checking if target exists:"
+     if [ -f "$QUARTZ_TARGET/build.ts" ]; then
+       echo "✓ Target build.ts exists at: $QUARTZ_TARGET/build.ts"
+       echo "But symlink cannot access it. This might be a path resolution issue."
+       echo "Trying to resolve symlink:"
+       if command -v realpath >/dev/null 2>&1; then
+         RESOLVED=$(realpath quartz 2>&1 || echo 'failed')
+       else
+         RESOLVED=$(readlink -f quartz 2>&1 || echo 'failed')
+       fi
+       echo "Resolved path: $RESOLVED"
+     else
+       echo "✗ Target build.ts not found at: $QUARTZ_TARGET/build.ts"
+       ls -la "$QUARTZ_TARGET" 2>&1 || echo "Target directory does not exist"
+     fi
+     exit 1
+   fi
+
+   echo "✓ quartz symlink is valid and build.ts exists"
+
+   echo "Ensuring config shim exists..."
+   node scripts/ensure-link.js
 
    echo "Building Quartz site..."
+   export NODE_OPTIONS=--preserve-symlinks
    npx quartz build -d .
 
    if [ $? -eq 0 ]; then
@@ -419,8 +724,12 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
 4. **设置执行权限**（Mac/Linux）：
    - 在终端中进入项目文件夹
    - 输入：`chmod +x scripts/build.sh`
+   
+   **Windows 系统**：
+   - 如果使用 Git Bash，也需要设置执行权限：`chmod +x scripts/build.sh`
+   - 如果使用 PowerShell，可能需要使用 `bash scripts/build.sh` 来运行
 
-### 5.6 创建 `scripts/dev.js` 文件
+### 5.8 创建 `scripts/dev.js` 文件
 
 1. **在 `scripts` 文件夹中创建新文件**，命名为 `dev.js`
 
@@ -527,7 +836,7 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
 
 3. **保存文件**
 
-### 5.7 创建 `scripts/disable-og.js` 文件
+### 5.9 创建 `scripts/disable-og.js` 文件
 
 1. **在 `scripts` 文件夹中创建新文件**，命名为 `disable-og.js`
 
@@ -578,7 +887,7 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
 
 3. **保存文件**
 
-### 5.8 创建 `quartz.config.ts` 文件
+### 5.10 创建 `quartz.config.ts` 文件
 
 1. **在项目文件夹根目录创建新文件**，命名为 `quartz.config.ts`
 
@@ -673,12 +982,9 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
            enableTaskList: true,
            enableSmartyPants: true,
          }),
-         Plugin.CrawlLinks({
-           markdownLinkResolution: "relative",
-         }),
+         Plugin.CrawlLinks({ markdownLinkResolution: "relative" }),
          Plugin.Description(),
          Plugin.Latex({ renderEngine: "katex" }),
-         Plugin.Mermaid(),
          Plugin.TableOfContents({
            minEntries: 1,
            maxDepth: 6,
@@ -699,10 +1005,10 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
            enableSiteMap: true,
            enableRSS: true,
          }),
-         Plugin.Search(),
          Plugin.Assets(),
          Plugin.Static(),
          Plugin.NotFoundPage(),
+         // Plugin.CustomOgImages(), // 暂时禁用，避免编码错误
        ],
      },
      layout: {
@@ -719,7 +1025,7 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
 
 4. **保存文件**
 
-### 5.9 创建 `quartz.layout.ts` 文件
+### 5.11 创建 `quartz.layout.ts` 文件
 
 1. **在项目文件夹根目录创建新文件**，命名为 `quartz.layout.ts`
 
@@ -808,8 +1114,10 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
 
    // 底部组件
    const footer: Component.ComponentId[] = [
-     Component.GitHubLink({
-       link: "https://github.com/yourname/my-notes", // 替换为你的仓库地址
+     Component.Footer({
+       links: {
+         "GitHub": "https://github.com/yourname/my-notes", // 替换为你的仓库地址
+       },
      }),
    ]
 
@@ -838,7 +1146,7 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
 
 4. **保存文件**
 
-### 5.10 创建 `index.md` 文件（首页）
+### 5.12 创建 `index.md` 文件（首页）
 
 1. **在项目文件夹根目录创建新文件**，命名为 `index.md`
 
@@ -859,7 +1167,7 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
 
 3. **保存文件**
 
-### 5.11 创建 `README.md` 文件
+### 5.13 创建 `README.md` 文件
 
 1. **在项目文件夹根目录创建新文件**，命名为 `README.md`
 
@@ -955,6 +1263,47 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
              node-version: 20
          - name: Install Dependencies
            run: npm ci
+         - name: Ensure quartz link
+           run: node scripts/ensure-link.js
+         - name: Verify quartz symlink
+           run: |
+             echo "Checking quartz symlink..."
+             if [ -L quartz ]; then
+               echo "✓ quartz is a symlink"
+               LINK_TARGET=$(readlink quartz)
+               echo "Symlink target: $LINK_TARGET"
+               # 检查是否指向绝对路径
+               if [[ "$LINK_TARGET" == /* ]]; then
+                 echo "⚠ Warning: symlink points to absolute path, will be fixed by build.sh"
+               else
+                 echo "✓ symlink uses relative path"
+               fi
+               # 尝试解析路径（使用 realpath 或 readlink -f）
+               if command -v realpath >/dev/null 2>&1; then
+                 RESOLVED=$(realpath quartz 2>/dev/null || echo 'unknown')
+               else
+                 RESOLVED=$(readlink -f quartz 2>/dev/null || echo 'unknown')
+               fi
+               echo "Resolved path: $RESOLVED"
+               if [ -f quartz/build.ts ]; then
+                 echo "✓ quartz/build.ts exists"
+               else
+                 echo "✗ quartz/build.ts not found"
+                 echo "This will be fixed by build.sh"
+               fi
+             elif [ -d quartz ]; then
+               echo "⚠ quartz exists but is not a symlink"
+               if [ -f quartz/build.ts ]; then
+                 echo "✓ quartz/build.ts exists (but not a symlink)"
+               else
+                 echo "✗ quartz/build.ts not found"
+                 exit 1
+               fi
+             else
+               echo "✗ quartz does not exist (will be created by build.sh)"
+             fi
+         - name: Normalize markdown links
+           run: npm run fix:links
          - name: Disable CustomOgImages plugin
            run: node scripts/disable-og.js
          - name: Verify Configuration
@@ -1005,16 +1354,21 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
    - 你会看到很多输出信息
    - 最后应该显示类似 `added 518 packages, and audited 519 packages`
 
-### 8.2 创建符号链接
+### 8.2 验证符号链接（可选）
 
-1. **在终端/命令行中输入以下命令**：
+**重要说明**：符号链接现在由脚本自动创建和管理，你**不需要手动创建**。
+
+1. **运行以下命令验证符号链接**（可选）：
    ```bash
-   ln -s node_modules/quartz/quartz quartz
+   node scripts/ensure-link.js
    ```
    
-   **注意**：
-   - **Windows 系统**：这个命令可能不工作，可以跳过这一步（Quartz 会自动处理）
-   - **Mac/Linux 系统**：输入这个命令
+   如果看到 `quartz symlink is valid` 或 `Created symlink`，说明符号链接已正确创建。
+
+2. **如果遇到问题**：
+   - 确保已经运行了 `npm install`
+   - 确保 `node_modules/quartz/quartz` 目录存在
+   - 脚本会自动处理符号链接的创建和修复
 
 ### 8.3 首次提交代码
 
@@ -1219,15 +1573,27 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
 - 确保图片在 `img/` 文件夹中
 - 确保图片路径正确（例如：`img/图片名.png`）
 - 确保已经运行了 `npm run build` 来修复图片路径
+- 检查构建日志，确保 `fix-image-paths.js` 脚本已运行
 
-### Q6: 如何自定义网站外观？
+### Q6: 符号链接相关错误怎么办？
+
+**A**: 
+- **错误信息**：`Could not resolve "./quartz/build.ts"` 或 `EEXIST: file already exists`
+- **原因**：符号链接创建失败或指向错误的路径
+- **解决方法**：
+  1. 运行 `node scripts/ensure-link.js` 来修复符号链接
+  2. 如果仍然失败，删除 `quartz` 文件夹（如果存在），然后重新运行脚本
+  3. 在 Windows 系统上，确保以管理员权限运行，或者使用 Git Bash
+  4. 脚本会自动检测并修复绝对路径的符号链接
+
+### Q7: 如何自定义网站外观？
 
 **A**: 
 - 编辑 `quartz.config.ts` 文件中的 `theme` 部分
 - 可以修改颜色、字体等
 - 修改后提交并推送，网站会自动更新
 
-### Q7: 如何添加更多功能？
+### Q8: 如何添加更多功能？
 
 **A**: 
 - 查看 Quartz 官方文档：https://quartz.jzhao.xyz/
@@ -1265,8 +1631,14 @@ npm install
 # 本地预览（开发模式）
 npm run dev
 
-# 构建网站
+# 构建网站（会自动创建符号链接和修复链接）
 npm run build
+
+# 修复 Markdown 链接（单独运行）
+npm run fix:links
+
+# 修复图片路径（单独运行）
+npm run fix
 
 # 提交更改
 git add .
