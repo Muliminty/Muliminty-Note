@@ -1,0 +1,58 @@
+/* 隐藏构建和部署相关的文件夹 */
+
+/* 隐藏 public 文件夹 */
+.nav-folder-title[data-path="public"],
+.nav-folder-title[data-path^="public/"] {
+  display: none !important;
+}
+
+/* 隐藏 node_modules 文件夹 */
+.nav-folder-title[data-path="node_modules"],
+.nav-folder-title[data-path^="node_modules/"] {
+  display: none !important;
+}
+
+/* 隐藏 scripts 文件夹 */
+.nav-folder-title[data-path="scripts"],
+.nav-folder-title[data-path^="scripts/"] {
+  display: none !important;
+}
+
+/* 隐藏 quartz 文件夹 */
+.nav-folder-title[data-path="quartz"],
+.nav-folder-title[data-path^="quartz/"] {
+  display: none !important;
+}
+
+/* 隐藏 static 文件夹 */
+.nav-folder-title[data-path="static"],
+.nav-folder-title[data-path^="static/"] {
+  display: none !important;
+}
+
+/* 隐藏 .quartz-cache 文件夹 */
+.nav-folder-title[data-path=".quartz-cache"],
+.nav-folder-title[data-path^=".quartz-cache/"] {
+  display: none !important;
+}
+
+/* 隐藏构建相关的配置文件 */
+.nav-file-title[data-path="quartz.config.ts"],
+.nav-file-title[data-path="quartz.layout.ts"],
+.nav-file-title[data-path="package.json"],
+.nav-file-title[data-path="package-lock.json"],
+.nav-file-title[data-path="yarn.lock"],
+.nav-file-title[data-path="tsconfig.json"],
+.nav-file-title[data-path="安装依赖.sh"],
+.nav-file-title[data-path="404.md"] {
+  display: none !important;
+}
+
+/* 隐藏 IDE 配置文件夹 */
+.nav-folder-title[data-path=".vscode"],
+.nav-folder-title[data-path^=".vscode/"],
+.nav-folder-title[data-path=".idea"],
+.nav-folder-title[data-path^=".idea/"] {
+  display: none !important;
+}
+

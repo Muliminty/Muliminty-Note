@@ -4,6 +4,7 @@
   "theme": "moonstone",
   "accentColor": "#09a6fb",
   "enabledCssSnippets": [
-    "nav-folder-title-icon"
+    "nav-folder-title-icon",
+    "hide-build-folders"
   ]
 }
