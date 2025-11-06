@@ -1,4 +1,4 @@
-import { QuartzConfig } from "quartz/config"
+import { QuartzConfig } from "quartz/cfg"
 import * as Plugin from "quartz/plugins"
 import * as Component from "quartz/components"
 import * as Shared from "./quartz.layout"
@@ -87,7 +87,7 @@ const config: QuartzConfig = {
         enableTaskList: true,
         enableSmartyPants: true,
       }),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.CrawlLinks({ markdownLinkResolution: "relative" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.Mermaid(),
@@ -117,6 +117,7 @@ const config: QuartzConfig = {
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.NotFoundPage(),
+      // Plugin.CustomOgImages(), // 暂时禁用，避免编码错误
     ],
   },
   layout: {

@@ -33,6 +33,8 @@ jobs:
           ls -la quartz.config.ts quartz.layout.ts || echo "Config files not found"
       - name: Build Quartz site
         run: npm run build
+      - name: Fix image paths
+        run: npm run fix
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
