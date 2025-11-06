@@ -35,6 +35,31 @@ jobs:
         run: npm ci
       - name: Ensure quartz link
         run: node scripts/ensure-link.js
+      - name: Verify quartz symlink
+        run: |
+          echo "Checking quartz symlink..."
+          if [ -L quartz ]; then
+            echo "✓ quartz is a symlink"
+            echo "Symlink target: $(readlink quartz)"
+            echo "Resolved path: $(readlink -f quartz 2>/dev/null || echo 'unknown')"
+            if [ -f quartz/build.ts ]; then
+              echo "✓ quartz/build.ts exists"
+            else
+              echo "✗ quartz/build.ts not found"
+              exit 1
+            fi
+          elif [ -d quartz ]; then
+            echo "⚠ quartz exists but is not a symlink"
+            if [ -f quartz/build.ts ]; then
+              echo "✓ quartz/build.ts exists (but not a symlink)"
+            else
+              echo "✗ quartz/build.ts not found"
+              exit 1
+            fi
+          else
+            echo "✗ quartz does not exist"
+            exit 1
+          fi
       - name: Normalize markdown links
         run: npm run fix:links
       - name: Disable CustomOgImages plugin

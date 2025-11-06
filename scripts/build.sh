@@ -11,7 +11,10 @@ if [ ! -d node_modules/quartz/quartz ]; then
   exit 1
 fi
 
-# 检查 quartz 是否存在
+# 使用相对路径创建符号链接（在 CI 环境中更可靠）
+QUARTZ_TARGET="node_modules/quartz/quartz"
+
+# 检查 quartz 是否存在且有效
 if [ -e quartz ]; then
   # 检查是否是符号链接
   if [ -L quartz ]; then
@@ -21,26 +24,37 @@ if [ -e quartz ]; then
     else
       echo "Warning: quartz symlink is broken, removing..."
       rm -f quartz
-      ln -s node_modules/quartz/quartz quartz
+      ln -s "$QUARTZ_TARGET" quartz
       echo "Recreated quartz symlink"
     fi
   else
     # 存在但不是符号链接，删除并重新创建
     echo "Warning: quartz exists but is not a symlink, removing..."
     rm -rf quartz
-    ln -s node_modules/quartz/quartz quartz
+    ln -s "$QUARTZ_TARGET" quartz
     echo "Created quartz symlink"
   fi
 else
-  # 不存在，创建符号链接
-  ln -s node_modules/quartz/quartz quartz
+  # 不存在，创建符号链接（使用相对路径）
+  ln -s "$QUARTZ_TARGET" quartz
   echo "Created quartz symlink"
 fi
 
 # 验证符号链接是否有效
 if [ ! -f quartz/build.ts ]; then
   echo "Error: quartz symlink is invalid or build.ts not found"
-  echo "Symlink target: $(readlink -f quartz 2>/dev/null || echo 'unknown')"
+  if [ -L quartz ]; then
+    echo "Symlink target: $(readlink quartz)"
+    echo "Resolved path: $(readlink -f quartz 2>/dev/null || echo 'unknown')"
+  else
+    echo "quartz is not a symlink"
+  fi
+  echo "Expected target: $QUARTZ_TARGET"
+  echo "Checking if target exists:"
+  ls -la "$QUARTZ_TARGET/build.ts" 2>&1 || echo "Target build.ts not found"
+  echo "Current directory: $(pwd)"
+  echo "Listing node_modules/quartz:"
+  ls -la node_modules/quartz/ 2>&1 || echo "node_modules/quartz not found"
   exit 1
 fi
 
