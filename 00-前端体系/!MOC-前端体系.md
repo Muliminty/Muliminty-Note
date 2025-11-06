@@ -11,20 +11,20 @@
 **目标**：掌握前端三大基础语言，能够独立完成简单页面
 
 #### 1. HTML 基础
-- [HTML-MOC](./HTML/!MOC-HTML.md) — HTML 完整知识体系
-- [语义化HTML](./HTML/语义化HTML.md) — 语义化标签与最佳实践
-- [表单与验证](./HTML/表单与验证.md) — 表单设计与验证规则
-- [无障碍基础-ARIA入门](./HTML/无障碍基础-ARIA入门.md) — 可访问性基础
+- [HTML-MOC](./01-基础入门/HTML/!MOC-HTML.md) — HTML 完整知识体系
+- [语义化HTML](./01-基础入门/HTML/语义化HTML.md) — 语义化标签与最佳实践
+- [表单与验证](./01-基础入门/HTML/表单与验证.md) — 表单设计与验证规则
+- [无障碍基础-ARIA入门](./01-基础入门/HTML/无障碍基础-ARIA入门.md) — 可访问性基础
 
 #### 2. CSS 基础
-- [CSS-MOC](./CSS/!MOC-CSS.md) — CSS 完整知识体系
-- [布局（Flex/Grid）](./CSS/布局-Flex-Grid.md) — 现代布局方案
-- [响应式设计/移动优先](./CSS/响应式设计-移动优先.md) — 响应式设计原理与实践
-- [CSS现代写法（变量/自定义属性/容器查询）](./CSS/CSS现代写法.md) — 现代 CSS 特性
+- [CSS-MOC](./01-基础入门/CSS/!MOC-CSS.md) — CSS 完整知识体系
+- [布局（Flex/Grid）](./01-基础入门/CSS/布局-Flex-Grid.md) — 现代布局方案
+- [响应式设计/移动优先](./01-基础入门/CSS/响应式设计-移动优先.md) — 响应式设计原理与实践
+- [CSS现代写法（变量/自定义属性/容器查询）](./01-基础入门/CSS/CSS现代写法.md) — 现代 CSS 特性
 
 #### 3. JavaScript 基础
-- [JavaScript MOC](./02-javascript/!MOC-javascript.md) — JavaScript 完整知识体系
-- [从语法、语义到运行时](./02-javascript/体系/从语法、语义到运行时.md) — JavaScript 核心概念体系
+- [JavaScript MOC](./01-基础入门/JavaScript/!MOC-javascript.md) — JavaScript 完整知识体系
+- [从语法、语义到运行时](./01-基础入门/JavaScript/体系/从语法、语义到运行时.md) — JavaScript 核心概念体系
 
 **学习检查点**：能够使用 HTML+CSS+JS 完成一个完整的静态页面
 
@@ -37,40 +37,40 @@
 #### 1. 选择主框架（三选一或全选）
 
 ##### React 路径
-- [React-MOC](./React/!MOC-React.md) — React 完整知识体系
-- [Hooks原理与实践](./React/Hooks原理与实践.md) — React Hooks 深度理解
-- [组件设计模式](./React/组件设计模式.md) — 组件设计最佳实践
-- [性能优化（memo、虚拟化）](./React/性能优化.md) — React 性能优化技巧
+- [React-MOC](./02-框架进阶/React/!MOC-React.md) — React 完整知识体系
+- [Hooks原理与实践](./02-框架进阶/React/Hooks原理与实践.md) — React Hooks 深度理解
+- [组件设计模式](./02-框架进阶/React/组件设计模式.md) — 组件设计最佳实践
+- [性能优化（memo、虚拟化）](./02-框架进阶/React/性能优化.md) — React 性能优化技巧
 
 ##### Vue 路径
-- [Vue-MOC](./Vue/!MOC-Vue.md) — Vue 完整知识体系
-- [响应式原理（Proxy/依赖收集）](./Vue/响应式原理.md) — Vue 响应式系统原理
-- [Vue 组件通信](./Vue/组件通信.md) — 组件间通信方案
-- [Vue 性能优化](./Vue/性能优化.md) — Vue 性能优化技巧
+- [Vue-MOC](./02-框架进阶/Vue/!MOC-Vue.md) — Vue 完整知识体系
+- [响应式原理（Proxy/依赖收集）](./02-框架进阶/Vue/响应式原理.md) — Vue 响应式系统原理
+- [Vue 组件通信](./02-框架进阶/Vue/组件通信.md) — 组件间通信方案
+- [Vue 性能优化](./02-框架进阶/Vue/性能优化.md) — Vue 性能优化技巧
 
 ##### Angular 路径
-- [Angular-MOC](./Angular/!MOC-Angular.md) — Angular 完整知识体系
-- [Angular 模块与依赖注入](./Angular/模块与依赖注入.md) — Angular 核心概念
-- [Angular 生命周期](./Angular/生命周期.md) — 组件生命周期管理
+- [Angular-MOC](./02-框架进阶/Angular/!MOC-Angular.md) — Angular 完整知识体系
+- [Angular 模块与依赖注入](./02-框架进阶/Angular/模块与依赖注入.md) — Angular 核心概念
+- [Angular 生命周期](./02-框架进阶/Angular/生命周期.md) — 组件生命周期管理
 
 #### 2. 状态管理（根据框架选择）
 
 ##### React 生态
-- [状态管理-MOC](./状态管理/!MOC-状态管理.md) — 状态管理完整指南
-  - [Redux](./状态管理/02-React生态/Redux.md) — Redux 基础与实践
-  - [Redux-Saga](./状态管理/02-React生态/Redux-Saga.md) — Redux 异步处理
-  - [MobX](./状态管理/02-React生态/MobX.md) — 响应式状态管理
-  - [Recoil](./状态管理/02-React生态/Recoil.md) — 原子化状态管理
-  - [Zustand](./状态管理/02-React生态/Zustand.md) — 轻量级状态管理
+- [状态管理-MOC](./02-框架进阶/状态管理/!MOC-状态管理.md) — 状态管理完整指南
+  - [Redux](./02-框架进阶/状态管理/02-React生态/Redux.md) — Redux 基础与实践
+  - [Redux-Saga](./02-框架进阶/状态管理/02-React生态/Redux-Saga.md) — Redux 异步处理
+  - [MobX](./02-框架进阶/状态管理/02-React生态/MobX.md) — 响应式状态管理
+  - [Recoil](./02-框架进阶/状态管理/02-React生态/Recoil.md) — 原子化状态管理
+  - [Zustand](./02-框架进阶/状态管理/02-React生态/Zustand.md) — 轻量级状态管理
 
 ##### Vue 生态
-- [Vuex](./状态管理/03-Vue生态/Vuex.md) — Vuex 状态管理
-- [Pinia](./状态管理/03-Vue生态/Pinia.md) — Pinia 状态管理（Vue 3 推荐）
+- [Vuex](./02-框架进阶/状态管理/03-Vue生态/Vuex.md) — Vuex 状态管理
+- [Pinia](./02-框架进阶/状态管理/03-Vue生态/Pinia.md) — Pinia 状态管理（Vue 3 推荐）
 
 #### 3. TypeScript（推荐）
-- [TypeScript-MOC](./TypeScript/!MOC-TypeScript.md) — TypeScript 完整知识体系
-- [编译时类型设计](./TypeScript/编译时类型设计.md) — 类型系统设计
-- [运行时类型保护与模式](./TypeScript/运行时类型保护与模式.md) — 类型安全实践
+- [TypeScript-MOC](./02-框架进阶/TypeScript/!MOC-TypeScript.md) — TypeScript 完整知识体系
+- [编译时类型设计](./02-框架进阶/TypeScript/编译时类型设计.md) — 类型系统设计
+- [运行时类型保护与模式](./02-框架进阶/TypeScript/运行时类型保护与模式.md) — 类型安全实践
 
 **学习检查点**：能够使用框架 + 状态管理完成一个完整的前端应用
 
@@ -81,22 +81,22 @@
 **目标**：掌握前端工程化工具链，能够搭建和维护大型项目
 
 #### 1. 构建工具
-- [工具链与构建-MOC](./工具链与构建/!MOC-工具链与构建.md) — 构建工具完整指南
-- [Vite原理与配置](./工具链与构建/Vite原理与配置.md) — Vite 快速构建
-- [Webpack深入（loader/plugin）](./工具链与构建/Webpack深入.md) — Webpack 深度解析
-- [Rollup/ESBuild/SWC对比](./工具链与构建/Rollup-ESBuild-SWC对比.md) — 构建工具对比
-- [Babel转换管线](./工具链与构建/Babel转换管线.md) — 代码转换与编译
+- [工具链与构建-MOC](./03-工程化实践/工具链与构建/!MOC-工具链与构建.md) — 构建工具完整指南
+- [Vite原理与配置](./03-工程化实践/工具链与构建/Vite原理与配置.md) — Vite 快速构建
+- [Webpack深入（loader/plugin）](./03-工程化实践/工具链与构建/Webpack深入.md) — Webpack 深度解析
+- [Rollup/ESBuild/SWC对比](./03-工程化实践/工具链与构建/Rollup-ESBuild-SWC对比.md) — 构建工具对比
+- [Babel转换管线](./03-工程化实践/工具链与构建/Babel转换管线.md) — 代码转换与编译
 
 #### 2. 包管理与模块化
-- [包管理与版本策略（npm/yarn/pnpm）](./工具链与构建/包管理与版本策略.md) — 包管理最佳实践
-- [Monorepo管理（pnpm workspace/Lerna/Turborepo）](./工具链与构建/Monorepo管理.md) — Monorepo 管理方案
+- [包管理与版本策略（npm/yarn/pnpm）](./03-工程化实践/工具链与构建/包管理与版本策略.md) — 包管理最佳实践
+- [Monorepo管理（pnpm workspace/Lerna/Turborepo）](./03-工程化实践/工具链与构建/Monorepo管理.md) — Monorepo 管理方案
 
 #### 3. 工程化实践
-- [项目脚手架与目录结构](./工程化/项目脚手架与目录结构.md) — 项目结构设计
-- [代码规范（ESLint/Prettier）](./工程化/代码规范.md) — 代码规范与格式化
-- [模块化与分包（code-splitting/lazy）](./工程化/模块化与分包.md) — 代码分割与懒加载
-- [国际化i18n / L10n](./工程化/国际化i18n-L10n.md) — 国际化方案
-- [权限与多租户](./工程化/权限与多租户.md) — 权限管理系统
+- [项目脚手架与目录结构](./03-工程化实践/工程化/项目脚手架与目录结构.md) — 项目结构设计
+- [代码规范（ESLint/Prettier）](./03-工程化实践/工程化/代码规范.md) — 代码规范与格式化
+- [模块化与分包（code-splitting/lazy）](./03-工程化实践/工程化/模块化与分包.md) — 代码分割与懒加载
+- [国际化i18n / L10n](./03-工程化实践/工程化/国际化i18n-L10n.md) — 国际化方案
+- [权限与多租户](./03-工程化实践/工程化/权限与多租户.md) — 权限管理系统
 
 **学习检查点**：能够搭建和维护一个完整的前端工程化项目
 
@@ -107,29 +107,29 @@
 **目标**：掌握测试、性能优化、安全等质量保障技能
 
 #### 1. 测试
-- [测试-MOC](./测试/!MOC-测试.md) — 测试完整指南
-- [单元测试（Jest/Vitest）](./测试/单元测试.md) — 单元测试实践
-- [集成测试（Testing Library/Cypress）](./测试/集成测试.md) — 集成测试方案
-- [端到端测试（Playwright/Cypress）](./测试/端到端测试.md) — E2E 测试实践
-- [静态分析与类型安全](./测试/静态分析与类型安全.md) — 静态代码分析
+- [测试-MOC](./04-质量保障/测试/!MOC-测试.md) — 测试完整指南
+- [单元测试（Jest/Vitest）](./04-质量保障/测试/单元测试.md) — 单元测试实践
+- [集成测试（Testing Library/Cypress）](./04-质量保障/测试/集成测试.md) — 集成测试方案
+- [端到端测试（Playwright/Cypress）](./04-质量保障/测试/端到端测试.md) — E2E 测试实践
+- [静态分析与类型安全](./04-质量保障/测试/静态分析与类型安全.md) — 静态代码分析
 
 #### 2. 性能优化
-- [性能-MOC](./性能/!MOC-性能.md) — 性能优化完整指南
-- [加载性能（LCP/FCP/TTI）](./性能/加载性能.md) — 页面加载性能优化
-- [运行时性能（FPS/长任务）](./性能/运行时性能.md) — 运行时性能优化
-- [关键资源优化（图片/字体/预加载）](./性能/关键资源优化.md) — 资源优化策略
-- [代码分割与按需加载](./性能/代码分割与按需加载.md) — 代码分割方案
+- [性能-MOC](./04-质量保障/性能/!MOC-性能.md) — 性能优化完整指南
+- [加载性能（LCP/FCP/TTI）](./04-质量保障/性能/加载性能.md) — 页面加载性能优化
+- [运行时性能（FPS/长任务）](./04-质量保障/性能/运行时性能.md) — 运行时性能优化
+- [关键资源优化（图片/字体/预加载）](./04-质量保障/性能/关键资源优化.md) — 资源优化策略
+- [代码分割与按需加载](./04-质量保障/性能/代码分割与按需加载.md) — 代码分割方案
 
 #### 3. 安全
-- [前端安全-MOC](./安全/!MOC-前端安全.md) — 前端安全完整指南
-- [XSS/CSRF原理与防护](./安全/XSS-CSRF原理与防护.md) — 常见安全漏洞与防护
-- [内容安全策略（CSP）](./安全/内容安全策略-CSP.md) — CSP 安全策略
-- [安全依赖管理](./安全/安全依赖管理.md) — 依赖安全审计
+- [前端安全-MOC](./04-质量保障/安全/!MOC-前端安全.md) — 前端安全完整指南
+- [XSS/CSRF原理与防护](./04-质量保障/安全/XSS-CSRF原理与防护.md) — 常见安全漏洞与防护
+- [内容安全策略（CSP）](./04-质量保障/安全/内容安全策略-CSP.md) — CSP 安全策略
+- [安全依赖管理](./04-质量保障/安全/安全依赖管理.md) — 依赖安全审计
 
 #### 4. 可访问性
-- [无障碍-MOC](./无障碍/!MOC-无障碍.md) — 可访问性完整指南
-- [WCAG关键点](./无障碍/WCAG关键点.md) — WCAG 标准要点
-- [键盘导航/屏幕阅读器测试](./无障碍/键盘导航-屏幕阅读器测试.md) — 可访问性测试
+- [无障碍-MOC](./04-质量保障/无障碍/!MOC-无障碍.md) — 可访问性完整指南
+- [WCAG关键点](./04-质量保障/无障碍/WCAG关键点.md) — WCAG 标准要点
+- [键盘导航/屏幕阅读器测试](./04-质量保障/无障碍/键盘导航-屏幕阅读器测试.md) — 可访问性测试
 
 **学习检查点**：能够编写高质量、高性能、安全的前端代码
 
@@ -140,36 +140,36 @@
 **目标**：掌握架构设计、跨平台、前沿技术等高级技能
 
 #### 1. 架构设计
-- [架构-MOC](./架构/!MOC-架构.md) — 前端架构完整指南
-- [微前端（module federation / iframe / web components）](./架构/微前端.md) — 微前端架构方案
-- [前端分层（Shell、Micro Apps）](./架构/前端分层.md) — 前端分层架构
-- [可扩展组件系统设计](./架构/可扩展组件系统设计.md) — 组件系统设计
-- [DDD/边界上下文在前端的实践](./架构/DDD-边界上下文在前端的实践.md) — 领域驱动设计
+- [架构-MOC](./05-高级应用/架构/!MOC-架构.md) — 前端架构完整指南
+- [微前端（module federation / iframe / web components）](./05-高级应用/架构/微前端.md) — 微前端架构方案
+- [前端分层（Shell、Micro Apps）](./05-高级应用/架构/前端分层.md) — 前端分层架构
+- [可扩展组件系统设计](./05-高级应用/架构/可扩展组件系统设计.md) — 组件系统设计
+- [DDD/边界上下文在前端的实践](./05-高级应用/架构/DDD-边界上下文在前端的实践.md) — 领域驱动设计
 
 #### 2. 网络与数据
-- [网络与传输-MOC](./网络与传输/!MOC-网络与传输.md) — 网络与数据传输完整指南
-- [HTTP/2/3、TLS基础](./网络与传输/HTTP-2-3-TLS基础.md) — HTTP 协议深入
-- [缓存策略（HTTP cache、Service Worker）](./网络与传输/缓存策略.md) — 缓存策略设计
-- [REST/GraphQL/Streaming（SSE/WebSocket）](./网络与传输/REST-GraphQL-Streaming.md) — 数据交互方案
-- [客户端缓存策略（SWR/React Query）](./网络与传输/客户端缓存策略.md) — 客户端数据缓存
-- [离线与PWA](./网络与传输/离线与PWA.md) — 离线应用与 PWA
+- [网络与传输-MOC](./05-高级应用/网络与传输/!MOC-网络与传输.md) — 网络与数据传输完整指南
+- [HTTP/2/3、TLS基础](./05-高级应用/网络与传输/HTTP-2-3-TLS基础.md) — HTTP 协议深入
+- [缓存策略（HTTP cache、Service Worker）](./05-高级应用/网络与传输/缓存策略.md) — 缓存策略设计
+- [REST/GraphQL/Streaming（SSE/WebSocket）](./05-高级应用/网络与传输/REST-GraphQL-Streaming.md) — 数据交互方案
+- [客户端缓存策略（SWR/React Query）](./05-高级应用/网络与传输/客户端缓存策略.md) — 客户端数据缓存
+- [离线与PWA](./05-高级应用/网络与传输/离线与PWA.md) — 离线应用与 PWA
 
 #### 3. 跨平台开发
-- [移动性能与适配](./移动与跨平台/移动性能与适配.md) — 移动端性能优化
-- [React Native / Flutter 基本对照](./移动与跨平台/React-Native-Flutter基本对照.md) — 跨平台框架对比
-- [响应式与适配策略（视口/触控/高分屏）](./移动与跨平台/响应式与适配策略.md) — 响应式适配方案
+- [移动性能与适配](./05-高级应用/移动与跨平台/移动性能与适配.md) — 移动端性能优化
+- [React Native / Flutter 基本对照](./05-高级应用/移动与跨平台/React-Native-Flutter基本对照.md) — 跨平台框架对比
+- [响应式与适配策略（视口/触控/高分屏）](./05-高级应用/移动与跨平台/响应式与适配策略.md) — 响应式适配方案
 
 #### 4. 部署与运维
-- [部署与发布-MOC](./部署与发布/!MOC-部署与发布.md) — 部署与发布完整指南
-- [静态站点托管（Netlify/Vercel）](./部署与发布/静态站点托管.md) — 静态站点部署
-- [CI/CD流程（GitHub Actions/GitLab CI）](./部署与发布/CI-CD流程.md) — CI/CD 自动化
-- [回滚 / Canary / 灰度发布策略](./部署与发布/回滚-Canary-灰度发布策略.md) — 发布策略
+- [部署与发布-MOC](./05-高级应用/部署与发布/!MOC-部署与发布.md) — 部署与发布完整指南
+- [静态站点托管（Netlify/Vercel）](./05-高级应用/部署与发布/静态站点托管.md) — 静态站点部署
+- [CI/CD流程（GitHub Actions/GitLab CI）](./05-高级应用/部署与发布/CI-CD流程.md) — CI/CD 自动化
+- [回滚 / Canary / 灰度发布策略](./05-高级应用/部署与发布/回滚-Canary-灰度发布策略.md) — 发布策略
 
 #### 5. 前沿技术
-- [WebAssembly](./前沿/WebAssembly.md) — WebAssembly 技术
-- [Edge Computing / Functions at Edge](./前沿/Edge-Computing.md) — 边缘计算
-- [Server Components / SSR / ISR](./前沿/Server-Components-SSR-ISR.md) — 服务端渲染
-- [GraphQL进阶（订阅/性能）](./前沿/GraphQL进阶.md) — GraphQL 高级应用
+- [WebAssembly](./05-高级应用/前沿/WebAssembly.md) — WebAssembly 技术
+- [Edge Computing / Functions at Edge](./05-高级应用/前沿/Edge-Computing.md) — 边缘计算
+- [Server Components / SSR / ISR](./05-高级应用/前沿/Server-Components-SSR-ISR.md) — 服务端渲染
+- [GraphQL进阶（订阅/性能）](./05-高级应用/前沿/GraphQL进阶.md) — GraphQL 高级应用
 
 **学习检查点**：能够设计和实施大型前端项目的架构方案
 
@@ -180,18 +180,18 @@
 ### 一、核心技术栈
 
 #### 1. 基础语言
-- **HTML**: [HTML-MOC](./HTML/!MOC-HTML.md)
-- **CSS**: [CSS-MOC](./CSS/!MOC-CSS.md)
-- **JavaScript**: [JavaScript MOC](./02-javascript/!MOC-javascript.md)
-- **TypeScript**: [TypeScript-MOC](./TypeScript/!MOC-TypeScript.md)
+- **HTML**: [HTML-MOC](./01-基础入门/HTML/!MOC-HTML.md)
+- **CSS**: [CSS-MOC](./01-基础入门/CSS/!MOC-CSS.md)
+- **JavaScript**: [JavaScript MOC](./01-基础入门/JavaScript/!MOC-javascript.md)
+- **TypeScript**: [TypeScript-MOC](./02-框架进阶/TypeScript/!MOC-TypeScript.md)
 
 #### 2. 前端框架
-- **React**: [React-MOC](./React/!MOC-React.md)
-- **Vue**: [Vue-MOC](./Vue/!MOC-Vue.md)
-- **Angular**: [Angular-MOC](./Angular/!MOC-Angular.md)
+- **React**: [React-MOC](./02-框架进阶/React/!MOC-React.md)
+- **Vue**: [Vue-MOC](./02-框架进阶/Vue/!MOC-Vue.md)
+- **Angular**: [Angular-MOC](./02-框架进阶/Angular/!MOC-Angular.md)
 
 #### 3. 状态管理
-- [状态管理-MOC](./状态管理/!MOC-状态管理.md)
+- [状态管理-MOC](./02-框架进阶/状态管理/!MOC-状态管理.md)
   - React 生态：Redux、Redux-Saga、MobX、Recoil、Zustand
   - Vue 生态：Vuex、Pinia
   - 通用方案：状态机模式、事件驱动
@@ -201,7 +201,7 @@
 ### 二、工程化工具链
 
 #### 1. 构建工具
-- [工具链与构建-MOC](./工具链与构建/!MOC-工具链与构建.md)
+- [工具链与构建-MOC](./03-工程化实践/工具链与构建/!MOC-工具链与构建.md)
 - Vite、Webpack、Rollup、ESBuild、SWC
 - Babel 转换管线
 
@@ -218,22 +218,22 @@
 ### 三、质量保障
 
 #### 1. 测试
-- [测试-MOC](./测试/!MOC-测试.md)
+- [测试-MOC](./04-质量保障/测试/!MOC-测试.md)
 - 单元测试、集成测试、端到端测试
 - 测试工具：Jest、Vitest、Cypress、Playwright
 
 #### 2. 性能优化
-- [性能-MOC](./性能/!MOC-性能.md)
+- [性能-MOC](./04-质量保障/性能/!MOC-性能.md)
 - 加载性能、运行时性能、资源优化
 - 性能监控与分析
 
 #### 3. 安全
-- [前端安全-MOC](./安全/!MOC-前端安全.md)
+- [前端安全-MOC](./04-质量保障/安全/!MOC-前端安全.md)
 - XSS、CSRF 防护
 - 内容安全策略（CSP）
 
 #### 4. 可访问性
-- [无障碍-MOC](./无障碍/!MOC-无障碍.md)
+- [无障碍-MOC](./04-质量保障/无障碍/!MOC-无障碍.md)
 - WCAG 标准
 - 可访问性测试
 
@@ -242,17 +242,17 @@
 ### 四、架构与设计
 
 #### 1. 前端架构
-- [架构-MOC](./架构/!MOC-架构.md)
+- [架构-MOC](./05-高级应用/架构/!MOC-架构.md)
 - 微前端、前端分层、组件系统设计
 - DDD 在前端的实践
 
 #### 2. 设计系统
-- [设计系统-MOC](./设计系统/!MOC-设计系统.md)
+- [设计系统-MOC](./05-高级应用/设计系统/!MOC-设计系统.md)
 - 组件规范、设计 Tokens、主题管理
 - 交互设计基础
 
 #### 3. 网络与数据
-- [网络与传输-MOC](./网络与传输/!MOC-网络与传输.md)
+- [网络与传输-MOC](./05-高级应用/网络与传输/!MOC-网络与传输.md)
 - HTTP 协议、缓存策略
 - REST、GraphQL、WebSocket
 
@@ -261,7 +261,7 @@
 ### 五、部署与运维
 
 #### 1. 部署发布
-- [部署与发布-MOC](./部署与发布/!MOC-部署与发布.md)
+- [部署与发布-MOC](./05-高级应用/部署与发布/!MOC-部署与发布.md)
 - 静态站点托管、CDN 策略
 - CI/CD 流程
 
@@ -275,7 +275,7 @@
 ### 六、跨平台与移动
 
 #### 1. 移动端开发
-- [移动性能与适配](./移动与跨平台/移动性能与适配.md)
+- [移动性能与适配](./05-高级应用/移动与跨平台/移动性能与适配.md)
 - React Native、Flutter
 - 响应式与适配策略
 
@@ -291,48 +291,48 @@
 ### 按主题快速查找
 
 #### 性能相关
-- [性能-MOC](./性能/!MOC-性能.md) - 性能优化完整指南
-- [React 性能优化](./React/性能优化.md)
-- [Vue 性能优化](./Vue/性能优化.md)
-- [移动性能与适配](./移动与跨平台/移动性能与适配.md)
+- [性能-MOC](./04-质量保障/性能/!MOC-性能.md) - 性能优化完整指南
+- [React 性能优化](./02-框架进阶/React/性能优化.md)
+- [Vue 性能优化](./02-框架进阶/Vue/性能优化.md)
+- [移动性能与适配](./05-高级应用/移动与跨平台/移动性能与适配.md)
 
 #### 状态管理相关
-- [状态管理-MOC](./状态管理/!MOC-状态管理.md) - 状态管理完整指南
-- [Redux](./状态管理/02-React生态/Redux.md)
-- [Redux-Saga](./状态管理/02-React生态/Redux-Saga.md)
-- [Vuex](./状态管理/03-Vue生态/Vuex.md)
-- [Pinia](./状态管理/03-Vue生态/Pinia.md)
+- [状态管理-MOC](./02-框架进阶/状态管理/!MOC-状态管理.md) - 状态管理完整指南
+- [Redux](./02-框架进阶/状态管理/02-React生态/Redux.md)
+- [Redux-Saga](./02-框架进阶/状态管理/02-React生态/Redux-Saga.md)
+- [Vuex](./02-框架进阶/状态管理/03-Vue生态/Vuex.md)
+- [Pinia](./02-框架进阶/状态管理/03-Vue生态/Pinia.md)
 
 #### 测试相关
-- [测试-MOC](./测试/!MOC-测试.md) - 测试完整指南
-- [单元测试](./测试/单元测试.md)
-- [集成测试](./测试/集成测试.md)
-- [端到端测试](./测试/端到端测试.md)
+- [测试-MOC](./04-质量保障/测试/!MOC-测试.md) - 测试完整指南
+- [单元测试](./04-质量保障/测试/单元测试.md)
+- [集成测试](./04-质量保障/测试/集成测试.md)
+- [端到端测试](./04-质量保障/测试/端到端测试.md)
 
 #### 安全相关
-- [前端安全-MOC](./安全/!MOC-前端安全.md) - 安全完整指南
-- [XSS/CSRF原理与防护](./安全/XSS-CSRF原理与防护.md)
-- [内容安全策略（CSP）](./安全/内容安全策略-CSP.md)
+- [前端安全-MOC](./04-质量保障/安全/!MOC-前端安全.md) - 安全完整指南
+- [XSS/CSRF原理与防护](./04-质量保障/安全/XSS-CSRF原理与防护.md)
+- [内容安全策略（CSP）](./04-质量保障/安全/内容安全策略-CSP.md)
 
 ---
 
 ## 🧭 学习资源
 
 ### 官方文档
-- [权威规范（ECMAScript/WHATWG）](./学习资源/权威规范.md)
-- [常用工具与扩展清单](./学习资源/常用工具与扩展清单.md)
-- [书籍/博客/课程索引](./学习资源/书籍-博客-课程索引.md)
+- [权威规范（ECMAScript/WHATWG）](./06-学习资源/权威规范.md)
+- [常用工具与扩展清单](./06-学习资源/常用工具与扩展清单.md)
+- [书籍/博客/课程索引](./06-学习资源/书籍-博客-课程索引.md)
 
 ### 团队协作
-- [代码评审最佳实践](./团队协作/代码评审最佳实践.md)
-- [设计/产品/研发协作流程](./团队协作/设计-产品-研发协作流程.md)
-- [知识共享（内部文档/技术分享）](./团队协作/知识共享.md)
-- [招聘与面试题库](./团队协作/招聘与面试题库.md)
+- [代码评审最佳实践](./07-团队协作/团队协作/代码评审最佳实践.md)
+- [设计/产品/研发协作流程](./07-团队协作/团队协作/设计-产品-研发协作流程.md)
+- [知识共享（内部文档/技术分享）](./07-团队协作/团队协作/知识共享.md)
+- [招聘与面试题库](./07-团队协作/团队协作/招聘与面试题库.md)
 
 ### 运营与合规
-- [指标体系（DAU/MAU/转化率/性能KPIs）](./运营/指标体系.md)
-- [A/B测试与实验平台](./运营/AB测试与实验平台.md)
-- [隐私与合规（GDPR/CCPA）](./合规/隐私与合规-GDPR-CCPA.md)
+- [指标体系（DAU/MAU/转化率/性能KPIs）](./07-团队协作/运营/指标体系.md)
+- [A/B测试与实验平台](./07-团队协作/运营/AB测试与实验平台.md)
+- [隐私与合规（GDPR/CCPA）](./07-团队协作/合规/隐私与合规-GDPR-CCPA.md)
 
 ---
 
