@@ -731,5 +731,5 @@ const footer: Component.ComponentId[] = [
 **最后更新**：2025  
 **相关文档**：
 - [GitHub Pages 部署指南](./GitHub-Pages部署指南.md)
-- [快速开始](../../../快速开始.md)
+- [Quartz 完整修复指南](./Quartz完整修复指南.md)
 
