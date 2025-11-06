@@ -11,15 +11,19 @@ const left: Component.ComponentId[] = [
     folderClickBehavior: "collapse",
     folderDefaultState: "collapsed",
     useSavedState: true,
+    filterFn: (node) => {
+      // 隐藏 404.md 文件，使其不出现在目录中
+      if (node.data?.filePath === "404.md" || node.slugSegment === "404") {
+        return false
+      }
+      // 默认过滤：隐藏 tags 文件夹
+      return node.slugSegment !== "tags"
+    },
     mapFn: (node) => {
       // 自定义文件夹图标
-      if (node.file !== undefined) {
-        return {
-          ...node,
-          displayName: node.displayName ?? node.file.name,
-        }
+      if (node.data !== null && !node.isFolder) {
+        node.displayName = node.displayName ?? node.data.title ?? node.slugSegment
       }
-      return node
     },
   }),
   Component.DesktopOnly(Component.RecentNotes({ // 最近笔记（仅桌面端）
