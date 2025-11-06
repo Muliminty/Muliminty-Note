@@ -6,9 +6,6 @@ public/
 node_modules/
 yarn.lock
 
-# Obsidian
-.obsidian/
-
 # macOS
 .DS_Store
 

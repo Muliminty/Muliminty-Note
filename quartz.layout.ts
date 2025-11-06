@@ -82,7 +82,7 @@ const header: Component.ComponentId[] = []
 // 底部组件
 const footer: Component.ComponentId[] = [
   Component.GitHubLink({
-    link: "https://github.com/你的用户名/Muliminty-Note", // 替换为你的仓库地址
+    link: "https://github.com/muliminty/Muliminty-Note", // 替换为你的仓库地址
   }),
 ]
 

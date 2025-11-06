@@ -98,6 +98,14 @@ Web 服务器的配置、优化和管理。
 - AWS 部署（待整理）
 
 #### 静态网站部署
+- [零基础搭建 GitHub 笔记仓库完整教程](./04-部署与运维/静态网站部署/零基础搭建GitHub笔记仓库完整教程.md) — 从零开始搭建 GitHub 笔记仓库（推荐新手）
+  - 创建 GitHub 账号和仓库
+  - 安装必要软件（Git、Node.js）
+  - 配置项目文件
+  - 配置 GitHub Pages
+  - 配置 GitHub Actions 工作流
+  - 部署和测试
+  - 常见问题解答
 - [GitHub Pages 部署指南](./04-部署与运维/静态网站部署/GitHub-Pages部署指南.md) — GitHub Pages 完整部署教程
   - GitHub Pages 基础使用
   - GitHub Actions 自动部署
