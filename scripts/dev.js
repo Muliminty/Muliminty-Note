@@ -8,6 +8,28 @@ const { spawn } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
+// 保证 quartz 符号链接存在，并清理构建缓存
+function prepareQuartz() {
+  const symlinkPath = path.join(__dirname, '..', 'quartz')
+  const target = path.join(__dirname, '..', 'node_modules', 'quartz', 'quartz')
+  try {
+    if (!fs.existsSync(symlinkPath)) {
+      if (fs.existsSync(target)) {
+        fs.symlinkSync(target, symlinkPath, 'dir')
+        console.log('Created symlink: quartz -> node_modules/quartz/quartz')
+      }
+    }
+  } catch (e) {
+    console.warn('Ensure symlink failed:', e?.message)
+  }
+
+  // 清理缓存
+  const cacheDir = path.join(__dirname, '..', '.quartz-cache')
+  const publicDir = path.join(__dirname, '..', 'public')
+  try { fs.rmSync(cacheDir, { recursive: true, force: true }) } catch {}
+  try { fs.rmSync(publicDir, { recursive: true, force: true }) } catch {}
+}
+
 // 修复图片路径的函数（从 fix-image-paths.js 复制）
 function fixImagePaths(dir) {
   const files = fs.readdirSync(dir);
@@ -75,6 +97,7 @@ function watchPublicDir() {
 }
 
 // 启动 Quartz 开发服务器
+prepareQuartz()
 console.log('Starting Quartz development server...');
 const quartz = spawn('npx', ['quartz', 'build', '--serve', '--port', '4399', '-d', '.'], {
   stdio: 'inherit',

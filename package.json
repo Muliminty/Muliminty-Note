@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "全栈开发知识体系学习笔记",
   "scripts": {
-    "dev": "node scripts/dev.js",
+    "dev": "node scripts/ensure-link.js && node scripts/dev.js",
     "prebuild": "node scripts/fix-markdown-links.js",
     "build": "./scripts/build.sh",
-    "preview": "npx quartz build --serve --port 4399 -d . && node scripts/fix-image-paths.js",
+    "preview": "node scripts/ensure-link.js && npx quartz build --serve --port 4399 -d . && node scripts/fix-image-paths.js",
     "fix": "node scripts/fix-image-paths.js",
     "fix:links": "node scripts/fix-markdown-links.js"
   },
