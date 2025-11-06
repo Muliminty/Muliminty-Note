@@ -14,58 +14,78 @@ fi
 # 使用相对路径创建符号链接（在 CI 环境中更可靠）
 QUARTZ_TARGET="node_modules/quartz/quartz"
 
-# 检查 quartz 是否存在且有效
+# 强制删除旧的 quartz（无论是符号链接还是目录）
 if [ -e quartz ]; then
-  # 检查是否是符号链接
   if [ -L quartz ]; then
-    # 检查符号链接是否指向相对路径（而不是绝对路径）
     LINK_TARGET=$(readlink quartz)
+    echo "Found existing symlink pointing to: $LINK_TARGET"
     if [[ "$LINK_TARGET" == /* ]]; then
-      # 指向绝对路径，需要删除并重新创建为相对路径
-      echo "Warning: quartz symlink points to absolute path, recreating with relative path..."
-      rm -f quartz
-      ln -s "$QUARTZ_TARGET" quartz
-      echo "Recreated quartz symlink with relative path"
+      echo "Warning: quartz symlink points to absolute path, will recreate with relative path"
     elif [ -d quartz ] && [ -f quartz/build.ts ]; then
-      # 指向相对路径且有效
       echo "quartz symlink already exists and is valid"
+      # 符号链接有效，不需要重新创建
+      QUARTZ_VALID=true
     else
-      # 指向相对路径但无效，重新创建
-      echo "Warning: quartz symlink is broken, removing..."
-      rm -f quartz
-      ln -s "$QUARTZ_TARGET" quartz
-      echo "Recreated quartz symlink"
+      echo "Warning: quartz symlink is broken, will recreate"
     fi
   else
-    # 存在但不是符号链接，删除并重新创建
-    echo "Warning: quartz exists but is not a symlink, removing..."
+    echo "Warning: quartz exists but is not a symlink, will recreate"
+  fi
+  
+  # 如果需要重新创建，先删除旧的
+  if [ "${QUARTZ_VALID:-false}" != "true" ]; then
+    echo "Removing old quartz..."
     rm -rf quartz
+    # 确保删除成功
+    if [ -e quartz ]; then
+      echo "Error: Failed to remove quartz"
+      exit 1
+    fi
+    echo "Creating new symlink..."
     ln -s "$QUARTZ_TARGET" quartz
     echo "Created quartz symlink"
   fi
 else
   # 不存在，创建符号链接（使用相对路径）
+  echo "Creating quartz symlink..."
   ln -s "$QUARTZ_TARGET" quartz
   echo "Created quartz symlink"
 fi
 
 # 验证符号链接是否有效
-if [ ! -f quartz/build.ts ]; then
-  echo "Error: quartz symlink is invalid or build.ts not found"
-  if [ -L quartz ]; then
-    echo "Symlink target: $(readlink quartz)"
-    echo "Resolved path: $(readlink -f quartz 2>/dev/null || echo 'unknown')"
-  else
-    echo "quartz is not a symlink"
-  fi
-  echo "Expected target: $QUARTZ_TARGET"
-  echo "Checking if target exists:"
-  ls -la "$QUARTZ_TARGET/build.ts" 2>&1 || echo "Target build.ts not found"
-  echo "Current directory: $(pwd)"
-  echo "Listing node_modules/quartz:"
-  ls -la node_modules/quartz/ 2>&1 || echo "node_modules/quartz not found"
+echo "Verifying quartz symlink..."
+if [ ! -L quartz ]; then
+  echo "Error: quartz is not a symlink"
   exit 1
 fi
+
+LINK_TARGET=$(readlink quartz)
+echo "Symlink target: $LINK_TARGET"
+
+if [ ! -f quartz/build.ts ]; then
+  echo "Error: quartz symlink is invalid or build.ts not found"
+  echo "Symlink target: $LINK_TARGET"
+  echo "Expected target: $QUARTZ_TARGET"
+  echo "Current directory: $(pwd)"
+  echo "Checking if target exists:"
+  if [ -f "$QUARTZ_TARGET/build.ts" ]; then
+    echo "✓ Target build.ts exists at: $QUARTZ_TARGET/build.ts"
+    echo "But symlink cannot access it. This might be a path resolution issue."
+    echo "Trying to resolve symlink:"
+    if command -v realpath >/dev/null 2>&1; then
+      RESOLVED=$(realpath quartz 2>&1 || echo 'failed')
+    else
+      RESOLVED=$(readlink -f quartz 2>&1 || echo 'failed')
+    fi
+    echo "Resolved path: $RESOLVED"
+  else
+    echo "✗ Target build.ts not found at: $QUARTZ_TARGET/build.ts"
+    ls -la "$QUARTZ_TARGET" 2>&1 || echo "Target directory does not exist"
+  fi
+  exit 1
+fi
+
+echo "✓ quartz symlink is valid and build.ts exists"
 
 echo "Ensuring config shim exists..."
 node scripts/ensure-link.js
