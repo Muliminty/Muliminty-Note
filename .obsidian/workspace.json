@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "31c90a850c8ba629",
+        "id": "2438c82880511a49",
         "type": "tabs",
         "children": [
           {
-            "id": "2b9c1ef3bc0e3f4f",
+            "id": "67f07872dc2985c7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -238,8 +238,10 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "2b9c1ef3bc0e3f4f",
+  "active": "67f07872dc2985c7",
   "lastOpenFiles": [
+    "配置说明.md",
+    "quartz.layout.ts",
     "安装依赖.sh",
     "快速开始.md",
     "部署说明.md",
@@ -260,8 +262,6 @@
     "03-服务端/09-架构设计/分布式系统",
     "03-服务端/09-架构设计",
     "03-服务端/08-监控与日志/监控系统",
-    "03-服务端/08-监控与日志/日志管理",
-    "03-服务端/08-监控与日志/告警系统",
     "03-服务端/01-服务端语言/Java/!MOC-Java.md",
     "03-服务端/01-服务端语言/Node.js/!MOC-Node.js.md",
     "00-前端体系/01-基础入门/JavaScript/01-语言核心/语法.md",

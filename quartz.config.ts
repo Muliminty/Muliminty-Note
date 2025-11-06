@@ -80,6 +80,12 @@ const config: QuartzConfig = {
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.Mermaid(),
+      Plugin.TableOfContents({
+        minEntries: 1,
+        maxDepth: 6,
+        collapseByDefault: false,
+        showByDefault: true,
+      }),
     ],
     filters: [
       Plugin.RemoveDrafts(),
@@ -93,6 +99,9 @@ const config: QuartzConfig = {
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,
+      }),
+      Plugin.Search({ // 启用全文搜索
+        // 搜索配置选项
       }),
       Plugin.Assets(),
       Plugin.Static(),
