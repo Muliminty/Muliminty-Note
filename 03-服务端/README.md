@@ -53,6 +53,10 @@
   - 多项目部署
   - HTTPS 配置
 
+- **静态网站部署**
+  - [GitHub Pages 部署指南](./04-部署与运维/静态网站部署/GitHub-Pages部署指南.md) — GitHub Pages 完整部署教程
+  - [Quartz 定制教程](./04-部署与运维/静态网站部署/Quartz定制教程.md) — Quartz 静态网站生成器定制指南
+
 - **容器化**
   - Docker（待整理）
   - Kubernetes（待整理）
@@ -109,7 +113,7 @@
 
 1. [Node.js 基础](./01-服务端语言/Node.js/!MOC-Node.js.md) 或 [Java 基础](./01-服务端语言/Java/!MOC-Java.md)
 2. [Nginx 基础配置](./02-Web服务器/nginx/!MOC-nginx.md)
-3. [腾讯云部署指南](./04-部署与运维/云平台部署/腾讯云部署.md)
+3. [腾讯云部署指南](./04-部署与运维/云平台部署/腾讯云部署.md) 或 [GitHub Pages 部署指南](./04-部署与运维/静态网站部署/GitHub-Pages部署指南.md)
 
 ### 进阶实践
 
