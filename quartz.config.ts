@@ -1,5 +1,6 @@
 import { QuartzConfig } from "quartz/config"
 import * as Plugin from "quartz/plugins"
+import * as Component from "quartz/components"
 import * as Shared from "./quartz.layout"
 
 /**

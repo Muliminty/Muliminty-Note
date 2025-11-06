@@ -27,6 +27,10 @@ jobs:
           node-version: 20
       - name: Install Dependencies
         run: npm ci
+      - name: Verify Configuration
+        run: |
+          echo "Checking configuration files..."
+          ls -la quartz.config.ts quartz.layout.ts || echo "Config files not found"
       - name: Build Quartz site
         run: npm run build
       - name: Upload artifact
