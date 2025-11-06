@@ -6,7 +6,7 @@ npx quartz build -d .
 
 if [ $? -eq 0 ]; then
   echo "Build successful. Fixing image paths..."
-  node fix-image-paths.js
+  node scripts/fix-image-paths.js
   echo "Done!"
 else
   echo "Build failed!"

@@ -39,7 +39,7 @@ function fixImagePaths(dir) {
   }
 }
 
-const publicDir = path.join(__dirname, 'public');
+const publicDir = path.join(__dirname, '..', 'public');
 if (fs.existsSync(publicDir)) {
   console.log('Fixing image paths in HTML files...');
   fixImagePaths(publicDir);

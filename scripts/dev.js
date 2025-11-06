@@ -42,7 +42,7 @@ function fixImagePaths(dir) {
 
 // 监听 public 目录的变化
 function watchPublicDir() {
-  const publicDir = path.join(__dirname, 'public');
+  const publicDir = path.join(__dirname, '..', 'public');
   
   if (!fs.existsSync(publicDir)) {
     console.log('Waiting for public directory to be created...');

@@ -55,10 +55,10 @@ git --version
   "version": "1.0.0",
   "description": "全栈开发知识体系学习笔记",
   "scripts": {
-    "dev": "node dev-with-fix.js",
-    "build": "./build-with-fix.sh",
-    "preview": "npx quartz build --serve --port 4399 -d . && node fix-image-paths.js",
-    "fix": "node fix-image-paths.js"
+    "dev": "node scripts/dev.js",
+    "build": "./scripts/build.sh",
+    "preview": "npx quartz build --serve --port 4399 -d . && node scripts/fix-image-paths.js",
+    "fix": "node scripts/fix-image-paths.js"
   },
   "dependencies": {
     "quartz": "github:jackyzha0/quartz#v4"
@@ -318,13 +318,13 @@ Plugin.ObsidianFlavoredMarkdown({
 ```json
 {
   "scripts": {
-    "dev": "node dev-with-fix.js",
-    "build": "./build-with-fix.sh"
+    "dev": "node scripts/dev.js",
+    "build": "./scripts/build.sh"
   }
 }
 ```
 
-`build-with-fix.sh` 中包含：
+`scripts/build.sh` 中包含：
 ```bash
 npx quartz build -d .  # -d . 表示从当前目录读取文件
 ```
@@ -381,7 +381,7 @@ Quartz 会将 markdown 中的相对图片路径（如 `./img/window.png`）转�
 
 ### 6.2 解决方案
 
-创建自动修复脚本 `fix-image-paths.js`：
+创建自动修复脚本 `scripts/fix-image-paths.js`：
 
 ```javascript
 #!/usr/bin/env node
@@ -436,7 +436,7 @@ if (fs.existsSync(publicDir)) {
 
 #### 6.3.1 创建构建脚本
 
-创建 `build-with-fix.sh`：
+创建 `scripts/build.sh`：
 
 ```bash
 #!/bin/bash
@@ -447,7 +447,7 @@ npx quartz build -d .
 
 if [ $? -eq 0 ]; then
   echo "Build successful. Fixing image paths..."
-  node fix-image-paths.js
+  node scripts/fix-image-paths.js
   echo "Done!"
 else
   echo "Build failed!"
@@ -457,7 +457,7 @@ fi
 
 #### 6.3.2 创建开发服务器脚本
 
-创建 `dev-with-fix.js`：
+创建 `scripts/dev.js`：
 
 ```javascript
 #!/usr/bin/env node
@@ -772,8 +772,8 @@ ln -s node_modules/quartz/quartz quartz
 **原因**：Quartz 将相对路径转换为错误的路径。
 
 **解决**：
-1. 确保 `build-with-fix.sh` 脚本存在
-2. 确保 `fix-image-paths.js` 脚本存在
+1. 确保 `scripts/build.sh` 脚本存在
+2. 确保 `scripts/fix-image-paths.js` 脚本存在
 3. 运行 `npm run build` 会自动修复路径
 
 ### 9.6 双链无法工作
@@ -872,9 +872,11 @@ git push origin master
 ├── package.json              # 项目配置
 ├── quartz.config.ts          # Quartz 主配置
 ├── quartz.layout.ts          # 布局配置
-├── fix-image-paths.js        # 图片路径修复脚本
-├── build-with-fix.sh         # 构建脚本
-├── dev-with-fix.js           # 开发服务器脚本
+├── scripts/                   # 脚本目录
+│   ├── build.sh              # 构建脚本
+│   ├── dev.js                # 开发服务器脚本
+│   ├── fix-image-paths.js    # 图片路径修复脚本
+│   └── disable-og.js          # 禁用 CustomOgImages 插件脚本
 ├── quartz -> node_modules/quartz/quartz  # 符号链接
 └── .github/workflows/deploy.yml  # GitHub Actions 配置
 ```
@@ -889,8 +891,10 @@ git push origin master
 - [ ] `layout` 配置已导入
 - [ ] `quartz` 符号链接已创建
 - [ ] `CustomOgImages` 插件已禁用
-- [ ] `fix-image-paths.js` 脚本存在
-- [ ] `build-with-fix.sh` 脚本存在
+- [ ] `scripts/fix-image-paths.js` 脚本存在
+- [ ] `scripts/build.sh` 脚本存在
+- [ ] `scripts/dev.js` 脚本存在
+- [ ] `scripts/disable-og.js` 脚本存在
 - [ ] GitHub Actions 工作流配置正确
 
 ### 10.4 工作流程

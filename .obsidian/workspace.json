@@ -238,8 +238,11 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "67f07872dc2985c7",
+  "active": "b76d5d4c5f29b876",
   "lastOpenFiles": [
+    "scripts/dev.js",
+    "scripts/build.sh",
+    "scripts/fix-image-paths.js",
     "书签整理.md",
     "部署指南.md",
     "README.md",
@@ -265,8 +268,6 @@
     "03-服务端/02-Web服务器/nginx/!MOC-nginx.md",
     "03-服务端/09-架构设计/消息队列",
     "03-服务端/09-架构设计/微服务",
-    "03-服务端/09-架构设计/分布式系统",
-    "03-服务端/09-架构设计",
     "03-服务端/01-服务端语言/Java/!MOC-Java.md",
     "03-服务端/01-服务端语言/Node.js/!MOC-Node.js.md",
     "00-前端体系/01-基础入门/JavaScript/01-语言核心/语法.md",
@@ -285,7 +286,6 @@
     "书籍/BrowserPrinciple-main/浏览器中的页面循环系统/消息队列和事件循环：页面是怎么活起来的/index.md",
     "书籍/BrowserPrinciple-main/浏览器中的页面循环系统/宏任务和微任务：不是所有的任务都是一个待遇/index.md",
     "书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/index.md",
-    "书籍/BrowserPrinciple-main/浏览器中的页面循环系统/async-await使用同步方式写异步代码/index.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名.canvas",
     "xx-归档/00-前端/00-核心/JavaScript/知识图谱.canvas",
