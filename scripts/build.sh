@@ -5,32 +5,43 @@ echo "Cleaning cache and output..."
 rm -rf .quartz-cache public
 
 echo "Ensuring quartz symlink exists..."
-if [ ! -e quartz ]; then
-  # 符号链接不存在，创建它
-  if [ -d node_modules/quartz/quartz ]; then
-    ln -s node_modules/quartz/quartz quartz
-    echo "Created quartz symlink"
+if [ ! -d node_modules/quartz/quartz ]; then
+  echo "Error: node_modules/quartz/quartz does not exist"
+  echo "Please run 'npm install' first"
+  exit 1
+fi
+
+# 检查 quartz 是否存在
+if [ -e quartz ]; then
+  # 检查是否是符号链接
+  if [ -L quartz ]; then
+    # 检查符号链接是否有效
+    if [ -d quartz ] && [ -f quartz/build.ts ]; then
+      echo "quartz symlink already exists and is valid"
+    else
+      echo "Warning: quartz symlink is broken, removing..."
+      rm -f quartz
+      ln -s node_modules/quartz/quartz quartz
+      echo "Recreated quartz symlink"
+    fi
   else
-    echo "Warning: node_modules/quartz/quartz does not exist"
-  fi
-elif [ ! -L quartz ]; then
-  # quartz 存在但不是符号链接，删除并重新创建
-  echo "Warning: quartz exists but is not a symlink, removing..."
-  rm -rf quartz
-  if [ -d node_modules/quartz/quartz ]; then
-    ln -s node_modules/quartz/quartz quartz
-    echo "Created quartz symlink"
-  fi
-elif [ ! -d quartz ]; then
-  # 符号链接存在但指向无效，删除并重新创建
-  echo "Warning: quartz symlink is broken, removing..."
-  rm quartz
-  if [ -d node_modules/quartz/quartz ]; then
+    # 存在但不是符号链接，删除并重新创建
+    echo "Warning: quartz exists but is not a symlink, removing..."
+    rm -rf quartz
     ln -s node_modules/quartz/quartz quartz
     echo "Created quartz symlink"
   fi
 else
-  echo "quartz symlink already exists and is valid"
+  # 不存在，创建符号链接
+  ln -s node_modules/quartz/quartz quartz
+  echo "Created quartz symlink"
+fi
+
+# 验证符号链接是否有效
+if [ ! -f quartz/build.ts ]; then
+  echo "Error: quartz symlink is invalid or build.ts not found"
+  echo "Symlink target: $(readlink -f quartz 2>/dev/null || echo 'unknown')"
+  exit 1
 fi
 
 echo "Ensuring config shim exists..."
