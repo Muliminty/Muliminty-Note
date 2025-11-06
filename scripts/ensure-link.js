@@ -12,8 +12,22 @@ if (!fs.existsSync(symlinkPath)) {
       console.log('Created symlink: quartz -> node_modules/quartz/quartz')
     } catch (e) {
       console.warn('Ensure symlink failed:', e?.message)
-      process.exit(0)
+      // 不退出，继续执行其他操作
     }
+  } else {
+    console.warn(`Target directory does not exist: ${target}`)
+    console.warn('Skipping symlink creation. This is normal if dependencies are not installed yet.')
+  }
+} else {
+  // 检查现有符号链接是否有效
+  try {
+    const stat = fs.statSync(symlinkPath)
+    if (!stat.isDirectory()) {
+      console.warn('quartz exists but is not a directory, skipping')
+    }
+  } catch (e) {
+    console.warn('Existing quartz symlink is broken:', e?.message)
+    // 可以尝试删除并重新创建，但为了安全起见，这里只警告
   }
 }
 

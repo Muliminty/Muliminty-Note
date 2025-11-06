@@ -14,13 +14,22 @@ function fixMarkdownLinks(dir) {
   
   for (const file of files) {
     const filePath = path.join(dir, file);
-    const stat = fs.statSync(filePath);
+    
+    // 跳过某些目录（在 stat 之前检查，避免访问问题）
+    if (file.startsWith('.') || file === 'node_modules' || file === 'public' || file === 'scripts' || file === 'quartz') {
+      continue;
+    }
+    
+    let stat;
+    try {
+      stat = fs.statSync(filePath);
+    } catch (error) {
+      // 如果无法访问文件/目录（如损坏的符号链接），跳过它
+      console.warn(`Skipping inaccessible path: ${filePath} (${error.message})`);
+      continue;
+    }
     
     if (stat.isDirectory()) {
-      // 跳过某些目录
-      if (file.startsWith('.') || file === 'node_modules' || file === 'public' || file === 'scripts') {
-        continue;
-      }
       fixedCount += fixMarkdownLinks(filePath);
     } else if (file.endsWith('.md')) {
       let content = fs.readFileSync(filePath, 'utf8');
