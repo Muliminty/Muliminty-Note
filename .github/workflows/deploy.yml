@@ -40,13 +40,26 @@ jobs:
           echo "Checking quartz symlink..."
           if [ -L quartz ]; then
             echo "✓ quartz is a symlink"
-            echo "Symlink target: $(readlink quartz)"
-            echo "Resolved path: $(readlink -f quartz 2>/dev/null || echo 'unknown')"
+            LINK_TARGET=$(readlink quartz)
+            echo "Symlink target: $LINK_TARGET"
+            # 检查是否指向绝对路径
+            if [[ "$LINK_TARGET" == /* ]]; then
+              echo "⚠ Warning: symlink points to absolute path, will be fixed by build.sh"
+            else
+              echo "✓ symlink uses relative path"
+            fi
+            # 尝试解析路径（使用 realpath 或 readlink -f）
+            if command -v realpath >/dev/null 2>&1; then
+              RESOLVED=$(realpath quartz 2>/dev/null || echo 'unknown')
+            else
+              RESOLVED=$(readlink -f quartz 2>/dev/null || echo 'unknown')
+            fi
+            echo "Resolved path: $RESOLVED"
             if [ -f quartz/build.ts ]; then
               echo "✓ quartz/build.ts exists"
             else
               echo "✗ quartz/build.ts not found"
-              exit 1
+              echo "This will be fixed by build.sh"
             fi
           elif [ -d quartz ]; then
             echo "⚠ quartz exists but is not a symlink"
@@ -57,8 +70,7 @@ jobs:
               exit 1
             fi
           else
-            echo "✗ quartz does not exist"
-            exit 1
+            echo "✗ quartz does not exist (will be created by build.sh)"
           fi
       - name: Normalize markdown links
         run: npm run fix:links

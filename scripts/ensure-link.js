@@ -32,27 +32,41 @@ if (!fs.existsSync(target)) {
     try {
       const linkStat = fs.lstatSync(symlinkPath)
       if (linkStat.isSymbolicLink()) {
-        // 验证符号链接指向的目标是否存在
-        try {
-          const realPath = fs.realpathSync(symlinkPath)
-          if (fs.existsSync(realPath) && fs.existsSync(path.join(realPath, 'build.ts'))) {
-            console.log('quartz symlink is valid')
-          } else {
-            console.warn('quartz symlink points to invalid location')
-            // 删除并重新创建（使用相对路径）
-            fs.unlinkSync(symlinkPath)
-            fs.symlinkSync(relativeTarget, symlinkPath, 'dir')
-            console.log('Recreated symlink: quartz -> node_modules/quartz/quartz')
-          }
-        } catch (e) {
-          // 符号链接损坏，删除并重新创建（使用相对路径）
-          console.warn('quartz symlink is broken:', e?.message)
+        // 检查符号链接指向的路径
+        const currentTarget = fs.readlinkSync(symlinkPath)
+        // 如果指向绝对路径，需要重新创建为相对路径
+        if (path.isAbsolute(currentTarget)) {
+          console.warn('quartz symlink points to absolute path, recreating with relative path')
           try {
             fs.unlinkSync(symlinkPath)
             fs.symlinkSync(relativeTarget, symlinkPath, 'dir')
             console.log('Recreated symlink: quartz -> node_modules/quartz/quartz')
           } catch (e2) {
             console.warn('Failed to recreate symlink:', e2?.message)
+          }
+        } else {
+          // 验证符号链接指向的目标是否存在
+          try {
+            const realPath = fs.realpathSync(symlinkPath)
+            if (fs.existsSync(realPath) && fs.existsSync(path.join(realPath, 'build.ts'))) {
+              console.log('quartz symlink is valid')
+            } else {
+              console.warn('quartz symlink points to invalid location')
+              // 删除并重新创建（使用相对路径）
+              fs.unlinkSync(symlinkPath)
+              fs.symlinkSync(relativeTarget, symlinkPath, 'dir')
+              console.log('Recreated symlink: quartz -> node_modules/quartz/quartz')
+            }
+          } catch (e) {
+            // 符号链接损坏，删除并重新创建（使用相对路径）
+            console.warn('quartz symlink is broken:', e?.message)
+            try {
+              fs.unlinkSync(symlinkPath)
+              fs.symlinkSync(relativeTarget, symlinkPath, 'dir')
+              console.log('Recreated symlink: quartz -> node_modules/quartz/quartz')
+            } catch (e2) {
+              console.warn('Failed to recreate symlink:', e2?.message)
+            }
           }
         }
       } else {

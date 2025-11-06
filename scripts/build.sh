@@ -18,10 +18,19 @@ QUARTZ_TARGET="node_modules/quartz/quartz"
 if [ -e quartz ]; then
   # 检查是否是符号链接
   if [ -L quartz ]; then
-    # 检查符号链接是否有效
-    if [ -d quartz ] && [ -f quartz/build.ts ]; then
+    # 检查符号链接是否指向相对路径（而不是绝对路径）
+    LINK_TARGET=$(readlink quartz)
+    if [[ "$LINK_TARGET" == /* ]]; then
+      # 指向绝对路径，需要删除并重新创建为相对路径
+      echo "Warning: quartz symlink points to absolute path, recreating with relative path..."
+      rm -f quartz
+      ln -s "$QUARTZ_TARGET" quartz
+      echo "Recreated quartz symlink with relative path"
+    elif [ -d quartz ] && [ -f quartz/build.ts ]; then
+      # 指向相对路径且有效
       echo "quartz symlink already exists and is valid"
     else
+      # 指向相对路径但无效，重新创建
       echo "Warning: quartz symlink is broken, removing..."
       rm -f quartz
       ln -s "$QUARTZ_TARGET" quartz
