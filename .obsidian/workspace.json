@@ -11,14 +11,10 @@
             "id": "67f07872dc2985c7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "部署指南.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "部署指南"
+              "title": "新标签页"
             }
           }
         ]
@@ -119,13 +115,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "部署指南.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "部署指南 的大纲"
+              "title": "大纲"
             }
           },
           {
