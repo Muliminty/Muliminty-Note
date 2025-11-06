@@ -1,224 +1,174 @@
 # JavaScript MOC
 
-这是 JavaScript 学习与整理的内容地图，按照 **语法（Syntax）→ 语义（Semantics）→ 运行时（Runtime）** 三个层次来组织，方便扩展与深化。
-
-> **学习路径**：JavaScript 是前端三大基础之一，与 [HTML](../HTML/!MOC-HTML.md) 和 [CSS](../CSS/!MOC-CSS.md) 配合使用。掌握 JavaScript 后，可以学习 [TypeScript](../TypeScript/!MOC-TypeScript.md) 或前端框架（[React](../../02-框架进阶/React/!MOC-React.md)、[Vue](../../02-框架进阶/Vue/!MOC-Vue.md) 等）。
-
----
-
-## 体系整理
-
-主线笔记（串联语法、语义到运行时的脉络）：
-
-+ [从语法、语义到运行时](./体系/从语法、语义到运行时.md)
----
-
-## 一、语法（Syntax）
-
-JavaScript 的表层结构，描述代码如何书写与组成。
-
-### 1. 基础语法
-
-* 变量声明：`var` / `let` / `const`
-* 数据类型
-
-  * 原始类型（string / number / boolean / null / undefined / symbol / bigint）
-  * 引用类型（object / array / function）
-* 运算符与表达式
-* 控制流：`if` / `for` / `while` / `switch`
-
-### 2. 函数语法
-
-* 函数声明与函数表达式
-* 箭头函数
-* 参数：默认参数 / 剩余参数 / 解构参数
-
-### 3. 对象与结构
-
-* 对象字面量
-* 属性与属性描述符
-* `class` 与语法糖
-
-### 4. 模块化语法
-
-* ES Modules：`import` / `export`
-* 动态导入：`import()`
-
-### 5. 现代语法扩展
-
-* 模板字符串
-* 解构赋值
-* 展开运算符
-* 可选链 `?.` 与空值合并 `??`
+> 基于 ECMAScript 官方规范的 JavaScript 知识体系索引
+> 
+> **学习路径**：JavaScript 是前端三大基础之一，与 [HTML](../HTML/!MOC-HTML.md) 和 [CSS](../CSS/!MOC-CSS.md) 配合使用。掌握 JavaScript 后，可以学习 [TypeScript](../../02-框架进阶/TypeScript/!MOC-TypeScript.md) 或前端框架（[React](../../02-框架进阶/React/!MOC-React.md)、[Vue](../../02-框架进阶/Vue/!MOC-Vue.md) 等）。
+> 
+> **参考规范**：[ECMAScript Language Specification](https://tc39.es/ecma262/)
 
 ---
 
-## 二、语义（Semantics）
+## 📚 核心体系
 
-语法背后的意义和运行规则。
+### 1. 语言核心（Language Core）
 
-### 1. 作用域与闭包
+JavaScript 的基础语法和核心概念：
 
-* 作用域链
-* 词法作用域
-* 闭包的形成与应用
+- [语法（Syntax）](./01-语言核心/语法.md) — 变量声明、控制结构、函数、类等语法规则
+- [数据类型（Data Types）](./01-语言核心/数据类型.md) — 原始类型与对象类型
+- [控制结构（Control Flow）](./01-语言核心/控制结构.md) — `if`、`for`、`while` 等语句
+- [作用域和闭包（Scope and Closures）](./01-语言核心/作用域和闭包.md) — 作用域链、块级作用域、闭包概念
 
-### 2. this 绑定语义
-
-* 默认绑定
-* 隐式绑定
-* 显式绑定：`call` / `apply` / `bind`
-* new 绑定
-
-### 3. 原型与继承
-
-* 原型链
-* 构造函数继承
-* `class` 的继承语义
-* `super` 关键字
-
-### 4. 类型与健壮性
-
-* JavaScript 的类型检查机制
-* 类型转换（显式 / 隐式）
-* 异常处理与错误对象
-* 与 TypeScript 的衔接
-
-### 5. 内置对象的语义
-
-* 常用对象：`Object` / `Function` / `Array`
-* 工具对象：`JSON` / `Intl`
-* 正则：`RegExp`
-* 日期：`Date`
-* 数学：`Math`
-* 集合：`Map` / `Set` / `WeakMap` / `WeakSet`
+**参考**：[ECMAScript Language Specification](https://tc39.es/ecma262/)
 
 ---
 
-## 三、运行时（Runtime）
+### 2. 内置对象和 API（Built-in Objects and APIs）
 
-JavaScript 程序执行时的环境与机制。
+JavaScript 提供的标准内置对象和方法：
 
-### 1. 执行模型
+- [内置对象概述](./02-内置对象与API/内置对象概述.md) — 内置对象分类和概览
+- [Array 对象](./02-内置对象与API/Array.md) — 数组操作和方法
+- [String 对象](./02-内置对象与API/String.md) — 字符串操作和方法
+- [Date 对象](./02-内置对象与API/Date.md) — 日期和时间处理
+- [RegExp 对象](./02-内置对象与API/RegExp.md) — 正则表达式
+- [JSON 对象](./02-内置对象与API/JSON.md) — JSON 序列化和反序列化
+- [Math 对象](./02-内置对象与API/Math.md) — 数学运算
+- [Set 和 Map](./02-内置对象与API/Set和Map.md) — 集合数据结构
+- [其他内置对象](./02-内置对象与API/其他内置对象.md) — Object、Function、Error 等
 
-* 执行上下文（创建、执行阶段）
-* 变量提升与函数提升
-* 事件循环（Event Loop）
-
-  * 宏任务 / 微任务
-  * 浏览器与 Node.js 的差异
-
-### 2. 异步与并发
-
-* Promise 语义与执行流程
-* async / await
-* 事件驱动模型
-* 并发与多线程：Web Worker / SharedArrayBuffer
-
-### 3. 内存与性能
-
-* 垃圾回收机制
-* 内存管理与泄漏
-* 性能优化（代码层面）
-
-### 4. 安全与运行环境
-
-* XSS / CSRF
-* 沙箱机制
-* WebAssembly 与 JS 的结合
-
-### 5. 环境与 API
-
-#### 浏览器环境
-
-* **BOM（Browser Object Model）**
-
-  * `window` 对象
-  * `navigator` / `location` / `history`
-  * `screen`
-  * alert / confirm / prompt
-
-* **DOM（Document Object Model）**
-
-  * DOM 树结构
-  * 节点类型与属性
-  * DOM 操作（查询、增删改）
-  * 事件机制（事件捕获/冒泡、委托）
-  * MutationObserver
-
-#### Node.js 环境
-
-* 全局对象 `global`
-* 常用模块：`fs` / `http` / `path`
-* 事件驱动与 `EventEmitter`
+**参考**：[ECMAScript Built-in Objects](https://tc39.es/ecma262/#sec-built-in-objects)
 
 ---
 
-## 四、语言进化与生态
+### 3. 模块化（Modules）
 
-### 1. 语言进化
+JavaScript 模块系统：
 
-* ES6+ 新特性集合
-* Proxy / Reflect
-* Iterator / Generator
-* 元编程
+- [ES6 模块（ES Modules）](./03-模块化/ES6模块.md) — `import` 和 `export` 语法
+- [命名导入与默认导入](./03-模块化/导入导出.md) — 模块导入导出方式
+- [动态导入（Dynamic Import）](./03-模块化/动态导入.md) — `import()` 函数
+- [模块化历史](./03-模块化/模块化历史.md) — CommonJS、AMD、UMD 等（详见 [工程化实践](../../03-工程化实践/工程化/模块化与分包.md)）
 
-### 2. 模块化与规范（历史到现代）
-
-* IIFE / 全局命名空间
-* CommonJS / AMD / UMD
-* ES Modules (ESM)
-
-### 3. 工具与生态
-
-* 包管理：NPM / Yarn / PNPM（详见 [包管理](../../03-工程化实践/工具链与构建/包管理与版本策略.md)）
-* 编译与构建：Babel / Webpack / Vite / Rollup（详见 [工具链与构建 MOC](../../03-工程化实践/工具链与构建/!MOC-工具链与构建.md)）
-* Lint & Format：ESLint / Prettier（详见 [代码规范](../../03-工程化实践/工程化/代码规范.md)）
-* 测试框架：Jest / Mocha / Vitest（详见 [测试 MOC](../../04-质量保障/测试/!MOC-测试.md)）
+**参考**：[ECMAScript Modules](https://tc39.es/ecma262/#sec-modules)
 
 ---
 
-## 📝 学习建议
+### 4. 异步编程（Asynchronous Programming）
 
-1. **前置知识**：需要先掌握 [HTML](../HTML/!MOC-HTML.md) 和 [CSS](../CSS/!MOC-CSS.md) 基础
-2. **学习顺序**：HTML → CSS → JavaScript → [TypeScript](../../02-框架进阶/TypeScript/!MOC-TypeScript.md) → 前端框架
-3. **进阶方向**：
-   - 学习 [TypeScript](../../02-框架进阶/TypeScript/!MOC-TypeScript.md) 增强类型安全
-   - 学习前端框架：[React](../../02-框架进阶/React/!MOC-React.md) 或 [Vue](../../02-框架进阶/Vue/!MOC-Vue.md)
-   - 学习 [工程化工具](../../03-工程化实践/工具链与构建/!MOC-工具链与构建.md) 提升开发效率
-4. **实践应用**：JavaScript 操作 DOM（HTML）和样式（CSS），实现页面交互
+JavaScript 异步处理机制：
+
+- [回调函数（Callbacks）](./04-异步编程/回调函数.md) — 最初的异步处理方式
+- [Promise](./04-异步编程/Promise.md) — ES6 引入的 Promise API
+- [async/await](./04-异步编程/async-await.md) — ES8 引入的异步处理语法
+- [异步编程最佳实践](./04-异步编程/异步编程最佳实践.md) — 错误处理、并发控制等
+
+**参考**：[ECMAScript Async Programming](https://tc39.es/ecma262/#sec-promise-objects)
 
 ---
 
-## 📌 扩展说明
+### 5. 对象和类（Objects and Classes）
 
-遇到新知识时，可以按照以下规则扩展：
+JavaScript 面向对象编程：
 
-1. **语法层面 (Syntax)**
+- [对象（Object）](./05-对象与类/对象.md) — 对象的定义、继承和属性描述
+- [类（Class）](./05-对象与类/类.md) — ES6 引入的类语法
+- [原型与继承](./05-对象与类/原型与继承.md) — 原型链机制
+- [this 绑定](./05-对象与类/this绑定.md) — this 的绑定规则
 
-   * 如果是 **代码写法 / 新语法糖** → 放在 **语法**。
-   * 例子：`?.` 可选链、`??` 空值合并、新的 `class` 特性。
+**参考**：[ECMAScript Object and Class](https://tc39.es/ecma262/#sec-objects)
 
-2. **语义层面 (Semantics)**
+---
 
-   * 如果是 **语法背后的规则与含义** → 放在 **语义**。
-   * 例子：闭包为什么能访问外部变量、this 在箭头函数中的语义。
+### 6. 性能优化（Performance Optimizations）
 
-3. **运行时层面 (Runtime)**
+JavaScript 性能优化相关：
 
-   * 如果涉及 **执行机制 / 内存 / 并发 / 安全** → 放在 **运行时**。
-   * 例子：微任务队列、垃圾回收算法、事件驱动模型。
+- [垃圾回收机制（Garbage Collection）](./06-性能优化/垃圾回收机制.md) — 内存管理和回收
+- [尾调用优化（Tail Call Optimization）](./06-性能优化/尾调用优化.md) — 递归优化（并非所有引擎都实现）
+- [代码性能优化](./06-性能优化/代码性能优化.md) — 代码层面的性能优化技巧
+- [性能监控与分析](./06-性能优化/性能监控与分析.md) — 性能分析工具和方法
 
-4. **跨语法的语言演化**
+**参考**：[ECMAScript Garbage Collection](https://tc39.es/ecma262/#sec-gc)
 
-   * 如果是 **新标准、新提案、语言未来方向** → 放在 **语言进化与生态**。
-   * 例子：Pipeline operator 提案、TC39 的新特性。
+---
 
-5. **工具与生态**
+### 7. 函数式编程（Functional Programming）
 
-   * 如果是 **不属于语言本身，而是配套工具链** → 放在 **生态**。
-   * 例子：Vite 插件、Babel 配置、Vitest 的最佳实践。
+JavaScript 函数式编程特性：
 
-6. **主线文章**
+- [高阶函数（Higher-order Functions）](./07-函数式编程/高阶函数.md) — `map`、`reduce`、`filter` 等
+- [箭头函数（Arrow Functions）](./07-函数式编程/箭头函数.md) — 简化函数语法并改变 `this` 绑定
+- [不可变数据（Immutability）](./07-函数式编程/不可变数据.md) — `Object.freeze` 等方式实现不可变数据
+- [函数式编程模式](./07-函数式编程/函数式编程模式.md) — 函数式编程的常见模式
 
-   * 如果写的是 **从多个维度串起来的总览 / 脉络文章** → 放进 `体系/` 目录，并在 **体系整理**和相关章节都挂上链接。
+**参考**：[ECMAScript Arrow Functions](https://tc39.es/ecma262/#sec-arrow-function-definitions)
+
+---
+
+### 8. 浏览器环境与 DOM 操作（Browser and DOM）
+
+JavaScript 在浏览器环境中的应用：
+
+- [DOM 操作](./08-浏览器环境与DOM/DOM操作.md) — DOM 接口和操作
+- [BOM（Browser Object Model）](./08-浏览器环境与DOM/BOM.md) — `window`、`document`、`navigator` 等
+- [事件机制](./08-浏览器环境与DOM/事件机制.md) — 事件捕获、冒泡、委托
+- [浏览器 API](./08-浏览器环境与DOM/浏览器API.md) — Fetch API、Storage API 等
+
+**参考**：[DOM Living Standard](https://dom.spec.whatwg.org/)
+
+---
+
+### 9. 工具与生态（Performance Tuning and Tools）
+
+JavaScript 开发工具和生态：
+
+- [Babel](./09-工具与生态/Babel.md) — 将新版本 ECMAScript 转译为旧版本的工具（详见 [Babel 转换管线](../../03-工程化实践/工具链与构建/Babel转换管线.md)）
+- [包管理](./09-工具与生态/包管理.md) — npm、yarn、pnpm（详见 [包管理与版本策略](../../03-工程化实践/工具链与构建/包管理与版本策略.md)）
+- [构建工具](./09-工具与生态/构建工具.md) — Webpack、Vite、Rollup（详见 [工具链与构建 MOC](../../03-工程化实践/工具链与构建/!MOC-工具链与构建.md)）
+- [代码规范工具](./09-工具与生态/代码规范工具.md) — ESLint、Prettier（详见 [代码规范](../../03-工程化实践/工程化/代码规范.md)）
+
+**参考**：[Babel Documentation](https://babeljs.io/docs/en/)
+
+---
+
+### 10. 测试和规范（Testing and Best Practices）
+
+JavaScript 测试和最佳实践：
+
+- [单元测试](./10-测试与规范/单元测试.md) — 使用 Jest 等框架进行测试（详见 [测试 MOC](../../04-质量保障/测试/!MOC-测试.md)）
+- [ESLint 规范](./10-测试与规范/ESLint规范.md) — 代码质量检查工具
+- [JavaScript 最佳实践](./10-测试与规范/最佳实践.md) — 编码规范和最佳实践
+- [TC39 提案跟踪](./10-测试与规范/TC39提案跟踪.md) — ECMAScript 新特性跟踪
+
+**参考**：[ECMAScript Best Practices](https://tc39.es/ecma262/#sec-best-practices)
+
+---
+
+## 🔗 相关链接
+
+### 前置知识
+- [HTML MOC](../HTML/!MOC-HTML.md) — HTML 基础
+- [CSS MOC](../CSS/!MOC-CSS.md) — CSS 基础
+
+### 进阶学习
+- [TypeScript MOC](../../02-框架进阶/TypeScript/!MOC-TypeScript.md) — JavaScript 的类型系统
+- [React MOC](../../02-框架进阶/React/!MOC-React.md) — JavaScript 框架
+- [Vue MOC](../../02-框架进阶/Vue/!MOC-Vue.md) — JavaScript 框架
+
+### 工程化实践
+- [工具链与构建 MOC](../../03-工程化实践/工具链与构建/!MOC-工具链与构建.md) — 构建工具和编译
+- [工程化 MOC](../../03-工程化实践/工程化/!MOC-工程化.md) — 代码规范和模块化
+- [测试 MOC](../../04-质量保障/测试/!MOC-测试.md) — 测试策略和工具
+
+---
+
+## 📖 官方资源
+
+- [ECMAScript 官方规范](https://tc39.es/ecma262/)
+- [MDN JavaScript 文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+- [JavaScript.info](https://zh.javascript.info/)
+
+---
+
+#javascript #ecmascript #前端基础

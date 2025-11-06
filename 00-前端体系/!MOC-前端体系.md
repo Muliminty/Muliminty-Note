@@ -23,8 +23,17 @@
 - [CSS现代写法（变量/自定义属性/容器查询）](./01-基础入门/CSS/CSS现代写法.md) — 现代 CSS 特性
 
 #### 3. JavaScript 基础
-- [JavaScript MOC](./01-基础入门/JavaScript/!MOC-javascript.md) — JavaScript 完整知识体系
-- [从语法、语义到运行时](./01-基础入门/JavaScript/体系/从语法、语义到运行时.md) — JavaScript 核心概念体系
+- [JavaScript MOC](./01-基础入门/JavaScript/!MOC-javascript.md) — JavaScript 完整知识体系（基于 ECMAScript 官方规范）
+  - [语言核心](./01-基础入门/JavaScript/01-语言核心/README.md) — 语法、数据类型、控制结构、作用域和闭包
+  - [内置对象与 API](./01-基础入门/JavaScript/02-内置对象与API/README.md) — Array、String、Date、RegExp 等
+  - [模块化](./01-基础入门/JavaScript/03-模块化/README.md) — ES6 模块、动态导入
+  - [异步编程](./01-基础入门/JavaScript/04-异步编程/README.md) — Promise、async/await
+  - [对象与类](./01-基础入门/JavaScript/05-对象与类/README.md) — 对象、类、原型、继承
+  - [性能优化](./01-基础入门/JavaScript/06-性能优化/README.md) — 垃圾回收、尾调用优化
+  - [函数式编程](./01-基础入门/JavaScript/07-函数式编程/README.md) — 高阶函数、箭头函数
+  - [浏览器环境与 DOM](./01-基础入门/JavaScript/08-浏览器环境与DOM/README.md) — DOM、BOM、事件机制
+  - [工具与生态](./01-基础入门/JavaScript/09-工具与生态/README.md) — Babel、包管理、构建工具
+  - [测试与规范](./01-基础入门/JavaScript/10-测试与规范/README.md) — 单元测试、ESLint、最佳实践
 
 **学习检查点**：能够使用 HTML+CSS+JS 完成一个完整的静态页面
 
