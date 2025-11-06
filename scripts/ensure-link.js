@@ -6,6 +6,7 @@ const symlinkPath = path.join(__dirname, '..', 'quartz')
 const target = path.join(__dirname, '..', 'node_modules', 'quartz', 'quartz')
 
 if (!fs.existsSync(symlinkPath)) {
+  // 符号链接不存在，创建它
   if (fs.existsSync(target)) {
     try {
       fs.symlinkSync(target, symlinkPath, 'dir')
@@ -20,14 +21,41 @@ if (!fs.existsSync(symlinkPath)) {
   }
 } else {
   // 检查现有符号链接是否有效
+  let isValid = false
   try {
     const stat = fs.statSync(symlinkPath)
-    if (!stat.isDirectory()) {
-      console.warn('quartz exists but is not a directory, skipping')
+    if (stat.isDirectory()) {
+      // 检查是否是符号链接
+      const linkStat = fs.lstatSync(symlinkPath)
+      if (linkStat.isSymbolicLink()) {
+        // 验证符号链接指向的目标是否存在
+        const realPath = fs.realpathSync(symlinkPath)
+        if (fs.existsSync(realPath)) {
+          isValid = true
+        }
+      } else if (fs.existsSync(target)) {
+        // 如果是目录但不是符号链接，可能需要删除并重新创建
+        console.warn('quartz exists but is not a symlink, will be handled by build.sh')
+      }
     }
   } catch (e) {
+    // 符号链接损坏，尝试删除并重新创建
     console.warn('Existing quartz symlink is broken:', e?.message)
-    // 可以尝试删除并重新创建，但为了安全起见，这里只警告
+    try {
+      fs.unlinkSync(symlinkPath)
+      console.log('Removed broken symlink')
+      if (fs.existsSync(target)) {
+        fs.symlinkSync(target, symlinkPath, 'dir')
+        console.log('Recreated symlink: quartz -> node_modules/quartz/quartz')
+        isValid = true
+      }
+    } catch (e2) {
+      console.warn('Failed to recreate symlink:', e2?.message)
+    }
+  }
+  
+  if (isValid) {
+    console.log('quartz symlink is valid')
   }
 }
 
