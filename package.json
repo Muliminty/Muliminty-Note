@@ -1,0 +1,34 @@
+{
+  "name": "muliminty-note",
+  "version": "1.0.0",
+  "description": "全栈开发知识体系学习笔记",
+  "scripts": {
+    "dev": "quartz build --serve",
+    "build": "quartz build",
+    "preview": "quartz preview"
+  },
+  "dependencies": {
+    "@quartz/plugin-aliasredirects": "^4.4.0",
+    "@quartz/plugin-cname": "^4.4.0",
+    "@quartz/plugin-content": "^4.4.0",
+    "@quartz/plugin-emoji": "^4.4.0",
+    "@quartz/plugin-explicitlinks": "^4.4.0",
+    "@quartz/plugin-folder": "^4.4.0",
+    "@quartz/plugin-git": "^4.4.0",
+    "@quartz/plugin-giscus": "^4.4.0",
+    "@quartz/plugin-graph": "^4.4.0",
+    "@quartz/plugin-latex": "^4.4.0",
+    "@quartz/plugin-mermaid": "^4.4.0",
+    "@quartz/plugin-obsidian": "^4.4.0",
+    "@quartz/plugin-pagefolders": "^4.4.0",
+    "@quartz/plugin-search": "^4.4.0",
+    "@quartz/plugin-tag": "^4.4.0",
+    "@quartz/plugin-toc": "^4.4.0",
+    "@quartz/plugin-wikilinks": "^4.4.0",
+    "quartz": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
+
