@@ -1,7 +1,7 @@
 {
-  "attachmentFolderPath": "./附件",
+  "attachmentFolderPath": "./img",
   "propertiesInDocument": "hidden",
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "shortest",
   "newFileLocation": "folder",
   "newFileFolderPath": "碎片整理/小记",
   "alwaysUpdateLinks": true,
@@ -9,5 +9,11 @@
   "readableLineLength": false,
   "showLineNumber": false,
   "defaultViewMode": "preview",
-  "showIndentGuide": false
+  "showIndentGuide": false,
+  "userIgnoreFilters": [
+    "node_modules/",
+    "public/",
+    "scripts/",
+    "static/"
+  ]
 }
