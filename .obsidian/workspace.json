@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3fc5e03b5ca95d18",
+        "id": "726442f48c4fed0b",
         "type": "tabs",
         "children": [
           {
-            "id": "a252c516e68ff6a0",
+            "id": "1b048456a86f813d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-计算机基础/!MOC-计算机基础.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "!MOC-计算机基础"
+              "title": "新标签页"
             }
           }
         ]
@@ -133,13 +129,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-计算机基础/!MOC-计算机基础.md",
+                "file": "00-前端体系/!MOC-前端体系.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "!MOC-计算机基础 的大纲"
+              "title": "!MOC-前端体系 的大纲"
             }
           },
           {
@@ -158,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-计算机基础/!MOC-计算机基础.md",
+                "file": "00-前端体系/!MOC-前端体系.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +164,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "!MOC-计算机基础 的反向链接列表"
+              "title": "!MOC-前端体系 的反向链接列表"
             }
           },
           {
@@ -177,12 +173,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-计算机基础/!MOC-计算机基础.md",
+                "file": "00-前端体系/!MOC-前端体系.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "!MOC-计算机基础 的出链列表"
+              "title": "!MOC-前端体系 的出链列表"
             }
           }
         ]
@@ -211,6 +207,14 @@
   },
   "active": "b76d5d4c5f29b876",
   "lastOpenFiles": [
+    "01-计算机基础/04-计算机网络/README.md",
+    "01-计算机基础/03-操作系统/README.md",
+    "01-计算机基础/02-数据结构与算法/README.md",
+    "00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md",
+    "00-前端体系/01-基础入门/JavaScript/README.md",
+    "00-前端体系/01-基础入门/README.md",
+    "00-前端体系/!MOC-前端体系.md",
+    "01-计算机基础/!MOC-计算机基础.md",
     "01-计算机基础/06-密码学基础/README.md",
     "01-计算机基础/06-密码学基础",
     "01-计算机基础/05-编译原理/README.md",
@@ -239,14 +243,6 @@
     "书籍/BrowserPrinciple-main/宏观视角上的浏览器/导航流程：从输入URL到页面展示这中间发生了什么/index.md",
     "00-前端体系/01-基础入门/JavaScript/01-语言核心/底层原理/README.md",
     "00-前端体系/01-基础入门/JavaScript/01-语言核心/底层原理/事件循环机制.md",
-    "00-前端体系/01-基础入门/JavaScript/01-语言核心/底层原理/调用栈.md",
-    "00-前端体系/01-基础入门/JavaScript/01-语言核心/变量声明.md",
-    "00-前端体系/01-基础入门/JavaScript/01-语言核心/底层原理/执行上下文.md",
-    "00-前端体系/01-基础入门/JavaScript/01-语言核心/语法.md",
-    "00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md",
-    "00-前端体系/!MOC-前端体系.md",
-    "00-经验技巧/!MOC-经验技巧.md",
-    "00-经验技巧/test.md",
     "00-经验技巧/img/Pasted image 20251106174432.png",
     "00-经验技巧/img/Pasted image 20251106174358.png",
     "00-经验技巧/img/Pasted image 20251106173916.png",
