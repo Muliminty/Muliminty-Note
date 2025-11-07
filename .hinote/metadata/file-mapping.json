@@ -62,7 +62,8 @@
     "00-经验技巧/收集箱/apng-js.md": "00-经验技巧_收集箱_apng-js.md.json",
     "未命名.base": "未命名.base.json",
     "数据库.base": "数据库.base.json",
-    "00-经验技巧/test.md": "00-经验技巧_test.md.json"
+    "00-经验技巧/test.md": "00-经验技巧_test.md.json",
+    "书籍/BrowserPrinciple-main/宏观视角上的浏览器/Chrome架构：仅仅打开1个页面，为什么有4个进程/index.md": "书籍_browserprinciple-main_宏观视角上的浏览器_chrome架构：仅仅打开1个页面，为什么有4个进程_index.md.json"
   },
-  "lastUpdated": 1762422287372
+  "lastUpdated": 1762433143582
 }

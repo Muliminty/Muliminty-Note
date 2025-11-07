@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2438c82880511a49",
+        "id": "3fc5e03b5ca95d18",
         "type": "tabs",
         "children": [
           {
-            "id": "67f07872dc2985c7",
+            "id": "a252c516e68ff6a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-经验技巧/!MOC-经验技巧.md",
-                "mode": "source",
+                "file": "01-计算机基础/!MOC-计算机基础.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!MOC-经验技巧"
+              "title": "!MOC-计算机基础"
             }
           }
         ]
@@ -103,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 321.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -114,18 +114,32 @@
         "type": "tabs",
         "children": [
           {
+            "id": "536de2078b1b6e87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "书籍/BrowserPrinciple-main/README.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
             "id": "cc089dfc51082da7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-经验技巧/!MOC-经验技巧.md",
+                "file": "01-计算机基础/!MOC-计算机基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "!MOC-经验技巧 的大纲"
+              "title": "!MOC-计算机基础 的大纲"
             }
           },
           {
@@ -139,31 +153,12 @@
             }
           },
           {
-            "id": "ffc7586e1facca5c",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {},
-              "icon": "Memos",
-              "title": "Thino"
-            }
-          },
-          {
-            "id": "70999e069002e33c",
-            "type": "leaf",
-            "state": {
-              "type": "mxmind-view",
-              "state": {},
-              "icon": "network",
-              "title": "Mxmind"
-            }
-          },
-          {
             "id": "2d8b45923dba1000",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01-计算机基础/!MOC-计算机基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +168,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "!MOC-计算机基础 的反向链接列表"
             }
           },
           {
@@ -182,48 +177,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "01-计算机基础/!MOC-计算机基础.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "出链"
-            }
-          },
-          {
-            "id": "f907bcb412dfe0ea",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
-          },
-          {
-            "id": "a564317c6d1bddf2",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.notion.so/10732ee5ecaa4568843c0b2cc6bdd213",
-                "title": "重学前端",
-                "mode": "webview"
-              },
-              "pinned": true,
-              "icon": "globe-2",
-              "title": "重学前端"
+              "title": "!MOC-计算机基础 的出链列表"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 365.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,18 +209,29 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "67f07872dc2985c7",
+  "active": "a252c516e68ff6a0",
   "lastOpenFiles": [
+    "书籍/BrowserPrinciple-main/README.md",
+    "数据库.base",
+    "index.md",
+    "书籍/BrowserPrinciple-main/宏观视角上的浏览器/Chrome架构：仅仅打开1个页面，为什么有4个进程/index.md",
+    "书籍/BrowserPrinciple-main/浏览器中的页面循环系统/消息队列和事件循环：页面是怎么活起来的/index.md",
+    "书籍/BrowserPrinciple-main/宏观视角上的浏览器/导航流程：从输入URL到页面展示这中间发生了什么/index.md",
+    "00-前端体系/01-基础入门/JavaScript/01-语言核心/底层原理/README.md",
+    "00-前端体系/01-基础入门/JavaScript/01-语言核心/底层原理/事件循环机制.md",
+    "00-前端体系/01-基础入门/JavaScript/01-语言核心/底层原理/调用栈.md",
+    "00-前端体系/01-基础入门/JavaScript/01-语言核心/变量声明.md",
+    "00-前端体系/01-基础入门/JavaScript/01-语言核心/底层原理/执行上下文.md",
+    "00-前端体系/01-基础入门/JavaScript/01-语言核心/语法.md",
+    "00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md",
+    "00-前端体系/!MOC-前端体系.md",
+    "00-经验技巧/!MOC-经验技巧.md",
     "00-经验技巧/test.md",
     "00-经验技巧/img/Pasted image 20251106174432.png",
-    "书籍/BrowserPrinciple-main/宏观视角上的浏览器/导航流程：从输入URL到页面展示这中间发生了什么/index.md",
     "00-经验技巧/img/Pasted image 20251106174358.png",
     "00-经验技巧/img/Pasted image 20251106173916.png",
-    "00-经验技巧/!MOC-经验技巧.md",
-    "数据库.base",
     "00-经验技巧/img",
     "README.md",
-    "index.md",
     "404.md",
     "03-服务端/04-部署与运维/静态网站部署/零基础搭建GitHub笔记仓库完整教程.md",
     "static/custom.css",
@@ -279,17 +256,6 @@
     "node_modules/quartz/CODE_OF_CONDUCT.md",
     "node_modules/quartz/docs/tags/component.md",
     "node_modules/quartz/docs/tags/plugin.md",
-    "node_modules/quartz/docs/plugins/index.md",
-    "node_modules/quartz/docs/plugins/TagPage.md",
-    "node_modules/quartz/docs/plugins/SyntaxHighlighting.md",
-    "node_modules/quartz/docs/plugins/TableOfContents.md",
-    "node_modules/quartz/docs/plugins/Static.md",
-    "node_modules/quartz/docs/plugins/RoamFlavoredMarkdown.md",
-    "node_modules/quartz/docs/plugins/RemoveDrafts.md",
-    "node_modules/quartz/docs/plugins/OxHugoFlavoredMarkdown.md",
-    "node_modules/quartz/docs/plugins/ObsidianFlavoredMarkdown.md",
-    "node_modules/quartz/docs/plugins/NotFoundPage.md",
-    "node_modules/quartz/docs/plugins/Latex.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名.canvas",
     "xx-归档/00-前端/00-核心/JavaScript/知识图谱.canvas",
