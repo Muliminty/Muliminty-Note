@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "40ac380b43e18cd8",
+        "id": "f55c6a7e781c4db1",
         "type": "tabs",
         "children": [
           {
-            "id": "eb97be5cb9e81dc4",
+            "id": "add3510d5829b125",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "书籍/overreacted/a-complete-guide-to-useeffect/index.md",
+                "file": "书籍/overreacted/a-complete-guide-to-useeffect/index.zh-CN.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "index.zh-CN"
             }
           }
         ]
@@ -103,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 321.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -133,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "书籍/overreacted/a-complete-guide-to-useeffect/index.md",
+                "file": "书籍/overreacted/a-complete-guide-to-useeffect/index.zh-CN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "index.zh-CN 的大纲"
             }
           },
           {
@@ -222,8 +223,20 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "eb97be5cb9e81dc4",
+  "active": "add3510d5829b125",
   "lastOpenFiles": [
+    "书籍/overreacted/a-complete-guide-to-useeffect/index.zh-CN.md",
+    "书籍/overreacted/a-complete-guide-to-useeffect/index.md",
+    "书籍/overreacted/README.md",
+    "Prompt/英文技术文档翻译.md",
+    "Prompt/翻译.md",
+    "Prompt",
+    "00-经验技巧/Prompt/翻译.md",
+    "00-经验技巧/Prompt",
+    "00-经验技巧/AI 提示词/翻译.md",
+    "00-经验技巧/AI 提示词",
+    "书籍/overreacted/writing-resilient-components/index.md",
+    "书籍/overreacted/avi.jpg",
     "书籍/overreacted/writing-resilient-components/img/useeffect.gif",
     "书籍/overreacted/writing-resilient-components/img",
     "书籍/overreacted/why-isnt-x-a-hook/img",
@@ -239,16 +252,9 @@
     "书籍/overreacted/where-its-at/img/7.svg",
     "书籍/overreacted/where-its-at/img/3.svg",
     "书籍/overreacted/where-its-at/img/2-full.svg",
-    "书籍/overreacted/where-its-at/img/10.svg",
-    "书籍/overreacted/where-its-at/img/1-full.svg",
     "书籍/overreacted/where-its-at/img",
-    "书籍/overreacted/what-is-javascript-made-of/img",
-    "书籍/overreacted/what-does-use-client-do/img",
-    "书籍/overreacted/what-are-the-react-team-principles/img",
-    "书籍/overreacted/a-complete-guide-to-useeffect/index.md",
     "书籍/overreacted/a-chain-reaction/index.md",
     "00-前端体系/02-框架进阶/React/!MOC-React.md",
-    "书籍/overreacted/writing-resilient-components/index.md",
     "书籍/overreacted/why-isnt-x-a-hook/index.md",
     "书籍/overreacted/why-does-rsc-integrate-with-a-bundler/index.md",
     "书籍/overreacted/why-do-we-write-super-props/index.md",
@@ -265,11 +271,6 @@
     "书籍/overreacted/the-elements-of-ui-engineering/index.md",
     "书籍/overreacted/the-bug-o-notation/index.md",
     "书籍/overreacted/suppressions-of-suppressions/index.md",
-    "书籍/overreacted/static-as-a-server/index.md",
-    "书籍/overreacted/rsc-for-lisp-developers/index.md",
-    "书籍/overreacted/rsc-for-astro-developers/index.md",
-    "书籍/overreacted/react-for-two-computers/index.md",
-    "书籍/overreacted/react-as-a-ui-runtime/index.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名.canvas",
     "xx-归档/00-前端/00-核心/JavaScript/知识图谱.canvas",
