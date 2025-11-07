@@ -28,13 +28,13 @@ As you might know, a URI often contains a scheme (for example, `https://`), an *
 
 In most protocols, including `https://`, the authority part points at whoever's *hosting* the data. Whoever *created* this data is either not present, or is in the path:
 
-![A URI to a Bluesky post; "bsky.app" domain is highlighted as "the app" while "ruuuuu.de" username is highlighted in the path](./1-full.svg)
+![A URI to a Bluesky post; "bsky.app" domain is highlighted as "the app" while "ruuuuu.de" username is highlighted in the path](./img/1-full.svg)
 
 **The `at://` protocol flips that around.**
 
 In `at://` URIs, whoever *created* the data is the authority, in the most literal sense:
 
-![An at:// URI, with the "ruuuuu.de" username where you'd usually see a domain, followed by "app.bsky.feed.post" in the path](./2-full.svg)
+![An at:// URI, with the "ruuuuu.de" username where you'd usually see a domain, followed by "app.bsky.feed.post" in the path](./img/2-full.svg)
 
 **The user is the authority for their own data.** Whoever's *hosting* the data could change over time, and is *not* directly included in an `at://` URI. To find out the actual physical server hosting that JSON, you're gonna need to take a few steps.
 
@@ -44,7 +44,7 @@ In `at://` URIs, whoever *created* the data is the authority, in the most litera
 
 Let's try to resolve this `at://` URI to the piece of JSON it represents:
 
-![at://ruuuuu.de/app.bsky.feed.post/3lzy2ji4nms2z](./2-full.svg)
+![at://ruuuuu.de/app.bsky.feed.post/3lzy2ji4nms2z](./img/2-full.svg)
 
 An easy way to resolve an `at://` URI is to use an [SDK](https://sdk.blue/) or a client app. Let's try an online client, for example, [pdsls](https://pdsls.dev/at://ruuuuu.de/app.bsky.feed.post/3lzy2ji4nms2z) or [Taproot](https://atproto.at/viewer?uri=at://ruuuuu.de/app.bsky.feed.post/3lzy2ji4nms2z) or [atproto-browser](https://atproto-browser.vercel.app/at/ruuuuu.de/app.bsky.feed.post/3lzy2ji4nms2z). They'll figure out the physical server where its JSON is currently hosted, and show that JSON for you.
 
@@ -127,7 +127,7 @@ Found it!
 
 The `ruuuuu.de` handle *claims* to be owned by `did:web:iam.ruuuuu.de`, whoever that may be. That's all that we wanted to know at this point:
 
-![ruuuuu.de resolves to did:web:iam.ruuuuu.de](./3.svg)
+![ruuuuu.de resolves to did:web:iam.ruuuuu.de](./img/3.svg)
 
 **Note this doesn't *prove* their association yet.** We'll need to verify that whoever controls the `did:web:iam.ruuuuu.de` identity "agrees" with `ruuuuu.de` being their handle. The mapping is bidirectional. But we'll confirm that in a later step.
 
@@ -146,7 +146,7 @@ _atproto.danabra.mov	text = "did=did:plc:fpruhuo22xkm5o7ttr2ktxdo"
 
 That also worked! The `danabra.mov` handle claims to be owned by the `did:plc:fpruhuo22xkm5o7ttr2ktxdo` identity, whoever that may be:
 
-![danabra.mov resolves to did:plc:fpruhuo22xkm5o7ttr2ktxdo](./4.svg)
+![danabra.mov resolves to did:plc:fpruhuo22xkm5o7ttr2ktxdo](./img/4.svg)
 
 This DID looks a bit different than what you saw earlier but it's also a valid DID. Again, it's important to emphasize we've not confirmed the association yet.
 
@@ -174,7 +174,7 @@ did:plc:5c6cw3veuqruljoy5ahzerfx
 
 That worked! This means that `barackobama.bsky.social` handle claims to be owned by the `did:plc:5c6cw3veuqruljoy5ahzerfx` identity, whoever that is:
 
-![barackobama.bsky.social resolves to did:plc:5c6cw3veuqruljoy5ahzerfx](./7.svg)
+![barackobama.bsky.social resolves to did:plc:5c6cw3veuqruljoy5ahzerfx](./img/7.svg)
 
 So you get the idea. When you see a handle, you can probe it with DNS and HTTPS to see if it claims to be owned by some identity (a DID). If you found a DID, you'll then be able to (1) verify it actually owns that handle, and (2) locate the server that hosts the data for that DID. And that will be the server you'll ask for the JSON.
 
@@ -202,7 +202,7 @@ In contrast, the `at://` links below, which use DIDs, will not break until we ei
 
 So, really, this is the "true form" of an `at://` URI:
 
-![at://did:web:iam.ruuuuu.de/app.bsky.feed.post/3lzy2ji4nms2z](./8-full.svg)
+![at://did:web:iam.ruuuuu.de/app.bsky.feed.post/3lzy2ji4nms2z](./img/8-full.svg)
 
 **Think of `at://` links with DIDs as "permalinks".** Any application *storing* `at://` URIs should store them in this canonical form so that logical links between our pieces of JSON don't break when we change our handles or change our hosting.
 
@@ -227,7 +227,7 @@ Let's compare them.
 
 The `ruuuuu.de` handle claims to be owned by `did:web:iam.ruuuuu.de`:
 
-![ruuuuu.de points at did:web:iam.ruuuuu.de](./3.svg)
+![ruuuuu.de points at did:web:iam.ruuuuu.de](./img/3.svg)
 
 To check this claim, let's find the DID Document for `did:web:iam.ruuuuu.de`. The [`did:web` method](https://w3c-ccg.github.io/did-method-web/) is a specification that specifies an [algorithm](https://w3c-ccg.github.io/did-method-web/#read-resolve) for that.
 
@@ -271,7 +271,7 @@ This DID Document looks sleep-inducing but it tells us three important things:
 
 A DID Document really *is* like an internet passport for an identity: here's their handle, here's their signature, and here's their location. It connects a handle to a hosting while letting the identity owner change *either* the handle *or* the hosting.
 
-![did:web:iam.ruuuuu.de is bidirectionally connected to the swappable @ruuuuu.de handle, and points to swappable blacksky.app hosting](./9.svg)
+![did:web:iam.ruuuuu.de is bidirectionally connected to the swappable @ruuuuu.de handle, and points to swappable blacksky.app hosting](./img/9.svg)
 
 Users who interact with `@ruuuuu.de` on different apps in the atmosphere don't need to know or care about his DID *or* about his current hosting (and whether it moves). From their perspective, his current handle is the only relevant identifier. As for developers, they'll refer to him by DID, which conveniently never changes.
 
@@ -283,7 +283,7 @@ Let's have a look at an alternative to `did:web` that avoids this problem.
 
 We already know the `danabra.mov` handle claims to be owned by the `did:plc:fpruhuo22xkm5o7ttr2ktxdo` identity (actually, that's me!)
 
-![](./4.svg)
+![](./img/4.svg)
 
 To check this claim, let's find the DID Document for `did:plc:fpruhuo22xkm5o7ttr2ktxdo`.
 
@@ -328,7 +328,7 @@ The DID Document itself works exactly the same way. It specifies:
 
 Let's visualize this:
 
-![did:plc:fpruhuo22xkm5o7ttr2ktxdo is bidirectionally connected with the swappable @danabra.mov handle, and points at swappable morel.us-east.host.bsky.network hosting](./10.svg)
+![did:plc:fpruhuo22xkm5o7ttr2ktxdo is bidirectionally connected with the swappable @danabra.mov handle, and points at swappable morel.us-east.host.bsky.network hosting](./img/10.svg)
 
 Although my handle is `@danabra.mov`, the actual server storing my data is currently `https://morel.us-east.host.bsky.network`. I'm happy to keep hosting it there but I'm thinking of moving it to a host I control in the future. I can change both my handle and my hosting without disruption to my social apps.
 

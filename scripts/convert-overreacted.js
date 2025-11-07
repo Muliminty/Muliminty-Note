@@ -49,12 +49,83 @@ function convertLinks(content, currentFolder, allFolders) {
   });
 }
 
+// 转换图片路径为 img/ 文件夹格式
+function convertImagePaths(content) {
+  // 匹配 markdown 图片格式: ![alt](./image.png) 或 ![alt](image.png)
+  // 匹配格式: ![alt](./image.png) 或 ![alt](image.png) 或 ![alt](image.png)
+  const imagePattern = /!\[([^\]]*)\]\(([^\)]+\.(png|jpg|jpeg|gif|svg|webp))\)/gi;
+  
+  return content.replace(imagePattern, (match, alt, imagePath) => {
+    // 如果已经是 ./img/ 格式，保持不变
+    if (imagePath.startsWith('./img/') || imagePath.startsWith('img/')) {
+      return match;
+    }
+    
+    // 如果是外部链接（http:// 或 https://），保持不变
+    if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) {
+      return match;
+    }
+    
+    // 提取文件名（去掉可能的 ./ 前缀）
+    const imageName = imagePath.replace(/^\.\//, '');
+    
+    // 转换为 ./img/ 格式
+    return `![${alt}](./img/${imageName})`;
+  });
+}
+
+// 移动图片文件到 img/ 文件夹
+function moveImagesToImgFolder(folderPath, folderName) {
+  const imgDir = path.join(folderPath, 'img');
+  
+  // 创建 img 文件夹（如果不存在）
+  if (!fs.existsSync(imgDir)) {
+    fs.mkdirSync(imgDir, { recursive: true });
+  }
+  
+  // 图片文件扩展名
+  const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp'];
+  
+  // 读取文件夹中的所有文件
+  const files = fs.readdirSync(folderPath);
+  let movedCount = 0;
+  
+  for (const file of files) {
+    // 跳过 index.md 和 img 文件夹
+    if (file === 'index.md' || file === 'img' || file === '.DS_Store') {
+      continue;
+    }
+    
+    const filePath = path.join(folderPath, file);
+    const stat = fs.statSync(filePath);
+    
+    // 如果是文件且是图片文件
+    if (stat.isFile()) {
+      const ext = path.extname(file).toLowerCase();
+      if (imageExtensions.includes(ext)) {
+        const destPath = path.join(imgDir, file);
+        // 如果目标文件不存在，移动文件
+        if (!fs.existsSync(destPath)) {
+          fs.renameSync(filePath, destPath);
+          movedCount++;
+          console.log(`  移动图片: ${file} -> img/${file}`);
+        }
+      }
+    }
+  }
+  
+  return movedCount;
+}
+
 // 处理单个文件
 function processFile(filePath, currentFolder, allFolders) {
   let content = fs.readFileSync(filePath, 'utf-8');
   
   // 转换链接
   content = convertLinks(content, currentFolder, allFolders);
+  
+  // 转换图片路径
+  content = convertImagePaths(content);
   
   // 确保 frontmatter 格式正确
   // 处理 tags 在 frontmatter 外部的情况
@@ -103,8 +174,17 @@ function main() {
   
   // 处理每个文章文件夹
   for (const folder of allFolders) {
-    const indexPath = path.join(overreactedDir, folder, 'index.md');
+    const folderPath = path.join(overreactedDir, folder);
+    const indexPath = path.join(folderPath, 'index.md');
+    
     if (fs.existsSync(indexPath)) {
+      // 先移动图片文件到 img/ 文件夹
+      const movedCount = moveImagesToImgFolder(folderPath, folder);
+      if (movedCount > 0) {
+        console.log(`  已移动 ${movedCount} 个图片文件到 img/ 文件夹`);
+      }
+      
+      // 然后处理 markdown 文件
       processFile(indexPath, folder, allFolders);
     }
   }

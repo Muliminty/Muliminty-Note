@@ -43,13 +43,13 @@ theorem two_eq_two : 2 = 2 := by
 
 Put the cursor *before* the `sorry`, and notice a panel called **Tactic state** on the right. With the cursor before the `sorry`, the tactic state displays `⊢ 2 = 2`:
 
-![Goal is 2 = 2](./state1.png)
+![Goal is 2 = 2](./img/state1.png)
 
 Here, `⊢` means the *goal*, i.e. the statement you're supposed to be proving. Your current goal is to prove `2 = 2`, so the tactic state says `⊢ 2 = 2`.
 
 Now put the cursor right *after* the `sorry` and notice the goal has disappeared:
 
-![No goals](./state2.png)
+![No goals](./img/state2.png)
 
 The goal is gone! In other words, you've "proven" `2 = 2` by saying `sorry`.
 
@@ -57,11 +57,11 @@ Of course, this is nonsense. You can think of `sorry` as a universal proof--it c
 
 Let's try get rid of the `sorry`:
 
-![](./state3.png)
+![](./img/state3.png)
 
 Now you see that the proof is incomplete, and the goal is unsolved. To actually prove `2 = 2`, type `rfl` on the next line, which will successfully close the goal:
 
-![](./state4.png)
+![](./img/state4.png)
 
 Here, `rfl` means "reflexivity", from "reflection", like a mirror image. Whenever you have a "mirrored" goal like `something = something`, `rfl` will close it. You can think of `rfl` as a built-in piece of knowledge that "a thing is equal to itself".
 
@@ -110,13 +110,13 @@ theorem two_eq_three : 2 = 3 := by
 
 Like before, `sorry` lets you close any goal, even `2 = 3`:
 
-![](./state5.png)
+![](./img/state5.png)
 
 But that is cheating, and we will endeavor to remove the `sorry`.
 
 Replace `sorry` with `rfl`:
 
-![](./state6.png)
+![](./img/state6.png)
 
 Not so easy now! You could close `⊢ 2 = 2` with `rfl` because `2 = 2` is shaped like `something = something`. However, the goal `⊢ 2 = 3` *is not* shaped like `something = something`, and therefore `rfl` *does not* close the `⊢ 2 = 3` goal.
 
@@ -162,13 +162,13 @@ theorem two_add_two_eq_six : 2 + 2 = 6 := by
 
 We start with the goal of `⊢ 2 + 2 = 6`:
 
-![](./state7.png)
+![](./img/state7.png)
 
  We don't have any tactic that can solve the goal of that specific shape. However, we *do* have `math_is_haunted`, which is a "proof" that `2 = 3`. If `2` is really the same thing as `3`, then to prove `2 + 2 = 6`, **it should be enough** to prove `3 + 3 = 6`.
 
  The `rewrite` tactic lets us do just that--rewrite the goal, turning each `2` into a `3`:
 
-![](./state8.png)
+![](./img/state8.png)
 
 We *still* have an unsolved goal, but now it's `⊢ 3 + 3 = 6`.
 
@@ -197,13 +197,13 @@ In this case, we deliberately added `math_is_haunted` so it's kind of our own fa
 
 Let us delete `axiom math_is_haunted` now. Naturally, this breaks the `two_add_two_eq_six` proof which depends on the naughty axiom:
 
-![](./state9.png)
+![](./img/state9.png)
 
 Again, that's good! Broken things should not proof-check.
 
 To fix it up, let's change the statement to `2 + 2 = 4` which is actually correct (according to the axioms of natural numbers that Lean is familiar with):
 
-![](./state10.png)
+![](./img/state10.png)
 
 With the bad axiom out, math is no longer haunted! (Or at least we could [hope so.](https://philosophy.stackexchange.com/questions/28303/if-the-zfc-axioms-cannot-be-proven-consistent-how-can-we-say-for-certain-that-a))
 

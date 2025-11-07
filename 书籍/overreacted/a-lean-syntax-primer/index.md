@@ -101,11 +101,11 @@ def birthYear := 2025 - age
 
 Hovering over this `#eval` in your editor will now say `1983`. Another place where it'll show up is the *InfoView* on the right side of the online playground:
 
-![1983 shows up in InfoView](./1.png)
+![1983 shows up in InfoView](./img/1.png)
 
 Note `1983` in the bottom right corner. If you [set up VS Code with the Lean extension](https://lean-lang.org/install/) locally, you can get the same InfoView displayed like this:
 
-![Screenshot of InfoView in VS Code](./2.png)
+![Screenshot of InfoView in VS Code](./img/2.png)
 
 Lean InfoView is incredibly useful and I suggest to keep it open at all times.
 
@@ -168,33 +168,33 @@ The declared type of a theorem is a statement that it's supposed to prove. Your 
 
 Initially, the InfoView tells you that your goal is `age + birthYear = 2025`:
 
-![Goal: age + birthYear = 2025](./7.png)
+![Goal: age + birthYear = 2025](./img/7.png)
 
 However, that's not something you can be sure in directly. What's `age`? Try to `unfold age` to replace `age` in the goal with whatever its definition says:
 
-![Goal: 42 + birthYear = 2025](./8.png)
+![Goal: 42 + birthYear = 2025](./img/8.png)
 
 Note how this made the goal in your InfoView change to `42 + birthYear = 2025`. Okay, but what's a `birthYear`? Let's `unfold birthYear` as well:
 
-![Goal: 42 + (2025 - age) = 2025](./9.png)
+![Goal: 42 + (2025 - age) = 2025](./img/9.png)
 
 You're getting closer; the goal is now `42 + (2025 - age) = 2025`. Unfolding `birthYear` brought back `age`, what's `age` again? Let's `unfold age`:
 
-![Goal: 42 + (2025 - 42) = 2025](./10.png)
+![Goal: 42 + (2025 - 42) = 2025](./img/10.png)
 
 At this point the goal is `42 + (2025 - 42) = 2025`, which is a simple arithmetic expression. The built-in `decide` tactic can solve those with gusto:
 
-![No goals](./11.png)
+![No goals](./img/11.png)
 
 And you're done! You've now proven that `age + birthYear = 2025` without actually having *run* any code. This is being verified *during typechecking.*
 
 You can verify that editing `age` to another number will not invalidate your proof. However, if you edit `birthYear` to `2023 - age`, the proof no longer typechecks:
 
-![tactic 'decide' proved that 42 + (2023 - 42) is false](./12.png)
+![tactic 'decide' proved that 42 + (2023 - 42) is false](./img/12.png)
 
 Of course, this was all a bit verbose. Instead of doing `unfold` for each definition manually, you can tell the `simp` simplifier to do them recursively for you:
 
-![simp [age, birthView] solves the same theorem](./13.png)
+![simp [age, birthView] solves the same theorem](./img/13.png)
 
 This also proves the goal.
 
@@ -281,7 +281,7 @@ def main := IO.println 2025 - age
 
 This will lead to an error:
 
-![Failed to synthesize HSub (IO Unit) Nat ?m.342](./3.png)
+![Failed to synthesize HSub (IO Unit) Nat ?m.342](./img/3.png)
 
 Lean thinks you're trying to do `(IO.println 2025) - age`, so it looks for a way to subtract `age` (which is a `Nat`) from whatever `IO.println 2025` returns (which happens to be something called `IO Unit`). Lean can't find a subtraction operation (`HSub`) between an `IO Unit` and a `Nat`, so it gives up in frustration.
 
@@ -381,7 +381,7 @@ Again, the parens around `birthYear 2025` ensure that `IO.println` doesn't try t
 
 If you hover over `birthYear` now, you'll see that its type is no longer a `Nat`:
 
-![](./5.png)
+![](./img/5.png)
 
 This is how Lean pretty-prints function types. You see the function name `birthYear`, followed by its arguments (we only have one), `:` and the return type.
 
@@ -460,7 +460,7 @@ def main := IO.println (birthYear 2025 42)
 
 Actually, this doesn't work, and the error is sucky.
 
-![typeclass instance is stuck](./14.png)
+![typeclass instance is stuck](./img/14.png)
 
 The problem is the issue I described earlier--at this point, Lean has no idea what the types of `currentYear` and `age` might be. Previously, it relied on `age` being an earlier declaration (and inferred it to be a `Nat`) but now Lean is truly stumped.
 
@@ -583,7 +583,7 @@ theorem my_theorem : a + birthYear cy a = cy := by
 
 Although you haven't declared `a` and `cy`, this is actually valid syntax! The VS Code Lean extension will implicitly insert `{a cy}` arguments after `my_theorem`:
 
-![Automatically inserted implicit arguments: a : Nat, cy : Int](./15.png)
+![Automatically inserted implicit arguments: a : Nat, cy : Int](./img/15.png)
 
 These "implicit" arguments surrounded by `{` `}` curly braces can sometimes be very useful to avoid boilerplate, but in this case they're more confusing than helpful. Let's declare `cy` and `a` explicitly as normal arguments to `my_theorem`:
 
@@ -603,7 +603,7 @@ Let's see if you actually can!
 
 You start out with the goal of `↑a + birthYear cy a = cy`:
 
-![Goal: ↑a + birthYear cy a = cy](./16.png)
+![Goal: ↑a + birthYear cy a = cy](./img/16.png)
 
 The `⊢` symbol before it tells you that this is the goal, i.e. what you want to prove. Things above it, like `cy : Int` and `a : Nat`, are the things you *already have.*
 
@@ -615,7 +615,7 @@ What's that up arrow?
 
 Hover over it in the InfoView:
 
-![@Nat.cast Int instNatCastInt a : Int](./17.png)
+![@Nat.cast Int instNatCastInt a : Int](./img/17.png)
 
 The signature is a bit confusing (what's that `@`? what's that `instNatCastInt`?) but you can see that it takes your `a` (which is a `Nat`) and returns an `Int`. So this is how Lean displays the fact that your `a` is being converted to an `Int` so that it can be added with the result of `birthYear cy a` call (which is already an `Int`).
 
@@ -623,7 +623,7 @@ Okay, cool, the goal is to prove `↑a + birthYear cy a = cy`. How do we do that
 
 Well, first, let's `unfold birthYear` to replace it with the implementation:
 
-![Goal: ↑a + (cy - ↑a) = cy](./18.png)
+![Goal: ↑a + (cy - ↑a) = cy](./img/18.png)
 
 Now the goal becomes `↑a + (cy - ↑a) = cy`.
 
@@ -631,7 +631,7 @@ You can't use the `decide` tactic from earlier because it only deals with known 
 
 With `omega`, you can complete this proof!
 
-![No goals](./19.png)
+![No goals](./img/19.png)
 
 Let's have another look at the full code:
 
@@ -650,7 +650,7 @@ You have a function called `birthYear` and a theorem called `my_theorem` about i
 
 In a way it's like a test, but it's a test for *all possible inputs of that function* that runs during typechecking. I think this is incredibly cool. You can verify that incorrectly changing the formula of `birthYear` will cause the proof to no longer typecheck:
 
-![omega could not prove the goal](./20.png)
+![omega could not prove the goal](./img/20.png)
 
 ---
 
@@ -687,7 +687,7 @@ Now instead of `cy a :`, we have `: ∀ cy a`. The universal quantifier lets the
 
 When you use `∀`, you're starting out with a universal statement ("for all `cy` and `a`") so `cy` and `a` aren't in your tactic state yet. Use `intro cy a` to bring them in:
 
-![intro cy a brings cy : Int and a : Nat into tactic state](./24.png)
+![intro cy a brings cy : Int and a : Nat into tactic state](./img/24.png)
 
 Again, you don't have their *concrete* values because a proof is supposed to work for all possible values. You don't know anything about them except their types.
 
@@ -735,7 +735,7 @@ def main :=
 
 Hover over `IO.println`, and you might freak out:
 
-![IO.println.\{u_1\} \{a : Type u_1\} [ToString α] (s: α) : IO Unit](./25.png)
+![IO.println.\{u_1\} \{a : Type u_1\} [ToString α] (s: α) : IO Unit](./img/25.png)
 
 What the hell is this signature?! Learning to read these signatures will immensely improve your ability to understand Lean APIs and debug errors so I'm going to break it down even though we haven't discussed most of the relevant topics.
 
@@ -774,11 +774,11 @@ Now you can hover over each `_` placeholder to see what Lean has inferred for it
 
 For example, the `{α}` implicit parameter was inferred to be `Int`:
 
-![Int](./26.png)
+![Int](./img/26.png)
 
 And the `[ToString]` instance implicit parameter received `instToStringInt`:
 
-![instToStringInt](./27.png)
+![instToStringInt](./img/27.png)
 
 If you want to further debug what's going on, you can fill them in in the code:
 

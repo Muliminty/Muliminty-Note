@@ -13,7 +13,7 @@ I believe we are at a similar juncture with social apps as we have been with ope
 
 (Disclosure: I used to work at Bluesky on the Bluesky client app. I wasn't involved in the protocol design. I am a fan, and this post is my attempt to explain why.)
 
-![A web of data: Alice's and Bob's records link to each other.](./0-full.svg)
+![A web of data: Alice's and Bob's records link to each other.](./img/0-full.svg)
 
 In this post, I'll explain the ideas of the AT Protocol, lovingly called *atproto*, and how it changes the relationship between the user, the developer, and the product.
 
@@ -33,27 +33,27 @@ You type `https://alice.com` and you end up on Alice's website.
 
 Or you type `https://bob.com` and you end up on Bob's website.
 
-![Alice and Bob have top-level domains that serve some HTML.](./1-full.svg)
+![Alice and Bob have top-level domains that serve some HTML.](./img/1-full.svg)
 
 In a sense, your browser is a portal to millions of different worlds, each with its own little jurisdiction. Only Alice decides what appears on Alice's website. Only Bob decides what appears on Bob's website. They meaningfully "own their data".
 
-![Alice and Bob meaningfully control those domains.](./2-full.svg)
+![Alice and Bob meaningfully control those domains.](./img/2-full.svg)
 
 This doesn't mean that they're isolated. On the contrary, Alice can embed Bob's picture with an `<img src>`, and Bob can link to Alice's page with `<a href>`:
 
-![HTML hosted by Alice and Bob can link to each other.](./3-full.svg)
+![HTML hosted by Alice and Bob can link to each other.](./img/3-full.svg)
 
 Alice and Bob can link to each other, but they remain in charge of their sites.
 
 What do I *mean* by saying Alice and Bob are in charge of their own sites? Even if they're not physically hosting their content on their own computers, they could always change hosting. For example, if Alice's hosting provider starts deleting her pages or injecting ads into them, Alice can take her content to another host, and point `https://alice.com` at another computer. *The visitors won't need to know.*
 
-![Alice can point her domain to a different hosting with her existing content.](./4-full.svg)
+![Alice can point her domain to a different hosting with her existing content.](./img/4-full.svg)
 
 **This is important.** Hosting providers have no real leverage over Alice and Bob. If the hosting provider "turns evil" and starts messing with your site, you can just walk away and host it elsewhere (as long as you have a backup). You're not going to lose your traffic. All existing links will seamlessly resolve to the new destination.
 
 If Alice changes her hosting, Bob won't need to update any links to Alice's website. Alice's site will keep working as if nothing had happened. At worst, a DNS change might make it inaccessible for a few hours, but then the web will be repaired:
 
-![Alice's and Bob's sites still link to each other, like nothing has changed.](./3-full.svg)
+![Alice's and Bob's sites still link to each other, like nothing has changed.](./img/3-full.svg)
 
 Imagine how different the incentives would be if links *were* tied to physical hosts!
 
@@ -73,7 +73,7 @@ Alice and Bob are still publishing things. But instead of publishing at domains 
 
 These entities are usually stored in a database on the social company's servers. The most common way to visualize a database is as a sequence of rows, but you could also visualize it as a graph. This makes it look very similar to web itself:
 
-![Alice and Bob have pieces of data (a like, a profile, a follow) instead of pieces of HTML.](./5-full.svg)
+![Alice and Bob have pieces of data (a like, a profile, a follow) instead of pieces of HTML.](./img/5-full.svg)
 
 What does this social graph enable that a web of personal sites doesn't?
 
@@ -85,7 +85,7 @@ It's specifically this **social aggregation** that blows the "personal sites" pa
 
 Today, the most common way to implement these features is shaped like this:
 
-![Alice's and Bob's data are actually in a box, which represents a database. There are projections from that box to different application routes and screens.](./6-full.svg)
+![Alice's and Bob's data are actually in a box, which represents a database. There are projections from that box to different application routes and screens.](./img/6-full.svg)
 
 There still *exists* a web-like logical model of our data--our profiles, our posts, our follows, our likes, all the things that we've created--but it lives *within* some social app's database. What's exposed to the web are only *projections* of that model--the Home screen, the Notifications screen, the HTML pages for individual posts.
 
@@ -93,19 +93,19 @@ This architecture makes sense. It is the easiest way to evolve the "personal sit
 
 However, something got lost in the process. *The web we're actually creating*--our posts, our follows, our likes--is no longer meaningfully ours. Even though much of what we're creating is public, it is not a part of the open web. We can't change our "hosting provider" because we're now *one step removed* from how the internet works. We, and the web we create, have become rows in somebody else's database:
 
-![Nothing is meaningfully Alice's or Bob's anymore. They live within boxes controlled by companies like Facebook and Twitter.](./8-full.svg)
+![Nothing is meaningfully Alice's or Bob's anymore. They live within boxes controlled by companies like Facebook and Twitter.](./img/8-full.svg)
 
 This creates an imbalance.
 
 When Alice used to publish her stuff on `alice.com`, she was not tied to any particular hosting provider. If she were unhappy with a hosting provider, she knew that she could swap it out without losing any traffic or breaking any links:
 
-![Alice is moving content to another host.](./4-full.svg)
+![Alice is moving content to another host.](./img/4-full.svg)
 
 That kept the hosting providers in check.
 
 But now that Alice publishes her stuff on a social media platform, she can no longer "walk away" without losing something. If she signs up to another social platform, she would be *forced* to start from scratch, even if she *wants* to retain her connections. There is no way for Alice to sever the relationship with a particular app without ripping herself, and anything she created there, out of its social graph:
 
-![Alice can't leave Facebook without erasing herself and her content out of existence.](./10-full.svg)
+![Alice can't leave Facebook without erasing herself and her content out of existence.](./img/10-full.svg)
 
 The web Alice created--who she follows, what she likes, what she has posted--is trapped in a box that's owned by somebody else. To leave is to leave it *behind*.
 
@@ -117,7 +117,7 @@ However, *collectively*, the net effect is that social platforms--at first, grad
 
 Maybe the app gets squeezed by investors, and every third post is an ad. Maybe it gets bought by a congolomerate that wanted to get rid of competition, and is now on life support. Maybe it runs out of funding, and your content goes down in two days. Maybe the founders get acquihired--an exciting new chapter. Maybe the app was bought by some guy, and now you're slowly getting cooked by the algorithm.
 
-![What used to be Twitter is suddenly a different site.](./11-full.svg)
+![What used to be Twitter is suddenly a different site.](./img/11-full.svg)
 
 If your next platform doesn't respect you as a user, you might try to leave it, too.
 
@@ -137,7 +137,7 @@ Alice and Bob are still using social apps. Those apps don't look much different 
 
 Something has changed, though. (Can you spot it?)
 
-![Alice and Bob have pieces of data, like before. But Alice's username is `@alice.com` rather than `@alice`, and Bob's username is `@bob.com`.](./12-full.svg)
+![Alice and Bob have pieces of data, like before. But Alice's username is `@alice.com` rather than `@alice`, and Bob's username is `@bob.com`.](./img/12-full.svg)
 
 Notice that Alice's handle is now `@alice.com`. It is not allocated by a social media company. Rather, her handle is *the* universal "internet handle", i.e. a domain. Alice *owns* the `alice.com` domain, so she can *use it as a handle* on any open social app. (On most open social apps, she goes by `@alice.com`, but for others she wants a distinct disconnected identity, so she owns another handle she'd rather not share.)
 
@@ -147,7 +147,7 @@ Your internet handle being something you *actually own* is the most user-visible
 
 When you previously saw the social graph above, it was trapped *inside* a social app's database. There was a box around that graph--it wasn't a part of the web. With open social, Alice's data--her posts, likes, follows, etc--*is* hosted on the web itself. Alongside her personal site, Alice now has a *personal repository* of her data:
 
-![Alice's website contains Alice's HTML. Alice's repository contains Alice's data. They exist side by side.](./13-full.svg)
+![Alice's website contains Alice's HTML. Alice's repository contains Alice's data. They exist side by side.](./img/13-full.svg)
 
 This "repository" is a regular web server that implements the [AT Protocol](https://atproto.com/) spec. The only job of Alice's personal repository is to store and serve data created by Alice in the form of signed JSON. Alice is technical, so she likes to sometimes inspect her repo using open source tools like [pdsls](https://pdsls.dev/), [Taproot](https://atproto.at/), or [atproto-browser](https://atproto-browser.vercel.app/).
 
@@ -155,7 +155,7 @@ Bob, however, isn't technical. He doesn't even know that there is a "repository"
 
 Have another look at this picture:
 
-![Alice and Bob have pieces of data.](./12-full.svg)
+![Alice and Bob have pieces of data.](./img/12-full.svg)
 
 **These aren't rows in somebody's database. This is a web of hyperlinked JSON.** Just like every HTML page has an `https://` URI so other pages can link to it, every JSON record has an [`at://` URI](../where-its-at/index.md), so any other JSON record can link to it. (On this and other illustrations, `@alice.com` is a shorthand for `at://alice.com`.) The `at://` protocol is [a bunch of conventions](https://www.ietf.org/archive/id/draft-newbold-at-architecture-00.html) on top of DNS, HTTP, and JSON.
 
@@ -169,13 +169,13 @@ Note that `https://alice.com` and `at://alice.com` do not need to resolve to the
 
 If Alice is unhappy with her hosting, she can pack up and leave:
 
-![Alice seamlessly moves her repository data to a different host.](./14-full.svg)
+![Alice seamlessly moves her repository data to a different host.](./img/14-full.svg)
 
 *(This requires a modicum of technical skill today but it's getting [more accessible](https://pdsmoover.com/info.html).)*
 
 Just like with moving a personal site, changing where her repo is being served from doesn't require cooperation from the previous host. It also doesn't disrupt her ability to log into apps and doesn't break any links. The web repairs itself:
 
-![Alice's data is still Alice's. Bob's data is still Bob's. The links between them still work.](./12-full.svg)
+![Alice's data is still Alice's. Bob's data is still Bob's. The links between them still work.](./img/12-full.svg)
 
 It is worth pausing for a moment to appreciate what we have here.
 
@@ -189,15 +189,15 @@ Each open social app is like a CMS (content management system) for a subset of d
 
 When you make a post on [Bluesky](https://bsky.app/), Bluesky puts that post into *your* repo:
 
-![The Bluesky app calls createRecord in a repo. A post appears.](./15-full.svg)
+![The Bluesky app calls createRecord in a repo. A post appears.](./img/15-full.svg)
 
 When you star a project on [Tangled](https://tangled.org/), Tangled puts that star into *your* repo:
 
-![The Tangled app calls createRecord in a repo. A star appears.](./16-full.svg)
+![The Tangled app calls createRecord in a repo. A star appears.](./img/16-full.svg)
 
 When you create a publication on [Leaflet](https://leaflet.pub), Leaflet puts it into *your* repo:
 
-![The Leaflet app calls createRecord in a repo. A publication appears.](./17-full.svg)
+![The Leaflet app calls createRecord in a repo. A publication appears.](./img/17-full.svg)
 
 You get the idea.
 
@@ -205,7 +205,7 @@ Over time, your repo grows to be a collection of data from different open social
 
 To avoid naming collisions, the data in the repository is grouped by the format:
 
-![Alice's repo contents, separated by record type.](./18-full.svg)
+![Alice's repo contents, separated by record type.](./img/18-full.svg)
 
 In any user's repo, Bluesky posts go with other Bluesky posts, Leaflet publications go with Leaflet publications, Tangled stars go with Tangled stars, and so on. Each data format is [controlled and evolved](https://www.pfrazee.com/blog/why-not-rdf#lexicon) by developers of the relevant application.
 
@@ -217,7 +217,7 @@ When I signed up for Tangled, I chose to use my existing `@danabra.mov` handle. 
 
 That might remind you of [Gravatar](https://gravatar.com/), but it works for *every piece of data*. Every open social app can take advantage of data created by every other open social app:
 
-![Alice's repo content, this time without separation. Content created by each app flows into every app.](./19-full.svg)
+![Alice's repo content, this time without separation. Content created by each app flows into every app.](./img/19-full.svg)
 
 There is no API to hit, no integrations to build, nothing to get locked out of. All the data is in the user's repository, so you can parse it (as typed JSON), and use it.
 
@@ -241,11 +241,11 @@ Since every user's records live in *that user's* repository, there could be mill
 
 I've previously used a CMS as an analogy--for example, a blogging app could directly write posts to your repository and then read posts from it when someone visits your blog. This "singleplayer" use case would not require aggregation at all.
 
-![The Leaflet app requests data from the user repository.](./20-full.svg)
+![The Leaflet app requests data from the user repository.](./img/20-full.svg)
 
 To avoid hitting the user's repository every time you want to display their blog post, you can connect to the user's repository by a websocket. Every time a record relevant to your app is created, updated, or deleted, you can update your database:
 
-![The Leaflet app subscribes to updates from the user repository by websocket.](./21.svg)
+![The Leaflet app subscribes to updates from the user repository by websocket.](./img/21.svg)
 
 This database isn't the *source of truth* for user's data--it's more like an app-specific cache that lets you avoid going to the user repo whenever you need some data.
 
@@ -255,7 +255,7 @@ This might remind you of how Google Reader crawls RSS (rip).
 
 To avoid opening a million event socket connections, it makes sense to listen to a stream that retransmits events from all known repositories on the network:
 
-![The Leaflet app subscribes to updates from all user repositories by websocket.](./22-full.svg)
+![The Leaflet app subscribes to updates from all user repositories by websocket.](./img/22-full.svg)
 
 You can then filter down such a stream to just the events you're interested in, and then update your local database in response to the events your app cares about.
 
@@ -283,31 +283,31 @@ What matters is the big picture.
 
 The pre-social web of "personalized sites" got data ownership, hosting independence, and linking right. Alice and Bob fully participate in the web:
 
-![Alice and Bob own their HTML.](./3-full.svg)
+![Alice and Bob own their HTML.](./img/3-full.svg)
 
 The closed social web innovated in scaling and in social aggregation features. Notifications, search, and feeds are non-negotiable in modern social products:
 
-![By putting stuff into a database, we can create aggregated screens.](./6-full.svg)
+![By putting stuff into a database, we can create aggregated screens.](./img/6-full.svg)
 
 However, the closed social web has also excluded *us* from the web. *The web we create* is no longer meaningfully ours. We're just rows in somebody else's database.
 
-![The content is no longer ours. It lives inside closed boxes owned by social companies.](./10-full.svg)
+![The content is no longer ours. It lives inside closed boxes owned by social companies.](./img/10-full.svg)
 
 Open social frees the web we're creating from somebody else's boxes. Our profiles, likes, follows, recipes, scrobbles, and other content meaningfully belong to us:
 
-![Alice owns Alice's data. Bob owns Bob's data.](./12-full.svg)
+![Alice owns Alice's data. Bob owns Bob's data.](./img/12-full.svg)
 
 The data no longer lives *inside* the products; the products *aggregate over* our data:
 
-![Products like Leaflet listen to events in Alice's and Bob's repos to construct their database.](./22-full.svg)
+![Products like Leaflet listen to events in Alice's and Bob's repos to construct their database.](./img/22-full.svg)
 
 This blurs the boundaries between apps. Every open social app can use, remix, link to, and riff on data from every other open social app.
 
-![Records of different types flow into every app.](./19-full.svg)
+![Records of different types flow into every app.](./img/19-full.svg)
 
 The web we've created remains after the products we used to create it are gone. Developers can build new products to recontextualize it. No one can take it away.
 
-![Alice owns her data, Bob owns his data.](./12-full.svg)
+![Alice owns her data, Bob owns his data.](./img/12-full.svg)
 
 As more products are built in the open social paradigm, [there's going to be a shift.](https://knotbin.leaflet.pub/3lx3uqveyj22f/)
 

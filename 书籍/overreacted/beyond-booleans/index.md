@@ -16,11 +16,11 @@ const question3 : boolean = 2 + 2 === 5; // false
 
 In fact, we can drop the `: boolean` type annotations because TypeScript can see that all of these are logical expressions--and so they obviously must be booleans:
 
-![Hover in TypeScript playground: question2 is a boolean](./1.png)
+![Hover in TypeScript playground: question2 is a boolean](./img/1.png)
 
 Note that `question1`, `question2`, and `question3` are all of the same type. In TypeScript, there is only one `boolean` type, and only two values (`true` and `false`) of that type. Let's visualize that (an arrow means "a value is of type"):
 
-![Diagram showing true and false being of type boolean](./1.svg)
+![Diagram showing true and false being of type boolean](./img/1.svg)
 
 That's how logical statements work in the vast majority of programming languages: one type, two values. However, that's not what happens in [Lean](../the-math-is-haunted/index.md).
 
@@ -30,7 +30,7 @@ That's how logical statements work in the vast majority of programming languages
 
 Although Lean [can do](https://live.lean-lang.org/#codez=CYUwZgBAjgriDOAXAlgewHYQFwQEKtQBtsBeCAJggGoKIyAWAKAGIQA3AQ2NgRQ0aA) Booleans, by default it *won't* see `2 + 2 = 4` as a Boolean. Instead, `2 + 2 = 4` in Lean will give you a *Prop*--short for "logical proposition":
 
-![Hover in Lean playground showing question2 is of type Prop](./2.png)
+![Hover in Lean playground showing question2 is of type Prop](./img/2.png)
 
 *(Try it in the [Lean playground](https://live.lean-lang.org/#codez=CYUwZgBAjgriDOAXAlgewHYEYIC4C8EATBAYQFCiSwIobH5EQDUjBALBeNHEmugMy5SzVhACsQA) or [VS Code](https://lean-lang.org/install/).)*
 
@@ -44,7 +44,7 @@ def question3 : Prop := 2 + 2 = 5
 
 Now let's visualize these values and types (an arrow means "is a value of type"):
 
-![Diagram showing 2 = 2, 2 + 2 = 4 and 2 + 2 = 5 being of type Prop](./2.svg)
+![Diagram showing 2 = 2, 2 + 2 = 4 and 2 + 2 = 5 being of type Prop](./img/2.svg)
 
 This looks different!
 
@@ -97,7 +97,7 @@ def proof1 : 2 = 2 := by rfl
 
 This means that our proposition `2 = 2` is not only a value, but it can also act as a type (and `by rfl` here happens to produce a value of exactly the `2 = 2` type):
 
-![Diagram showing by rfl is of type 2 = 2, and 2 = 2 is of type Prop](./4.svg)
+![Diagram showing by rfl is of type 2 = 2, and 2 = 2 is of type Prop](./img/4.svg)
 
 You can't have such a "type tower" in TypeScript, but in Lean this is absolutely fine. The `by rfl` value has a type of `2 = 2`, and `2 = 2` has a type of `Prop`.
 
@@ -114,13 +114,13 @@ def proof2 : 2 + 2 = 4 := by rfl
 
 However, no matter how hard you try, unless there's a bug in Lean kernel, you can't produce a value of type `2 + 2 = 5` without either a [`sorry`](/the-math-is-haunted/#sorry-not-sorry) or a [bad `axiom`](/the-math-is-haunted/#the-math-is-haunted):
 
-![Screenshot of linked playground](./3.png)
+![Screenshot of linked playground](./img/3.png)
 
 *([Try it in the Lean playground.](https://live.lean-lang.org/#codez=CYUwZgBADgTg9nMBGCAuCAmCBeTbcBGAnhDGADYBQoksCYW6WA1HrgCz4TGkWWUBaARAAicEAGcAdgHIALhDlEoIAMYALNQGsIACiUqIIGPBgBKauGjxEAZgD6BAIbAmEVllwBWLjzJVBYQAVdQBLCQhwiA0QJzlQqQBzPQkAVyhYSQkE5INJCxpregdnYBk3DxwIH1RCEgk4EyJ+IQgQqKiYuJzFBD0XYB6nbhcIJwAPULgAWwsJqenI+2mXEHtQuXt0tDxK70taGzASlxly3bZqrlDl1fXN9MogA))*
 
 Let's visualize the fact that we found some proofs for `2 = 2` and `2 + 2 = 4`:
 
-![Diagram: by rfl is of type 2 = 2 (proving it's correct), by rfl is of type 2 + 2 = 4 (proving it's correct), but nothing is of type 2 + 2 = 5](./5.svg)
+![Diagram: by rfl is of type 2 = 2 (proving it's correct), by rfl is of type 2 + 2 = 4 (proving it's correct), but nothing is of type 2 + 2 = 5](./img/5.svg)
 
 Unlike `2 = 2` and `2 + 2 = 4`, the `2 + 2 = 5` type is "lonely"--we haven't found any proof for it. Is that what it means for a proposition to be false?
 
@@ -146,7 +146,7 @@ def proof3 : Not (2 + 2 = 5) := by decide
 
 Note the `Not` in front of `2 + 2 = 5`. You can think of `Not (2 + 2 = 5)` as a whole separate proposition, and we've just supplied a proof for it (`by decide`):
 
-![Diagram: in addition to proofs of 2 = 2 and 2 + 2 = 4, we also have a proof of Not (2 + 2 = 5)](./6.svg)
+![Diagram: in addition to proofs of 2 = 2 and 2 + 2 = 4, we also have a proof of Not (2 + 2 = 5)](./img/6.svg)
 
 It typechecks, therefore we know that `Not (2 + 2 = 5)` is true.
 
@@ -158,7 +158,7 @@ The important part is that it typechecks. Both `by rfl` and `by decide` merely g
 
 The fact that we produced a value of the type `Not (2 + 2 = 5)` is the closest we can get in Lean to saying that `2 + 2 = 5` is false. That proof guarantees that as long as our axioms don't already contradict each other and the Lean kernel doesn't contain bugs, we won't find any values of the `2 + 2 = 5` type other than `sorry`:
 
-![Diagram: We have a proof of Not (2 + 2 = 5). That's as good as having a disproof of 2 + 2 = 5.](./7.svg)
+![Diagram: We have a proof of Not (2 + 2 = 5). That's as good as having a disproof of 2 + 2 = 5.](./img/7.svg)
 
 In that sense, a proposition like `2 + 2 = 5` is similar to the `never` type in TypeScript--it's a type whose value it is impossible to produce without cheating.
 
@@ -182,7 +182,7 @@ def proof2'' : 2 + 2 = 4 := by decide
 
 In the above snippet, the values produced via `by decide`, `by rfl` and `two_add_two_eq_four` are all values of the same `2 + 2 = 4` type:
 
-![Diagram: by decide, two_add_two_eq_four, and by rfl are all valid proofs of 2 + 2 = 4. Also, they are all equal.](./8.svg)
+![Diagram: by decide, two_add_two_eq_four, and by rfl are all valid proofs of 2 + 2 = 4. Also, they are all equal.](./img/8.svg)
 
 However, note I also drew green equal signs between them. In Lean, all proofs of the same proposition are considered equal--once they're typechecked, they will appear indistiguishable to any other code. (You can even ["prove" that if you want](https://live.lean-lang.org/#codez=JYWwDg9gTgLgBAWQIYwBYBtgCMBQOAmApgGZxhQQTEBMcAXHLQNSNwC8cALPR1gJ5woxdARJkKVagHJ6rFrQ7c6vAUQDGwIqNLlKNKTIbNWinnBgB3CAH0k+fNcs3CAR2vEIAVyg4428XrU1q7WupKGAZLskfpm/ILC/mE0wW7J0hHp0ekGcQJCIkQ6EvqpoSUZsjnZFbnKcPEFOEA).)
 
@@ -194,11 +194,11 @@ In that sense, each proposition has *at most one* "distinct" proof (if you found
 
 Take another look at how logic is represented in the TypeScript typesystem:
 
-![true and false are of type boolean](./1.svg)
+![true and false are of type boolean](./img/1.svg)
 
 Compare it to this diagram of how it's expressed in Lean:
 
-![All proofs in Lean from earlier. 2 = 2, 2 + 2 = 4, Not 2 + 2 = 5 are all propositions with proofs. 2 + 2 = 5 has no proof.](./10-full.svg)
+![All proofs in Lean from earlier. 2 = 2, 2 + 2 = 4, Not 2 + 2 = 5 are all propositions with proofs. 2 + 2 = 5 has no proof.](./img/10-full.svg)
 
 Although the TypeScript representation is simpler (we have just two values of a single type), it erases the knowledge of *which facts have been established*.
 
@@ -227,7 +227,7 @@ Now anyone who calls this function will *also* have to supply these two proofs.
 
 For number literals actually between `0` and `1`, `by norm_num` can produce such proofs. However, we won't be able to produce proofs of this type for numbers outside that range, so calls with `x` set to `1.2` or `-1` will fail the typechecker:
 
-![Screenshot of linked playground.](./9.png)
+![Screenshot of linked playground.](./img/9.png)
 
 *([Try it in the Lean playground.](https://live.lean-lang.org/#codez=JYWwDg9gTgLgBAWQIYwBYBtgCMBQOAmApgGZwDOEIhAYgK4B2AxjMBPXABQAeAXHILiEASk5cA+gHNCogF6EoEOHy5xApkRwADMO6j0UtoUVxlgEyI4ARmE8AvDjhG4APTgAmPAGJCANyTpylGgzMrOzqAHQArJxYAJ5w9NAgovS0IFoxcQlJKYI4Ht6+FFR0TCxsGqFmUbHxUInJqVUZtVmpuV4+fkWBpSGhAJx9jTV12UOZ9Tlt+Z0BJcHmoc5jzRPLI615HYWzQWUcALQWay1p1ePZeEA))*
 
@@ -256,7 +256,7 @@ noncomputable def someOtherFunction (a: ℝ) :=
 
 You want to pass that `x` to `someFunction`, but now you have to prove that `x` is between `0` and `1`. The problem is that it's not a concrete literal like `0.99` or `1.2` so you really have no idea what it is, and `by norm_num` no longer typechecks:
 
-![Screenshot of linked playground.](./10.png)
+![Screenshot of linked playground.](./img/10.png)
 
 *([Try it in the Lean playground.](https://live.lean-lang.org/#codez=JYWwDg9gTgLgBAWQIYwBYBtgCMBQccAmApgGZwDOEIRAYgK4B2AxjMBA3ABQAeAXHIFxCAJRduAfQDmRMQC8iUCHH7c4gUyI4ABhE8x6aeyJK4KwCZEcAIwjeAXjzG4APTgAmPDgbsmVMHRhIsenDEZJTUAPJo8vTMrOxcSPzCSrZwcHrwKjZcAEpESOgAdOTAHEgiTq6pobSMLGwcKpxYAJ5wHlAgYgx0INotbdCd3b1AA))*
 
@@ -278,7 +278,7 @@ You can see if Lean can find proofs of these facts in Mathlib by writing `apply?
 
 Indeed, there is a match:
 
-![Lean suggests exact sq_nonneg (Real.sin a)](./11.png)
+![Lean suggests exact sq_nonneg (Real.sin a)](./img/11.png)
 
 Lean says that it found an existing proof called `sq_nonneg` in the Mathlib library imported at the top of the file. This is a proof of any proposition shaped like `foo ^ 2 ≥ 0`, so you can apply it to `sin a` to produce a proof of `(sin a) ^ 2 ≥ 0`.
 
@@ -304,7 +304,7 @@ noncomputable def someOtherFunction (a: ℝ) :=
 
 Now that the first proof typechecks, try your luck with the second one:
 
-![Lean suggests exact sin_sq_le_one a](./12.png)
+![Lean suggests exact sin_sq_le_one a](./img/12.png)
 
 Another match! Mathlib happens to contain a proof called `sin_sq_le_one` ("sine squared is less than one"), which is exactly what you want. It proves propositions like `(sin foo) ^ 2 ≤ 1`, and you need `(sin a) ^ 2 ≤ 1`. You can either pass `a` explicitly like `exact sin_sq_le_one a`, or let `apply` infer the argument:
 
@@ -318,7 +318,7 @@ noncomputable def someOtherFunction (a: ℝ) :=
 
 Now the entire thing typechecks!
 
-![Screenshot of the linked playground](./13.png)
+![Screenshot of the linked playground](./img/13.png)
 
 *([Try it in the Lean playground.](https://live.lean-lang.org/#codez=JYWwDg9gTgLgBAWQIYwBYBtgCMBQOAmApgGZwDOEIhAYgK4B2AxjMBPXABQAeAXHILiEASk5cA+gHNCogF6EoEOHy5xApkRwADMO6j0UtoUVxlgEyI4ARmE8AvDjhG4APTgAmPPTaNKYWjCRZdcESkFFQA8mhydEwsbJxIfEKKNna68MrWnABKhEjoAHRkwOxIwk6udqhIAG4GYpIycgoZWACecEhgYOhtZACOou709ITitnCVNUY6esNJcK1whFxIzHDZuQVFon3TovrtYyE0DMys7Mp1UrLyU7p7w3hAA))*
 
@@ -340,7 +340,7 @@ def claim1 : Prop := 2 = 2
 
 What exactly is `2 = 2` here? If you Command+Click into it in VS Code, you'll find that `a = b` is actually defined in Lean core as syntax sugar for some `Eq a b`:
 
-![Screenshot of Lean source code defining a = b](./14.png)
+![Screenshot of Lean source code defining a = b](./img/14.png)
 
 *(Yes, much of Lean fundamentals are actually written in Lean.)*
 
@@ -401,13 +401,13 @@ def proof1 : claim1 := by rfl /- or := Eq.refl 2 -/
 
 The `by rfl` tactic produces a proof `Eq.refl 2`, which is of type `Eq 2 2` (or the nicer `2 = 2`), which itself is a value of type `Prop`. Types pass, so it's proven:
 
-![by rfl (which is actually Eq.refl 2) is a value of type 2 = 2 (which is actually Eq 2 2), which is a value of type Prop](./11.svg)
+![by rfl (which is actually Eq.refl 2) is a value of type 2 = 2 (which is actually Eq 2 2), which is a value of type Prop](./img/11.svg)
 
 On the other hand, if you tried to prove `2 = 3`, you would have to somehow construct a value of the type `Eq 2 3`. However, that is impossible because the only constructor of the `Eq` type is `Eq.refl`, and it only ever lets you construct values of types `Eq 2 2`, `Eq 3 3`, and so on--where the left side *is* the right side.
 
 Now you can see the whole picture:
 
-![Same picture, but with 2 + 2 = 4 and 2 + 2 = 5 included. Types are Eq 2 2 and Eq 2+2 4, while values are Eq.rfl 2 and Eq.rfl 4](./12-full.svg)
+![Same picture, but with 2 + 2 = 4 and 2 + 2 = 5 included. Types are Eq 2 2 and Eq 2+2 4, while values are Eq.rfl 2 and Eq.rfl 4](./img/12-full.svg)
 
 Proofs are values of types of propositions, and each proposition is typed in a way that it is only possible to construct a proof when that proposition is correct. That's how mathematics can be bridged to programming--not by computing numbers, but by computing logic itself--from which you can construct numbers and more.
 

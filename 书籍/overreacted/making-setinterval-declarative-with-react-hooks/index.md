@@ -122,7 +122,7 @@ I’ll illustrate this point with a concrete example.
 
 Let’s say we want the interval delay to be adjustable:
 
-![Counter with an input that adjusts the interval delay](./counter_delay.gif)
+![Counter with an input that adjusts the interval delay](./img/counter_delay.gif)
 
 While you wouldn’t necessarily control the delay with an *input*, adjusting it dynamically can be useful — for example, to poll for some AJAX updates less often while the user has switched to a different tab.
 
@@ -620,7 +620,7 @@ This `useInterval()` Hook is really fun to play with. When the side effects are 
 
 **For example, we can have a `delay` of one interval be controlled by another:**
 
-![Counter that automatically speeds up](./counter_inception.gif)
+![Counter that automatically speeds up](./img/counter_inception.gif)
 
 ```jsx {10-15}
 function Counter() {

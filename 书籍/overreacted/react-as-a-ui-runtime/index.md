@@ -9,7 +9,7 @@ tags:
 
 Most tutorials introduce React as a UI library. This makes sense because React *is* a UI library. That’s literally what the tagline says!
 
-![React homepage screenshot: "A JavaScript library for building user interfaces"](./react.png)
+![React homepage screenshot: "A JavaScript library for building user interfaces"](./img/react.png)
 
 I’ve written about the challenges of creating [user interfaces](../the-elements-of-ui-engineering/index.md) before. But this post talks about React in a different way — more as a [programming runtime](https://en.wikipedia.org/wiki/Runtime_system).
 
