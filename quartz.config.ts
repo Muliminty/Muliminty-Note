@@ -25,6 +25,7 @@ const config: QuartzConfig = {
       ".obsidian",
       "node_modules",
       ".git",
+      "书签整理.md",
     ],
     defaultDateType: "created",
     theme: {

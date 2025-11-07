@@ -233,7 +233,7 @@
 本笔记已部署到 GitHub Pages，支持 Obsidian 双链语法：
 
 - 📖 [在线访问地址](https://muliminty.github.io/Muliminty-Note/)（部署后更新）
-- 📘 [完整部署指南](./部署指南.md) **← 推荐从这里开始**
+- 📘 [完整部署指南](./03-服务端/04-部署与运维/静态网站部署/GitHub-Pages部署指南.md) **← 推荐从这里开始**
 
 ### 特性
 
