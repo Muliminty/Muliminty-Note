@@ -2,6 +2,10 @@
 
 JavaScript 提供的标准内置对象和方法。
 
+> **说明**：本节包含的是 **ECMAScript 内置对象**，由 TC39 组织定义的 ECMAScript 规范的一部分。这些对象在所有 JavaScript 运行环境中都可用（浏览器、Node.js、Deno 等）。
+> 
+> **注意**：`File`、`Blob`、`FileReader`、`FormData` 等 API 不是 ECMAScript 内置对象，而是 **Web API**（浏览器 API），由 W3C 定义，主要用于浏览器环境。相关内容请参考 [浏览器环境与 DOM](../08-浏览器环境与DOM/README.md)。
+
 ## 目录
 
 - [内置对象概述](./内置对象概述.md) — 内置对象分类和概览

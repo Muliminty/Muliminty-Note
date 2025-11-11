@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f55c6a7e781c4db1",
+        "id": "d4f2b1cf3fd6d826",
         "type": "tabs",
         "children": [
           {
-            "id": "add3510d5829b125",
+            "id": "b79e5b02a8ad59af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "书籍/overreacted/a-complete-guide-to-useeffect/index.zh-CN.md",
+                "file": "00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index.zh-CN"
+              "title": "!MOC-javascript"
             }
           }
         ]
@@ -133,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "书籍/overreacted/a-complete-guide-to-useeffect/index.zh-CN.md",
+                "file": "00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index.zh-CN 的大纲"
+              "title": "!MOC-javascript 的大纲"
             }
           },
           {
@@ -222,9 +222,18 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "add3510d5829b125",
+  "active": "b79e5b02a8ad59af",
   "lastOpenFiles": [
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Blob-API.md",
+    "00-前端体系/!MOC-前端体系.md",
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/FormData-API.md",
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/FileReader-API.md",
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/File-API.md",
+    "00-经验技巧/前端大文件上传.md",
+    "00-经验技巧/!MOC-经验技巧.md",
     "书籍/overreacted/a-complete-guide-to-useeffect/index.zh-CN.md",
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Array.md",
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/README.md",
     "书籍/overreacted/a-complete-guide-to-useeffect/index.md",
     "书籍/overreacted/README.md",
     "Prompt/英文技术文档翻译.md",
@@ -261,15 +270,6 @@
     "书籍/overreacted/why-do-hooks-rely-on-call-order/index.md",
     "书籍/overreacted/where-its-at/index.md",
     "书籍/overreacted/what-is-javascript-made-of/index.md",
-    "书籍/overreacted/what-does-use-client-do/index.md",
-    "书籍/overreacted/what-are-the-react-team-principles/index.md",
-    "书籍/overreacted/things-i-dont-know-as-of-2018/index.md",
-    "书籍/overreacted/the-wet-codebase/index.md",
-    "书籍/overreacted/the-two-reacts/index.md",
-    "书籍/overreacted/the-math-is-haunted/index.md",
-    "书籍/overreacted/the-elements-of-ui-engineering/index.md",
-    "书籍/overreacted/the-bug-o-notation/index.md",
-    "书籍/overreacted/suppressions-of-suppressions/index.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名.canvas",
     "xx-归档/00-前端/00-核心/JavaScript/知识图谱.canvas",

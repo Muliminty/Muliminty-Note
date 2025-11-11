@@ -8,6 +8,49 @@
 
 ---
 
+## 📚 知识体系分类说明
+
+### 内置对象 vs 浏览器 API
+
+JavaScript 知识体系包含两类 API：
+
+**ECMAScript 内置对象（Built-in Objects）**：
+- 由 **ECMAScript 规范**（TC39）定义
+- 是 JavaScript 语言本身的一部分
+- 在所有 JavaScript 运行环境中都可用（浏览器、Node.js、Deno 等）
+- 示例：`Array`、`String`、`Date`、`Math`、`JSON`、`Promise` 等
+- 参考：[ECMAScript Built-in Objects](https://tc39.es/ecma262/#sec-built-in-objects)
+- 对应章节：[2. 内置对象和 API](#2-内置对象和-api-built-in-objects-and-apis)
+
+**浏览器 API（Web API）**：
+- 由 **W3C** 或其他 Web 标准组织定义
+- 是浏览器环境提供的 API
+- 主要用于浏览器环境，在 Node.js 等环境中可能不存在或需要 polyfill
+- 示例：`File`、`Blob`、`FileReader`、`FormData`、`DOM`、`Fetch` 等
+- 参考：[W3C File API](https://www.w3.org/TR/FileAPI/)、[DOM Living Standard](https://dom.spec.whatwg.org/)
+- 对应章节：[8. 浏览器环境与 DOM 操作](#8-浏览器环境与-dom-操作-browser-and-dom)
+
+### 为什么 File/Blob/FileReader/FormData 是浏览器 API？
+
+1. **规范来源**：
+   - 这些 API 由 **W3C File API** 规范定义，不是 ECMAScript 规范的一部分
+   - `FormData` 由 **XMLHttpRequest 规范**定义
+
+2. **环境依赖**：
+   - 这些 API 主要用于浏览器环境中的文件操作
+   - 虽然在 Node.js 18+ 中也有实现，但这是为了兼容性，而不是语言核心
+
+3. **使用场景**：
+   - `File`、`Blob`、`FileReader` 主要用于处理浏览器中的文件上传、下载、预览等
+   - `FormData` 主要用于浏览器中的表单提交和文件上传
+   - 这些功能与 DOM 操作密切相关
+
+4. **历史原因**：
+   - 这些 API 最初是为了在浏览器中处理文件而设计的
+   - 它们与 DOM、BOM 等浏览器 API 属于同一类别
+
+---
+
 ## 📚 核心体系
 
 ### 1. 语言核心（Language Core）
@@ -24,6 +67,10 @@ JavaScript 的基础语法和核心概念：
 ---
 
 ### 2. 内置对象和 API（Built-in Objects and APIs）
+
+> **说明**：本节包含的是 **ECMAScript 内置对象**，由 TC39 组织定义的 ECMAScript 规范的一部分。这些对象在所有 JavaScript 运行环境中都可用（浏览器、Node.js、Deno 等）。
+> 
+> **注意**：`File`、`Blob`、`FileReader`、`FormData` 等 API 不是 ECMAScript 内置对象，而是 **Web API**（浏览器 API），由 W3C 定义，主要用于浏览器环境。相关内容请参考 [8. 浏览器环境与 DOM 操作](#8-浏览器环境与-dom-操作-browser-and-dom)。
 
 JavaScript 提供的标准内置对象和方法：
 
@@ -108,12 +155,20 @@ JavaScript 函数式编程特性：
 
 ### 8. 浏览器环境与 DOM 操作（Browser and DOM）
 
+> **说明**：本节包含的是 **Web API**（浏览器 API），而非 ECMAScript 内置对象。这些 API 由 W3C 等 Web 标准组织定义，主要用于浏览器环境。
+> 
+> **详细说明**：关于内置对象与浏览器 API 的区别，请参考 [知识体系分类说明](#-知识体系分类说明)。
+
 JavaScript 在浏览器环境中的应用：
 
 - [DOM 操作](./08-浏览器环境与DOM/DOM操作.md) — DOM 接口和操作
 - [BOM（Browser Object Model）](./08-浏览器环境与DOM/BOM.md) — `window`、`document`、`navigator` 等
 - [事件机制](./08-浏览器环境与DOM/事件机制.md) — 事件捕获、冒泡、委托
 - [浏览器 API](./08-浏览器环境与DOM/浏览器API.md) — Fetch API、Storage API 等
+- [File API](./08-浏览器环境与DOM/File-API.md) — 文件对象操作
+- [Blob API](./08-浏览器环境与DOM/Blob-API.md) — 二进制大对象
+- [FileReader API](./08-浏览器环境与DOM/FileReader-API.md) — 文件读取
+- [FormData API](./08-浏览器环境与DOM/FormData-API.md) — 表单数据和文件上传
 
 **参考**：[DOM Living Standard](https://dom.spec.whatwg.org/)
 
