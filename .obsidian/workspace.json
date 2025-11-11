@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/README.md",
+                "file": "01-计算机基础/03-操作系统/02-Linux/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,8 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
-    "collapsed": true
+    "width": 321.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -163,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/zshrc配置详解.md",
+                "file": "01-计算机基础/03-操作系统/02-Linux/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "zshrc配置详解 的大纲"
+              "title": "README 的大纲"
             }
           },
           {
@@ -252,13 +251,14 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "86ad6901286909e8",
+  "active": "6565a1e416a60240",
   "lastOpenFiles": [
-    "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/README.md",
-    "01-计算机基础/03-操作系统/01-系统原理/README.md",
+    "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/Shell 配置文件.md",
     "01-计算机基础/03-操作系统/02-Linux/README.md",
-    "01-计算机基础/03-操作系统/README.md",
+    "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/README.md",
     "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/zshrc配置详解.md",
+    "01-计算机基础/03-操作系统/01-系统原理/README.md",
+    "01-计算机基础/03-操作系统/README.md",
     "01-计算机基础/03-操作系统/02-Linux/Shell 脚本",
     "02-Linux",
     "00-经验技巧/!MOC-经验技巧.md",
@@ -282,7 +282,6 @@
     "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/File-API.md",
     "00-经验技巧/前端大文件上传.md",
     "书籍/overreacted/a-complete-guide-to-useeffect/index.zh-CN.md",
-    "书籍/overreacted/a-complete-guide-to-useeffect/index.md",
     "Prompt",
     "00-经验技巧/Prompt",
     "00-经验技巧/AI 提示词",
