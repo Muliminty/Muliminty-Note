@@ -28,7 +28,7 @@ JavaScript 的基础语法和核心概念：
 JavaScript 提供的标准内置对象和方法：
 
 - [内置对象概述](./02-内置对象与API/内置对象概述.md) — 内置对象分类和概览
-- [Array 对象](./02-内置对象与API/Array.md) — 数组操作和方法
+- [Array 对象](./02-内置对象与API/Array.md) — 数组操作和方法（创建、访问、修改、迭代、ES6+ 方法、性能优化、最佳实践）
 - [String 对象](./02-内置对象与API/String.md) — 字符串操作和方法
 - [Date 对象](./02-内置对象与API/Date.md) — 日期和时间处理
 - [RegExp 对象](./02-内置对象与API/RegExp.md) — 正则表达式
