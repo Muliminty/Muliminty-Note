@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md",
-                "mode": "preview",
+                "file": "01-计算机基础/03-操作系统/README.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!MOC-javascript"
+              "title": "README"
+            }
+          },
+          {
+            "id": "6565a1e416a60240",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "86ad6901286909e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/zshrc配置详解.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "zshrc配置详解"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -103,7 +132,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 321.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -133,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md",
+                "file": "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/zshrc配置详解.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "!MOC-javascript 的大纲"
+              "title": "zshrc配置详解 的大纲"
             }
           },
           {
@@ -202,7 +232,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,54 +252,54 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "b79e5b02a8ad59af",
+  "active": "86ad6901286909e8",
   "lastOpenFiles": [
+    "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/README.md",
+    "01-计算机基础/03-操作系统/01-系统原理/README.md",
+    "01-计算机基础/03-操作系统/02-Linux/README.md",
+    "01-计算机基础/03-操作系统/README.md",
+    "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/zshrc配置详解.md",
+    "01-计算机基础/03-操作系统/02-Linux/Shell 脚本",
+    "02-Linux",
+    "00-经验技巧/!MOC-经验技巧.md",
+    "xx-草稿/仓库规范文档.md",
+    "03-服务端/01-服务端语言/Java/Java 基础/安装与环境配置.md",
+    "03-服务端/01-服务端语言/Java/!MOC-Java.md",
+    "03-服务端/01-服务端语言/Java/Java 基础",
+    "03-服务端/README.md",
+    "01-计算机基础/!MOC-计算机基础.md",
+    "书签整理.md",
+    "书籍/BrowserPrinciple-main/README.md",
+    "书籍/BrowserPrinciple-main/宏观视角上的浏览器/Chrome架构：仅仅打开1个页面，为什么有4个进程/index.md",
+    "00-前端体系/01-基础入门/JavaScript/01-语言核心/底层原理/调用栈.md",
+    "00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md",
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Array.md",
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/README.md",
     "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Blob-API.md",
     "00-前端体系/!MOC-前端体系.md",
     "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/FormData-API.md",
     "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/FileReader-API.md",
     "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/File-API.md",
     "00-经验技巧/前端大文件上传.md",
-    "00-经验技巧/!MOC-经验技巧.md",
     "书籍/overreacted/a-complete-guide-to-useeffect/index.zh-CN.md",
-    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Array.md",
-    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/README.md",
     "书籍/overreacted/a-complete-guide-to-useeffect/index.md",
-    "书籍/overreacted/README.md",
-    "Prompt/英文技术文档翻译.md",
-    "Prompt/翻译.md",
     "Prompt",
-    "00-经验技巧/Prompt/翻译.md",
     "00-经验技巧/Prompt",
-    "00-经验技巧/AI 提示词/翻译.md",
     "00-经验技巧/AI 提示词",
-    "书籍/overreacted/writing-resilient-components/index.md",
     "书籍/overreacted/avi.jpg",
     "书籍/overreacted/writing-resilient-components/img/useeffect.gif",
     "书籍/overreacted/writing-resilient-components/img",
     "书籍/overreacted/why-isnt-x-a-hook/img",
     "书籍/overreacted/why-does-rsc-integrate-with-a-bundler/img",
     "书籍/overreacted/why-do-we-write-super-props/img",
-    "书籍/overreacted/why-do-react-elements-have-typeof-property/img",
     "书籍/overreacted/why-do-hooks-rely-on-call-order/img/hooks-hn2.png",
     "书籍/overreacted/why-do-hooks-rely-on-call-order/img/hooks-hn1.png",
-    "书籍/overreacted/why-do-hooks-rely-on-call-order/img",
     "书籍/overreacted/where-its-at/img/9.svg",
     "书籍/overreacted/where-its-at/img/4.svg",
     "书籍/overreacted/where-its-at/img/8-full.svg",
     "书籍/overreacted/where-its-at/img/7.svg",
     "书籍/overreacted/where-its-at/img/3.svg",
     "书籍/overreacted/where-its-at/img/2-full.svg",
-    "书籍/overreacted/where-its-at/img",
-    "书籍/overreacted/a-chain-reaction/index.md",
-    "00-前端体系/02-框架进阶/React/!MOC-React.md",
-    "书籍/overreacted/why-isnt-x-a-hook/index.md",
-    "书籍/overreacted/why-does-rsc-integrate-with-a-bundler/index.md",
-    "书籍/overreacted/why-do-we-write-super-props/index.md",
-    "书籍/overreacted/why-do-react-elements-have-typeof-property/index.md",
-    "书籍/overreacted/why-do-hooks-rely-on-call-order/index.md",
-    "书籍/overreacted/where-its-at/index.md",
-    "书籍/overreacted/what-is-javascript-made-of/index.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名.canvas",
     "xx-归档/00-前端/00-核心/JavaScript/知识图谱.canvas",

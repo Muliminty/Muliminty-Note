@@ -63,7 +63,16 @@
     "未命名.base": "未命名.base.json",
     "数据库.base": "数据库.base.json",
     "00-经验技巧/test.md": "00-经验技巧_test.md.json",
-    "书籍/BrowserPrinciple-main/宏观视角上的浏览器/Chrome架构：仅仅打开1个页面，为什么有4个进程/index.md": "书籍_browserprinciple-main_宏观视角上的浏览器_chrome架构：仅仅打开1个页面，为什么有4个进程_index.md.json"
+    "书籍/BrowserPrinciple-main/宏观视角上的浏览器/Chrome架构：仅仅打开1个页面，为什么有4个进程/index.md": "书籍_browserprinciple-main_宏观视角上的浏览器_chrome架构：仅仅打开1个页面，为什么有4个进程_index.md.json",
+    "03-服务端/01-服务端语言/Java/未命名": "03-服务端_01-服务端语言_java_未命名.json",
+    "03-服务端/01-服务端语言/Java/Java 基础": "03-服务端_01-服务端语言_java_java_基础.json",
+    "03-服务端/01-服务端语言/Java/Java 基础/未命名.md": "03-服务端_01-服务端语言_java_java_基础_未命名.md.json",
+    "03-服务端/01-服务端语言/Java/Java 基础/安装与环境配置.md": "03-服务端_01-服务端语言_java_java_基础_安装与环境配置.md.json",
+    "01-计算机基础/03-操作系统/02-Linux/未命名": "01-计算机基础_03-操作系统_02-linux_未命名.json",
+    "01-计算机基础/03-操作系统/02-Linux/Shell 脚本": "01-计算机基础_03-操作系统_02-linux_shell_脚本.json",
+    "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/未命名.md": "01-计算机基础_03-操作系统_02-linux_shell_脚本_未命名.md.json",
+    "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/zshrc配置详解.md": "01-计算机基础_03-操作系统_02-linux_shell_脚本_zshrc配置详解.md.json",
+    "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/README.md": "01-计算机基础_03-操作系统_02-linux_shell_脚本_readme.md.json"
   },
-  "lastUpdated": 1762433143582
+  "lastUpdated": 1762862674893
 }
