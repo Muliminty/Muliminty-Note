@@ -22,6 +22,34 @@
             }
           },
           {
+            "id": "65d110c40ee24499",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://juejin.cn/hot/collected-articles",
+                "title": "稀土掘金",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "稀土掘金"
+            }
+          },
+          {
+            "id": "af516355fb859b73",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://juejin.cn/post/7537913159111983154",
+                "title": "⚡90%前端没摸过的 10 个 JS 神 API？复制即用，今晚早下班Page Visibility、Web Share - 掘金",
+                "mode": "reader"
+              },
+              "icon": "globe-2",
+              "title": "⚡90%前端没摸过的 10 个 JS 神 API？复制即用，今晚早下班Page Visibility、Web Share - 掘金"
+            }
+          },
+          {
             "id": "0d8756ad860c091e",
             "type": "leaf",
             "state": {
@@ -36,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -118,7 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -240,6 +268,9 @@
   },
   "active": "0d8756ad860c091e",
   "lastOpenFiles": [
+    "xx-归档/剪藏/⚡90%前端没摸过的 10 个 JS 神 API？复制即用，今晚早下班Page Visibility、Web Share.md",
+    "xx-归档/剪藏/CSS 命名太乱？BEM 规范帮你一键搞定，代码清爽到飞起！还在为 CSS 类名冲突、维护难头疼？BEM（块 - 元素.md",
+    "xx-归档/剪藏",
     "00-前端体系/04-质量保障/无障碍/!MOC-无障碍.md",
     "数据库.base",
     "书签整理.md",
@@ -268,8 +299,6 @@
     "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/README.md",
     "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Blob-API.md",
     "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/FormData-API.md",
-    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/FileReader-API.md",
-    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/File-API.md",
     "Prompt",
     "00-经验技巧/Prompt",
     "00-经验技巧/AI 提示词",
@@ -277,7 +306,6 @@
     "书籍/overreacted/writing-resilient-components/img/useeffect.gif",
     "书籍/overreacted/writing-resilient-components/img",
     "书籍/overreacted/why-isnt-x-a-hook/img",
-    "书籍/overreacted/why-does-rsc-integrate-with-a-bundler/img",
     "书籍/overreacted/why-do-hooks-rely-on-call-order/img/hooks-hn2.png",
     "书籍/overreacted/why-do-hooks-rely-on-call-order/img/hooks-hn1.png",
     "书籍/overreacted/where-its-at/img/9.svg",

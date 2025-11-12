@@ -1,7 +1,7 @@
 {
   "cssTheme": "",
   "nativeMenus": false,
-  "theme": "moonstone",
+  "theme": "system",
   "accentColor": "#09a6fb",
   "enabledCssSnippets": [
     "nav-folder-title-icon",
