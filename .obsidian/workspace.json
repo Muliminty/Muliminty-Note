@@ -4,27 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d4f2b1cf3fd6d826",
+        "id": "e440096c6287666e",
         "type": "tabs",
         "children": [
           {
-            "id": "86ad6901286909e8",
+            "id": "0b4c961580081da5",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "书签整理.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "书签整理"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -109,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 321.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -139,13 +130,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "书签整理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "书签整理 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -228,8 +218,9 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "86ad6901286909e8",
+  "active": "0b4c961580081da5",
   "lastOpenFiles": [
+    "书签整理.md",
     "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/Shell 对照图.md",
     "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/zshrc配置详解.md",
     "01-计算机基础/03-操作系统/README.md",
@@ -246,7 +237,6 @@
     "03-服务端/01-服务端语言/Java/Java 基础",
     "03-服务端/README.md",
     "01-计算机基础/!MOC-计算机基础.md",
-    "书签整理.md",
     "书籍/BrowserPrinciple-main/README.md",
     "书籍/BrowserPrinciple-main/宏观视角上的浏览器/Chrome架构：仅仅打开1个页面，为什么有4个进程/index.md",
     "00-前端体系/01-基础入门/JavaScript/01-语言核心/底层原理/调用栈.md",
