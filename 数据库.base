@@ -22,3 +22,5 @@ views:
     order:
       - file.name
       - file.path
+  - type: list
+    name: 视图 2

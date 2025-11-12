@@ -2,5 +2,6 @@
   "openExternalURLs": true,
   "enableAdblocking": true,
   "searchEngine": "bing",
-  "markdownPath": "碎片整理/剪藏"
+  "markdownPath": "碎片整理/剪藏",
+  "homepage": "https://go.itab.link/"
 }

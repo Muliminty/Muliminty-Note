@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "e440096c6287666e",
+        "id": "d1c8e378317003d5",
         "type": "tabs",
         "children": [
           {
-            "id": "0b4c961580081da5",
+            "id": "de6f0a1488f41eea",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
+              "type": "webviewer",
+              "state": {
+                "url": "https://go.itab.link/",
+                "title": "新标签页",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
               "title": "新标签页"
             }
+          },
+          {
+            "id": "0d8756ad860c091e",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.zhihu.com/?theme=dark",
+                "title": "(13 封私信 / 80 条消息) 首页 - 知乎",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "(13 封私信 / 80 条消息) 首页 - 知乎"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,7 +217,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,9 +238,12 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "0b4c961580081da5",
+  "active": "0d8756ad860c091e",
   "lastOpenFiles": [
+    "00-前端体系/04-质量保障/无障碍/!MOC-无障碍.md",
+    "数据库.base",
     "书签整理.md",
+    "00-前端体系/!MOC-前端体系.md",
     "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/Shell 对照图.md",
     "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/zshrc配置详解.md",
     "01-计算机基础/03-操作系统/README.md",
@@ -244,11 +267,9 @@
     "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Array.md",
     "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/README.md",
     "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Blob-API.md",
-    "00-前端体系/!MOC-前端体系.md",
     "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/FormData-API.md",
     "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/FileReader-API.md",
     "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/File-API.md",
-    "00-经验技巧/前端大文件上传.md",
     "Prompt",
     "00-经验技巧/Prompt",
     "00-经验技巧/AI 提示词",
@@ -257,7 +278,6 @@
     "书籍/overreacted/writing-resilient-components/img",
     "书籍/overreacted/why-isnt-x-a-hook/img",
     "书籍/overreacted/why-does-rsc-integrate-with-a-bundler/img",
-    "书籍/overreacted/why-do-we-write-super-props/img",
     "书籍/overreacted/why-do-hooks-rely-on-call-order/img/hooks-hn2.png",
     "书籍/overreacted/why-do-hooks-rely-on-call-order/img/hooks-hn1.png",
     "书籍/overreacted/where-its-at/img/9.svg",
