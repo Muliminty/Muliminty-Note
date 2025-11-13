@@ -8,7 +8,8 @@
     "build": "./scripts/build.sh",
     "preview": "node scripts/ensure-link.js && npx quartz build --serve --port 4399 -d . && node scripts/fix-image-paths.js",
     "fix": "node scripts/fix-image-paths.js",
-    "fix:links": "node scripts/fix-markdown-links.js"
+    "fix:links": "node scripts/fix-markdown-links.js",
+    "check:wikilinks": "node scripts/check-wikilinks.js"
   },
   "dependencies": {
     "quartz": "github:jackyzha0/quartz#v4"
