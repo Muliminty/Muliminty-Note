@@ -119,7 +119,7 @@
 - [经验技巧 MOC](./00-经验技巧/!MOC-经验技巧.md)
 - [收集箱](./00-经验技巧/收集箱/)
   - apng-js.md
-  - iOS_GIF_Blur_Solution.md
+  - iOS-GIF-模糊问题解决方案.md
 
 ---
 
