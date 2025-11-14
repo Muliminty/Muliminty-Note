@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1b6a62ef1654987a",
+        "id": "208518c0754b9fe6",
         "type": "tabs",
         "children": [
           {
-            "id": "43d21b5a34fb7ac5",
+            "id": "3decfc4a4223daf0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "version-v1.0.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "version-v1.0"
+              "title": "新标签页"
             }
           }
         ]
@@ -103,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376.5
+    "width": 200
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -113,6 +109,20 @@
         "id": "ffef919d0a9f365d",
         "type": "tabs",
         "children": [
+          {
+            "id": "536de2078b1b6e87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "书籍/BrowserPrinciple-main/README.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
           {
             "id": "cc089dfc51082da7",
             "type": "leaf",
@@ -135,26 +145,6 @@
               "state": {},
               "icon": "highlighter",
               "title": "HiNote"
-            }
-          },
-          {
-            "id": "ffc7586e1facca5c",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {},
-              "icon": "Memos",
-              "title": "Thino"
-            }
-          },
-          {
-            "id": "70999e069002e33c",
-            "type": "leaf",
-            "state": {
-              "type": "mxmind-view",
-              "state": {},
-              "icon": "network",
-              "title": "Mxmind"
             }
           },
           {
@@ -189,7 +179,7 @@
             }
           },
           {
-            "id": "f907bcb412dfe0ea",
+            "id": "888202f30cdce19c",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -201,29 +191,13 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
-          },
-          {
-            "id": "a564317c6d1bddf2",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.notion.so/10732ee5ecaa4568843c0b2cc6bdd213",
-                "title": "重学前端",
-                "mode": "webview"
-              },
-              "pinned": true,
-              "icon": "globe-2",
-              "title": "重学前端"
-            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 387.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -244,56 +218,57 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "43d21b5a34fb7ac5",
+  "active": "3decfc4a4223daf0",
   "lastOpenFiles": [
-    "碎片整理/小记/note 目录梳理.md",
-    "version-v1.0.md",
-    "书签整理.md",
-    "README.md",
-    "index.md",
-    "00-编程经验/问题解决方案/c 端交互相关/JavaScript 滚动操作完整笔记.md",
-    "00-编程经验/问题解决方案/c 端交互相关",
-    "碎片整理/剪藏/【万字总结】2025 前端+大前端+全栈 知识体系（上）大家好，我是双越老师。本文是 2025 前端 大前端 全栈 知识.md",
-    "碎片整理/剪藏/「好文翻译」为什么你可以删除 90% 的 useMemo 和 useCallback ？原作博客可以说是我全网所见的关于.md",
-    "碎片整理/脚手架开发.md",
-    "碎片整理/书签.md",
-    "00-前端/工程化体系/构建工具/前端工程化-webpack/概念：什么是模块化.md",
-    "00-前端/!数据库.base",
-    "00-前端/框架生态/React/0-收集箱/CSS 类名动态组合写法.md",
-    "00-前端/框架生态/React/0-收集箱/在 React 中使用 GSAP.md",
     "项目灵感/云剪切板.md",
     "项目灵感",
-    "02-开发运维/一键半自动部署更新方案.md",
-    "02-开发运维/开发运维-MOC.md",
-    "000-JavaScript(new)/000-文法/!MOC-文法.md",
-    "000-JavaScript(new)/000-文法/JavaScript 词法与语法知识点树状整理.md",
-    "000-JavaScript(new)/!MOC.md",
-    "000-JavaScript(new)/整理方案/00-笔记整理方案!.md",
-    "000-JavaScript(new)/整理方案/00-文法、语义 和 运行时 的层次划分.md",
-    "000-JavaScript(new)/整理方案/参考.md",
-    "000-JavaScript(new)/整理方案/参考 2.md",
-    "000-JavaScript(new)/整理方案/概念-名词解释.md",
-    "000-JavaScript(new)/整理方案/前端知识架构文档（V2.1）.md",
-    "000-JavaScript(new)/整理方案/JavaScript 知识体系范式.md",
-    "000-JavaScript(new)/未命名.base",
-    "000-JavaScript(new)/数据库.base",
-    "02-开发运维/开发工具/vim",
-    "02-开发运维/基础设施/ngnix",
-    "00-前端/00-核心/JavaScript/知识图谱.canvas",
-    "00-前端/框架生态/React/生态库/状态管理",
-    "01-计算机科学体系/C语言/收集箱",
-    "01-计算机科学体系/C语言/概念",
-    "00-前端/附件/Pasted image 20250718162420.png",
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/附件/无图模式.png",
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/附件/无图模式-1.png",
     "碎片整理/Z-归档/小技巧/浏览器使用技巧/浏览器插件介绍/附件/stylish.png",
+    "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/附件",
+    "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/知乎（网页版）夜间模式（暗色模式）.md",
+    "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/无图模式.md",
+    "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关/s.json",
+    "碎片整理/Z-归档/小技巧/浏览器使用技巧/浏览器插件介绍/附件",
+    "碎片整理/Z-归档/小技巧/浏览器使用技巧/浏览器插件介绍/stylish.md",
+    "碎片整理/Z-归档/小技巧/浏览器使用技巧/stylebot/stylebot 样式备份.md",
     "碎片整理/Z-归档/小技巧/博客园/附件/Pasted image 20230426163027.png",
-    "碎片整理/Z-归档/面试之道/面试宝典/附件/mmexport1676620001838_20230217154946.jpg",
     "碎片整理/Z-归档/小技巧/博客园/附件/Pasted image 20230426162815.png",
+    "碎片整理/Z-归档/小技巧/博客园/附件/Pasted image 20230426162800.png",
     "碎片整理/Z-归档/小技巧/博客园/附件/Pasted image 20230426162723.png",
     "碎片整理/Z-归档/小技巧/博客园/附件/Pasted image 20230426152258.png",
-    "碎片整理/Z-归档/小技巧/博客园/附件/Pasted image 20230426162800.png",
+    "碎片整理/Z-归档/小技巧/博客园/附件/Pasted image 20230426152240.png",
+    "碎片整理/Z-归档/小技巧/博客园/附件/Pasted image 20230426152139.png",
+    "碎片整理/Z-归档/前端特效/完整demo/老虎机/main.js",
+    "碎片整理/Z-归档/前端特效/完整demo/老虎机/main.html",
+    "碎片整理/Z-归档/前端特效/完整demo/老虎机/main.css",
+    "碎片整理/Z-归档/前端特效/完整demo/老虎机/README.txt",
+    "碎片整理/Z-归档/小技巧/浏览器使用技巧/知乎PC相关",
+    "碎片整理/Z-归档/小技巧/浏览器使用技巧/浏览器插件介绍",
+    "碎片整理/Z-归档/小技巧/浏览器使用技巧/一键截图.md",
+    "碎片整理/Z-归档/小技巧/博客园/主题备份3.md",
+    "碎片整理/Z-归档/小技巧/博客园/主题备份2.md",
+    "碎片整理/Z-归档/小技巧/博客园/主题备份.md",
+    "碎片整理/Z-归档/小技巧/vscode/插件推荐.md",
+    "碎片整理/Z-归档/小技巧/vscode/在vscode中的js文件中自动补全html标签.md",
+    "碎片整理/Z-归档/小技巧/vscode/VSCode中markdown开启智能提示.md",
+    "碎片整理/Z-归档/小技巧/github/利用 GitHub API 将 Markdown 笔记仓库作为静态博客项目的数据来源.md",
+    "碎片整理/Z-归档/小技巧/github/GitHub API 请求示例（使用 `axios`）.md",
+    "碎片整理/Z-归档/小技巧/git/使用 SSH 配置 Git 和 Sourcetree 的详细技术文档.md",
+    "碎片整理/Z-归档/小技巧/RustDesk/只会 Windows 也能轻松搭建远程桌面 RustDesk 自用服务器 - 知乎.md",
+    "碎片整理/Z-归档/小技巧/Obsidian/语法技巧.md",
+    "碎片整理/Z-归档/小技巧/Obsidian/微信读书插件模板备份.md",
+    "碎片整理/Z-归档/小技巧/Obsidian/Obsidian-使用技巧.md",
+    "碎片整理/Z-归档/小技巧/Hexo/教程文章.md",
+    "碎片整理/Z-归档/小技巧/Hexo/hexo指令.md",
+    "碎片整理/Z-归档/前端特效/鼠标点击/彩色烟花.md",
+    "碎片整理/Z-归档/前端特效/Loading/Loading -- 彩虹转圈.md",
+    "碎片整理/Z-归档/面试之道/面试宝典/计算机网络面试宝典.md",
+    "碎片整理/Z-归档/面试之道/面试宝典/性能优化面试宝典.md",
+    "碎片整理/Z-归档/面试之道/面试宝典/javascript面试宝典.md",
+    "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名.canvas",
+    "xx-归档/00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas"
   ]
