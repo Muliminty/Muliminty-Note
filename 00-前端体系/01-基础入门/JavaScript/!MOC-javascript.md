@@ -164,6 +164,7 @@ JavaScript 在浏览器环境中的应用：
 - [DOM 操作](./08-浏览器环境与DOM/DOM操作.md) — DOM 接口和操作
 - [BOM（Browser Object Model）](./08-浏览器环境与DOM/BOM.md) — `window`、`document`、`navigator` 等
 - [事件机制](./08-浏览器环境与DOM/事件机制.md) — 事件捕获、冒泡、委托
+- [自定义事件](./08-浏览器环境与DOM/自定义事件.md) — CustomEvent API 和组件间通信
 - [浏览器 API](./08-浏览器环境与DOM/浏览器API.md) — Fetch API、Storage API 等
 - [File API](./08-浏览器环境与DOM/File-API.md) — 文件对象操作
 - [Blob API](./08-浏览器环境与DOM/Blob-API.md) — 二进制大对象
