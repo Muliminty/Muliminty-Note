@@ -11,32 +11,17 @@
             "id": "3decfc4a4223daf0",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "markdown",
               "state": {
-                "url": "https://go.itab.link/",
-                "title": "新标签页",
-                "mode": "webview"
+                "file": "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/自定义事件.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "globe-2",
-              "title": "新标签页"
-            }
-          },
-          {
-            "id": "c68dd438d208772d",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://juejin.cn/",
-                "title": "稀土掘金",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "稀土掘金"
+              "icon": "lucide-file",
+              "title": "自定义事件"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 326.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -237,8 +222,12 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "c68dd438d208772d",
+  "active": "3decfc4a4223daf0",
   "lastOpenFiles": [
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/README.md",
+    "00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md",
+    "00-前端体系/01-基础入门/JavaScript/README.md",
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/README.md",
     "数据库.base",
     "安装依赖.sh",
     "书籍/overreacted/writing-resilient-components/img/useeffect.gif",
@@ -268,7 +257,6 @@
     "书籍/overreacted/what-is-javascript-made-of/index.md",
     "书籍/overreacted/what-does-use-client-do/index.md",
     "书籍/overreacted/what-does-use-client-do/img",
-    "书籍/overreacted/what-does-use-client-do/components.js",
     "书籍/overreacted/what-are-the-react-team-principles/index.md",
     "书籍/overreacted/things-i-dont-know-as-of-2018/index.md",
     "书籍/overreacted/the-wet-codebase/index.md",
@@ -282,9 +270,6 @@
     "书籍/overreacted/rsc-for-astro-developers/index.md",
     "书籍/overreacted/react-for-two-computers/index.md",
     "书籍/overreacted/react-as-a-ui-runtime/index.md",
-    "书籍/overreacted/progressive-json/index.md",
-    "书籍/overreacted/preparing-for-tech-talk-part-3-content/index.md",
-    "书籍/overreacted/preparing-for-tech-talk-part-2-what-why-and-how/index.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名.canvas",
     "xx-归档/00-前端/00-核心/JavaScript/知识图谱.canvas",
