@@ -63,30 +63,20 @@ Java Web 开发框架和实践。
 Java 与数据库的交互。
 
 #### JDBC
-- JDBC 基础（待整理）
-- 连接池配置（待整理）
-- 事务管理（待整理）
+- [JDBC 基础](./04-数据库操作/JDBC-基础.md) — JDBC 基础操作、CRUD、事务管理、连接池
 
 #### ORM 框架
-- MyBatis 使用（待整理）
-- Hibernate 使用（待整理）
-- JPA 规范（待整理）
+- [MyBatis 入门](./04-数据库操作/MyBatis-入门.md) — MyBatis 基础、注解和 XML 配置、动态 SQL
 
 ---
 
-### 5. API 开发（API Development）
+### 5. 企业架构（Enterprise Architecture）
 
-Java API 开发实践。
+企业级应用架构和微服务。
 
-#### RESTful API
-- RESTful API 设计（待整理）
-- Spring Boot REST（待整理）
-- 参数验证（待整理）
-
-#### 微服务
-- Spring Cloud 基础（待整理）
-- 服务注册与发现（待整理）
-- 配置中心（待整理）
+#### 微服务架构
+- [微服务基础](./05-企业架构/微服务基础.md) — 微服务概念、架构设计、Spring Cloud 基础组件
+- [Spring Cloud 入门](./05-企业架构/Spring-Cloud-入门.md) — Spring Cloud 完整解决方案、服务注册、配置中心、API 网关
 
 ---
 
@@ -165,13 +155,15 @@ Java 应用测试。
 **学习顺序**：
 1. [Spring Boot 入门](./03-Web开发/Spring-Boot-入门.md) — 学习 Spring Boot 基础
 2. [第一个 HTTP 服务](./06-实践项目/第一个-HTTP-服务.md) — 实践项目
-3. 数据库操作（待学习）
-4. RESTful API 开发（待学习）
+3. [JDBC 基础](./04-数据库操作/JDBC-基础.md) — 学习数据库操作基础
+4. [MyBatis 入门](./04-数据库操作/MyBatis-入门.md) — 学习 ORM 框架
 
 **学习检查点**：
 - ✅ 能够创建 Spring Boot 项目
 - ✅ 能够开发简单的 HTTP 服务
 - ✅ 能够处理 HTTP 请求和响应
+- ✅ 能够连接数据库并操作数据
+- ✅ 能够使用 MyBatis 进行数据持久化
 
 ---
 
@@ -180,14 +172,14 @@ Java 应用测试。
 **目标**：掌握企业级开发技能
 
 **学习顺序**：
-1. 数据库操作和 ORM 框架
-2. 微服务架构
-3. 性能优化
-4. 测试实践
+1. [微服务基础](./05-企业架构/微服务基础.md) — 学习微服务架构概念
+2. [Spring Cloud 入门](./05-企业架构/Spring-Cloud-入门.md) — 学习 Spring Cloud 微服务框架
+3. 性能优化（待学习）
+4. 测试实践（待学习）
 
 **学习检查点**：
-- ✅ 能够连接数据库并操作数据
-- ✅ 能够开发微服务应用
+- ✅ 理解微服务架构设计
+- ✅ 能够使用 Spring Cloud 构建微服务
 - ✅ 能够进行性能优化
 
 ---
@@ -232,6 +224,12 @@ Java/
 │   └── 集合框架.md
 ├── 03-Web开发/
 │   └── Spring-Boot-入门.md
+├── 04-数据库操作/
+│   ├── JDBC-基础.md
+│   └── MyBatis-入门.md
+├── 05-企业架构/
+│   ├── 微服务基础.md
+│   └── Spring-Cloud-入门.md
 └── 06-实践项目/
     └── 第一个-HTTP-服务.md
 ```

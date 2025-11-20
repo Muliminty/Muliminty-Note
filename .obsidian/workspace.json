@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "!MOC-Java"
             }
+          },
+          {
+            "id": "fa22959ff8f80e7c",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://go.itab.link/",
+                "title": "新标签页",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "3cfdcc538c16597c",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.zhihu.com/?theme=dark",
+                "title": "(17 封私信 / 80 条消息) 首页 - 知乎",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "(17 封私信 / 80 条消息) 首页 - 知乎"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -103,7 +132,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 326.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -222,8 +252,13 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "3d01ff3d75b54b96",
+  "active": "3cfdcc538c16597c",
   "lastOpenFiles": [
+    "03-服务端/01-服务端语言/Java/05-企业架构/Spring-Cloud-入门.md",
+    "03-服务端/01-服务端语言/Java/05-企业架构/微服务基础.md",
+    "03-服务端/01-服务端语言/Java/!MOC-Java.md",
+    "03-服务端/01-服务端语言/Java/04-数据库操作/MyBatis-入门.md",
+    "03-服务端/01-服务端语言/Java/04-数据库操作/JDBC-基础.md",
     "03-服务端/01-服务端语言/Java/06-实践项目/第一个-HTTP-服务.md",
     "03-服务端/01-服务端语言/Java/03-Web开发/Spring-Boot-入门.md",
     "03-服务端/01-服务端语言/Java/02-核心特性/集合框架.md",
@@ -265,11 +300,6 @@
     "00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md",
     "00-前端体系/01-基础入门/JavaScript/README.md",
     "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/README.md",
-    "书籍/overreacted/writing-resilient-components/index.md",
-    "书籍/overreacted/why-isnt-x-a-hook/index.md",
-    "书籍/overreacted/why-does-rsc-integrate-with-a-bundler/index.md",
-    "书籍/overreacted/why-do-we-write-super-props/index.md",
-    "书籍/overreacted/why-do-react-elements-have-typeof-property/index.md",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "未命名.canvas",
     "xx-归档/00-前端/00-核心/JavaScript/知识图谱.canvas",
