@@ -19,6 +19,7 @@
 - [性能优化](#性能优化)
 - [常见问题排查](#常见问题排查)
 - [最佳实践](#最佳实践)
+- [实战案例](#实战案例)
 
 ---
 
@@ -1048,6 +1049,1015 @@ module.exports = {
     }
   }
 }
+```
+
+---
+
+## 实战案例
+
+### 案例一：从零搭建基础 Webpack 项目
+
+#### 1. 项目初始化
+
+```bash
+# 创建项目目录
+mkdir webpack-demo && cd webpack-demo
+
+# 初始化 package.json
+npm init -y
+
+# 安装 Webpack 核心依赖
+npm install --save-dev webpack webpack-cli
+
+# 安装常用 Loader 和 Plugin
+npm install --save-dev html-webpack-plugin
+npm install --save-dev style-loader css-loader
+npm install --save-dev babel-loader @babel/core @babel/preset-env
+```
+
+#### 2. 项目结构
+
+```
+webpack-demo/
+├── src/
+│   ├── index.js          # 入口文件
+│   ├── index.html        # HTML 模板
+│   ├── styles/
+│   │   └── main.css      # 样式文件
+│   └── utils/
+│       └── helper.js     # 工具函数
+├── dist/                 # 输出目录（自动生成）
+├── webpack.config.js     # Webpack 配置
+└── package.json
+```
+
+#### 3. 创建源文件
+
+**src/index.js**
+```javascript
+import './styles/main.css'
+import { greet } from './utils/helper'
+
+console.log('Webpack 项目启动成功！')
+greet('Webpack')
+```
+
+**src/utils/helper.js**
+```javascript
+export function greet(name) {
+  console.log(`Hello, ${name}!`)
+}
+```
+
+**src/styles/main.css**
+```css
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+h1 {
+  color: #333;
+}
+```
+
+**src/index.html**
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpack Demo</title>
+</head>
+<body>
+  <div id="app">
+    <h1>Webpack 项目</h1>
+  </div>
+</body>
+</html>
+```
+
+#### 4. 基础 Webpack 配置
+
+**webpack.config.js**
+```javascript
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+
+module.exports = {
+  // 入口文件
+  entry: './src/index.js',
+  
+  // 输出配置
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.[contenthash].js',
+    clean: true  // 清理输出目录
+  },
+  
+  // 模式
+  mode: 'development',
+  
+  // 开发工具
+  devtool: 'eval-source-map',
+  
+  // 模块处理
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env']
+          }
+        }
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
+      }
+    ]
+  },
+  
+  // 插件
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      filename: 'index.html'
+    })
+  ],
+  
+  // 开发服务器
+  devServer: {
+    static: './dist',
+    port: 3000,
+    hot: true,
+    open: true
+  }
+}
+```
+
+#### 5. 配置 package.json 脚本
+
+```json
+{
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development",
+    "watch": "webpack --watch --mode development"
+  }
+}
+```
+
+#### 6. 运行项目
+
+```bash
+# 开发模式
+npm run dev
+
+# 生产构建
+npm run build
+```
+
+---
+
+### 案例二：React 项目完整配置
+
+#### 1. 安装依赖
+
+```bash
+npm install react react-dom
+npm install --save-dev @babel/preset-react
+npm install --save-dev @babel/preset-typescript
+npm install --save-dev typescript ts-loader
+npm install --save-dev sass-loader sass
+npm install --save-dev file-loader url-loader
+```
+
+#### 2. 项目结构
+
+```
+react-app/
+├── src/
+│   ├── index.tsx         # 入口文件
+│   ├── App.tsx           # 根组件
+│   ├── components/       # 组件目录
+│   ├── styles/           # 样式目录
+│   └── assets/           # 静态资源
+├── public/
+│   └── index.html
+├── tsconfig.json
+├── webpack.config.js
+└── package.json
+```
+
+#### 3. TypeScript 配置
+
+**tsconfig.json**
+```json
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
+```
+
+#### 4. Webpack 配置（开发环境）
+
+**webpack.dev.js**
+```javascript
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
+
+module.exports = {
+  mode: 'development',
+  entry: './src/index.tsx',
+  
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
+    publicPath: '/'
+  },
+  
+  devtool: 'eval-source-map',
+  
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js', '.jsx'],
+    alias: {
+      '@': path.resolve(__dirname, 'src')
+    }
+  },
+  
+  module: {
+    rules: [
+      {
+        test: /\.(ts|tsx)$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              '@babel/preset-env',
+              '@babel/preset-react',
+              '@babel/preset-typescript'
+            ],
+            plugins: [
+              'react-refresh/babel'  // HMR 支持
+            ]
+          }
+        }
+      },
+      {
+        test: /\.(css|scss|sass)$/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              modules: {
+                localIdentName: '[name]__[local]__[hash:base64:5]'
+              }
+            }
+          },
+          'sass-loader'
+        ]
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif|svg)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'images/[hash][ext]'
+        }
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[hash][ext]'
+        }
+      }
+    ]
+  },
+  
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './public/index.html',
+      filename: 'index.html'
+    }),
+    new ReactRefreshWebpackPlugin()  // React 热更新
+  ],
+  
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'public')
+    },
+    port: 3000,
+    hot: true,
+    open: true,
+    historyApiFallback: true,  // SPA 路由支持
+    compress: true
+  }
+}
+```
+
+#### 5. Webpack 配置（生产环境）
+
+**webpack.prod.js**
+```javascript
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
+const TerserPlugin = require('terser-webpack-plugin')
+
+module.exports = {
+  mode: 'production',
+  entry: './src/index.tsx',
+  
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'js/[name].[contenthash].js',
+    chunkFilename: 'js/[name].[contenthash].chunk.js',
+    publicPath: '/',
+    clean: true
+  },
+  
+  devtool: 'source-map',
+  
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js', '.jsx'],
+    alias: {
+      '@': path.resolve(__dirname, 'src')
+    }
+  },
+  
+  module: {
+    rules: [
+      {
+        test: /\.(ts|tsx)$/,
+        exclude: /node_modules/,
+        use: 'babel-loader'
+      },
+      {
+        test: /\.(css|scss|sass)$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          {
+            loader: 'css-loader',
+            options: {
+              modules: {
+                localIdentName: '[name]__[local]__[hash:base64:5]'
+              }
+            }
+          },
+          'sass-loader'
+        ]
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif|svg)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'images/[hash][ext]'
+        }
+      }
+    ]
+  },
+  
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './public/index.html',
+      filename: 'index.html',
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeRedundantAttributes: true
+      }
+    }),
+    new MiniCssExtractPlugin({
+      filename: 'css/[name].[contenthash].css',
+      chunkFilename: 'css/[name].[contenthash].chunk.css'
+    })
+  ],
+  
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new TerserPlugin({
+        terserOptions: {
+          compress: {
+            drop_console: true
+          }
+        }
+      }),
+      new CssMinimizerPlugin()
+    ],
+    splitChunks: {
+      chunks: 'all',
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          priority: 10,
+          reuseExistingChunk: true
+        },
+        common: {
+          minChunks: 2,
+          priority: 5,
+          reuseExistingChunk: true
+        }
+      }
+    },
+    runtimeChunk: 'single'
+  }
+}
+```
+
+#### 6. 合并配置（webpack-merge）
+
+**webpack.common.js**
+```javascript
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+
+module.exports = {
+  entry: './src/index.tsx',
+  
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js', '.jsx'],
+    alias: {
+      '@': path.resolve(__dirname, 'src')
+    }
+  },
+  
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './public/index.html'
+    })
+  ]
+}
+```
+
+**webpack.config.js**
+```javascript
+const { merge } = require('webpack-merge')
+const common = require('./webpack.common.js')
+
+module.exports = (env, argv) => {
+  if (argv.mode === 'production') {
+    return merge(common, require('./webpack.prod.js'))
+  }
+  return merge(common, require('./webpack.dev.js'))
+}
+```
+
+---
+
+### 案例三：Vue 项目完整配置
+
+#### 1. 安装依赖
+
+```bash
+npm install vue@next
+npm install --save-dev vue-loader vue-template-compiler
+npm install --save-dev @vue/compiler-sfc
+```
+
+#### 2. Webpack 配置
+
+**webpack.config.js**
+```javascript
+const path = require('path')
+const { VueLoaderPlugin } = require('vue-loader')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+
+module.exports = {
+  mode: 'development',
+  entry: './src/main.js',
+  
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
+    clean: true
+  },
+  
+  resolve: {
+    extensions: ['.js', '.vue', '.json'],
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+      'vue$': 'vue/dist/vue.esm-bundler.js'
+    }
+  },
+  
+  module: {
+    rules: [
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader'
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env']
+          }
+        }
+      },
+      {
+        test: /\.css$/,
+        use: [
+          process.env.NODE_ENV !== 'production'
+            ? 'style-loader'
+            : MiniCssExtractPlugin.loader,
+          'css-loader'
+        ]
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          process.env.NODE_ENV !== 'production'
+            ? 'style-loader'
+            : MiniCssExtractPlugin.loader,
+          'css-loader',
+          'sass-loader'
+        ]
+      }
+    ]
+  },
+  
+  plugins: [
+    new VueLoaderPlugin(),
+    new HtmlWebpackPlugin({
+      template: './public/index.html'
+    }),
+    ...(process.env.NODE_ENV === 'production'
+      ? [new MiniCssExtractPlugin({ filename: 'css/[name].[contenthash].css' })]
+      : [])
+  ],
+  
+  devServer: {
+    static: './dist',
+    port: 8080,
+    hot: true,
+    open: true
+  }
+}
+```
+
+#### 3. Vue 组件示例
+
+**src/App.vue**
+```vue
+<template>
+  <div class="app">
+    <h1>{{ message }}</h1>
+    <button @click="handleClick">点击我</button>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'App',
+  data() {
+    return {
+      message: 'Hello Vue with Webpack!'
+    }
+  },
+  methods: {
+    handleClick() {
+      this.message = '按钮被点击了！'
+    }
+  }
+}
+</script>
+
+<style scoped>
+.app {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #42b983;
+}
+</style>
+```
+
+---
+
+### 案例四：多页面应用（MPA）配置
+
+#### 1. 项目结构
+
+```
+mpa-project/
+├── src/
+│   ├── pages/
+│   │   ├── home/
+│   │   │   ├── index.js
+│   │   │   └── index.html
+│   │   ├── about/
+│   │   │   ├── index.js
+│   │   │   └── index.html
+│   │   └── contact/
+│   │       ├── index.js
+│   │       └── index.html
+│   └── shared/
+│       ├── utils.js
+│       └── styles.css
+└── webpack.config.js
+```
+
+#### 2. 动态生成多入口配置
+
+**webpack.config.js**
+```javascript
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const glob = require('glob')
+
+// 动态获取所有页面入口
+function getEntries() {
+  const entries = {}
+  const htmlPlugins = []
+  
+  glob.sync('./src/pages/**/index.js').forEach(file => {
+    const name = file.match(/\/pages\/(.+)\/index\.js$/)[1]
+    entries[name] = file
+    
+    htmlPlugins.push(
+      new HtmlWebpackPlugin({
+        template: file.replace('index.js', 'index.html'),
+        filename: `${name}.html`,
+        chunks: [name]
+      })
+    )
+  })
+  
+  return { entries, htmlPlugins }
+}
+
+const { entries, htmlPlugins } = getEntries()
+
+module.exports = {
+  entry: entries,
+  
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'js/[name].[contenthash].js',
+    clean: true
+  },
+  
+  plugins: [
+    ...htmlPlugins
+  ],
+  
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+      cacheGroups: {
+        common: {
+          name: 'common',
+          minChunks: 2,
+          priority: 5,
+          reuseExistingChunk: true
+        }
+      }
+    }
+  }
+}
+```
+
+---
+
+### 案例五：实际项目配置示例
+
+#### 完整的企业级配置
+
+**webpack.config.js**
+```javascript
+const path = require('path')
+const webpack = require('webpack')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
+const TerserPlugin = require('terser-webpack-plugin')
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
+
+const isProduction = process.env.NODE_ENV === 'production'
+
+module.exports = {
+  mode: isProduction ? 'production' : 'development',
+  
+  entry: {
+    main: './src/index.js',
+    vendor: ['react', 'react-dom']  // 单独打包第三方库
+  },
+  
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: isProduction 
+      ? 'js/[name].[contenthash:8].js'
+      : 'js/[name].js',
+    chunkFilename: isProduction
+      ? 'js/[name].[contenthash:8].chunk.js'
+      : 'js/[name].chunk.js',
+    publicPath: '/',
+    clean: true,
+    assetModuleFilename: 'assets/[hash][ext][query]'
+  },
+  
+  devtool: isProduction ? 'source-map' : 'eval-source-map',
+  
+  resolve: {
+    extensions: ['.js', '.jsx', '.json', '.ts', '.tsx'],
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+      '@components': path.resolve(__dirname, 'src/components'),
+      '@utils': path.resolve(__dirname, 'src/utils'),
+      '@assets': path.resolve(__dirname, 'src/assets')
+    },
+    modules: [path.resolve(__dirname, 'src'), 'node_modules']
+  },
+  
+  module: {
+    rules: [
+      {
+        test: /\.(js|jsx|ts|tsx)$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            cacheDirectory: true,
+            presets: [
+              ['@babel/preset-env', { useBuiltIns: 'usage', corejs: 3 }],
+              '@babel/preset-react',
+              '@babel/preset-typescript'
+            ],
+            plugins: [
+              '@babel/plugin-proposal-class-properties',
+              !isProduction && 'react-refresh/babel'
+            ].filter(Boolean)
+          }
+        }
+      },
+      {
+        test: /\.css$/,
+        use: [
+          isProduction ? MiniCssExtractPlugin.loader : 'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              modules: {
+                localIdentName: '[local]__[hash:base64:5]'
+              },
+              importLoaders: 1
+            }
+          },
+          'postcss-loader'
+        ]
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif|svg|webp)$/,
+        type: 'asset',
+        parser: {
+          dataUrlCondition: {
+            maxSize: 8 * 1024  // 8KB 以下转 base64
+          }
+        },
+        generator: {
+          filename: 'images/[hash][ext]'
+        }
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[hash][ext]'
+        }
+      }
+    ]
+  },
+  
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './public/index.html',
+      filename: 'index.html',
+      minify: isProduction ? {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeRedundantAttributes: true,
+        useShortDoctype: true,
+        removeEmptyAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        minifyJS: true,
+        minifyCSS: true
+      } : false
+    }),
+    
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+      'process.env.API_URL': JSON.stringify(process.env.API_URL || '')
+    }),
+    
+    ...(isProduction
+      ? [
+          new MiniCssExtractPlugin({
+            filename: 'css/[name].[contenthash:8].css',
+            chunkFilename: 'css/[name].[contenthash:8].chunk.css'
+          })
+        ]
+      : [new webpack.HotModuleReplacementPlugin()]),
+    
+    // 分析打包结果（可选）
+    ...(process.env.ANALYZE ? [new BundleAnalyzerPlugin()] : [])
+  ],
+  
+  optimization: {
+    minimize: isProduction,
+    minimizer: [
+      new TerserPlugin({
+        parallel: true,
+        terserOptions: {
+          compress: {
+            drop_console: isProduction,
+            drop_debugger: isProduction
+          }
+        }
+      }),
+      new CssMinimizerPlugin()
+    ],
+    splitChunks: {
+      chunks: 'all',
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          priority: 10,
+          reuseExistingChunk: true
+        },
+        common: {
+          minChunks: 2,
+          priority: 5,
+          reuseExistingChunk: true
+        }
+      }
+    },
+    runtimeChunk: {
+      name: 'runtime'
+    }
+  },
+  
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'public')
+    },
+    port: 3000,
+    hot: true,
+    open: true,
+    compress: true,
+    historyApiFallback: true,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:8080',
+        changeOrigin: true,
+        pathRewrite: { '^/api': '' }
+      }
+    }
+  },
+  
+  cache: {
+    type: 'filesystem',
+    buildDependencies: {
+      config: [__filename]
+    }
+  },
+  
+  performance: {
+    hints: isProduction ? 'warning' : false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000
+  }
+}
+```
+
+#### package.json 脚本
+
+```json
+{
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack serve",
+    "build": "cross-env NODE_ENV=production webpack",
+    "build:analyze": "cross-env NODE_ENV=production ANALYZE=true webpack",
+    "build:prod": "cross-env NODE_ENV=production webpack --mode production"
+  }
+}
+```
+
+---
+
+### 实战技巧总结
+
+#### 1. 环境变量管理
+
+创建 `.env.development` 和 `.env.production`：
+
+```bash
+# .env.development
+NODE_ENV=development
+API_URL=http://localhost:8080
+
+# .env.production
+NODE_ENV=production
+API_URL=https://api.production.com
+```
+
+使用 `dotenv-webpack` 加载：
+
+```javascript
+const Dotenv = require('dotenv-webpack')
+
+module.exports = {
+  plugins: [
+    new Dotenv({
+      path: `.env.${process.env.NODE_ENV || 'development'}`
+    })
+  ]
+}
+```
+
+#### 2. 路径别名配置
+
+```javascript
+resolve: {
+  alias: {
+    '@': path.resolve(__dirname, 'src'),
+    '@components': path.resolve(__dirname, 'src/components'),
+    '@utils': path.resolve(__dirname, 'src/utils'),
+    '@styles': path.resolve(__dirname, 'src/styles')
+  }
+}
+```
+
+#### 3. 代码分割策略
+
+```javascript
+optimization: {
+  splitChunks: {
+    chunks: 'all',
+    maxInitialRequests: 25,
+    minSize: 20000,
+    cacheGroups: {
+      framework: {
+        test: /[\\/]node_modules[\\/](react|react-dom|react-router)[\\/]/,
+        name: 'framework',
+        priority: 40
+      },
+      lib: {
+        test: /[\\/]node_modules[\\/]/,
+        name: 'lib',
+        priority: 30
+      },
+      common: {
+        minChunks: 2,
+        priority: 10,
+        reuseExistingChunk: true
+      }
+    }
+  }
+}
+```
+
+#### 4. 性能监控
+
+```javascript
+const SpeedMeasurePlugin = require('speed-measure-webpack-plugin')
+const smp = new SpeedMeasurePlugin()
+
+module.exports = smp.wrap({
+  // webpack 配置
+})
 ```
 
 ---

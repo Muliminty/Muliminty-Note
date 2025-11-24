@@ -9,7 +9,7 @@
 ## 📚 核心主题
 
 - [Vite原理与配置](./Vite原理与配置.md) — Vite 快速构建（常用于 [React](../../02-框架进阶/React/!MOC-React.md) 和 [Vue](../../02-框架进阶/Vue/!MOC-Vue.md) 项目）
-- [Webpack深入（loader/plugin）](./Webpack深入.md) — Webpack 深度解析（传统构建工具）
+- [Webpack 知识体系](./Webpack/!MOC-Webpack.md) — Webpack 完整知识体系（从入门到实战，包含 React/Vue 项目搭建）
 - [Rollup/ESBuild/SWC对比](./Rollup-ESBuild-SWC对比.md) — 构建工具对比
 - [Babel转换管线](./Babel转换管线.md) — 代码转换与编译（编译 [JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md) 和 [TypeScript](../../02-框架进阶/TypeScript/!MOC-TypeScript.md)）
 - [包管理与版本策略（npm/yarn/pnpm）](./包管理与版本策略.md) — 包管理最佳实践
