@@ -22,6 +22,8 @@
 ### 构建工具
 - **Vite**：快速的开发构建工具
 - **Webpack**：模块打包器
+- **Rspack**：基于 Rust 的高性能构建工具
+- **Turbopack**：Next.js 团队开发的极速打包工具
 - **Rollup**：ES 模块打包器
 - **ESBuild**：极速 JavaScript 打包器
 - **SWC**：Rust 编写的快速转译器
@@ -35,6 +37,16 @@
 - **npm**：Node.js 包管理器
 - **yarn**：快速、可靠的包管理器
 - **pnpm**：高效的包管理器（推荐用于 [Monorepo](./Monorepo管理.md)）
+
+---
+
+## ✅ 技能要求
+
+**你需要掌握：**
+
+- 看懂项目的构建配置（Vite/Webpack/Rspack 任意一种）
+- 理解打包拆分、动态加载、CI/CD 流程
+- 能排查构建问题（路径解析、依赖冲突）
 
 ---
 
