@@ -24,7 +24,10 @@ Linux 是广泛使用的操作系统，掌握 Linux 是系统管理和开发的�
   - [文件系统](./02-Linux/文件系统.md) — Linux 文件系统结构
   - [进程管理](./02-Linux/进程管理.md) — 进程查看与管理
   - [权限管理](./02-Linux/权限管理.md) — 用户权限与文件权限
-  - [Shell 脚本](./02-Linux/Shell脚本.md) — Bash 脚本编程
+  - [Shell 脚本](./02-Linux/Shell-脚本/README.md) — Shell 脚本编程知识体系
+    - [Shell 对照图](./02-Linux/Shell-脚本/Shell-对照图.md) — Shell 配置文件加载逻辑
+    - [Shell 配置文件](./02-Linux/Shell-脚本/Shell-配置文件.md) — Shell 配置文件知识清单
+    - [zshrc 配置详解](./02-Linux/Shell-脚本/zshrc-配置详解.md) — zshrc 配置文件详解
 
 ## 🔗 相关链接
 

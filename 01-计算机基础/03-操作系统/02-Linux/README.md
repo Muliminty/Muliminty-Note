@@ -39,8 +39,8 @@
 - 函数定义
 - 脚本调试
 - 正则表达式
-- [Shell 配置文件](Shell%20配置文件.md)
-- [zshrc配置详解](zshrc配置详解.md)
+- [Shell 配置文件](./Shell-脚本/Shell-配置文件.md)
+- [zshrc 配置详解](./Shell-脚本/zshrc-配置详解.md)
 
 ## 🔗 相关链接
 
@@ -48,7 +48,7 @@
 - [文件系统](./文件系统.md)
 - [进程管理](./进程管理.md)
 - [权限管理](./权限管理.md)
-- [Shell 脚本](./Shell脚本.md)
+- [Shell 脚本](./Shell-脚本/README.md)
 
 ## 📖 学习资源
 

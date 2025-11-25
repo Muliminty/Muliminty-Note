@@ -165,7 +165,7 @@ fi
 * [GNU Bash Manual](https://www.gnu.org/software/bash/manual/bash.html)
 * [Oh My Zsh Wiki](https://github.com/ohmyzsh/ohmyzsh/wiki)
 * [The Missing Semester of Your CS Education — Shell](https://missing.csail.mit.edu/)
-* [zshrc配置详解](zshrc配置详解.md)
+* [zshrc 配置详解](./zshrc-配置详解.md)
 
 # Q&A
 

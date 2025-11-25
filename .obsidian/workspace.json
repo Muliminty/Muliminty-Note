@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-计算机基础/05-编译原理/README.md",
+                "file": "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/Shell-配置文件.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Shell-配置文件"
             }
           }
         ]
@@ -133,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-计算机基础/05-编译原理/README.md",
+                "file": "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/Shell-配置文件.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "Shell-配置文件 的大纲"
             }
           },
           {
@@ -224,6 +224,21 @@
   },
   "active": "b76d5d4c5f29b876",
   "lastOpenFiles": [
+    "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/Shell-对照图.md",
+    "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/README.md",
+    "01-计算机基础/03-操作系统/02-Linux/README.md",
+    "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/zshrc-配置详解.md",
+    "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/Shell-配置文件.md",
+    "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/zshrc配置详解.md",
+    "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/Shell 配置文件.md",
+    "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/Shell 对照图.md",
+    "01-计算机基础/03-操作系统/02-Linux/Shell-脚本",
+    "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/zshrc配置详解.md",
+    "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/Shell 配置文件.md",
+    "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/Shell 对照图.md",
+    "01-计算机基础/03-操作系统/02-Linux/Shell 脚本/README.md",
+    "01-计算机基础/03-操作系统/01-系统原理/README.md",
+    "01-计算机基础/05-编译原理/README.md",
     "01-计算机基础/01-计算机组成原理/README.md",
     "Prompt/仓库规范文档.md",
     "00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md",
@@ -236,21 +251,7 @@
     "00-前端体系/03-工程化实践/工具链与构建/!MOC-工具链与构建.md",
     "00-前端体系/03-工程化实践/工程化/!MOC-工程化.md",
     "01-计算机基础/!MOC-计算机基础.md",
-    "02-代码管理/!MOC-代码管理.md",
     "scripts/check-moc-links.js",
-    "xx-草稿/📂 前端知识体系 Obsidian 目录模板.md",
-    "00-前端体系/03-工程化实践/工程化/脚手架/01-脚手架核心概念与原理.md",
-    "00-前端体系/03-工程化实践/工程化/脚手架/05-远程模板支持.md",
-    "00-前端体系/03-工程化实践/工程化/脚手架/06-发布与扩展.md",
-    "00-前端体系/03-工程化实践/工程化/脚手架/04-插件系统实现.md",
-    "00-前端体系/03-工程化实践/工程化/脚手架/03-模板系统实现.md",
-    "00-前端体系/03-工程化实践/工程化/脚手架/02-从零开始构建脚手架.md",
-    "00-前端体系/03-工程化实践/工程化/脚手架/!MOC-脚手架.md",
-    "Prompt/英文技术文档翻译.md",
-    "Prompt/提问.md",
-    "xx-草稿/giuhub 展示页 1/未命名 3.md",
-    "xx-草稿/giuhub 展示页 1/未命名.md",
-    "xx-草稿/giuhub 展示页 1/未命名 2.md",
     "xx-草稿/giuhub 展示页 1",
     "00-前端体系/03-工程化实践/工具链与构建/Webpack",
     "03-服务端/01-服务端语言/Java/06-实践项目",
@@ -259,7 +260,6 @@
     "03-服务端/01-服务端语言/Java/03-Web开发",
     "03-服务端/01-服务端语言/Java/02-核心特性",
     "03-服务端/01-服务端语言/Java/01-基础入门",
-    "数据库.base",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/async-process-model.png",

@@ -67,7 +67,10 @@
 - [文件系统](./03-操作系统/02-Linux/文件系统.md) — Linux 文件系统结构
 - [进程管理](./03-操作系统/02-Linux/进程管理.md) — 进程查看与管理
 - [权限管理](./03-操作系统/02-Linux/权限管理.md) — 用户权限与文件权限
-- [Shell 脚本](./03-操作系统/02-Linux/Shell脚本.md) — Bash 脚本编程
+- [Shell 脚本](./03-操作系统/02-Linux/Shell-脚本/README.md) — Shell 脚本编程知识体系
+  - [Shell 对照图](./03-操作系统/02-Linux/Shell-脚本/Shell-对照图.md) — Shell 配置文件加载逻辑
+  - [Shell 配置文件](./03-操作系统/02-Linux/Shell-脚本/Shell-配置文件.md) — Shell 配置文件知识清单
+  - [zshrc 配置详解](./03-操作系统/02-Linux/Shell-脚本/zshrc-配置详解.md) — zshrc 配置文件详解
 
 **学习检查点**：能够理解操作系统的工作原理，熟练使用 Linux 系统
 
@@ -175,7 +178,10 @@
 - [Linux 基础命令](./03-操作系统/02-Linux/基础命令.md) — 常用命令
 - [进程管理](./03-操作系统/02-Linux/进程管理.md) — 进程操作
 - [权限管理](./03-操作系统/02-Linux/权限管理.md) — 权限系统
-- [Shell 脚本](./03-操作系统/02-Linux/Shell脚本.md) — 脚本编程
+- [Shell 脚本](./03-操作系统/02-Linux/Shell-脚本/README.md) — Shell 脚本编程知识体系
+  - [Shell 对照图](./03-操作系统/02-Linux/Shell-脚本/Shell-对照图.md) — Shell 配置文件加载逻辑
+  - [Shell 配置文件](./03-操作系统/02-Linux/Shell-脚本/Shell-配置文件.md) — Shell 配置文件知识清单
+  - [zshrc 配置详解](./03-操作系统/02-Linux/Shell-脚本/zshrc-配置详解.md) — zshrc 配置文件详解
 
 ---
 
