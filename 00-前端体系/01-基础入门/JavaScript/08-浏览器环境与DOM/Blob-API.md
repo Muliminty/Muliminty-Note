@@ -1,4 +1,4 @@
-# Blob API
+# Blob API（Blob API）
 
 > Blob（Binary Large Object）API 提供了对二进制数据的操作能力，是 File API 的基础。
 > 

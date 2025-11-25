@@ -1,4 +1,4 @@
-# FormData API
+# FormData API（FormData API）
 
 > FormData API 提供了构造表单数据的能力，可以用于上传文件或发送表单数据。
 > 

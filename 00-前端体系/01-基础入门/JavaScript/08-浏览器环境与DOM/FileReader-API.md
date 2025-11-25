@@ -1,4 +1,4 @@
-# FileReader API
+# FileReader API（FileReader API）
 
 > FileReader API 提供了异步读取文件内容的能力，可以读取 File 或 Blob 对象的内容。
 > 
