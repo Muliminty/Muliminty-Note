@@ -1,4 +1,4 @@
-# Nginx 知识体系（Nginx）
+# Nginx（Nginx）MOC
 
 > Nginx Web 服务器配置、优化和管理完整指南
 > 

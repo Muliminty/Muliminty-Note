@@ -1,4 +1,4 @@
-# JavaScript MOC
+# JavaScript（JavaScript）MOC
 
 > 基于 ECMAScript 官方规范的 JavaScript 知识体系索引
 > 
@@ -58,9 +58,21 @@ JavaScript 知识体系包含两类 API：
 JavaScript 的基础语法和核心概念：
 
 - [语法（Syntax）](./01-语言核心/语法.md) — 变量声明、控制结构、函数、类等语法规则
+- [变量声明（Variable Declaration）](./01-语言核心/变量声明.md) — `var`、`let`、`const` 的区别和使用
 - [数据类型（Data Types）](./01-语言核心/数据类型.md) — 原始类型与对象类型
 - [控制结构（Control Flow）](./01-语言核心/控制结构.md) — `if`、`for`、`while` 等语句
+- [函数（Functions）](./01-语言核心/函数.md) — 函数定义、调用、参数、返回值
 - [作用域和闭包（Scope and Closures）](./01-语言核心/作用域和闭包.md) — 作用域链、块级作用域、闭包概念
+
+#### 底层原理（Underlying Principles）
+
+JavaScript 运行时的底层机制：
+
+- [执行上下文（Execution Context）](./01-语言核心/底层原理/执行上下文.md) — 执行上下文的创建和执行
+- [调用栈（Call Stack）](./01-语言核心/底层原理/调用栈.md) — 函数调用的栈结构
+- [V8工作原理（V8 Engine）](./01-语言核心/底层原理/V8工作原理.md) — V8 引擎的编译和执行机制
+- [内存管理（Memory Management）](./01-语言核心/底层原理/内存管理.md) — 内存分配、垃圾回收机制
+- [事件循环机制（Event Loop）](./01-语言核心/底层原理/事件循环机制.md) — 异步任务的处理机制
 
 **参考**：[ECMAScript Language Specification](https://tc39.es/ecma262/)
 

@@ -1,4 +1,4 @@
-# TypeScript MOC
+# TypeScript（TypeScript）MOC
 
 > TypeScript 是 JavaScript 的超集，添加了静态类型系统。
 > 

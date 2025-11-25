@@ -1,4 +1,4 @@
-# Webpack 知识体系 MOC
+# Webpack（Webpack）MOC
 
 > Webpack 是一个现代 JavaScript 应用程序的静态模块打包器。本知识体系从零开始，循序渐进地教你掌握 Webpack，最终能够独立搭建和优化项目。
 

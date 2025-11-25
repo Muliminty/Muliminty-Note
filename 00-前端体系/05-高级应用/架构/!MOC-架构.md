@@ -1,4 +1,4 @@
-# 前端架构 MOC
+# 前端架构（Frontend Architecture）MOC
 
 > 前端架构设计，包括微前端、分层架构、组件系统设计等。
 > 
