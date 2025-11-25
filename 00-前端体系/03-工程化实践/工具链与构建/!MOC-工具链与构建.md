@@ -18,12 +18,13 @@
 前端项目构建和打包工具。
 
 #### 主流构建工具
-- [Vite原理与配置](./Vite原理与配置.md) — Vite 快速构建（常用于 [React](../../02-框架进阶/React/!MOC-React.md) 和 [Vue](../../02-框架进阶/Vue/!MOC-Vue.md) 项目）
+- Vite原理与配置（待整理）— Vite 快速构建（常用于 [React](../../02-框架进阶/React/!MOC-React.md) 和 [Vue](../../02-框架进阶/Vue/!MOC-Vue.md) 项目）
 - [Webpack 知识体系](./Webpack/!MOC-Webpack.md) — Webpack 完整知识体系（从入门到实战，包含 React/Vue 项目搭建）
-- [Rollup/ESBuild/SWC对比](./Rollup-ESBuild-SWC对比.md) — 构建工具对比
+- [Webpack深入](./Webpack深入.md) — Webpack 深入解析
+- Rollup/ESBuild/SWC对比（待整理）— 构建工具对比
 
 #### 编译工具
-- [Babel转换管线](./Babel转换管线.md) — 代码转换与编译（编译 [JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md) 和 [TypeScript](../../02-框架进阶/TypeScript/!MOC-TypeScript.md)）
+- Babel转换管线（待整理）— 代码转换与编译（编译 [JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md) 和 [TypeScript](../../02-框架进阶/TypeScript/!MOC-TypeScript.md)）
 
 ---
 
@@ -32,10 +33,10 @@
 包管理和 Monorepo 管理方案。
 
 #### 包管理工具
-- [包管理与版本策略（npm/yarn/pnpm）](./包管理与版本策略.md) — 包管理最佳实践
+- 包管理与版本策略（npm/yarn/pnpm）（待整理）— 包管理最佳实践
 
 #### Monorepo 管理
-- [Monorepo管理（pnpm workspace/Lerna/Turborepo）](./Monorepo管理.md) — Monorepo 管理方案（大型项目，参考 [架构设计](../../05-高级应用/架构/!MOC-架构.md)）
+- Monorepo管理（pnpm workspace/Lerna/Turborepo）（待整理）— Monorepo 管理方案（大型项目，参考 [架构设计](../../05-高级应用/架构/!MOC-架构.md)）
 
 ---
 
@@ -94,8 +95,9 @@
 **目标**：掌握基础构建工具的使用
 
 **学习顺序**：
-1. Vite原理与配置（推荐新项目）
-2. Webpack 知识体系（大型项目）
+1. Vite原理与配置（待整理）（推荐新项目）
+2. [Webpack 知识体系](./Webpack/!MOC-Webpack.md)（大型项目）
+3. [Webpack深入](./Webpack深入.md)
 
 **学习检查点**：
 - ✅ 能够配置 Vite 或 Webpack
@@ -109,9 +111,9 @@
 **目标**：掌握构建工具的高级配置和优化
 
 **学习顺序**：
-1. Babel转换管线
-2. 包管理与版本策略
-3. Monorepo管理
+1. Babel转换管线（待整理）
+2. 包管理与版本策略（待整理）
+3. Monorepo管理（待整理）
 
 **学习检查点**：
 - ✅ 能够配置 Babel 转换
@@ -157,12 +159,12 @@
 ```
 工具链与构建/
 ├── !MOC-工具链与构建.md
-├── Vite原理与配置.md
+├── Vite原理与配置.md（待整理）
 ├── Webpack深入.md
-├── Rollup-ESBuild-SWC对比.md
-├── Babel转换管线.md
-├── 包管理与版本策略.md
-├── Monorepo管理.md
+├── Rollup-ESBuild-SWC对比.md（待整理）
+├── Babel转换管线.md（待整理）
+├── 包管理与版本策略.md（待整理）
+├── Monorepo管理.md（待整理）
 └── Webpack/
     ├── !MOC-Webpack.md
     └── ...
