@@ -11,10 +11,42 @@
             "id": "384085c1cc07bcd7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "03-服务端/01-服务端语言/Java/01-基础入门/安装与环境配置.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "安装与环境配置"
+            }
+          },
+          {
+            "id": "b8f535a35de41e1e",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://go.itab.link/",
+                "title": "新标签页",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "2247054809fd2fa7",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://muliminty.github.io/Muliminty-Note/",
+                "title": "index",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "index"
             }
           }
         ]
@@ -129,12 +161,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "03-服务端/01-服务端语言/Java/01-基础入门/安装与环境配置.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "安装与环境配置 的大纲"
             }
           },
           {
@@ -218,8 +251,9 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "384085c1cc07bcd7",
+  "active": "b76d5d4c5f29b876",
   "lastOpenFiles": [
+    "Prompt/vscode 插件开发.md",
     "04-AI与机器学习/README.md",
     "04-AI与机器学习/!MOC-AI与机器学习.md",
     "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/Shell-配置文件.md",
@@ -246,7 +280,6 @@
     "00-经验技巧/README.md",
     "00-前端体系/02-框架进阶/Vue/!MOC-Vue.md",
     "00-前端体系/02-框架进阶/README.md",
-    "00-前端体系/03-工程化实践/工具链与构建/!MOC-工具链与构建.md",
     "scripts/check-moc-links.js",
     "xx-草稿/giuhub 展示页 1",
     "00-前端体系/03-工程化实践/工具链与构建/Webpack",
