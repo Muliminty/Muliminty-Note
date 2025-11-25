@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/Shell-配置文件.md",
+                "file": "04-AI与机器学习/!MOC-AI与机器学习.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shell-配置文件"
+              "title": "!MOC-AI与机器学习"
             }
           }
         ]
@@ -133,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/Shell-配置文件.md",
+                "file": "04-AI与机器学习/!MOC-AI与机器学习.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Shell-配置文件 的大纲"
+              "title": "!MOC-AI与机器学习 的大纲"
             }
           },
           {
@@ -222,13 +222,13 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "f047d34bccf79750",
   "lastOpenFiles": [
+    "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/Shell-配置文件.md",
     "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/Shell-对照图.md",
     "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/README.md",
     "01-计算机基础/03-操作系统/02-Linux/README.md",
     "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/zshrc-配置详解.md",
-    "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/Shell-配置文件.md",
     "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/zshrc配置详解.md",
     "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/Shell 配置文件.md",
     "01-计算机基础/03-操作系统/02-Linux/Shell-脚本/Shell 对照图.md",
