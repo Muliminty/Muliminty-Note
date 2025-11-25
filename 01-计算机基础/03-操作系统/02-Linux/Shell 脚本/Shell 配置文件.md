@@ -1,4 +1,4 @@
-# Shell 配置文件知识清单
+# Shell 配置文件（Shell Configuration Files）知识清单
 
 ## 1. 配置文件分类
 

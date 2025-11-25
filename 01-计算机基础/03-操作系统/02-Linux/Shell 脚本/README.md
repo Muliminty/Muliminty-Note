@@ -1,4 +1,4 @@
-# Shell
+# Shell（Shell Scripting）
 
 > 快速掌握命令行与自动化脚本的学习路径与技能体系  
 > **学习路径**：  

@@ -1,4 +1,4 @@
-# Linux 基础
+# Linux 基础（Linux Fundamentals）
 
 > Linux 系统入门与实践，掌握 Linux 系统的基本操作和管理
 

@@ -1,4 +1,4 @@
-# 计算机网络
+# 计算机网络（Computer Networks）
 
 > 理解网络协议和通信原理，掌握 HTTP、TCP/IP 等核心协议
 

@@ -1,4 +1,4 @@
-# 操作系统原理
+# 操作系统原理（Operating System Principles）
 
 > 理解操作系统的核心概念和原理，掌握系统调用和进程管理
 

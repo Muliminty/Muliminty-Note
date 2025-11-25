@@ -1,4 +1,4 @@
-# zshrc 是什么
+# zshrc 配置详解（zshrc Configuration）
 
 `.zshrc` 是 **Zsh（Z Shell）** 的**配置文件**，类似于 `.bashrc` 对于 Bash 的作用。它是一个在 **每次启动交互式 Zsh shell 时自动执行的脚本**，用于设置环境变量、定义别名、定制提示符、加载插件等。
 
