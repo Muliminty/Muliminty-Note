@@ -2,6 +2,21 @@
 
 > Redux 是一个可预测的状态管理容器，用于 JavaScript 应用。它帮助你编写行为一致、易于测试、在不同环境（客户端、服务器、原生应用）中运行的应用。
 
+## 📑 快速导航
+
+- 🗺️ [Redux + Redux-Saga 完整学习路径](./!MOC-Redux学习路径.md) - **新手必看！系统学习 Redux 和 Redux-Saga**
+- ⚡ [Redux-Saga 文档](./Redux-Saga.md) - Redux 异步处理方案
+
+## 🎯 学习建议
+
+如果你是**新手**，建议按照以下顺序学习：
+
+1. **先学 Redux 基础**（本文档）- 理解同步状态管理
+2. **再学 Redux-Saga**（[Redux-Saga 文档](./Redux-Saga.md)）- 处理异步操作
+3. **参考学习路径**（[完整学习路径](./!MOC-Redux学习路径.md)）- 系统掌握
+
+> 💡 **提示**：Redux 只能处理同步操作，异步操作需要使用 Redux-Saga 或 Redux-Thunk。建议学习 Redux-Saga，功能更强大。
+
 ---
 
 ## 一、为什么需要 Redux？
@@ -384,7 +399,39 @@ src/
 
 ---
 
-## 八、总结
+## 八、Redux 的局限性（为什么需要 Redux-Saga）
+
+### Redux 只能处理同步操作
+
+Redux 的 Reducer 必须是**纯函数**，这意味着：
+
+- ✅ 可以：根据 action 计算新的 state
+- ❌ 不可以：执行异步操作（API 调用、定时器等）
+- ❌ 不可以：产生副作用（修改外部变量、DOM 操作等）
+
+### 实际应用中的异步需求
+
+但在实际项目中，我们经常需要：
+
+- 调用 API 获取数据
+- 处理文件上传
+- 管理 WebSocket 连接
+- 执行定时任务（轮询）
+
+### 解决方案：Redux-Saga
+
+当需要处理异步操作时，推荐使用 **Redux-Saga**：
+
+- ✅ 基于 Generator 函数，代码更优雅
+- ✅ 声明式 API，易于测试
+- ✅ 强大的并发控制
+- ✅ 支持任务取消
+
+👉 **下一步学习**：[Redux-Saga 完整文档](./Redux-Saga.md)
+
+---
+
+## 九、总结
 
 ### 核心要点
 
@@ -412,6 +459,13 @@ src/
 - [Redux 官方文档](https://redux.js.org/)
 - [Redux 中文文档](https://cn.redux.js.org/)
 - [React-Redux 文档](https://react-redux.js.org/)
+
+---
+
+## 相关文档
+
+- 🗺️ [Redux + Redux-Saga 完整学习路径](./!MOC-Redux学习路径.md) - 系统学习指南
+- ⚡ [Redux-Saga 文档](./Redux-Saga.md) - 异步处理方案
 
 ---
 

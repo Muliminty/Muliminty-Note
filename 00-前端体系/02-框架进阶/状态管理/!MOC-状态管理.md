@@ -22,6 +22,8 @@
 
 ### Redux 系列
 
+> 🗺️ **新手必看**：[Redux + Redux-Saga 完整学习路径](./02-React生态/!MOC-Redux学习路径.md) — 系统学习 Redux 和 Redux-Saga 的完整指南
+
 - [Redux](./02-React生态/Redux.md) — Redux 基础概念、原理和最小闭环 Demo（配合 [React](../React/!MOC-React.md) 使用）
 - [Redux Toolkit (RTK)](./02-React生态/Redux-Toolkit.md) — Redux 官方推荐工具集（推荐使用）
 - [Redux-Saga](./02-React生态/Redux-Saga.md) — 基于 Generator 的副作用管理（需要掌握 [JavaScript Generator](../../01-基础入门/JavaScript/!MOC-javascript.md)）
