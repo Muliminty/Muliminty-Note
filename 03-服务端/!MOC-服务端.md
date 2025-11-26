@@ -128,12 +128,18 @@ Web 服务器的配置、优化和管理。
 
 #### 容器化部署
 - **Docker**
-  - Docker 基础与应用（待整理）
-  - Dockerfile 编写（待整理）
-  - Docker 镜像管理（待整理）
+  - [Docker 知识体系](./04-部署与运维/容器化/Docker/!MOC-Docker.md) — Docker 完整知识体系
+    - 基础入门（安装、概念、基本命令）
+    - 镜像管理（构建、优化、仓库）
+    - 容器管理（运行、资源限制、数据管理）
+    - Dockerfile 编写与高级应用
+    - Docker Compose 多服务编排
+    - 网络与存储
+    - 安全与最佳实践
+    - 生产环境部署
+    - 故障排查
 - **Docker Compose**
-  - Docker Compose 多服务编排（待整理）
-  - 服务编排最佳实践（待整理）
+  - 见 [Docker 知识体系](./04-部署与运维/容器化/Docker/!MOC-Docker.md) — Docker Compose 章节
 - **Kubernetes (K8s)**
   - Kubernetes 基础（待整理）
   - Pod 与 Service（待整理）
@@ -296,7 +302,7 @@ API 的设计、开发和文档化。
 
 **学习顺序**：
 1. 数据库操作（MySQL、MongoDB、Redis）
-2. Docker 容器化部署
+2. [Docker 容器化部署](./04-部署与运维/容器化/Docker/!MOC-Docker.md)
 3. CI/CD 流程配置
 4. API 设计与开发
 
@@ -338,7 +344,7 @@ API 的设计、开发和文档化。
 
 #### 部署相关
 - [腾讯云部署指南](./04-部署与运维/云平台部署/腾讯云部署.md) — 云服务器部署实践
-- Docker 容器化部署（待整理）
+- [Docker 知识体系](./04-部署与运维/容器化/Docker/!MOC-Docker.md) — Docker 容器化部署
 - CI/CD 自动化部署（待整理）
 
 #### 配置相关
