@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4e251b019b20c3ac",
+        "id": "9bd4d17035dfdea7",
         "type": "tabs",
         "children": [
           {
-            "id": "97ad4eb2660853e9",
+            "id": "7f156922d99e58fc",
             "type": "leaf",
             "state": {
               "type": "webviewer",
@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "941b1745497b57fd",
+            "id": "dac8864bb39fe357",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "webviewer",
               "state": {
-                "file": "03-服务端/04-部署与运维/容器化/Docker/!MOC-Docker.md",
-                "mode": "preview",
-                "source": false
+                "url": "https://www.zhihu.com/",
+                "title": "(18 封私信 / 80 条消息) 首页 - 知乎",
+                "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "!MOC-Docker"
+              "icon": "globe-2",
+              "title": "(18 封私信 / 80 条消息) 首页 - 知乎"
             }
           }
         ],
@@ -237,12 +237,20 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "941b1745497b57fd",
+  "active": "dac8864bb39fe357",
   "lastOpenFiles": [
-    "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/镜像基础操作.md",
+    "Prompt/笔记提示词.md",
+    "03-服务端/04-部署与运维/容器化/Docker/README.md",
+    "03-服务端/04-部署与运维/容器化/README.md",
     "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/镜像仓库管理.md",
-    "03-服务端/04-部署与运维/容器化/Docker/08-生产环境部署/监控与日志.md",
+    "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/镜像构建实践.md",
+    "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/镜像基础操作.md",
+    "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/镜像优化策略.md",
+    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/基本命令.md",
+    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/核心概念.md",
+    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/安装与环境配置.md",
     "03-服务端/04-部署与运维/容器化/Docker/!MOC-Docker.md",
+    "03-服务端/04-部署与运维/容器化/Docker/08-生产环境部署/监控与日志.md",
     "03-服务端/04-部署与运维/容器化/Docker/09-故障排查/故障诊断工具.md",
     "03-服务端/04-部署与运维/容器化/Docker/09-故障排查/调试技巧.md",
     "03-服务端/04-部署与运维/容器化/Docker/09-故障排查/常见问题排查.md",
@@ -257,14 +265,6 @@
     "03-服务端/04-部署与运维/容器化/Docker/06-网络与存储/网络详解.md",
     "03-服务端/04-部署与运维/容器化/Docker/05-Docker-Compose/Compose高级特性.md",
     "03-服务端/04-部署与运维/容器化/Docker/05-Docker-Compose/多服务编排实践.md",
-    "03-服务端/04-部署与运维/容器化/Docker/05-Docker-Compose/Compose文件编写指南.md",
-    "03-服务端/04-部署与运维/容器化/Docker/05-Docker-Compose/Compose基础.md",
-    "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用/Dockerfile最佳实践.md",
-    "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用/健康检查配置.md",
-    "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用/构建参数与变量.md",
-    "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用/多阶段构建.md",
-    "03-服务端/04-部署与运维/容器化/Docker/03-容器管理/容器网络基础.md",
-    "03-服务端/04-部署与运维/容器化/Docker/03-容器管理/容器数据管理.md",
     "03-服务端/04-部署与运维/容器化/Docker/09-故障排查",
     "03-服务端/04-部署与运维/容器化/Docker/08-生产环境部署",
     "03-服务端/04-部署与运维/容器化/Docker/07-安全与最佳实践",
