@@ -28,6 +28,8 @@ Linux 是广泛使用的操作系统，掌握 Linux 是系统管理和开发的�
     - [Shell 对照图](./02-Linux/Shell-脚本/Shell-对照图.md) — Shell 配置文件加载逻辑
     - [Shell 配置文件](./02-Linux/Shell-脚本/Shell-配置文件.md) — Shell 配置文件知识清单
     - [zshrc 配置详解](./02-Linux/Shell-脚本/zshrc-配置详解.md) — zshrc 配置文件详解
+  - [编辑器工具](./02-Linux/编辑器工具/README.md) — 编辑器工具知识体系
+    - [Vim 编辑器](./02-Linux/编辑器工具/Vim/README.md) — Vim 编辑器完整指南
 
 ## 🔗 相关链接
 

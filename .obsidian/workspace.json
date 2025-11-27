@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9bd4d17035dfdea7",
+        "id": "e567506bd603b55c",
         "type": "tabs",
         "children": [
           {
-            "id": "7f156922d99e58fc",
+            "id": "b57c036150378caf",
             "type": "leaf",
             "state": {
               "type": "webviewer",
@@ -22,21 +22,49 @@
             }
           },
           {
-            "id": "dac8864bb39fe357",
+            "id": "a24a279d80ba9f69",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://juejin.cn/",
+                "title": "稀土掘金",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "稀土掘金"
+            }
+          },
+          {
+            "id": "ea5d79fe601318d7",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://juejin.cn/hot/articles/1",
+                "title": "稀土掘金",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "稀土掘金"
+            }
+          },
+          {
+            "id": "54a2895bea451dea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/核心概念.md",
+                "file": "01-计算机基础/03-操作系统/02-Linux/编辑器工具/Vim/Vim-基础命令速查.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "核心概念"
+              "title": "Vim-基础命令速查"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -83,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "java",
+                "query": "vim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -148,12 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "01-计算机基础/03-操作系统/02-Linux/编辑器工具/Vim/Vim-基础命令速查.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Vim-基础命令速查 的大纲"
             }
           },
           {
@@ -237,21 +266,26 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "dac8864bb39fe357",
+  "active": "54a2895bea451dea",
   "lastOpenFiles": [
+    "01-计算机基础/03-操作系统/02-Linux/编辑器工具/Vim/README.md",
+    "01-计算机基础/03-操作系统/02-Linux/编辑器工具/Vim/Vim-基础命令速查.md",
+    "01-计算机基础/03-操作系统/02-Linux/编辑器工具/Vim",
+    "01-计算机基础/03-操作系统/02-Linux/编辑器工具/README.md",
+    "01-计算机基础/03-操作系统/02-Linux/编辑器工具",
+    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/基本命令.md",
+    "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/镜像构建实践.md",
+    "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/镜像仓库管理.md",
+    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/核心概念.md",
     "Prompt/笔记提示词 2.md",
     "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/安装与环境配置.md",
-    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/基本命令.md",
-    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/核心概念.md",
     "03-服务端/04-部署与运维/容器化/Docker/03-容器管理/容器资源限制.md",
     "03-服务端/04-部署与运维/容器化/Docker/03-容器管理/容器网络基础.md",
     "03-服务端/04-部署与运维/容器化/Docker/03-容器管理/容器数据管理.md",
     "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/镜像基础操作.md",
-    "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/镜像构建实践.md",
     "Prompt/笔记提示词.md",
     "03-服务端/04-部署与运维/容器化/Docker/README.md",
     "03-服务端/04-部署与运维/容器化/README.md",
-    "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/镜像仓库管理.md",
     "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/镜像优化策略.md",
     "03-服务端/04-部署与运维/容器化/Docker/!MOC-Docker.md",
     "03-服务端/04-部署与运维/容器化/Docker/08-生产环境部署/监控与日志.md",
@@ -262,9 +296,6 @@
     "03-服务端/04-部署与运维/容器化/Docker/08-生产环境部署/容器编排方案.md",
     "03-服务端/04-部署与运维/容器化/Docker/08-生产环境部署/部署策略.md",
     "03-服务端/04-部署与运维/容器化/Docker/07-安全与最佳实践/Docker最佳实践.md",
-    "03-服务端/04-部署与运维/容器化/Docker/07-安全与最佳实践/安全配置实践.md",
-    "03-服务端/04-部署与运维/容器化/Docker/07-安全与最佳实践/安全基础.md",
-    "03-服务端/04-部署与运维/容器化/Docker/06-网络与存储/数据持久化策略.md",
     "03-服务端/04-部署与运维/容器化/Docker/09-故障排查",
     "03-服务端/04-部署与运维/容器化/Docker/08-生产环境部署",
     "03-服务端/04-部署与运维/容器化/Docker/07-安全与最佳实践",
@@ -273,8 +304,6 @@
     "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用",
     "03-服务端/04-部署与运维/容器化/Docker/03-容器管理",
     "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理",
-    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门",
-    "01-计算机基础/03-操作系统/02-Linux/Shell-脚本",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/async-process-model.png",
