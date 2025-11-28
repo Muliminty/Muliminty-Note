@@ -8,7 +8,7 @@
 
 ---
 
-## 📚 知识体系结构
+## 知识体系结构
 
 ### 01-基础入门（Foundation）
 
@@ -63,6 +63,8 @@
   - 声明式编程
   - 组件化思想
   - 单向数据流
+- **React 作为 UI 运行时**（参考：[React as a UI Runtime](https://overreacted.io/react-as-a-ui-runtime/)）
+  - [React 作为 UI 运行时](./02-核心机制/React-作为-UI-运行时.md) — React 编程模型深度解析
 - **虚拟 DOM（Virtual DOM）**
   - 虚拟 DOM 概念
   - 虚拟 DOM 的优势
@@ -110,7 +112,7 @@
   - 状态更新批处理
 - **useEffect Hook**
   - 副作用概念
-  - useEffect 完整指南（参考：[A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/)）
+  - [useEffect 完整指南](./03-Hooks深度理解/useEffect-完整指南.md) — 深入理解 useEffect（参考：[A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/)）
   - 依赖数组
   - 清理函数（Cleanup）
   - 常见陷阱和解决方案
@@ -156,7 +158,7 @@
 
 #### Hooks 原理
 - **Hooks 调用顺序的重要性**
-  - 为什么 Hooks 依赖调用顺序（参考：[Why Do React Hooks Rely on Call Order?](https://overreacted.io/why-do-hooks-rely-on-call-order/)）
+  - [Hooks 调用顺序的重要性](./03-Hooks深度理解/Hooks-调用顺序的重要性.md) — 为什么 Hooks 依赖调用顺序（参考：[Why Do React Hooks Rely on Call Order?](https://overreacted.io/why-do-hooks-rely-on-call-order/)）
   - Hooks 实现原理
   - Hooks 链表结构
 - **函数组件 vs 类组件**
@@ -176,10 +178,13 @@
 
 #### 组件设计原则
 - **组件设计原则**
+  - [编写健壮的组件](./04-组件设计模式/编写健壮的组件.md) — 组件设计四大原则（参考：[Writing Resilient Components](https://overreacted.io/writing-resilient-components/)）
   - 单一职责原则
   - 可复用性
   - 可组合性
   - 可测试性
+- **UI 工程的要素**
+  - [UI 工程的要素](./04-组件设计模式/UI-工程的要素.md) — UI 工程中的核心挑战（参考：[The Elements of UI Engineering](https://overreacted.io/the-elements-of-ui-engineering/)）
 - **组件拆分策略**
   - 何时拆分组件
   - 组件粒度控制
@@ -286,10 +291,12 @@
 > **详细内容**：参见 [性能优化 MOC](../../04-质量保障/性能/!MOC-性能.md)
 
 #### 渲染优化
+- **Before You memo()**
+  - [Before You memo()](./05-性能优化/Before-You-memo.md) — 在使用 memo() 之前的优化技巧（参考：[Before You memo()](https://overreacted.io/before-you-memo/)）
 - **React.memo**
   - memo 的使用场景
   - memo 的局限性
-  - 何时不需要 memo（参考：[Before You memo()](https://overreacted.io/before-you-memo/)）
+  - 何时不需要 memo
 - **useMemo 和 useCallback**
   - 正确的使用方式
   - 常见误区
@@ -786,7 +793,7 @@
 
 ---
 
-## 📝 学习路径
+## 学习路径
 
 ### 初学者路径
 1. **基础入门** → 掌握 JSX、组件、Props、State
@@ -812,7 +819,7 @@
 
 ---
 
-## 📖 学习资源
+## 学习资源
 
 ### 官方资源
 - [React 官方文档](https://react.dev/) - 最新官方文档
@@ -838,7 +845,7 @@
 
 ---
 
-## 🔗 相关链接
+## 相关链接
 
 - [JavaScript 基础](../../01-基础入门/JavaScript/!MOC-javascript.md) - React 前置知识
 - [TypeScript](../TypeScript/!MOC-TypeScript.md) - 类型安全
