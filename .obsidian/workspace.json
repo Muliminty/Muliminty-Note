@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ecb0d85654566437",
+        "id": "1fde65d22aba6fa3",
         "type": "tabs",
         "children": [
           {
-            "id": "628eaf9a0353ba18",
+            "id": "b38e77e95dc6c12c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-前端体系/02-框架进阶/React/03-Hooks深度理解/useEffect-完整指南.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "useEffect-完整指南"
+              "title": "新标签页"
             }
           }
         ]
@@ -128,21 +124,6 @@
             }
           },
           {
-            "id": "cc089dfc51082da7",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "00-前端体系/02-框架进阶/React/03-Hooks深度理解/useEffect-完整指南.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "useEffect-完整指南 的大纲"
-            }
-          },
-          {
             "id": "926de4536f5b42e3",
             "type": "leaf",
             "state": {
@@ -196,13 +177,28 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
+          },
+          {
+            "id": "497559b544654cd9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 344.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,11 +218,12 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "628eaf9a0353ba18",
+  "active": "b38e77e95dc6c12c",
   "lastOpenFiles": [
+    "书签整理.md",
+    "00-前端体系/02-框架进阶/React/03-Hooks深度理解/useEffect-完整指南.md",
     "Prompt/开源项目文档.md",
     "Prompt/开源项目文档.ms",
-    "00-前端体系/02-框架进阶/React/03-Hooks深度理解/useEffect-完整指南.md",
     "00-前端体系/02-框架进阶/React/03-Hooks深度理解/Hooks-调用顺序的重要性.md",
     "00-前端体系/02-框架进阶/React/02-核心机制/React-作为-UI-运行时.md",
     "00-前端体系/02-框架进阶/状态管理/02-React生态/Redux.md",
@@ -259,7 +256,6 @@
     "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/镜像基础操作.md",
     "Prompt/笔记提示词.md",
     "03-服务端/04-部署与运维/容器化/Docker/README.md",
-    "03-服务端/04-部署与运维/容器化/README.md",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/async-process-model.png",
