@@ -118,9 +118,9 @@ JavaScript 模块系统：
 JavaScript 异步处理机制：
 
 - [回调函数（Callbacks）](./04-异步编程/回调函数.md) — 最初的异步处理方式
-- [Promise](./04-异步编程/Promise.md) — ES6 引入的 Promise API
-- [async/await](./04-异步编程/async-await.md) — ES8 引入的异步处理语法
-- [异步编程最佳实践](./04-异步编程/异步编程最佳实践.md) — 错误处理、并发控制等
+- [Promise](./04-异步编程/Promise.md) — ES6 引入的 Promise API，现代异步编程的基础
+- [async/await](./04-异步编程/async-await.md) — ES8 引入的异步处理语法，基于 Promise 的语法糖
+- [异步编程最佳实践](./04-异步编程/异步编程最佳实践.md) — 错误处理、并发控制、超时处理等最佳实践
 
 **参考**：[ECMAScript Async Programming](https://tc39.es/ecma262/#sec-promise-objects)
 
