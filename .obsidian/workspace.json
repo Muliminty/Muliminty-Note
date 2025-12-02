@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "914bb2df5efa9e1f",
+        "id": "8a737cedfdf80c10",
         "type": "tabs",
         "children": [
           {
-            "id": "bfd3bab7dcae2db8",
+            "id": "b2c9ee13b7db27de",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "webviewer",
               "state": {
-                "file": "00-经验技巧/单点登录方案.md",
-                "mode": "preview",
-                "source": false
+                "url": "https://go.itab.link/",
+                "title": "新标签页",
+                "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "单点登录方案"
+              "icon": "globe-2",
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "9c45fc38f185c6a0",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.zhihu.com/",
+                "title": "首页 - 知乎",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "首页 - 知乎"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -223,14 +239,14 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "bfd3bab7dcae2db8",
+  "active": "9c45fc38f185c6a0",
   "lastOpenFiles": [
+    "00-经验技巧/单点登录方案.md",
     "00-前端体系/01-基础入门/JavaScript/01-语言核心/06-作用域和闭包.md",
     "00-前端体系/01-基础入门/JavaScript/01-语言核心/04-控制结构.md",
     "00-前端体系/01-基础入门/JavaScript/01-语言核心/03-数据类型.md",
     "00-前端体系/01-基础入门/JavaScript/01-语言核心/02-变量声明.md",
     "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Cookie-API.md",
-    "00-经验技巧/单点登录方案.md",
     "00-前端体系/01-基础入门/JavaScript/04-异步编程/async-await.md",
     "00-经验技巧/企业微信调试模式.md",
     "00-前端体系/01-基础入门/JavaScript/04-异步编程/Promise.md",
