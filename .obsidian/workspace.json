@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "8a737cedfdf80c10",
+        "id": "e55e44e63f9e8ad4",
         "type": "tabs",
         "children": [
           {
-            "id": "b2c9ee13b7db27de",
+            "id": "834c61e12e2955c6",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://go.itab.link/",
-                "title": "新标签页",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
               "title": "新标签页"
             }
-          },
-          {
-            "id": "9c45fc38f185c6a0",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.zhihu.com/",
-                "title": "首页 - 知乎",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "首页 - 知乎"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -239,8 +219,11 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "9c45fc38f185c6a0",
+  "active": "834c61e12e2955c6",
   "lastOpenFiles": [
+    "03-服务端/05-API设计/RESTful/REST-API-最佳实践.md",
+    "03-服务端/05-API设计/RESTful/REST-API-设计原则.md",
+    "03-服务端/05-API设计/RESTful/!MOC-RESTful-API.md",
     "00-经验技巧/单点登录方案.md",
     "00-前端体系/01-基础入门/JavaScript/01-语言核心/06-作用域和闭包.md",
     "00-前端体系/01-基础入门/JavaScript/01-语言核心/04-控制结构.md",
@@ -264,9 +247,6 @@
     "00-前端体系/01-基础入门/JavaScript/04-异步编程/异步编程最佳实践.md",
     "00-前端体系/01-基础入门/JavaScript/04-异步编程/回调函数.md",
     "00-前端体系/02-框架进阶/React/01-基础入门/02-组件（Components）.md",
-    "00-前端体系/02-框架进阶/React/05-性能优化/01-Before-You-memo.md",
-    "00-前端体系/02-框架进阶/React/04-组件设计模式/02-UI-工程的要素.md",
-    "00-前端体系/02-框架进阶/React/04-组件设计模式/01-编写健壮的组件.md",
     "Prompt/开源项目文档.ms",
     "00-前端体系/02-框架进阶/React/07-原理深入",
     "00-前端体系/02-框架进阶/React/06-最佳实践",

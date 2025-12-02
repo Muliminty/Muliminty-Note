@@ -71,7 +71,9 @@
 
 ### 05-API设计（API Design）
 
-- **RESTful API**（待整理）
+- **RESTful API** - [RESTful API 知识体系](./05-API设计/RESTful/!MOC-RESTful-API.md)
+  - REST API 设计原则
+  - REST API 最佳实践
 - **GraphQL**（待整理）
 
 ---

@@ -170,11 +170,9 @@ Web 服务器的配置、优化和管理。
 API 的设计、开发和文档化。
 
 #### RESTful API
-- RESTful API 设计原则（待整理）
-- API 版本管理（待整理）
-- 错误处理与状态码（待整理）
-- API 文档生成（Swagger/OpenAPI）（待整理）
-- API 测试（待整理）
+- [RESTful API 知识体系](./05-API设计/RESTful/!MOC-RESTful-API.md) — RESTful API 完整知识体系
+  - [REST API 设计原则](./05-API设计/RESTful/REST-API-设计原则.md) — REST API 设计原则和规范
+  - [REST API 最佳实践](./05-API设计/RESTful/REST-API-最佳实践.md) — REST API 最佳实践（错误处理、安全、性能优化、文档化）
 
 #### GraphQL
 - GraphQL Schema 设计（待整理）
