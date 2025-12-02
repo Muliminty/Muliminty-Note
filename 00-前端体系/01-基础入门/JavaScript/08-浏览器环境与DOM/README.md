@@ -19,6 +19,7 @@ JavaScript 在浏览器环境中的应用。
 - [Blob API](./Blob-API.md) — 二进制大对象
 - [FileReader API](./FileReader-API.md) — 文件读取
 - [FormData API](./FormData-API.md) — 表单数据
+- [Cookie API](./Cookie-API.md) — Cookie 操作与属性（Domain、Path、Secure、SameSite、HttpOnly）
 
 ## 参考
 
