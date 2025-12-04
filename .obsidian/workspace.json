@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "cf820464fc004a4e",
+        "id": "583dc60c03cd10e1",
         "type": "tabs",
         "children": [
           {
-            "id": "79c879377426bd6a",
+            "id": "5d75ebc17e04f881",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
+              "type": "webviewer",
+              "state": {
+                "url": "https://go.itab.link/",
+                "title": "新标签页",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
               "title": "新标签页"
             }
+          },
+          {
+            "id": "0a8b6501740cfa02",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.zhihu.com/",
+                "title": "(19 封私信 / 80 条消息) 首页 - 知乎",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "(19 封私信 / 80 条消息) 首页 - 知乎"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,8 +238,10 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "79c879377426bd6a",
+  "active": "0a8b6501740cfa02",
   "lastOpenFiles": [
+    "00-前端体系/03-工程化实践/工程化/开发工具/VSCode配置与技巧.md",
+    "00-前端体系/03-工程化实践/工程化/开发工具",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析/05-高性能构建工具对比.md",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析/04-ESBuild-vs-Vite.md",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析/03-ESBuild-vs-SWC.md",
@@ -246,7 +267,6 @@
     "00-前端体系/03-工程化实践/工具链与构建/PostCSS.md",
     "00-前端体系/03-工程化实践/工具链与构建/TypeScript-Compiler.md",
     "00-前端体系/03-工程化实践/工具链与构建/Babel转换管线.md",
-    "00-前端体系/03-工程化实践/工具链与构建/构建工具对比.md",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/04-性能优化",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/03-配置与实践",
@@ -256,7 +276,6 @@
     "Prompt/开源项目文档.ms",
     "00-前端体系/02-框架进阶/React/07-原理深入",
     "00-前端体系/02-框架进阶/React/06-最佳实践",
-    "00-前端体系/02-框架进阶/React/05-性能优化",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/async-process-model.png",
