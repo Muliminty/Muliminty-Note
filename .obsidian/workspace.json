@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "0a8b6501740cfa02",
+            "id": "e9353212291a4575",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.zhihu.com/",
-                "title": "(19 封私信 / 80 条消息) 首页 - 知乎",
+                "url": "https://muliminty.github.io/Muliminty-Note/00-%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/!MOC-%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB",
+                "title": "!MOC-前端体系",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "(19 封私信 / 80 条消息) 首页 - 知乎"
+              "title": "!MOC-前端体系"
             }
           }
         ],
@@ -238,8 +238,11 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "0a8b6501740cfa02",
+  "active": "e9353212291a4575",
   "lastOpenFiles": [
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Date.md",
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/String.md",
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/内置对象概述.md",
     "00-前端体系/前端体系分析报告.md",
     "00-前端体系/03-工程化实践/工程化/开发工具/VSCode配置与技巧.md",
     "00-前端体系/03-工程化实践/工程化/开发工具",
@@ -264,9 +267,6 @@
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/01-基础入门/02-快速开始.md",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/01-基础入门/01-什么是ESBuild.md",
     "00-前端体系/03-工程化实践/工具链与构建/Monorepo管理.md",
-    "00-前端体系/03-工程化实践/工具链与构建/包管理与版本策略.md",
-    "00-前端体系/03-工程化实践/工具链与构建/PostCSS.md",
-    "00-前端体系/03-工程化实践/工具链与构建/TypeScript-Compiler.md",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/04-性能优化",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/03-配置与实践",
