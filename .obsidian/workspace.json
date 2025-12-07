@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5d75ebc17e04f881",
+            "id": "36beb4be22566199",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://go.itab.link/",
-                "title": "新标签页",
+                "url": "https://www.zhihu.com/",
+                "title": "(19 封私信 / 80 条消息) 首页 - 知乎",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "新标签页"
-            }
-          },
-          {
-            "id": "e9353212291a4575",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://muliminty.github.io/Muliminty-Note/00-%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/!MOC-%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB",
-                "title": "!MOC-前端体系",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "!MOC-前端体系"
+              "title": "(19 封私信 / 80 条消息) 首页 - 知乎"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,8 +223,9 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "e9353212291a4575",
+  "active": "36beb4be22566199",
   "lastOpenFiles": [
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/RegExp.md",
     "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Date.md",
     "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/String.md",
     "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/内置对象概述.md",
@@ -266,7 +252,6 @@
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/01-基础入门/03-核心概念.md",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/01-基础入门/02-快速开始.md",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/01-基础入门/01-什么是ESBuild.md",
-    "00-前端体系/03-工程化实践/工具链与构建/Monorepo管理.md",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/04-性能优化",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/03-配置与实践",
