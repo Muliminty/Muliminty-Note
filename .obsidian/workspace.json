@@ -4,16 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "583dc60c03cd10e1",
+        "id": "6ec71a4c367300ab",
         "type": "tabs",
         "children": [
           {
-            "id": "36beb4be22566199",
+            "id": "b9416f8ec4350220",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.zhihu.com/",
+                "url": "https://go.itab.link/",
+                "title": "新标签页",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "a2d11a419adcc3cd",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.zhihu.com/?theme=dark",
                 "title": "(19 封私信 / 80 条消息) 首页 - 知乎",
                 "mode": "webview"
               },
@@ -21,7 +35,8 @@
               "title": "(19 封私信 / 80 条消息) 首页 - 知乎"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -223,8 +238,12 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "36beb4be22566199",
+  "active": "a2d11a419adcc3cd",
   "lastOpenFiles": [
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/其他内置对象.md",
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Set和Map.md",
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Math.md",
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/JSON.md",
     "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/RegExp.md",
     "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Date.md",
     "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/String.md",
@@ -248,10 +267,6 @@
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/02-核心功能/04-代码分割.md",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/02-核心功能/03-代码压缩.md",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/02-核心功能/02-JSX-TSX支持.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/02-核心功能/01-JS-TS编译.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/01-基础入门/03-核心概念.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/01-基础入门/02-快速开始.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/01-基础入门/01-什么是ESBuild.md",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/04-性能优化",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/03-配置与实践",
