@@ -21,23 +21,43 @@
 
 - **HTML** - [HTML MOC](./00-前端体系/01-基础入门/HTML/!MOC-HTML.md)
 - **CSS** - [CSS MOC](./00-前端体系/01-基础入门/CSS/!MOC-CSS.md)
-- **JavaScript** - [JavaScript MOC](./00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md)
-  - [语言核心](./00-前端体系/01-基础入门/JavaScript/01-语言核心/README.md)
-    - 语法、变量声明、控制结构、函数
-    - 数据类型、作用域和闭包
-    - [底层原理](./00-前端体系/01-基础入门/JavaScript/01-语言核心/底层原理/README.md)
-      - 执行上下文、调用栈
-      - 内存管理、V8工作原理
-      - 事件循环机制
-  - [内置对象与API](./00-前端体系/01-基础入门/JavaScript/02-内置对象与API/README.md)
-  - [模块化](./00-前端体系/01-基础入门/JavaScript/03-模块化/README.md)
-  - [异步编程](./00-前端体系/01-基础入门/JavaScript/04-异步编程/README.md)
-  - [对象与类](./00-前端体系/01-基础入门/JavaScript/05-对象与类/README.md)
-  - [性能优化](./00-前端体系/01-基础入门/JavaScript/06-性能优化/README.md)
-  - [函数式编程](./00-前端体系/01-基础入门/JavaScript/07-函数式编程/README.md)
-  - [浏览器环境与DOM](./00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/README.md)
-  - [工具与生态](./00-前端体系/01-基础入门/JavaScript/09-工具与生态/README.md)
-  - [测试与规范](./00-前端体系/01-基础入门/JavaScript/10-测试与规范/README.md)
+  - **JavaScript** - [JavaScript MOC](./00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md)
+    - [语言核心](./00-前端体系/01-基础入门/JavaScript/01-语言核心/README.md)
+      - 语法、变量声明、控制结构、函数
+      - 数据类型、作用域和闭包
+      - [底层原理](./00-前端体系/01-基础入门/JavaScript/01-语言核心/底层原理/README.md)
+        - 执行上下文、调用栈
+        - 内存管理、V8工作原理
+        - 事件循环机制
+    - [内置对象与API](./00-前端体系/01-基础入门/JavaScript/02-内置对象与API/README.md)
+      - [内置对象概述](./00-前端体系/01-基础入门/JavaScript/02-内置对象与API/内置对象概述.md) — 内置对象分类和概览
+      - [Array 对象](./00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Array.md) — 数组操作和方法
+      - [String 对象](./00-前端体系/01-基础入门/JavaScript/02-内置对象与API/String.md) — 字符串操作和方法
+      - [Date 对象](./00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Date.md) — 日期和时间处理
+      - [RegExp 对象](./00-前端体系/01-基础入门/JavaScript/02-内置对象与API/RegExp.md) — 正则表达式
+      - [JSON 对象](./00-前端体系/01-基础入门/JavaScript/02-内置对象与API/JSON.md) — JSON 序列化和反序列化
+      - [Math 对象](./00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Math.md) — 数学运算
+      - [Set 和 Map](./00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Set和Map.md) — 集合数据结构
+      - [其他内置对象](./00-前端体系/01-基础入门/JavaScript/02-内置对象与API/其他内置对象.md) — Object、Function、Error、Promise、Symbol 等
+    - [模块化](./00-前端体系/01-基础入门/JavaScript/03-模块化/README.md)
+    - [异步编程](./00-前端体系/01-基础入门/JavaScript/04-异步编程/README.md)
+      - [回调函数](./00-前端体系/01-基础入门/JavaScript/04-异步编程/回调函数.md)
+      - [Promise](./00-前端体系/01-基础入门/JavaScript/04-异步编程/Promise.md)
+      - [async-await](./00-前端体系/01-基础入门/JavaScript/04-异步编程/async-await.md)
+      - [异步编程最佳实践](./00-前端体系/01-基础入门/JavaScript/04-异步编程/异步编程最佳实践.md)
+    - [对象与类](./00-前端体系/01-基础入门/JavaScript/05-对象与类/README.md)
+      - [对象](./00-前端体系/01-基础入门/JavaScript/05-对象与类/对象.md)
+    - [性能优化](./00-前端体系/01-基础入门/JavaScript/06-性能优化/README.md)
+    - [函数式编程](./00-前端体系/01-基础入门/JavaScript/07-函数式编程/README.md)
+    - [浏览器环境与DOM](./00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/README.md)
+      - [File API](./00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/File-API.md)
+      - [Blob API](./00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Blob-API.md)
+      - [FileReader API](./00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/FileReader-API.md)
+      - [FormData API](./00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/FormData-API.md)
+      - [Cookie API](./00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Cookie-API.md)
+      - [自定义事件](./00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/自定义事件.md)
+    - [工具与生态](./00-前端体系/01-基础入门/JavaScript/09-工具与生态/README.md)
+    - [测试与规范](./00-前端体系/01-基础入门/JavaScript/10-测试与规范/README.md)
 
 **学习检查点**：能够使用 HTML+CSS+JS 完成一个完整的静态页面
 
@@ -201,9 +221,11 @@ AI 与机器学习知识体系，涵盖从基础理论到实际应用的完整�
 ### 按知识领域
 
 - **JavaScript 核心** - [JavaScript MOC](./00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md)
-- **框架与库** - [React](./00-前端体系/02-框架进阶/React/!MOC-React.md) | [Vue](./00-前端体系/02-框架进阶/Vue/!MOC-Vue.md) | [Angular](./00-前端体系/02-框架进阶/Angular/!MOC-Angular.md)
-- **工程化** - [工具链与构建](./00-前端体系/03-工程化实践/工具链与构建/!MOC-工具链与构建.md)
-- **质量保障** - [测试](./00-前端体系/04-质量保障/测试/!MOC-测试.md) | [性能](./00-前端体系/04-质量保障/性能/!MOC-性能.md) | [安全](./00-前端体系/04-质量保障/安全/!MOC-前端安全.md)
+  - [语言核心](./00-前端体系/01-基础入门/JavaScript/01-语言核心/README.md) | [内置对象与API](./00-前端体系/01-基础入门/JavaScript/02-内置对象与API/README.md) | [异步编程](./00-前端体系/01-基础入门/JavaScript/04-异步编程/README.md) | [浏览器环境与DOM](./00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/README.md)
+- **框架与库** - [React](./00-前端体系/02-框架进阶/React/!MOC-React.md) | [Vue](./00-前端体系/02-框架进阶/Vue/!MOC-Vue.md) | [Angular](./00-前端体系/02-框架进阶/Angular/!MOC-Angular.md) | [TypeScript](./00-前端体系/02-框架进阶/TypeScript/!MOC-TypeScript.md)
+- **工程化** - [工具链与构建](./00-前端体系/03-工程化实践/工具链与构建/!MOC-工具链与构建.md) | [工程化](./00-前端体系/03-工程化实践/工程化/!MOC-工程化.md)
+- **质量保障** - [测试](./00-前端体系/04-质量保障/测试/!MOC-测试.md) | [性能](./00-前端体系/04-质量保障/性能/!MOC-性能.md) | [安全](./00-前端体系/04-质量保障/安全/!MOC-前端安全.md) | [无障碍](./00-前端体系/04-质量保障/无障碍/!MOC-无障碍.md)
+- **服务端** - [服务端知识体系](./03-服务端/!MOC-服务端.md) | [Node.js](./03-服务端/01-服务端语言/Node.js/!MOC-Node.js.md) | [Java](./03-服务端/01-服务端语言/Java/!MOC-Java.md)
 - **AI 与机器学习** - [AI 与机器学习 MOC](./04-AI与机器学习/!MOC-AI与机器学习.md)
 
 ---
@@ -235,6 +257,9 @@ AI 与机器学习知识体系，涵盖从基础理论到实际应用的完整�
 - [前端体系完整索引](./00-前端体系/!MOC-前端体系.md)
 - [JavaScript 知识体系](./00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md)
 - [语言核心底层原理](./00-前端体系/01-基础入门/JavaScript/01-语言核心/底层原理/README.md)
+- [内置对象与API](./00-前端体系/01-基础入门/JavaScript/02-内置对象与API/README.md) — JavaScript 内置对象完整指南
+- [异步编程](./00-前端体系/01-基础入门/JavaScript/04-异步编程/README.md) — Promise、async/await 等异步编程技术
+- [浏览器环境与DOM](./00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/README.md) — Web API 和浏览器环境
 
 ---
 
