@@ -28,11 +28,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.zhihu.com/?theme=dark",
-                "title": "(19 封私信 / 80 条消息) 首页 - 知乎",
-                "mode": "webview"
+                "title": "zhihu.com/?theme=dark",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "(19 封私信 / 80 条消息) 首页 - 知乎"
+              "title": "zhihu.com/?theme=dark"
             }
           }
         ],
@@ -240,6 +240,18 @@
   },
   "active": "a2d11a419adcc3cd",
   "lastOpenFiles": [
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Service-Worker.md",
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Web-Workers.md",
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Performance-API.md",
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Mutation-Observer-API.md",
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Intersection-Observer-API.md",
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/History-API.md",
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Storage-API.md",
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/WebSocket-API.md",
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Fetch-API.md",
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/事件机制.md",
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/BOM.md",
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/DOM操作.md",
     "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/其他内置对象.md",
     "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Set和Map.md",
     "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Math.md",
@@ -255,18 +267,6 @@
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析/04-ESBuild-vs-Vite.md",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析/03-ESBuild-vs-SWC.md",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析/02-ESBuild-vs-Rollup.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析/01-ESBuild-vs-Webpack.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/04-性能优化/02-输出体积优化.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/04-性能优化/01-构建速度优化.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/03-配置与实践/05-生产环境优化.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/03-配置与实践/04-库开发配置.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/03-配置与实践/03-Vue项目集成.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/03-配置与实践/02-React项目集成.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/03-配置与实践/01-基础配置.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/02-核心功能/05-插件系统.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/02-核心功能/04-代码分割.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/02-核心功能/03-代码压缩.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/02-核心功能/02-JSX-TSX支持.md",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/04-性能优化",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/03-配置与实践",
