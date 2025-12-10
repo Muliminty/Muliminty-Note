@@ -103,6 +103,28 @@ function App() {
 }
 ```
 
+> 💡 **最佳实践**：更推荐将状态逻辑分离到自定义 Hook 中，Provider 更纯粹。详见：[Context + 自定义 Hook 最佳模式](../../03-Hooks深度理解/01-基础Hooks/05-Context-与自定义Hook-最佳模式.md)
+
+```jsx
+// 最佳模式：状态逻辑在自定义 Hook 中
+function useThemeController() {
+  const [theme, setTheme] = useState('light');
+  const toggleTheme = useCallback(() => {
+    setTheme(t => (t === 'light' ? 'dark' : 'light'));
+  }, []);
+  return { theme, toggleTheme };
+}
+
+function ThemeProvider({ children }) {
+  const controller = useThemeController();
+  return (
+    <ThemeContext.Provider value={controller}>
+      {children}
+    </ThemeContext.Provider>
+  );
+}
+```
+
 ---
 
 ## value 属性
@@ -422,6 +444,8 @@ function App() {
 
 ## 参考资源
 
+- [Context + 自定义 Hook 最佳模式](../../03-Hooks深度理解/01-基础Hooks/05-Context-与自定义Hook-最佳模式.md) ⭐ **推荐**
+- [Context API 完整体系](../../03-Hooks深度理解/01-基础Hooks/04-Context-API-完整体系.md)
 - [React 官方文档 - Context.Provider](https://react.dev/reference/react/createContext#provider)
 
 ---

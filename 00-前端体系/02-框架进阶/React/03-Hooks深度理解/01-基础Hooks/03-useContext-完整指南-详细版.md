@@ -2163,6 +2163,8 @@ function FormField({ name }) {
 
 ## useContext 与自定义 Hook 组合使用
 
+> 💡 **推荐阅读**：[Context + 自定义 Hook 最佳模式](./05-Context-与自定义Hook-最佳模式.md) - 标准、专业、可复用的写法，适合真实项目使用
+
 ### 为什么组合使用？
 
 **useContext + 自定义 Hook** 的组合模式是 React 中非常强大的模式，它提供了：
@@ -2172,6 +2174,51 @@ function FormField({ name }) {
 3. **类型安全**：在 TypeScript 中提供更好的类型推断
 4. **错误处理**：统一处理 Context 未找到的情况
 5. **扩展功能**：可以在 Hook 中添加额外的逻辑
+
+### 最佳实践模式（推荐）⭐
+
+**核心思想**：将状态逻辑完全分离到自定义 Hook 中，Provider 只负责传递。
+
+```jsx
+// 1. 创建 Context
+export const ThemeContext = createContext();
+
+// 2. 自定义 Hook 封装状态逻辑
+export function useThemeController() {
+  const [theme, setTheme] = useState('light');
+  const toggleTheme = useCallback(() => {
+    setTheme(t => (t === 'light' ? 'dark' : 'light'));
+  }, []);
+  return { theme, toggleTheme };
+}
+
+// 3. Provider：把自定义 Hook 的返回值传给 Context
+export function ThemeProvider({ children }) {
+  const controller = useThemeController();
+  return (
+    <ThemeContext.Provider value={controller}>
+      {children}
+    </ThemeContext.Provider>
+  );
+}
+
+// 4. 再封一个自定义 Hook 用于消费 Context
+export function useTheme() {
+  const ctx = useContext(ThemeContext);
+  if (!ctx) {
+    throw new Error('useTheme 必须在 ThemeProvider 中使用');
+  }
+  return ctx;
+}
+```
+
+**优势**：
+- ✅ 逻辑全部在自定义 Hook 中，Provider 更纯粹
+- ✅ Context 只负责分发数据，不负责逻辑
+- ✅ 可扩展性极强：支持 reducer、API 请求、持久化等
+- ✅ 组件消费时体验非常好：`useTheme()`
+
+详见：[Context + 自定义 Hook 最佳模式](./05-Context-与自定义Hook-最佳模式.md)
 
 ### 基础组合模式
 
@@ -3350,6 +3397,8 @@ function ThemedApp() {
 
 ## 📖 参考资源
 
+- [Context + 自定义 Hook 最佳模式](./05-Context-与自定义Hook-最佳模式.md) ⭐ **推荐**
+- [Context API 完整体系](./04-Context-API-完整体系.md)
 - [React 官方文档 - useContext](https://react.dev/reference/react/useContext)
 - [React 官方文档 - Context](https://react.dev/learn/passing-data-deeply-with-context)
 - [React Context API 最佳实践](https://kentcdodds.com/blog/how-to-use-react-context-effectively)

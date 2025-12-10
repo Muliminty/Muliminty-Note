@@ -399,18 +399,11 @@ function AppProvider({ children }) {
 
 ## 最佳实践组合
 
-### 推荐的文件结构
+> 💡 **推荐阅读**：[Context + 自定义 Hook 最佳模式](./05-Context-与自定义Hook-最佳模式.md) - 更标准、专业、可复用的写法
 
-```
-contexts/
-  ├── ThemeContext.jsx
-  │   ├── createContext
-  │   ├── ThemeProvider
-  │   └── useTheme
-  └── index.js
-```
+### 模式对比
 
-### 推荐的代码组织
+#### 方式 1：基础模式（本示例）
 
 ```jsx
 // contexts/ThemeContext.jsx
@@ -447,6 +440,64 @@ export function useTheme() {
   }
   return context;
 }
+```
+
+#### 方式 2：最佳模式（推荐）⭐
+
+将状态逻辑完全分离到自定义 Hook 中，Provider 更纯粹：
+
+```jsx
+// ========== 1. ThemeContext.js ==========
+export const ThemeContext = createContext();
+
+// ========== 2. useThemeController.js ==========
+export function useThemeController() {
+  const [theme, setTheme] = useState('light');
+  const toggleTheme = useCallback(() => {
+    setTheme(t => (t === 'light' ? 'dark' : 'light'));
+  }, []);
+  return { theme, toggleTheme };
+}
+
+// ========== 3. ThemeProvider.jsx ==========
+export function ThemeProvider({ children }) {
+  const controller = useThemeController();
+  return (
+    <ThemeContext.Provider value={controller}>
+      {children}
+    </ThemeContext.Provider>
+  );
+}
+
+// ========== 4. useTheme.js ==========
+export function useTheme() {
+  const ctx = useContext(ThemeContext);
+  if (!ctx) {
+    throw new Error('useTheme 必须在 ThemeProvider 中使用');
+  }
+  return ctx;
+}
+```
+
+**优势**：
+- ✅ 逻辑全部在自定义 Hook 中，Provider 更纯粹
+- ✅ Context 只负责分发数据，不负责逻辑
+- ✅ 可扩展性极强：支持 reducer、API 请求、持久化等
+- ✅ 组件消费时体验非常好：`useTheme()`
+
+详见：[Context + 自定义 Hook 最佳模式](./05-Context-与自定义Hook-最佳模式.md)
+
+### 推荐的文件结构
+
+```
+contexts/
+  ├── theme/
+  │   ├── ThemeContext.js          # Context 定义
+  │   ├── useThemeController.js    # 状态逻辑 Hook（最佳模式）
+  │   ├── ThemeProvider.jsx        # Provider 组件
+  │   ├── useTheme.js              # 消费 Hook
+  │   └── index.js                 # 统一导出
+  └── index.js
 ```
 
 ### 使用方式
@@ -544,6 +595,7 @@ useContext    →  在组件中读取值
 - [Provider 详解](../../01-基础入门/03-状态管理/04-Provider.md)
 - [useContext 详解](../../01-基础入门/03-状态管理/05-useContext.md)
 - [useContext 完整指南（详细版）](./03-useContext-完整指南-详细版.md)
+- [Context + 自定义 Hook 最佳模式](./05-Context-与自定义Hook-最佳模式.md) ⭐ **推荐**
 - [React 官方文档 - Context](https://react.dev/learn/passing-data-deeply-with-context)
 
 ---

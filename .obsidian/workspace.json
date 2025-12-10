@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "461fdce2bd2348ca",
+        "id": "1136b0454ef8d628",
         "type": "tabs",
         "children": [
           {
-            "id": "5509169a1293b9f4",
+            "id": "4e5948b81575aae1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00-前端体系/02-框架进阶/React/01-基础入门/03-状态管理/03-createContext.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "03-createContext"
             }
           }
         ]
@@ -219,18 +223,23 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "5509169a1293b9f4",
+  "active": "4e5948b81575aae1",
   "lastOpenFiles": [
+    "00-前端体系/02-框架进阶/React/03-Hooks深度理解/01-基础Hooks/05-Context-与自定义Hook-最佳模式.md",
+    "00-前端体系/02-框架进阶/React/!MOC-React.md",
+    "00-前端体系/02-框架进阶/React/README.md",
     "00-前端体系/02-框架进阶/React/整理总结.md",
     "00-前端体系/02-框架进阶/React/结构说明.md",
+    "00-前端体系/02-框架进阶/React/01-基础入门/03-状态管理/03-createContext.md",
+    "00-前端体系/02-框架进阶/React/01-基础入门/03-状态管理/README.md",
+    "00-前端体系/02-框架进阶/React/01-基础入门/02-组件基础/02-组件（Components）.md",
+    "00-前端体系/02-框架进阶/React/01-基础入门/01-语法基础/README.md",
+    "00-前端体系/02-框架进阶/React/01-基础入门/01-语法基础/01-JSX-语法.md",
     "00-前端体系/02-框架进阶/React/04-组件设计模式/01-设计原则/README.md",
     "00-前端体系/02-框架进阶/React/03-Hooks深度理解/04-原理深入/README.md",
     "00-前端体系/02-框架进阶/React/02-核心机制/01-渲染机制/README.md",
     "00-前端体系/02-框架进阶/React/01-基础入门/02-组件基础/README.md",
-    "00-前端体系/02-框架进阶/React/01-基础入门/01-语法基础/README.md",
-    "00-前端体系/02-框架进阶/React/01-基础入门/03-状态管理/README.md",
     "00-前端体系/02-框架进阶/React/03-Hooks深度理解/01-基础Hooks/README.md",
-    "00-前端体系/02-框架进阶/React/README.md",
     "00-前端体系/02-框架进阶/React/13-原理深入/README.md",
     "00-前端体系/02-框架进阶/React/12-最佳实践/README.md",
     "00-前端体系/02-框架进阶/React/11-React生态/README.md",
@@ -242,12 +251,7 @@
     "00-前端体系/02-框架进阶/React/05-性能优化/README.md",
     "00-前端体系/02-框架进阶/React/04-组件设计模式/README.md",
     "00-前端体系/02-框架进阶/React/03-Hooks深度理解/README.md",
-    "00-前端体系/02-框架进阶/React/02-核心机制/README.md",
-    "00-前端体系/02-框架进阶/React/01-基础入门/README.md",
     "00-前端体系/02-框架进阶/React/01-基础入门/04-事件处理",
-    "00-前端体系/02-框架进阶/React/01-基础入门/03-状态管理/05-useContext.md",
-    "00-前端体系/02-框架进阶/React/01-基础入门/03-状态管理/04-Provider.md",
-    "00-前端体系/02-框架进阶/React/01-基础入门/03-状态管理/03-createContext.md",
     "00-前端体系/02-框架进阶/React/01-基础入门/03-状态管理",
     "00-前端体系/02-框架进阶/React/01-基础入门/02-组件基础",
     "00-前端体系/02-框架进阶/React/01-基础入门/01-语法基础",
