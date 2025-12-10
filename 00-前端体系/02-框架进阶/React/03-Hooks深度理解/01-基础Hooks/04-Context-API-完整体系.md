@@ -540,9 +540,10 @@ useContext    →  在组件中读取值
 
 ## 参考资源
 
-- [createContext 详解](../01-基础入门/03-createContext.md)
-- [Provider 详解](../01-基础入门/04-Provider.md)
-- [useContext 详解](../01-基础入门/05-useContext.md)
+- [createContext 详解](../../01-基础入门/03-状态管理/03-createContext.md)
+- [Provider 详解](../../01-基础入门/03-状态管理/04-Provider.md)
+- [useContext 详解](../../01-基础入门/03-状态管理/05-useContext.md)
+- [useContext 完整指南（详细版）](./03-useContext-完整指南-详细版.md)
 - [React 官方文档 - Context](https://react.dev/learn/passing-data-deeply-with-context)
 
 ---

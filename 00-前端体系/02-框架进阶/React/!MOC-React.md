@@ -16,21 +16,21 @@
 
 #### 核心概念
 - **JSX 语法** - JavaScript XML，React 的声明式语法
-  - [JSX 语法](./01-基础入门/01-JSX-语法.md) — JSX 语法详解，从零开始学习
+  - [JSX 语法](./01-基础入门/01-语法基础/01-JSX-语法.md) — JSX 语法详解，从零开始学习
   - JSX 语法规则
   - JSX 表达式
   - JSX 属性
   - JSX 条件渲染
   - JSX 列表渲染
 - **组件（Components）** - React 的构建块
-  - [组件（Components）](./01-基础入门/02-组件（Components）.md) — 组件基础，理解 React 的构建块
+  - [组件（Components）](./01-基础入门/02-组件基础/02-组件（Components）.md) — 组件基础，理解 React 的构建块
   - 函数组件 vs 类组件
   - 组件组合
   - 组件复用
 - **Context API 基础概念**
-  - [createContext](./01-基础入门/03-createContext.md) — 创建 Context 对象
-  - [Provider](./01-基础入门/04-Provider.md) — 提供 Context 值
-  - [useContext](./01-基础入门/05-useContext.md) — 消费 Context 值
+  - [createContext](./01-基础入门/03-状态管理/03-createContext.md) — 创建 Context 对象
+  - [Provider](./01-基础入门/03-状态管理/04-Provider.md) — 提供 Context 值
+  - [useContext](./01-基础入门/03-状态管理/05-useContext.md) — 消费 Context 值
 - **Props（属性）** - 组件间数据传递
   - Props 传递
   - Props 类型检查
@@ -70,7 +70,7 @@
   - 组件化思想
   - 单向数据流
 - **React 作为 UI 运行时**（参考：[React as a UI Runtime](https://overreacted.io/react-as-a-ui-runtime/)）
-  - [React 作为 UI 运行时](./02-核心机制/01-React-作为-UI-运行时.md) — React 编程模型深度解析
+  - [React 作为 UI 运行时](./02-核心机制/01-渲染机制/01-React-作为-UI-运行时.md) — React 编程模型深度解析
 - **虚拟 DOM（Virtual DOM）**
   - 虚拟 DOM 概念
   - 虚拟 DOM 的优势
@@ -118,14 +118,14 @@
   - 状态更新批处理
 - **useEffect Hook**
   - 副作用概念
-  - [useEffect 完整指南](./03-Hooks深度理解/01-useEffect-完整指南.md) — 深入理解 useEffect（参考：[A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/)）
+  - [useEffect 完整指南](./03-Hooks深度理解/01-基础Hooks/01-useEffect-完整指南.md) — 深入理解 useEffect（参考：[A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/)）
   - 依赖数组
   - 清理函数（Cleanup）
   - 常见陷阱和解决方案
 - **useContext Hook**
-  - [Context API 完整体系](./03-Hooks深度理解/04-Context-API-完整体系.md) — createContext、Provider、useContext 串联理解
-  - [useContext 完整指南](./03-Hooks深度理解/03-useContext-完整指南.md) — Context API 深入解析（详细版）
-  - Context API 基础（参考：[createContext](../01-基础入门/03-createContext.md)、[Provider](../01-基础入门/04-Provider.md)、[useContext](../01-基础入门/05-useContext.md)）
+  - [Context API 完整体系](./03-Hooks深度理解/01-基础Hooks/04-Context-API-完整体系.md) — createContext、Provider、useContext 串联理解
+  - [useContext 完整指南（详细版）](./03-Hooks深度理解/01-基础Hooks/03-useContext-完整指南-详细版.md) — Context API 深入解析
+  - Context API 基础（参考：[createContext](../01-基础入门/03-状态管理/03-createContext.md)、[Provider](../01-基础入门/03-状态管理/04-Provider.md)、[useContext](../01-基础入门/03-状态管理/05-useContext.md)）
   - useContext 使用
   - Context 性能优化
 - **useReducer Hook**
@@ -166,7 +166,7 @@
 
 #### Hooks 原理
 - **Hooks 调用顺序的重要性**
-  - [Hooks 调用顺序的重要性](./03-Hooks深度理解/02-Hooks-调用顺序的重要性.md) — 为什么 Hooks 依赖调用顺序（参考：[Why Do React Hooks Rely on Call Order?](https://overreacted.io/why-do-hooks-rely-on-call-order/)）
+  - [Hooks 调用顺序的重要性](./03-Hooks深度理解/04-原理深入/02-Hooks-调用顺序的重要性.md) — 为什么 Hooks 依赖调用顺序（参考：[Why Do React Hooks Rely on Call Order?](https://overreacted.io/why-do-hooks-rely-on-call-order/)）
   - Hooks 实现原理
   - Hooks 链表结构
 - **函数组件 vs 类组件**
@@ -186,13 +186,13 @@
 
 #### 组件设计原则
 - **组件设计原则**
-  - [编写健壮的组件](./04-组件设计模式/01-编写健壮的组件.md) — 组件设计四大原则（参考：[Writing Resilient Components](https://overreacted.io/writing-resilient-components/)）
+  - [编写健壮的组件](./04-组件设计模式/01-设计原则/01-编写健壮的组件.md) — 组件设计四大原则（参考：[Writing Resilient Components](https://overreacted.io/writing-resilient-components/)）
   - 单一职责原则
   - 可复用性
   - 可组合性
   - 可测试性
 - **UI 工程的要素**
-  - [UI 工程的要素](./04-组件设计模式/02-UI-工程的要素.md) — UI 工程中的核心挑战（参考：[The Elements of UI Engineering](https://overreacted.io/the-elements-of-ui-engineering/)）
+  - [UI 工程的要素](./04-组件设计模式/01-设计原则/02-UI-工程的要素.md) — UI 工程中的核心挑战（参考：[The Elements of UI Engineering](https://overreacted.io/the-elements-of-ui-engineering/)）
 - **组件拆分策略**
   - 何时拆分组件
   - 组件粒度控制
