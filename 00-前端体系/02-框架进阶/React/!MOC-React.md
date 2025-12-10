@@ -27,6 +27,10 @@
   - 函数组件 vs 类组件
   - 组件组合
   - 组件复用
+- **Context API 基础概念**
+  - [createContext](./01-基础入门/03-createContext.md) — 创建 Context 对象
+  - [Provider](./01-基础入门/04-Provider.md) — 提供 Context 值
+  - [useContext](./01-基础入门/05-useContext.md) — 消费 Context 值
 - **Props（属性）** - 组件间数据传递
   - Props 传递
   - Props 类型检查
@@ -119,7 +123,9 @@
   - 清理函数（Cleanup）
   - 常见陷阱和解决方案
 - **useContext Hook**
-  - Context API 基础
+  - [Context API 完整体系](./03-Hooks深度理解/04-Context-API-完整体系.md) — createContext、Provider、useContext 串联理解
+  - [useContext 完整指南](./03-Hooks深度理解/03-useContext-完整指南.md) — Context API 深入解析（详细版）
+  - Context API 基础（参考：[createContext](../01-基础入门/03-createContext.md)、[Provider](../01-基础入门/04-Provider.md)、[useContext](../01-基础入门/05-useContext.md)）
   - useContext 使用
   - Context 性能优化
 - **useReducer Hook**

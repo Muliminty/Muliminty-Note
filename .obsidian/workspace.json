@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "6ec71a4c367300ab",
+        "id": "e9366f63a218fe26",
         "type": "tabs",
         "children": [
           {
-            "id": "b9416f8ec4350220",
+            "id": "8953fe0e5855ea90",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://go.itab.link/",
-                "title": "新标签页",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
               "title": "新标签页"
             }
-          },
-          {
-            "id": "a2d11a419adcc3cd",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.zhihu.com/?theme=dark",
-                "title": "zhihu.com/?theme=dark",
-                "mode": "error"
-              },
-              "icon": "globe-2",
-              "title": "zhihu.com/?theme=dark"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -238,8 +220,14 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "a2d11a419adcc3cd",
+  "active": "8953fe0e5855ea90",
   "lastOpenFiles": [
+    "00-前端体系/02-框架进阶/React/03-Hooks深度理解/04-Context-API-完整体系.md",
+    "00-经验技巧/React-Context与自定义Hooks架构实战.md",
+    "00-前端体系/02-框架进阶/React/01-基础入门/05-useContext.md",
+    "00-前端体系/02-框架进阶/React/01-基础入门/04-Provider.md",
+    "00-前端体系/02-框架进阶/React/01-基础入门/03-createContext.md",
+    "00-前端体系/02-框架进阶/React/03-Hooks深度理解/03-useContext-完整指南.md",
     "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Service-Worker.md",
     "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Web-Workers.md",
     "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/Performance-API.md",
@@ -260,13 +248,7 @@
     "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Date.md",
     "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/String.md",
     "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/内置对象概述.md",
-    "00-前端体系/前端体系分析报告.md",
-    "00-前端体系/03-工程化实践/工程化/开发工具/VSCode配置与技巧.md",
     "00-前端体系/03-工程化实践/工程化/开发工具",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析/05-高性能构建工具对比.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析/04-ESBuild-vs-Vite.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析/03-ESBuild-vs-SWC.md",
-    "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析/02-ESBuild-vs-Rollup.md",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/05-对比分析",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/04-性能优化",
     "00-前端体系/03-工程化实践/工具链与构建/ESBuild/03-配置与实践",
