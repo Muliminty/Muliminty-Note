@@ -4,10 +4,10 @@ JavaScript 函数式编程特性。
 
 ## 目录
 
-- [高阶函数（Higher-order Functions）](./高阶函数.md) — `map`、`reduce`、`filter` 等
-- [箭头函数（Arrow Functions）](./箭头函数.md) — 简化函数语法并改变 `this` 绑定
-- [不可变数据（Immutability）](./不可变数据.md) — `Object.freeze` 等方式实现不可变数据
-- [函数式编程模式](./函数式编程模式.md) — 函数式编程的常见模式
+- [高阶函数（Higher-order Functions）](./01-高阶函数.md) — `map`、`reduce`、`filter` 等
+- [箭头函数（Arrow Functions）](./02-箭头函数.md) — 简化函数语法并改变 `this` 绑定
+- [不可变数据（Immutability）](./03-不可变数据.md) — `Object.freeze` 等方式实现不可变数据
+- [函数式编程模式](./04-函数式编程模式.md) — 函数式编程的常见模式
 
 ## 参考
 
