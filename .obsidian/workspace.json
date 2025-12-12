@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c1cd00edcdd6cf2e",
+        "id": "b9bee173fb978bcc",
         "type": "tabs",
         "children": [
           {
-            "id": "a6dc860a032ba9a8",
+            "id": "a1dde52e3857fbf1",
             "type": "leaf",
             "state": {
               "type": "webviewer",
@@ -20,8 +20,23 @@
               "icon": "globe-2",
               "title": "新标签页"
             }
+          },
+          {
+            "id": "528ce3c3e5610fb6",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.zhihu.com/?theme=dark",
+                "title": "(20 封私信 / 80 条消息) 首页 - 知乎",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "(20 封私信 / 80 条消息) 首页 - 知乎"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -223,8 +238,24 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "a6dc860a032ba9a8",
+  "active": "528ce3c3e5610fb6",
   "lastOpenFiles": [
+    "01-计算机基础/03-操作系统/02-Linux/编辑器工具/Vim/Vim-正则表达式.md",
+    "01-计算机基础/03-操作系统/02-Linux/编辑器工具/Vim/Vim-高级技巧.md",
+    "01-计算机基础/03-操作系统/02-Linux/编辑器工具/Vim/Vim-插件推荐.md",
+    "01-计算机基础/03-操作系统/02-Linux/编辑器工具/Vim/Vim-配置最佳实践.md",
+    "01-计算机基础/03-操作系统/02-Linux/编辑器工具/Vim/Vim-模式详解.md",
+    "01-计算机基础/03-操作系统/02-Linux/编辑器工具/Vim/Vim-新手快速上手指南.md",
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/RegExp.md",
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/Set和Map.md",
+    "00-前端体系/01-基础入门/JavaScript/05-对象与类/03-原型与继承.md",
+    "00-前端体系/01-基础入门/JavaScript/05-对象与类/02-类.md",
+    "00-前端体系/01-基础入门/JavaScript/05-对象与类/01-对象.md",
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/其他内置对象.md",
+    "00-前端体系/01-基础入门/JavaScript/02-内置对象与API/内置对象概述.md",
+    "00-前端体系/01-基础入门/JavaScript/01-语言核心/02-变量声明.md",
+    "00-前端体系/01-基础入门/JavaScript/01-语言核心/01-语法.md",
+    "00-前端体系/01-基础入门/JavaScript/01-语言核心/03-数据类型.md",
     "00-前端体系/01-基础入门/JavaScript/05-对象与类/this绑定.md",
     "00-前端体系/01-基础入门/JavaScript/06-性能优化/04-性能监控与分析.md",
     "00-前端体系/01-基础入门/JavaScript/06-性能优化/03-代码性能优化.md",
@@ -235,13 +266,6 @@
     "00-前端体系/01-基础入门/JavaScript/07-函数式编程/02-箭头函数.md",
     "00-前端体系/01-基础入门/JavaScript/07-函数式编程/01-高阶函数.md",
     "00-前端体系/01-基础入门/JavaScript/05-对象与类/04-this绑定.md",
-    "00-前端体系/01-基础入门/JavaScript/05-对象与类/03-原型与继承.md",
-    "00-前端体系/01-基础入门/JavaScript/05-对象与类/02-类.md",
-    "00-前端体系/01-基础入门/JavaScript/05-对象与类/01-对象.md",
-    "00-前端体系/01-基础入门/JavaScript/03-模块化/04-模块化历史.md",
-    "00-前端体系/01-基础入门/JavaScript/03-模块化/03-动态导入.md",
-    "00-前端体系/01-基础入门/JavaScript/03-模块化/02-导入导出.md",
-    "00-前端体系/01-基础入门/JavaScript/03-模块化/01-ES6模块.md",
     "03-服务端/01-服务端语言/Node.js/08-测试",
     "03-服务端/01-服务端语言/Node.js/07-性能优化",
     "03-服务端/01-服务端语言/Node.js/06-认证与授权",
@@ -249,16 +273,7 @@
     "03-服务端/01-服务端语言/Node.js/04-异步编程",
     "03-服务端/01-服务端语言/Node.js/03-数据库操作",
     "03-服务端/01-服务端语言/Node.js/02-框架与生态",
-    "03-服务端/01-服务端语言/Node.js/01-基础入门/核心模块.md",
-    "03-服务端/01-服务端语言/Node.js/01-基础入门/模块系统.md",
-    "03-服务端/01-服务端语言/Node.js/01-基础入门/安装与版本管理.md",
-    "03-服务端/01-服务端语言/Node.js/01-基础入门/Node.js简介与特点.md",
     "03-服务端/01-服务端语言/Node.js/01-基础入门",
-    "00-前端体系/01-基础入门/JavaScript/06-性能优化/性能监控与分析.md",
-    "00-前端体系/01-基础入门/JavaScript/06-性能优化/尾调用优化.md",
-    "00-前端体系/01-基础入门/JavaScript/06-性能优化/代码性能优化.md",
-    "00-前端体系/01-基础入门/JavaScript/06-性能优化/垃圾回收机制.md",
-    "00-前端体系/01-基础入门/JavaScript/07-函数式编程/函数式编程模式.md",
     "数据库.base",
     "00-前端体系/02-框架进阶/React/01-基础入门/04-事件处理",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
