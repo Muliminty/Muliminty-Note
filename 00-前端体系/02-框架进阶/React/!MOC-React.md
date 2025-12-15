@@ -301,6 +301,8 @@
 #### 渲染优化
 - **Before You memo()**
   - [Before You memo()](./05-性能优化/01-Before-You-memo.md) — 在使用 memo() 之前的优化技巧（参考：[Before You memo()](https://overreacted.io/before-you-memo/)）
+- **React 性能优化详细实践**
+  - [React 性能优化详细实践](./05-性能优化/02-React-性能优化详细实践.md) — 性能优化的完整实践指南
 - **React.memo**
   - memo 的使用场景
   - memo 的局限性
@@ -369,6 +371,8 @@
 - **Portal 实现**
 
 #### 并发特性（Concurrent Features）
+- **React 18 新特性**
+  - [React 18 新特性详解](./06-高级特性/01-React-18-新特性详解.md) — React 18 并发特性、Suspense、Server Components 详解
 - **Suspense**
   - Suspense 基础
   - Suspense 与数据获取
@@ -467,6 +471,8 @@
 
 #### React Router
 - **React Router 基础**
+  - [React Router 完整指南](./08-路由管理/01-React-Router-完整指南.md) — React Router 完整使用指南
+  - [React Router 实战案例](./08-路由管理/02-React-Router-实战案例.md) — 实际项目中的路由实践
   - 路由配置
   - 路由匹配
   - 路由导航
@@ -518,7 +524,7 @@
   - E2E 测试
 - **测试工具**
   - Jest
-  - React Testing Library
+  - [React Testing Library 完整指南](./10-测试/01-React-Testing-Library-完整指南.md) — React Testing Library 使用指南
   - Enzyme（已废弃）
 
 #### 组件测试
@@ -644,6 +650,18 @@
 - **Webpack**
 - **Parcel**
 
+#### 全栈框架
+- **Next.js**
+  - [Next.js 完整指南](./11-React生态/01-Next.js-完整指南.md) — Next.js 全栈框架完整指南
+  - SSR、SSG、ISR
+  - App Router
+  - API 路由
+- **Remix**
+  - [Remix 完整指南](./11-React生态/02-Remix-完整指南.md) — Remix 全栈框架指南
+  - 嵌套路由
+  - Loader 和 Action
+  - Web 标准
+
 #### UI 组件库
 - **Material-UI (MUI)**
 - **Ant Design**
@@ -766,6 +784,7 @@
 
 #### React 源码解析
 - **React 架构**
+  - [React 源码解析](./13-原理深入/01-React-源码解析.md) — React 底层实现原理和源码架构详解
   - Fiber 架构
   - 调度器（Scheduler）
   - 协调器（Reconciler）
