@@ -25,10 +25,7 @@
 > App Router 不仅仅是路由，更是一种全新的组件架构思维。
 - [x] [01-App-Router架构解析](03-App-Router体系/01-App-Router架构解析.md) (路由、布局基础)
 - [x] [02-Server组件与Client组件深度解析](03-App-Router体系/02-Server组件与Client组件.md) (必读)
-- [ ] **03-错误处理与体验优化** (✨ 补充)
-    - `loading.tsx`：流式渲染与骨架屏 (Streaming)。
-    - `error.tsx`：颗粒化的错误边界处理 (Error Boundary)。
-    - `not-found.tsx`：自定义 404 页面。
+- [x] [03-错误处理与Loading状态](03-App-Router体系/03-错误处理与Loading状态.md) (Streaming, Error Boundary)
 - [ ] 04-高级路由模式
     - 平行路由 (Parallel Routes) `@folder`：实现复杂的仪表盘布局。
     - 拦截路由 (Intercepting Routes) `(..)`：实现 Instagram 式的弹窗路由。
@@ -40,12 +37,8 @@
     - `fetch` 的自动去重与缓存 (`Request Memoization`)。
     - 串行获取 vs 并行获取 (`Promise.all`) 的瀑布流问题。
 - [x] [02-Server Actions 实战](04-数据与后端/02-Server-Actions实战.md)
-- [ ] **03-Route Handlers (标准 API)** (✨ 补充)
-    - 什么时候该用 `app/api/...` 而不是 Server Actions？(如：Webhooks, 对外 API)。
-    - 处理 CORS 和 Headers。
-- [ ] **04-缓存策略深水区 (Caching)** (✨ 重点补充)
-    - 四大缓存机制解析：Request Memoization, Data Cache, Full Route Cache, Router Cache。
-    - 如何正确地使用 `revalidatePath` 和 `revalidateTag` 清除缓存。
+- [x] [03-Route Handlers 开发指南](04-数据与后端/03-Route-Handlers开发指南.md) (标准 API, Webhooks)
+- [x] [04-缓存机制深度解析](04-数据与后端/04-缓存机制深度解析.md) (Request Memoization, Data Cache)
 - [ ] **05-数据库集成** (✨ 补充)
     - Serverless 环境下的连接池问题 (Connection Pooling)。
     - Prisma / Drizzle ORM 的最佳实践 (单例模式)。
@@ -64,7 +57,7 @@
     - Zustand 在 Next.js 中的正确用法 (避免 SSR 水合不一致)。
 
 ### 第五阶段：性能、SEO 与 部署
-- [ ] 01-SEO 终极指南 (Metadata API, Sitemap, Robots)
+- [x] [01-SEO 与 Metadata 配置指南](06-性能SEO与部署/01-SEO与Metadata配置.md) (Metadata API, Sitemap, OpenGraph)
 - [ ] 02-性能优化 (Image 组件, Font 优化, Script 策略, Bundle Analyzer)
 - [ ] **03-监控与日志** (✨ 补充)
     - Sentry 错误追踪集成。
