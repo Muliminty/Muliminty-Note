@@ -39,20 +39,19 @@
 - [x] [02-Server Actions 实战](04-数据与后端/02-Server-Actions实战.md)
 - [x] [03-Route Handlers 开发指南](04-数据与后端/03-Route-Handlers开发指南.md) (标准 API, Webhooks)
 - [x] [04-缓存机制深度解析](04-数据与后端/04-缓存机制深度解析.md) (Request Memoization, Data Cache)
-- [ ] **05-数据库集成** (✨ 补充)
-    - Serverless 环境下的连接池问题 (Connection Pooling)。
-    - Prisma / Drizzle ORM 的最佳实践 (单例模式)。
+- [x] [05-数据库集成与ORM](04-数据与后端/05-数据库集成指南.md) (Connection Pooling, Prisma/Drizzle)
 
 ### 第四阶段：工程化与最佳实践 (企业级规范)
 > 只有代码跑通是不够的，我们需要可维护性。
 - [x] [01-企业级目录结构设计](05-工程化与最佳实践/01-企业级目录结构设计.md)
-- [ ] 02-认证与授权 (Auth.js v5 / Clerk)
-    - Middleware 路由守卫。
+- [x] [02-中间件与路由守卫](05-工程化与最佳实践/02-中间件与路由守卫.md) (Middleware 核心, Headers 注入)
+- [ ] 03-认证与授权 (Auth.js v5 / Clerk)
     - Session 管理与 Token 刷新。
-- [ ] **03-测试策略 (Testing)** (✨ 补充)
+    - 结合 Middleware 实现完整鉴权。
+- [ ] **04-测试策略 (Testing)** (✨ 补充)
     - 单元测试 (Vitest + React Testing Library)。
     - 端到端测试 (Playwright)。
-- [ ] 04-状态管理
+- [ ] 05-状态管理
     - URL 是最好的状态管理器 (`searchParams`)。
     - Zustand 在 Next.js 中的正确用法 (避免 SSR 水合不一致)。
 
