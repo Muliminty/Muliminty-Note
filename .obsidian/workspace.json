@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -252,8 +252,9 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "56638407469f704c",
+  "active": "93f8a1093587e3ab",
   "lastOpenFiles": [
+    "00-前端体系/02-框架进阶/Next.js/README.md",
     "00-前端体系/02-框架进阶/Next.js/05-工程化与最佳实践/02-中间件与路由守卫.md",
     "00-前端体系/02-框架进阶/Next.js/04-数据与后端/05-数据库集成指南.md",
     "00-前端体系/02-框架进阶/Next.js/06-性能SEO与部署/01-SEO与Metadata配置.md",
@@ -267,7 +268,6 @@
     "00-前端体系/02-框架进阶/Next.js/03-App-Router体系/02-Server组件与Client组件.md",
     "00-前端体系/02-框架进阶/Next.js/03-App-Router体系/01-App-Router架构解析.md",
     "00-前端体系/02-框架进阶/Next.js/02-核心机制/01-渲染模式详解(SSR-SSG-ISR).md",
-    "00-前端体系/02-框架进阶/Next.js/README.md",
     "xx-归档/剪藏/怎么在GitHub上为开源项目作贡献.md",
     "00-前端体系/02-框架进阶/Next.js/05-工程化与最佳实践",
     "00-前端体系/02-框架进阶/Next.js/04-数据与后端",
