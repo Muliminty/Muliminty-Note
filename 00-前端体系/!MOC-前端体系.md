@@ -174,7 +174,11 @@
 - [CI/CD流程（GitHub Actions/GitLab CI）](./05-高级应用/部署与发布/CI-CD流程.md) — CI/CD 自动化
 - [回滚 / Canary / 灰度发布策略](./05-高级应用/部署与发布/回滚-Canary-灰度发布策略.md) — 发布策略
 
-#### 5. 前沿技术
+#### 5. 动画与交互
+- [动画与交互-MOC](./05-高级应用/动画与交互/!MOC-动画与交互.md) — 动画与交互完整指南
+- [GSAP 完整教程](./05-高级应用/动画与交互/GSAP/!MOC-GSAP.md) — GSAP 动画库完整指南（需要掌握 [JavaScript](../01-基础入门/JavaScript/!MOC-javascript.md) 和 [DOM 操作](../01-基础入门/JavaScript/08-浏览器环境与DOM/DOM操作.md)）
+
+#### 6. 前沿技术
 - [WebAssembly](./05-高级应用/前沿/WebAssembly.md) — WebAssembly 技术
 - [Edge Computing / Functions at Edge](./05-高级应用/前沿/Edge-Computing.md) — 边缘计算
 - [Server Components / SSR / ISR](./05-高级应用/前沿/Server-Components-SSR-ISR.md) — 服务端渲染
@@ -265,6 +269,11 @@
 - HTTP 协议、缓存策略
 - REST、GraphQL、WebSocket
 
+#### 4. 动画与交互
+- [动画与交互-MOC](./05-高级应用/动画与交互/!MOC-动画与交互.md)
+- [GSAP 完整教程](./05-高级应用/动画与交互/GSAP/!MOC-GSAP.md)
+- CSS 动画、Web Animations API
+
 ---
 
 ### 五、部署与运维
@@ -322,6 +331,10 @@
 - [前端安全-MOC](./04-质量保障/安全/!MOC-前端安全.md) - 安全完整指南
 - [XSS/CSRF原理与防护](./04-质量保障/安全/XSS-CSRF原理与防护.md)
 - [内容安全策略（CSP）](./04-质量保障/安全/内容安全策略-CSP.md)
+
+#### 动画相关
+- [动画与交互-MOC](./05-高级应用/动画与交互/!MOC-动画与交互.md) - 动画与交互完整指南
+- [GSAP 完整教程](./05-高级应用/动画与交互/GSAP/!MOC-GSAP.md) - GSAP 动画库完整指南
 
 ---
 
