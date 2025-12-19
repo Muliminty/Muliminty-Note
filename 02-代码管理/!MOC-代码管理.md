@@ -51,6 +51,7 @@
 
 ## 🔍 代码审查
 
+- [GitHub 开源贡献指南](./GitHub开源贡献指南.md) — GitHub 开源项目贡献完整流程（Fork、PR、代码审查）
 - Pull Request 流程
 - 审查最佳实践
 - 反馈技巧
