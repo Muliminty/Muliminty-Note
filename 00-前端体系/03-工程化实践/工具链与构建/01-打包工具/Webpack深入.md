@@ -2066,7 +2066,7 @@ module.exports = smp.wrap({
 
 - [Webpack 官方文档](https://webpack.js.org/)
 - [Webpack 中文文档](https://webpack.docschina.org/)
-- [Babel 转换管线](./Babel转换管线.md)
+- [Babel 转换管线](../02-编译工具/Babel转换管线.md)
 - [性能优化](../../04-质量保障/性能/!MOC-性能.md)
 - [工程化实践](../工程化/!MOC-工程化.md)
 

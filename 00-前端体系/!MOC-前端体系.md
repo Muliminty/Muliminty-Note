@@ -91,14 +91,14 @@
 
 #### 1. 构建工具
 - [工具链与构建-MOC](./03-工程化实践/工具链与构建/!MOC-工具链与构建.md) — 构建工具完整指南
-- [Vite原理与配置](./03-工程化实践/工具链与构建/Vite原理与配置.md) — Vite 快速构建
-- [Webpack深入（loader/plugin）](./03-工程化实践/工具链与构建/Webpack深入.md) — Webpack 深度解析
-- [Rollup/ESBuild/SWC对比](./03-工程化实践/工具链与构建/Rollup-ESBuild-SWC对比.md) — 构建工具对比
-- [Babel转换管线](./03-工程化实践/工具链与构建/Babel转换管线.md) — 代码转换与编译
+- [Vite原理与配置](./03-工程化实践/工具链与构建/01-打包工具/Vite原理与配置.md) — Vite 快速构建
+- [Webpack深入（loader/plugin）](./03-工程化实践/工具链与构建/01-打包工具/Webpack深入.md) — Webpack 深度解析
+- [Rollup/ESBuild/SWC对比](./03-工程化实践/工具链与构建/01-打包工具/构建工具对比.md) — 构建工具对比
+- [Babel转换管线](./03-工程化实践/工具链与构建/02-编译工具/Babel转换管线.md) — 代码转换与编译
 
 #### 2. 包管理与模块化
-- [包管理与版本策略（npm/yarn/pnpm）](./03-工程化实践/工具链与构建/包管理与版本策略.md) — 包管理最佳实践
-- [Monorepo管理（pnpm workspace/Lerna/Turborepo）](./03-工程化实践/工具链与构建/Monorepo管理.md) — Monorepo 管理方案
+- [包管理与版本策略（npm/yarn/pnpm）](./03-工程化实践/工具链与构建/03-包管理/包管理与版本策略.md) — 包管理最佳实践
+- [Monorepo管理（pnpm workspace/Lerna/Turborepo）](./03-工程化实践/工具链与构建/03-包管理/Monorepo管理.md) — Monorepo 管理方案
 
 #### 3. 工程化实践
 - [项目脚手架与目录结构](./03-工程化实践/工程化/项目脚手架与目录结构.md) — 项目结构设计
