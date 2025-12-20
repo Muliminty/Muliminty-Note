@@ -101,11 +101,105 @@ export default function Home() {
 
 保存文件，浏览器会自动刷新（Hot Reloading）。
 
-## 4. 总结
+---
+
+## 4. 开发工具推荐
+
+### VS Code 插件
+- **ES7+ React/Redux/React-Native snippets**：快速生成 React 组件代码
+- **Tailwind CSS IntelliSense**：Tailwind 类名自动补全
+- **Error Lens**：实时显示代码错误
+- **Prettier**：代码格式化
+
+### 浏览器扩展
+- **React Developer Tools**：调试 React 组件
+- **Next.js DevTools**：Next.js 专用调试工具
+
+---
+
+## 5. 常见问题排查
+
+### 问题 1：端口 3000 被占用
+```bash
+# 方法1：使用其他端口
+npm run dev -- -p 3001
+
+# 方法2：查找并关闭占用端口的进程（macOS/Linux）
+lsof -ti:3000 | xargs kill -9
+```
+
+### 问题 2：依赖安装失败
+```bash
+# 清除缓存重新安装
+rm -rf node_modules package-lock.json
+npm cache clean --force
+npm install
+```
+
+### 问题 3：TypeScript 类型错误
+确保 `tsconfig.json` 配置正确，如果仍有问题，可以尝试：
+```bash
+# 重启 TypeScript 服务器（VS Code: Cmd+Shift+P -> "TypeScript: Restart TS Server"）
+```
+
+---
+
+## 6. 实战练习：创建你的第一个项目
+
+### 练习目标
+创建一个简单的个人介绍页面，包含：
+- 姓名和头像
+- 个人简介
+- 技能列表
+- 联系方式
+
+### 实现步骤
+
+**步骤 1：修改首页**
+```tsx
+// src/app/page.tsx
+export default function Home() {
+  return (
+    <main className="min-h-screen p-8">
+      <div className="max-w-2xl mx-auto">
+        <h1 className="text-4xl font-bold mb-4">欢迎来到我的个人主页</h1>
+        <p className="text-gray-600 mb-8">
+          这是一个使用 Next.js 构建的简单页面
+        </p>
+        
+        <section className="bg-white rounded-lg shadow p-6 mb-6">
+          <h2 className="text-2xl font-semibold mb-4">关于我</h2>
+          <p className="text-gray-700">
+            我是一名前端开发者，正在学习 Next.js 框架。
+          </p>
+        </section>
+
+        <section className="bg-white rounded-lg shadow p-6">
+          <h2 className="text-2xl font-semibold mb-4">技能</h2>
+          <ul className="list-disc list-inside space-y-2">
+            <li>React</li>
+            <li>Next.js</li>
+            <li>TypeScript</li>
+            <li>Tailwind CSS</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  );
+}
+```
+
+**步骤 2：查看效果**
+保存文件后，访问 `http://localhost:3000`，你应该能看到一个简单的个人介绍页面。
+
+---
+
+## 7. 总结
 
 本章我们学习了：
-1. Next.js 解决了 React 的 SEO 和首屏性能问题。
-2. 使用 `create-next-app` 快速搭建了项目。
-3. 认识了 `App Router` 模式下的文件结构，`page.tsx` 就是页面入口。
+1. ✅ Next.js 解决了 React 的 SEO 和首屏性能问题
+2. ✅ 使用 `create-next-app` 快速搭建了项目
+3. ✅ 认识了 `App Router` 模式下的文件结构，`page.tsx` 就是页面入口
+4. ✅ 创建了第一个简单的页面
 
-下一章，我们将深入了解 Next.js 最强大的特性——**渲染模式**。
+**下一步**：在下一章，我们将深入学习项目配置，了解如何自定义 Next.js 的行为。
