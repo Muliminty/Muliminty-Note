@@ -8,48 +8,42 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7e898d50049d01e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-前端体系/02-框架进阶/Next.js/01-基础入门/01-Nextjs简介与环境搭建.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01-Nextjs简介与环境搭建"
-            }
-          },
-          {
-            "id": "93f8a1093587e3ab",
+            "id": "b0aa788ae8e26884",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.zhihu.com/",
-                "title": "(21 封私信 / 80 条消息) 首页 - 知乎",
+                "url": "https://go.itab.link/",
+                "title": "新标签页",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "(21 封私信 / 80 条消息) 首页 - 知乎"
+              "title": "新标签页"
             }
           },
           {
-            "id": "56638407469f704c",
+            "id": "9803273470624390",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "00-前端体系/02-框架进阶/Next.js/README.md",
-                "mode": "preview",
-                "source": false
+                "file": "书签整理.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-trello",
+              "title": "书签整理"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vim",
+                "query": "tail",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -251,8 +245,17 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "7e898d50049d01e6",
+  "active": "9803273470624390",
   "lastOpenFiles": [
+    "书签整理.md",
+    "00-经验技巧/Cursor-使用技巧.md",
+    "00-前端体系/02-框架进阶/TailwindCSS/01-基础入门/01-简介与安装.md",
+    "00-前端体系/02-框架进阶/Next.js/README.md",
+    "00-前端体系/02-框架进阶/TailwindCSS/01-基础入门/02-快速开始.md",
+    "00-前端体系/02-框架进阶/TailwindCSS/!MOC-TailwindCSS.md",
+    "00-前端体系/02-框架进阶/Next.js/01-基础入门/01-Nextjs简介与环境搭建.md",
+    "00-前端体系/02-框架进阶/Next.js/01-基础入门/03-环境变量管理.md",
+    "00-前端体系/02-框架进阶/Next.js/01-基础入门/02-项目配置详解.md",
     "00-前端体系/02-框架进阶/TailwindCSS/04-实战应用/README.md",
     "00-前端体系/02-框架进阶/TailwindCSS/02-核心功能/README.md",
     "00-前端体系/02-框架进阶/TailwindCSS/01-基础入门/README.md",
@@ -263,26 +266,17 @@
     "00-前端体系/02-框架进阶/TailwindCSS/02-核心功能/01-布局系统.md",
     "00-前端体系/02-框架进阶/TailwindCSS/02-核心功能",
     "00-前端体系/02-框架进阶/TailwindCSS/01-基础入门/03-核心概念.md",
-    "00-前端体系/02-框架进阶/TailwindCSS/01-基础入门/02-快速开始.md",
-    "00-前端体系/02-框架进阶/TailwindCSS/01-基础入门/01-简介与安装.md",
     "00-前端体系/02-框架进阶/TailwindCSS/01-基础入门",
-    "00-前端体系/02-框架进阶/TailwindCSS/!MOC-TailwindCSS.md",
     "00-前端体系/02-框架进阶/TailwindCSS",
     "00-前端体系/02-框架进阶/Next.js/01-基础入门/08-静态资源管理.md",
     "00-前端体系/02-框架进阶/Next.js/01-基础入门/07-样式方案实战.md",
     "00-前端体系/02-框架进阶/Next.js/01-基础入门/06-组件开发基础.md",
     "00-前端体系/02-框架进阶/Next.js/01-基础入门/05-路由系统基础.md",
     "00-前端体系/02-框架进阶/Next.js/01-基础入门/04-第一个页面实战.md",
-    "00-前端体系/02-框架进阶/Next.js/01-基础入门/03-环境变量管理.md",
-    "00-前端体系/02-框架进阶/Next.js/01-基础入门/02-项目配置详解.md",
     "00-前端体系/02-框架进阶/Next.js/02-核心机制/01-渲染模式详解(SSR-SSG-ISR).md",
-    "00-前端体系/02-框架进阶/Next.js/01-基础入门/01-Nextjs简介与环境搭建.md",
     "00-前端体系/05-高级应用/动画与交互/GSAP/10-React集成.md",
     "00-前端体系/05-高级应用/动画与交互/GSAP/09-性能优化.md",
     "00-前端体系/05-高级应用/动画与交互/GSAP/05-ScrollTrigger滚动触发.md",
-    "00-前端体系/05-高级应用/动画与交互/GSAP/03-Timeline时间轴.md",
-    "00-前端体系/05-高级应用/动画与交互/GSAP/02-GSAP核心API.md",
-    "00-前端体系/05-高级应用/动画与交互/GSAP/01-GSAP基础入门.md",
     "00-前端体系/05-高级应用/动画与交互/GSAP",
     "00-前端体系/05-高级应用/动画与交互",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/ESBuild/05-对比分析",
