@@ -28,11 +28,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.zhihu.com/",
-                "title": "首页 - 知乎",
+                "title": "(22 封私信 / 80 条消息) 首页 - 知乎",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "首页 - 知乎"
+              "title": "(22 封私信 / 80 条消息) 首页 - 知乎"
             }
           }
         ],
@@ -238,6 +238,9 @@
   },
   "active": "0d2ae4c904f9393b",
   "lastOpenFiles": [
+    "note-organizer.zip",
+    "00-经验技巧/iOS-GIF模糊问题解决方案.md",
+    "00-经验技巧/apng-js使用教程.md",
     "Prompt/笔记整理清单.md",
     "笔记整理清单.md",
     "Prompt/README.md",
@@ -263,10 +266,7 @@
     "00-前端体系/02-框架进阶/TailwindCSS/02-核心功能/README.md",
     "00-前端体系/02-框架进阶/TailwindCSS/01-基础入门/README.md",
     "00-前端体系/02-框架进阶/TailwindCSS/04-实战应用/05-最佳实践.md",
-    "00-前端体系/02-框架进阶/TailwindCSS/04-实战应用/01-常用组件.md",
     "00-前端体系/02-框架进阶/TailwindCSS/04-实战应用",
-    "00-前端体系/02-框架进阶/TailwindCSS/02-核心功能/07-响应式设计.md",
-    "00-前端体系/02-框架进阶/TailwindCSS/02-核心功能/01-布局系统.md",
     "00-前端体系/02-框架进阶/TailwindCSS/02-核心功能",
     "00-前端体系/02-框架进阶/TailwindCSS/01-基础入门",
     "00-前端体系/02-框架进阶/TailwindCSS",
