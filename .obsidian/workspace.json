@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "c1463488d08039ea",
+            "id": "0d2ae4c904f9393b",
             "type": "leaf",
             "state": {
               "type": "webviewer",
@@ -33,20 +33,6 @@
               },
               "icon": "globe-2",
               "title": "首页 - 知乎"
-            }
-          },
-          {
-            "id": "7dc9238fc79880db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-经验技巧/Cursor-使用技巧.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cursor-使用技巧"
             }
           }
         ],
@@ -250,8 +236,18 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "c1463488d08039ea",
+  "active": "0d2ae4c904f9393b",
   "lastOpenFiles": [
+    "Prompt/笔记整理清单.md",
+    "笔记整理清单.md",
+    "Prompt/README.md",
+    "Prompt/提问.md",
+    "Prompt/vscode 插件开发.md",
+    "Prompt/英文技术文档翻译.md",
+    "Prompt/脚手架.md",
+    "Prompt",
+    "笔记规范文档.md",
+    "00-经验技巧/cursorrules",
     "00-经验技巧/Cursor-使用技巧.md",
     "书籍/BrowserPrinciple-main/README.md",
     "00-经验技巧/React-Context与自定义Hooks架构实战.md",
@@ -272,22 +268,12 @@
     "00-前端体系/02-框架进阶/TailwindCSS/02-核心功能/07-响应式设计.md",
     "00-前端体系/02-框架进阶/TailwindCSS/02-核心功能/01-布局系统.md",
     "00-前端体系/02-框架进阶/TailwindCSS/02-核心功能",
-    "00-前端体系/02-框架进阶/TailwindCSS/01-基础入门/03-核心概念.md",
     "00-前端体系/02-框架进阶/TailwindCSS/01-基础入门",
     "00-前端体系/02-框架进阶/TailwindCSS",
-    "00-前端体系/02-框架进阶/Next.js/01-基础入门/08-静态资源管理.md",
-    "00-前端体系/02-框架进阶/Next.js/01-基础入门/07-样式方案实战.md",
-    "00-前端体系/02-框架进阶/Next.js/01-基础入门/06-组件开发基础.md",
-    "00-前端体系/02-框架进阶/Next.js/01-基础入门/05-路由系统基础.md",
-    "00-前端体系/02-框架进阶/Next.js/01-基础入门/04-第一个页面实战.md",
-    "00-前端体系/02-框架进阶/Next.js/02-核心机制/01-渲染模式详解(SSR-SSG-ISR).md",
-    "00-前端体系/05-高级应用/动画与交互/GSAP/10-React集成.md",
     "00-前端体系/05-高级应用/动画与交互/GSAP",
     "00-前端体系/05-高级应用/动画与交互",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/ESBuild/05-对比分析",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/ESBuild/04-性能优化",
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/ESBuild/03-配置与实践",
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/ESBuild/02-核心功能",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/async-process-model.png",
