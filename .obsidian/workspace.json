@@ -20,8 +20,23 @@
               "icon": "globe-2",
               "title": "新标签页"
             }
+          },
+          {
+            "id": "03ea3df58ba25864",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.zhihu.com/?theme=dark",
+                "title": "(22 封私信 / 80 条消息) 首页 - 知乎",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "(22 封私信 / 80 条消息) 首页 - 知乎"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -221,7 +236,7 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "47454c0071f7e2be",
+  "active": "03ea3df58ba25864",
   "lastOpenFiles": [
     "note-organizer.zip",
     "00-经验技巧/iOS-GIF模糊问题解决方案.md",

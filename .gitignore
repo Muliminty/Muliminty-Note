@@ -24,4 +24,5 @@ yarn-error.log*
 
 # 分析报告（不提交）
 00-前端体系/前端体系分析报告.md
+.codebuddy
 
