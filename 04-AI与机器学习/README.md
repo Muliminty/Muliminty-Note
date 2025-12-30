@@ -69,7 +69,11 @@
 - Prompt 工程
 - AI 辅助开发（Cursor、Copilot）
 - AI API 与 SDK
-- AI 应用开发
+- **AI 应用开发**
+  - **MCP 协议** - Model Context Protocol（AI 领域的 USB-C 接口）
+  - **MCP 服务器开发** - 开发自定义 MCP Server
+  - **MCP 配置与部署** - 在不同平台配置和部署 MCP
+  - **MCP 最佳实践** - 安全性、性能优化与测试
 
 ---
 
@@ -81,6 +85,9 @@
 - [ ] 能够使用框架开发深度学习模型
 - [ ] 了解 AI 在不同领域的应用
 - [ ] 能够使用 AI 工具辅助开发
+- [ ] 理解 MCP 协议及其应用场景
+- [ ] 能够开发自定义 MCP Server
+- [ ] 掌握 MCP 的配置与部署
 
 ---
 
@@ -107,8 +114,25 @@
 
 ## 🔗 相关链接
 
-- [AI 与机器学习 MOC](./!MOC-AI与机器学习.md) — 知识体系索引
+### 核心文档
+- [AI 与机器学习 MOC](./!MOC-AI与机器学习.md) — 完整知识体系索引
+- [AI 应用开发索引](./05-AI开发工具/04-AI应用开发/README.md) — AI 应用开发专题
+
+### MCP 专题
+- [MCP 协议完整指南](./05-AI开发工具/04-AI应用开发/MCP协议.md) — MCP 基础与架构
+- [MCP 服务器开发教程](./05-AI开发工具/04-AI应用开发/MCP服务器开发.md) — 开发实战
+- [MCP 配置与部署](./05-AI开发工具/04-AI应用开发/MCP配置与部署.md) — 部署方案
+- [MCP 最佳实践](./05-AI开发工具/04-AI应用开发/MCP最佳实践.md) — 安全与优化
+
+### 相关知识
 - [计算机基础 MOC](../01-计算机基础/!MOC-计算机基础.md) — 数学与算法基础
+- [前端体系](../00-前端体系/) — Web 开发知识（AI 应用开发）
+- [服务端知识](../03-服务端/) — 后端技术（API 与数据库）
+
+### 外部资源
+- [Anthropic MCP 文档](https://docs.anthropic.com/) — 官方文档
+- [MCP GitHub 仓库](https://github.com/modelcontextprotocol) — 开源项目
+- [MCP 规范](https://spec.modelcontextprotocol.io/) — 协议规范
 
 ---
 
