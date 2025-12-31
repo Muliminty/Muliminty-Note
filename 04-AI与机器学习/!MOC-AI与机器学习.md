@@ -169,10 +169,10 @@
 - [AI 应用架构](./05-AI开发工具/04-AI应用开发/AI应用架构.md) — AI 应用系统设计
 - [RAG 系统](./05-AI开发工具/04-AI应用开发/RAG系统.md) — 检索增强生成
 - [Agent 系统](./05-AI开发工具/04-AI应用开发/Agent系统.md) — AI Agent 开发
-- [MCP 协议](./05-AI开发工具/04-AI应用开发/MCP协议.md) — Model Context Protocol 完整指南
-- [MCP 服务器开发](./05-AI开发工具/04-AI应用开发/MCP服务器开发.md) — 如何开发 MCP Server
-- [MCP 配置与部署](./05-AI开发工具/04-AI应用开发/MCP配置与部署.md) — MCP 在不同平台的应用
-- [MCP 最佳实践](./05-AI开发工具/04-AI应用开发/MCP最佳实践.md) — 安全性与性能优化
+- [MCP 协议](./05-AI开发工具/04-AI应用开发/02-MCP协议.md) — Model Context Protocol 完整指南
+- [MCP 服务器开发](./05-AI开发工具/04-AI应用开发/03-MCP服务器开发.md) — 如何开发 MCP Server
+- [MCP 配置与部署](./05-AI开发工具/04-AI应用开发/04-MCP配置与部署.md) — MCP 在不同平台的应用
+- [MCP 最佳实践](./05-AI开发工具/04-AI应用开发/05-MCP最佳实践.md) — 安全性与性能优化
 
 **学习检查点**：能够使用 AI 工具提高开发效率，构建 AI 应用
 
@@ -259,8 +259,8 @@
 - [LangChain](./05-AI开发工具/03-AI-API/LangChain.md) — LangChain 框架
 
 #### 4. AI 应用开发
-- [MCP 协议](./05-AI开发工具/04-AI应用开发/MCP协议.md) — Model Context Protocol
-- [MCP 服务器开发](./05-AI开发工具/04-AI应用开发/MCP服务器开发.md) — MCP Server 开发
+- [MCP 协议](./05-AI开发工具/04-AI应用开发/02-MCP协议.md) — Model Context Protocol
+- [MCP 服务器开发](./05-AI开发工具/04-AI应用开发/03-MCP服务器开发.md) — MCP Server 开发
 
 ---
 

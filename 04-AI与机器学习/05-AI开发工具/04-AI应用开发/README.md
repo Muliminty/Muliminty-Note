@@ -22,10 +22,10 @@
 - [状态管理](./状态管理.md) - Agent 状态与记忆管理
 
 ### 4. MCP 协议
-- [MCP 协议概述](./MCP协议.md) - Model Context Protocol 完整指南
-- [MCP 服务器开发](./MCP服务器开发.md) - 如何开发 MCP Server
-- [MCP 配置与部署](./MCP配置与部署.md) - MCP 在不同平台的应用
-- [MCP 最佳实践](./MCP最佳实践.md) - 安全性与性能优化
+- [MCP 协议概述](./02-MCP协议.md) - Model Context Protocol 完整指南
+- [MCP 服务器开发](./03-MCP服务器开发.md) - 如何开发 MCP Server
+- [MCP 配置与部署](./04-MCP配置与部署.md) - MCP 在不同平台的应用
+- [MCP 最佳实践](./05-MCP最佳实践.md) - 安全性与性能优化
 
 ---
 
