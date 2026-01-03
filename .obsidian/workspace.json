@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ef2e2a6796bad81b",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://go.itab.link/",
-                "title": "新标签页",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "新标签页"
-            }
-          },
-          {
             "id": "d1bfdeb8ec21ca0a",
             "type": "leaf",
             "state": {
@@ -49,8 +35,7 @@
               "title": "(22 封私信 / 80 条消息) 首页 - 知乎"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -251,7 +236,7 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "8ced4c07265be7bc",
+  "active": "d1bfdeb8ec21ca0a",
   "lastOpenFiles": [
     "04-AI与机器学习/05-AI开发工具/04-AI应用开发/05-MCP最佳实践.md",
     "04-AI与机器学习/05-AI开发工具/04-AI应用开发/04-MCP配置与部署.md",
