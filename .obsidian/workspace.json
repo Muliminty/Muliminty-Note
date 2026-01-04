@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f948cbfc71046c5c",
+        "id": "d9d8f3570d70b75b",
         "type": "tabs",
         "children": [
           {
-            "id": "d1bfdeb8ec21ca0a",
+            "id": "ff56522042494501",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.zhihu.com/",
-                "title": "(22 封私信 / 80 条消息) 首页 - 知乎",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "(22 封私信 / 80 条消息) 首页 - 知乎"
-            }
-          },
-          {
-            "id": "8ced4c07265be7bc",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.zhihu.com/",
-                "title": "(22 封私信 / 80 条消息) 首页 - 知乎",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "(22 封私信 / 80 条消息) 首页 - 知乎"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -117,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5,
-    "collapsed": true
+    "width": 287.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -236,8 +217,13 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "d1bfdeb8ec21ca0a",
+  "active": "ff56522042494501",
   "lastOpenFiles": [
+    "00-前端体系/01-基础入门/CSS/CSS过渡动画属性.md",
+    "00-经验技巧/!MOC-经验技巧.md",
+    "00-经验技巧/iOS-GIF模糊问题解决方案.md",
+    "00-经验技巧/README.md",
+    "00-经验技巧/React-Context与自定义Hooks架构实战.md",
     "04-AI与机器学习/05-AI开发工具/04-AI应用开发/05-MCP最佳实践.md",
     "04-AI与机器学习/05-AI开发工具/04-AI应用开发/04-MCP配置与部署.md",
     "04-AI与机器学习/05-AI开发工具/04-AI应用开发/03-MCP服务器开发.md",
@@ -262,11 +248,6 @@
     "01-计算机基础/04-计算机网络/05-网络安全/15-安全邮件协议.md",
     "01-计算机基础/04-计算机网络/05-网络安全/14-SSH协议.md",
     "01-计算机基础/04-计算机网络/05-网络安全/13-IPSec协议.md",
-    "01-计算机基础/04-计算机网络/05-网络安全/12-SSL-TLS协议.md",
-    "01-计算机基础/04-计算机网络/05-网络安全/11-网络访问控制.md",
-    "01-计算机基础/04-计算机网络/05-网络安全/10-VPN技术.md",
-    "01-计算机基础/04-计算机网络/05-网络安全/09-入侵检测系统.md",
-    "01-计算机基础/04-计算机网络/05-网络安全/08-防火墙技术.md",
     "01-计算机基础/04-计算机网络/05-网络安全",
     "note-organizer.zip",
     "Prompt",
