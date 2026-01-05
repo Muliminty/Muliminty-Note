@@ -4,20 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "d9d8f3570d70b75b",
+        "id": "47bcab5a53fea499",
         "type": "tabs",
         "children": [
           {
-            "id": "ff56522042494501",
+            "id": "89c33bcbce5d64c3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
+              "type": "webviewer",
+              "state": {
+                "url": "https://go.itab.link/",
+                "title": "新标签页",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
               "title": "新标签页"
             }
+          },
+          {
+            "id": "4dbbb0721479a70a",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.zhihu.com/?theme=dark",
+                "title": "(22 封私信 / 80 条消息) 首页 - 知乎",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "(22 封私信 / 80 条消息) 首页 - 知乎"
+            }
+          },
+          {
+            "id": "447432e5702e0115",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.zhihu.com/question/15175936725",
+                "title": "(22 封私信 / 80 条消息) 你有没有想过自己开发一个有趣的、实用的程序？ - 知乎",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "(22 封私信 / 80 条消息) 你有没有想过自己开发一个有趣的、实用的程序？ - 知乎"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -217,8 +250,9 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "ff56522042494501",
+  "active": "447432e5702e0115",
   "lastOpenFiles": [
+    "书签整理.md",
     "00-前端体系/01-基础入门/CSS/CSS过渡动画属性.md",
     "00-经验技巧/!MOC-经验技巧.md",
     "00-经验技巧/iOS-GIF模糊问题解决方案.md",
@@ -247,7 +281,6 @@
     "01-计算机基础/04-计算机网络/06-现代网络技术",
     "01-计算机基础/04-计算机网络/05-网络安全/15-安全邮件协议.md",
     "01-计算机基础/04-计算机网络/05-网络安全/14-SSH协议.md",
-    "01-计算机基础/04-计算机网络/05-网络安全/13-IPSec协议.md",
     "01-计算机基础/04-计算机网络/05-网络安全",
     "note-organizer.zip",
     "Prompt",
