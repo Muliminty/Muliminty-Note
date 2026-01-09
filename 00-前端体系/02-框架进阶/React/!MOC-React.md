@@ -163,6 +163,7 @@
   - 自定义 Hooks 规则
   - 提取逻辑复用
   - 自定义 Hooks 最佳实践
+  - [usePersistedTab - 选项卡状态持久化](./03-Hooks深度理解/03-自定义Hooks/usePersistedTab-选项卡状态持久化.md) — 管理选项卡状态并持久化到 sessionStorage
 
 #### Hooks 原理
 - **Hooks 调用顺序的重要性**
