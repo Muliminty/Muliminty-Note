@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "47bcab5a53fea499",
+        "id": "54b0799931821c49",
         "type": "tabs",
         "children": [
           {
-            "id": "89c33bcbce5d64c3",
+            "id": "88861ed71517bf9d",
             "type": "leaf",
             "state": {
               "type": "webviewer",
@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "4dbbb0721479a70a",
+            "id": "e0ff9a26397d1ab5",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.zhihu.com/?theme=dark",
-                "title": "(22 封私信 / 80 条消息) 首页 - 知乎",
+                "url": "https://juejin.cn/",
+                "title": "稀土掘金",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "(22 封私信 / 80 条消息) 首页 - 知乎"
+              "title": "稀土掘金"
             }
           }
         ],
@@ -237,7 +237,7 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "4dbbb0721479a70a",
+  "active": "e0ff9a26397d1ab5",
   "lastOpenFiles": [
     "00-前端体系/02-框架进阶/React/03-Hooks深度理解/03-自定义Hooks/README.md",
     "00-前端体系/02-框架进阶/React/03-Hooks深度理解/03-自定义Hooks/usePersistedTab-选项卡状态持久化.md",

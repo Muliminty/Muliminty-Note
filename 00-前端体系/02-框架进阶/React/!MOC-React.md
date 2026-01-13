@@ -695,13 +695,14 @@
 
 #### 移动端
 - **React Native**
+  - [React Native 知识体系](./11-React生态/React-Native/!MOC-React-Native.md) — React Native 完整学习路径
   - React Native 基础
   - 与 React 的差异
   - 原生模块
   - 导航（React Navigation）
   - 状态管理
 - **跨平台框架**
-  - Expo
+  - Expo（详见 [React Native 知识体系 - Expo 生态](./11-React生态/React-Native/08-Expo生态/README.md)）
   - React Native for Web
   - Taro（小程序）
 

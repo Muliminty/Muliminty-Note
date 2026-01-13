@@ -171,7 +171,7 @@
 
 #### 3. 跨平台开发
 - [移动性能与适配](./05-高级应用/移动与跨平台/移动性能与适配.md) — 移动端性能优化
-- [React Native / Flutter 基本对照](./05-高级应用/移动与跨平台/React-Native-Flutter基本对照.md) — 跨平台框架对比
+- [React Native 知识体系](./02-框架进阶/React/11-React生态/React-Native/!MOC-React-Native.md) — React Native 完整学习路径
 - [响应式与适配策略（视口/触控/高分屏）](./05-高级应用/移动与跨平台/响应式与适配策略.md) — 响应式适配方案
 
 #### 4. 部署与运维
