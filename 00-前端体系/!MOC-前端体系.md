@@ -62,6 +62,11 @@
 - [Angular 模块与依赖注入](./02-框架进阶/Angular/模块与依赖注入.md) — Angular 核心概念
 - [Angular 生命周期](./02-框架进阶/Angular/生命周期.md) — 组件生命周期管理
 
+##### Umi 路径
+- [Umi-MOC](./02-框架进阶/Umi/!MOC-Umi.md) — Umi 完整知识体系
+- [Umi 核心功能](./02-框架进阶/Umi/02-核心功能/README.md) — 路由与页面开发
+- [插件体系与插件化](./02-框架进阶/Umi/03-插件体系/README.md) — @umijs/max 插件方案
+
 #### 2. 状态管理（根据框架选择）
 
 ##### React 生态
@@ -207,6 +212,7 @@
 #### 2. 前端框架
 - **React**: [React-MOC](./02-框架进阶/React/!MOC-React.md)
 - **Vue**: [Vue-MOC](./02-框架进阶/Vue/!MOC-Vue.md)
+- **Umi**: [Umi-MOC](./02-框架进阶/Umi/!MOC-Umi.md)
 - **Angular**: [Angular-MOC](./02-框架进阶/Angular/!MOC-Angular.md)
 
 #### 3. 状态管理
