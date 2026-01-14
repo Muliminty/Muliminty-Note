@@ -17,9 +17,15 @@
 ## 核心理念
 
 Umi Model 插件的核心理念是：**“一个文件就是一个 Hook”**。
-- **无感集成**：只要在特定目录下定义文件，就会自动注册为 Model。
-- **简单易用**：完全使用 React Hooks 的语法，不需要学习 Action、Reducer、Saga 等概念。
-- **类型安全**：深度集成 TypeScript，提供完美的类型推导。
+
+### 1. 本质公式
+> **Umi Model = 自定义 Hook + 全局共享 (单例模式)**
+
+你不需要学习 Redux 复杂的 Action/Reducer，只要你会写 React Hook，你就已经掌握了 Umi 的状态管理。
+
+### 2. 直观比喻
+- **普通自定义 Hook** 是一面 **“随身镜”**：每个组件调用时都会给自己生成一个独立的状态，互不干扰。
+- **Umi Model** 是挂在店中央的一块 **“大屏幕”**：应用中任何地方（页面、组件、甚至是 Header）看到的都是同一块屏幕。一个人改了，全场同步。
 
 ---
 
@@ -101,61 +107,98 @@ const { user } = useModel('useAuthModel', (model) => ({
 
 ---
 
-## 实战案例：使用 Model 管理 Modal 状态
+## 💡 核心进阶：页面内“小模块” Modal vs 全局 Modal
 
-在复杂页面中，通常会有多个弹窗（Modal）。使用 Model 可以优雅地管理这些弹窗的显示状态。
+在实际开发 Page（页面）时，你会遇到很多小模块（比如子组件 `UserList`、`EditForm`），这时你需要决定 Modal 放在哪。
 
-### 1. 定义 Modal 管理 Model
-`src/models/useModalModel.ts`:
+### 1. 场景决策指南
 
-```typescript
-import { useState, useCallback } from 'react';
+| 维度 | 页面/组件内“小模块” Modal | 全局/应用级 Model Modal |
+| :--- | :--- | :--- |
+| **存放位置** | 页面组件内部（使用 `useState`） | `src/models/` 目录（使用 `useModel`） |
+| **状态归属** | **私有状态**：这个 Modal 只为当前页面服务 | **共享状态**：多个页面或全局组件（如导航栏）都要用 |
+| **控制权** | 只能由**当前组件**或其父组件控制 | **应用内任何地方**都能控制（Header、Sidebar、深层组件） |
+| **生命周期** | 随组件销毁而重置 | 除非手动清空，否则状态在应用运行期间一直保持 |
+| **适用场景** | 简单的表单提交、详情查看（仅当前页面用） | 登录弹窗、全局搜索、跨页面的通知提示 |
 
-export default function useModalModel() {
-  const [visible, setVisible] = useState(false);
-  const [currentId, setCurrentId] = useState<number | null>(null);
+### 2. 为什么“小模块”不建议全塞进全局 Model？
+1. **命名冲突**：全局 Model 是单例，如果你有多个页面都有 `editModal`，名字很难取。
+2. **内存占用**：全局 Model 一旦加载除非刷新页面否则不销毁，会一直占用内存。
+3. **维护心智**：改一个页面的弹窗，还要跑去全局 `models` 文件夹找代码，路径太长。
 
-  const open = useCallback((id?: number) => {
-    setVisible(true);
-    if (id) setCurrentId(id);
-  }, []);
+---
 
-  const close = useCallback(() => {
-    setVisible(false);
-    setCurrentId(null);
-  }, []);
+### 3. Modal 数据流生命周期
 
-  return {
-    visible,
-    currentId,
-    open,
-    close,
-  };
-}
+理解数据是怎么“跑”起来的，是掌握 Umi Model 的关键。
+
+```mermaid
+sequenceDiagram
+    participant User as 用户/外部操作
+    participant Model as Umi Model (状态池)
+    participant ViewA as 页面/组件 A (触发者)
+    participant ViewB as 页面/组件 B (弹窗容器)
+
+    Note over User, ViewB: 1. 初始化阶段
+    Model->>ViewB: 注入 visible = false
+    
+    Note over User, ViewB: 2. 触发阶段
+    User->>ViewA: 点击 "编辑" 按钮
+    ViewA->>Model: 调用 open(id)
+    Model->>Model: 更新 visible = true, currentId = id
+    
+    Note over User, ViewB: 3. 渲染阶段
+    Model-->>ViewB: 状态变更通知
+    ViewB->>ViewB: 自动重渲染，显示 Modal
+    
+    Note over User, ViewB: 4. 交互/关闭阶段
+    User->>ViewB: 点击 "取消" 或提交成功
+    ViewB->>Model: 调用 close()
+    Model->>Model: 重置 visible = false
+    Model-->>ViewB: 状态变更通知，弹窗消失
 ```
 
-### 2. 组件中使用
+---
 
+### 4. 代码实战演练
+
+#### A. 局部 Modal（推荐用于 90% 的场景）
+如果你的弹窗只在当前页面用，请保持简单：
 ```tsx
-import { useModel } from 'umi';
-import { Modal, Button } from 'antd';
-
-const ListPage = () => {
-  const { visible, open, close, currentId } = useModel('useModalModel');
-
+const LocalPage = () => {
+  const [visible, setVisible] = useState(false); // 状态锁在组件内部
   return (
-    <div>
-      <Button onClick={() => open(1)}>打开弹窗 1</Button>
-      <Modal 
-        title={`当前编辑 ID: ${currentId}`} 
-        open={visible} 
-        onCancel={close}
-      >
-        弹窗内容...
-      </Modal>
-    </div>
+    <>
+      <Button onClick={() => setVisible(true)}>打开</Button>
+      <Modal open={visible} onCancel={() => setVisible(false)}>内容</Modal>
+    </>
   );
 };
+```
+
+#### B. 全局 Modal（用于跨组件联动）
+例如：在导航栏 `Header` 组件里有一个“登录”按钮，要打开 `LoginModal`（它挂在根布局或另一个组件里）。
+
+1. **定义模型** `src/models/useAuthModel.ts`:
+```typescript
+import { useState } from 'react';
+
+export default () => {
+  const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
+  return { isLoginModalOpen, setIsLoginModalOpen };
+};
+```
+
+2. **触发者** `src/components/Header.tsx`:
+```tsx
+const { setIsLoginModalOpen } = useModel('useAuthModel');
+return <Button onClick={() => setIsLoginModalOpen(true)}>登录</Button>;
+```
+
+3. **接收者** `src/components/LoginModal.tsx`:
+```tsx
+const { isLoginModalOpen, setIsLoginModalOpen } = useModel('useAuthModel');
+return <Modal open={isLoginModalOpen} onCancel={() => setIsLoginModalOpen(false)}>登录表单</Modal>;
 ```
 
 ---

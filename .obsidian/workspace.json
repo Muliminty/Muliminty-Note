@@ -25,21 +25,14 @@
             "id": "e0ff9a26397d1ab5",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "书签整理.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "00-前端体系/02-框架进阶/Umi/03-插件体系/02-Model插件.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "书签整理"
+              "icon": "lucide-file",
+              "title": "02-Model插件"
             }
           }
         ],
@@ -90,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cursor",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -121,12 +114,12 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 287.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -246,6 +239,7 @@
   },
   "active": "e0ff9a26397d1ab5",
   "lastOpenFiles": [
+    "书签整理.md",
     "00-前端体系/02-框架进阶/Umi/06-原理深入/02-插件机制源码解析.md",
     "00-前端体系/02-框架进阶/Umi/06-原理深入/01-Umi核心架构解析.md",
     "00-前端体系/02-框架进阶/Umi/05-工程化与实战/04-部署与优化.md",
@@ -271,7 +265,6 @@
     "00-前端体系/02-框架进阶/Umi/03-插件体系/README.md",
     "00-前端体系/02-框架进阶/Umi/02-核心功能/README.md",
     "00-前端体系/02-框架进阶/Umi/01-基础入门/README.md",
-    "00-前端体系/02-框架进阶/Umi/!MOC-Umi.md",
     "00-前端体系/02-框架进阶/Umi/06-原理深入",
     "00-前端体系/02-框架进阶/Umi/05-工程化与实战",
     "00-前端体系/02-框架进阶/Umi/04-数据流管理",
