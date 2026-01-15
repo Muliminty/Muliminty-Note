@@ -32,7 +32,7 @@ Umi Model 插件的核心理念是：**“一个文件就是一个 Hook”**。
 ## 快速开始
 
 ### 1. 定义 Model
-在 `src/models` 目录下创建文件。例如 `src/models/useAuthModel.ts`：
+在 **`src/models`** 目录下创建文件（注意：目录名必须是复数 `models`）。例如 `src/models/useAuthModel.ts`：
 
 ```typescript
 import { useState, useCallback } from 'react';
@@ -121,10 +121,10 @@ const { user } = useModel('useAuthModel', (model) => ({
 | **生命周期** | 随组件销毁而重置 | 除非手动清空，否则状态在应用运行期间一直保持 |
 | **适用场景** | 简单的表单提交、详情查看（仅当前页面用） | 登录弹窗、全局搜索、跨页面的通知提示 |
 
-### 2. 为什么“小模块”不建议全塞进全局 Model？
-1. **命名冲突**：全局 Model 是单例，如果你有多个页面都有 `editModal`，名字很难取。
-2. **内存占用**：全局 Model 一旦加载除非刷新页面否则不销毁，会一直占用内存。
-3. **维护心智**：改一个页面的弹窗，还要跑去全局 `models` 文件夹找代码，路径太长。
+### 2. 为什么“小模块”不建议全塞进全局 models？
+1. **命名冲突**：全局 `models` 是单例，如果你有多个页面都有 `editModal`，名字很难取。
+2. **内存占用**：全局 `models` 一旦加载除非刷新页面否则不销毁，会一直占用内存。
+3. **维护心智**：改一个页面的弹窗，还要跑去全局 `src/models` 文件夹找代码，路径太长。
 
 ---
 
@@ -160,25 +160,52 @@ sequenceDiagram
 
 ---
 
-### 4. 代码实战演练
+### 4. 代码实战演练与目录管理
 
 #### A. 局部 Modal（推荐用于 90% 的场景）
-如果你的弹窗只在当前页面用，请保持简单：
+**目录结构：**
+```text
+src/
+  pages/
+    User/
+      index.tsx          # 页面主文件
+      components/
+        EditModal.tsx    # 弹窗小模块，只给 User 页面用
+```
+
+**代码实现：**
+在 `index.tsx` 中定义状态，传给 `EditModal`：
 ```tsx
-const LocalPage = () => {
-  const [visible, setVisible] = useState(false); // 状态锁在组件内部
+// src/pages/User/index.tsx
+import { useState } from 'react';
+import EditModal from './components/EditModal';
+
+const UserPage = () => {
+  const [visible, setVisible] = useState(false);
   return (
     <>
-      <Button onClick={() => setVisible(true)}>打开</Button>
-      <Modal open={visible} onCancel={() => setVisible(false)}>内容</Modal>
+      <Button onClick={() => setVisible(true)}>编辑用户</Button>
+      <EditModal visible={visible} onClose={() => setVisible(false)} />
     </>
   );
 };
 ```
 
-#### B. 全局 Modal（用于跨组件联动）
-例如：在导航栏 `Header` 组件里有一个“登录”按钮，要打开 `LoginModal`（它挂在根布局或另一个组件里）。
+---
 
+#### B. 全局 Modal（用于跨组件联动）
+**目录结构：**
+```text
+src/
+  models/
+    useAuthModel.ts      # 存放全局登录状态
+  components/
+    LoginModal.tsx       # 全局登录弹窗
+  layouts/
+    index.tsx            # 全局布局，在这里挂载弹窗
+```
+
+**代码实现：**
 1. **定义模型** `src/models/useAuthModel.ts`:
 ```typescript
 import { useState } from 'react';
@@ -189,16 +216,27 @@ export default () => {
 };
 ```
 
-2. **触发者** `src/components/Header.tsx`:
+2. **在全局布局中挂载** `src/layouts/index.tsx`:
+```tsx
+import { useModel, Outlet } from 'umi';
+import LoginModal from '@/components/LoginModal';
+
+export default () => {
+  const { isLoginModalOpen } = useModel('useAuthModel');
+  return (
+    <div>
+      <Header />
+      <Outlet /> {/* 页面内容 */}
+      <LoginModal visible={isLoginModalOpen} /> {/* 弹窗挂在最外层 */}
+    </div>
+  );
+};
+```
+
+3. **在任何地方触发** (如 Header):
 ```tsx
 const { setIsLoginModalOpen } = useModel('useAuthModel');
 return <Button onClick={() => setIsLoginModalOpen(true)}>登录</Button>;
-```
-
-3. **接收者** `src/components/LoginModal.tsx`:
-```tsx
-const { isLoginModalOpen, setIsLoginModalOpen } = useModel('useAuthModel');
-return <Modal open={isLoginModalOpen} onCancel={() => setIsLoginModalOpen(false)}>登录表单</Modal>;
 ```
 
 ---
@@ -206,9 +244,9 @@ return <Modal open={isLoginModalOpen} onCancel={() => setIsLoginModalOpen(false)
 ## 最佳实践
 
 1. **命名规范**：建议以 `useXXXModel.ts` 命名，体现其 Hook 的本质。
-2. **逻辑拆分**：不要把所有全局状态塞进一个大的 Model，按业务领域拆分。
-3. **配合 useRequest**：在 Model 中使用 Umi 的 `useRequest` 处理异步数据获取，将加载状态和数据存储在 Model 中。
-4. **状态下沉**：如果状态只在两个相邻子组件间共享，优先考虑 Props 传递或 React Context，避免滥用全局 Model。
+2. **逻辑拆分**：不要把所有全局状态塞进一个大的 Model，按业务领域拆分到不同的 `models/` 文件中。
+3. **配合 useRequest**：在 Model 中使用 Umi 的 `useRequest` 处理异步数据获取，将加载状态和数据存储在 `models` 中。
+4. **状态下沉**：如果状态只在两个相邻子组件间共享，优先考虑 Props 传递或 React Context，避免滥用全局 `src/models`。
 
 ---
 
