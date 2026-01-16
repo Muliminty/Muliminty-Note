@@ -16,6 +16,80 @@
 
 ---
 
+## 核心技能清单 (Cursor Skills)
+
+要在 Cursor 中达到“人机合一”的状态，你需要熟练掌握以下核心技能：
+
+### 1. 上下文控制技能 (@ 符号)
+学会告诉 AI “看哪里”是最高级的技能。
+- **@Files**：精准引用文件。不要让 AI 猜，直接指定文件。
+- **@Codebase**：全局搜索。当你不知道某个功能在哪实现时，用它。
+- **@Web**：联网搜索。查最新的 API 文档、报错解决方案。
+- **@Docs**：引入外部官方文档（如 Umi, React）。
+- **@Git**：对比差异、编写 Commit Message。
+- **@Definitions**：只引用定义，节省 Token 且精准。
+
+### 2. 意图表达技能 (Prompting)
+- **Composer (Cmd+I)**：全案生成技能。适合从 0 到 1 创建功能、跨文件重构。
+- **Chat (Cmd+L)**：咨询与调优技能。适合问“为什么”、讨论方案、解释代码。
+- **Inline Edit (Cmd+K)**：局部手术技能。选中一段代码，精准修改（如“把这个循环改写成 map”）。
+- **Tab (Copilot++)**：预判技能。顺着 AI 的思路写代码，快速补全逻辑。
+
+### 3. 规则约束技能 (.cursorrules)
+- **项目级约束**：在根目录创建 `.cursorrules`，强制 AI 遵守你的代码风格（如：强制使用 Umi Model、强制 TS 严谨模式）。
+- **Notepads**：临时规则。将一段反复使用的复杂需求存为 Notepad，随调随用。
+
+### 4. 调试与验证技能
+- **Terminal 联动**：在 Chat 中直接输入“运行项目”或“运行测试”，让 AI 帮你排查报错。
+- **代码对比 (Diff)**：养成习惯，在接受 AI 的修改前，仔细阅读 Diff 视图。
+
+### 5. 激发 AI 高级技能 (MCP & Workflow)
+...
+- **Auto Verification**：完成代码后要求 AI “进入验证阶段”，AI 会结合终端报错和浏览器工具进行自检。
+
+### 6. 前瞻技能：Agent Skills (SKILL.md)
+这是 Cursor 官方定义的模块化能力方案（目前主要在 Nightly 版本中通过设置开启）。
+
+#### 1. 技能包目录结构
+一个标准的 Agent Skill 是以目录形式存在的：
+```text
+skill-name/
+├── SKILL.md          # 必需：主定义文件（Markdown 格式）
+├── scripts/          # 可选：该技能依赖的可执行脚本 (Python/Bash/JS)
+├── references/       # 可选：参考文档或 API 规范
+└── assets/           # 可选：静态资源、模板文件
+```
+
+#### 2. SKILL.md 文件规范
+文件顶部必须包含 YAML 格式的元数据（Metadata）：
+```markdown
+---
+name: umi-expert
+description: 专门处理 Umi 项目的重构、Model 转换及插件配置的专家技能。
+---
+
+# Umi Expert Skill
+
+## 触发场景 (Context)
+- 当用户提到 "将状态提取到全局" 时。
+- 当检测到项目根目录存在 .umirc.ts 或 config/config.ts 时。
+
+## 执行指令 (Instructions)
+1. 优先检查 `src/models` 是否存在。
+2. 自动生成符合复数命名的 Model 文件。
+3. 使用 @umijs/max 的 useModel 语法进行替换。
+
+## 示例 (Examples)
+- 用户输入："帮我把这个 useState 变成全局 model"
+- AI 响应：[启动 umi-expert 技能] -> 执行重构...
+```
+
+#### 3. 与 .cursorrules 的核心区别
+- **动态感知**：Agent 会根据 `description` 描述自主判断何时加载该技能，而不是像 Rules 那样每一句对话都强行包含。
+- **模块化复用**：你可以将 `skill-name` 文件夹直接拷贝到其他项目中使用。
+
+---
+
 ## 项目配置与规范
 
 ### 1. .cursorrules 文件配置

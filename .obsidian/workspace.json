@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "88861ed71517bf9d",
+            "id": "8ff1a323ed1c6316",
             "type": "leaf",
             "state": {
               "type": "webviewer",
@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "e0ff9a26397d1ab5",
+            "id": "b11ed00a441de79a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "webviewer",
               "state": {
-                "file": "00-前端体系/02-框架进阶/Umi/03-插件体系/02-Model插件.md",
-                "mode": "preview",
-                "source": false
+                "url": "https://www.zhihu.com/",
+                "title": "(23 封私信 / 80 条消息) 首页 - 知乎",
+                "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "02-Model插件"
+              "icon": "globe-2",
+              "title": "(23 封私信 / 80 条消息) 首页 - 知乎"
             }
           }
         ],
@@ -237,8 +237,9 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "e0ff9a26397d1ab5",
+  "active": "b11ed00a441de79a",
   "lastOpenFiles": [
+    "00-前端体系/02-框架进阶/Umi/03-插件体系/02-Model插件.md",
     "书签整理.md",
     "00-前端体系/02-框架进阶/Umi/06-原理深入/02-插件机制源码解析.md",
     "00-前端体系/02-框架进阶/Umi/06-原理深入/01-Umi核心架构解析.md",
@@ -251,7 +252,6 @@
     "00-前端体系/02-框架进阶/Umi/04-数据流管理/01-Dva方案详解.md",
     "00-前端体系/02-框架进阶/Umi/03-插件体系/04-Access插件.md",
     "00-前端体系/02-框架进阶/Umi/03-插件体系/03-Request插件.md",
-    "00-前端体系/02-框架进阶/Umi/03-插件体系/02-Model插件.md",
     "00-前端体系/02-框架进阶/Umi/03-插件体系/01-Layout插件.md",
     "00-前端体系/02-框架进阶/Umi/02-核心功能/03-页面跳转与参数传递.md",
     "00-前端体系/02-框架进阶/Umi/02-核心功能/02-约定式路由详解.md",
