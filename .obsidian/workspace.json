@@ -11,14 +11,21 @@
             "id": "8ff1a323ed1c6316",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "kanban",
               "state": {
-                "url": "https://go.itab.link/",
-                "title": "新标签页",
-                "mode": "webview"
+                "file": "书签整理.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "globe-2",
-              "title": "新标签页"
+              "icon": "lucide-trello",
+              "title": "书签整理"
             }
           },
           {
@@ -35,8 +42,7 @@
               "title": "(23 封私信 / 80 条消息) 首页 - 知乎"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5,
-    "collapsed": true
+    "width": 287.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -237,7 +242,7 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "b11ed00a441de79a",
+  "active": "8ff1a323ed1c6316",
   "lastOpenFiles": [
     "00-前端体系/02-框架进阶/Umi/03-插件体系/02-Model插件.md",
     "书签整理.md",
