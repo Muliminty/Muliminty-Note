@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "54b0799931821c49",
+        "id": "f2e1f6063621dc81",
         "type": "tabs",
         "children": [
           {
-            "id": "8ff1a323ed1c6316",
+            "id": "e9293f7a28dbe410",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -29,20 +29,49 @@
             }
           },
           {
-            "id": "b11ed00a441de79a",
+            "id": "d2d0754f9adf587b",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://skillsmp.com/zh",
+                "title": "Agent Skills 市场 - Claude、Codex 和 ChatGPT Skills | SkillsMP",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Agent Skills 市场 - Claude、Codex 和 ChatGPT Skills | SkillsMP"
+            }
+          },
+          {
+            "id": "3222dac6917bf57b",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://skillsmp.com/zh/skills/doccker-cc-use-exp-claude-skills-frontend-dev-skill-md",
+                "title": "frontend-dev - Agent Skill by doccker | SkillsMP",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "frontend-dev - Agent Skill by doccker | SkillsMP"
+            }
+          },
+          {
+            "id": "87537dc233936cdf",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
                 "url": "https://www.zhihu.com/",
-                "title": "(23 封私信 / 80 条消息) 首页 - 知乎",
+                "title": "(24 封私信 / 80 条消息) 首页 - 知乎",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "(23 封私信 / 80 条消息) 首页 - 知乎"
+              "title": "(24 封私信 / 80 条消息) 首页 - 知乎"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -226,7 +255,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:创建新数据库": false,
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -242,10 +271,12 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "8ff1a323ed1c6316",
+  "active": "3222dac6917bf57b",
   "lastOpenFiles": [
-    "00-前端体系/02-框架进阶/Umi/03-插件体系/02-Model插件.md",
     "书签整理.md",
+    "数据库.base",
+    "index.md",
+    "00-前端体系/02-框架进阶/Umi/03-插件体系/02-Model插件.md",
     "00-前端体系/02-框架进阶/Umi/06-原理深入/02-插件机制源码解析.md",
     "00-前端体系/02-框架进阶/Umi/06-原理深入/01-Umi核心架构解析.md",
     "00-前端体系/02-框架进阶/Umi/05-工程化与实战/04-部署与优化.md",
@@ -268,8 +299,6 @@
     "00-前端体系/02-框架进阶/Umi/05-工程化与实战/README.md",
     "00-前端体系/02-框架进阶/Umi/04-数据流管理/README.md",
     "00-前端体系/02-框架进阶/Umi/03-插件体系/README.md",
-    "00-前端体系/02-框架进阶/Umi/02-核心功能/README.md",
-    "00-前端体系/02-框架进阶/Umi/01-基础入门/README.md",
     "00-前端体系/02-框架进阶/Umi/06-原理深入",
     "00-前端体系/02-框架进阶/Umi/05-工程化与实战",
     "00-前端体系/02-框架进阶/Umi/04-数据流管理",
@@ -279,7 +308,6 @@
     "00-前端体系/02-框架进阶/Umi",
     "04-AI与机器学习/05-AI开发工具/04-AI应用开发",
     "01-计算机基础/04-计算机网络/07-云原生网络",
-    "01-计算机基础/04-计算机网络/06-现代网络技术",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/async-process-model.png",
