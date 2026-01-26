@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "41320db28af9bc3a",
+        "id": "dba347c2f6f13253",
         "type": "tabs",
         "children": [
           {
-            "id": "da2b1fa8c4637f32",
+            "id": "9836d8b0b803876a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-服务端/04-部署与运维/容器化/Docker/!小记/快速上手.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "快速上手"
+              "title": "新标签页"
             }
           }
         ]
@@ -221,8 +217,9 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "da2b1fa8c4637f32",
+  "active": "9836d8b0b803876a",
   "lastOpenFiles": [
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/快速上手.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/Docker Compose.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/volumes.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/指令速查.md",
@@ -230,7 +227,6 @@
     "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/核心概念.md",
     "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/安装与环境配置.md",
     "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/镜像仓库管理.md",
-    "03-服务端/04-部署与运维/容器化/Docker/!小记/快速上手.md",
     "书签整理.md",
     "index.md",
     "数据库.base",
