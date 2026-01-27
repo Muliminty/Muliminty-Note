@@ -11,10 +11,14 @@
             "id": "9836d8b0b803876a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00-前端体系/01-基础入门/CSS/Sass-7-1架构.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Sass-7-1架构"
             }
           }
         ]
@@ -64,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linux",
+                "query": "linux 栅格",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -95,7 +99,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -219,6 +224,7 @@
   },
   "active": "9836d8b0b803876a",
   "lastOpenFiles": [
+    "00-前端体系/01-基础入门/CSS/布局-Flex-Grid.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/快速上手.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/Docker Compose.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/volumes.md",
@@ -247,7 +253,6 @@
     "书籍/overreacted/how-does-react-tell-a-class-from-a-function/index.md",
     "书籍/overreacted/how-does-setstate-know-what-to-do/index.md",
     "00-前端体系/02-框架进阶/TailwindCSS/04-实战应用/01-常用组件.md",
-    "00-前端体系/07-团队协作/运营/!MOC-运营.md",
     "00-前端体系/02-框架进阶/Umi/06-原理深入",
     "00-前端体系/02-框架进阶/Umi/05-工程化与实战",
     "00-前端体系/02-框架进阶/Umi/04-数据流管理",
