@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "dba347c2f6f13253",
+        "id": "c12adfc9fd6ba5d3",
         "type": "tabs",
         "children": [
           {
-            "id": "9836d8b0b803876a",
+            "id": "24c8a0d67c6695d5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-前端体系/01-基础入门/CSS/Sass-7-1架构.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Sass-7-1架构"
-            }
-          },
-          {
-            "id": "fd8fe116c9c3c0b3",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://go.itab.link/",
-                "title": "新标签页",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
               "title": "新标签页"
             }
-          },
-          {
-            "id": "25879f6f31bfc3c3",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.zhihu.com/?theme=dark",
-                "title": "(26 封私信 / 80 条消息) 首页 - 知乎",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "(26 封私信 / 80 条消息) 首页 - 知乎"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -251,8 +218,10 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "25879f6f31bfc3c3",
+  "active": "24c8a0d67c6695d5",
   "lastOpenFiles": [
+    "00-前端体系/01-基础入门/CSS/Sass-7-1架构.md",
+    "00-经验技巧/MemoBox-部署方案与实践.md",
     "00-经验技巧/服务器多项目部署规范.md",
     "01-计算机基础/03-操作系统/03-WSL/02-配置与管理/系统配置.md",
     "01-计算机基础/03-操作系统/03-WSL/02-配置与管理/用户与权限.md",
@@ -271,7 +240,6 @@
     "01-计算机基础/03-操作系统/03-WSL/03-高级使用",
     "01-计算机基础/03-操作系统/03-WSL/01-基础入门",
     "01-计算机基础/03-操作系统/03-WSL",
-    "00-前端体系/01-基础入门/CSS/Sass-7-1架构.md",
     "00-前端体系/01-基础入门/CSS/布局-Flex-Grid.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/快速上手.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/Docker Compose.md",
@@ -286,7 +254,6 @@
     "数据库.base",
     "03-服务端/04-部署与运维/容器化/Docker/未命名 1",
     "03-服务端/04-部署与运维/容器化/Docker/!小记",
-    "01-计算机基础/03-操作系统/02-Linux/README.md",
     "00-前端体系/02-框架进阶/Umi/06-原理深入",
     "00-前端体系/02-框架进阶/Umi/05-工程化与实战",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
