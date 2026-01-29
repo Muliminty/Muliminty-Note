@@ -11,9 +11,13 @@
             "id": "24c8a0d67c6695d5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
+              "type": "webviewer",
+              "state": {
+                "url": "https://go.itab.link/",
+                "title": "新标签页",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
               "title": "新标签页"
             }
           }
