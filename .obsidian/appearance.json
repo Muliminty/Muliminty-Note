@@ -1,8 +1,8 @@
 {
-  "cssTheme": "Atom",
+  "cssTheme": "Blue Topaz",
   "nativeMenus": false,
   "theme": "system",
-  "accentColor": "#09a6fb",
+  "accentColor": "#00466b",
   "enabledCssSnippets": [
     "nav-folder-title-icon",
     "hide-build-folders"
