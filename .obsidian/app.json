@@ -1,7 +1,7 @@
 {
   "attachmentFolderPath": "./img",
   "propertiesInDocument": "hidden",
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "relative",
   "newFileLocation": "folder",
   "newFileFolderPath": "碎片整理/小记",
   "alwaysUpdateLinks": true,

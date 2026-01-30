@@ -84,7 +84,23 @@
     "03-服务端/04-部署与运维/容器化/Docker/!小记": "03-服务端_04-部署与运维_容器化_docker_!小记.json",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/未命名.md": "03-服务端_04-部署与运维_容器化_docker_!小记_未命名.md.json",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/docker compose build.md": "03-服务端_04-部署与运维_容器化_docker_!小记_docker_compose_build.md.json",
-    "03-服务端/04-部署与运维/容器化/Docker/!小记/快速上手.md": "03-服务端_04-部署与运维_容器化_docker_!小记_快速上手.md.json"
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/快速上手.md": "03-服务端_04-部署与运维_容器化_docker_!小记_快速上手.md.json",
+    "03-服务端/04-部署与运维/容器化/Docker/05-Docker-Compose/03-Compose基础.md": "03-服务端_04-部署与运维_容器化_docker_05-docker-compose_03-compose基础.md.json",
+    "03-服务端/04-部署与运维/容器化/Docker/05-Docker-Compose/01-Compose基础.md": "03-服务端_04-部署与运维_容器化_docker_05-docker-compose_01-compose基础.md.json",
+    "03-服务端/04-部署与运维/容器化/Docker/05-Docker-Compose/01-多服务编排实践.md": "03-服务端_04-部署与运维_容器化_docker_05-docker-compose_01-多服务编排实践.md.json",
+    "03-服务端/04-部署与运维/容器化/Docker/05-Docker-Compose/03-多服务编排实践.md": "03-服务端_04-部署与运维_容器化_docker_05-docker-compose_03-多服务编排实践.md.json",
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/批注.md": "03-服务端_04-部署与运维_容器化_docker_!小记_批注.md.json",
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/未命名": "03-服务端_04-部署与运维_容器化_docker_!小记_未命名.json",
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/批注": "03-服务端_04-部署与运维_容器化_docker_!小记_批注.json",
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/批注/未命名.md": "03-服务端_04-部署与运维_容器化_docker_!小记_批注_未命名.md.json",
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/批注/20260130运行交互式容器.md": "03-服务端_04-部署与运维_容器化_docker_!小记_批注_20260130运行交互式容器.md.json",
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/批注/20260130-运行交互式容器.md": "03-服务端_04-部署与运维_容器化_docker_!小记_批注_20260130-运行交互式容器.md.json",
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/创建 ubuntu 容器.md": "03-服务端_04-部署与运维_容器化_docker_!小记_创建_ubuntu_容器.md.json",
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/vscode.md": "03-服务端_04-部署与运维_容器化_docker_!小记_vscode.md.json",
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/vscode ssh ubuntu 容器.md": "03-服务端_04-部署与运维_容器化_docker_!小记_vscode_ssh_ubuntu_容器.md.json",
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/配置 SSH + VSCode.md": "03-服务端_04-部署与运维_容器化_docker_!小记_配置_ssh_+_vscode.md.json",
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/收集箱": "03-服务端_04-部署与运维_容器化_docker_!小记_收集箱.json",
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/收集箱/配置 SSH + VSCode.md": "03-服务端_04-部署与运维_容器化_docker_!小记_收集箱_配置_ssh_+_vscode.md.json"
   },
-  "lastUpdated": 1769250137693
+  "lastUpdated": 1769760184769
 }
