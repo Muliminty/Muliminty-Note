@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-服务端/04-部署与运维/容器化/Docker/!小记/收集箱/配置 SSH + VSCode.md",
-                "mode": "preview",
+                "file": "01-计算机基础/03-操作系统/02-Linux/Linux 文件系统目录树.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "配置 SSH + VSCode"
+              "title": "Linux 文件系统目录树"
             }
           }
         ]
@@ -103,8 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5,
-    "collapsed": true
+    "width": 287.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -120,13 +119,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-服务端/04-部署与运维/容器化/Docker/!小记/收集箱/配置 SSH + VSCode.md",
+                "file": "01-计算机基础/03-操作系统/02-Linux/Linux 文件系统目录树.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "配置 SSH + VSCode 的大纲"
+              "title": "Linux 文件系统目录树 的大纲"
             }
           },
           {
@@ -161,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-服务端/04-部署与运维/容器化/Docker/!小记/收集箱/配置 SSH + VSCode.md",
+                "file": "01-计算机基础/03-操作系统/02-Linux/Linux 文件系统目录树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +170,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "配置 SSH + VSCode 的反向链接列表"
+              "title": "Linux 文件系统目录树 的反向链接列表"
             }
           },
           {
@@ -180,12 +179,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-服务端/04-部署与运维/容器化/Docker/!小记/收集箱/配置 SSH + VSCode.md",
+                "file": "01-计算机基础/03-操作系统/02-Linux/Linux 文件系统目录树.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "配置 SSH + VSCode 的出链列表"
+              "title": "Linux 文件系统目录树 的出链列表"
             }
           },
           {
@@ -207,7 +206,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 335.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,7 +230,9 @@
   },
   "active": "04bcc0512244090c",
   "lastOpenFiles": [
+    "01-计算机基础/03-操作系统/02-Linux/部署实战.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/收集箱/配置 SSH + VSCode.md",
+    "01-计算机基础/03-操作系统/02-Linux/Linux 文件系统目录树.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/未命名.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/批注/20260130-运行交互式容器.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/收集箱",
@@ -257,8 +259,6 @@
     "碎片整理/Excalidraw/Drawing 2026-01-29 22.21.22.excalidraw.md",
     "03-服务端/04-部署与运维/容器化/Docker/09-故障排查/03-故障诊断工具.md",
     "03-服务端/04-部署与运维/容器化/Docker/09-故障排查/02-调试技巧.md",
-    "03-服务端/04-部署与运维/容器化/Docker/09-故障排查/01-常见问题排查.md",
-    "03-服务端/04-部署与运维/容器化/Docker/08-生产环境部署/04-CI-CD集成.md",
     "rename_docker_files.py",
     "未命名.canvas",
     "碎片整理/Excalidraw",
