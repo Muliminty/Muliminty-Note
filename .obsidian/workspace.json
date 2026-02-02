@@ -228,6 +228,7 @@
   },
   "active": "3da6fb7cfa5813f7",
   "lastOpenFiles": [
+    "00-经验技巧/HTTPS 配置指南（腾讯云证书）.md",
     "00-经验技巧/ngnix 部署笔记.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/快速上手.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/Ubuntu 容器并配置 SSH + VSCode.md",
@@ -255,7 +256,6 @@
     "03-服务端/04-部署与运维/容器化/Docker/05-Docker-Compose/01-Compose基础.md",
     "03-服务端/04-部署与运维/容器化/Docker/05-Docker-Compose/03-多服务编排实践.md",
     "03-服务端/04-部署与运维/容器化/Docker/05-Docker-Compose/02-Compose高级特性.md",
-    "00-前端体系/02-框架进阶/React/!MOC-React.md",
     "数据库.base",
     "rename_docker_files.py",
     "未命名.canvas",
