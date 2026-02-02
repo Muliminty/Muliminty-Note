@@ -12,5 +12,6 @@
   "blue-topaz-theme@@tab-title-bar-position": false,
   "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-bt-default",
   "blue-topaz-theme@@search-bar-style-option": "default-search-bar",
-  "blue-topaz-theme@@view-button-front": true
+  "blue-topaz-theme@@view-button-front": true,
+  "blue-topaz-theme@@plain-file-title": true
 }
