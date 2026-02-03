@@ -87,6 +87,19 @@ COPY package*.json ./
 COPY src/ /app/src/
 ```
 
+```dockerfile
+# 基本语法
+COPY <源路径> <目标路径>
+
+# 示例
+COPY package.json /app/package.json      # 复制并重命名
+COPY package.json /app/                  # 复制到目录，保持原名
+COPY src/ /app/src/                      # 复制整个目录
+COPY . /app/                             # 复制所有
+COPY *.js /app/                          # 通配符
+COPY ["file1", "file2", "/target/"]      # JSON 格式（包含空格时用）
+```
+
 **区别**：
 - `COPY`：只复制本地文件，更明确
 - `ADD`：支持 URL 和自动解压，但行为不够明确

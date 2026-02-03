@@ -1,63 +1,14 @@
 {
   "items": [
     {
-      "type": "group",
-      "ctime": 1745547584890,
-      "items": [
-        {
-          "type": "folder",
-          "ctime": 1745547603562,
-          "path": "00-前端/框架生态/React"
-        },
-        {
-          "type": "folder",
-          "ctime": 1747357657036,
-          "path": "碎片整理/剪藏"
-        },
-        {
-          "type": "folder",
-          "ctime": 1747357668278,
-          "path": "碎片整理/小记"
-        }
-      ],
-      "title": "笔记"
+      "type": "folder",
+      "ctime": 1770082651121,
+      "path": "03-服务端/04-部署与运维/容器化/Docker"
     },
     {
-      "type": "group",
-      "ctime": 1745547588739,
-      "items": [
-        {
-          "type": "url",
-          "ctime": 1740016623939,
-          "url": "https://juejin.cn/",
-          "title": "稀土掘金"
-        },
-        {
-          "type": "url",
-          "ctime": 1740120719842,
-          "url": "https://www.zhihu.com/?theme=dark",
-          "title": "知乎"
-        },
-        {
-          "type": "url",
-          "ctime": 1740124642835,
-          "url": "https://interview.poetries.top/",
-          "title": "前端进阶之旅"
-        },
-        {
-          "type": "url",
-          "ctime": 1740128708790,
-          "url": "https://weread.qq.com/",
-          "title": "微信读书"
-        },
-        {
-          "type": "url",
-          "ctime": 1745082145029,
-          "url": "https://leetcode.cn/",
-          "title": "LeetCode"
-        }
-      ],
-      "title": "网站"
+      "type": "folder",
+      "ctime": 1770082767441,
+      "path": "03-服务端/02-Web服务器/nginx"
     }
   ]
 }

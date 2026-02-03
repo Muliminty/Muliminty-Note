@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-经验技巧/ngnix 部署笔记.md",
-                "mode": "source",
+                "file": "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用/01-多阶段构建.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ngnix 部署笔记"
-            }
-          },
-          {
-            "id": "e37d3e0b07e20921",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.zhihu.com/?theme=dark",
-                "title": "(27 封私信 / 80 条消息) 首页 - 知乎",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "(27 封私信 / 80 条消息) 首页 - 知乎"
+              "title": "01-多阶段构建"
             }
           }
         ]
@@ -133,13 +119,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-经验技巧/ngnix 部署笔记.md",
+                "file": "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用/01-多阶段构建.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ngnix 部署笔记 的大纲"
+              "title": "01-多阶段构建 的大纲"
             }
           },
           {
@@ -188,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-经验技巧/ngnix 部署笔记.md",
+                "file": "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用/01-多阶段构建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +184,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "ngnix 部署笔记 的反向链接列表"
+              "title": "01-多阶段构建 的反向链接列表"
             }
           },
           {
@@ -207,12 +193,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-经验技巧/ngnix 部署笔记.md",
+                "file": "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用/01-多阶段构建.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "ngnix 部署笔记 的出链列表"
+              "title": "01-多阶段构建 的出链列表"
             }
           },
           {
@@ -234,7 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 443.5
+    "width": 502.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -255,45 +241,45 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "88c3fb10485abd77",
   "lastOpenFiles": [
-    "03-服务端/04-部署与运维/容器化/Docker/!小记/指令速查.md",
-    "03-服务端/04-部署与运维/容器化/Docker/!小记/快速上手.md",
-    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/01-安装与环境配置.md",
+    "03-服务端/04-部署与运维/容器化/Docker/03-容器管理/01-容器基础操作.md",
+    "03-服务端/04-部署与运维/容器化/Docker/03-容器管理/02-容器数据管理.md",
+    "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/05-Dockerfile编写指南.md",
+    "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/03-镜像基础操作.md",
+    "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/04-镜像优化策略.md",
+    "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/02-镜像构建实践.md",
+    "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用/01-多阶段构建.md",
     "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/03-基本命令.md",
     "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/02-核心概念.md",
+    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/01-安装与环境配置.md",
+    "03-服务端/02-Web服务器/nginx/01-基础入门/核心概念.md",
+    "03-服务端/02-Web服务器/nginx/01-基础入门/安装与环境配置.md",
+    "03-服务端/02-Web服务器/nginx/03-核心功能/虚拟主机配置.md",
+    "03-服务端/02-Web服务器/nginx/03-核心功能/静态文件服务.md",
+    "03-服务端/02-Web服务器/nginx/01-基础入门/基本命令.md",
+    "03-服务端/02-Web服务器/nginx/03-核心功能/负载均衡.md",
+    "03-服务端/02-Web服务器/nginx/03-核心功能/反向代理.md",
+    "03-服务端/02-Web服务器/nginx/02-配置管理/配置检查与热更新.md",
+    "03-服务端/02-Web服务器/nginx/02-配置管理/变量使用.md",
+    "00-经验技巧/HTTPS 配置指南（腾讯云证书）.md",
+    "03-服务端/02-Web服务器/nginx/02-配置管理/配置文件结构.md",
+    "00-经验技巧/ngnix 部署笔记.md",
+    "03-服务端/02-Web服务器/nginx/!小记",
+    "03-服务端/02-Web服务器/nginx/09-故障排查",
+    "03-服务端/02-Web服务器/nginx/08-部署实践",
+    "03-服务端/02-Web服务器/nginx/07-日志与监控",
+    "03-服务端/02-Web服务器/nginx/06-安全",
+    "03-服务端/02-Web服务器/nginx/05-性能优化",
+    "03-服务端/02-Web服务器/nginx/04-高级功能",
+    "03-服务端/02-Web服务器/nginx/03-核心功能",
+    "03-服务端/02-Web服务器/nginx/02-配置管理",
+    "03-服务端/02-Web服务器/nginx/01-基础入门",
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/指令速查.md",
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/快速上手.md",
     "03-服务端/04-部署与运维/容器化/Docker/05-Docker-Compose/01-Compose基础.md",
     "00-经验技巧/MemoBox-部署方案与实践.md",
-    "00-经验技巧/ngnix 部署笔记.md",
-    "03-服务端/04-部署与运维/容器化/Docker/!小记/volumes.md",
-    "碎片整理/Excalidraw/Drawing 2026-01-29 22.21.22.excalidraw.md",
-    "碎片整理/Excalidraw/Drawing 2026-01-29 22.13.19.excalidraw.md",
-    "碎片整理/Excalidraw/Drawing 2026-02-02 16.03.12.excalidraw.md",
-    "00-经验技巧/docker调试.md",
-    "00-经验技巧/docker调试",
-    "00-经验技巧/HTTPS 配置指南（腾讯云证书）.md",
-    "03-服务端/04-部署与运维/容器化/Docker/!小记/Ubuntu 容器并配置 SSH + VSCode.md",
-    "03-服务端/04-部署与运维/容器化/Docker/!小记/vscode ssh ubuntu 容器.md",
-    "00-前端体系/前端体系分析报告.md",
-    "01-计算机基础/!MOC-计算机基础.md",
-    "02-代码管理/GitHub开源贡献指南.md",
-    "01-计算机基础/03-操作系统/03-WSL/04-常见问题/最佳实践.md",
-    "01-计算机基础/04-计算机网络/05-网络安全/14-SSH协议.md",
-    "01-计算机基础/04-计算机网络/08-实践应用/07-防火墙配置实践.md",
-    "01-计算机基础/03-操作系统/02-Linux/Linux 文件系统目录树.md",
-    "01-计算机基础/03-操作系统/02-Linux/部署实战.md",
-    "03-服务端/04-部署与运维/容器化/Docker/!小记/收集箱/配置 SSH + VSCode.md",
-    "03-服务端/04-部署与运维/容器化/Docker/!小记/批注/20260130-运行交互式容器.md",
-    "03-服务端/04-部署与运维/容器化/Docker/!小记/收集箱",
-    "03-服务端/04-部署与运维/容器化/Docker/!小记/批注",
-    "数据库.base",
-    "rename_docker_files.py",
     "未命名.canvas",
-    "碎片整理/Excalidraw",
-    "碎片整理",
-    "01-计算机基础/03-操作系统/03-WSL/02-配置与管理",
-    "01-计算机基础/03-操作系统/03-WSL/04-常见问题",
-    "01-计算机基础/03-操作系统/03-WSL/03-高级使用",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/async-process-model.png",
