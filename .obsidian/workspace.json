@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "9a732816887f5129",
+        "id": "aca38cf48b11449a",
         "type": "tabs",
         "children": [
           {
-            "id": "3da6fb7cfa5813f7",
+            "id": "88c3fb10485abd77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-服务端/04-部署与运维/容器化/Docker/!小记/指令速查.md",
-                "mode": "preview",
+                "file": "00-经验技巧/ngnix 部署笔记.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "指令速查"
+              "title": "ngnix 部署笔记"
+            }
+          },
+          {
+            "id": "e37d3e0b07e20921",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.zhihu.com/?theme=dark",
+                "title": "(27 封私信 / 80 条消息) 首页 - 知乎",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "(27 封私信 / 80 条消息) 首页 - 知乎"
             }
           }
         ]
@@ -68,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ssh",
+                "query": "ngnix",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -119,13 +133,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-服务端/04-部署与运维/容器化/Docker/!小记/指令速查.md",
+                "file": "00-经验技巧/ngnix 部署笔记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "指令速查 的大纲"
+              "title": "ngnix 部署笔记 的大纲"
+            }
+          },
+          {
+            "id": "a8b63ca7492536c8",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://chat.deepseek.com/a/chat/s/50633cc3-69fb-45f0-84b8-19559585d9c2",
+                "title": "docker - DeepSeek",
+                "mode": "blank"
+              },
+              "icon": "globe-2",
+              "title": "docker - DeepSeek"
             }
           },
           {
@@ -160,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-服务端/04-部署与运维/容器化/Docker/!小记/指令速查.md",
+                "file": "00-经验技巧/ngnix 部署笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +198,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "指令速查 的反向链接列表"
+              "title": "ngnix 部署笔记 的反向链接列表"
             }
           },
           {
@@ -179,12 +207,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-服务端/04-部署与运维/容器化/Docker/!小记/指令速查.md",
+                "file": "00-经验技巧/ngnix 部署笔记.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "指令速查 的出链列表"
+              "title": "ngnix 部署笔记 的出链列表"
             }
           },
           {
@@ -201,11 +229,12 @@
               "title": "添加笔记属性"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 443.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,13 +255,23 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "3da6fb7cfa5813f7",
+  "active": "b76d5d4c5f29b876",
   "lastOpenFiles": [
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/指令速查.md",
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/快速上手.md",
+    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/01-安装与环境配置.md",
+    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/03-基本命令.md",
+    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/02-核心概念.md",
+    "03-服务端/04-部署与运维/容器化/Docker/05-Docker-Compose/01-Compose基础.md",
+    "00-经验技巧/MemoBox-部署方案与实践.md",
+    "00-经验技巧/ngnix 部署笔记.md",
+    "03-服务端/04-部署与运维/容器化/Docker/!小记/volumes.md",
+    "碎片整理/Excalidraw/Drawing 2026-01-29 22.21.22.excalidraw.md",
+    "碎片整理/Excalidraw/Drawing 2026-01-29 22.13.19.excalidraw.md",
+    "碎片整理/Excalidraw/Drawing 2026-02-02 16.03.12.excalidraw.md",
     "00-经验技巧/docker调试.md",
     "00-经验技巧/docker调试",
     "00-经验技巧/HTTPS 配置指南（腾讯云证书）.md",
-    "00-经验技巧/ngnix 部署笔记.md",
-    "03-服务端/04-部署与运维/容器化/Docker/!小记/快速上手.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/Ubuntu 容器并配置 SSH + VSCode.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/vscode ssh ubuntu 容器.md",
     "00-前端体系/前端体系分析报告.md",
@@ -246,17 +285,7 @@
     "03-服务端/04-部署与运维/容器化/Docker/!小记/收集箱/配置 SSH + VSCode.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/批注/20260130-运行交互式容器.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/收集箱",
-    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/02-核心概念.md",
-    "03-服务端/04-部署与运维/容器化/Docker/!小记/Docker Compose.md",
     "03-服务端/04-部署与运维/容器化/Docker/!小记/批注",
-    "03-服务端/04-部署与运维/容器化/Docker/!小记/批注.md",
-    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/01-安装与环境配置.md",
-    "03-服务端/04-部署与运维/容器化/Docker/!小记/指令速查.md",
-    "03-服务端/04-部署与运维/容器化/Docker/README.md",
-    "03-服务端/04-部署与运维/容器化/Docker/!MOC-Docker.md",
-    "03-服务端/04-部署与运维/容器化/Docker/05-Docker-Compose/04-Compose文件编写指南.md",
-    "03-服务端/04-部署与运维/容器化/Docker/05-Docker-Compose/01-Compose基础.md",
-    "03-服务端/04-部署与运维/容器化/Docker/05-Docker-Compose/03-多服务编排实践.md",
     "数据库.base",
     "rename_docker_files.py",
     "未命名.canvas",
