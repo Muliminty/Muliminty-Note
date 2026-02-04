@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用/01-多阶段构建.md",
+                "file": "00-前端体系/01-基础入门/CSS/布局-Flex-Grid.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-多阶段构建"
+              "title": "布局-Flex-Grid"
+            }
+          },
+          {
+            "id": "608dcdb5a9ca81eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "f672ab8ac32c0f13",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.zhihu.com/?theme=dark",
+                "title": "(27 封私信 / 80 条消息) 首页 - 知乎",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "(27 封私信 / 80 条消息) 首页 - 知乎"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,13 +148,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用/01-多阶段构建.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "01-多阶段构建 的大纲"
+              "title": "README 的大纲"
             }
           },
           {
@@ -174,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用/01-多阶段构建.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +213,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "01-多阶段构建 的反向链接列表"
+              "title": "README 的反向链接列表"
             }
           },
           {
@@ -193,12 +222,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用/01-多阶段构建.md",
+                "file": "README.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "01-多阶段构建 的出链列表"
+              "title": "README 的出链列表"
             }
           },
           {
@@ -220,7 +249,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 502.5
+    "width": 340.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,12 +270,20 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "88c3fb10485abd77",
+  "active": "608dcdb5a9ca81eb",
   "lastOpenFiles": [
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/04-实战案例/前端项目构建实战.md",
+    "index.md",
+    "00-前端体系/01-基础入门/CSS/布局-Flex-Grid.md",
+    "00-前端体系/01-基础入门/README.md",
+    "书签整理.md",
+    "00-前端体系/01-基础入门/CSS/Sass-7-1架构.md",
+    "03-服务端/02-Web服务器/nginx/01-基础入门/安装与环境配置.md",
+    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Webpack/06-开发环境配置.md",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/03-常用插件/常用插件.md",
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/01-基础入门/基本使用.md",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/02-核心概念/核心概念.md",
+    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/01-基础入门/基本使用.md",
+    "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用/01-多阶段构建.md",
+    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/04-实战案例/前端项目构建实战.md",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/01-基础入门/Gulp-简介与安装.md",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/07-迁移升级",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/06-性能优化",
@@ -262,21 +299,13 @@
     "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/03-镜像基础操作.md",
     "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/04-镜像优化策略.md",
     "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/02-镜像构建实践.md",
-    "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用/01-多阶段构建.md",
     "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/03-基本命令.md",
     "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/02-核心概念.md",
     "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/01-安装与环境配置.md",
     "03-服务端/02-Web服务器/nginx/01-基础入门/核心概念.md",
-    "03-服务端/02-Web服务器/nginx/01-基础入门/安装与环境配置.md",
     "03-服务端/02-Web服务器/nginx/03-核心功能/虚拟主机配置.md",
     "03-服务端/02-Web服务器/nginx/03-核心功能/静态文件服务.md",
     "03-服务端/02-Web服务器/nginx/01-基础入门/基本命令.md",
-    "03-服务端/02-Web服务器/nginx/03-核心功能/负载均衡.md",
-    "03-服务端/02-Web服务器/nginx/03-核心功能/反向代理.md",
-    "03-服务端/02-Web服务器/nginx/02-配置管理/配置检查与热更新.md",
-    "03-服务端/02-Web服务器/nginx/02-配置管理/变量使用.md",
-    "00-经验技巧/HTTPS 配置指南（腾讯云证书）.md",
-    "03-服务端/02-Web服务器/nginx/02-配置管理/配置文件结构.md",
     "03-服务端/02-Web服务器/nginx/!小记",
     "03-服务端/02-Web服务器/nginx/09-故障排查",
     "未命名.canvas",
