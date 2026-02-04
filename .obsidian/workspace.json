@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "aca38cf48b11449a",
+        "id": "14357ddbaf38aeba",
         "type": "tabs",
         "children": [
           {
-            "id": "88c3fb10485abd77",
+            "id": "b7c189edc6db443f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-前端体系/01-基础入门/CSS/布局-Flex-Grid.md",
+                "file": "01-计算机基础/06-数据库/!MOC-数据库.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "布局-Flex-Grid"
-            }
-          },
-          {
-            "id": "608dcdb5a9ca81eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "f672ab8ac32c0f13",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.zhihu.com/?theme=dark",
-                "title": "(27 封私信 / 80 条消息) 首页 - 知乎",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "(27 封私信 / 80 条消息) 首页 - 知乎"
+              "title": "!MOC-数据库"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 243.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -148,13 +119,54 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "5e78c8bc47154f1a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/muliminty/project/Muliminty-Note",
+                  "focus": false,
+                  "profile": {
+                    "args": [
+                      "--login"
+                    ],
+                    "executable": "/bin/zsh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": null
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "终端：SQL Database Notes"
             }
           },
           {
@@ -203,7 +215,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +224,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "README 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -222,12 +233,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "README 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -249,7 +259,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.5
+    "width": 617.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,21 +280,36 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "608dcdb5a9ca81eb",
+  "active": "5e78c8bc47154f1a",
   "lastOpenFiles": [
-    "index.md",
+    "01-计算机基础/06-数据库/!MOC-数据库.md",
+    "01-计算机基础/06-数据库/01-SQL基础/10-SQL性能优化.md",
+    "01-计算机基础/06-数据库/01-SQL基础/03-数据操作语言.md",
+    "01-计算机基础/06-数据库/01-SQL基础/09-视图与存储过程.md",
+    "01-计算机基础/06-数据库/01-SQL基础/02-数据查询基础.md",
+    "01-计算机基础/06-数据库/01-SQL基础/08-事务与并发控制.md",
+    "01-计算机基础/06-数据库/01-SQL基础/07-约束与索引.md",
+    "01-计算机基础/06-数据库/01-SQL基础/06-数据定义语言.md",
+    "01-计算机基础/06-数据库/01-SQL基础/04-高级查询技巧.md",
+    "01-计算机基础/06-数据库/01-SQL基础/05-聚合与分组.md",
+    "00-前端体系/02-框架进阶/Next.js/04-数据与后端/05-数据库集成指南.md",
+    "01-计算机基础/06-数据库/01-SQL基础/01-SQL简介与环境搭建.md",
+    "01-计算机基础/06-数据库/01-SQL基础",
+    "01-计算机基础/06-数据库",
+    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/事件机制.md",
+    "00-前端体系/01-基础入门/HTML/!MOC-HTML.md",
+    "碎片整理/Excalidraw/home.md",
+    "碎片整理/Excalidraw/Drawing 2026-01-29 22.21.22.excalidraw.md",
     "00-前端体系/01-基础入门/CSS/布局-Flex-Grid.md",
-    "00-前端体系/01-基础入门/README.md",
-    "书签整理.md",
+    "00-前端体系/01-基础入门/CSS/!MOC-CSS.md",
+    "00-前端体系/01-基础入门/CSS/CSS过渡动画属性.md",
     "00-前端体系/01-基础入门/CSS/Sass-7-1架构.md",
-    "03-服务端/02-Web服务器/nginx/01-基础入门/安装与环境配置.md",
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Webpack/06-开发环境配置.md",
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/03-常用插件/常用插件.md",
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/02-核心概念/核心概念.md",
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/01-基础入门/基本使用.md",
-    "03-服务端/04-部署与运维/容器化/Docker/04-Dockerfile高级应用/01-多阶段构建.md",
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/04-实战案例/前端项目构建实战.md",
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/01-基础入门/Gulp-简介与安装.md",
+    "00-前端体系/01-基础入门/README.md",
+    "03-服务端/04-部署与运维/静态网站部署/Quartz定制教程.md",
+    "README.md",
+    "index.md",
+    "03-服务端/04-部署与运维/静态网站部署/Quartz完整修复指南.md",
+    "03-服务端/04-部署与运维/静态网站部署/GitHub-Pages部署指南.md",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/07-迁移升级",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/06-性能优化",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/05-最佳实践",
@@ -293,21 +318,6 @@
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/02-核心概念",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/01-基础入门",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp",
-    "03-服务端/04-部署与运维/容器化/Docker/03-容器管理/01-容器基础操作.md",
-    "03-服务端/04-部署与运维/容器化/Docker/03-容器管理/02-容器数据管理.md",
-    "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/05-Dockerfile编写指南.md",
-    "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/03-镜像基础操作.md",
-    "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/04-镜像优化策略.md",
-    "03-服务端/04-部署与运维/容器化/Docker/02-镜像管理/02-镜像构建实践.md",
-    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/03-基本命令.md",
-    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/02-核心概念.md",
-    "03-服务端/04-部署与运维/容器化/Docker/01-基础入门/01-安装与环境配置.md",
-    "03-服务端/02-Web服务器/nginx/01-基础入门/核心概念.md",
-    "03-服务端/02-Web服务器/nginx/03-核心功能/虚拟主机配置.md",
-    "03-服务端/02-Web服务器/nginx/03-核心功能/静态文件服务.md",
-    "03-服务端/02-Web服务器/nginx/01-基础入门/基本命令.md",
-    "03-服务端/02-Web服务器/nginx/!小记",
-    "03-服务端/02-Web服务器/nginx/09-故障排查",
     "未命名.canvas",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",
