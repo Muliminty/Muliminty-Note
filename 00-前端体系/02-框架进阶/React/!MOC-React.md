@@ -2,7 +2,7 @@
 
 > React 是一个用于构建用户界面的 JavaScript 库，采用组件化开发模式。
 > 
-> **学习路径**：学习 React 前需要掌握 [JavaScript 基础](../../01-基础入门/JavaScript/!MOC-javascript.md)。React 通常配合 [状态管理](../状态管理/!MOC-状态管理.md) 使用，推荐学习 [TypeScript](../TypeScript/!MOC-TypeScript.md) 增强类型安全。
+> **学习路径**：学习 React 前需要掌握 [JavaScript 基础](../../01-基础入门/JavaScript/!MOC-javascript.md)。React 通常配合 [状态管理](../状态管理/!MOC-状态管理.md) 使用，推荐学习 [TypeScript](../../01-基础入门/TypeScript/!MOC-TypeScript.md) 增强类型安全。
 > 
 > **参考资源**：本知识体系参考了 [Dan Abramov 的博客](https://overreacted.io/)（React 核心团队成员）和 [React 官方文档](https://react.dev/)。
 
@@ -877,7 +877,7 @@
 ## 相关链接
 
 - [JavaScript 基础](../../01-基础入门/JavaScript/!MOC-javascript.md) - React 前置知识
-- [TypeScript](../TypeScript/!MOC-TypeScript.md) - 类型安全
+- [TypeScript](../../01-基础入门/TypeScript/!MOC-TypeScript.md) - 类型安全
 - [状态管理](../状态管理/!MOC-状态管理.md) - 状态管理方案
 - [性能优化](../../04-质量保障/性能/!MOC-性能.md) - 性能优化技巧
 - [测试](../../04-质量保障/测试/!MOC-测试.md) - 测试方法

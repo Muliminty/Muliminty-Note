@@ -82,7 +82,7 @@
 - [Pinia](./02-框架进阶/状态管理/03-Vue生态/Pinia.md) — Pinia 状态管理（Vue 3 推荐）
 
 #### 3. TypeScript（推荐）
-- [TypeScript-MOC](./02-框架进阶/TypeScript/!MOC-TypeScript.md) — TypeScript 完整知识体系
+- [TypeScript-MOC](01-基础入门/TypeScript/!MOC-TypeScript.md) — TypeScript 完整知识体系
 - [编译时类型设计](./02-框架进阶/TypeScript/编译时类型设计.md) — 类型系统设计
 - [运行时类型保护与模式](./02-框架进阶/TypeScript/运行时类型保护与模式.md) — 类型安全实践
 
@@ -207,7 +207,7 @@
 - **HTML**: [HTML-MOC](./01-基础入门/HTML/!MOC-HTML.md)
 - **CSS**: [CSS-MOC](./01-基础入门/CSS/!MOC-CSS.md)
 - **JavaScript**: [JavaScript MOC](./01-基础入门/JavaScript/!MOC-javascript.md)
-- **TypeScript**: [TypeScript-MOC](./02-框架进阶/TypeScript/!MOC-TypeScript.md)
+- **TypeScript**: [TypeScript-MOC](01-基础入门/TypeScript/!MOC-TypeScript.md)
 
 #### 2. 前端框架
 - **React**: [React-MOC](./02-框架进阶/React/!MOC-React.md)

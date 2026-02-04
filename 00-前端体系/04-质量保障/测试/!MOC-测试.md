@@ -11,7 +11,7 @@
 - [单元测试（Jest/Vitest）](./单元测试.md) — 单元测试实践（测试 [JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md) 和框架组件）
 - [集成测试（Testing Library/Cypress）](./集成测试.md) — 集成测试方案（测试 [React](../../02-框架进阶/React/!MOC-React.md) 或 [Vue](../../02-框架进阶/Vue/!MOC-Vue.md) 组件）
 - [端到端测试（Playwright/Cypress）](./端到端测试.md) — E2E 测试实践（测试完整应用流程）
-- [静态分析与类型安全](./静态分析与类型安全.md) — 静态代码分析（配合 [TypeScript](../../02-框架进阶/TypeScript/!MOC-TypeScript.md) 使用）
+- [静态分析与类型安全](./静态分析与类型安全.md) — 静态代码分析（配合 [TypeScript](../../01-基础入门/TypeScript/!MOC-TypeScript.md) 使用）
 
 ---
 
@@ -37,7 +37,7 @@
 
 ### 静态分析
 - ESLint（详见 [代码规范](../../03-工程化实践/工程化/代码规范.md)）
-- TypeScript 类型检查（配合 [TypeScript](../../02-框架进阶/TypeScript/!MOC-TypeScript.md) 使用）
+- TypeScript 类型检查（配合 [TypeScript](../../01-基础入门/TypeScript/!MOC-TypeScript.md) 使用）
 - 代码质量检查
 
 ---

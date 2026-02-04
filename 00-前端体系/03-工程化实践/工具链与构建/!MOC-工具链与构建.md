@@ -38,7 +38,7 @@
 代码转换、编译和处理的工具。
 
 #### 转译工具
-- [Babel转换管线](./02-编译工具/Babel转换管线.md) — 代码转换与编译（编译 [JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md) 和 [TypeScript](../../02-框架进阶/TypeScript/!MOC-TypeScript.md)）
+- [Babel转换管线](./02-编译工具/Babel转换管线.md) — 代码转换与编译（编译 [JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md) 和 [TypeScript](../../01-基础入门/TypeScript/!MOC-TypeScript.md)）
 - [TypeScript Compiler](./02-编译工具/TypeScript-Compiler.md) — TypeScript 官方编译器
 
 #### CSS 处理工具
@@ -179,7 +179,7 @@
 ### 前置知识
 
 - [JavaScript 基础](../../01-基础入门/JavaScript/!MOC-javascript.md) — JavaScript 基础知识
-- [TypeScript](../../02-框架进阶/TypeScript/!MOC-TypeScript.md) — TypeScript 类型系统
+- [TypeScript](../../01-基础入门/TypeScript/!MOC-TypeScript.md) — TypeScript 类型系统
 - [React](../../02-框架进阶/React/!MOC-React.md) / [Vue](../../02-框架进阶/Vue/!MOC-Vue.md) — 前端框架基础
 
 ### 相关主题

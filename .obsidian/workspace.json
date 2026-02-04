@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-计算机基础/06-数据库/01-SQL基础/01-SQL简介与环境搭建.md",
+                "file": "00-前端体系/01-基础入门/TypeScript/06-类型推断与守卫.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-SQL简介与环境搭建"
+              "title": "06-类型推断与守卫"
+            }
+          },
+          {
+            "id": "848af3bfe5c24780",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://go.itab.link/",
+                "title": "新标签页",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "新标签页"
             }
           }
         ]
@@ -103,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5,
-    "collapsed": true
+    "width": 243.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -129,8 +142,9 @@
             }
           },
           {
-            "id": "5e78c8bc47154f1a",
+            "id": "b98cfb38d66a83a4",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "terminal:terminal",
               "state": {
@@ -164,8 +178,9 @@
                   "serial": null
                 }
               },
+              "pinned": true,
               "icon": "terminal",
-              "title": "终端：SQL Database Notes"
+              "title": "终端：TypeScript Note Check"
             }
           },
           {
@@ -174,12 +189,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://chat.deepseek.com/a/chat/s/50633cc3-69fb-45f0-84b8-19559585d9c2",
-                "title": "docker - DeepSeek",
+                "url": "https://chat.deepseek.com/a/chat/s/35339312-95bf-48fa-898a-ad20e07c238b",
+                "title": "LLM定义及特点详解 - DeepSeek",
                 "mode": "blank"
               },
               "icon": "globe-2",
-              "title": "docker - DeepSeek"
+              "title": "LLM定义及特点详解 - DeepSeek"
             }
           },
           {
@@ -232,8 +247,22 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "5e78c8bc47154f1a",
+  "active": "b98cfb38d66a83a4",
   "lastOpenFiles": [
+    "00-前端体系/01-基础入门/TypeScript/06-类型推断与守卫.md",
+    "00-前端体系/01-基础入门/TypeScript/07-模块与声明文件.md",
+    "00-前端体系/01-基础入门/TypeScript/08-tsconfig配置.md",
+    "00-前端体系/01-基础入门/TypeScript/02-接口与类型别名.md",
+    "00-前端体系/01-基础入门/TypeScript/05-高级类型.md",
+    "00-前端体系/01-基础入门/TypeScript/04-泛型.md",
+    "00-前端体系/01-基础入门/TypeScript/03-函数类型.md",
+    "00-前端体系/01-基础入门/TypeScript/01-基础类型.md",
+    "00-前端体系/01-基础入门/TypeScript/!MOC-TypeScript.md",
+    "00-前端体系/02-框架进阶/README.md",
+    "00-前端体系/01-基础入门/README.md",
+    "03-服务端/02-Web服务器/nginx/01-基础入门/核心概念.md",
+    "03-服务端/02-Web服务器/nginx/01-基础入门/安装与环境配置.md",
+    "00-经验技巧/ngnix 部署笔记.md",
     "01-计算机基础/06-数据库/01-SQL基础/01-SQL简介与环境搭建.md",
     "01-计算机基础/06-数据库/!MOC-数据库.md",
     "01-计算机基础/06-数据库/01-SQL基础/10-SQL性能优化.md",
@@ -248,20 +277,6 @@
     "00-前端体系/02-框架进阶/Next.js/04-数据与后端/05-数据库集成指南.md",
     "01-计算机基础/06-数据库/01-SQL基础",
     "01-计算机基础/06-数据库",
-    "00-前端体系/01-基础入门/JavaScript/08-浏览器环境与DOM/事件机制.md",
-    "00-前端体系/01-基础入门/HTML/!MOC-HTML.md",
-    "碎片整理/Excalidraw/home.md",
-    "碎片整理/Excalidraw/Drawing 2026-01-29 22.21.22.excalidraw.md",
-    "00-前端体系/01-基础入门/CSS/布局-Flex-Grid.md",
-    "00-前端体系/01-基础入门/CSS/!MOC-CSS.md",
-    "00-前端体系/01-基础入门/CSS/CSS过渡动画属性.md",
-    "00-前端体系/01-基础入门/CSS/Sass-7-1架构.md",
-    "00-前端体系/01-基础入门/README.md",
-    "03-服务端/04-部署与运维/静态网站部署/Quartz定制教程.md",
-    "README.md",
-    "index.md",
-    "03-服务端/04-部署与运维/静态网站部署/Quartz完整修复指南.md",
-    "03-服务端/04-部署与运维/静态网站部署/GitHub-Pages部署指南.md",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/07-迁移升级",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/06-性能优化",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/05-最佳实践",

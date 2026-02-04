@@ -2,7 +2,7 @@
 
 > 基于 ECMAScript 官方规范的 JavaScript 知识体系索引
 > 
-> **学习路径**：JavaScript 是前端三大基础之一，与 [HTML](../HTML/!MOC-HTML.md) 和 [CSS](../CSS/!MOC-CSS.md) 配合使用。掌握 JavaScript 后，可以学习 [TypeScript](../../02-框架进阶/TypeScript/!MOC-TypeScript.md) 或前端框架（[React](../../02-框架进阶/React/!MOC-React.md)、[Vue](../../02-框架进阶/Vue/!MOC-Vue.md) 等）。
+> **学习路径**：JavaScript 是前端三大基础之一，与 [HTML](../HTML/!MOC-HTML.md) 和 [CSS](../CSS/!MOC-CSS.md) 配合使用。掌握 JavaScript 后，可以学习 [TypeScript](../TypeScript/!MOC-TypeScript.md) 或前端框架（[React](../../02-框架进阶/React/!MOC-React.md)、[Vue](../../02-框架进阶/Vue/!MOC-Vue.md) 等）。
 > 
 > **参考规范**：[ECMAScript Language Specification](https://tc39.es/ecma262/)
 
@@ -220,7 +220,7 @@ JavaScript 测试和最佳实践：
 - [CSS MOC](../CSS/!MOC-CSS.md) — CSS 基础
 
 ### 进阶学习
-- [TypeScript MOC](../../02-框架进阶/TypeScript/!MOC-TypeScript.md) — JavaScript 的类型系统
+- [TypeScript MOC](../TypeScript/!MOC-TypeScript.md) — JavaScript 的类型系统
 - [React MOC](../../02-框架进阶/React/!MOC-React.md) — JavaScript 框架
 - [Vue MOC](../../02-框架进阶/Vue/!MOC-Vue.md) — JavaScript 框架
 
