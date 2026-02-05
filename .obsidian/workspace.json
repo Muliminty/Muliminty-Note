@@ -4,38 +4,101 @@
     "type": "split",
     "children": [
       {
-        "id": "14357ddbaf38aeba",
-        "type": "tabs",
+        "id": "8199c136f7091489",
+        "type": "split",
         "children": [
           {
-            "id": "b7c189edc6db443f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-前端体系/01-基础入门/TypeScript/06-类型推断与守卫.md",
-                "mode": "preview",
-                "source": false
+            "id": "911141ecfe20641d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f3867e9bab89f687",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "书签整理.md",
+                    "kanbanViewState": {
+                      "kanban-plugin": "board",
+                      "list-collapse": [
+                        false,
+                        false,
+                        false,
+                        false
+                      ]
+                    }
+                  },
+                  "icon": "lucide-trello",
+                  "title": "书签整理"
+                }
               },
-              "icon": "lucide-file",
-              "title": "06-类型推断与守卫"
-            }
+              {
+                "id": "ed7b65a6ef72b83a",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://claudecn.com/docs/claude-code/workflows/git-integration/",
+                    "title": "Git 集成 – Claude 中文 - Claude AI 开发技术社区",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Git 集成 – Claude 中文 - Claude AI 开发技术社区"
+                }
+              }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "848af3bfe5c24780",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://go.itab.link/",
-                "title": "新标签页",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "新标签页"
-            }
+            "id": "f1869635d4315f2f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bcfca5d07a6309ae",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/muliminty/project/Muliminty-Note",
+                      "focus": false,
+                      "profile": {
+                        "args": [
+                          "--login"
+                        ],
+                        "executable": "/bin/zsh",
+                        "followTheme": true,
+                        "name": "",
+                        "platforms": {
+                          "darwin": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": null
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "终端：✳ Claude Code"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -142,48 +205,6 @@
             }
           },
           {
-            "id": "b98cfb38d66a83a4",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/muliminty/project/Muliminty-Note",
-                  "focus": false,
-                  "profile": {
-                    "args": [
-                      "--login"
-                    ],
-                    "executable": "/bin/zsh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "终端：TypeScript Note Check"
-            }
-          },
-          {
             "id": "a8b63ca7492536c8",
             "type": "leaf",
             "state": {
@@ -191,7 +212,7 @@
               "state": {
                 "url": "https://chat.deepseek.com/a/chat/s/35339312-95bf-48fa-898a-ad20e07c238b",
                 "title": "LLM定义及特点详解 - DeepSeek",
-                "mode": "blank"
+                "mode": "webview"
               },
               "icon": "globe-2",
               "title": "LLM定义及特点详解 - DeepSeek"
@@ -220,13 +241,58 @@
               "icon": "highlighter",
               "title": "HiNote"
             }
+          },
+          {
+            "id": "d0264aa59c381266",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "13889cca736e6edd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "9eb766e1a7efd0ea",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 452.5
+    "width": 753.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,23 +306,31 @@
       "workspaces:管理工作区布局": true,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-kanban:创建新看板": false,
-      "obsidian-memos:Thino": false,
       "mxmind:Mxmind": true,
       "obsidian-git:Open Git source control": true,
       "hi-note:HiNote": false,
       "terminal:Open terminal": false
     }
   },
-  "active": "b98cfb38d66a83a4",
+  "active": "bcfca5d07a6309ae",
   "lastOpenFiles": [
+    "书签整理.md",
+    "数据库.base",
+    "index.md",
+    "README.md",
+    "碎片整理/结构优化.md",
+    "碎片整理/Excalidraw/home.md",
+    "05-AI CODEING/vibe code.md",
+    "05-AI CODEING",
+    "00-前端体系/01-基础入门/CSS/布局-Flex-Grid.md",
+    "00-前端体系/01-基础入门/TypeScript/02-接口与类型别名.md",
+    "00-前端体系/01-基础入门/TypeScript/04-泛型.md",
+    "00-前端体系/01-基础入门/TypeScript/01-基础类型.md",
     "00-前端体系/01-基础入门/TypeScript/06-类型推断与守卫.md",
     "00-前端体系/01-基础入门/TypeScript/07-模块与声明文件.md",
     "00-前端体系/01-基础入门/TypeScript/08-tsconfig配置.md",
-    "00-前端体系/01-基础入门/TypeScript/02-接口与类型别名.md",
     "00-前端体系/01-基础入门/TypeScript/05-高级类型.md",
-    "00-前端体系/01-基础入门/TypeScript/04-泛型.md",
     "00-前端体系/01-基础入门/TypeScript/03-函数类型.md",
-    "00-前端体系/01-基础入门/TypeScript/01-基础类型.md",
     "00-前端体系/01-基础入门/TypeScript/!MOC-TypeScript.md",
     "00-前端体系/02-框架进阶/README.md",
     "00-前端体系/01-基础入门/README.md",
@@ -267,14 +341,6 @@
     "01-计算机基础/06-数据库/!MOC-数据库.md",
     "01-计算机基础/06-数据库/01-SQL基础/10-SQL性能优化.md",
     "01-计算机基础/06-数据库/01-SQL基础/03-数据操作语言.md",
-    "01-计算机基础/06-数据库/01-SQL基础/09-视图与存储过程.md",
-    "01-计算机基础/06-数据库/01-SQL基础/02-数据查询基础.md",
-    "01-计算机基础/06-数据库/01-SQL基础/08-事务与并发控制.md",
-    "01-计算机基础/06-数据库/01-SQL基础/07-约束与索引.md",
-    "01-计算机基础/06-数据库/01-SQL基础/06-数据定义语言.md",
-    "01-计算机基础/06-数据库/01-SQL基础/04-高级查询技巧.md",
-    "01-计算机基础/06-数据库/01-SQL基础/05-聚合与分组.md",
-    "00-前端体系/02-框架进阶/Next.js/04-数据与后端/05-数据库集成指南.md",
     "01-计算机基础/06-数据库/01-SQL基础",
     "01-计算机基础/06-数据库",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/07-迁移升级",
@@ -283,8 +349,6 @@
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/04-实战案例",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/03-常用插件",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/02-核心概念",
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/01-基础入门",
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp",
     "未命名.canvas",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",

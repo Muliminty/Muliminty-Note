@@ -109,7 +109,17 @@
     "00-前端体系/02-框架进阶/TypeScript": "00-前端体系_02-框架进阶_typescript.json",
     "00-前端体系/01-基础入门/TypeScript": "00-前端体系_01-基础入门_typescript.json",
     "00-前端体系/02-框架进阶/TypeScript/!MOC-TypeScript.md": "00-前端体系_02-框架进阶_typescript_!moc-typescript.md.json",
-    "00-前端体系/01-基础入门/TypeScript/!MOC-TypeScript.md": "00-前端体系_01-基础入门_typescript_!moc-typescript.md.json"
+    "00-前端体系/01-基础入门/TypeScript/!MOC-TypeScript.md": "00-前端体系_01-基础入门_typescript_!moc-typescript.md.json",
+    "05-AI CODEING": "05-ai_codeing.json",
+    "05-AI CODEING/未命名.md": "05-ai_codeing_未命名.md.json",
+    "05-AI CODEING/ai 变成.md": "05-ai_codeing_ai_变成.md.json",
+    "05-AI CODEING/ai 编程.md": "05-ai_codeing_ai_编程.md.json",
+    "05-AI CODEING/ai 编程几千.md": "05-ai_codeing_ai_编程几千.md.json",
+    "05-AI CODEING/ai 编程攻略.md": "05-ai_codeing_ai_编程攻略.md.json",
+    "05-AI CODEING/VIBE 编程攻略.md": "05-ai_codeing_vibe_编程攻略.md.json",
+    "05-AI CODEING/vibe code.md": "05-ai_codeing_vibe_code.md.json",
+    "碎片整理/未命名.md": "碎片整理_未命名.md.json",
+    "碎片整理/结构优化.md": "碎片整理_结构优化.md.json"
   },
-  "lastUpdated": 1770187378802
+  "lastUpdated": 1770277008317
 }
