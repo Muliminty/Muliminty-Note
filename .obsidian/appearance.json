@@ -6,5 +6,6 @@
   "enabledCssSnippets": [
     "nav-folder-title-icon",
     "hide-build-folders"
-  ]
+  ],
+  "translucency": true
 }
