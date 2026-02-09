@@ -4,7 +4,8 @@
       "Bash(du:*)",
       "Bash(xargs:*)",
       "Bash(ls:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
