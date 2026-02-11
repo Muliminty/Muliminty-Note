@@ -6,7 +6,7 @@
       {
         "id": "ae67c6b9bae57c74",
         "type": "tabs",
-        "dimension": 77.64558547276143,
+        "dimension": 56.80061823802164,
         "children": [
           {
             "id": "b13bf59f30f6d184",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-AI CODEING/SDD规范驱动开发.md",
-                "mode": "source",
+                "file": "00-经验技巧/MemoBox-部署方案与实践.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SDD规范驱动开发"
+              "title": "MemoBox-部署方案与实践"
             }
           },
           {
@@ -41,7 +41,7 @@
       {
         "id": "2c7cb324673f7f91",
         "type": "tabs",
-        "dimension": 22.35441452723857,
+        "dimension": 43.19938176197836,
         "children": [
           {
             "id": "78191687b2f151f4",
@@ -167,8 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5,
-    "collapsed": true
+    "width": 302.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -302,16 +301,20 @@
   },
   "active": "b13bf59f30f6d184",
   "lastOpenFiles": [
-    "05-AI CODEING/SDD规范驱动开发.md",
+    "00-经验技巧/React-Context与自定义Hooks架构实战.md",
+    "00-经验技巧/ngnix 部署笔记.md",
+    "00-经验技巧/Antigravity 网络问题.md",
+    "00-经验技巧/apng-js使用教程.md",
+    "00-经验技巧/Cursor-使用技巧.md",
+    "00-经验技巧/docker调试.md",
     "05-AI CODEING/TDD.md",
+    "05-AI CODEING/SDD规范驱动开发.md",
+    "05-AI CODEING/AI生成文档与注释.md",
     "05-AI CODEING/AI辅助代码审查.md",
     "xx-归档/剪藏/AI 原生研发范式：从“代码中心”到“文档驱动”的演进.md",
-    "05-AI CODEING/AI生成文档与注释.md",
-    "00-经验技巧/Antigravity 网络问题.md",
     "05-AI CODEING/vibe code.md",
     "xx-归档/剪藏/大公司里怎样开发和部署前端代码？.md",
     "碎片整理/结构优化.md",
-    "00-经验技巧/Cursor-使用技巧.md",
     "00-经验技巧/README.md",
     "书签整理.md",
     "00-经验技巧/Warp-快捷键.md",
@@ -326,10 +329,6 @@
     "00-前端体系/01-基础入门/TypeScript/01-基础类型.md",
     "00-前端体系/01-基础入门/TypeScript/06-类型推断与守卫.md",
     "00-前端体系/01-基础入门/TypeScript/07-模块与声明文件.md",
-    "00-前端体系/01-基础入门/TypeScript/08-tsconfig配置.md",
-    "00-前端体系/01-基础入门/TypeScript/05-高级类型.md",
-    "00-前端体系/01-基础入门/TypeScript/03-函数类型.md",
-    "00-前端体系/01-基础入门/TypeScript/!MOC-TypeScript.md",
     "01-计算机基础/06-数据库/01-SQL基础",
     "01-计算机基础/06-数据库",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/07-迁移升级",
