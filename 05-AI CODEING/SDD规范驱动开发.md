@@ -1,5 +1,7 @@
 # SDD 规范驱动开发 — 实践指南
 
+Software Design Description（软件设计说明书）
+
 ## 开始前：先让 AI 知道项目长啥样
 
 别一上来就扔需求，AI 啥都不知道。
