@@ -4,88 +4,81 @@
     "type": "split",
     "children": [
       {
-        "id": "ae67c6b9bae57c74",
+        "id": "4944791589f6cfe1",
         "type": "tabs",
-        "dimension": 56.80061823802164,
         "children": [
           {
-            "id": "b13bf59f30f6d184",
+            "id": "f4eb44cd18d4078e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-经验技巧/MemoBox-部署方案与实践.md",
+                "file": "05-AI CODEING/TDD.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MemoBox-部署方案与实践"
+              "title": "TDD"
             }
           },
           {
-            "id": "4bcbb0aa3822c614",
+            "id": "f73b30d3003041c1",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://muliminty.github.io/Muliminty-Note/03-%E6%9C%8D%E5%8A%A1%E7%AB%AF/01-%E6%9C%8D%E5%8A%A1%E7%AB%AF%E8%AF%AD%E8%A8%80/",
-                "title": "文件夹: 03-服务端/01-服务端语言",
+                "url": "https://www.zhihu.com/",
+                "title": "首页 - 知乎",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "文件夹: 03-服务端/01-服务端语言"
+              "title": "首页 - 知乎"
             }
-          }
-        ]
-      },
-      {
-        "id": "2c7cb324673f7f91",
-        "type": "tabs",
-        "dimension": 43.19938176197836,
-        "children": [
+          },
           {
-            "id": "78191687b2f151f4",
+            "id": "0a1016ee40800cc9",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "terminal:terminal",
+              "type": "webviewer",
               "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/muliminty/project/Muliminty-Note",
-                  "focus": false,
-                  "profile": {
-                    "args": [
-                      "--login"
-                    ],
-                    "executable": "/bin/zsh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
+                "url": "https://www.zhihu.com/question/1975594481895101330",
+                "title": "过春节为什么没有以前那种浓浓的年味了？ - 知乎",
+                "mode": "webview"
               },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "终端：✳ AI开发范式"
+              "icon": "globe-2",
+              "title": "过春节为什么没有以前那种浓浓的年味了？ - 知乎"
+            }
+          },
+          {
+            "id": "93bb7a21e23bfd39",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+                "title": "Effective harnesses for long-running agents \\ Anthropic",
+                "mode": "reader"
+              },
+              "icon": "globe-2",
+              "title": "Effective harnesses for long-running agents \\ Anthropic"
+            }
+          },
+          {
+            "id": "cae37aaf5062b04b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "xx-归档/剪藏/Effective harnesses for long-running agents-中文.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Effective harnesses for long-running agents-中文"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -183,12 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "xx-归档/剪藏/Effective harnesses for long-running agents-中文.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Effective harnesses for long-running agents-中文 的大纲"
             }
           },
           {
@@ -278,8 +272,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 753.5,
-    "collapsed": true
+    "width": 484.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -299,17 +292,21 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "b13bf59f30f6d184",
+  "active": "cae37aaf5062b04b",
   "lastOpenFiles": [
+    "xx-归档/剪藏/Effective harnesses for long-running agents.md",
+    "xx-归档/剪藏/Effective harnesses for long-running agents-中文.md",
+    "05-AI CODEING/TDD.md",
+    "05-AI CODEING/AI生成文档与注释.md",
+    "xx-归档/剪藏/Claude Code对外公开了官方内部最佳实践！核心贡献者：CC是一个纯粹Agent工具，揭秘md文件、上下文进阶技巧.md",
+    "00-经验技巧/MemoBox-部署方案与实践.md",
     "00-经验技巧/React-Context与自定义Hooks架构实战.md",
     "00-经验技巧/ngnix 部署笔记.md",
     "00-经验技巧/Antigravity 网络问题.md",
     "00-经验技巧/apng-js使用教程.md",
     "00-经验技巧/Cursor-使用技巧.md",
     "00-经验技巧/docker调试.md",
-    "05-AI CODEING/TDD.md",
     "05-AI CODEING/SDD规范驱动开发.md",
-    "05-AI CODEING/AI生成文档与注释.md",
     "05-AI CODEING/AI辅助代码审查.md",
     "xx-归档/剪藏/AI 原生研发范式：从“代码中心”到“文档驱动”的演进.md",
     "05-AI CODEING/vibe code.md",
@@ -325,10 +322,6 @@
     "05-AI CODEING",
     "00-前端体系/01-基础入门/CSS/布局-Flex-Grid.md",
     "00-前端体系/01-基础入门/TypeScript/02-接口与类型别名.md",
-    "00-前端体系/01-基础入门/TypeScript/04-泛型.md",
-    "00-前端体系/01-基础入门/TypeScript/01-基础类型.md",
-    "00-前端体系/01-基础入门/TypeScript/06-类型推断与守卫.md",
-    "00-前端体系/01-基础入门/TypeScript/07-模块与声明文件.md",
     "01-计算机基础/06-数据库/01-SQL基础",
     "01-计算机基础/06-数据库",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/07-迁移升级",
