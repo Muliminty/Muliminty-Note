@@ -5,7 +5,10 @@
       "Bash(xargs:*)",
       "Bash(ls:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(npm install:*)",
+      "Bash(./bin/agent-cli:*)",
+      "Bash(npm run build:*)"
     ]
   }
 }

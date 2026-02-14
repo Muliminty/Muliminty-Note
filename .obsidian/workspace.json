@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cae37aaf5062b04b",
+            "id": "f10d0d8b195e519c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "xx-归档/剪藏/Effective harnesses for long-running agents-中文.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "5668ebd7f005a4e7",
+            "id": "314c4d469091dc3d",
             "type": "leaf",
             "state": {
               "type": "webviewer",
@@ -36,17 +36,17 @@
             }
           },
           {
-            "id": "f10d0d8b195e519c",
+            "id": "d9bfe99bf8444846",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "xx-归档/剪藏/Effective harnesses for long-running agents-中文.md",
-                "mode": "preview",
+                "file": "05-AI CODEING/长效运行智能体CLI工具实现计划.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Effective harnesses for long-running agents-中文"
+              "title": "长效运行智能体CLI工具实现计划"
             }
           }
         ],
@@ -132,7 +132,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 366.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -181,7 +182,7 @@
               },
               "pinned": true,
               "icon": "terminal",
-              "title": "终端：⠐ AI开发脚手架"
+              "title": "终端：⠐ Claude Code"
             }
           },
           {
@@ -190,12 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "05-AI CODEING/长效运行智能体CLI工具实现计划.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "长效运行智能体CLI工具实现计划 的大纲"
             }
           },
           {
@@ -280,54 +282,12 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
-          },
-          {
-            "id": "9f8c1853dfdcff8e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/muliminty/project/Muliminty-Note",
-                  "focus": false,
-                  "profile": {
-                    "args": [
-                      "--login"
-                    ],
-                    "executable": "/bin/zsh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "终端：⠐ Claude Code"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 484.5
+    "width": 762.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -347,8 +307,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "1a90ff177419335e",
+  "active": "d9bfe99bf8444846",
   "lastOpenFiles": [
+    "05-AI CODEING/长效运行智能体CLI工具实现计划.md",
+    "05-AI CODEING/未命名.md",
     "xx-归档/剪藏/Effective harnesses for long-running agents-中文.md",
     "xx-归档/剪藏/Effective harnesses for long-running agents.md",
     "05-AI CODEING/TDD.md",
@@ -375,8 +337,6 @@
     "README.md",
     "碎片整理/Excalidraw/home.md",
     "05-AI CODEING",
-    "00-前端体系/01-基础入门/CSS/布局-Flex-Grid.md",
-    "00-前端体系/01-基础入门/TypeScript/02-接口与类型别名.md",
     "01-计算机基础/06-数据库/01-SQL基础",
     "01-计算机基础/06-数据库",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/07-迁移升级",
