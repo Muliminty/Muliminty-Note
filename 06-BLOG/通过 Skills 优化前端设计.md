@@ -1,7 +1,9 @@
 # 通过 Skills 优化前端设计
 
 > 来源：<https://claude.com/blog/improving-frontend-design-through-skills>
+>
 > 翻译整理：Muliminty（基于 AI 辅助翻译与整理）
+> 
 > 核心主题：如何通过「Skills（技能）」机制，打破大模型前端生成的同质化倾向，让 Claude 产出更有设计感、更专业、也更贴近真实产品体验的界面。
 
 ## 前言

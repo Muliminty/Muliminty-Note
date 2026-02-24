@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1fd98c0f82fec313",
+        "id": "5df0b00fe28c2bbf",
         "type": "tabs",
         "children": [
           {
-            "id": "8319a33d3f10c655",
+            "id": "0395de26fe835970",
             "type": "leaf",
             "state": {
               "type": "webviewer",
@@ -278,8 +278,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "8319a33d3f10c655",
+  "active": "0395de26fe835970",
   "lastOpenFiles": [
+    "xx-归档/剪藏/SteamDeck折腾记录.md",
     "06-BLOG/通过 Skills 优化前端设计.md",
     "06-BLOG/1.md",
     "06-BLOG",
@@ -306,7 +307,6 @@
     "05-AI CODEING/AI辅助代码审查.md",
     "xx-归档/剪藏/AI 原生研发范式：从“代码中心”到“文档驱动”的演进.md",
     "05-AI CODEING/vibe code.md",
-    "xx-归档/剪藏/大公司里怎样开发和部署前端代码？.md",
     "数据库.base",
     "05-AI CODEING",
     "01-计算机基础/06-数据库/01-SQL基础",
