@@ -8,12 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c1a488b876560588",
+            "id": "8319a33d3f10c655",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
+              "type": "webviewer",
+              "state": {
+                "url": "https://go.itab.link/",
+                "title": "新标签页",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
               "title": "新标签页"
             }
           }
@@ -274,8 +278,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "c1a488b876560588",
+  "active": "8319a33d3f10c655",
   "lastOpenFiles": [
+    "06-BLOG/通过 Skills 优化前端设计.md",
+    "06-BLOG/1.md",
+    "06-BLOG",
     "xx-归档/剪藏/Effective harnesses for long-running agents-中文.md",
     "xx-归档/剪藏/AI 如何重塑软件工程.md",
     "xx-归档/剪藏/1.md",
@@ -300,8 +307,6 @@
     "xx-归档/剪藏/AI 原生研发范式：从“代码中心”到“文档驱动”的演进.md",
     "05-AI CODEING/vibe code.md",
     "xx-归档/剪藏/大公司里怎样开发和部署前端代码？.md",
-    "碎片整理/结构优化.md",
-    "00-经验技巧/README.md",
     "数据库.base",
     "05-AI CODEING",
     "01-计算机基础/06-数据库/01-SQL基础",
@@ -311,7 +316,6 @@
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/05-最佳实践",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/04-实战案例",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/03-常用插件",
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/02-核心概念",
     "未命名.canvas",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",
