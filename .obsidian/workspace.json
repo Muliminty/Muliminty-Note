@@ -25,14 +25,14 @@
             "id": "bb895f5a08ef3d1b",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "markdown",
               "state": {
-                "url": "https://www.zhihu.com/",
-                "title": "(30 封私信 / 80 条消息) 首页 - 知乎",
-                "mode": "webview"
+                "file": "00-经验技巧/window硬盘分区规划.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "globe-2",
-              "title": "(30 封私信 / 80 条消息) 首页 - 知乎"
+              "icon": "lucide-file",
+              "title": "window硬盘分区规划"
             }
           }
         ],
@@ -118,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5,
-    "collapsed": true
+    "width": 366.5
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -168,7 +167,7 @@
               },
               "pinned": true,
               "icon": "terminal",
-              "title": "终端：zsh"
+              "title": "终端：⠂ Claude Code"
             }
           },
           {
@@ -294,6 +293,7 @@
   },
   "active": "1a90ff177419335e",
   "lastOpenFiles": [
+    "00-经验技巧/window硬盘分区规划.md",
     "06-BLOG/Git 实战笔记：分支合并、回退与问题排查.md",
     "xx-归档/剪藏/⚡90%前端没摸过的 10 个 JS 神 API？复制即用，今晚早下班Page Visibility、Web Share.md",
     "xx-归档/剪藏/大公司里怎样开发和部署前端代码？.md",
@@ -320,7 +320,6 @@
     "00-经验技巧/MemoBox-部署方案与实践.md",
     "00-经验技巧/React-Context与自定义Hooks架构实战.md",
     "00-经验技巧/ngnix 部署笔记.md",
-    "00-经验技巧/Antigravity 网络问题.md",
     "数据库.base",
     "05-AI CODEING",
     "01-计算机基础/06-数据库/01-SQL基础",
