@@ -272,8 +272,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 580.5,
-    "collapsed": true
+    "width": 580.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -293,7 +292,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "bb895f5a08ef3d1b",
+  "active": "1a90ff177419335e",
   "lastOpenFiles": [
     "06-BLOG/Git 实战笔记：分支合并、回退与问题排查.md",
     "xx-归档/剪藏/⚡90%前端没摸过的 10 个 JS 神 API？复制即用，今晚早下班Page Visibility、Web Share.md",
