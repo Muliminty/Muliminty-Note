@@ -4,94 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "23aee8ebd5169f43",
-        "type": "split",
+        "id": "3dc074ae9b44ced4",
+        "type": "tabs",
         "children": [
           {
-            "id": "3dc074ae9b44ced4",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b25b4151033edbfa",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://go.itab.link/",
-                    "title": "新标签页",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "新标签页"
-                }
+            "id": "b25b4151033edbfa",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://go.itab.link/",
+                "title": "新标签页",
+                "mode": "webview"
               },
-              {
-                "id": "bb895f5a08ef3d1b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "00-经验技巧/README.md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "README"
-                }
-              }
-            ],
-            "currentTab": 1
+              "icon": "globe-2",
+              "title": "新标签页"
+            }
           },
           {
-            "id": "b0f238b84c1ef20e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a0673c520d79544c",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/Users/muliminty/project/Muliminty-Note",
-                      "focus": false,
-                      "profile": {
-                        "args": [
-                          "--login"
-                        ],
-                        "executable": "/bin/zsh",
-                        "followTheme": true,
-                        "name": "",
-                        "platforms": {
-                          "darwin": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": false,
-                        "rightClickAction": "copyPaste",
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": null
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "终端：zsh"
-                }
-              }
-            ]
+            "id": "bb895f5a08ef3d1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-经验技巧/claude code 技能推荐.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "claude code 技能推荐"
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,6 +143,48 @@
             }
           },
           {
+            "id": "a0673c520d79544c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/muliminty/project/Muliminty-Note",
+                  "focus": false,
+                  "profile": {
+                    "args": [
+                      "--login"
+                    ],
+                    "executable": "/bin/zsh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": null
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "终端：✳ Claude Code Recommendations"
+            }
+          },
+          {
             "id": "a8b63ca7492536c8",
             "type": "leaf",
             "state": {
@@ -280,11 +267,13 @@
               "title": "添加笔记属性"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 580.5
+    "width": 580.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -304,11 +293,18 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "a0673c520d79544c",
+  "active": "bb895f5a08ef3d1b",
   "lastOpenFiles": [
+    "00-经验技巧/claude code 技能推荐.md",
+    "06-BLOG/专栏/🔥 GitHub 热门项目推荐/2026-03-02.md",
+    "00-经验技巧/window硬盘分区规划.md",
+    "06-BLOG/专栏/🔥 GitHub 热门项目推荐",
+    "未命名 1",
+    "06-BLOG/专栏",
+    "00-经验技巧/MemoBox-部署方案与实践.md",
+    "00-经验技巧/ngnix 部署笔记.md",
     "00-经验技巧/README.md",
     "00-经验技巧/Exa API Setup Guide.md",
-    "00-经验技巧/window硬盘分区规划.md",
     "00-经验技巧/window11 和 wsl 兼顾开发和娱乐的方案.md",
     "06-BLOG/Git 实战笔记：分支合并、回退与问题排查.md",
     "xx-归档/剪藏/⚡90%前端没摸过的 10 个 JS 神 API？复制即用，今晚早下班Page Visibility、Web Share.md",
@@ -329,19 +325,12 @@
     "碎片整理/Excalidraw/Drawing 2026-02-14 14.49.42.excalidraw.md",
     "05-AI CODEING/长效运行智能体CLI工具实现计划.md",
     "书签整理.md",
-    "05-AI CODEING/未命名.md",
-    "xx-归档/剪藏/Effective harnesses for long-running agents.md",
-    "05-AI CODEING/TDD.md",
-    "05-AI CODEING/AI生成文档与注释.md",
     "数据库.base",
     "05-AI CODEING",
     "01-计算机基础/06-数据库/01-SQL基础",
     "01-计算机基础/06-数据库",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/07-迁移升级",
     "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/06-性能优化",
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/05-最佳实践",
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/04-实战案例",
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/03-常用插件",
     "未命名.canvas",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",
