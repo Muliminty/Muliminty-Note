@@ -1,14 +1,31 @@
 {
   "permissions": {
     "allow": [
-      "Bash(du:*)",
-      "Bash(xargs:*)",
-      "Bash(ls:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
       "Bash(npm install:*)",
-      "Bash(./bin/agent-cli:*)",
-      "Bash(npm run build:*)"
+      "Bash(npm run *:*)",
+      "Bash(npx:*)",
+      "mcp__exa__web_search_exa",
+      "mcp__exa__get_code_context_exa",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.npmjs.com)",
+      "WebFetch(domain:developer.mozilla.org)",
+      "WebFetch(domain:stackoverflow.com)",
+      "Bash(claude:*)",
+      "Bash(curl:*)",
+      "Bash(mv:*)",
+      "Bash(cp:*)",
+      "Bash(chmod:*)",
+      "Bash(node -c:*)",
+      "Bash(node scripts/claude/moc/update-moc.js:*)",
+      "Bash(node scripts/claude/metadata/sync-frontmatter.js:*)",
+      "Bash(node scripts/check-moc-links.js:*)",
+      "Bash(node:*)"
     ]
   }
 }

@@ -27,7 +27,9 @@ const config: QuartzConfig = {
       ".git",
       "书签整理.md",
       "scripts",
-      "Prompt"
+      "Prompt",
+      ".claude",
+      ".templates"
     ],
     defaultDateType: "created",
     theme: {
