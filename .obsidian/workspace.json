@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-经验技巧/claude code 技能推荐.md",
+                "file": "00-前端体系/05-高级应用/部署与发布/!MOC-部署与发布.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "claude code 技能推荐"
+              "title": "!MOC-部署与发布"
             }
           }
         ],
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ngnix",
+                "query": "https",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -293,7 +293,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "bb895f5a08ef3d1b",
+  "active": "b76d5d4c5f29b876",
   "lastOpenFiles": [
     "00-经验技巧/claude code 技能推荐.md",
     "06-BLOG/专栏/🔥 GitHub 热门项目推荐/2026-03-02.md",
