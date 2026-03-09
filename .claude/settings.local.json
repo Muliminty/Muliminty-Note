@@ -25,7 +25,8 @@
       "Bash(node scripts/claude/moc/update-moc.js:*)",
       "Bash(node scripts/claude/metadata/sync-frontmatter.js:*)",
       "Bash(node scripts/check-moc-links.js:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "WebFetch(domain:docs.trytrellis.app)"
     ]
   }
 }
