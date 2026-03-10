@@ -29,7 +29,10 @@ const config: QuartzConfig = {
       "scripts",
       "Prompt",
       ".claude",
-      ".templates"
+      ".templates",
+      "CLAUDE.md",
+      "README.md",
+      "99-系统"
     ],
     defaultDateType: "created",
     theme: {
@@ -77,7 +80,7 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ 
+      Plugin.ObsidianFlavoredMarkdown({
         enableInHtml: true,
         comments: true,
         highlight: true,
