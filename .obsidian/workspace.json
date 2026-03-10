@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-经验技巧/排错-Antigravity网络问题.md",
+                "file": "00-经验技巧/服务器多项目部署规范.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "排错-Antigravity网络问题"
+              "title": "服务器多项目部署规范"
             }
           }
         ]
@@ -279,6 +279,7 @@
   },
   "active": "e147197613e32373",
   "lastOpenFiles": [
+    "00-经验技巧/排错-Antigravity网络问题.md",
     "00-经验技巧/部署-MemoBox部署方案与实践.md",
     "00-经验技巧/配置-HTTPS配置指南-腾讯云证书.md",
     "00-经验技巧/配置-Exa-API设置指南.md",
@@ -291,7 +292,6 @@
     "00-经验技巧/apng-js使用教程.md",
     "00-经验技巧/Antigravity 网络问题.md",
     "00-经验技巧/工具-Cursor使用技巧.md",
-    "00-经验技巧/排错-Antigravity网络问题.md",
     "99-系统/03-目录规范.md",
     "99-系统/03-目录规范",
     "99-系统/01-元数据规范.md",
