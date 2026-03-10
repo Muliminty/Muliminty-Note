@@ -1,3 +1,14 @@
+---
+title: "TDD与AI结合"
+date: "2026-03-10"
+lastModified: "2026-03-10"
+tags: ["TDD", "测试驱动开发", "AI编程", "代码质量"]
+moc: "[[!MOC-AI辅助开发]]"
+stage: "基础入门"
+description: "探讨AI时代下TDD（测试驱动开发）的新价值与实施步骤"
+toc: true
+---
+
 # AI 时代如何结合 TDD 写出好代码
 
 ## TDD 概念与优缺点

@@ -1,3 +1,14 @@
+---
+title: "SDD规范驱动开发"
+date: "2026-03-10"
+lastModified: "2026-03-10"
+tags: ["SDD", "规范驱动开发", "AI编程", "开发方法论"]
+moc: "[[!MOC-AI辅助开发]]"
+stage: "工程化实践"
+description: "SDD（软件设计说明书）规范驱动开发的实践指南，提供RIPER五步法和文档规范"
+toc: true
+---
+
 # SDD 规范驱动开发 — 实践指南
 
 Software Design Description（软件设计说明书）
@@ -96,5 +107,5 @@ Software Design Description（软件设计说明书）
 
 ## 相关
 
-- [TDD](TDD.md) — 测试驱动开发
-- [vibe code](vibe%20code.md) — Vibe Coding 概览
+- [TDD](../01-概念与原理/TDD.md) — 测试驱动开发
+- [vibe code](../99-参考与归档/vibe%20code.md) — Vibe Coding 概览

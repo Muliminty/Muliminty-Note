@@ -1,2 +1,0 @@
-- [TDD](TDD.md)
-- [SDD 规范驱动开发](SDD规范驱动开发.md) — Spec 驱动的 Vibe Coding 落地
