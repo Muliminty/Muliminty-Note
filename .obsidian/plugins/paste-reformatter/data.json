@@ -1,13 +1,13 @@
 {
-  "pasteOverride": true,
-  "showPasteNotifications": true,
+  "pasteOverride": false,
+  "showPasteNotifications": false,
   "maxHeadingLevel": 1,
   "removeEmptyElements": false,
   "cascadeHeadingLevels": true,
   "contextualCascade": true,
-  "stripLineBreaks": false,
-  "convertToSingleSpaced": false,
-  "removeEmptyLines": true,
+  "stripLineBreaks": true,
+  "convertToSingleSpaced": true,
+  "removeEmptyLines": false,
   "htmlRegexReplacements": [],
   "markdownRegexReplacements": []
 }

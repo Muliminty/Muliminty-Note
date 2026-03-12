@@ -11,21 +11,14 @@
             "id": "e147197613e32373",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "书签整理.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "05-AI辅助开发/openclaw/00-配置文件.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "书签整理"
+              "icon": "lucide-file",
+              "title": "00-配置文件"
             }
           }
         ]
@@ -284,8 +277,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "e147197613e32373",
   "lastOpenFiles": [
+    "书签整理.md",
+    "05-AI辅助开发/openclaw/00-配置文件.md",
+    "05-AI辅助开发/openclaw",
     "05-AI辅助开发/99-参考与归档/vibe code.md",
     "04-AI与机器学习/README.md",
     "05-AI辅助开发/03-核心配置与实战/SDD规范驱动开发.md",
@@ -318,10 +314,7 @@
     "00-经验技巧/claude code 技能推荐.md",
     "00-经验技巧/Exa API Setup Guide.md",
     "00-经验技巧/docker调试.md",
-    "00-经验技巧/apng-js使用教程.md",
-    "00-经验技巧/Antigravity 网络问题.md",
     "99-系统/03-目录规范",
-    "99-系统/元数据规范.ms",
     "未命名.canvas",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",
