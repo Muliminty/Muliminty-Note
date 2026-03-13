@@ -17,7 +17,7 @@
 
 ## 在线访问
 
-[📖 在线访问](https://muliminty.github.io/Muliminty-Note/) · 全文搜索 · 知识图谱 · 响应式 · [部署指南](./03-服务端/04-部署与运维/静态网站部署/GitHub-Pages部署指南.md)
+[📖 在线访问](https://muliminty.github.io/Muliminty-Note/) · 全文搜索 · 知识图谱 · 响应式 · [部署指南](./03-服务端/04-部署与运维/静态网站部署/GitHub%20Pages%20部署指南.md)
 
 ---
 
@@ -53,7 +53,7 @@
 
 Node.js | Java | Nginx | Docker | 部署运维
 
-- [服务端知识体系](./03-服务端/!MOC-服务端.md) | [Node.js](./03-服务端/01-服务端语言/Node.js/!MOC-Node.js.md) | [Java](./03-服务端/01-服务端语言/Java/!MOC-Java.md) | [Nginx](./03-服务端/02-Web服务器/nginx/!MOC-nginx.md)
+- [服务端知识体系](./03-服务端/!MOC-服务端.md) | [Node.js](./03-服务端/01-服务端语言/Node.js/!MOC-Node.js.md) | [Java](./03-服务端/01-服务端语言/Java/!MOC-Java.md) | [Nginx](./03-服务端/02-Web服务器/Nginx/!MOC-Nginx.md)
 
 ---
 

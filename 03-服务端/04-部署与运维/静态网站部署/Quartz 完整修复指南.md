@@ -936,6 +936,6 @@ git push origin master
 
 **最后更新**：2025-11-06  
 **相关文档**：
-- [GitHub Pages 部署指南](./GitHub-Pages部署指南.md)
-- [Quartz 定制教程](./Quartz定制教程.md)
+- [GitHub Pages 部署指南](./GitHub%20Pages%20部署指南.md)
+- [Quartz 定制教程](./Quartz%20定制教程.md)
 

@@ -107,5 +107,5 @@ Software Design Description（软件设计说明书）
 
 ## 相关
 
-- [TDD](../01-概念与原理/TDD.md) — 测试驱动开发
-- [vibe code](../99-参考与归档/vibe%20code.md) — Vibe Coding 概览
+- [TDD](../01-概念与原理/01-TDD%20在%20AI%20时代的价值.md) — 测试驱动开发
+- [Vibe Coding 概览](../99-参考与归档/Vibe%20Coding%20概览.md) — Vibe Coding 概览

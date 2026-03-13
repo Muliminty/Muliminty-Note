@@ -730,6 +730,6 @@ const footer: Component.ComponentId[] = [
 
 **最后更新**：2025  
 **相关文档**：
-- [GitHub Pages 部署指南](./GitHub-Pages部署指南.md)
-- [Quartz 完整修复指南](./Quartz完整修复指南.md)
+- [GitHub Pages 部署指南](./GitHub%20Pages%20部署指南.md)
+- [Quartz 完整修复指南](./Quartz%20完整修复指南.md)
 

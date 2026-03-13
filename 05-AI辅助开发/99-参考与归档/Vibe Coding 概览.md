@@ -10,4 +10,4 @@ toc: false
 ---
 
 - [[01-概念与原理/TDD]] - TDD测试驱动开发
-- [[03-核心配置与实战/SDD规范驱动开发]] — Spec 驱动的 Vibe Coding 落地
+- [[03-核心配置与实战/03-SDD 规范驱动开发]] — Spec 驱动的 Vibe Coding 落地
