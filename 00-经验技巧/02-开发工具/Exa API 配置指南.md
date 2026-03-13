@@ -1,4 +1,4 @@
-# Exa API Setup Guide
+# Exa API 配置指南
 
 ## Your Configuration
 

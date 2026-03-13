@@ -145,7 +145,11 @@
     "05-AI辅助开发/未命名": "05-ai辅助开发_未命名.json",
     "05-AI辅助开发/openclaw": "05-ai辅助开发_openclaw.json",
     "05-AI辅助开发/openclaw/未命名.md": "05-ai辅助开发_openclaw_未命名.md.json",
-    "05-AI辅助开发/openclaw/00-配置文件.md": "05-ai辅助开发_openclaw_00-配置文件.md.json"
+    "05-AI辅助开发/openclaw/00-配置文件.md": "05-ai辅助开发_openclaw_00-配置文件.md.json",
+    "04-AI与机器学习/01-基础理论/未命名.md": "04-ai与机器学习_01-基础理论_未命名.md.json",
+    "04-AI与机器学习/01-基础理论/LLM.md": "04-ai与机器学习_01-基础理论_llm.md.json",
+    "04-AI与机器学习/01-基础理论/RAG.md": "04-ai与机器学习_01-基础理论_rag.md.json",
+    "04-AI与机器学习/01-基础理论/概念.md": "04-ai与机器学习_01-基础理论_概念.md.json"
   },
-  "lastUpdated": 1773276947532
+  "lastUpdated": 1773288037441
 }

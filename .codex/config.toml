@@ -1,0 +1,11 @@
+[shell_environment_policy]
+inherit = "core"
+
+[shell_environment_policy.set]
+CATEGORIES = "00-前端体系,00-经验技巧,01-计算机基础,02-代码管理,03-服务端,04-AI与机器学习,05-AI CODEING,06-BLOG"
+KNOWLEDGE_BASE_PATH = "/Users/muliminty/project/Muliminty-Note"
+MOC_PREFIX = "!MOC-"
+NODE_ENV = "development"
+SCRIPTS_PATH = "/Users/muliminty/project/Muliminty-Note/scripts/claude"
+TEMPLATES_PATH = "/Users/muliminty/project/Muliminty-Note/.templates"
+TZ = "Asia/Shanghai"

@@ -226,5 +226,5 @@ sudo tail -f /var/log/nginx/error.log
 
 - **腾讯云**： [Nginx 服务器 SSL 证书安装部署（Linux）](https://cloud.tencent.com/document/product/400/35244)
 - **本仓库**：
-  - [宿主机 Nginx 配置指南](../memos/宿主机%20Nginx%20配置指南.md)（HTTP 与基础架构）
-  - [Nginx配置学习笔记](./Nginx配置学习笔记.md)（概念与问题整理）
+  - [宿主机 Nginx 配置指南](../../memos/宿主机%20Nginx%20配置指南.md)（HTTP 与基础架构）
+  - [Nginx配置学习笔记](./Nginx%20部署笔记.md)（概念与问题整理）

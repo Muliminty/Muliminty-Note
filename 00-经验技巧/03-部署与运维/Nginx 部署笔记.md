@@ -567,4 +567,4 @@ nslookup memo.muliminty.online
 
 ## 相关文档
 
-- [宿主机 Nginx 配置指南](../memos/宿主机%20Nginx%20配置指南.md)
+- [宿主机 Nginx 配置指南](../../memos/宿主机%20Nginx%20配置指南.md)
