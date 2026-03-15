@@ -22,6 +22,10 @@ const config: QuartzConfig = {
       "private",
       "xx-归档",
       "xx-草稿",
+      "99-参考与归档",
+      "归档",
+      "收集箱",
+      "!小记",
       ".obsidian",
       "node_modules",
       ".git",
@@ -133,4 +137,3 @@ const config: QuartzConfig = {
 }
 
 export default config
-
