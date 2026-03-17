@@ -684,7 +684,7 @@ function isPalindrome(str) {
 
 - 使用双链格式 `[[xxx]]` 链接相关知识点
 - 参考 [[内置对象概述]] 了解内置对象分类
-- 参考 [[!MOC-javascript]] 了解完整知识体系
+- 参考 [JavaScript MOC](../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 了解完整知识体系
 
 ---
 
@@ -695,4 +695,3 @@ function isPalindrome(str) {
 ---
 
 #javascript #String #内置对象 #字符串处理
-

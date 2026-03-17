@@ -62,7 +62,7 @@ React-Native/
 
 ## 📝 学习建议
 
-1. **前置知识**：需要掌握 [React 基础](../!MOC-React.md) 和 [JavaScript 基础](../../../../01-基础入门/JavaScript/!MOC-javascript.md)
+1. **前置知识**：需要掌握 [React 基础](../!MOC-React.md) 和 [JavaScript 基础](../../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md)
 2. **学习顺序**：基础入门 → 导航系统 → 状态管理 → 原生功能 → 性能优化 → 部署发布
 3. **实践应用**：每学习一个模块都要完成相应的实践项目
 4. **相关主题**：

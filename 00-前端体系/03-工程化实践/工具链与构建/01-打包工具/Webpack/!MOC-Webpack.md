@@ -2,7 +2,7 @@
 
 > Webpack 是一个现代 JavaScript 应用程序的静态模块打包器。本知识体系从零开始，循序渐进地教你掌握 Webpack，最终能够独立搭建和优化项目。
 
-**学习路径**：学习 Webpack 前需要掌握 [JavaScript 基础](../../../01-基础入门/JavaScript/!MOC-javascript.md) 和 [模块化](../../../01-基础入门/JavaScript/03-模块化/README.md) 概念。Webpack 与 [工程化实践](../../工程化/!MOC-工程化.md) 和 [性能优化](../../../04-质量保障/性能/!MOC-性能.md) 密切相关。
+**学习路径**：学习 Webpack 前需要掌握 [JavaScript 基础](../../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和 [模块化](../../../../../02-编程语言/01-JavaScript/03-模块化/README.md) 概念。Webpack 与 [工程化实践](../../工程化/!MOC-工程化.md) 和 [性能优化](../../../04-质量保障/性能/!MOC-性能.md) 密切相关。
 
 ---
 
@@ -218,7 +218,7 @@
 
 ### 相关知识点
 
-- [JavaScript 基础](../../../01-基础入门/JavaScript/!MOC-javascript.md)
+- [JavaScript 基础](../../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md)
 - [模块化](../../../01-基础入门/JavaScript/03-模块化/README.md)
 - [Babel 转换管线](../Babel转换管线.md)
 - [工程化实践](../../工程化/!MOC-工程化.md)
@@ -233,4 +233,3 @@
 ---
 
 #Webpack #构建工具 #工程化 #前端工具链 #学习路径
-

@@ -7,7 +7,7 @@
 > - 🚀 **进阶**：构建工具深入配置和优化
 > - 💡 **高级**：构建工具原理和自定义插件
 > 
-> 学习构建工具前需要掌握 [JavaScript 基础](../../01-基础入门/JavaScript/!MOC-javascript.md) 和前端框架（[React](../../02-框架进阶/React/!MOC-React.md)、[Vue](../../02-框架进阶/Vue/!MOC-Vue.md)）。构建工具与 [工程化实践](../工程化/!MOC-工程化.md) 配合使用。
+> 学习构建工具前需要掌握 [JavaScript 基础](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和前端框架（[React](../../02-框架进阶/React/!MOC-React.md)、[Vue](../../02-框架进阶/Vue/!MOC-Vue.md)）。构建工具与 [工程化实践](../工程化/!MOC-工程化.md) 配合使用。
 
 ---
 
@@ -38,7 +38,7 @@
 代码转换、编译和处理的工具。
 
 #### 转译工具
-- [Babel转换管线](./02-编译工具/Babel转换管线.md) — 代码转换与编译（编译 [JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md) 和 [TypeScript](../../01-基础入门/TypeScript/!MOC-TypeScript.md)）
+- [Babel转换管线](./02-编译工具/Babel转换管线.md) — 代码转换与编译（编译 [JavaScript](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和 [TypeScript](../../../02-编程语言/02-TypeScript/!MOC-TypeScript.md)）
 - [TypeScript Compiler](./02-编译工具/TypeScript-Compiler.md) — TypeScript 官方编译器
 
 #### CSS 处理工具
@@ -108,7 +108,7 @@
 
 ## 📝 学习建议
 
-1. **前置知识**：需要掌握 [JavaScript 基础](../../01-基础入门/JavaScript/!MOC-javascript.md) 和前端框架基础
+1. **前置知识**：需要掌握 [JavaScript 基础](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和前端框架基础
 2. **学习顺序**：JavaScript → 前端框架 → 构建工具 → [工程化实践](../工程化/!MOC-工程化.md)
 3. **实践应用**：
    - 构建工具用于编译和打包前端代码
@@ -178,8 +178,8 @@
 
 ### 前置知识
 
-- [JavaScript 基础](../../01-基础入门/JavaScript/!MOC-javascript.md) — JavaScript 基础知识
-- [TypeScript](../../01-基础入门/TypeScript/!MOC-TypeScript.md) — TypeScript 类型系统
+- [JavaScript 基础](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) — JavaScript 基础知识
+- [TypeScript](../../../02-编程语言/02-TypeScript/!MOC-TypeScript.md) — TypeScript 类型系统
 - [React](../../02-框架进阶/React/!MOC-React.md) / [Vue](../../02-框架进阶/Vue/!MOC-Vue.md) — 前端框架基础
 
 ### 相关主题
@@ -253,4 +253,3 @@
 ---
 
 #构建工具 #工程化 #前端工具链
-

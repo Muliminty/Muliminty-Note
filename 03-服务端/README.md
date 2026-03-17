@@ -24,7 +24,7 @@
 
 ### 02-Web服务器（Web Server）
 
-- **Nginx** - [Nginx 知识体系](./02-Web服务器/Nginx/!MOC-Nginx.md)
+- **Nginx** - [Nginx 知识体系](../07-基础设施与运维/02-Web服务器/Nginx/!MOC-Nginx.md)
   - 基础配置与安装
   - 反向代理与负载均衡
   - HTTPS 与安全配置
@@ -48,24 +48,24 @@
 
 ### 04-部署与运维（Deployment & Operations）
 
-- **云平台部署** - [腾讯云部署指南](./04-部署与运维/云平台部署/腾讯云部署指南.md)
+- **云平台部署** - [腾讯云部署指南](../07-基础设施与运维/04-云平台部署/腾讯云部署指南.md)
   - 服务器环境配置
   - 多项目部署
   - HTTPS 配置
 
 - **静态网站部署**
-  - [GitHub Pages 部署指南](./04-部署与运维/静态网站部署/GitHub%20Pages%20部署指南.md) — GitHub Pages 完整部署教程
-  - [Quartz 定制教程](./04-部署与运维/静态网站部署/Quartz%20定制教程.md) — Quartz 静态网站生成器定制指南
+  - [GitHub Pages 部署指南](../07-基础设施与运维/05-静态网站部署/GitHub%20Pages%20部署指南.md) — GitHub Pages 完整部署教程
+  - [Quartz 定制教程](../07-基础设施与运维/05-静态网站部署/Quartz%20定制教程.md) — Quartz 静态网站生成器定制指南
 
 - **容器化**
   - Docker（待整理）
   - Kubernetes（待整理）
 
 - **CI/CD**
-  - GitHub Actions（待整理）
-  - GitLab CI（待整理）
+  - [CI/CD 目录说明](../06-架构与工程/04-CI-CD/README.md)
 
-- **进程管理**（待整理）
+- **进程管理**
+  - [进程管理目录说明](../07-基础设施与运维/06-进程管理/README.md)
 
 ---
 
@@ -114,8 +114,8 @@
 ### 基础入门
 
 1. [Node.js 基础](./01-服务端语言/Node.js/!MOC-Node.js.md) 或 [Java 基础](./01-服务端语言/Java/!MOC-Java.md)
-2. [Nginx 基础配置](./02-Web服务器/Nginx/!MOC-Nginx.md)
-3. [腾讯云部署指南](./04-部署与运维/云平台部署/腾讯云部署指南.md) 或 [GitHub Pages 部署指南](./04-部署与运维/静态网站部署/GitHub%20Pages%20部署指南.md)
+2. [Nginx 基础配置](../07-基础设施与运维/02-Web服务器/Nginx/!MOC-Nginx.md)
+3. [腾讯云部署指南](../07-基础设施与运维/04-云平台部署/腾讯云部署指南.md) 或 [GitHub Pages 部署指南](../07-基础设施与运维/05-静态网站部署/GitHub%20Pages%20部署指南.md)
 
 ### 进阶实践
 

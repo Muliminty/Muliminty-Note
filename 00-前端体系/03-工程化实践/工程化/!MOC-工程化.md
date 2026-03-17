@@ -121,8 +121,8 @@
 
 ### 前置知识
 
-- [JavaScript 基础](../../01-基础入门/JavaScript/!MOC-javascript.md) — JavaScript 基础知识
-- [TypeScript](../../01-基础入门/TypeScript/!MOC-TypeScript.md) — TypeScript 类型系统
+- [JavaScript 基础](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) — JavaScript 基础知识
+- [TypeScript](../../../02-编程语言/02-TypeScript/!MOC-TypeScript.md) — TypeScript 类型系统
 - [构建工具](../工具链与构建/!MOC-工具链与构建.md) — 构建工具使用
 
 ### 相关主题
@@ -181,4 +181,3 @@
 ---
 
 #工程化 #代码规范 #前端工程 #脚手架
-

@@ -808,7 +808,7 @@ function clamp(value, min, max) {
 
 - 使用双链格式 `[[xxx]]` 链接相关知识点
 - 参考 [[内置对象概述]] 了解内置对象分类
-- 参考 [[!MOC-javascript]] 了解完整知识体系
+- 参考 [JavaScript MOC](../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 了解完整知识体系
 
 ---
 
@@ -819,4 +819,3 @@ function clamp(value, min, max) {
 ---
 
 #javascript #Math #内置对象 #数学运算 #数值计算
-

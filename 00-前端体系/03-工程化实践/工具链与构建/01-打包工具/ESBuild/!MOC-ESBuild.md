@@ -6,8 +6,8 @@
 > - 📖 **入门**：ESBuild 基础使用和配置
 > - 🚀 **进阶**：核心功能和高级配置
 > - 💡 **高级**：性能优化和工具对比
-> 
-> 学习 ESBuild 前需要掌握 [JavaScript 基础](../../../01-基础入门/JavaScript/!MOC-javascript.md) 和 [TypeScript](../../../02-框架进阶/TypeScript/!MOC-TypeScript.md) 基础。ESBuild 与 [工具链与构建](../!MOC-工具链与构建.md) 和 [性能优化](../../../04-质量保障/性能/!MOC-性能.md) 密切相关。
+>
+> 学习 ESBuild 前需要掌握 [JavaScript 基础](../../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和 [TypeScript](../../../../../02-编程语言/02-TypeScript/!MOC-TypeScript.md) 基础。ESBuild 与 [工具链与构建](../!MOC-工具链与构建.md) 和 [性能优化](../../../04-质量保障/性能/!MOC-性能.md) 密切相关。
 
 ---
 
@@ -123,7 +123,7 @@
 
 ## 📝 学习建议
 
-1. **前置知识**：需要掌握 [JavaScript 基础](../../../01-基础入门/JavaScript/!MOC-javascript.md) 和 [TypeScript](../../../02-框架进阶/TypeScript/!MOC-TypeScript.md) 基础
+1. **前置知识**：需要掌握 [JavaScript 基础](../../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和 [TypeScript](../../../../../02-编程语言/02-TypeScript/!MOC-TypeScript.md) 基础
 2. **学习顺序**：基础入门 → 核心功能 → 配置与实践 → 性能优化 → 对比分析
 3. **实践应用**：
    - ESBuild 用于快速构建和打包
@@ -139,7 +139,7 @@
 ## 🔗 相关链接
 
 ### 前置知识
-- [JavaScript 基础](../../../01-基础入门/JavaScript/!MOC-javascript.md) — JavaScript 基础知识
+- [JavaScript 基础](../../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) — JavaScript 基础知识
 - [TypeScript](../../../02-框架进阶/TypeScript/!MOC-TypeScript.md) — TypeScript 类型系统
 - [模块化](../../../01-基础入门/JavaScript/03-模块化/README.md) — 模块化概念
 
@@ -210,4 +210,3 @@ ESBuild/
 ---
 
 #ESBuild #构建工具 #工程化 #前端工具链
-

@@ -2,14 +2,14 @@
 
 > 前端安全防护策略，包括常见漏洞、防护措施、安全最佳实践。
 > 
-> **学习路径**：安全是质量保障的重要环节，与 [测试](../测试/!MOC-测试.md) 和 [性能优化](../性能/!MOC-性能.md) 共同保障代码质量。安全防护需要了解 [HTML](../../01-基础入门/HTML/!MOC-HTML.md) 和 [JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md) 基础。
+> **学习路径**：安全是质量保障的重要环节，与 [测试](../测试/!MOC-测试.md) 和 [性能优化](../性能/!MOC-性能.md) 共同保障代码质量。安全防护需要了解 [HTML](../../../03-前端开发/01-Web基础/01-HTML/!MOC-HTML.md) 和 [JavaScript](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 基础。
 
 ---
 
 ## 📚 核心主题
 
-- [XSS/CSRF原理与防护](./XSS-CSRF原理与防护.md) — 常见安全漏洞与防护（需要了解 [HTML](../../01-基础入门/HTML/!MOC-HTML.md) 和 [JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md)）
-- [内容安全策略（CSP）](./内容安全策略-CSP.md) — CSP 安全策略（配合 [HTML](../../01-基础入门/HTML/!MOC-HTML.md) 使用）
+- [XSS/CSRF原理与防护](./XSS-CSRF原理与防护.md) — 常见安全漏洞与防护（需要了解 [HTML](../../../03-前端开发/01-Web基础/01-HTML/!MOC-HTML.md) 和 [JavaScript](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md)）
+- [内容安全策略（CSP）](./内容安全策略-CSP.md) — CSP 安全策略（配合 [HTML](../../../03-前端开发/01-Web基础/01-HTML/!MOC-HTML.md) 使用）
 - [安全依赖管理](./安全依赖管理.md) — 依赖安全审计（配合 [包管理](../../03-工程化实践/工具链与构建/03-包管理/包管理与版本策略.md) 使用）
 
 ---
@@ -38,7 +38,7 @@
 
 ## 📝 学习建议
 
-1. **前置知识**：需要掌握 [HTML](../../01-基础入门/HTML/!MOC-HTML.md)、[JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md) 和 [网络基础](../../05-高级应用/网络与传输/!MOC-网络与传输.md)
+1. **前置知识**：需要掌握 [HTML](../../../03-前端开发/01-Web基础/01-HTML/!MOC-HTML.md)、[JavaScript](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和 [网络基础](../../05-高级应用/网络与传输/!MOC-网络与传输.md)
 2. **学习顺序**：基础 → 安全基础 → 安全实践 → [测试](../测试/!MOC-测试.md) 验证
 3. **质量保障体系**：
    - [测试](../测试/!MOC-测试.md)：保障功能正确性
@@ -57,4 +57,3 @@
 ---
 
 #前端安全 #安全防护 #web安全
-

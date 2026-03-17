@@ -4,7 +4,7 @@ JavaScript 在浏览器环境中的应用。
 
 > **说明**：本节包含的是 **Web API**（浏览器 API），而非 ECMAScript 内置对象。这些 API 由 W3C 等 Web 标准组织定义，主要用于浏览器环境。
 > 
-> **详细说明**：关于内置对象与浏览器 API 的区别，请参考 [JavaScript MOC](../!MOC-javascript.md#-知识体系分类说明)。
+> **详细说明**：关于内置对象与浏览器 API 的区别，请参考 [JavaScript MOC](../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md)。
 
 ---
 

@@ -1,13 +1,13 @@
 # 脚手架（Scaffold）MOC
 
 > 前端脚手架构建完整教程，从零开始构建一个可扩展的前端脚手架系统，类似 Vite / create-react-app。
-> 
+>
 > **学习路径**：
 > - 📖 **入门**：脚手架核心概念和基础实现
 > - 🚀 **进阶**：模板系统和插件机制
 > - 💡 **高级**：远程模板支持和发布扩展
-> 
-> 学习脚手架前需要掌握 [Node.js 基础](../../../../03-服务端/01-服务端语言/Node.js/!MOC-Node.js.md) 和 [TypeScript](../../../01-基础入门/TypeScript/!MOC-TypeScript.md)。脚手架与 [构建工具](../../工具链与构建/!MOC-工具链与构建.md) 和 [工程化实践](../!MOC-工程化.md) 密切相关。
+>
+> 学习脚手架前需要掌握 [Node.js 基础](../../../../03-服务端/01-服务端语言/Node.js/!MOC-Node.js.md) 和 [TypeScript](../../../../02-编程语言/02-TypeScript/!MOC-TypeScript.md)。脚手架与 [构建工具](../../工具链与构建/!MOC-工具链与构建.md) 和 [工程化实践](../!MOC-工程化.md) 密切相关。
 
 ---
 
@@ -193,7 +193,7 @@
 ### 前置知识
 
 - [Node.js 基础](../../../../03-服务端/01-服务端语言/Node.js/!MOC-Node.js.md) - Node.js 环境和使用
-- [TypeScript](../../../01-基础入门/TypeScript/!MOC-TypeScript.md) - TypeScript 语法和类型系统
+- [TypeScript](../../../../02-编程语言/02-TypeScript/!MOC-TypeScript.md) - TypeScript 语法和类型系统
 - [JavaScript 模块化](../../../01-基础入门/JavaScript/03-模块化/README.md) - 模块化概念
 
 ### 相关主题
@@ -233,4 +233,3 @@
 ---
 
 #脚手架 #前端工程化 #CLI工具 #Node.js #TypeScript
-

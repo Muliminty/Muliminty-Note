@@ -17,7 +17,7 @@
 
 ## 在线访问
 
-[📖 在线访问](https://muliminty.github.io/Muliminty-Note/) · 全文搜索 · 知识图谱 · 响应式 · [部署指南](./03-服务端/04-部署与运维/静态网站部署/GitHub%20Pages%20部署指南.md)
+[📖 在线访问](https://muliminty.github.io/Muliminty-Note/) · 全文搜索 · 知识图谱 · 响应式 · [部署指南](./07-基础设施与运维/05-静态网站部署/GitHub%20Pages%20部署指南.md)
 
 ---
 
@@ -46,13 +46,13 @@
 
 基础入门 → 框架进阶 → 工程化 → 质量保障 → 高级应用
 
-- [前端体系 MOC](./00-前端体系/!MOC-前端体系.md) | [HTML](./00-前端体系/01-基础入门/HTML/!MOC-HTML.md) | [CSS](./00-前端体系/01-基础入门/CSS/!MOC-CSS.md) | [JavaScript](./00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md) | [React](./00-前端体系/02-框架进阶/React/!MOC-React.md) | [Vue](./00-前端体系/02-框架进阶/Vue/!MOC-Vue.md) | [工具链与构建](./00-前端体系/03-工程化实践/工具链与构建/!MOC-工具链与构建.md)
+- [前端体系 MOC](./00-前端体系/!MOC-前端体系.md) | [HTML](./03-前端开发/01-Web基础/01-HTML/!MOC-HTML.md) | [CSS](./03-前端开发/01-Web基础/02-CSS/!MOC-CSS.md) | [JavaScript](./02-编程语言/01-JavaScript/!MOC-JavaScript.md) | [React](./00-前端体系/02-框架进阶/React/!MOC-React.md) | [Vue](./00-前端体系/02-框架进阶/Vue/!MOC-Vue.md) | [工具链与构建](./00-前端体系/03-工程化实践/工具链与构建/!MOC-工具链与构建.md)
 
 ---
 
 ### 00-经验技巧
 
-- [经验技巧 MOC](./00-经验技巧/!MOC-经验技巧.md)
+- [经验技巧 MOC](./00-经验技巧/!MOC-经验技巧.md)（迁移过渡区）
 
 ---
 
@@ -72,13 +72,13 @@
 
 Node.js | Java | Nginx | Docker | 部署运维
 
-- [服务端知识体系](./03-服务端/!MOC-服务端.md) | [Node.js](./03-服务端/01-服务端语言/Node.js/!MOC-Node.js.md) | [Java](./03-服务端/01-服务端语言/Java/!MOC-Java.md) | [Nginx](./03-服务端/02-Web服务器/Nginx/!MOC-Nginx.md)
+- [服务端知识体系](./03-服务端/!MOC-服务端.md) | [Node.js](./03-服务端/01-服务端语言/Node.js/!MOC-Node.js.md) | [Java](./03-服务端/01-服务端语言/Java/!MOC-Java.md) | [Nginx](./07-基础设施与运维/02-Web服务器/Nginx/!MOC-Nginx.md) | [Docker](./07-基础设施与运维/03-容器化/Docker/!MOC-Docker.md)
 
 ---
 
 ### 04-AI 与机器学习
 
-- [AI 与机器学习 MOC](./04-AI与机器学习/!MOC-AI与机器学习.md) — [目录说明](./04-AI与机器学习/README.md)
+- [AI 与智能开发 MOC](./08-AI与智能开发/!MOC-AI与智能开发.md) — [目录说明](./08-AI与智能开发/README.md)
 
 ---
 

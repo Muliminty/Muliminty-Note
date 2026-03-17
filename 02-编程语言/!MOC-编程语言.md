@@ -19,14 +19,14 @@ toc: true
 - Java
 - Node.js
 
-## 2. 迁移入口
+## 2. 当前入口
 
-- [旧 JavaScript 专题](../00-前端体系/01-基础入门/JavaScript/!MOC-javascript.md)
-- [旧 TypeScript 专题](../00-前端体系/01-基础入门/TypeScript/!MOC-TypeScript.md)
+- [JavaScript](./01-JavaScript/!MOC-JavaScript.md)
+- [TypeScript](./02-TypeScript/!MOC-TypeScript.md)
 - [旧 Go 专题](../03-服务端/01-服务端语言/Go/!MOC-Go.md)
 - [旧 Java 专题](../03-服务端/01-服务端语言/Java/!MOC-Java.md)
 - [旧 Node.js 专题](../03-服务端/01-服务端语言/Node.js/!MOC-Node.js.md)
 
 ## 3. 说明
 
-当前目录已建立为正式一级主题骨架，后续语言相关新增内容优先落入本目录。
+当前目录已建立为正式一级主题骨架，JavaScript 与 TypeScript 已迁入本目录，后续语言相关新增内容优先落入本目录。

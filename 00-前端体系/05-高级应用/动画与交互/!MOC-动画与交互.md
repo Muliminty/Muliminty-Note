@@ -2,15 +2,15 @@
 
 > 前端动画与交互效果开发，包括 GSAP、CSS 动画、Web Animations API 等。
 > 
-> **学习路径**：动画与交互是高级应用阶段的内容，需要掌握 [HTML](../../01-基础入门/HTML/!MOC-HTML.md)、[CSS](../../01-基础入门/CSS/!MOC-CSS.md)、[JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md) 基础。动画性能优化与 [性能优化](../../04-质量保障/性能/!MOC-性能.md) 密切相关。
+> **学习路径**：动画与交互是高级应用阶段的内容，需要掌握 [HTML](../../../03-前端开发/01-Web基础/01-HTML/!MOC-HTML.md)、[CSS](../../../03-前端开发/01-Web基础/02-CSS/!MOC-CSS.md)、[JavaScript](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 基础。动画性能优化与 [性能优化](../../04-质量保障/性能/!MOC-性能.md) 密切相关。
 
 ---
 
 ## 📚 核心主题
 
-- [GSAP 完整教程](./GSAP/!MOC-GSAP.md) — GSAP 动画库完整指南（需要掌握 [JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md) 和 [DOM 操作](../../01-基础入门/JavaScript/08-浏览器环境与DOM/DOM操作.md)）
-- [CSS 动画进阶](./CSS动画进阶.md) — CSS 动画高级技巧（配合 [CSS 基础](../../01-基础入门/CSS/!MOC-CSS.md) 使用）
-- [Web Animations API](./Web-Animations-API.md) — 原生 Web Animations API（需要了解 [JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md)）
+- [GSAP 完整教程](./GSAP/!MOC-GSAP.md) — GSAP 动画库完整指南（需要掌握 [JavaScript](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和 [DOM 操作](../../../02-编程语言/01-JavaScript/08-浏览器环境与DOM/DOM操作.md)）
+- [CSS 动画进阶](./CSS动画进阶.md) — CSS 动画高级技巧（配合 [CSS 基础](../../../03-前端开发/01-Web基础/02-CSS/!MOC-CSS.md) 使用）
+- [Web Animations API](./Web-Animations-API.md) — 原生 Web Animations API（需要了解 [JavaScript](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md)）
 
 ---
 
@@ -36,7 +36,7 @@
 
 ## 📝 学习建议
 
-1. **前置知识**：需要掌握 [HTML](../../01-基础入门/HTML/!MOC-HTML.md)、[CSS](../../01-基础入门/CSS/!MOC-CSS.md)、[JavaScript](../../01-基础入门/JavaScript/!MOC-javascript.md) 基础，特别是 [DOM 操作](../../01-基础入门/JavaScript/08-浏览器环境与DOM/DOM操作.md) 和 [事件机制](../../01-基础入门/JavaScript/08-浏览器环境与DOM/事件机制.md)
+1. **前置知识**：需要掌握 [HTML](../../../03-前端开发/01-Web基础/01-HTML/!MOC-HTML.md)、[CSS](../../../03-前端开发/01-Web基础/02-CSS/!MOC-CSS.md)、[JavaScript](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 基础，特别是 [DOM 操作](../../../02-编程语言/01-JavaScript/08-浏览器环境与DOM/DOM操作.md) 和 [事件机制](../../../02-编程语言/01-JavaScript/08-浏览器环境与DOM/事件机制.md)
 2. **学习顺序**：基础 → CSS 动画 → JavaScript 动画库 → 高级交互效果
 3. **性能优化**：动画性能与 [性能优化](../../04-质量保障/性能/!MOC-性能.md) 密切相关，需要关注：
    - 60fps 动画性能

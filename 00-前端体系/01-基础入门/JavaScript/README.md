@@ -6,7 +6,7 @@
 
 ```
 JavaScript/
-├── !MOC-javascript.md          # 主索引文件
+├── !MOC-javascript.md          # 旧入口文件（过渡）
 ├── 01-语言核心/                # 语言核心（Language Core）
 │   ├── 语法（Syntax）
 │   ├── 数据类型（Data Types）
@@ -64,4 +64,3 @@ JavaScript/
 ---
 
 #javascript #知识体系 #ecmascript
-

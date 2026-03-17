@@ -2,7 +2,7 @@
 
 > React Native 是一个用于构建原生移动应用的 JavaScript 框架，使用 React 语法开发 iOS 和 Android 应用。
 > 
-> **学习路径**：学习 React Native 前需要掌握 [React 基础](../!MOC-React.md) 和 [JavaScript 基础](../../../../01-基础入门/JavaScript/!MOC-javascript.md)。推荐学习 [TypeScript](../../TypeScript/!MOC-TypeScript.md) 增强类型安全。
+> **学习路径**：学习 React Native 前需要掌握 [React 基础](../!MOC-React.md) 和 [JavaScript 基础](../../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md)。推荐学习 [TypeScript](../../../../../02-编程语言/02-TypeScript/!MOC-TypeScript.md) 增强类型安全。
 > 
 > **参考资源**：本知识体系参考了 [React Native 官方文档](https://reactnative.dev/) 和社区最佳实践。
 

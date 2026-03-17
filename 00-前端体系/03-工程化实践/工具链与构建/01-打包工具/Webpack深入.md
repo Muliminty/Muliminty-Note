@@ -2,7 +2,7 @@
 
 > Webpack 是一个现代 JavaScript 应用程序的静态模块打包器。它将项目中的各种资源（JS、CSS、图片等）视为模块，通过依赖关系图进行打包。
 
-**学习路径**：学习 Webpack 前需要掌握 [JavaScript 基础](../../01-基础入门/JavaScript/!MOC-javascript.md) 和 [模块化](../../01-基础入门/JavaScript/03-模块化/README.md) 概念。Webpack 与 [工程化实践](../工程化/!MOC-工程化.md) 和 [性能优化](../../04-质量保障/性能/!MOC-性能.md) 密切相关。
+**学习路径**：学习 Webpack 前需要掌握 [JavaScript 基础](../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和 [模块化](../../../../02-编程语言/01-JavaScript/03-模块化/README.md) 概念。Webpack 与 [工程化实践](../工程化/!MOC-工程化.md) 和 [性能优化](../../04-质量保障/性能/!MOC-性能.md) 密切相关。
 
 ---
 
@@ -2073,4 +2073,3 @@ module.exports = smp.wrap({
 ---
 
 #Webpack #构建工具 #工程化 #前端工具链
-

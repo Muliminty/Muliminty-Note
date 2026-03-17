@@ -11,29 +11,23 @@
 **目标**：掌握前端三大基础语言，能够独立完成简单页面
 
 #### 1. HTML 基础
-- [HTML-MOC](./01-基础入门/HTML/!MOC-HTML.md) — HTML 完整知识体系
-- [语义化HTML](./01-基础入门/HTML/语义化HTML.md) — 语义化标签与最佳实践
-- [表单与验证](./01-基础入门/HTML/表单与验证.md) — 表单设计与验证规则
-- [无障碍基础-ARIA入门](./01-基础入门/HTML/无障碍基础-ARIA入门.md) — 可访问性基础
+- [HTML-MOC](../03-前端开发/01-Web基础/01-HTML/!MOC-HTML.md) — HTML 完整知识体系
 
 #### 2. CSS 基础
-- [CSS-MOC](./01-基础入门/CSS/!MOC-CSS.md) — CSS 完整知识体系
-- [布局（Flex/Grid）](./01-基础入门/CSS/布局-Flex-Grid.md) — 现代布局方案
-- [响应式设计/移动优先](./01-基础入门/CSS/响应式设计-移动优先.md) — 响应式设计原理与实践
-- [CSS现代写法（变量/自定义属性/容器查询）](./01-基础入门/CSS/CSS现代写法.md) — 现代 CSS 特性
+- [CSS-MOC](../03-前端开发/01-Web基础/02-CSS/!MOC-CSS.md) — CSS 完整知识体系
 
 #### 3. JavaScript 基础
-- [JavaScript MOC](./01-基础入门/JavaScript/!MOC-javascript.md) — JavaScript 完整知识体系（基于 ECMAScript 官方规范）
-  - [语言核心](./01-基础入门/JavaScript/01-语言核心/README.md) — 语法、数据类型、控制结构、作用域和闭包
-  - [内置对象与 API](./01-基础入门/JavaScript/02-内置对象与API/README.md) — Array、String、Date、RegExp 等
-  - [模块化](./01-基础入门/JavaScript/03-模块化/README.md) — ES6 模块、动态导入
-  - [异步编程](./01-基础入门/JavaScript/04-异步编程/README.md) — Promise、async/await
-  - [对象与类](./01-基础入门/JavaScript/05-对象与类/README.md) — 对象、类、原型、继承
-  - [性能优化](./01-基础入门/JavaScript/06-性能优化/README.md) — 垃圾回收、尾调用优化
-  - [函数式编程](./01-基础入门/JavaScript/07-函数式编程/README.md) — 高阶函数、箭头函数
-  - [浏览器环境与 DOM](./01-基础入门/JavaScript/08-浏览器环境与DOM/README.md) — DOM、BOM、事件机制
-  - [工具与生态](./01-基础入门/JavaScript/09-工具与生态/README.md) — Babel、包管理、构建工具
-  - [测试与规范](./01-基础入门/JavaScript/10-测试与规范/README.md) — 单元测试、ESLint、最佳实践
+- [JavaScript MOC](../02-编程语言/01-JavaScript/!MOC-JavaScript.md) — JavaScript 完整知识体系（基于 ECMAScript 官方规范）
+  - [语言核心](../02-编程语言/01-JavaScript/01-语言核心/README.md) — 语法、数据类型、控制结构、作用域和闭包
+  - [内置对象与 API](../02-编程语言/01-JavaScript/02-内置对象与API/README.md) — Array、String、Date、RegExp 等
+  - [模块化](../02-编程语言/01-JavaScript/03-模块化/README.md) — ES6 模块、动态导入
+  - [异步编程](../02-编程语言/01-JavaScript/04-异步编程/README.md) — Promise、async/await
+  - [对象与类](../02-编程语言/01-JavaScript/05-对象与类/README.md) — 对象、类、原型、继承
+  - [性能优化](../02-编程语言/01-JavaScript/06-性能优化/README.md) — 垃圾回收、尾调用优化
+  - [函数式编程](../02-编程语言/01-JavaScript/07-函数式编程/README.md) — 高阶函数、箭头函数
+  - [浏览器环境与 DOM](../02-编程语言/01-JavaScript/08-浏览器环境与DOM/README.md) — DOM、BOM、事件机制
+  - [工具与生态](../02-编程语言/01-JavaScript/09-工具与生态/README.md) — Babel、包管理、构建工具
+  - [测试与规范](../02-编程语言/01-JavaScript/10-测试与规范/README.md) — 单元测试、ESLint、最佳实践
 
 **学习检查点**：能够使用 HTML+CSS+JS 完成一个完整的静态页面
 
@@ -82,7 +76,7 @@
 - [Pinia](./02-框架进阶/状态管理/03-Vue生态/Pinia.md) — Pinia 状态管理（Vue 3 推荐）
 
 #### 3. TypeScript（推荐）
-- [TypeScript-MOC](01-基础入门/TypeScript/!MOC-TypeScript.md) — TypeScript 完整知识体系
+- [TypeScript-MOC](../02-编程语言/02-TypeScript/!MOC-TypeScript.md) — TypeScript 完整知识体系
 - [编译时类型设计](./02-框架进阶/TypeScript/编译时类型设计.md) — 类型系统设计
 - [运行时类型保护与模式](./02-框架进阶/TypeScript/运行时类型保护与模式.md) — 类型安全实践
 
@@ -187,7 +181,7 @@
 
 #### 5. 动画与交互
 - [动画与交互-MOC](./05-高级应用/动画与交互/!MOC-动画与交互.md) — 动画与交互完整指南
-- [GSAP 完整教程](./05-高级应用/动画与交互/GSAP/!MOC-GSAP.md) — GSAP 动画库完整指南（需要掌握 [JavaScript](../01-基础入门/JavaScript/!MOC-javascript.md) 和 [DOM 操作](../01-基础入门/JavaScript/08-浏览器环境与DOM/DOM操作.md)）
+- [GSAP 完整教程](./05-高级应用/动画与交互/GSAP/!MOC-GSAP.md) — GSAP 动画库完整指南（需要掌握 [JavaScript](../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和 [DOM 操作](../02-编程语言/01-JavaScript/08-浏览器环境与DOM/DOM操作.md)）
 
 #### 6. 前沿技术
 - [WebAssembly](./05-高级应用/前沿/WebAssembly.md) — WebAssembly 技术
@@ -204,10 +198,10 @@
 ### 一、核心技术栈
 
 #### 1. 基础语言
-- **HTML**: [HTML-MOC](./01-基础入门/HTML/!MOC-HTML.md)
-- **CSS**: [CSS-MOC](./01-基础入门/CSS/!MOC-CSS.md)
-- **JavaScript**: [JavaScript MOC](./01-基础入门/JavaScript/!MOC-javascript.md)
-- **TypeScript**: [TypeScript-MOC](01-基础入门/TypeScript/!MOC-TypeScript.md)
+- **HTML**: [HTML-MOC](../03-前端开发/01-Web基础/01-HTML/!MOC-HTML.md)
+- **CSS**: [CSS-MOC](../03-前端开发/01-Web基础/02-CSS/!MOC-CSS.md)
+- **JavaScript**: [JavaScript MOC](../02-编程语言/01-JavaScript/!MOC-JavaScript.md)
+- **TypeScript**: [TypeScript-MOC](../02-编程语言/02-TypeScript/!MOC-TypeScript.md)
 
 #### 2. 前端框架
 - **React**: [React-MOC](./02-框架进阶/React/!MOC-React.md)

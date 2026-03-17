@@ -26,7 +26,7 @@
 
 - [Redux](./02-React生态/Redux.md) — Redux 基础概念、原理和最小闭环 Demo（配合 [React](../React/!MOC-React.md) 使用）
 - [Redux Toolkit (RTK)](./02-React生态/Redux-Toolkit.md) — Redux 官方推荐工具集（推荐使用）
-- [Redux-Saga](./02-React生态/Redux-Saga.md) — 基于 Generator 的副作用管理（需要掌握 [JavaScript Generator](../../01-基础入门/JavaScript/!MOC-javascript.md)）
+- [Redux-Saga](./02-React生态/Redux-Saga.md) — 基于 Generator 的副作用管理（需要掌握 [JavaScript Generator](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md)）
 - [Redux-Thunk](./02-React生态/Redux-Thunk.md) — 简单的异步处理方案
 
 ### 其他 React 状态管理

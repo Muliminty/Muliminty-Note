@@ -2,13 +2,13 @@
 
 > Vue 是一个渐进式 JavaScript 框架，用于构建用户界面。
 > 
-> **学习路径**：学习 Vue 前需要掌握 [JavaScript 基础](../../01-基础入门/JavaScript/!MOC-javascript.md)。Vue 通常配合 [状态管理](../状态管理/!MOC-状态管理.md)（Vuex/Pinia）使用，推荐学习 [TypeScript](../../01-基础入门/TypeScript/!MOC-TypeScript.md) 增强类型安全。
+> **学习路径**：学习 Vue 前需要掌握 [JavaScript 基础](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md)。Vue 通常配合 [状态管理](../状态管理/!MOC-状态管理.md)（Vuex/Pinia）使用，推荐学习 [TypeScript](../../../02-编程语言/02-TypeScript/!MOC-TypeScript.md) 增强类型安全。
 
 ---
 
 ## 📚 核心主题
 
-- [响应式原理（Proxy/依赖收集）](./响应式原理.md) — Vue 响应式系统原理（基于 [JavaScript Proxy](../../01-基础入门/JavaScript/!MOC-javascript.md)）
+- [响应式原理（Proxy/依赖收集）](./响应式原理.md) — Vue 响应式系统原理（基于 [JavaScript Proxy](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md)）
 - [Vue 组件通信](./组件通信.md) — 组件间通信方案（可配合 [Pinia](../状态管理/03-Vue生态/Pinia.md) 使用）
 - [Vue 性能优化](./性能优化.md) — Vue 性能优化技巧（详见 [性能优化 MOC](../../04-质量保障/性能/!MOC-性能.md)）
 
@@ -44,7 +44,7 @@
 
 ## 📝 学习建议
 
-1. **前置知识**：必须掌握 [JavaScript 基础](../../01-基础入门/JavaScript/!MOC-javascript.md)，推荐学习 [TypeScript](../../01-基础入门/TypeScript/!MOC-TypeScript.md)
+1. **前置知识**：必须掌握 [JavaScript 基础](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md)，推荐学习 [TypeScript](../../../02-编程语言/02-TypeScript/!MOC-TypeScript.md)
 2. **学习顺序**：JavaScript → Vue → [状态管理](../状态管理/!MOC-状态管理.md)（Pinia/Vuex）→ [工程化工具](../../03-工程化实践/工具链与构建/!MOC-工具链与构建.md)
 3. **配套学习**：
    - [状态管理](../状态管理/!MOC-状态管理.md)：Pinia（Vue 3 推荐）或 Vuex
@@ -62,4 +62,3 @@
 ---
 
 #vue #前端框架 #响应式
-

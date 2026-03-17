@@ -17,7 +17,7 @@
 - Redux、Vuex、Pinia 等
 
 ### TypeScript
-- [TypeScript MOC](../01-基础入门/TypeScript/!MOC-TypeScript.md)
+- [TypeScript MOC](../../02-编程语言/02-TypeScript/!MOC-TypeScript.md)
 - 类型系统、类型安全
 
 ### CSS 框架
@@ -33,4 +33,3 @@
 ---
 
 #前端框架 #学习路径 #阶段二
-
