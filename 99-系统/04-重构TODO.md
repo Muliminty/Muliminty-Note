@@ -183,7 +183,8 @@ toc: true
 
 - [x] 清理 `00-前端体系` 中指向旧 `JavaScript`、`TypeScript`、`CSS` 入口的高频 MOC 引用
 - [x] 清理 `JavaScript` 新主树与旧过渡树中的高频 MOC 遗留引用
-- [ ] 统一 `HTML`、`CSS`、`JavaScript`、`TypeScript` 子树入口风格
+- [x] 清理 `JavaScript` 新主树与旧过渡树中指向旧 `HTML`、`CSS` 基础目录的相对路径
+- [x] 统一 `HTML`、`CSS`、`JavaScript`、`TypeScript` 子树入口风格
 - [x] 在 `02-编程语言/01-JavaScript` 建立 `JavaScript` 新主树
 - [x] 为 `02-编程语言/01-JavaScript` 补齐 `!MOC-JavaScript.md` 与 `README.md`
 - [x] 将新主树中的 `归档` 统一为 `99-参考与归档`
@@ -194,9 +195,12 @@ toc: true
 - [x] 将 `TypeScript` 迁入 `02-编程语言/02-TypeScript`
 - [x] 为 `02-编程语言/02-TypeScript` 补齐 `!MOC-TypeScript.md` 与 `README.md`
 - [x] 将旧 `TypeScript` 专题保留为过渡入口页
-- [ ] 检查子目录是否混用“专题树”和“随意平铺”两种风格
+- [x] 检查子目录是否混用“专题树”和“随意平铺”两种风格
 - [ ] 检查同层文件排序是否一致
-- [ ] 检查 `README.md`、`!MOC`、编号文章是否存在角色冲突
+- [x] 检查 `README.md`、`!MOC`、编号文章是否存在角色冲突
+- [ ] 统一 `JavaScript/02-内置对象与API` 的正文编号风格
+- [ ] 统一 `JavaScript/04-异步编程` 的正文编号风格
+- [ ] 统一 `JavaScript/08-浏览器环境与DOM` 的正文编号风格
 
 #### `00-前端体系/02-框架进阶`
 

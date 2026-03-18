@@ -704,8 +704,8 @@ function getDatesBetween(startDate, endDate) {
 ### 继续学习方向
 
 1. **相关内置对象**：
-   - [[String]] - 字符串格式化（日期转字符串）
-   - [[Math]] - 数学运算（日期计算）
+   - [[03-String]] - 字符串格式化（日期转字符串）
+   - [[07-Math]] - 数学运算（日期计算）
 
 2. **相关主题**：
    - [[数据类型]] - 理解 Date 是对象类型
@@ -719,7 +719,7 @@ function getDatesBetween(startDate, endDate) {
 ### 遵守仓库规范
 
 - 使用双链格式 `[[xxx]]` 链接相关知识点
-- 参考 [[内置对象概述]] 了解内置对象分类
+- 参考 [[01-内置对象概述]] 了解内置对象分类
 - 参考 [JavaScript MOC](../!MOC-JavaScript.md) 了解完整知识体系
 
 ---

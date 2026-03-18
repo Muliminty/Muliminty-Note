@@ -768,8 +768,8 @@ function isStrongPassword(password) {
 ### 继续学习方向
 
 1. **相关内置对象**：
-   - [[String]] - 字符串方法配合正则使用
-   - [[Array]] - 处理正则匹配结果
+   - [[03-String]] - 字符串方法配合正则使用
+   - [[02-Array]] - 处理正则匹配结果
 
 2. **相关主题**：
    - [[数据类型]] - 理解 RegExp 是对象类型
@@ -783,7 +783,7 @@ function isStrongPassword(password) {
 ### 遵守仓库规范
 
 - 使用双链格式 `[[xxx]]` 链接相关知识点
-- 参考 [[内置对象概述]] 了解内置对象分类
+- 参考 [[01-内置对象概述]] 了解内置对象分类
 - 参考 [JavaScript MOC](../!MOC-JavaScript.md) 了解完整知识体系
 
 ---

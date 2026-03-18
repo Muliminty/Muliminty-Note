@@ -12,7 +12,7 @@ JavaScript 在浏览器环境中的应用。
 
 ### 核心 API
 
-- [DOM 操作](./DOM操作.md) — DOM 接口和操作（配合 [HTML MOC](../../../HTML/!MOC-HTML.md) 使用）
+- [DOM 操作](./DOM操作.md) — DOM 接口和操作（配合 [HTML MOC](../../../../03-前端开发/01-Web基础/01-HTML/!MOC-HTML.md) 使用）
 - [BOM（Browser Object Model）](./BOM.md) — `window`、`location`、`navigator`、`history`、`screen` 等
 - [事件机制](./事件机制.md) — 事件捕获、冒泡、委托机制详解
 - [自定义事件](./自定义事件.md) — CustomEvent API 和组件间通信

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2d0a29facfa4f802",
+        "id": "b647d4e3eb687473",
         "type": "tabs",
         "children": [
           {
-            "id": "5f12e63d6018df9f",
+            "id": "9effcfc8eec565bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-前端体系/01-基础入门/TypeScript/!MOC-TypeScript.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "!MOC-TypeScript"
+              "title": "新标签页"
             }
           }
         ]
@@ -278,8 +274,20 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "5f12e63d6018df9f",
+  "active": "9effcfc8eec565bf",
   "lastOpenFiles": [
+    "02-编程语言/01-JavaScript/02-内置对象与API/09-其他内置对象.md",
+    "02-编程语言/01-JavaScript/02-内置对象与API/08-Set和Map.md",
+    "02-编程语言/01-JavaScript/02-内置对象与API/07-Math.md",
+    "02-编程语言/01-JavaScript/02-内置对象与API/06-JSON.md",
+    "02-编程语言/01-JavaScript/02-内置对象与API/05-RegExp.md",
+    "02-编程语言/01-JavaScript/02-内置对象与API/04-Date.md",
+    "02-编程语言/01-JavaScript/02-内置对象与API/03-String.md",
+    "02-编程语言/01-JavaScript/02-内置对象与API/02-Array.md",
+    "02-编程语言/01-JavaScript/02-内置对象与API/01-内置对象概述.md",
+    "00-前端体系/01-基础入门/JavaScript/归档/this绑定-旧命名.md",
+    "02-编程语言/01-JavaScript/99-参考与归档/this绑定-旧命名.md",
+    "00-前端体系/01-基础入门/TypeScript/!MOC-TypeScript.md",
     "02-编程语言/01-JavaScript/99-参考与归档/体系/从语法、语义到运行时.md",
     "02-编程语言/01-JavaScript/99-参考与归档/体系/README.md",
     "02-编程语言/01-JavaScript/99-参考与归档/体系",
@@ -300,19 +308,7 @@
     "02-编程语言/01-JavaScript/归档",
     "02-编程语言/01-JavaScript/02-内置对象与API/内置对象概述.md",
     "02-编程语言/01-JavaScript/02-内置对象与API/其他内置对象.md",
-    "02-编程语言/01-JavaScript/02-内置对象与API/Math.md",
-    "02-编程语言/01-JavaScript/02-内置对象与API/String.md",
-    "02-编程语言/01-JavaScript/02-内置对象与API/Set和Map.md",
-    "02-编程语言/01-JavaScript/02-内置对象与API/RegExp.md",
-    "02-编程语言/01-JavaScript/02-内置对象与API/README.md",
-    "02-编程语言/01-JavaScript/02-内置对象与API/JSON.md",
-    "02-编程语言/01-JavaScript/02-内置对象与API/Date.md",
-    "02-编程语言/01-JavaScript/02-内置对象与API/Array.md",
     "02-编程语言/01-JavaScript/02-内置对象与API",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/Intersection-Observer-API.md",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/Mutation-Observer-API.md",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/Storage-API.md",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/Performance-API.md",
     "02-编程语言/01-JavaScript/01-语言核心/底层原理",
     "02-编程语言/01-JavaScript/06-性能优化",
     "02-编程语言/01-JavaScript/09-工具与生态",

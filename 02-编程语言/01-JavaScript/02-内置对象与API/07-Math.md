@@ -793,7 +793,7 @@ function clamp(value, min, max) {
 
 1. **相关内置对象**：
    - [[Number]] - 数字类型和 Number 对象
-   - [[Array]] - 数组的数学运算
+   - [[02-Array]] - 数组的数学运算
 
 2. **相关主题**：
    - [[数据类型]] - 理解数字类型
@@ -807,7 +807,7 @@ function clamp(value, min, max) {
 ### 遵守仓库规范
 
 - 使用双链格式 `[[xxx]]` 链接相关知识点
-- 参考 [[内置对象概述]] 了解内置对象分类
+- 参考 [[01-内置对象概述]] 了解内置对象分类
 - 参考 [JavaScript MOC](../!MOC-JavaScript.md) 了解完整知识体系
 
 ---

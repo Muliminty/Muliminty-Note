@@ -1,4 +1,4 @@
-# TypeScript MOC
+# TypeScript（过渡入口）
 
 > 本专题已迁入 `02-编程语言/02-TypeScript`，当前文件仅保留过渡入口。
 

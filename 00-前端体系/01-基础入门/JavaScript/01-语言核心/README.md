@@ -142,8 +142,8 @@ JavaScript 引擎执行代码的底层机制。
 ## 🔗 相关链接
 
 ### 前置知识
-- [HTML MOC](../../../HTML/!MOC-HTML.md) — HTML 基础
-- [CSS MOC](../../../CSS/!MOC-CSS.md) — CSS 基础
+- [HTML MOC](../../../../03-前端开发/01-Web基础/01-HTML/!MOC-HTML.md) — HTML 基础
+- [CSS MOC](../../../../03-前端开发/01-Web基础/02-CSS/!MOC-CSS.md) — CSS 基础
 
 ### 进阶学习
 - [内置对象与 API](../02-内置对象与API/README.md) — JavaScript 内置对象

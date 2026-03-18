@@ -7,7 +7,6 @@
 ```text
 01-JavaScript/
 ├── !MOC-JavaScript.md
-├── !MOC-JavaScript.md
 ├── README.md
 ├── 01-语言核心
 ├── 02-内置对象与API
@@ -24,6 +23,5 @@
 
 ## 说明
 
-- `!MOC-JavaScript.md` 是当前正式入口。
 - `!MOC-JavaScript.md` 是当前正式入口。
 - `99-参考与归档` 只收纳旧版资料，不参与正式阅读路径。
