@@ -1,3 +1,17 @@
+---
+title: "Compose 文件编写指南"
+date: "2026-03-18"
+lastModified: "2026-03-18"
+tags: ["Docker", "Docker Compose", "配置指南", "多服务编排"]
+moc: "[[!MOC-Docker]]"
+stage: "工程化实践"
+prerequisites: ["Docker Compose 基础"]
+description: "系统整理 Compose 文件中的服务、网络、数据卷、环境变量、依赖关系与配置模板写法。"
+publish: true
+aliases: ["Compose文件编写指南", "Docker Compose 配置指南"]
+toc: true
+---
+
 # Compose 文件编写指南
 
 > Docker Compose 文件的完整配置指南
@@ -362,6 +376,8 @@ volumes:
 
 ---
 
-[[!MOC-Docker|返回 Docker 知识体系]]
+## 相关笔记
 
-#Docker #DockerCompose #配置文件
+- [01-Compose基础.md](./01-Compose基础.md)
+- [02-Compose高级特性.md](./02-Compose高级特性.md)
+- [03-多服务编排实践.md](./03-多服务编排实践.md)

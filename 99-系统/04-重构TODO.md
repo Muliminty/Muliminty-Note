@@ -129,6 +129,16 @@ toc: true
 - [x] 规范 `vscode ssh ubuntu 容器.md`
 - [x] 规范 `配置 SSH + VSCode.md`
 - [x] 随 `容器化` 主树迁入 `07-基础设施与运维/03-容器化/Docker`
+- [x] 重写 `README.md` 以对齐当前专题结构与目录职责
+- [x] 重写 `!MOC-Docker.md` 以对齐当前编号文件与学习路径
+- [x] 为 `01-基础入门` 补齐 `README.md`
+- [x] 为 `01-基础入门` 三篇正文补齐基础 Frontmatter 与标准链接
+- [x] 为 `05-Docker-Compose` 补齐 `README.md`
+- [x] 为 `05-Docker-Compose` 四篇正文补齐基础 Frontmatter 与标准链接
+- [x] 为 `02-镜像管理` 补齐 `README.md`
+- [x] 为 `02-镜像管理` 五篇正文补齐基础 Frontmatter 与标准链接
+- [x] 为 `03-容器管理` 补齐 `README.md`
+- [x] 为 `03-容器管理` 五篇正文补齐基础 Frontmatter 与标准链接
 
 ### 3.3 `03-服务端/02-Web服务器/Nginx`
 
@@ -137,6 +147,10 @@ toc: true
 - [x] 将 `!MOC-nginx.md` 规范为 `!MOC-Nginx.md`
 - [x] 规范 `Nginx 多项目配置与部署实践.md`
 - [x] 规范 `React 项目子路径部署解决方案.md`
+- [x] 将两篇部署实践笔记迁入 `07-基础设施与运维/02-Web服务器/Nginx/08-部署实践`
+- [x] 为 `08-部署实践` 补齐 `README.md`
+- [x] 将 `01-基础入门`、`02-配置管理` 的正文统一为编号命名
+- [x] 为 `01-基础入门`、`02-配置管理` 补齐 `README.md`
 
 ### 3.4 `05-AI辅助开发`
 

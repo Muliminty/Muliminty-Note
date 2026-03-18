@@ -1,3 +1,17 @@
+---
+title: "Dockerfile 编写指南"
+date: "2026-03-18"
+lastModified: "2026-03-18"
+tags: ["Docker", "镜像管理", "Dockerfile", "配置指南"]
+moc: "[[!MOC-Docker]]"
+stage: "工程化实践"
+prerequisites: ["镜像基础操作"]
+description: "系统整理 Dockerfile 的基础结构、常用指令、多阶段构建思路与实际编写建议。"
+publish: true
+aliases: ["Dockerfile编写指南", "Dockerfile 指南"]
+toc: true
+---
+
 # Dockerfile 编写指南
 
 > Dockerfile 完整编写教程和最佳实践
@@ -399,7 +413,8 @@ CMD ["nginx", "-g", "daemon off;"]
 
 ---
 
-[[!MOC-Docker|返回 Docker 知识体系]]
+## 相关笔记
 
-#Docker #Dockerfile #镜像构建
-
+- [02-镜像构建实践.md](./02-镜像构建实践.md)
+- [04-镜像优化策略.md](./04-镜像优化策略.md)
+- [../04-Dockerfile高级应用/04-Dockerfile最佳实践.md](../04-Dockerfile高级应用/04-Dockerfile最佳实践.md)

@@ -1,3 +1,17 @@
+---
+title: "Compose 高级特性"
+date: "2026-03-18"
+lastModified: "2026-03-18"
+tags: ["Docker", "Docker Compose", "高级特性", "多服务编排"]
+moc: "[[!MOC-Docker]]"
+stage: "工程化实践"
+prerequisites: ["Docker Compose 基础"]
+description: "整理 Docker Compose 中覆盖文件、环境变量、扩展字段、健康检查和资源限制等高级能力。"
+publish: true
+aliases: ["Compose高级特性", "Docker Compose 高级用法"]
+toc: true
+---
+
 # Compose 高级特性
 
 > Docker Compose 的高级用法和特性
@@ -273,6 +287,8 @@ networks:
 
 ---
 
-[[!MOC-Docker|返回 Docker 知识体系]]
+## 相关笔记
 
-#Docker #DockerCompose #高级特性
+- [01-Compose基础.md](./01-Compose基础.md)
+- [03-多服务编排实践.md](./03-多服务编排实践.md)
+- [04-Compose文件编写指南.md](./04-Compose文件编写指南.md)

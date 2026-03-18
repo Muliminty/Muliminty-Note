@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6df386384dc6682b",
+        "id": "2e59386ec706dc1b",
         "type": "tabs",
         "children": [
           {
-            "id": "dc7f94f14431f734",
+            "id": "ad2edf2a790ec604",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "99-系统/01-百科写作规范.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "01-百科写作规范"
+              "title": "新标签页"
             }
           }
         ]
@@ -278,8 +274,24 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "dc7f94f14431f734",
+  "active": "ad2edf2a790ec604",
   "lastOpenFiles": [
+    "07-基础设施与运维/03-容器化/Docker/03-容器管理/README.md",
+    "07-基础设施与运维/03-容器化/Docker/02-镜像管理/README.md",
+    "07-基础设施与运维/03-容器化/Docker/05-Docker-Compose/README.md",
+    "07-基础设施与运维/03-容器化/Docker/01-基础入门/README.md",
+    "07-基础设施与运维/03-容器化/Docker/!MOC-Docker.md",
+    "07-基础设施与运维/03-容器化/Docker/README.md",
+    "07-基础设施与运维/02-Web服务器/Nginx/!MOC-Nginx.md",
+    "07-基础设施与运维/02-Web服务器/Nginx/02-配置管理/README.md",
+    "07-基础设施与运维/02-Web服务器/Nginx/01-基础入门/README.md",
+    "99-系统/01-百科写作规范.md",
+    "07-基础设施与运维/02-Web服务器/Nginx/01-基础入门/03-基本命令.md",
+    "07-基础设施与运维/02-Web服务器/Nginx/02-配置管理/03-配置检查与热更新.md",
+    "07-基础设施与运维/02-Web服务器/Nginx/02-配置管理/01-配置文件结构.md",
+    "07-基础设施与运维/02-Web服务器/Nginx/02-配置管理/02-变量使用.md",
+    "07-基础设施与运维/02-Web服务器/Nginx/01-基础入门/01-安装与环境配置.md",
+    "07-基础设施与运维/02-Web服务器/Nginx/01-基础入门/02-核心概念.md",
     "07-基础设施与运维/02-Web服务器/Nginx/08-部署实践/02-React 项目子路径部署实践.md",
     "07-基础设施与运维/02-Web服务器/Nginx/08-部署实践/01-多项目配置与部署实践.md",
     "07-基础设施与运维/02-Web服务器/Nginx/08-部署实践/README.md",
@@ -290,22 +302,6 @@
     "02-编程语言/01-JavaScript/08-浏览器环境与DOM/15-Mutation-Observer-API.md",
     "02-编程语言/01-JavaScript/08-浏览器环境与DOM/14-Intersection-Observer-API.md",
     "02-编程语言/01-JavaScript/08-浏览器环境与DOM/13-Cookie-API.md",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/12-FormData-API.md",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/11-FileReader-API.md",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/10-Blob-API.md",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/09-File-API.md",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/08-Storage-API.md",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/07-History-API.md",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/06-WebSocket-API.md",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/05-Fetch-API.md",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/04-自定义事件.md",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/03-事件机制.md",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/02-BOM.md",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/01-DOM操作.md",
-    "02-编程语言/01-JavaScript/04-异步编程/04-异步编程最佳实践.md",
-    "02-编程语言/01-JavaScript/04-异步编程/03-async-await.md",
-    "02-编程语言/01-JavaScript/04-异步编程/02-Promise.md",
-    "02-编程语言/01-JavaScript/04-异步编程/01-回调函数.md",
     "02-编程语言/01-JavaScript/99-参考与归档/体系",
     "02-编程语言/01-JavaScript/99-参考与归档",
     "02-编程语言/01-JavaScript/10-测试与规范",

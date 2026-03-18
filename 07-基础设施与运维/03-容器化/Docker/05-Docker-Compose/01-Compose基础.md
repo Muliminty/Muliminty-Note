@@ -1,3 +1,17 @@
+---
+title: "Docker Compose 基础"
+date: "2026-03-18"
+lastModified: "2026-03-18"
+tags: ["Docker", "Docker Compose", "基础入门", "多服务编排"]
+moc: "[[!MOC-Docker]]"
+stage: "工程化实践"
+prerequisites: ["Docker 基本命令", "容器基础操作"]
+description: "介绍 Docker Compose 的安装方式、文件结构、基本命令以及服务、网络、数据卷的基础配置。"
+publish: true
+aliases: ["Compose基础", "Docker Compose 入门"]
+toc: true
+---
+
 # Docker Compose 基础
 
 > Docker Compose 的安装、基本使用和常用命令
@@ -299,6 +313,8 @@ volumes:
 
 ---
 
-[[!MOC-Docker|返回 Docker 知识体系]]
+## 相关笔记
 
-#Docker #DockerCompose #容器编排
+- [02-Compose高级特性.md](./02-Compose高级特性.md)
+- [03-多服务编排实践.md](./03-多服务编排实践.md)
+- [04-Compose文件编写指南.md](./04-Compose文件编写指南.md)
