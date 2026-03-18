@@ -198,15 +198,17 @@ toc: true
 - [x] 检查子目录是否混用“专题树”和“随意平铺”两种风格
 - [ ] 检查同层文件排序是否一致
 - [x] 检查 `README.md`、`!MOC`、编号文章是否存在角色冲突
-- [ ] 统一 `JavaScript/02-内置对象与API` 的正文编号风格
-- [ ] 统一 `JavaScript/04-异步编程` 的正文编号风格
-- [ ] 统一 `JavaScript/08-浏览器环境与DOM` 的正文编号风格
+- [x] 统一 `JavaScript/02-内置对象与API` 的正文编号风格
+- [x] 统一 `JavaScript/04-异步编程` 的正文编号风格
+- [x] 统一 `JavaScript/08-浏览器环境与DOM` 的正文编号风格
 
 #### `00-前端体系/02-框架进阶`
 
-- [ ] 统一 `React`、`Vue`、`Angular`、`Next.js`、`Umi`、`TailwindCSS` 的入口风格
+- [x] 统一 `React`、`Vue`、`Angular`、`Next.js`、`Umi`、`TailwindCSS` 的入口风格
 - [ ] 检查框架目录命名是否统一使用官方写法
 - [ ] 检查子主题是否统一使用数字前缀
+- [x] 为 `Next.js` 补齐 `!MOC-Next.js.md`，并将 `README.md` 收敛为目录说明
+- [x] 为 `Vue`、`Angular`、`Umi`、`TailwindCSS` 补齐根目录 `README.md`
 
 #### `00-前端体系/03-工程化实践`
 

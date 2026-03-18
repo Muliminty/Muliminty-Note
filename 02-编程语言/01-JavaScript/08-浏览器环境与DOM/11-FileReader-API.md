@@ -615,9 +615,9 @@ readMultipleFiles(files).then(results => {
 ## 🔗 相关链接
 
 ### 相关 API
-- [File API](./File-API.md) — 文件对象
-- [Blob API](./Blob-API.md) — 二进制大对象
-- [FormData API](./FormData-API.md) — 表单数据
+- [File API](./09-File-API.md) — 文件对象
+- [Blob API](./10-Blob-API.md) — 二进制大对象
+- [FormData API](./12-FormData-API.md) — 表单数据
 
 ### 实际应用
 - [前端大文件上传](../../../../10-实战案例/01-前端实战/前端大文件上传.md) — 大文件上传实现

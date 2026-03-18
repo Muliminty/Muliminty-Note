@@ -2,7 +2,7 @@
 
 > GSAP（GreenSock Animation Platform）是业界最强大的 JavaScript 动画库，用于创建高性能、专业级的动画效果。
 > 
-> **学习路径**：GSAP 是高级动画库，需要掌握 [JavaScript](../../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和 [DOM 操作](../../../../../02-编程语言/01-JavaScript/08-浏览器环境与DOM/DOM操作.md) 基础。GSAP 动画性能优化与 [性能优化](../../../../04-质量保障/性能/!MOC-性能.md) 密切相关。
+> **学习路径**：GSAP 是高级动画库，需要掌握 [JavaScript](../../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和 [DOM 操作](../../../../../02-编程语言/01-JavaScript/08-浏览器环境与DOM/01-DOM操作.md) 基础。GSAP 动画性能优化与 [性能优化](../../../../04-质量保障/性能/!MOC-性能.md) 密切相关。
 
 ---
 
@@ -57,7 +57,7 @@
 
 1. **前置知识**：
    - [JavaScript 基础](../../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md)
-   - [DOM 操作](../../../../../02-编程语言/01-JavaScript/08-浏览器环境与DOM/DOM操作.md)
+   - [DOM 操作](../../../../../02-编程语言/01-JavaScript/08-浏览器环境与DOM/01-DOM操作.md)
    - [CSS 基础](../../../../../03-前端开发/01-Web基础/02-CSS/!MOC-CSS.md)（了解 transform、opacity 等属性）
 
 2. **学习顺序**：

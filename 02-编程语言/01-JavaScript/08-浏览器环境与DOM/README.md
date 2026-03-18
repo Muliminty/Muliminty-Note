@@ -2,6 +2,31 @@
 
 JavaScript 在浏览器环境中的应用。
 
+## 目录结构
+
+```text
+08-浏览器环境与DOM/
+├── README.md
+├── 01-DOM操作.md
+├── 02-BOM.md
+├── 03-事件机制.md
+├── 04-自定义事件.md
+├── 05-Fetch-API.md
+├── 06-WebSocket-API.md
+├── 07-History-API.md
+├── 08-Storage-API.md
+├── 09-File-API.md
+├── 10-Blob-API.md
+├── 11-FileReader-API.md
+├── 12-FormData-API.md
+├── 13-Cookie-API.md
+├── 14-Intersection-Observer-API.md
+├── 15-Mutation-Observer-API.md
+├── 16-Performance-API.md
+├── 17-Web-Workers.md
+└── 18-Service-Worker.md
+```
+
 > **说明**：本节包含的是 **Web API**（浏览器 API），而非 ECMAScript 内置对象。这些 API 由 W3C 等 Web 标准组织定义，主要用于浏览器环境。
 > 
 > **详细说明**：关于内置对象与浏览器 API 的区别，请参考 [JavaScript MOC](../!MOC-JavaScript.md)。
@@ -12,39 +37,39 @@ JavaScript 在浏览器环境中的应用。
 
 ### 核心 API
 
-- [DOM 操作](./DOM操作.md) — DOM 接口和操作（配合 [HTML MOC](../../../../03-前端开发/01-Web基础/01-HTML/!MOC-HTML.md) 使用）
-- [BOM（Browser Object Model）](./BOM.md) — `window`、`location`、`navigator`、`history`、`screen` 等
-- [事件机制](./事件机制.md) — 事件捕获、冒泡、委托机制详解
-- [自定义事件](./自定义事件.md) — CustomEvent API 和组件间通信
+- [DOM 操作](./01-DOM操作.md) — DOM 接口和操作（配合 [HTML MOC](../../../../03-前端开发/01-Web基础/01-HTML/!MOC-HTML.md) 使用）
+- [BOM（Browser Object Model）](./02-BOM.md) — `window`、`location`、`navigator`、`history`、`screen` 等
+- [事件机制](./03-事件机制.md) — 事件捕获、冒泡、委托机制详解
+- [自定义事件](./04-自定义事件.md) — CustomEvent API 和组件间通信
 
 ### 网络与通信
 
-- [Fetch API](./Fetch-API.md) — 现代化的网络请求接口
-- [WebSocket API](./WebSocket-API.md) — 全双工实时通信协议
-- [History API](./History-API.md) — 浏览器历史记录操作，实现 SPA 路由
+- [Fetch API](./05-Fetch-API.md) — 现代化的网络请求接口
+- [WebSocket API](./06-WebSocket-API.md) — 全双工实时通信协议
+- [History API](./07-History-API.md) — 浏览器历史记录操作，实现 SPA 路由
 
 ### 存储
 
-- [Storage API](./Storage-API.md) — localStorage 和 sessionStorage 本地存储
+- [Storage API](./08-Storage-API.md) — localStorage 和 sessionStorage 本地存储
 
 ### 文件操作
 
-- [File API](./File-API.md) — 文件对象操作
-- [Blob API](./Blob-API.md) — 二进制大对象
-- [FileReader API](./FileReader-API.md) — 文件读取
-- [FormData API](./FormData-API.md) — 表单数据
-- [Cookie API](./Cookie-API.md) — Cookie 操作与属性（Domain、Path、Secure、SameSite、HttpOnly）
+- [File API](./09-File-API.md) — 文件对象操作
+- [Blob API](./10-Blob-API.md) — 二进制大对象
+- [FileReader API](./11-FileReader-API.md) — 文件读取
+- [FormData API](./12-FormData-API.md) — 表单数据
+- [Cookie API](./13-Cookie-API.md) — Cookie 操作与属性（Domain、Path、Secure、SameSite、HttpOnly）
 
 ### 观察者 API
 
-- [Intersection Observer API](./Intersection-Observer-API.md) — 观察元素与视口交叉状态（懒加载、无限滚动）
-- [Mutation Observer API](./Mutation-Observer-API.md) — 观察 DOM 树变化
+- [Intersection Observer API](./14-Intersection-Observer-API.md) — 观察元素与视口交叉状态（懒加载、无限滚动）
+- [Mutation Observer API](./15-Mutation-Observer-API.md) — 观察 DOM 树变化
 
 ### 性能与工作线程
 
-- [Performance API](./Performance-API.md) — 性能测量和监控
-- [Web Workers](./Web-Workers.md) — 后台线程执行 JavaScript
-- [Service Worker](./Service-Worker.md) — 后台脚本，实现离线功能和推送通知
+- [Performance API](./16-Performance-API.md) — 性能测量和监控
+- [Web Workers](./17-Web-Workers.md) — 后台线程执行 JavaScript
+- [Service Worker](./18-Service-Worker.md) — 后台脚本，实现离线功能和推送通知
 
 ## 参考
 

@@ -476,9 +476,9 @@ uploadBlob(blob, 'file.txt').then(result => {
 ## 🔗 相关链接
 
 ### 相关 API
-- [File API](./File-API.md) — 文件对象（File 继承自 Blob）
-- [FileReader API](./FileReader-API.md) — 文件读取
-- [FormData API](./FormData-API.md) — 表单数据和文件上传
+- [File API](./09-File-API.md) — 文件对象（File 继承自 Blob）
+- [FileReader API](./11-FileReader-API.md) — 文件读取
+- [FormData API](./12-FormData-API.md) — 表单数据和文件上传
 
 ### 实际应用
 - [前端大文件上传](../../../../10-实战案例/01-前端实战/前端大文件上传.md) — 大文件上传实现

@@ -586,9 +586,9 @@ console.log(object);
 ## 🔗 相关链接
 
 ### 相关 API
-- [File API](./File-API.md) — 文件对象
-- [Blob API](./Blob-API.md) — 二进制大对象
-- [FileReader API](./FileReader-API.md) — 文件读取
+- [File API](./09-File-API.md) — 文件对象
+- [Blob API](./10-Blob-API.md) — 二进制大对象
+- [FileReader API](./11-FileReader-API.md) — 文件读取
 - [Fetch API](./浏览器API.md) — 网络请求
 
 ### 实际应用

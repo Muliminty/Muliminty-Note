@@ -181,7 +181,7 @@
 
 #### 5. 动画与交互
 - [动画与交互-MOC](./05-高级应用/动画与交互/!MOC-动画与交互.md) — 动画与交互完整指南
-- [GSAP 完整教程](./05-高级应用/动画与交互/GSAP/!MOC-GSAP.md) — GSAP 动画库完整指南（需要掌握 [JavaScript](../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和 [DOM 操作](../02-编程语言/01-JavaScript/08-浏览器环境与DOM/DOM操作.md)）
+- [GSAP 完整教程](./05-高级应用/动画与交互/GSAP/!MOC-GSAP.md) — GSAP 动画库完整指南（需要掌握 [JavaScript](../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和 [DOM 操作](../02-编程语言/01-JavaScript/08-浏览器环境与DOM/01-DOM操作.md)）
 
 #### 6. 前沿技术
 - [WebAssembly](./05-高级应用/前沿/WebAssembly.md) — WebAssembly 技术
