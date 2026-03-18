@@ -11,10 +11,14 @@
             "id": "dc7f94f14431f734",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "99-系统/01-百科写作规范.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "01-百科写作规范"
             }
           }
         ]
@@ -276,6 +280,10 @@
   },
   "active": "dc7f94f14431f734",
   "lastOpenFiles": [
+    "07-基础设施与运维/02-Web服务器/Nginx/08-部署实践/02-React 项目子路径部署实践.md",
+    "07-基础设施与运维/02-Web服务器/Nginx/08-部署实践/01-多项目配置与部署实践.md",
+    "07-基础设施与运维/02-Web服务器/Nginx/08-部署实践/README.md",
+    "99-系统/04-重构TODO.md",
     "02-编程语言/01-JavaScript/08-浏览器环境与DOM/18-Service-Worker.md",
     "02-编程语言/01-JavaScript/08-浏览器环境与DOM/17-Web-Workers.md",
     "02-编程语言/01-JavaScript/08-浏览器环境与DOM/16-Performance-API.md",
@@ -298,10 +306,6 @@
     "02-编程语言/01-JavaScript/04-异步编程/03-async-await.md",
     "02-编程语言/01-JavaScript/04-异步编程/02-Promise.md",
     "02-编程语言/01-JavaScript/04-异步编程/01-回调函数.md",
-    "02-编程语言/01-JavaScript/99-参考与归档/Set和Map-旧命名.md",
-    "02-编程语言/01-JavaScript/02-内置对象与API/09-其他内置对象.md",
-    "02-编程语言/01-JavaScript/02-内置对象与API/08-Set和Map.md",
-    "02-编程语言/01-JavaScript/02-内置对象与API/07-Math.md",
     "02-编程语言/01-JavaScript/99-参考与归档/体系",
     "02-编程语言/01-JavaScript/99-参考与归档",
     "02-编程语言/01-JavaScript/10-测试与规范",
