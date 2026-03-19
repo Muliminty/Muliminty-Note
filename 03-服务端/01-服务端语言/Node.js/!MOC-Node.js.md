@@ -20,6 +20,7 @@ Node.js 的基础概念和核心模块。
 - [安装与版本管理（nvm）](./01-基础入门/安装与版本管理.md) — Node.js 安装和版本管理
 - [模块系统（CommonJS、ES Modules）](./01-基础入门/模块系统.md) — 模块系统详解
 - [核心模块](./01-基础入门/核心模块.md) — Node.js 内置核心模块（fs、path、http、events、stream 等）
+- [Node.js 终端交互与子进程](./01-基础入门/05-Node.js 终端交互与子进程.md) — 理解 argv、stdin/stdout、readline、child_process 与 AI CLI 的执行链路
 
 ---
 

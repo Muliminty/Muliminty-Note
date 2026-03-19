@@ -1,3 +1,17 @@
+---
+title: "CI-CD 集成"
+date: "2026-03-19"
+lastModified: "2026-03-19"
+tags: ["Docker", "生产环境部署", "CI-CD", "自动化"]
+moc: "[[!MOC-Docker]]"
+stage: "工程化实践"
+prerequisites: ["部署策略", "镜像仓库管理"]
+description: "整理 Docker 与 GitHub Actions、GitLab CI、Jenkins 等持续集成与持续部署流程的集成方式。"
+publish: true
+aliases: ["Docker CI-CD 集成", "CI/CD 集成"]
+toc: true
+---
+
 # CI/CD 集成
 
 > Docker 与 CI/CD 流程的集成
@@ -116,6 +130,8 @@ docker push username/app:latest
 
 ---
 
-[[!MOC-Docker|返回 Docker 知识体系]]
+## 相关笔记
 
-#Docker #CI/CD #持续集成
+- [01-部署策略.md](./01-部署策略.md)
+- [02-监控与日志.md](./02-监控与日志.md)
+- [03-容器编排方案.md](./03-容器编排方案.md)

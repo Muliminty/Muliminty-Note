@@ -1,3 +1,17 @@
+---
+title: "Dockerfile 最佳实践"
+date: "2026-03-19"
+lastModified: "2026-03-19"
+tags: ["Docker", "Dockerfile", "最佳实践", "镜像优化"]
+moc: "[[!MOC-Docker]]"
+stage: "工程化实践"
+prerequisites: ["Dockerfile 编写指南", "多阶段构建", "构建参数与变量"]
+description: "总结 Dockerfile 在指令顺序、缓存利用、安全性、可维护性与性能优化方面的常见最佳实践。"
+publish: true
+aliases: ["Dockerfile最佳实践"]
+toc: true
+---
+
 # Dockerfile 最佳实践
 
 > 编写高效、安全、可维护的 Dockerfile 的最佳实践
@@ -329,6 +343,8 @@ CMD ["python", "app.py"]
 
 ---
 
-[[!MOC-Docker|返回 Docker 知识体系]]
+## 相关笔记
 
-#Docker #Dockerfile #最佳实践
+- [01-多阶段构建.md](./01-多阶段构建.md)
+- [02-构建参数与变量.md](./02-构建参数与变量.md)
+- [03-健康检查配置.md](./03-健康检查配置.md)
