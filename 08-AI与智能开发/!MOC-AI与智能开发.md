@@ -1,7 +1,7 @@
 ---
 title: "AI 与智能开发"
 date: "2026-03-17"
-lastModified: "2026-03-17"
+lastModified: "2026-03-26"
 tags: ["AI", "智能开发", "一级主题", "百科入口"]
 moc: "[[!MOC-AI与智能开发]]"
 description: "汇总 AI 基础理论、模型 API、AI 应用开发与 AI 辅助开发实践。"
@@ -24,6 +24,12 @@ toc: true
 - [模型与 API](./02-模型与API/README.md)
 - [AI 应用开发](./03-AI应用开发/README.md)
 - [AI 辅助开发](./04-AI辅助开发/README.md)
+
+当前高频起点：
+
+- 刚开始理解大模型：看 [01-AI基础理论/LLM.md](./01-AI基础理论/LLM.md)
+- 刚装好本地模型想先跑起来：看 [02-模型与API/Ollama.md](./02-模型与API/Ollama.md)
+- 想继续看模型调用与应用接入：看 [03-AI应用开发/README.md](./03-AI应用开发/README.md)
 
 ## 3. 说明
 

@@ -1,9 +1,9 @@
 ---
 title: "AI 与智能开发目录说明"
 date: "2026-03-17"
-lastModified: "2026-03-17"
+lastModified: "2026-03-26"
 tags: ["AI", "智能开发", "目录说明"]
-publish: false
+publish: true
 toc: true
 ---
 
@@ -21,5 +21,12 @@ toc: true
 - `03-AI应用开发`
 - `04-AI辅助开发`
 - `99-参考与归档`
+
+当前推荐入口：
+
+- 理解模型基础：看 `01-AI基础理论`
+- 本地模型上手：看 `02-模型与API/Ollama.md`
+- 云端模型调用：看 `02-模型与API`
+- AI 工具与工作流：看 `04-AI辅助开发`
 
 后续新增内容继续按“理论、API、应用开发、AI Coding 工作流”四层分流。

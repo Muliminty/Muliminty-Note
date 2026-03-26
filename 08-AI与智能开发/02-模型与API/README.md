@@ -1,19 +1,44 @@
-# AI API 知识库
+---
+title: "模型与 API 目录说明"
+date: "2026-03-17"
+lastModified: "2026-03-26"
+tags: ["AI", "模型与API", "目录说明"]
+description: "说明模型与 API 目录的收录范围、当前结构与推荐阅读顺序。"
+publish: true
+toc: true
+---
 
-> 本目录主要收集和整理各类 AI API 和框架的使用指南、最佳实践与知识体系。
+# 模型与 API 目录说明
 
-## 目录结构
+本目录主要收集和整理大模型 API、本地模型运行层、调用框架与相关基础设施知识。
 
-本目录包含了大模型相关的 API 和调用框架：
+## 1. 本目录负责什么
 
-- [OpenAI API](./OpenAI-API.md) — OpenAI 官方接口调用与参数详解（待补充）
-- [Claude API](./Claude-API.md) — Anthropic Claude 接口使用指南（待补充）
-- [LangChain](./LangChain.md) — LLM 应用开发的主流框架，涵盖其核心组件的使用和原理
-- [向量数据库](./向量数据库.md) — Pinecone, Weaviate, Milvus, Chroma 等向量检索相关的 API 与原理（待补充）
+本目录重点收录：
 
-## 学习建议
+- 云端模型 API 的调用方式
+- 本地模型运行层与调用方式
+- 模型开发框架与抽象层
+- 与模型调用密切相关的数据基础设施
 
-在使用 AI API 与框架时：
-1. **优先掌握底层 API**：建议先熟悉原生大模型 API (如 OpenAI API) 的参数和调用方式，这是理解更高层框架的基础。
-2. **理解框架的抽象**：LangChain 等框架为了通用性进行了高度抽象，学习时应重点理解其抽象逻辑（如 LCEL、Prompt、Memory 等）。
-3. **关注安全性与成本**：在调用各种 API 时，要注意 API Key 的安全管理以及 Token 消耗的成本预估。
+## 2. 当前结构
+
+- [Ollama](./Ollama.md)：本地模型的下载、运行与 HTTP API 调用入口
+- [OpenAI API](./OpenAI-API.md)：OpenAI 官方接口调用与参数说明
+- [Claude API](./Claude-API.md)：Anthropic Claude 接口使用说明
+- [LangChain](./LangChain.md)：LLM 应用开发框架与抽象层
+- [向量数据库](./向量数据库.md)：向量检索与 RAG 常见基础设施
+
+## 3. 推荐阅读顺序
+
+如果你刚开始接触这一层，建议这样读：
+
+1. 先看 [Ollama](./Ollama.md)，理解本地模型如何真正跑起来。
+2. 再看云端模型 API，如 [OpenAI API](./OpenAI-API.md) 与 [Claude API](./Claude-API.md)。
+3. 最后再看 [LangChain](./LangChain.md) 与 [向量数据库](./向量数据库.md) 这类更上层的抽象与基础设施。
+
+## 4. 维护约束
+
+- 这里优先收录“模型如何被调用、组织和集成”的内容。
+- 如果内容核心是“模型原理、推理机制、RAG 与 Agent 概念”，优先放到 `01-AI基础理论`。
+- 如果内容核心是“基于模型开发应用或 MCP 工具链”，优先放到 `03-AI应用开发`。
