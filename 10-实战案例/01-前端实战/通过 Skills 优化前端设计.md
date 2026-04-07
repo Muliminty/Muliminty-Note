@@ -1,3 +1,15 @@
+---
+title: "通过 Skills 优化前端设计"
+date: "2026-04-07"
+lastModified: "2026-04-07"
+tags: ["AI", "前端设计", "Skills", "Claude", "提示工程"]
+moc: "[[!MOC-前端实战]]"
+description: "翻译整理自 Claude 官方博客。介绍如何通过 Skills 机制突破大模型前端生成的同质化倾向，让 Claude 产出更有设计感的界面。"
+publish: true
+aliases: ["Skills 前端设计", "Claude 前端设计优化"]
+toc: true
+---
+
 # 通过 Skills 优化前端设计
 
 > 来源：<https://claude.com/blog/improving-frontend-design-through-skills>
