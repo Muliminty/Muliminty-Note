@@ -1,3 +1,15 @@
+---
+title: "JSX 语法"
+date: "2026-04-07"
+lastModified: "2026-04-07"
+tags: ["React", "JSX", "前端框架", "组件开发"]
+moc: "[[!MOC-React]]"
+description: "详细介绍 JSX 语法规则，涵盖属性、条件渲染、列表渲染等，配合示例与常见错误说明，适合新手入门与系统性复习。"
+publish: true
+aliases: ["JSX", "React JSX 语法"]
+toc: true
+---
+
 # JSX 语法
 
 > JSX 是 React 的声明式语法，让你可以用类似 HTML 的方式写 JavaScript 代码。
