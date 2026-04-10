@@ -1,3 +1,13 @@
+---
+title: "Next.js 完整指南"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-React]]"
+description: "Next.js 是 React 的全栈框架，提供 SSR、SSG、API 路由等功能"
+publish: true
+toc: true
+---
+
 # Next.js 完整指南
 
 > Next.js 是 React 的全栈框架，提供 SSR、SSG、API 路由等功能

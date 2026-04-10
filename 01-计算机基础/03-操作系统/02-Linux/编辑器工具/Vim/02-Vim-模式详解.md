@@ -1,3 +1,13 @@
+---
+title: "Vim 模式详解"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-Linux]]"
+description: "深入理解 Vim 的各种模式，掌握模式切换技巧"
+publish: true
+toc: true
+---
+
 # Vim 模式详解
 
 > 深入理解 Vim 的各种模式，掌握模式切换技巧

@@ -1,3 +1,13 @@
+---
+title: "Vim 高级技巧"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-Linux]]"
+description: "提升编辑效率的高级技巧和模式"
+publish: true
+toc: true
+---
+
 # Vim 高级技巧
 
 > 提升编辑效率的高级技巧和模式

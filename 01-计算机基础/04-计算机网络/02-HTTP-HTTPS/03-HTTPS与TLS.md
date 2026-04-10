@@ -1,3 +1,14 @@
+---
+title: "HTTPS 与 TLS（HTTPS and TLS）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["HTTPS", "TLS", "SSL", "网络安全", "加密"]
+moc: "[[!MOC-计算机网络]]"
+description: "HTTPS（HTTP Secure）是 HTTP 的安全版本，通过 TLS/SSL 协议提供加密和身份验证。"
+publish: true
+toc: true
+---
+
 # HTTPS 与 TLS（HTTPS and TLS）
 
 > HTTPS（HTTP Secure）是 HTTP 的安全版本，通过 TLS/SSL 协议提供加密和身份验证。

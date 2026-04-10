@@ -1,3 +1,14 @@
+---
+title: "createContext"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["react", "createContext", "context", "基础概念"]
+moc: "[[!MOC-React]]"
+description: "`createContext` 是 React 提供的 API，用于创建一个 Context 对象，用于在组件树中传递数据。"
+publish: true
+toc: true
+---
+
 # createContext
 
 > `createContext` 是 React 提供的 API，用于创建一个 Context 对象，用于在组件树中传递数据。

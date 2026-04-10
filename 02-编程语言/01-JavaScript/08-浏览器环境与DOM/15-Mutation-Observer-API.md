@@ -1,3 +1,14 @@
+---
+title: "Mutation Observer API"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "mutation-observer", "dom", "前端基础"]
+moc: "[[!MOC-JavaScript]]"
+description: "Mutation Observer API 提供了观察 DOM 树变化的能力，当 DOM 发生变化时异步触发回调，是 Mutation Events 的现代替代方案。"
+publish: true
+toc: true
+---
+
 # Mutation Observer API
 
 > Mutation Observer API 提供了观察 DOM 树变化的能力，当 DOM 发生变化时异步触发回调，是 Mutation Events 的现代替代方案。

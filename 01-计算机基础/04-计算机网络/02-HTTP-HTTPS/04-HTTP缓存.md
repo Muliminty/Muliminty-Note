@@ -1,3 +1,14 @@
+---
+title: "HTTP 缓存（HTTP Caching）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["HTTP", "缓存", "Web性能", "Cache-Control"]
+moc: "[[!MOC-计算机网络]]"
+description: "HTTP 缓存是提高 Web 性能的重要手段，通过缓存可以减少网络请求，提高页面加载速度。"
+publish: true
+toc: true
+---
+
 # HTTP 缓存（HTTP Caching）
 
 > HTTP 缓存是提高 Web 性能的重要手段，通过缓存可以减少网络请求，提高页面加载速度。

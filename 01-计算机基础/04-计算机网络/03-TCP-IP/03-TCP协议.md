@@ -1,3 +1,14 @@
+---
+title: "TCP 协议（TCP Protocol）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["TCP", "传输层协议", "网络协议"]
+moc: "[[!MOC-计算机网络]]"
+description: "TCP（Transmission Control Protocol，传输控制协议）是一种面向连接的、可靠的传输层协议。"
+publish: true
+toc: true
+---
+
 # TCP 协议（TCP Protocol）
 
 > TCP（Transmission Control Protocol，传输控制协议）是一种面向连接的、可靠的传输层协议。

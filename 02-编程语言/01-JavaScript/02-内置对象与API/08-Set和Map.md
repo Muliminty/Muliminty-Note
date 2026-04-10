@@ -1,3 +1,14 @@
+---
+title: "Set 和 Map（Set and Map）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "Set", "Map", "ES6", "数据结构", "内置对象"]
+moc: "[[!MOC-JavaScript]]"
+description: "JavaScript Set 和 Map：集合数据结构的\"双胞胎\"，Set 像没有重复值的数组，Map 像可以用任何类型做键的对象。"
+publish: true
+toc: true
+---
+
 # Set 和 Map（Set and Map）
 
 > JavaScript Set 和 Map：集合数据结构的"双胞胎"，Set 像没有重复值的数组，Map 像可以用任何类型做键的对象。

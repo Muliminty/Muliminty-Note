@@ -1,3 +1,14 @@
+---
+title: "Context + 自定义 Hook 最佳模式"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["react", "context", "hooks", "最佳实践", "架构模式"]
+moc: "[[!MOC-React]]"
+description: "**标准、专业、可复用的写法** - 前端项目里最常用的模式，适合在真实项目中直接使用。"
+publish: true
+toc: true
+---
+
 # Context + 自定义 Hook 最佳模式
 
 > **标准、专业、可复用的写法** - 前端项目里最常用的模式，适合在真实项目中直接使用。

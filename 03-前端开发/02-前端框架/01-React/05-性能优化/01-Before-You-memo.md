@@ -1,3 +1,13 @@
+---
+title: "Before You memo()"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-React]]"
+description: "参考：[Before You memo()](https://overreacted.io/before-you-memo/) - Dan Abramov"
+publish: true
+toc: true
+---
+
 # Before You memo()
 
 > 参考：[Before You memo()](https://overreacted.io/before-you-memo/) - Dan Abramov

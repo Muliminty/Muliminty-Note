@@ -1,3 +1,14 @@
+---
+title: "tsconfig.json 配置指南"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["typescript", "配置", "tsconfig"]
+moc: "[[!MOC-TypeScript]]"
+description: "tsconfig.json 是 TypeScript 项目的核心配置文件，理解各配置项对于项目开发至关重要。"
+publish: true
+toc: true
+---
+
 # tsconfig.json 配置指南
 
 > tsconfig.json 是 TypeScript 项目的核心配置文件，理解各配置项对于项目开发至关重要。

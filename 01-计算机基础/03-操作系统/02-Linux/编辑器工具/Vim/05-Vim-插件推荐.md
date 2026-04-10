@@ -1,3 +1,13 @@
+---
+title: "Vim 插件推荐"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-Linux]]"
+description: "精选 Vim 插件，提升编辑效率"
+publish: true
+toc: true
+---
+
 # Vim 插件推荐
 
 > 精选 Vim 插件，提升编辑效率

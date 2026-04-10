@@ -1,3 +1,13 @@
+---
+title: "Java 简介与特点"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["java", "编程语言", "服务端语言", "面向对象"]
+moc: "[[!MOC-Java]]"
+publish: true
+toc: true
+---
+
 # Java 简介与特点
 
 ## 什么是 Java

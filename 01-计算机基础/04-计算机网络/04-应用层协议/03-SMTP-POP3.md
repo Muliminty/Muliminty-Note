@@ -1,3 +1,14 @@
+---
+title: "SMTP/POP3（SMTP and POP3）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["SMTP", "POP3", "IMAP", "邮件协议"]
+moc: "[[!MOC-计算机网络]]"
+description: "SMTP（Simple Mail Transfer Protocol）用于发送邮件，POP3（Post Office Protocol 3）用于接收邮件。"
+publish: true
+toc: true
+---
+
 # SMTP/POP3（SMTP and POP3）
 
 > SMTP（Simple Mail Transfer Protocol）用于发送邮件，POP3（Post Office Protocol 3）用于接收邮件。

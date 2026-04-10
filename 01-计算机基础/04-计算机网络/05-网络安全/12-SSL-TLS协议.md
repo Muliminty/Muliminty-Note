@@ -1,3 +1,14 @@
+---
+title: "SSL/TLS协议（SSL/TLS Protocol）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["SSL/TLS", "HTTPS", "加密", "证书", "前向安全"]
+moc: "[[!MOC-计算机网络]]"
+description: "SSL/TLS是提供网络通信安全的最重要协议之一，为应用层提供数据加密、身份认证和完整性保护"
+publish: true
+toc: true
+---
+
 # SSL/TLS协议（SSL/TLS Protocol）
 
 > SSL/TLS是提供网络通信安全的最重要协议之一，为应用层提供数据加密、身份认证和完整性保护

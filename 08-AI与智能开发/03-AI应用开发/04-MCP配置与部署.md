@@ -1,3 +1,14 @@
+---
+title: "MCP 配置与部署指南"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["MCP", "配置", "部署", "Docker", "云部署", "故障排除"]
+moc: "[[!MOC-AI与智能开发]]"
+description: "本指南详细介绍如何在不同的 MCP Host 中配置和部署 MCP Server，包括配置文件、部署方案和故障排除。"
+publish: true
+toc: true
+---
+
 # MCP 配置与部署指南
 
 > 本指南详细介绍如何在不同的 MCP Host 中配置和部署 MCP Server，包括配置文件、部署方案和故障排除。

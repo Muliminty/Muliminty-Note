@@ -1,3 +1,14 @@
+---
+title: "UDP 协议（UDP Protocol）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["UDP", "传输层协议", "网络协议"]
+moc: "[[!MOC-计算机网络]]"
+description: "UDP（User Datagram Protocol，用户数据报协议）是一种无连接的、不可靠的传输层协议。"
+publish: true
+toc: true
+---
+
 # UDP 协议（UDP Protocol）
 
 > UDP（User Datagram Protocol，用户数据报协议）是一种无连接的、不可靠的传输层协议。

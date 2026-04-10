@@ -1,3 +1,14 @@
+---
+title: "Context API 完整体系"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["react", "context", "createContext", "provider", "useeffect", "深度理解"]
+moc: "[[!MOC-React]]"
+description: "本文档将 `createContext`、`Provider` 和 `useContext` 三个知识点串联起来，深入理解 Context API 的完整工作机制。"
+publish: true
+toc: true
+---
+
 # Context API 完整体系
 
 > 本文档将 `createContext`、`Provider` 和 `useContext` 三个知识点串联起来，深入理解 Context API 的完整工作机制。

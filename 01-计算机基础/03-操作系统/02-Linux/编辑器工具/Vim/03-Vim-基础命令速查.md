@@ -1,3 +1,13 @@
+---
+title: "Vim 基础命令速查"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-Linux]]"
+description: "Vim 常用命令快速参考"
+publish: true
+toc: true
+---
+
 # Vim 基础命令速查
 
 > Vim 常用命令快速参考

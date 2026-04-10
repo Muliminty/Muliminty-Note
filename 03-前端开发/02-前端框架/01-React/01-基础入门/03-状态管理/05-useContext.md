@@ -1,3 +1,14 @@
+---
+title: "useContext"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["react", "useeffect", "hooks", "基础概念"]
+moc: "[[!MOC-React]]"
+description: "`useContext` 是 React Hook，用于在函数组件中读取和订阅 Context 的值。"
+publish: true
+toc: true
+---
+
 # useContext
 
 > `useContext` 是 React Hook，用于在函数组件中读取和订阅 Context 的值。

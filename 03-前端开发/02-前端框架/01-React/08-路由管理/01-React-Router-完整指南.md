@@ -1,3 +1,13 @@
+---
+title: "React Router 完整指南"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-React]]"
+description: "React Router 是 React 应用中最流行的路由解决方案，提供了声明式的路由配置和导航功能。"
+publish: true
+toc: true
+---
+
 # React Router 完整指南
 
 > React Router 是 React 应用中最流行的路由解决方案，提供了声明式的路由配置和导航功能。

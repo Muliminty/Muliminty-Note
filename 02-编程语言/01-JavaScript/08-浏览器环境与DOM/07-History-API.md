@@ -1,3 +1,14 @@
+---
+title: "History API"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "history", "路由", "spa", "前端基础"]
+moc: "[[!MOC-JavaScript]]"
+description: "History API 提供了操作浏览器历史记录的能力，可以实现单页应用（SPA）的路由功能，无需刷新页面。"
+publish: true
+toc: true
+---
+
 # History API
 
 > History API 提供了操作浏览器历史记录的能力，可以实现单页应用（SPA）的路由功能，无需刷新页面。

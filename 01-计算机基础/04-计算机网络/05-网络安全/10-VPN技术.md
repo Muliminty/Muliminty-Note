@@ -1,3 +1,14 @@
+---
+title: "VPN技术（Virtual Private Network）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["VPN", "IPSec", "OpenVPN", "网络安全", "远程访问"]
+moc: "[[!MOC-计算机网络]]"
+description: "VPN（虚拟专用网络）通过公共网络安全地传输私有数据，为远程用户提供安全的网络连接"
+publish: true
+toc: true
+---
+
 # VPN技术（Virtual Private Network）
 
 > VPN（虚拟专用网络）通过公共网络安全地传输私有数据，为远程用户提供安全的网络连接

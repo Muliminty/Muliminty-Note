@@ -1,3 +1,14 @@
+---
+title: "async/await"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "async-await", "异步编程", "前端基础"]
+moc: "[[!MOC-JavaScript]]"
+description: "async/await 是 Promise 的语法糖，让你用写同步代码的方式写异步代码。"
+publish: true
+toc: true
+---
+
 # async/await
 
 > async/await 是 Promise 的语法糖，让你用写同步代码的方式写异步代码。

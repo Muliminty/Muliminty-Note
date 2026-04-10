@@ -1,3 +1,14 @@
+---
+title: "Blob API（Blob API）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "BlobAPI", "二进制数据", "浏览器API"]
+moc: "[[!MOC-JavaScript]]"
+description: "Blob（Binary Large Object）API 提供了对二进制数据的操作能力，是 File API 的基础。"
+publish: true
+toc: true
+---
+
 # Blob API（Blob API）
 
 > Blob（Binary Large Object）API 提供了对二进制数据的操作能力，是 File API 的基础。

@@ -1,3 +1,13 @@
+---
+title: "React 作为 UI 运行时"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-React]]"
+description: "参考：[React as a UI Runtime](https://overreacted.io/react-as-a-ui-runtime/) - Dan Abramov"
+publish: true
+toc: true
+---
+
 # React 作为 UI 运行时
 
 > 参考：[React as a UI Runtime](https://overreacted.io/react-as-a-ui-runtime/) - Dan Abramov

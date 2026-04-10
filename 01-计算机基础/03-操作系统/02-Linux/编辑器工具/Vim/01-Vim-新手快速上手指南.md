@@ -1,3 +1,13 @@
+---
+title: "Vim 新手快速上手指南"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-Linux]]"
+description: "从零开始学习 Vim，30 分钟掌握基本操作"
+publish: true
+toc: true
+---
+
 # Vim 新手快速上手指南
 
 > 从零开始学习 Vim，30 分钟掌握基本操作

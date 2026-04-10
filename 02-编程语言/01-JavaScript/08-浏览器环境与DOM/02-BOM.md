@@ -1,3 +1,14 @@
+---
+title: "BOM（Browser Object Model）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "bom", "浏览器api", "前端基础"]
+moc: "[[!MOC-JavaScript]]"
+description: "BOM（浏览器对象模型）提供了与浏览器窗口交互的 API，包括 window、location、navigator、history、screen 等对象。"
+publish: true
+toc: true
+---
+
 # BOM（Browser Object Model）
 
 > BOM（浏览器对象模型）提供了与浏览器窗口交互的 API，包括 window、location、navigator、history、screen 等对象。

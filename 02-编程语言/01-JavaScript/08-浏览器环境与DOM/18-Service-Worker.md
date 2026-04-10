@@ -1,3 +1,14 @@
+---
+title: "Service Worker"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "service-worker", "pwa", "离线应用", "前端基础"]
+moc: "[[!MOC-JavaScript]]"
+description: "Service Worker 是浏览器在后台运行的脚本，可以拦截网络请求、缓存资源，实现离线功能和推送通知，是 PWA（Progressive Web App）的核心技术。"
+publish: true
+toc: true
+---
+
 # Service Worker
 
 > Service Worker 是浏览器在后台运行的脚本，可以拦截网络请求、缓存资源，实现离线功能和推送通知，是 PWA（Progressive Web App）的核心技术。

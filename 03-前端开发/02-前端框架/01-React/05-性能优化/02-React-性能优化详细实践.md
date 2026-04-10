@@ -1,3 +1,13 @@
+---
+title: "React 性能优化详细实践"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-React]]"
+description: "React 应用性能优化的完整指南和实践技巧"
+publish: true
+toc: true
+---
+
 # React 性能优化详细实践
 
 > React 应用性能优化的完整指南和实践技巧

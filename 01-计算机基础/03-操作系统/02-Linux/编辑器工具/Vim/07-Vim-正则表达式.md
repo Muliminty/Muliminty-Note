@@ -1,3 +1,13 @@
+---
+title: "Vim 正则表达式"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-Linux]]"
+description: "Vim 中正则表达式的使用指南"
+publish: true
+toc: true
+---
+
 # Vim 正则表达式
 
 > Vim 中正则表达式的使用指南

@@ -1,3 +1,14 @@
+---
+title: "OSI 模型（OSI Model）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["网络基础", "OSI模型", "网络分层"]
+moc: "[[!MOC-计算机网络]]"
+description: "OSI（Open Systems Interconnection）模型是国际标准化组织（ISO）提出的网络通信参考模型，将网络通信分为七层。"
+publish: true
+toc: true
+---
+
 # OSI 模型（OSI Model）
 
 > OSI（Open Systems Interconnection）模型是国际标准化组织（ISO）提出的网络通信参考模型，将网络通信分为七层。

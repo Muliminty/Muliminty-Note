@@ -1,3 +1,13 @@
+---
+title: "Hooks 调用顺序的重要性"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-React]]"
+description: "参考：[Why Do React Hooks Rely on Call Order?](https://overreacted.io/why-do-hooks-rely-on-call-order/) - Dan Abramov"
+publish: true
+toc: true
+---
+
 # Hooks 调用顺序的重要性
 
 > 参考：[Why Do React Hooks Rely on Call Order?](https://overreacted.io/why-do-hooks-rely-on-call-order/) - Dan Abramov

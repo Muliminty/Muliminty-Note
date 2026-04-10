@@ -1,3 +1,14 @@
+---
+title: "Date 对象（Date Object）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "Date", "内置对象", "日期处理"]
+moc: "[[!MOC-JavaScript]]"
+description: "JavaScript 日期对象：处理时间和日期的工具，就像你手机上的日历和时钟合二为一。"
+publish: true
+toc: true
+---
+
 # Date 对象（Date Object）
 
 > JavaScript 日期对象：处理时间和日期的工具，就像你手机上的日历和时钟合二为一。

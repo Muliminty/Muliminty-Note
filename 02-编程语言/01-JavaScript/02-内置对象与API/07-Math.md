@@ -1,3 +1,14 @@
+---
+title: "Math 对象（Math Object）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "Math", "内置对象", "数学运算", "数值计算"]
+moc: "[[!MOC-JavaScript]]"
+description: "JavaScript Math 对象：数学运算的\"计算器\"，就像你手机上的计算器，能帮你做各种数学运算。"
+publish: true
+toc: true
+---
+
 # Math 对象（Math Object）
 
 > JavaScript Math 对象：数学运算的"计算器"，就像你手机上的计算器，能帮你做各种数学运算。

@@ -1,3 +1,14 @@
+---
+title: "IPSec协议（IPSec Protocol）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["IPSec", "VPN", "网络安全", "加密", "IKE"]
+moc: "[[!MOC-计算机网络]]"
+description: "IPSec（Internet Protocol Security）是一套协议族，用于在IP层提供网络安全服务，保护IP通信的机密性、完整性和真实性"
+publish: true
+toc: true
+---
+
 # IPSec协议（IPSec Protocol）
 
 > IPSec（Internet Protocol Security）是一套协议族，用于在IP层提供网络安全服务，保护IP通信的机密性、完整性和真实性

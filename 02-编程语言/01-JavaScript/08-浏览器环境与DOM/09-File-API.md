@@ -1,3 +1,14 @@
+---
+title: "File API（File API）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["ccc;", "1890ff;", "f0f7ff;", "javascript", "FileAPI", "文件操作", "浏览器API"]
+moc: "[[!MOC-JavaScript]]"
+description: "File API 提供了对文件对象的访问和操作能力，允许 Web 应用读取文件信息、读取文件内容等。"
+publish: true
+toc: true
+---
+
 # File API（File API）
 
 > File API 提供了对文件对象的访问和操作能力，允许 Web 应用读取文件信息、读取文件内容等。

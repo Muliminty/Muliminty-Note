@@ -1,3 +1,13 @@
+---
+title: "React 源码解析"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-React]]"
+description: "深入理解 React 的底层实现原理和源码架构"
+publish: true
+toc: true
+---
+
 # React 源码解析
 
 > 深入理解 React 的底层实现原理和源码架构

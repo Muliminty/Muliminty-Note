@@ -1,3 +1,13 @@
+---
+title: "useEffect 完整指南 - 深入理解 React 副作用处理"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-React]]"
+description: "参考：[A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/) - Dan Abramov"
+publish: true
+toc: true
+---
+
 # useEffect 完整指南 - 深入理解 React 副作用处理
 
 > 参考：[A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/) - Dan Abramov  

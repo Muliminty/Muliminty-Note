@@ -1,3 +1,14 @@
+---
+title: "Array 对象（Array Object）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "数组", "Array", "内置对象", "api"]
+moc: "[[!MOC-JavaScript]]"
+description: "JavaScript 数组对象：创建、访问、操作方法和使用技巧"
+publish: true
+toc: true
+---
+
 # Array 对象（Array Object）
 
 > JavaScript 数组对象：创建、访问、操作方法和使用技巧

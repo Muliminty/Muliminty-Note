@@ -1,3 +1,14 @@
+---
+title: "Web Workers"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "web-workers", "多线程", "性能优化", "前端基础"]
+moc: "[[!MOC-JavaScript]]"
+description: "Web Workers 提供了在后台线程运行 JavaScript 代码的能力，避免阻塞主线程，提升应用性能和响应速度。"
+publish: true
+toc: true
+---
+
 # Web Workers
 
 > Web Workers 提供了在后台线程运行 JavaScript 代码的能力，避免阻塞主线程，提升应用性能和响应速度。

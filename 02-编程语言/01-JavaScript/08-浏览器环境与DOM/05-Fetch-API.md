@@ -1,3 +1,14 @@
+---
+title: "Fetch API"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "fetch", "网络请求", "前端基础"]
+moc: "[[!MOC-JavaScript]]"
+description: "Fetch API 提供了现代化的网络请求接口，是 XMLHttpRequest 的替代方案。"
+publish: true
+toc: true
+---
+
 # Fetch API
 
 > Fetch API 提供了现代化的网络请求接口，是 XMLHttpRequest 的替代方案。

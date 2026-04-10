@@ -1,3 +1,14 @@
+---
+title: "TCP/IP 协议栈（TCP/IP Protocol Stack）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["网络基础", "TCP/IP", "协议栈"]
+moc: "[[!MOC-计算机网络]]"
+description: "TCP/IP 是互联网的核心协议栈，定义了网络通信的标准。TCP/IP 模型将网络分为四层，是实际使用的网络模型。"
+publish: true
+toc: true
+---
+
 # TCP/IP 协议栈（TCP/IP Protocol Stack）
 
 > TCP/IP 是互联网的核心协议栈，定义了网络通信的标准。TCP/IP 模型将网络分为四层，是实际使用的网络模型。

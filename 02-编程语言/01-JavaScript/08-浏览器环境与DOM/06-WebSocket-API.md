@@ -1,3 +1,14 @@
+---
+title: "WebSocket API"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "websocket", "实时通信", "前端基础"]
+moc: "[[!MOC-JavaScript]]"
+description: "WebSocket 提供了全双工通信协议，允许客户端和服务器之间进行实时、双向的数据传输。"
+publish: true
+toc: true
+---
+
 # WebSocket API
 
 > WebSocket 提供了全双工通信协议，允许客户端和服务器之间进行实时、双向的数据传输。

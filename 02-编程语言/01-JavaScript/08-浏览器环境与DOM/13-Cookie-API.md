@@ -1,3 +1,14 @@
+---
+title: "Cookie API"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["Web-API", "浏览器环境", "HTTP", "存储", "安全"]
+moc: "[[!MOC-JavaScript]]"
+description: "💡 **相关知识点**：这是单点登录（SSO）的核心实现方式，详细方案请参考 [[单点登录方案#方案一：同域 Cookie 共享（最简单）]]"
+publish: true
+toc: true
+---
+
 # Cookie API
 
 ## 1. 一句话概括主题

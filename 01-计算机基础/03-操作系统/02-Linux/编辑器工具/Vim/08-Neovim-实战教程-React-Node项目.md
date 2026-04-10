@@ -1,3 +1,14 @@
+---
+title: "Neovim 实战教程：开发 React + Node.js 项目"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["ddd;", "999;"]
+moc: "[[!MOC-Linux]]"
+description: "通过实际项目学习 Neovim，从零开始搭建前后端分离项目"
+publish: true
+toc: true
+---
+
 # Neovim 实战教程：开发 React + Node.js 项目
 
 > 通过实际项目学习 Neovim，从零开始搭建前后端分离项目

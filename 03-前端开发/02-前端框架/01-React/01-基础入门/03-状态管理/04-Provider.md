@@ -1,3 +1,14 @@
+---
+title: "Provider"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["react", "provider", "context", "基础概念"]
+moc: "[[!MOC-React]]"
+description: "`Provider` 是 Context 对象的一个属性，用于在组件树中提供 Context 值，使子组件能够访问这些值。"
+publish: true
+toc: true
+---
+
 # Provider
 
 > `Provider` 是 Context 对象的一个属性，用于在组件树中提供 Context 值，使子组件能够访问这些值。

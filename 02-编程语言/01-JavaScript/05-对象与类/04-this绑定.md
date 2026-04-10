@@ -1,3 +1,13 @@
+---
+title: "this 绑定（this Binding）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "this", "绑定", "context", "arrow-function"]
+moc: "[[!MOC-JavaScript]]"
+publish: true
+toc: true
+---
+
 # this 绑定（this Binding）
 
 `this` 的绑定规则和上下文。

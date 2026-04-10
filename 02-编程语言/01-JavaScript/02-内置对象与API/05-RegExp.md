@@ -1,3 +1,14 @@
+---
+title: "RegExp 对象（Regular Expression）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "RegExp", "正则表达式", "内置对象", "文本匹配"]
+moc: "[[!MOC-JavaScript]]"
+description: "JavaScript 正则表达式：文本匹配的\"万能钥匙\"，就像搜索引擎的高级搜索功能，能精确找到你想要的任何文本模式。"
+publish: true
+toc: true
+---
+
 # RegExp 对象（Regular Expression）
 
 > JavaScript 正则表达式：文本匹配的"万能钥匙"，就像搜索引擎的高级搜索功能，能精确找到你想要的任何文本模式。

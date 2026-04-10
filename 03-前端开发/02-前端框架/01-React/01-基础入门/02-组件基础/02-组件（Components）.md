@@ -1,3 +1,14 @@
+---
+title: "组件（Components）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["react", "组件", "前端框架", "基础入门"]
+moc: "[[!MOC-React]]"
+description: "组件是 React 的构建块，就像搭积木一样，用小的组件组合成大的应用。"
+publish: true
+toc: true
+---
+
 # 组件（Components）
 
 > 组件是 React 的构建块，就像搭积木一样，用小的组件组合成大的应用。

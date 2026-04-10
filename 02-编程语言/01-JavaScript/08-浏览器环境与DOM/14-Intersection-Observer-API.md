@@ -1,3 +1,14 @@
+---
+title: "Intersection Observer API"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "intersection-observer", "懒加载", "性能优化", "前端基础"]
+moc: "[[!MOC-JavaScript]]"
+description: "Intersection Observer API 提供了异步观察目标元素与其祖先元素或视口交叉状态的能力，常用于实现懒加载、无限滚动等功能。"
+publish: true
+toc: true
+---
+
 # Intersection Observer API
 
 > Intersection Observer API 提供了异步观察目标元素与其祖先元素或视口交叉状态的能力，常用于实现懒加载、无限滚动等功能。

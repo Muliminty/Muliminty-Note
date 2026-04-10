@@ -1,3 +1,14 @@
+---
+title: "DNS 原理（DNS Principles）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["DNS", "域名系统", "网络协议"]
+moc: "[[!MOC-计算机网络]]"
+description: "DNS（Domain Name System，域名系统）将域名转换为 IP 地址，是互联网的基础服务。"
+publish: true
+toc: true
+---
+
 # DNS 原理（DNS Principles）
 
 > DNS（Domain Name System，域名系统）将域名转换为 IP 地址，是互联网的基础服务。

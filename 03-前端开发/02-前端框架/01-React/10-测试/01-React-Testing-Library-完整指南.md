@@ -1,3 +1,13 @@
+---
+title: "React Testing Library 完整指南"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-React]]"
+description: "使用 React Testing Library 进行 React 组件测试的完整指南"
+publish: true
+toc: true
+---
+
 # React Testing Library 完整指南
 
 > 使用 React Testing Library 进行 React 组件测试的完整指南

@@ -1,3 +1,14 @@
+---
+title: "HTTP/2 与 HTTP/3（HTTP/2 and HTTP/3）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["HTTP", "HTTP2", "HTTP3", "QUIC", "Web性能"]
+moc: "[[!MOC-计算机网络]]"
+description: "HTTP/2 和 HTTP/3 是 HTTP 协议的新版本，带来了性能和安全性的重大改进。"
+publish: true
+toc: true
+---
+
 # HTTP/2 与 HTTP/3（HTTP/2 and HTTP/3）
 
 > HTTP/2 和 HTTP/3 是 HTTP 协议的新版本，带来了性能和安全性的重大改进。

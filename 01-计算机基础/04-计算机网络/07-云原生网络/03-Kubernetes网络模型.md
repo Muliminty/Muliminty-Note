@@ -1,3 +1,14 @@
+---
+title: "Kubernetes网络模型（Kubernetes Network Model）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["Kubernetes", "Pod网络", "Service", "CNI", "网络策略"]
+moc: "[[!MOC-计算机网络]]"
+description: "Kubernetes网络模型是Kubernetes集群的网络架构和实现方式，为Pod提供网络通信和服务发现能力"
+publish: true
+toc: true
+---
+
 # Kubernetes网络模型（Kubernetes Network Model）
 
 > Kubernetes网络模型是Kubernetes集群的网络架构和实现方式，为Pod提供网络通信和服务发现能力

@@ -1,3 +1,13 @@
+---
+title: "Remix 完整指南"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-React]]"
+description: "Remix 是一个全栈 Web 框架，专注于 Web 标准和用户体验"
+publish: true
+toc: true
+---
+
 # Remix 完整指南
 
 > Remix 是一个全栈 Web 框架，专注于 Web 标准和用户体验

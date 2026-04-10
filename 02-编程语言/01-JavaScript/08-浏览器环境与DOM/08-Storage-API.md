@@ -1,3 +1,14 @@
+---
+title: "Storage API"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "storage", "localstorage", "sessionstorage", "前端基础"]
+moc: "[[!MOC-JavaScript]]"
+description: "Storage API 提供了浏览器本地存储能力，包括 localStorage 和 sessionStorage，用于在客户端持久化数据。"
+publish: true
+toc: true
+---
+
 # Storage API
 
 > Storage API 提供了浏览器本地存储能力，包括 localStorage 和 sessionStorage，用于在客户端持久化数据。

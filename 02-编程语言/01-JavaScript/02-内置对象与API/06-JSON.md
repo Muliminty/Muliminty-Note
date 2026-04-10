@@ -1,3 +1,14 @@
+---
+title: "JSON 对象（JSON Object）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "JSON", "内置对象", "数据序列化", "数据交换"]
+moc: "[[!MOC-JavaScript]]"
+description: "JavaScript JSON 对象：数据转换的\"翻译官\"，就像把中文翻译成英文，再把英文翻译回中文，让不同系统之间能够\"对话\"。"
+publish: true
+toc: true
+---
+
 # JSON 对象（JSON Object）
 
 > JavaScript JSON 对象：数据转换的"翻译官"，就像把中文翻译成英文，再把英文翻译回中文，让不同系统之间能够"对话"。

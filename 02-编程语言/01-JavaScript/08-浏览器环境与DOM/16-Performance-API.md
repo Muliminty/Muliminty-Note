@@ -1,3 +1,14 @@
+---
+title: "Performance API"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "performance", "性能监控", "前端基础"]
+moc: "[[!MOC-JavaScript]]"
+description: "Performance API 提供了测量和监控 Web 应用性能的能力，包括页面加载时间、资源加载时间、用户交互性能等。"
+publish: true
+toc: true
+---
+
 # Performance API
 
 > Performance API 提供了测量和监控 Web 应用性能的能力，包括页面加载时间、资源加载时间、用户交互性能等。

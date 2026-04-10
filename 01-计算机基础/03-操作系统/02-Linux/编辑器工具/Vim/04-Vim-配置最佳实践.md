@@ -1,3 +1,13 @@
+---
+title: "Vim 配置最佳实践"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+moc: "[[!MOC-Linux]]"
+description: "打造高效、舒适的 Vim 编辑环境"
+publish: true
+toc: true
+---
+
 # Vim 配置最佳实践
 
 > 打造高效、舒适的 Vim 编辑环境

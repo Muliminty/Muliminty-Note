@@ -1,3 +1,14 @@
+---
+title: "Promise"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "promise", "异步编程", "前端基础"]
+moc: "[[!MOC-JavaScript]]"
+description: "Promise 是 JavaScript 处理异步操作的现代方式，让你告别\"回调地狱\"。"
+publish: true
+toc: true
+---
+
 # Promise
 
 > Promise 是 JavaScript 处理异步操作的现代方式，让你告别"回调地狱"。

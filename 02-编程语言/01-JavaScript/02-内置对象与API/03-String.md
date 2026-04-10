@@ -1,3 +1,14 @@
+---
+title: "String 对象（String Object）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "String", "内置对象", "字符串处理"]
+moc: "[[!MOC-JavaScript]]"
+description: "JavaScript 字符串对象：文本处理的核心工具，就像文字编辑器的所有功能都装在一个工具箱里。"
+publish: true
+toc: true
+---
+
 # String 对象（String Object）
 
 > JavaScript 字符串对象：文本处理的核心工具，就像文字编辑器的所有功能都装在一个工具箱里。

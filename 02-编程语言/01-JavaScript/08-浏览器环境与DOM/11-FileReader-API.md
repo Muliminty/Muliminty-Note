@@ -1,3 +1,14 @@
+---
+title: "FileReader API（FileReader API）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "FileReaderAPI", "文件读取", "浏览器API"]
+moc: "[[!MOC-JavaScript]]"
+description: "FileReader API 提供了异步读取文件内容的能力，可以读取 File 或 Blob 对象的内容。"
+publish: true
+toc: true
+---
+
 # FileReader API（FileReader API）
 
 > FileReader API 提供了异步读取文件内容的能力，可以读取 File 或 Blob 对象的内容。

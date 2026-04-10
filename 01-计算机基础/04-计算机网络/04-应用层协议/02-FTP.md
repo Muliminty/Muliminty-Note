@@ -1,3 +1,14 @@
+---
+title: "FTP（File Transfer Protocol）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["!/bin/bash", "FTP", "文件传输", "网络协议"]
+moc: "[[!MOC-计算机网络]]"
+description: "FTP（文件传输协议）是用于在网络上传输文件的应用层协议。"
+publish: true
+toc: true
+---
+
 # FTP（File Transfer Protocol）
 
 > FTP（文件传输协议）是用于在网络上传输文件的应用层协议。

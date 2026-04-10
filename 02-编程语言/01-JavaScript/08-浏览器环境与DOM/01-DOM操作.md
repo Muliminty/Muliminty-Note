@@ -1,3 +1,14 @@
+---
+title: "DOM 操作（DOM Manipulation）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "dom", "前端基础"]
+moc: "[[!MOC-JavaScript]]"
+description: "DOM（Document Object Model）是 HTML 和 XML 文档的编程接口，提供了对文档结构和内容的访问与操作能力。"
+publish: true
+toc: true
+---
+
 # DOM 操作（DOM Manipulation）
 
 > DOM（Document Object Model）是 HTML 和 XML 文档的编程接口，提供了对文档结构和内容的访问与操作能力。

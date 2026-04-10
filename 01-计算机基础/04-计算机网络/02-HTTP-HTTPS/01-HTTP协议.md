@@ -1,3 +1,14 @@
+---
+title: "HTTP 协议（HTTP Protocol）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["HTTP", "Web协议", "网络协议"]
+moc: "[[!MOC-计算机网络]]"
+description: "HTTP（HyperText Transfer Protocol，超文本传输协议）是 Web 应用的核心协议，用于客户端和服务器之间的通信。"
+publish: true
+toc: true
+---
+
 # HTTP 协议（HTTP Protocol）
 
 > HTTP（HyperText Transfer Protocol，超文本传输协议）是 Web 应用的核心协议，用于客户端和服务器之间的通信。

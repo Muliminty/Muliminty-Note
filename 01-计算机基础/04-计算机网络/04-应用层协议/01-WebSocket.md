@@ -1,3 +1,14 @@
+---
+title: "WebSocket（WebSocket Protocol）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["WebSocket", "实时通信", "网络协议"]
+moc: "[[!MOC-计算机网络]]"
+description: "WebSocket 是一种在单个 TCP 连接上进行全双工通信的协议，用于实现实时通信。"
+publish: true
+toc: true
+---
+
 # WebSocket（WebSocket Protocol）
 
 > WebSocket 是一种在单个 TCP 连接上进行全双工通信的协议，用于实现实时通信。

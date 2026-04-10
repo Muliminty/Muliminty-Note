@@ -1,3 +1,14 @@
+---
+title: "FormData API（FormData API）"
+date: "2026-04-10"
+lastModified: "2026-04-10"
+tags: ["javascript", "FormDataAPI", "表单数据", "文件上传", "浏览器API"]
+moc: "[[!MOC-JavaScript]]"
+description: "FormData API 提供了构造表单数据的能力，可以用于上传文件或发送表单数据。"
+publish: true
+toc: true
+---
+
 # FormData API（FormData API）
 
 > FormData API 提供了构造表单数据的能力，可以用于上传文件或发送表单数据。
