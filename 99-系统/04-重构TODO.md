@@ -562,16 +562,16 @@ toc: true
 
 ### 9.1 Frontmatter 元数据补齐
 
-- [ ] `01-计算机基础/04-计算机网络` 各正文补齐 Frontmatter
-- [ ] `01-计算机基础/02-数据结构与算法` 各正文补齐 Frontmatter
-- [ ] `01-计算机基础/03-操作系统/02-Linux` 各正文补齐 Frontmatter
-- [ ] `07-基础设施与运维/02-Web服务器/Nginx` 各正文补齐 Frontmatter
-- [ ] `07-基础设施与运维/03-容器化/Docker` 各正文补齐 Frontmatter
-- [ ] `02-编程语言/01-JavaScript` 各正文补齐 Frontmatter
-- [ ] `02-编程语言/02-TypeScript` 各正文补齐 Frontmatter
-- [ ] `00-前端体系/02-框架进阶/01-React` 各正文补齐 Frontmatter
-- [ ] `03-服务端/01-服务端语言` 各正文补齐 Frontmatter
-- [ ] `08-AI与智能开发` 各正文补齐 Frontmatter
+- [x] `01-计算机基础/04-计算机网络` 各正文补齐 Frontmatter
+- [x] `01-计算机基础/02-数据结构与算法` 各正文补齐 Frontmatter
+- [x] `01-计算机基础/03-操作系统/02-Linux` 各正文补齐 Frontmatter
+- [x] `07-基础设施与运维/02-Web服务器/Nginx` 各正文补齐 Frontmatter
+- [x] `07-基础设施与运维/03-容器化/Docker` 各正文补齐 Frontmatter
+- [x] `02-编程语言/01-JavaScript` 各正文补齐 Frontmatter
+- [x] `02-编程语言/02-TypeScript` 各正文补齐 Frontmatter
+- [x] `00-前端体系/02-框架进阶/01-React` 各正文补齐 Frontmatter
+- [x] `03-服务端/01-服务端语言` 各正文补齐 Frontmatter
+- [x] `08-AI与智能开发` 各正文补齐 Frontmatter
 - [x] `10-实战案例` 迁入文章补齐 Frontmatter
 - [x] `11-问题排错` 迁入文章补齐 Frontmatter
 
