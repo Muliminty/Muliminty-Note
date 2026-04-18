@@ -23,9 +23,9 @@ toc: true
 
 - [JavaScript](./01-JavaScript/!MOC-JavaScript.md)
 - [TypeScript](./02-TypeScript/!MOC-TypeScript.md)
-- [旧 Go 专题](../03-服务端/01-服务端语言/Go/!MOC-Go.md)
-- [旧 Java 专题](../03-服务端/01-服务端语言/Java/!MOC-Java.md)
-- [旧 Node.js 专题](../03-服务端/01-服务端语言/Node.js/!MOC-Node.js.md)
+- [Go](../04-服务端开发/01-服务端语言/Go/!MOC-Go.md)
+- [Java](../04-服务端开发/01-服务端语言/Java/!MOC-Java.md)
+- [Node.js](../04-服务端开发/01-服务端语言/Node.js/!MOC-Node.js.md)
 
 ## 3. 说明
 

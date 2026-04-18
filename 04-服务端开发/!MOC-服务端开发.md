@@ -18,10 +18,13 @@ toc: true
 - Web 开发
 - 微服务与分布式
 
-## 2. 迁移入口
+## 2. 当前入口
 
-- [旧服务端目录](../03-服务端/README.md)
-- [旧 API 设计](../03-服务端/05-API设计/RESTful/!MOC-RESTful-API.md)
+- [服务端语言](./01-服务端语言/README.md)
+- [Node.js](./01-服务端语言/Node.js/!MOC-Node.js.md)
+- [Java](./01-服务端语言/Java/!MOC-Java.md)
+- [Go](./01-服务端语言/Go/!MOC-Go.md)
+- [API 设计](./03-API设计/RESTful/!MOC-RESTful-API.md)
 
 ## 3. 说明
 
