@@ -1,3 +1,13 @@
+---
+title: "Spring Boot 入门"
+date: "2026-04-20"
+lastModified: "2026-04-20"
+tags: ["Java", "服务端开发", "Web开发", "Spring Boot"]
+moc: "[[!MOC-服务端开发]]"
+publish: true
+toc: true
+---
+
 # Spring Boot 入门
 
 Spring Boot 是 Spring 框架的扩展，简化了 Spring 应用的开发和部署。
@@ -453,10 +463,9 @@ Spring Boot 入门要点：
 ---
 
 **相关链接**：
-- [第一个 HTTP 服务](../06-实践项目/第一个-HTTP-服务.md) — 实践项目
-- [数据库操作](../04-数据库操作/JDBC-基础.md) — 数据库操作
+- [第一个 HTTP 服务](./第一个-HTTP-服务.md) — 实践项目
+- [数据库操作](../../03-数据库访问与持久化/Java/JDBC-基础.md) — 数据库操作
 
 ---
 
 #java #spring-boot #web开发 #restful-api
-

@@ -1,7 +1,7 @@
 ---
 title: "重构 TODO"
 date: "2026-03-13"
-lastModified: "2026-04-18"
+lastModified: "2026-04-20"
 tags: ["系统规范", "重构计划", "目录治理", "知识库维护"]
 description: "用于持续追踪知识库重构进度的唯一执行清单，集中记录全局任务、专题队列、阶段状态与复盘约束。"
 publish: true
@@ -33,7 +33,7 @@ toc: true
 
 ### 0.3 当前优先处理小清单（2026-04-18）
 - [ ] **确认资源图片存储策略并回写规范文档**：只更新系统规范，不改 `.obsidian/app.json`。需明确图片资源继续分散存放，还是未来统一收敛到专门目录。
-- [ ] **清理旧目录链接残留**：优先处理 `README.md`、`index.md` 与各专题 `!MOC` 中仍指向 `00-前端体系`、`03-服务端` 的旧路径引用。
+- [x] **清理旧目录链接残留**：已完成 `README.md`、`index.md` 与核心专题 `!MOC` 的旧路径回收，并同步修正本轮目录迁移涉及的高频入口链接。
 - [ ] **优先补齐 `03-前端开发/03-工程化` 的 Frontmatter**：先补 `README.md`、`!MOC` 与核心正文，降低该目录的规范缺口。
 - [ ] **优先补齐 `03-前端开发/04-质量保障` 的 Frontmatter**：先补 `README.md` 与四个子专题 `!MOC`，恢复目录入口完整性。
 - [ ] **为系统规范引入 `status` 字段**：在 `Frontmatter` 规范中补充生命周期状态字段，如“草稿 / 成熟 / 常青 / 归档”。
@@ -625,7 +625,8 @@ toc: true
 - [x] `02-编程语言/01-JavaScript` 各正文补齐 Frontmatter
 - [x] `02-编程语言/02-TypeScript` 各正文补齐 Frontmatter
 - [x] `03-前端开发/02-前端框架/01-React` 各正文补齐 Frontmatter
-- [x] `04-服务端开发/01-服务端语言` 已完成首轮 Frontmatter 补齐，后续按新目录边界继续二次审查
+- [x] `Go`、`Java`、`Node.js` 相关内容已完成按新目录边界的首轮拆分，后续继续按 `02-编程语言` 与 `04-服务端开发` 分别二次审查 Frontmatter
+- [x] `02-编程语言/03-Go`、`02-编程语言/04-Java`、`02-编程语言/05-Node.js` 及其对应服务端场景正文已完成首轮 Frontmatter 补齐与链路闭合
 - [x] `08-AI与智能开发` 各正文补齐 Frontmatter
 - [x] `10-实战案例` 迁入文章补齐 Frontmatter
 - [x] `11-问题排错` 迁入文章补齐 Frontmatter
@@ -653,6 +654,7 @@ toc: true
 ## 10. 二次审查待办 (自动扫描生成)
 
 > 2026-04-18 已清理一轮失效旧路径条目。
+> 2026-04-20 已回收本轮服务端语言迁移产生的伪缺项与已修复 Frontmatter 条目。
 > 本节仅保留“当前真实存在的文件问题”与“已迁移后仍需处理的新路径问题”。
 
 - [ ] [命名问题] 文件可能存在大小写或拼写错别字 "typescript": `03-前端开发/99-参考与归档/01-基础入门遗留/TypeScript/!MOC-TypeScript.md`
@@ -863,27 +865,6 @@ toc: true
 - [ ] [规范问题] 文件缺失 Frontmatter: `09-工具与效率/01-开发工具/Warp 快捷键速查.md`
 - [ ] [规范问题] 文件缺失 Frontmatter: `09-工具与效率/01-开发工具/企业微信调试模式.md`
 - [ ] [规范问题] 文件缺失 Frontmatter: `09-工具与效率/01-开发工具/Exa API 配置指南.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/03-Go/!MOC-Go.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-Web开发/Go/第一个-HTTP-服务.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-Web开发/Go/HTTP-服务基础.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/05-微服务与服务治理/Go/微服务基础.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/03-Go/02-核心特性/Goroutine-协程.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/04-Java/!MOC-Java.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-Web开发/Java/第一个-HTTP-服务.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-Web开发/Java/Spring-Boot-入门.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/05-微服务与服务治理/Java/微服务基础.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/05-微服务与服务治理/Java/Spring-Cloud-入门.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/03-数据库访问与持久化/Java/JDBC-基础.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/03-数据库访问与持久化/Java/MyBatis-入门.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/04-Java/02-核心特性/集合框架.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/05-Node.js/!MOC-Node.js.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/05-Node.js/01-基础入门/Node.js简介与特点.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/05-Node.js/01-基础入门/模块系统.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/05-Node.js/01-基础入门/核心模块.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/05-Node.js/01-基础入门/安装与版本管理.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/02-API设计/RESTful/REST-API-最佳实践.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/02-API设计/RESTful/!MOC-RESTful-API.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/03-API设计/RESTful/REST-API-设计原则.md`
 - [ ] [规范问题] 文件缺失 Frontmatter: `08-AI与智能开发/02-模型与API/Claude-API.md`
 - [ ] [规范问题] 文件缺失 Frontmatter: `08-AI与智能开发/02-模型与API/LangChain.md`
 - [ ] [规范问题] 文件缺失 Frontmatter: `08-AI与智能开发/02-模型与API/OpenAI-API.md`

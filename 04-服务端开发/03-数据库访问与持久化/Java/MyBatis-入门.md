@@ -1,3 +1,13 @@
+---
+title: "MyBatis 入门"
+date: "2026-04-20"
+lastModified: "2026-04-20"
+tags: ["Java", "服务端开发", "数据库访问", "MyBatis"]
+moc: "[[!MOC-服务端开发]]"
+publish: true
+toc: true
+---
+
 # MyBatis 入门
 
 MyBatis 是一个优秀的持久层框架，它支持自定义 SQL、存储过程以及高级映射。
@@ -537,9 +547,8 @@ MyBatis 是一个强大的持久层框架：
 
 **相关链接**：
 - [JDBC 基础](./JDBC-基础.md) — JDBC 基础操作
-- [Spring Boot 入门](../03-Web开发/Spring-Boot-入门.md) — Spring Boot 集成
+- [Spring Boot 入门](../../01-Web开发/Java/Spring-Boot-入门.md) — Spring Boot 集成
 
 ---
 
 #java #mybatis #orm #数据库
-

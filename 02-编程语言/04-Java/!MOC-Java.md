@@ -1,3 +1,15 @@
+---
+title: "Java"
+date: "2026-04-20"
+lastModified: "2026-04-20"
+tags: ["Java", "编程语言", "百科入口"]
+moc: "[[!MOC-Java]]"
+aliases: ["!MOC-Java", "Java MOC"]
+description: "Java 语言知识体系入口，涵盖基础语法、面向对象与核心特性。"
+publish: true
+toc: true
+---
+
 # Java（Java）MOC
 
 > Java 语言知识体系，聚焦语法、面向对象、集合/JVM/并发基础与语言生态。

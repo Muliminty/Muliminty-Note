@@ -1,3 +1,13 @@
+---
+title: "JDBC 基础"
+date: "2026-04-20"
+lastModified: "2026-04-20"
+tags: ["Java", "服务端开发", "数据库访问", "JDBC"]
+moc: "[[!MOC-服务端开发]]"
+publish: true
+toc: true
+---
+
 # JDBC 基础
 
 JDBC（Java Database Connectivity）是 Java 访问数据库的标准 API。
@@ -518,9 +528,8 @@ JDBC 是 Java 访问数据库的基础：
 
 **相关链接**：
 - [MyBatis-入门](./MyBatis-入门.md) — MyBatis ORM 框架
-- [Spring Boot 入门](../03-Web开发/Spring-Boot-入门.md) — Spring Boot 数据库集成
+- [Spring Boot 入门](../../01-Web开发/Java/Spring-Boot-入门.md) — Spring Boot 数据库集成
 
 ---
 
 #java #jdbc #数据库 #sql
-

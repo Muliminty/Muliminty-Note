@@ -1,3 +1,13 @@
+---
+title: "REST API 设计原则"
+date: "2026-04-20"
+lastModified: "2026-04-20"
+tags: ["服务端开发", "API设计", "RESTful"]
+moc: "[[!MOC-RESTful-API]]"
+publish: true
+toc: true
+---
+
 # REST API 设计原则
 
 > REST（Representational State Transfer）是一种架构风格，用于设计网络应用程序的 API。RESTful API 是基于 REST 原则设计的 Web API。

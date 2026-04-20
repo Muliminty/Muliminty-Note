@@ -1,3 +1,13 @@
+---
+title: "REST API 最佳实践"
+date: "2026-04-20"
+lastModified: "2026-04-20"
+tags: ["服务端开发", "API设计", "RESTful", "最佳实践"]
+moc: "[[!MOC-RESTful-API]]"
+publish: true
+toc: true
+---
+
 # REST API 最佳实践
 
 > REST API 开发的最佳实践，包括错误处理、安全、性能优化、文档化等方面。

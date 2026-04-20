@@ -1,3 +1,13 @@
+---
+title: "Spring Cloud 入门"
+date: "2026-04-20"
+lastModified: "2026-04-20"
+tags: ["Java", "服务端开发", "微服务", "Spring Cloud"]
+moc: "[[!MOC-服务端开发]]"
+publish: true
+toc: true
+---
+
 # Spring Cloud 入门
 
 Spring Cloud 是构建分布式系统和微服务架构的工具集。
@@ -448,9 +458,8 @@ Spring Cloud 提供了完整的微服务解决方案：
 
 **相关链接**：
 - [微服务基础](./微服务基础.md) — 微服务架构基础
-- [Spring Boot 入门](../03-Web开发/Spring-Boot-入门.md) — Spring Boot 基础
+- [Spring Boot 入门](../../01-Web开发/Java/Spring-Boot-入门.md) — Spring Boot 基础
 
 ---
 
 #java #spring-cloud #微服务 #分布式系统
-

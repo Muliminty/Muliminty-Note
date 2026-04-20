@@ -1,3 +1,13 @@
+---
+title: "第一个 HTTP 服务"
+date: "2026-04-20"
+lastModified: "2026-04-20"
+tags: ["Go", "服务端开发", "Web开发", "实战"]
+moc: "[[!MOC-服务端开发]]"
+publish: true
+toc: true
+---
+
 # 第一个 HTTP 服务
 
 这是 Go 语言入门实践的第一个项目，我们将从零开始搭建一个简单的 HTTP 服务器。
@@ -631,4 +641,3 @@ func main() {
 ---
 
 #go #HTTP服务 #Web开发 #实践项目
-

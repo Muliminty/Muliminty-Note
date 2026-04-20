@@ -1,3 +1,15 @@
+---
+title: "Node.js"
+date: "2026-04-20"
+lastModified: "2026-04-20"
+tags: ["Node.js", "编程语言", "百科入口"]
+moc: "[[!MOC-Node.js]]"
+aliases: ["!MOC-Node.js", "Node.js MOC"]
+description: "Node.js 运行时与语言生态入口，涵盖核心模块、模块系统与事件循环。"
+publish: true
+toc: true
+---
+
 # Node.js（Node.js）MOC
 
 > Node.js 运行时与语言生态知识体系，聚焦模块系统、核心模块、事件循环与工程工具。
@@ -21,7 +33,7 @@ Node.js 的基础概念和核心模块。
 
 ### 2. 工具与生态（Tools & Ecosystem）
 
-流行的 Node.js 框架和工具。
+Node.js 常用工程工具、运行时周边生态与框架入口。
 
 #### Web 框架
 - Express.js 基础与应用（待整理）
@@ -34,6 +46,18 @@ Node.js 的基础概念和核心模块。
 - nodemon 开发工具（待整理）
 - 常用中间件（待整理）
 - 包管理与 npm（待整理）
+
+---
+
+### 3. 异步与事件循环（Async & Event Loop）
+
+Node.js 运行时中的异步执行模型与事件循环机制。
+
+#### 核心主题
+- 事件循环（待整理）
+- 宏任务与微任务（待整理）
+- Stream 与背压（待整理）
+- 并发控制（待整理）
 
 ---
 

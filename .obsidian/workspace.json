@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2e59386ec706dc1b",
+        "id": "1b2d078162de1a4d",
         "type": "tabs",
         "children": [
           {
-            "id": "ad2edf2a790ec604",
+            "id": "dc6ee725c409557a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reports/naming_issues_list.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "naming_issues_list"
+              "title": "新标签页"
             }
           }
         ]
@@ -278,8 +274,22 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "dc6ee725c409557a",
   "lastOpenFiles": [
+    "02-编程语言/04-Java/02-核心特性/多线程.md",
+    "02-编程语言/04-Java/02-核心特性/异常处理.md",
+    "02-编程语言/03-Go/02-核心特性/常用包介绍.md",
+    "02-编程语言/03-Go/02-核心特性/标准库概览.md",
+    "02-编程语言/03-Go/02-核心特性/错误包装与检查.md",
+    "02-编程语言/03-Go/02-核心特性/错误处理机制.md",
+    "02-编程语言/03-Go/02-核心特性/同步原语.md",
+    "02-编程语言/03-Go/02-核心特性/并发模式.md",
+    "02-编程语言/03-Go/02-核心特性/Select-语句.md",
+    "02-编程语言/03-Go/02-核心特性/Channel-通道.md",
+    "02-编程语言/05-Node.js/03-异步与事件循环/README.md",
+    "02-编程语言/05-Node.js/02-框架与生态/README.md",
+    "02-编程语言/05-Node.js/03-异步与事件循环",
+    "reports/naming_issues_list.md",
     "04-服务端开发/05-微服务与服务治理/README.md",
     "04-服务端开发/04-认证与授权/README.md",
     "04-服务端开发/03-数据库访问与持久化/README.md",
@@ -301,21 +311,7 @@
     "02-编程语言/05-Node.js/!MOC-Node.js.md",
     "04-服务端开发/02-API设计/RESTful/REST-API-设计原则.md",
     "04-服务端开发/02-API设计/RESTful/REST-API-最佳实践.md",
-    "04-服务端开发/02-API设计/RESTful/!MOC-RESTful-API.md",
     "04-服务端开发/02-API设计/RESTful",
-    "04-服务端开发/02-API设计/GraphQL",
-    "04-服务端开发/05-微服务与服务治理/Java/微服务基础.md",
-    "04-服务端开发/05-微服务与服务治理/Java/Spring-Cloud-入门.md",
-    "04-服务端开发/05-微服务与服务治理/Go/微服务基础.md",
-    "04-服务端开发/03-数据库访问与持久化/Java/MyBatis-入门.md",
-    "04-服务端开发/03-数据库访问与持久化/Java/JDBC-基础.md",
-    "04-服务端开发/01-Web开发/Go/第一个-HTTP-服务.md",
-    "04-服务端开发/01-Web开发/Go/HTTP-服务基础.md",
-    "04-服务端开发/01-Web开发/Java/第一个-HTTP-服务.md",
-    "04-服务端开发/01-Web开发/Java/Spring-Boot-入门.md",
-    "02-编程语言/05-Node.js/Node.js/01-基础入门/模块系统.md",
-    "02-编程语言/05-Node.js/Node.js/01-基础入门/核心模块.md",
-    "02-编程语言/05-Node.js/Node.js/01-基础入门/安装与版本管理.md",
     "未命名.canvas",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",

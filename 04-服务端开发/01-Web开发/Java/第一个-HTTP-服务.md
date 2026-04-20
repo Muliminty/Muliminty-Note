@@ -1,3 +1,13 @@
+---
+title: "第一个 HTTP 服务"
+date: "2026-04-20"
+lastModified: "2026-04-20"
+tags: ["Java", "服务端开发", "Web开发", "实战"]
+moc: "[[!MOC-服务端开发]]"
+publish: true
+toc: true
+---
+
 # 第一个 HTTP 服务
 
 这是 Java 入门实践的第一个项目，我们将从零开始搭建一个简单的 HTTP 服务器。
@@ -488,10 +498,9 @@ public class HelloController {
 ---
 
 **相关链接**：
-- [Spring Boot 入门](../03-Web开发/Spring-Boot-入门.md) — Spring Boot 详细教程
-- [JDBC 基础](../04-数据库操作/JDBC-基础.md) — 数据库操作
+- [Spring Boot 入门](./Spring-Boot-入门.md) — Spring Boot 详细教程
+- [JDBC 基础](../../03-数据库访问与持久化/Java/JDBC-基础.md) — 数据库操作
 
 ---
 
 #java #spring-boot #http服务 #实践项目
-

@@ -1,3 +1,13 @@
+---
+title: "HTTP 服务基础"
+date: "2026-04-20"
+lastModified: "2026-04-20"
+tags: ["Go", "服务端开发", "Web开发"]
+moc: "[[!MOC-服务端开发]]"
+publish: true
+toc: true
+---
+
 # HTTP 服务基础
 
 Go 标准库提供了强大的 `net/http` 包，可以轻松创建 HTTP 服务器。
@@ -466,4 +476,3 @@ Go HTTP 服务的特点：
 ---
 
 #go #HTTP服务 #Web开发 #服务器
-

@@ -1,3 +1,13 @@
+---
+title: "Goroutine 协程"
+date: "2026-04-20"
+lastModified: "2026-04-20"
+tags: ["Go", "编程语言", "并发编程"]
+moc: "[[!MOC-Go]]"
+publish: true
+toc: true
+---
+
 # Goroutine 协程
 
 Goroutine 是 Go 语言并发编程的核心，它是轻量级线程，由 Go 运行时管理。
@@ -570,4 +580,3 @@ Goroutine 是 Go 并发编程的基础，配合 Channel 可以实现强大的并
 ---
 
 #go #Goroutine #并发编程 #协程
-

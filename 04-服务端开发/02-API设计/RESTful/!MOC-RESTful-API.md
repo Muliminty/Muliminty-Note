@@ -1,3 +1,15 @@
+---
+title: "RESTful API"
+date: "2026-04-20"
+lastModified: "2026-04-20"
+tags: ["服务端开发", "API设计", "RESTful", "百科入口"]
+moc: "[[!MOC-RESTful-API]]"
+aliases: ["!MOC-RESTful-API", "RESTful API MOC"]
+description: "RESTful API 设计、开发和最佳实践的知识体系入口。"
+publish: true
+toc: true
+---
+
 # RESTful API MOC
 
 > RESTful API 设计、开发和最佳实践的知识体系。
@@ -76,7 +88,7 @@ REST API 开发的最佳实践。
 
 ### 前置知识
 
-- [服务端知识体系](../../!MOC-服务端.md) — 服务端完整知识体系
+- [服务端开发总入口](../../!MOC-服务端开发.md) — 服务端完整知识体系
 - [HTTP/HTTPS](../../../01-计算机基础/04-计算机网络/02-HTTP-HTTPS/README.md) — HTTP 协议基础
 
 ### 实践应用
@@ -97,8 +109,8 @@ REST API 开发的最佳实践。
 2. **学习顺序**：设计原则 → 最佳实践 → 实际应用
 3. **实践应用**：结合具体框架（如 Spring Boot）进行实践
 4. **相关主题**：
-   - [安全](../../06-安全/)：API 安全实践
-   - [性能优化](../../07-性能优化/)：API 性能优化
+   - [认证与授权](../../04-认证与授权/README.md)：API 鉴权与访问控制
+   - [微服务与服务治理](../../05-微服务与服务治理/README.md)：接口治理与服务编排
 
 ---
 

@@ -1,3 +1,13 @@
+---
+title: "Node.js 简介与特点"
+date: "2026-04-20"
+lastModified: "2026-04-20"
+tags: ["Node.js", "编程语言", "基础入门"]
+moc: "[[!MOC-Node.js]]"
+publish: true
+toc: true
+---
+
 # Node.js 简介与特点
 
 Node.js 是基于 Chrome V8 引擎的 JavaScript 运行时。
