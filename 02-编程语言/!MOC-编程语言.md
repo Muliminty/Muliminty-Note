@@ -1,7 +1,7 @@
 ---
 title: "编程语言"
 date: "2026-03-17"
-lastModified: "2026-03-17"
+lastModified: "2026-04-20"
 tags: ["编程语言", "一级主题", "百科入口"]
 moc: "[[!MOC-编程语言]]"
 description: "汇总 JavaScript、TypeScript、Go、Java、Node.js 等语言相关知识。"
@@ -23,10 +23,10 @@ toc: true
 
 - [JavaScript](./01-JavaScript/!MOC-JavaScript.md)
 - [TypeScript](./02-TypeScript/!MOC-TypeScript.md)
-- [Go](../04-服务端开发/01-服务端语言/Go/!MOC-Go.md)
-- [Java](../04-服务端开发/01-服务端语言/Java/!MOC-Java.md)
-- [Node.js](../04-服务端开发/01-服务端语言/Node.js/!MOC-Node.js.md)
+- [Go](./03-Go/!MOC-Go.md)
+- [Java](./04-Java/!MOC-Java.md)
+- [Node.js](./05-Node.js/!MOC-Node.js.md)
 
 ## 3. 说明
 
-当前目录已建立为正式一级主题骨架，JavaScript 与 TypeScript 已迁入本目录，后续语言相关新增内容优先落入本目录。
+当前目录已建立为正式一级主题骨架。JavaScript、TypeScript、Go、Java 与 Node.js 的语言本体、运行时基础与语言生态统一归入本目录；服务端场景化内容则统一归入 `04-服务端开发`。

@@ -344,9 +344,8 @@ REST API 最佳实践要点：
 
 **相关链接**：
 - [REST API 设计原则](./REST-API-设计原则.md) — REST API 设计原则
-- [Spring Boot 入门](../../01-服务端语言/Java/03-Web开发/Spring-Boot-入门.md) — Spring Boot 开发 REST API
+- [Spring Boot 入门](../../01-Web开发/Java/Spring-Boot-入门.md) — Spring Boot 开发 REST API
 
 ---
 
 #rest #api设计 #最佳实践 #web开发
-

@@ -220,6 +220,8 @@ toc: true
 - [x] 完成 `Java/01-基础入门` 首轮文件命名编号化
 - [x] 更新原 `!MOC-Go.md` 以匹配新路径
 - [x] 更新原 `!MOC-Java.md` 以匹配新路径
+- [x] 将 `Go`、`Java`、`Node.js` 的语言本体拆入 `02-编程语言`
+- [x] 将 `Web 开发`、`数据库访问`、`微服务治理` 等场景内容拆回 `04-服务端开发`
 
 ---
 
@@ -387,7 +389,8 @@ toc: true
 - [x] 完成 `Java` 基础入门目录首轮编号化
 - [x] 统一 `Node.js`、`Java`、`Go` 的专题入口风格
 - [x] 检查语言专题目录是否逐步靠拢标准骨架
-- [x] 将本目录整体迁入 `04-服务端开发/01-服务端语言`
+- [x] 将语言本体拆入 `02-编程语言/03-Go`、`02-编程语言/04-Java`、`02-编程语言/05-Node.js`
+- [x] 将服务端场景内容拆入 `04-服务端开发/01-Web开发`、`02-API设计`、`03-数据库访问与持久化`、`04-认证与授权`、`05-微服务与服务治理`
 
 #### `03-服务端/02-Web服务器/Nginx`
 
@@ -622,7 +625,7 @@ toc: true
 - [x] `02-编程语言/01-JavaScript` 各正文补齐 Frontmatter
 - [x] `02-编程语言/02-TypeScript` 各正文补齐 Frontmatter
 - [x] `03-前端开发/02-前端框架/01-React` 各正文补齐 Frontmatter
-- [x] `04-服务端开发/01-服务端语言` 各正文补齐 Frontmatter
+- [x] `04-服务端开发/01-服务端语言` 已完成首轮 Frontmatter 补齐，后续按新目录边界继续二次审查
 - [x] `08-AI与智能开发` 各正文补齐 Frontmatter
 - [x] `10-实战案例` 迁入文章补齐 Frontmatter
 - [x] `11-问题排错` 迁入文章补齐 Frontmatter
@@ -860,26 +863,26 @@ toc: true
 - [ ] [规范问题] 文件缺失 Frontmatter: `09-工具与效率/01-开发工具/Warp 快捷键速查.md`
 - [ ] [规范问题] 文件缺失 Frontmatter: `09-工具与效率/01-开发工具/企业微信调试模式.md`
 - [ ] [规范问题] 文件缺失 Frontmatter: `09-工具与效率/01-开发工具/Exa API 配置指南.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Go/!MOC-Go.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Go/06-实践项目/第一个-HTTP-服务.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Go/03-Web开发/HTTP-服务基础.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Go/05-企业架构/微服务基础.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Go/02-核心特性/Goroutine-协程.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Java/!MOC-Java.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Java/06-实践项目/第一个-HTTP-服务.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Java/03-Web开发/Spring-Boot-入门.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Java/05-企业架构/微服务基础.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Java/05-企业架构/Spring-Cloud-入门.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Java/04-数据库操作/JDBC-基础.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Java/04-数据库操作/MyBatis-入门.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Java/02-核心特性/集合框架.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Node.js/!MOC-Node.js.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Node.js/01-基础入门/Node.js简介与特点.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Node.js/01-基础入门/模块系统.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Node.js/01-基础入门/核心模块.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-服务端语言/Node.js/01-基础入门/安装与版本管理.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/03-API设计/RESTful/REST-API-最佳实践.md`
-- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/03-API设计/RESTful/!MOC-RESTful-API.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/03-Go/!MOC-Go.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-Web开发/Go/第一个-HTTP-服务.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-Web开发/Go/HTTP-服务基础.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/05-微服务与服务治理/Go/微服务基础.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/03-Go/02-核心特性/Goroutine-协程.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/04-Java/!MOC-Java.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-Web开发/Java/第一个-HTTP-服务.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/01-Web开发/Java/Spring-Boot-入门.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/05-微服务与服务治理/Java/微服务基础.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/05-微服务与服务治理/Java/Spring-Cloud-入门.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/03-数据库访问与持久化/Java/JDBC-基础.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/03-数据库访问与持久化/Java/MyBatis-入门.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/04-Java/02-核心特性/集合框架.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/05-Node.js/!MOC-Node.js.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/05-Node.js/01-基础入门/Node.js简介与特点.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/05-Node.js/01-基础入门/模块系统.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/05-Node.js/01-基础入门/核心模块.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `02-编程语言/05-Node.js/01-基础入门/安装与版本管理.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/02-API设计/RESTful/REST-API-最佳实践.md`
+- [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/02-API设计/RESTful/!MOC-RESTful-API.md`
 - [ ] [规范问题] 文件缺失 Frontmatter: `04-服务端开发/03-API设计/RESTful/REST-API-设计原则.md`
 - [ ] [规范问题] 文件缺失 Frontmatter: `08-AI与智能开发/02-模型与API/Claude-API.md`
 - [ ] [规范问题] 文件缺失 Frontmatter: `08-AI与智能开发/02-模型与API/LangChain.md`

@@ -81,8 +81,8 @@ REST API 开发的最佳实践。
 
 ### 实践应用
 
-- [Spring Boot 入门](../../01-服务端语言/Java/03-Web开发/Spring-Boot-入门.md) — Spring Boot 开发 REST API
-- [第一个 HTTP 服务](../../01-服务端语言/Java/06-实践项目/第一个-HTTP-服务.md) — REST API 实践示例
+- [Spring Boot 入门](../../01-Web开发/Java/Spring-Boot-入门.md) — Spring Boot 开发 REST API
+- [第一个 HTTP 服务](../../01-Web开发/Java/第一个-HTTP-服务.md) — REST API 实践示例
 
 ### 进阶学习
 
@@ -103,4 +103,3 @@ REST API 开发的最佳实践。
 ---
 
 #rest #restful #api设计 #web开发
-
