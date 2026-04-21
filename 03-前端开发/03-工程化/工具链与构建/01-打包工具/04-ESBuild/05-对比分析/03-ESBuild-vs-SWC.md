@@ -1,3 +1,14 @@
+---
+title: "ESBuild vs SWC"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "ESBuild", "SWC", "对比分析"]
+moc: "[[!MOC-ESBuild]]"
+description: "对比 ESBuild 与 SWC 在转译性能、适用场景与生态定位上的差异。"
+publish: true
+toc: true
+---
+
 # ESBuild vs SWC
 
 > 转译能力、性能对比
@@ -67,4 +78,3 @@ Babel:    10s
 ---
 
 #ESBuild #SWC #对比
-

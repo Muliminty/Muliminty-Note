@@ -1,3 +1,14 @@
+---
+title: "TypeScript Compiler (tsc)"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "TypeScript", "编译工具"]
+moc: "[[!MOC-工具链与构建]]"
+description: "介绍 TypeScript 官方编译器 tsc 的职责、配置与工程化使用方式。"
+publish: true
+toc: true
+---
+
 # TypeScript Compiler (tsc)
 
 > TypeScript 官方编译器，用于类型检查和将 TypeScript 代码编译为 JavaScript。
@@ -351,4 +362,3 @@ npx tsc --watch
 ---
 
 #TypeScript #编译工具 #工程化
-

@@ -1,3 +1,14 @@
+---
+title: "Rollup 知识体系"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "Rollup"]
+moc: "[[!MOC-工具链与构建]]"
+description: "整理 Rollup 的定位、核心能力与在库构建场景下的使用方式。"
+publish: true
+toc: true
+---
+
 # Rollup 知识体系
 
 > Rollup 是一个 ES 模块打包器，专注于生成小而高效的库和应用程序。Rollup 的 Tree-shaking 能力非常优秀，适合库开发。
@@ -325,4 +336,3 @@ export default {
 ---
 
 #Rollup #构建工具 #工程化
-

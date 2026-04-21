@@ -1,3 +1,15 @@
+---
+title: "脚手架"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "脚手架", "百科入口"]
+moc: "[[!MOC-脚手架]]"
+description: "前端脚手架知识体系入口，涵盖原理、模板系统、插件机制与发布扩展。"
+aliases: ["!MOC-脚手架", "脚手架 MOC"]
+publish: true
+toc: true
+---
+
 # 脚手架（Scaffold）MOC
 
 > 前端脚手架构建完整教程，从零开始构建一个可扩展的前端脚手架系统，类似 Vite / create-react-app。
@@ -7,7 +19,7 @@
 > - 🚀 **进阶**：模板系统和插件机制
 > - 💡 **高级**：远程模板支持和发布扩展
 >
-> 学习脚手架前需要掌握 [Node.js 基础](../../../../04-服务端开发/01-服务端语言/Node.js/!MOC-Node.js.md) 和 [TypeScript](../../../../02-编程语言/02-TypeScript/!MOC-TypeScript.md)。脚手架与 [构建工具](../../工具链与构建/!MOC-工具链与构建.md) 和 [工程化实践](../!MOC-工程化.md) 密切相关。
+> 学习脚手架前需要掌握 [Node.js 基础](../../../../02-编程语言/05-Node.js/!MOC-Node.js.md) 和 [TypeScript](../../../../02-编程语言/02-TypeScript/!MOC-TypeScript.md)。脚手架与 [构建工具](../../工具链与构建/!MOC-工具链与构建.md) 和 [工程化实践](../!MOC-工程化.md) 密切相关。
 
 ---
 
@@ -192,9 +204,9 @@
 
 ### 前置知识
 
-- [Node.js 基础](../../../../04-服务端开发/01-服务端语言/Node.js/!MOC-Node.js.md) - Node.js 环境和使用
+- [Node.js 基础](../../../../02-编程语言/05-Node.js/!MOC-Node.js.md) - Node.js 环境和使用
 - [TypeScript](../../../../02-编程语言/02-TypeScript/!MOC-TypeScript.md) - TypeScript 语法和类型系统
-- [JavaScript 模块化](../../../01-基础入门/JavaScript/03-模块化/README.md) - 模块化概念
+- [JavaScript 模块化](../../../../02-编程语言/01-JavaScript/03-模块化/README.md) - 模块化概念
 
 ### 相关主题
 

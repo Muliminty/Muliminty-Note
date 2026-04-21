@@ -1,3 +1,14 @@
+---
+title: "React 项目集成"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "ESBuild", "React"]
+moc: "[[!MOC-ESBuild]]"
+description: "介绍在 React 项目中集成 ESBuild 的配置方式与实践要点。"
+publish: true
+toc: true
+---
+
 # React 项目集成
 
 > React + ESBuild 完整配置
@@ -86,4 +97,3 @@ require('esbuild').build({
 ---
 
 #ESBuild #React
-

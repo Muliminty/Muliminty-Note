@@ -1,3 +1,14 @@
+---
+title: "Gulp 简介与安装"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "Gulp"]
+moc: "[[!MOC-工具链与构建]]"
+description: "介绍 Gulp 的定位、适用场景与安装方式。"
+publish: true
+toc: true
+---
+
 # Gulp 简介与安装
 
 > Gulp 是一个前端自动化构建工具（Task Runner），用来把「重复、机械、容易出错」的前端工作交给机器完成。

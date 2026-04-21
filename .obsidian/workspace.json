@@ -11,10 +11,14 @@
             "id": "dc6ee725c409557a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02-编程语言/01-JavaScript/01-语言核心/README.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "README"
             }
           }
         ]
@@ -276,6 +280,11 @@
   },
   "active": "dc6ee725c409557a",
   "lastOpenFiles": [
+    "02-编程语言/01-JavaScript/!MOC-JavaScript.md",
+    "02-编程语言/!MOC-编程语言.md",
+    "01-计算机基础/!MOC-计算机基础.md",
+    "00-总览与索引/README.md",
+    "00-总览与索引/!MOC-总览与索引.md",
     "02-编程语言/04-Java/02-核心特性/多线程.md",
     "02-编程语言/04-Java/02-核心特性/异常处理.md",
     "02-编程语言/03-Go/02-核心特性/常用包介绍.md",
@@ -305,12 +314,7 @@
     "02-编程语言/05-Node.js/01-基础入门/模块系统.md",
     "02-编程语言/05-Node.js/01-基础入门/核心模块.md",
     "02-编程语言/05-Node.js/01-基础入门/安装与版本管理.md",
-    "02-编程语言/05-Node.js/01-基础入门/05-Node.js 终端交互与子进程.md",
-    "02-编程语言/05-Node.js/01-基础入门/Node.js简介与特点.md",
     "02-编程语言/05-Node.js/01-基础入门",
-    "02-编程语言/05-Node.js/!MOC-Node.js.md",
-    "04-服务端开发/02-API设计/RESTful/REST-API-设计原则.md",
-    "04-服务端开发/02-API设计/RESTful/REST-API-最佳实践.md",
     "04-服务端开发/02-API设计/RESTful",
     "未命名.canvas",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",

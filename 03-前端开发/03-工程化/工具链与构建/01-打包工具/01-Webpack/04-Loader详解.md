@@ -1,3 +1,14 @@
+---
+title: "Loader 详解"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "Webpack", "Loader"]
+moc: "[[!MOC-Webpack]]"
+description: "介绍 Webpack Loader 的职责、执行顺序与常见配置方式。"
+publish: true
+toc: true
+---
+
 # Loader 详解
 
 > Loader 是 Webpack 的核心功能之一，用于转换非 JavaScript 文件。本章详细介绍 Loader 的工作原理、常用 Loader 的使用方法，以及如何自定义 Loader。
@@ -694,4 +705,3 @@ module.exports = {
 ---
 
 #Webpack #Loader #资源处理 #自定义Loader
-

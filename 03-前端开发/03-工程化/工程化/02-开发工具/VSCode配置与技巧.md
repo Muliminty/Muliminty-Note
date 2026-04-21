@@ -1,3 +1,14 @@
+---
+title: "VSCode 配置与技巧"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "VSCode", "开发工具"]
+moc: "[[!MOC-工程化]]"
+description: "整理 VSCode 在前端工程化场景下的常用配置、插件与开发技巧。"
+publish: true
+toc: true
+---
+
 # VSCode 配置与技巧
 
 > VSCode 编辑器配置、插件推荐、快捷键和开发技巧。
@@ -420,4 +431,3 @@
 ---
 
 #VSCode #编辑器 #开发工具 #工程化
-

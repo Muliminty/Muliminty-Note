@@ -1,3 +1,14 @@
+---
+title: "Plugin 详解"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "Webpack", "Plugin"]
+moc: "[[!MOC-Webpack]]"
+description: "介绍 Webpack Plugin 的工作方式、生命周期与常见使用场景。"
+publish: true
+toc: true
+---
+
 # Plugin 详解
 
 > Plugin 是 Webpack 的扩展机制，用于执行更广泛的任务。本章详细介绍 Plugin 的工作原理、常用 Plugin 的使用方法，以及如何自定义 Plugin。
@@ -490,4 +501,3 @@ module.exports = {
 ---
 
 #Webpack #Plugin #插件 #自定义Plugin
-

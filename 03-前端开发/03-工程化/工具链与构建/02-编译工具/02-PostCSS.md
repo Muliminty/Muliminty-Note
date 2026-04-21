@@ -1,3 +1,14 @@
+---
+title: "PostCSS"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "PostCSS", "编译工具"]
+moc: "[[!MOC-工具链与构建]]"
+description: "介绍 PostCSS 的处理流程、插件生态与 CSS 工程化实践。"
+publish: true
+toc: true
+---
+
 # PostCSS
 
 > PostCSS 是一个用 JavaScript 工具和插件转换 CSS 代码的工具，可以理解为 CSS 的 Babel。
@@ -301,4 +312,3 @@ require('postcss-preset-env')({
 ---
 
 #PostCSS #CSS #工程化
-

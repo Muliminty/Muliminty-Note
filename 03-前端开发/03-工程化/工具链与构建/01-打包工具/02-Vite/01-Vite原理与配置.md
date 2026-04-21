@@ -1,3 +1,14 @@
+---
+title: "Vite 原理与配置"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "Vite"]
+moc: "[[!MOC-工具链与构建]]"
+description: "介绍 Vite 的工作原理、基础配置与前端项目集成方式。"
+publish: true
+toc: true
+---
+
 # Vite 原理与配置
 
 > Vite 是一个快速的开发构建工具，基于 ESBuild（开发）和 Rollup（生产），提供极速的开发体验。
@@ -918,4 +929,3 @@ export default defineConfig({
 ---
 
 #Vite #构建工具 #工程化
-

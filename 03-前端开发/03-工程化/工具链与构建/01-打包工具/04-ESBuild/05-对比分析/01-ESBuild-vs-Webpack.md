@@ -1,3 +1,14 @@
+---
+title: "ESBuild vs Webpack"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "ESBuild", "Webpack", "对比分析"]
+moc: "[[!MOC-ESBuild]]"
+description: "对比 ESBuild 与 Webpack 在性能、生态与配置能力上的差异。"
+publish: true
+toc: true
+---
+
 # ESBuild vs Webpack
 
 > 性能、功能、适用场景对比
@@ -71,4 +82,3 @@ Webpack:  30s
 ---
 
 #ESBuild #Webpack #对比
-

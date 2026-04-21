@@ -1,3 +1,14 @@
+---
+title: "Webpack 深入解析"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "Webpack"]
+moc: "[[!MOC-Webpack]]"
+description: "深入分析 Webpack 的内部机制、模块图与构建流程。"
+publish: true
+toc: true
+---
+
 # Webpack 深入解析
 
 > Webpack 是一个现代 JavaScript 应用程序的静态模块打包器。它将项目中的各种资源（JS、CSS、图片等）视为模块，通过依赖关系图进行打包。

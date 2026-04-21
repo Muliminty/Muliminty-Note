@@ -1,3 +1,14 @@
+---
+title: "ESBuild vs Rollup"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "ESBuild", "Rollup", "对比分析"]
+moc: "[[!MOC-ESBuild]]"
+description: "对比 ESBuild 与 Rollup 在库构建、插件生态与输出能力上的差异。"
+publish: true
+toc: true
+---
+
 # ESBuild vs Rollup
 
 > 打包策略、输出格式对比
@@ -63,4 +74,3 @@ Rollup:   25s
 ---
 
 #ESBuild #Rollup #对比
-

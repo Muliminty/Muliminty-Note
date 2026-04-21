@@ -1,3 +1,14 @@
+---
+title: "Vue 项目集成"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "ESBuild", "Vue"]
+moc: "[[!MOC-ESBuild]]"
+description: "介绍在 Vue 项目中集成 ESBuild 的常见方式与注意事项。"
+publish: true
+toc: true
+---
+
 # Vue 项目集成
 
 > Vue + ESBuild 完整配置
@@ -86,4 +97,3 @@ require('esbuild').serve({
 ---
 
 #ESBuild #Vue
-

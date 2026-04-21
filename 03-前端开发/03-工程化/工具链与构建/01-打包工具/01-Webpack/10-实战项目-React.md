@@ -1,3 +1,14 @@
+---
+title: "实战项目：从零搭建 React 项目"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "Webpack", "React", "实战"]
+moc: "[[!MOC-Webpack]]"
+description: "通过 React 项目示例演示 Webpack 从零搭建与配置流程。"
+publish: true
+toc: true
+---
+
 # 实战项目：从零搭建 React 项目
 
 > 本教程将带你从零开始，使用 Webpack 搭建一个完整的 React + TypeScript 项目。完成本教程后，你将拥有一个可以立即使用的 React 项目模板。
@@ -653,4 +664,3 @@ npm run build
 ---
 
 #Webpack #React #TypeScript #实战项目 #项目搭建
-

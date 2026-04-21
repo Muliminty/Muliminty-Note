@@ -1,3 +1,14 @@
+---
+title: "实战项目：从零搭建 Vue 项目"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "Webpack", "Vue", "实战"]
+moc: "[[!MOC-Webpack]]"
+description: "通过 Vue 项目示例演示 Webpack 从零搭建与配置流程。"
+publish: true
+toc: true
+---
+
 # 实战项目：从零搭建 Vue 项目
 
 > 本教程将带你从零开始，使用 Webpack 搭建一个完整的 Vue 3 项目。完成本教程后，你将拥有一个可以立即使用的 Vue 项目模板。
@@ -567,4 +578,3 @@ npm run build
 ---
 
 #Webpack #Vue #Vue3 #实战项目 #项目搭建
-

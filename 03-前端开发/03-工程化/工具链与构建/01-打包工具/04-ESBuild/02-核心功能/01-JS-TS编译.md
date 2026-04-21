@@ -1,3 +1,14 @@
+---
+title: "JavaScript/TypeScript 编译"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "ESBuild", "JavaScript", "TypeScript"]
+moc: "[[!MOC-ESBuild]]"
+description: "介绍 ESBuild 对 JavaScript 与 TypeScript 的编译能力与常见配置。"
+publish: true
+toc: true
+---
+
 # JavaScript/TypeScript 编译
 
 > JS/TS 编译、语法支持
@@ -115,4 +126,3 @@ ESBuild 内置 TypeScript 支持，无需额外配置：
 ---
 
 #ESBuild #TypeScript #编译
-

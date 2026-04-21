@@ -1,3 +1,14 @@
+---
+title: "ESBuild vs Vite"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "ESBuild", "Vite", "对比分析"]
+moc: "[[!MOC-ESBuild]]"
+description: "对比 ESBuild 与 Vite 在开发体验、职责定位与项目适配上的差异。"
+publish: true
+toc: true
+---
+
 # ESBuild vs Vite
 
 > Vite 如何使用 ESBuild
@@ -66,4 +77,3 @@ Vite 生产环境使用 Rollup 进行打包。
 ---
 
 #ESBuild #Vite #对比
-

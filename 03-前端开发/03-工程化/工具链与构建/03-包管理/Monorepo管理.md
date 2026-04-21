@@ -1,3 +1,14 @@
+---
+title: "Monorepo 管理"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "Monorepo", "包管理"]
+moc: "[[!MOC-工具链与构建]]"
+description: "介绍 Monorepo 的组织方式、工具选择与工程治理要点。"
+publish: true
+toc: true
+---
+
 # Monorepo 管理
 
 > Monorepo 是一种将多个项目放在同一个代码仓库中的项目管理方式，使用 pnpm workspace、Lerna、Turborepo 等工具管理。
@@ -1149,4 +1160,3 @@ lerna publish from-package
 ---
 
 #Monorepo #工程化 #包管理
-

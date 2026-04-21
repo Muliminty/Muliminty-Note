@@ -1,3 +1,15 @@
+---
+title: "Webpack"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "Webpack", "百科入口"]
+moc: "[[!MOC-Webpack]]"
+description: "Webpack 知识体系入口，涵盖核心概念、配置、优化、实战与问题排查。"
+aliases: ["!MOC-Webpack", "Webpack MOC"]
+publish: true
+toc: true
+---
+
 # Webpack（Webpack）MOC
 
 > Webpack 是一个现代 JavaScript 应用程序的静态模块打包器。本知识体系从零开始，循序渐进地教你掌握 Webpack，最终能够独立搭建和优化项目。

@@ -1,3 +1,14 @@
+---
+title: "JSX/TSX 支持"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "ESBuild", "JSX", "TSX"]
+moc: "[[!MOC-ESBuild]]"
+description: "介绍 ESBuild 对 JSX 与 TSX 语法的处理方式与集成场景。"
+publish: true
+toc: true
+---
+
 # JSX/TSX 支持
 
 > React、Vue JSX 配置
@@ -121,4 +132,3 @@
 ---
 
 #ESBuild #JSX #React #Vue
-

@@ -1,3 +1,14 @@
+---
+title: "什么是 ESBuild"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "ESBuild"]
+moc: "[[!MOC-ESBuild]]"
+description: "介绍 ESBuild 的定位、核心特点与适用场景。"
+publish: true
+toc: true
+---
+
 # 什么是 ESBuild
 
 > ESBuild 简介、为什么快、适用场景
@@ -97,4 +108,3 @@ Rollup (JS):      25s
 ---
 
 #ESBuild #构建工具
-

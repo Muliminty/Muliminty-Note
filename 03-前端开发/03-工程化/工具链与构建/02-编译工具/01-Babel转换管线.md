@@ -1,3 +1,14 @@
+---
+title: "Babel 转换管线"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "Babel", "编译工具"]
+moc: "[[!MOC-工具链与构建]]"
+description: "介绍 Babel 的转换流程、核心概念与在前端工程中的使用方式。"
+publish: true
+toc: true
+---
+
 # Babel 转换管线
 
 > Babel 是一个 JavaScript 编译器，用于将新版本的 ECMAScript 代码转换为向后兼容的 JavaScript 版本。
@@ -757,4 +768,3 @@ module.exports = {
 ---
 
 #Babel #编译工具 #工程化
-

@@ -1,3 +1,15 @@
+---
+title: "ESBuild"
+date: "2026-04-21"
+lastModified: "2026-04-21"
+tags: ["前端开发", "工程化", "ESBuild", "百科入口"]
+moc: "[[!MOC-ESBuild]]"
+description: "ESBuild 知识体系入口，涵盖基础入门、核心能力、配置实践与性能优化。"
+aliases: ["!MOC-ESBuild", "ESBuild MOC"]
+publish: true
+toc: true
+---
+
 # ESBuild（ESBuild）MOC
 
 > ESBuild 是一个极速的 JavaScript 和 TypeScript 打包器，使用 Go 语言编写，性能比传统工具快 10-100 倍。
