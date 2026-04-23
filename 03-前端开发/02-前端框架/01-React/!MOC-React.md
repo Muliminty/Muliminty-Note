@@ -2,7 +2,7 @@
 
 > React 是一个用于构建用户界面的 JavaScript 库，采用组件化开发模式。
 > 
-> **学习路径**：学习 React 前需要掌握 [JavaScript 基础](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md)。React 通常配合 [状态管理](../状态管理/!MOC-状态管理.md) 使用，推荐学习 [TypeScript](../../../02-编程语言/02-TypeScript/!MOC-TypeScript.md) 增强类型安全。
+> **学习路径**：学习 React 前需要掌握 [JavaScript 基础](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md)。React 通常配合 [状态管理](../07-状态管理/!MOC-状态管理.md) 使用，推荐学习 [TypeScript](../../../02-编程语言/02-TypeScript/!MOC-TypeScript.md) 增强类型安全。
 > 
 > **参考资源**：本知识体系参考了 [Dan Abramov 的博客](https://overreacted.io/)（React 核心团队成员）和 [React 官方文档](https://react.dev/)。
 
@@ -125,7 +125,7 @@
 - **useContext Hook**
   - [Context API 完整体系](./03-Hooks深度理解/01-基础Hooks/04-Context-API-完整体系.md) — createContext、Provider、useContext 串联理解
   - [useContext 完整指南（详细版）](./03-Hooks深度理解/01-基础Hooks/03-useContext-完整指南-详细版.md) — Context API 深入解析
-  - Context API 基础（参考：[createContext](../01-基础入门/03-状态管理/03-createContext.md)、[Provider](../01-基础入门/03-状态管理/04-Provider.md)、[useContext](../01-基础入门/03-状态管理/05-useContext.md)）
+  - Context API 基础（参考：[createContext](./01-基础入门/03-状态管理/03-createContext.md)、[Provider](./01-基础入门/03-状态管理/04-Provider.md)、[useContext](./01-基础入门/03-状态管理/05-useContext.md)）
   - useContext 使用
   - Context 性能优化
 - **useReducer Hook**
@@ -255,7 +255,7 @@
 
 **目标**：掌握 React 应用的状态管理方案
 
-> **详细内容**：参见 [状态管理 MOC](../状态管理/!MOC-状态管理.md)
+> **详细内容**：参见 [状态管理 MOC](../07-状态管理/!MOC-状态管理.md)
 
 #### React 内置状态管理
 - **组件状态（Component State）**
@@ -297,7 +297,7 @@
 **目标**：掌握 React 应用的性能优化技巧
 
 > **参考**：[Before You memo()](https://overreacted.io/before-you-memo/) - Dan Abramov
-> **详细内容**：参见 [性能优化 MOC](../../04-质量保障/性能/!MOC-性能.md)
+> **详细内容**：参见 [性能优化 MOC](../../04-质量保障/02-性能/!MOC-性能.md)
 
 #### 渲染优化
 - **Before You memo()**
@@ -516,7 +516,7 @@
 
 **目标**：掌握 React 应用的测试方法
 
-> **详细内容**：参见 [测试 MOC](../../04-质量保障/测试/!MOC-测试.md)
+> **详细内容**：参见 [测试 MOC](../../04-质量保障/01-测试/!MOC-测试.md)
 
 #### 测试基础
 - **测试策略**
@@ -878,9 +878,9 @@
 
 - [JavaScript 基础](../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) - React 前置知识
 - [TypeScript](../../../02-编程语言/02-TypeScript/!MOC-TypeScript.md) - 类型安全
-- [状态管理](../状态管理/!MOC-状态管理.md) - 状态管理方案
-- [性能优化](../../04-质量保障/性能/!MOC-性能.md) - 性能优化技巧
-- [测试](../../04-质量保障/测试/!MOC-测试.md) - 测试方法
+- [状态管理](../07-状态管理/!MOC-状态管理.md) - 状态管理方案
+- [性能优化](../../04-质量保障/02-性能/!MOC-性能.md) - 性能优化技巧
+- [测试](../../04-质量保障/01-测试/!MOC-测试.md) - 测试方法
 
 ---
 

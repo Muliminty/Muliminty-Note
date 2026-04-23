@@ -45,7 +45,7 @@
 ### 前置知识
 
 - [基础 Hooks](../01-基础Hooks/README.md) — useState、useEffect、useContext 等
-- [进阶 Hooks](../02-进阶Hooks/README.md) — useMemo、useCallback、useRef 等
+- [基础 Hooks](../01-基础Hooks/README.md) — useState、useEffect、useContext 等基础能力
 
 ### 进阶学习
 

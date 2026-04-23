@@ -162,6 +162,6 @@ const masterState = useModel('@@qiankunStateFromMaster');
 ---
 
 **最后更新**：2026-01-14
-**维护规范**：遵循 [.cursorrules](../../../.cursorrules)
+**维护规范**：遵循 [百科写作规范](../../../../99-系统/01-百科写作规范.md)
 
 #Umi #Model插件 #数据流 #initialState #状态管理

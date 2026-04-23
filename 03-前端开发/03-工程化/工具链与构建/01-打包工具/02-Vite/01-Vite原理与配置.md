@@ -920,7 +920,7 @@ export default defineConfig({
 
 - [Vite 官方文档](https://vitejs.dev/)
 - [Vite 插件列表](https://github.com/vitejs/awesome-vite)
-- [工具链与构建 MOC](./!MOC-工具链与构建.md)
+- [工具链与构建 MOC](../../!MOC-工具链与构建.md)
 
 ---
 

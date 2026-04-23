@@ -13,7 +13,7 @@ toc: true
 
 > Webpack 是一个现代 JavaScript 应用程序的静态模块打包器。它将项目中的各种资源（JS、CSS、图片等）视为模块，通过依赖关系图进行打包。
 
-**学习路径**：学习 Webpack 前需要掌握 [JavaScript 基础](../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和 [模块化](../../../../02-编程语言/01-JavaScript/03-模块化/README.md) 概念。Webpack 与 [工程化实践](../工程化/!MOC-工程化.md) 和 [性能优化](../../04-质量保障/性能/!MOC-性能.md) 密切相关。
+**学习路径**：学习 Webpack 前需要掌握 [JavaScript 基础](../../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和 [模块化](../../../../../02-编程语言/01-JavaScript/03-模块化/README.md) 概念。Webpack 与 [工程化实践](../../../工程化/!MOC-工程化.md) 和 [性能优化](../../../../04-质量保障/02-性能/!MOC-性能.md) 密切相关。
 
 ---
 
@@ -2077,9 +2077,9 @@ module.exports = smp.wrap({
 
 - [Webpack 官方文档](https://webpack.js.org/)
 - [Webpack 中文文档](https://webpack.docschina.org/)
-- [Babel 转换管线](../02-编译工具/Babel转换管线.md)
-- [性能优化](../../04-质量保障/性能/!MOC-性能.md)
-- [工程化实践](../工程化/!MOC-工程化.md)
+- [Babel 转换管线](../../02-编译工具/01-Babel转换管线.md)
+- [性能优化](../../../../04-质量保障/02-性能/!MOC-性能.md)
+- [工程化实践](../../../工程化/!MOC-工程化.md)
 
 ---
 

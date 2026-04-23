@@ -353,7 +353,7 @@ npx tsc --watch
 
 - [TypeScript 官方文档](https://www.typescriptlang.org/)
 - [TypeScript Compiler 选项](https://www.typescriptlang.org/tsconfig)
-- [工具链与构建 MOC](./!MOC-工具链与构建.md)
+- [工具链与构建 MOC](../!MOC-工具链与构建.md)
 
 ---
 

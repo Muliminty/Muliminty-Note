@@ -67,7 +67,7 @@ Vite 生产环境使用 Rollup 进行打包。
 
 ## 相关链接
 
-- [Vite原理与配置](../../Vite原理与配置.md)
+- [Vite原理与配置](../../02-Vite/01-Vite原理与配置.md)
 - [ESBuild MOC](../!MOC-ESBuild.md)
 
 ---

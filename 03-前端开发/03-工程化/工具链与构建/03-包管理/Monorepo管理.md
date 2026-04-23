@@ -1151,7 +1151,7 @@ lerna publish from-package
 - [Lerna 官方文档](https://lerna.js.org/)
 - [Turborepo 官方文档](https://turbo.build/repo)
 - [Nx 官方文档](https://nx.dev/)
-- [工具链与构建 MOC](./!MOC-工具链与构建.md)
+- [工具链与构建 MOC](../!MOC-工具链与构建.md)
 
 ---
 

@@ -464,9 +464,10 @@ nvm install --lts
 
 ## 📚 相关链接
 
-- [Gulp 核心概念](./核心概念.md)
+- [Gulp 核心概念](../02-核心概念/核心概念.md)
 - [Gulp 基本使用](./基本使用.md)
 - [Gulp 常用插件](../03-常用插件/常用插件.md)
+- [Gulp 核心概念](../02-核心概念/核心概念.md)
 - [官方文档](https://gulpjs.com/docs/en/getting-started/quick-start)
 
 ---

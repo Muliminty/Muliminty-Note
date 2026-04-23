@@ -7,14 +7,14 @@
 ## 📚 学习内容
 
 ### 前端框架
-- [React MOC](./React/!MOC-React.md)
-- [Vue MOC](./Vue/!MOC-Vue.md)
-- [Next.js MOC](./Next.js/!MOC-Next.js.md)
-- [Umi MOC](./Umi/!MOC-Umi.md)
-- [Angular MOC](./Angular/!MOC-Angular.md)
+- [React MOC](./01-React/!MOC-React.md)
+- [Vue MOC](./02-Vue/!MOC-Vue.md)
+- [Next.js MOC](./04-Next.js/!MOC-Next.js.md)
+- [Umi MOC](./05-Umi/!MOC-Umi.md)
+- [Angular MOC](./03-Angular/!MOC-Angular.md)
 
 ### 状态管理
-- [状态管理 MOC](./状态管理/!MOC-状态管理.md)
+- [状态管理 MOC](./07-状态管理/!MOC-状态管理.md)
 - Redux、Vuex、Pinia 等
 
 ### TypeScript
@@ -22,7 +22,7 @@
 - 类型系统、类型安全
 
 ### CSS 框架
-- [Tailwind CSS MOC](./TailwindCSS/!MOC-TailwindCSS.md)
+- [Tailwind CSS MOC](./06-TailwindCSS/!MOC-TailwindCSS.md)
 - 实用优先的 CSS 框架
 
 ---

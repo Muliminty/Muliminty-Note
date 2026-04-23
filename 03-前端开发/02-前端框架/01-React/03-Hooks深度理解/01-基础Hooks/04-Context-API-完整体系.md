@@ -82,7 +82,7 @@ function Component() {
 #### 步骤 1：创建 Context（createContext）
 
 ```jsx
-// 参考：[createContext 详解](../01-基础入门/03-createContext.md)
+// 参考：[createContext 详解](../../01-基础入门/03-状态管理/03-createContext.md)
 import { createContext } from 'react';
 
 // 创建 Context 对象
@@ -97,7 +97,7 @@ const ThemeContext = createContext(undefined);
 #### 步骤 2：提供 Context 值（Provider）
 
 ```jsx
-// 参考：[Provider 详解](../01-基础入门/04-Provider.md)
+// 参考：[Provider 详解](../../01-基础入门/03-状态管理/04-Provider.md)
 import { useState, useMemo } from 'react';
 
 function ThemeProvider({ children }) {
@@ -125,7 +125,7 @@ function ThemeProvider({ children }) {
 #### 步骤 3：消费 Context 值（useContext）
 
 ```jsx
-// 参考：[useContext 详解](../01-基础入门/05-useContext.md)
+// 参考：[useContext 详解](../../01-基础入门/03-状态管理/05-useContext.md)
 import { useContext } from 'react';
 
 function Component() {
