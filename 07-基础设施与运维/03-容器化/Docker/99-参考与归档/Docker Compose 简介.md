@@ -687,9 +687,9 @@ docker-compose down -v
 
 ## 📚 相关链接
 
-- [[Compose基础|Docker Compose 基础]] - 详细的 Compose 使用指南
-- [[Compose文件编写指南|Compose 文件编写指南]] - 完整的配置参考
-- [[多服务编排实践|多服务编排实践]] - 实际应用案例
+- [Docker Compose 基础](../05-Docker-Compose/01-Compose基础.md) - 详细的 Compose 使用指南
+- [Compose 文件编写指南](../05-Docker-Compose/04-Compose文件编写指南.md) - 完整的配置参考
+- [多服务编排实践](../05-Docker-Compose/03-多服务编排实践.md) - 实际应用案例
 - [[指令速查|Docker 指令速查]] - 常用命令参考
 
 ---

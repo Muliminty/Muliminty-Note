@@ -2,14 +2,14 @@
 
 > GSAP（GreenSock Animation Platform）是业界最强大的 JavaScript 动画库，用于创建高性能、专业级的动画效果。
 > 
-> **学习路径**：GSAP 是高级动画库，需要掌握 [JavaScript](../../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和 [DOM 操作](../../../../../02-编程语言/01-JavaScript/08-浏览器环境与DOM/01-DOM操作.md) 基础。GSAP 动画性能优化与 [性能优化](../../../../04-质量保障/性能/!MOC-性能.md) 密切相关。
+> **学习路径**：GSAP 是高级动画库，需要掌握 [JavaScript](../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 和 [DOM 操作](../../../../02-编程语言/01-JavaScript/08-浏览器环境与DOM/01-DOM操作.md) 基础。GSAP 动画性能优化与 [性能优化](../../../04-质量保障/02-性能/!MOC-性能.md) 密切相关。
 
 ---
 
 ## 📚 核心主题
 
 ### 基础入门
-- [01-GSAP 基础入门](./01-GSAP基础入门.md) — GSAP 简介、安装、基本用法（需要掌握 [JavaScript](../../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 基础）
+- [01-GSAP 基础入门](./01-GSAP基础入门.md) — GSAP 简介、安装、基本用法（需要掌握 [JavaScript](../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md) 基础）
 - [02-GSAP 核心 API](./02-GSAP核心API.md) — gsap.to()、gsap.from()、gsap.fromTo() 详解
 
 ### 核心概念
@@ -23,11 +23,11 @@
 
 ### 实战应用
 - [08-GSAP 实战案例](./08-GSAP实战案例.md) — 页面过渡、加载动画、交互效果
-- [09-性能优化](./09-性能优化.md) — 60fps 优化、GPU 加速、性能监控（配合 [性能优化](../../../../04-质量保障/性能/!MOC-性能.md)）
+- [09-性能优化](./09-性能优化.md) — 60fps 优化、GPU 加速、性能监控（配合 [性能优化](../../../04-质量保障/02-性能/!MOC-性能.md)）
 
 ### 框架集成
-- [10-React 集成](./10-React集成.md) — GSAP 与 React 结合使用（需要了解 [React](../../../../02-框架进阶/React/!MOC-React.md)）
-- [11-Vue 集成](./11-Vue集成.md) — GSAP 与 Vue 结合使用（需要了解 [Vue](../../../../02-框架进阶/Vue/!MOC-Vue.md)）
+- [10-React 集成](./10-React集成.md) — GSAP 与 React 结合使用（需要了解 [React](../../../02-前端框架/01-React/!MOC-React.md)）
+- [11-Vue 集成](./11-Vue集成.md) — GSAP 与 Vue 结合使用（需要了解 [Vue](../../../02-前端框架/02-Vue/!MOC-Vue.md)）
 
 ---
 
@@ -56,9 +56,9 @@
 ## 📝 学习建议
 
 1. **前置知识**：
-   - [JavaScript 基础](../../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md)
-   - [DOM 操作](../../../../../02-编程语言/01-JavaScript/08-浏览器环境与DOM/01-DOM操作.md)
-   - [CSS 基础](../../../../../03-前端开发/01-Web基础/02-CSS/!MOC-CSS.md)（了解 transform、opacity 等属性）
+   - [JavaScript 基础](../../../../02-编程语言/01-JavaScript/!MOC-JavaScript.md)
+   - [DOM 操作](../../../../02-编程语言/01-JavaScript/08-浏览器环境与DOM/01-DOM操作.md)
+   - [CSS 基础](../../../01-Web基础/02-CSS/!MOC-CSS.md)（了解 transform、opacity 等属性）
 
 2. **学习顺序**：
    - 基础入门 → 核心 API → Timeline → 缓动函数
@@ -76,7 +76,7 @@
    - 使用 transform 和 opacity（GPU 加速属性）
    - 避免动画 width、height、top、left 等触发重排的属性
    - 合理使用 will-change 属性
-   - 监控动画性能（参考 [性能优化](../../../../04-质量保障/性能/!MOC-性能.md)）
+   - 监控动画性能（参考 [性能优化](../../../04-质量保障/02-性能/!MOC-性能.md)）
 
 ---
 

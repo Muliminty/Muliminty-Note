@@ -562,6 +562,6 @@ kubectl exec -it <pod> -- telnet <target-ip> <port>
 ---
 
 **最后更新**：2025-01-26
-**维护规范**：详见 [笔记规范文档](../../../../../.cursorrules)
+**维护规范**：详见 [笔记规范文档](../../../99-系统/01-百科写作规范.md)
 
 #Kubernetes #Pod网络 #Service #CNI #网络策略
