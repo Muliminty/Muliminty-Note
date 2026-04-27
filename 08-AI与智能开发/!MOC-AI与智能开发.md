@@ -34,3 +34,41 @@ toc: true
 ## 3. 说明
 
 本目录已开始正式承接原 `04-AI与机器学习` 与 `05-AI辅助开发` 的合并迁移。理论、模型 API、AI 应用开发与 AI Coding 工作流现已收口到本目录。
+
+## 4. 完整目录索引
+
+### AI 基础理论
+
+- [LLM](./01-AI基础理论/LLM.md)
+- [Agent](./01-AI基础理论/Agent.md)
+- [RAG](./01-AI基础理论/RAG.md)
+- [概念](./01-AI基础理论/概念.md)
+
+### 模型与 API
+
+- [Ollama](./02-模型与API/Ollama.md)
+- [OpenAI-API](./02-模型与API/OpenAI-API.md)
+- [Claude-API](./02-模型与API/Claude-API.md)
+- [LangChain](./02-模型与API/LangChain.md)
+- [向量数据库](./02-模型与API/向量数据库.md)
+
+### AI 应用开发
+
+- [MCP 协议](./03-AI应用开发/02-MCP协议.md)
+- [MCP 服务器开发](./03-AI应用开发/03-MCP服务器开发.md)
+- [MCP 配置与部署](./03-AI应用开发/04-MCP配置与部署.md)
+- [MCP 最佳实践](./03-AI应用开发/05-MCP最佳实践.md)
+
+### AI 辅助开发
+
+- [TDD 在 AI 时代的价值](./04-AI辅助开发/01-理念与方法/01-TDD 在 AI 时代的价值.md)
+- [AI 辅助代码审查](./04-AI辅助开发/02-实践与工作流/01-AI 辅助代码审查.md)
+- [AI 生成文档与注释](./04-AI辅助开发/02-实践与工作流/02-AI 生成文档与注释.md)
+- [SDD 规范驱动开发](./04-AI辅助开发/02-实践与工作流/03-SDD 规范驱动开发.md)
+- [长效运行智能体 CLI 工具实现计划](./04-AI辅助开发/02-实践与工作流/04-长效运行智能体 CLI 工具实现计划.md)
+- [OpenClaw MOC](./04-AI辅助开发/03-工具生态/OpenClaw/!MOC-OpenClaw.md)
+- [OpenClaw 配置文件](./04-AI辅助开发/03-工具生态/OpenClaw/01-OpenClaw 配置文件.md)
+
+### 参考与归档
+
+- [Vibe Coding 概览](./99-参考与归档/Vibe Coding 概览.md)
