@@ -376,7 +376,7 @@ document.cookie = "token=abc; SameSite=None; Secure; path=/";
 
 ### 关联知识
 
-- Cookie → [[HTTP 基础]] — HTTP 协议中的 Cookie 机制
+- Cookie → [HTTP 协议](../../../../../01-计算机基础/04-计算机网络/02-HTTP-HTTPS/01-HTTP协议.md) — HTTP 协议中的 Cookie 机制
 - Cookie → [[单点登录方案]] — SSO 中 Cookie 的应用
   - [[单点登录方案#方案一：同域 Cookie 共享（最简单）]] — 使用 Cookie 实现 SSO 的完整示例
   - [[单点登录方案#错误1：Cookie 域名设置错误，导致子域名无法共享]] — 常见错误及解决方案
@@ -974,14 +974,14 @@ CookieUtil.set('theme', 'dark', {
 
 ### 可学习的下一个知识点
 
-- [[HTTP 基础]] — 深入了解 HTTP 协议中的 Cookie 机制
+- [HTTP 协议](../../../../../01-计算机基础/04-计算机网络/02-HTTP-HTTPS/01-HTTP协议.md) — 深入了解 HTTP 协议中的 Cookie 机制
 - [[单点登录方案]] — Cookie 在 SSO 中的应用
   - [[单点登录方案#方案一：同域 Cookie 共享（最简单）]] — 使用 Cookie 实现 SSO
   - [[单点登录方案#方案四：AccessToken + RefreshToken 实现（推荐方案）]] — 更安全的 SSO 方案
 - [[XSS-CSRF原理与防护]] — Cookie 安全相关（HttpOnly、SameSite）
-- [[Session 管理]] — Cookie 与 Session 的关系
-- [[Storage API]] — localStorage、sessionStorage 与 Cookie 的对比
-- [[浏览器环境与DOM]] — 浏览器存储机制总览
+- [单点登录方案](../../../../../10-实战案例/01-前端实战/单点登录方案.md) — 从登录态共享理解 Cookie 与 Session 的关系
+- [Storage API](./Storage-API.md) — localStorage、sessionStorage 与 Cookie 的对比
+- [浏览器环境与 DOM](./README.md) — 浏览器存储机制总览
 
 ### 继续学习方向
 
@@ -1009,10 +1009,9 @@ CookieUtil.set('theme', 'dark', {
 
 ### 遵守仓库规范文档
 
-本文档遵循 [[仓库规范文档]] 的格式要求，使用标准的 Markdown 语法和双链格式。
+本文档遵循 [百科写作规范](../../../../../99-系统/01-百科写作规范.md) 的格式要求，使用标准的 Markdown 语法和稳定链接格式。
 
 ---
 
 **最后更新**：2025-01-20  
 **标签**：#Cookie #Web-API #浏览器环境 #HTTP #存储 #安全
-

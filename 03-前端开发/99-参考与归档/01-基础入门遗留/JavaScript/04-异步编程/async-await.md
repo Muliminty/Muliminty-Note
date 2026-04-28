@@ -679,7 +679,7 @@ testDelay();
 - [[Promise|Promise]] - async/await 基于 Promise
 - [[回调函数|回调函数]] - 异步编程的演进历史
 - [[异步编程最佳实践|异步编程最佳实践]] - async/await 的最佳实践
-- [[事件循环机制|事件循环机制]] - async/await 在事件循环中的执行
+- [事件循环机制](../01-语言核心/底层原理/05-事件循环机制.md) - async/await 在事件循环中的执行
 
 ### 继续学习方向
 
@@ -693,4 +693,3 @@ testDelay();
 **最后更新**：2025
 
 #javascript #async-await #异步编程 #前端基础
-
