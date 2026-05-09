@@ -122,6 +122,42 @@ npm run fix
 
 ---
 
+### Frontmatter 合规检查
+
+#### `check-frontmatter.js`
+**功能**：检查 Markdown 文件的 Frontmatter 合规性
+
+**主要功能**：
+- 扫描指定目录下所有 `.md` 文件
+- 检查是否存在 YAML Frontmatter
+- `98-知识库/` 下的文件检查精简模式必填字段：`title`、`date`、`tags`
+- 其他目录下的正文文件检查完整模式必填字段：`title`、`date`、`tags`、`status`
+- 自动排除非内容目录、`README.md`、`!MOC-*`、kanban 插件文件
+
+**使用方式**：
+```bash
+# 全量扫描
+node scripts/check-frontmatter.js
+
+# 仅检查 git staged 文件（pre-commit hook 使用）
+node scripts/check-frontmatter.js --staged
+```
+
+**Pre-commit Hook 安装**：
+
+```bash
+# hook 文件已就绪，只需确保可执行权限
+chmod +x .git/hooks/pre-commit
+```
+
+安装后，每次 `git commit` 会自动检查暂存的 `.md` 文件。如果新增/修改的文件缺少必填 Frontmatter，提交将被阻止。
+
+**注意事项**：
+- `.git/hooks/pre-commit` 不会被 Git 追踪，克隆仓库后需手动安装
+- 规范参考：`99-系统/01-百科写作规范.md` §3
+
+---
+
 ### 双链检查
 
 #### `check-wikilinks.js`
