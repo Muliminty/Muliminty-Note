@@ -1,7 +1,7 @@
 ---
 title: "AI 与智能开发"
 date: "2026-03-17"
-lastModified: "2026-03-26"
+lastModified: "2026-05-09"
 tags: ["AI", "智能开发", "一级主题", "百科入口"]
 moc: "[[!MOC-AI与智能开发]]"
 description: "汇总 AI 基础理论、模型 API、AI 应用开发与 AI 辅助开发实践。"
@@ -27,9 +27,10 @@ toc: true
 
 当前高频起点：
 
-- 刚开始理解大模型：看 [01-AI基础理论/LLM.md](./01-AI基础理论/LLM.md)
-- 刚装好本地模型想先跑起来：看 [02-模型与API/Ollama.md](./02-模型与API/Ollama.md)
-- 想继续看模型调用与应用接入：看 [03-AI应用开发/README.md](./03-AI应用开发/README.md)
+- 刚开始理解大模型：看 [LLM 原理](./01-AI基础理论/01-LLM%20原理.md)
+- 想了解 AI 如何「对话」和「做事」：看 [Agent 原理](./01-AI基础理论/06-Agent%20原理.md)
+- 刚装好本地模型想先跑起来：看 [Ollama](./02-模型与API/Ollama.md)
+- 想继续看模型调用与应用接入：看 [AI 应用开发](./03-AI应用开发/README.md)
 
 ## 3. 说明
 
@@ -39,10 +40,13 @@ toc: true
 
 ### AI 基础理论
 
-- [LLM](./01-AI基础理论/LLM.md)
-- [Agent](./01-AI基础理论/Agent.md)
-- [RAG](./01-AI基础理论/RAG.md)
-- [概念](./01-AI基础理论/概念.md)
+- [LLM 原理](./01-AI基础理论/01-LLM%20原理.md)
+- [Transformer 架构](./01-AI基础理论/02-Transformer%20架构.md)
+- [Embedding 与向量表示](./01-AI基础理论/03-Embedding%20与向量表示.md)
+- [Prompt Engineering](./01-AI基础理论/04-Prompt%20Engineering.md)
+- [RAG 原理](./01-AI基础理论/05-RAG%20原理.md)
+- [Agent 原理](./01-AI基础理论/06-Agent%20原理.md)
+- [模型训练与对齐](./01-AI基础理论/07-模型训练与对齐.md)
 
 ### 模型与 API
 

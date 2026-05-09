@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-前端开发/01-Web基础/02-CSS/!MOC-CSS.md",
+                "file": "08-AI与智能开发/01-AI基础理论/01-LLM 原理.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!MOC-CSS"
+              "title": "01-LLM 原理"
             }
           }
         ]
@@ -292,8 +292,17 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "fa2c04a6ecb30c86",
+  "active": "df1b8879af68d8fd",
   "lastOpenFiles": [
+    "08-AI与智能开发/01-AI基础理论/02-Transformer 架构.md",
+    "08-AI与智能开发/01-AI基础理论/01-LLM 原理.md",
+    "98-知识库/20260509-AI-NLP基础.md",
+    "08-AI与智能开发/01-AI基础理论/07-模型训练与对齐.md",
+    "08-AI与智能开发/01-AI基础理论/06-Agent 原理.md",
+    "08-AI与智能开发/01-AI基础理论/05-RAG 原理.md",
+    "08-AI与智能开发/01-AI基础理论/04-Prompt Engineering.md",
+    "08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md",
+    "03-前端开发/01-Web基础/02-CSS/!MOC-CSS.md",
     "scripts/check-frontmatter.js",
     "09-工具与效率/03-资源收藏/README.md",
     "09-工具与效率/03-资源收藏/书签收藏.md",
@@ -313,14 +322,6 @@
     "99-系统/99-参考与归档/08-重构执行记录.md",
     "99-系统/03-重构待办.md",
     "99-系统/99-参考与归档/09-全库规范检查报告.md",
-    "99-系统/99-参考与归档/07-百科迁移方案.md",
-    "99-系统/06-规范体系重构方案.md",
-    "05-数据与存储/01-关系型数据库/!MOC-关系型数据库.md",
-    "01-计算机基础/04-计算机网络/06-现代网络技术/07-NFV编排.md",
-    "01-计算机基础/04-计算机网络/06-现代网络技术/19-物联网安全.md",
-    "01-计算机基础/01-计算机组成原理/存储设备.md",
-    "01-计算机基础/01-计算机组成原理/README.md",
-    "99-系统/02-百科组织规范.md",
     "03-前端开发/02-前端框架/06-TailwindCSS/03-进阶特性",
     "02-编程语言/05-Node.js/03-异步与事件循环",
     "02-编程语言/05-Node.js/08-测试",
@@ -329,7 +330,6 @@
     "02-编程语言/05-Node.js/05-API开发",
     "02-编程语言/05-Node.js/04-异步编程",
     "02-编程语言/05-Node.js/03-数据库操作",
-    "02-编程语言/05-Node.js/02-框架与生态",
     "未命名.canvas",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",
