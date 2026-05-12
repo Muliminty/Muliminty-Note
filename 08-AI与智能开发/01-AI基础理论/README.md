@@ -22,6 +22,7 @@ toc: true
 | 05 | [RAG 原理](./05-RAG%20原理.md) | 文档分块、Embedding 索引、向量检索、生成与评估 |
 | 06 | [Agent 原理](./06-Agent%20原理.md) | 规划、工具调用、记忆、反思、ReAct、多 Agent 协作 |
 | 07 | [模型训练与对齐](./07-模型训练与对齐.md) | 预训练、SFT、RLHF、DPO、LoRA、量化 |
+| 08 | [AI 工程学科全景](./08-AI工程学科全景.md) | 沟通线（Prompt→Context→Memory）、控制线（Harness）、演化脉络 |
 
 ## 推荐学习顺序
 
