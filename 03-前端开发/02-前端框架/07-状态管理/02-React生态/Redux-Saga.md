@@ -1,3 +1,17 @@
+---
+title: "Redux-Saga 中间件"
+date: "2026-05-20"
+lastModified: "2026-05-20"
+status: "成熟"
+tags: ["Redux-Saga", "状态管理", "异步处理", "React"]
+moc: "[[!MOC-状态管理]]"
+stage: "框架进阶"
+prerequisites: ["[[Redux]]"]
+description: "Redux-Saga 完整知识体系，包含核心概念、Effect API、实战 Demo、高级模式与性能优化。"
+aliases: ["Redux Saga", "Saga 中间件"]
+toc: true
+---
+
 # Redux-Saga 中间件
 
 > Redux-Saga 是一个用于管理 Redux 应用**副作用**的库。它让异步操作（如数据获取、缓存读写）变得更加优雅和易于测试。
@@ -26,19 +40,18 @@ Redux-Saga 是 Redux 的中间件，用于处理 Redux 无法处理的异步操�
 - [三、常用 Effect API](#三常用-effect-api)
 - [四、最小闭环 Demo](#四最小闭环-demo)
 - [五、实战 Demo 集合](#五实战-demo-集合)
-- [六、Redux 与 Redux-Saga 的关系](#六redux-与-redux-saga-的关系)
-- [七、数据流向](#七数据流向)
-- [八、高级用法](#八高级用法)
-- [九、实际应用场景](#九实际应用场景)
-- [十、测试 Saga](#十测试-saga)
-- [十一、与 React Hooks 集成](#十一与-react-hooks-集成)
-- [十二、与 Redux Toolkit 集成](#十二与-redux-toolkit-集成)
-- [十三、性能优化](#十三性能优化)
-- [十四、常见问题与解决方案](#十四常见问题与解决方案)
-- [十五、Redux-Saga vs Redux-Thunk](#十五redux-saga-vs-redux-thunk)
-- [十六、最佳实践](#十六最佳实践)
-- [十七、快速参考](#十七快速参考)
-- [十八、总结](#十八总结)
+- [六、数据流向](#六数据流向)
+- [七、高级用法](#七高级用法)
+- [八、实际应用场景](#八实际应用场景)
+- [九、测试 Saga](#九测试-saga)
+- [十、与 React Hooks 集成](#十与-react-hooks-集成)
+- [十一、与 Redux Toolkit 集成](#十一与-redux-toolkit-集成)
+- [十二、性能优化](#十二性能优化)
+- [十三、常见问题与解决方案](#十三常见问题与解决方案)
+- [十四、Redux-Saga vs Redux-Thunk](#十四redux-saga-vs-redux-thunk)
+- [十五、最佳实践](#十五最佳实践)
+- [十六、快速参考](#十六快速参考)
+- [十七、总结](#十七总结)
 
 ## 🎯 学习路径
 
@@ -2123,7 +2136,7 @@ export default App
 
 ---
 
-## 七、数据流向
+## 六、数据流向
 
 ```
 ┌─────────────┐
@@ -3357,5 +3370,4 @@ Action → Saga 中间件 → Worker Saga → API → put Action → Store → �
 
 ---
 
-#redux-saga #状态管理 #异步处理 #react #前端框架
 

@@ -1,3 +1,17 @@
+---
+title: "Redux 状态管理"
+date: "2026-05-20"
+lastModified: "2026-05-20"
+status: "成熟"
+tags: ["Redux", "状态管理", "React", "前端开发"]
+moc: "[[!MOC-状态管理]]"
+stage: "基础入门"
+prerequisites: ["[[React]]"]
+description: "Redux 核心概念、数据流、最佳实践与完整 Demo，涵盖从入门到进阶的完整知识体系。"
+aliases: ["Redux 基础", "Redux 入门"]
+toc: true
+---
+
 # Redux 状态管理
 
 > Redux 是一个可预测的状态管理容器，用于 JavaScript 应用。它帮助你编写行为一致、易于测试、在不同环境（客户端、服务器、原生应用）中运行的应用。
@@ -469,5 +483,4 @@ Redux 的 Reducer 必须是**纯函数**，这意味着：
 
 ---
 
-#redux #状态管理 #react #前端框架
 

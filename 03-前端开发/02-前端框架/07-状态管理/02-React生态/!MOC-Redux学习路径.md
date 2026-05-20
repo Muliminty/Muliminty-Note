@@ -1,3 +1,14 @@
+---
+title: "Redux + Redux-Saga 完整学习路径"
+date: "2026-05-20"
+lastModified: "2026-05-20"
+status: "成熟"
+tags: ["Redux", "Redux-Saga", "状态管理", "学习路径"]
+description: "从零开始系统学习 Redux 和 Redux-Saga 的七阶段学习路径与检查清单。"
+aliases: ["Redux 学习路径", "Redux 学习指南"]
+toc: true
+---
+
 # Redux + Redux-Saga 完整学习路径
 
 > 本学习路径专为新手设计，帮助你从零开始，透彻掌握 Redux 和 Redux-Saga。
@@ -493,5 +504,4 @@ Redux Store
 
 **祝你学习顺利！** 🎉
 
-#redux #redux-saga #状态管理 #学习路径 #react
 
