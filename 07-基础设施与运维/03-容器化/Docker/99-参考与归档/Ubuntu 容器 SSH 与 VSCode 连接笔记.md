@@ -1,5 +1,15 @@
+---
+title: "Ubuntu 容器 SSH 与 VSCode 连接笔记"
+date: "2026-05-22"
+lastModified: "2026-05-22"
+status: "归档"
+tags: ["Docker", "Ubuntu", "SSH", "VSCode", "参考与归档"]
+description: "归档 Ubuntu 容器开启 SSH 并通过 VSCode Remote-SSH 连接的历史笔记。"
+toc: true
+publish: false
+---
 
-1. 创建容器[20260130-运行交互式容器](批注/20260130-运行交互式容器.md)
+1. 创建容器[20260130-运行交互式容器](./批注/20260130-运行交互式容器.md)
 
 
 好的，我给你整理一份**完整的从零搭建容器 SSH 并用 VSCode Remote-SSH 连接的文档**，包含 Dockerfile、配置和注意事项，保证可以直接用。

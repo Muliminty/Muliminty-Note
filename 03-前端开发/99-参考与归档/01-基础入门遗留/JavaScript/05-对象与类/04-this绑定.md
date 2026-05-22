@@ -1,3 +1,14 @@
+---
+title: "this 绑定（遗留）"
+date: "2026-05-22"
+lastModified: "2026-05-22"
+status: "归档"
+tags: ["JavaScript", "this", "前端开发", "参考与归档"]
+description: "保留前端开发目录中的 this 绑定遗留稿，供历史迁移与比对使用。"
+toc: true
+publish: false
+---
+
 # this 绑定（this Binding）
 
 `this` 的绑定规则和上下文。
@@ -290,7 +301,7 @@ class Person {
 
 **参考**：
 - [MDN: this](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/this)
-- [You Don't Know JS: this & Object Prototypes](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/README.md)
+- [You Don't Know JS: this & Object Prototypes](./https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/README.md)
 
 ---
 

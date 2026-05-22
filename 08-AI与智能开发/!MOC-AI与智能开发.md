@@ -27,8 +27,8 @@ toc: true
 
 当前高频起点：
 
-- 刚开始理解大模型：看 [LLM 原理](./01-AI基础理论/01-LLM%20原理.md)
-- 想了解 AI 如何「对话」和「做事」：看 [Agent 原理](./01-AI基础理论/06-Agent%20原理.md)
+- 刚开始理解大模型：看 [LLM 原理](./01-AI基础理论/01-LLM 原理.md)
+- 想了解 AI 如何「对话」和「做事」：看 [Agent 原理](./01-AI基础理论/06-Agent 原理.md)
 - 刚装好本地模型想先跑起来：看 [Ollama](./02-模型与API/Ollama.md)
 - 想继续看模型调用与应用接入：看 [AI 应用开发](./03-AI应用开发/README.md)
 
@@ -40,12 +40,12 @@ toc: true
 
 ### AI 基础理论
 
-- [LLM 原理](./01-AI基础理论/01-LLM%20原理.md)
-- [Transformer 架构](./01-AI基础理论/02-Transformer%20架构.md)
-- [Embedding 与向量表示](./01-AI基础理论/03-Embedding%20与向量表示.md)
-- [Prompt Engineering](./01-AI基础理论/04-Prompt%20Engineering.md)
-- [RAG 原理](./01-AI基础理论/05-RAG%20原理.md)
-- [Agent 原理](./01-AI基础理论/06-Agent%20原理.md)
+- [LLM 原理](./01-AI基础理论/01-LLM 原理.md)
+- [Transformer 架构](./01-AI基础理论/02-Transformer 架构.md)
+- [Embedding 与向量表示](./01-AI基础理论/03-Embedding 与向量表示.md)
+- [Prompt Engineering](./01-AI基础理论/04-Prompt Engineering.md)
+- [RAG 原理](./01-AI基础理论/05-RAG 原理.md)
+- [Agent 原理](./01-AI基础理论/06-Agent 原理.md)
 - [模型训练与对齐](./01-AI基础理论/07-模型训练与对齐.md)
 - [AI 工程学科全景](./01-AI基础理论/08-AI工程学科全景.md)
 

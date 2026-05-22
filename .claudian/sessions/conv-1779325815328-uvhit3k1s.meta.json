@@ -1,0 +1,24 @@
+{
+  "id": "conv-1779325815328-uvhit3k1s",
+  "providerId": "claude",
+  "title": "这是什么",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1779325815332,
+  "updatedAt": 1779330936255,
+  "lastResponseAt": 1779327251085,
+  "sessionId": "b7c9be53-170a-4527-98d9-4c5997ff942a",
+  "providerState": {
+    "providerSessionId": "b7c9be53-170a-4527-98d9-4c5997ff942a"
+  },
+  "currentNote": "03-前端开发/02-前端框架/07-状态管理/02-React生态/Recoil.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 75612,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 16384,
+    "contextWindow": 200000,
+    "contextTokens": 91996,
+    "percentage": 46,
+    "contextWindowIsAuthoritative": true
+  }
+}

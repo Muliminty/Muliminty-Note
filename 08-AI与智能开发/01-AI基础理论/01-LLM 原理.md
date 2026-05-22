@@ -115,7 +115,7 @@ Token ID → Embedding 向量 → N 层 Transformer Block → 输出概率分布
 - **前馈网络（FFN）**：对注意力结果做非线性变换，存储"知识"
 - **残差连接 + 层归一化**：保证深层网络的训练稳定性
 
-详细的 Transformer 内部机制参见 [02-Transformer 架构](./02-Transformer%20架构.md)。
+详细的 Transformer 内部机制参见 [02-Transformer 架构](./02-Transformer 架构.md)。
 
 ### 3. 采样输出：从概率到文字
 
@@ -245,7 +245,7 @@ LLM 有时会生成看起来合理但实际错误的内容。这不是 Bug，而
 
 - 模型优化的是"生成看起来合理的文本"，而非"生成正确的事实"
 - 当模型对某个知识不确定时，它仍会自信地给出一个"最可能的"答案
-- 解决方案之一就是 [RAG](./05-RAG%20原理.md)——让模型先检索再回答
+- 解决方案之一就是 [RAG](./05-RAG 原理.md)——让模型先检索再回答
 
 ---
 
@@ -268,14 +268,14 @@ LLM 有时会生成看起来合理但实际错误的内容。这不是 Bug，而
 - **知识截止日期**：预训练数据有时间边界，模型不知道训练后发生的事
 - **幻觉**：可能编造不存在的事实、引用、API
 - **推理能力有限**：复杂数学、逻辑推理仍是弱项（正在通过 CoT 和 o1 类模型改进）
-- **无法执行动作**：LLM 只能生成文本，不能真正"做事"——这正是 [Agent](./06-Agent%20原理.md) 要解决的问题
+- **无法执行动作**：LLM 只能生成文本，不能真正"做事"——这正是 [Agent](./06-Agent 原理.md) 要解决的问题
 - **上下文窗口限制**：超出窗口的信息会被丢弃
 
 ---
 
 ## 延伸阅读
 
-- [02-Transformer 架构](./02-Transformer%20架构.md)：深入理解 LLM 的核心引擎
-- [03-Embedding 与向量表示](./03-Embedding%20与向量表示.md)：理解 Token 如何变成向量
-- [04-Prompt Engineering](./04-Prompt%20Engineering.md)：如何高效地与 LLM 沟通
+- [02-Transformer 架构](./02-Transformer 架构.md)：深入理解 LLM 的核心引擎
+- [03-Embedding 与向量表示](./03-Embedding 与向量表示.md)：理解 Token 如何变成向量
+- [04-Prompt Engineering](./04-Prompt Engineering.md)：如何高效地与 LLM 沟通
 - [07-模型训练与对齐](./07-模型训练与对齐.md)：预训练、SFT、RLHF 的详细机制

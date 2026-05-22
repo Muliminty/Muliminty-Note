@@ -210,7 +210,7 @@ System Prompt 的设计要点：
 回答：适合。今天北京晴天，25°C，空气质量优，非常适合户外跑步。
 ```
 
-这是 [Agent](./06-Agent%20原理.md) 的核心推理模式之一。
+这是 [Agent](./06-Agent 原理.md) 的核心推理模式之一。
 
 ### 自我反思（Self-Reflection）
 
@@ -265,6 +265,6 @@ AI 开发：Prompt → LLM → 代码
 
 ## 延伸阅读
 
-- [01-LLM 原理](./01-LLM%20原理.md)：理解 LLM 如何处理 Prompt
-- [06-Agent 原理](./06-Agent%20原理.md)：ReAct 等 Prompt 策略在 Agent 中的应用
-- [02-Transformer 架构](./02-Transformer%20架构.md)：Attention 机制如何影响模型对 Prompt 的理解
+- [01-LLM 原理](./01-LLM 原理.md)：理解 LLM 如何处理 Prompt
+- [06-Agent 原理](./06-Agent 原理.md)：ReAct 等 Prompt 策略在 Agent 中的应用
+- [02-Transformer 架构](./02-Transformer 架构.md)：Attention 机制如何影响模型对 Prompt 的理解

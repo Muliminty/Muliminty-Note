@@ -299,7 +299,7 @@ MCP Server（搜索引擎）
 
 ## 延伸阅读
 
-- [01-LLM 原理](./01-LLM%20原理.md)：Agent 的"大脑"
-- [04-Prompt Engineering](./04-Prompt%20Engineering.md)：ReAct 等推理模式的 Prompt 设计
-- [05-RAG 原理](./05-RAG%20原理.md)：Agent 的知识检索能力
+- [01-LLM 原理](./01-LLM 原理.md)：Agent 的"大脑"
+- [04-Prompt Engineering](./04-Prompt Engineering.md)：ReAct 等推理模式的 Prompt 设计
+- [05-RAG 原理](./05-RAG 原理.md)：Agent 的知识检索能力
 - [02-MCP 协议](../03-AI应用开发/02-MCP协议.md)：Agent 工具调用的标准协议

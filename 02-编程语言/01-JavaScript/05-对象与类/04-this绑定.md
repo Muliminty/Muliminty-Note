@@ -2,6 +2,7 @@
 title: "this 绑定（this Binding）"
 date: "2026-04-10"
 lastModified: "2026-04-10"
+status: "成熟"
 tags: ["javascript", "this", "绑定", "context", "arrow-function"]
 moc: "[[!MOC-JavaScript]]"
 publish: true
@@ -300,7 +301,7 @@ class Person {
 
 **参考**：
 - [MDN: this](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/this)
-- [You Don't Know JS: this & Object Prototypes](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/README.md)
+- [You Don't Know JS: this & Object Prototypes](./https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/README.md)
 
 ---
 

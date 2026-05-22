@@ -104,7 +104,7 @@ Token ID 首先被转换为高维向量（Embedding），然后叠加位置信�
 Token "猫" → ID 2847 → 查表 → [0.12, -0.45, 0.78, ..., 0.33]（如 4096 维）
 ```
 
-每个 Token 对应一个高维向量，这个向量包含了该 Token 的语义信息。详见 [03-Embedding 与向量表示](./03-Embedding%20与向量表示.md)。
+每个 Token 对应一个高维向量，这个向量包含了该 Token 的语义信息。详见 [03-Embedding 与向量表示](./03-Embedding 与向量表示.md)。
 
 **位置编码（Positional Encoding）**：
 
@@ -258,6 +258,6 @@ Transformer 的成功不仅在于架构本身，还在于它的**可扩展性**�
 
 ## 延伸阅读
 
-- [01-LLM 原理](./01-LLM%20原理.md)：LLM 的宏观认知
-- [03-Embedding 与向量表示](./03-Embedding%20与向量表示.md)：Token 如何变成向量
+- [01-LLM 原理](./01-LLM 原理.md)：LLM 的宏观认知
+- [03-Embedding 与向量表示](./03-Embedding 与向量表示.md)：Token 如何变成向量
 - [07-模型训练与对齐](./07-模型训练与对齐.md)：Transformer 模型的训练流程

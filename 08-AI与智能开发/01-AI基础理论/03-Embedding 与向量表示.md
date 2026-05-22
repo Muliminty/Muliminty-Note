@@ -126,7 +126,7 @@ Embedding 矩阵大小 = 词表大小 × 向量维度
 | E5-mistral-7b-instruct | Microsoft | 4096 | 基于 LLM 的重量级方案 |
 | Sentence-BERT | UKP Lab | 768 | 开源经典 |
 
-这些模型的核心作用是为 [RAG 系统](./05-RAG%20原理.md) 提供语义检索能力。
+这些模型的核心作用是为 [RAG 系统](./05-RAG 原理.md) 提供语义检索能力。
 
 ---
 
@@ -195,7 +195,7 @@ cos(A, B) = (A · B) / (|A| × |B|)
 匹配文档: "Docker 网络模式配置指南"（相似度 0.92）
 ```
 
-这是 RAG 系统的核心环节，详见 [05-RAG 原理](./05-RAG%20原理.md)。
+这是 RAG 系统的核心环节，详见 [05-RAG 原理](./05-RAG 原理.md)。
 
 ### 3. 聚类与分类
 
@@ -230,6 +230,6 @@ cos(A, B) = (A · B) / (|A| × |B|)
 
 ## 延伸阅读
 
-- [01-LLM 原理](./01-LLM%20原理.md)：Token 和 Tokenizer 的基础
-- [02-Transformer 架构](./02-Transformer%20架构.md)：自注意力如何利用向量
-- [05-RAG 原理](./05-RAG%20原理.md)：Embedding 在检索增强生成中的核心作用
+- [01-LLM 原理](./01-LLM 原理.md)：Token 和 Tokenizer 的基础
+- [02-Transformer 架构](./02-Transformer 架构.md)：自注意力如何利用向量
+- [05-RAG 原理](./05-RAG 原理.md)：Embedding 在检索增强生成中的核心作用

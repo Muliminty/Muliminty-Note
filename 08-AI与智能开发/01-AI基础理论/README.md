@@ -15,12 +15,12 @@ toc: true
 
 | 序号 | 文章 | 核心内容 |
 |:---|:---|:---|
-| 01 | [LLM 原理](./01-LLM%20原理.md) | Token、Tokenizer、自回归生成、关键参数、主流模型对比 |
-| 02 | [Transformer 架构](./02-Transformer%20架构.md) | Self-Attention、Q/K/V、多头注意力、FFN、位置编码 |
-| 03 | [Embedding 与向量表示](./03-Embedding%20与向量表示.md) | 词向量/句向量/Token 向量、余弦相似度、向量数据库 |
-| 04 | [Prompt Engineering](./04-Prompt%20Engineering.md) | Few-shot、Chain-of-Thought、System Prompt、结构化提示 |
-| 05 | [RAG 原理](./05-RAG%20原理.md) | 文档分块、Embedding 索引、向量检索、生成与评估 |
-| 06 | [Agent 原理](./06-Agent%20原理.md) | 规划、工具调用、记忆、反思、ReAct、多 Agent 协作 |
+| 01 | [LLM 原理](./01-LLM 原理.md) | Token、Tokenizer、自回归生成、关键参数、主流模型对比 |
+| 02 | [Transformer 架构](./02-Transformer 架构.md) | Self-Attention、Q/K/V、多头注意力、FFN、位置编码 |
+| 03 | [Embedding 与向量表示](./03-Embedding 与向量表示.md) | 词向量/句向量/Token 向量、余弦相似度、向量数据库 |
+| 04 | [Prompt Engineering](./04-Prompt Engineering.md) | Few-shot、Chain-of-Thought、System Prompt、结构化提示 |
+| 05 | [RAG 原理](./05-RAG 原理.md) | 文档分块、Embedding 索引、向量检索、生成与评估 |
+| 06 | [Agent 原理](./06-Agent 原理.md) | 规划、工具调用、记忆、反思、ReAct、多 Agent 协作 |
 | 07 | [模型训练与对齐](./07-模型训练与对齐.md) | 预训练、SFT、RLHF、DPO、LoRA、量化 |
 | 08 | [AI 工程学科全景](./08-AI工程学科全景.md) | 沟通线（Prompt→Context→Memory）、控制线（Harness）、演化脉络 |
 

@@ -1,0 +1,841 @@
+{
+  "id": "conv-1779412225094-zata9x0gu",
+  "providerId": "claude",
+  "title": "5月22日 09:10",
+  "createdAt": 1779412225099,
+  "updatedAt": 1779421498140,
+  "lastResponseAt": 1779421498137,
+  "sessionId": "200fbdbb-f6fd-4977-90d5-1cab564c2eb3",
+  "providerState": {
+    "providerSessionId": "200fbdbb-f6fd-4977-90d5-1cab564c2eb3",
+    "subagentData": {
+      "call_RvD5Ok6uY1N3uuxGdwhTvJ4k": {
+        "id": "call_RvD5Ok6uY1N3uuxGdwhTvJ4k",
+        "description": "Explore RAG topic files",
+        "prompt": "Read-only exploration only. The user now asks to '全部写完' after we finished rewriting `08-AI与智能开发/01-AI基础理论/05-RAG 原理.md` as the first RAG article. Explore the RAG topic area and report what formal RAG articles already exist vs only planning assets. Focus on these paths: `08-AI与智能开发/03-AI应用开发/RAG/`, `08-AI与智能开发/01-AI基础理论/05-RAG 原理.md`, and any related README/backlog/spec/plan files. Summarize likely remaining article set to implement, with exact file paths and whether files exist now. Keep under 250 words.",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_lFn3vRrLDSQI6l3PTbwj16mE",
+            "name": "Glob",
+            "input": {
+              "path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34",
+              "pattern": "08-AI与智能开发/03-AI应用开发/RAG/**"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_bHWahX1x5dH77F9UZ6sip5NG",
+            "name": "Glob",
+            "input": {
+              "path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34",
+              "pattern": "08-AI与智能开发/**/{README*,readme*,*backlog*,*spec*,*plan*.*,规划*,计划*,说明*}"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "08-AI与智能开发/01-AI基础理论/README.md\n08-AI与智能开发/02-模型与API/README.md\n08-AI与智能开发/03-AI应用开发/README.md\n08-AI与智能开发/04-AI辅助开发/01-理念与方法/README.md\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/README.md\n08-AI与智能开发/04-AI辅助开发/03-工具生态/README.md\n08-AI与智能开发/04-AI辅助开发/README.md\n08-AI与智能开发/README.md"
+          },
+          {
+            "id": "call_idlGhnWI7qy7wsIydayltlE0",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md",
+              "limit": 3000,
+              "offset": 0,
+              "pages": ""
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "<tool_use_error>Invalid pages parameter: \"\". Use formats like \"1-5\", \"3\", or \"10-20\". Pages are 1-indexed.</tool_use_error>"
+          },
+          {
+            "id": "call_IKzteCF18F6oIfkuBG8wHLCF",
+            "name": "Skill",
+            "input": {
+              "args": "",
+              "skill": "using-superpowers"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Launching skill: using-superpowers"
+          },
+          {
+            "id": "call_7KjovhVFYZPXmHHs3kIo3bVY",
+            "name": "Bash",
+            "input": {
+              "command": "ls -la \"/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发\" && ls -la \"/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/RAG\"",
+              "description": "List AI application and RAG directories",
+              "timeout": 120000,
+              "run_in_background": false,
+              "dangerouslyDisableSandbox": false
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "Exit code 1\ntotal 152\ndrwxr-xr-x@ 7 muliminty  staff    224 May 22 11:37 .\ndrwxr-xr-x@ 9 muliminty  staff    288 May 22 11:37 ..\n-rw-r--r--@ 1 muliminty  staff  10248 May 22 11:37 02-MCP协议.md\n-rw-r--r--@ 1 muliminty  staff  17156 May 22 11:37 03-MCP服务器开发.md\n-rw-r--r--@ 1 muliminty  staff  12646 May 22 11:37 04-MCP配置与部署.md\n-rw-r--r--@ 1 muliminty  staff  21631 May 22 11:37 05-MCP最佳实践.md\n-rw-r--r--@ 1 muliminty  staff   1852 May 22 11:37 README.md\nls: /Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/RAG: No such file or directory"
+          },
+          {
+            "id": "call_D9Y24EUyyK6HavH5UHjcYPOV",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md",
+              "limit": 300,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t---\n1\ttitle: \"RAG 原理\"\n2\tdate: \"2026-05-09\"\n3\tlastModified: \"2026-05-09\"\n4\tstatus: \"草稿\"\n5\ttags: [\"AI与智能开发\", \"RAG\", \"检索增强生成\", \"向量检索\"]\n6\tmoc: \"[[!MOC-AI与智能开发]]\"\n7\tstage: \"基础入门\"\n8\tprerequisites: [\"[[01-LLM 原理]]\", \"[[03-Embedding 与向量表示]]\"]\n9\tdescription: \"检索增强生成（RAG）全流程：索引、检索、生成，以及工程实践中的关键决策。\"\n10\taliases: [\"RAG\", \"检索增强生成\", \"Retrieval-Augmented Generation\"]\n11\ttoc: true\n12\t---\n13\t\n14\t# RAG 原理\n15\t\n16\t## 是什么\n17\t\n18\tRAG（Retrieval-Augmented Generation，检索增强生成）是一种将**信息检索**与 **LLM 生成**结合的技术架构。\n19\t\n20\t> RAG = 让 AI 先\"查资料\"，再\"写回答\"。\n21\t\n22\t一句话理解：**RAG 给了 LLM 一双眼睛，让它在回答之前先看看最新的、私有的知识，而不是纯靠记忆。**\n23\t\n24\t```\n25\t传统 LLM：用户提问 → 模型凭记忆回答 → 可能幻觉、过时\n26\tRAG：     用户提问 → 检索相关文档 → 将文档作为上下文 → 模型基于文档回答\n27\t```\n28\t\n29\t---\n30\t\n31\t## 为什么需要 RAG\n32\t\n33\t### LLM 单独使用的三大痛点\n34\t\n35\t| 痛点 | 说明 |\n36\t|:---|:---|\n37\t| **知识截止** | 预训练数据有时间边界，不知道训练后发生的事 |\n38\t| **幻觉** | 对不确定的知识会\"编造\"一个看似合理的答案 |\n39\t| **无法访问私有数据** | 模型不知道你公司的文档、代码库、业务规则 |\n40\t\n41\t### RAG 的解法\n42\t\n43\t- **实时性**：检索最新的文档/数据，不受训练截止日期限制\n44\t- **可追溯**：回答基于具体文档，可以标注来源，用户能验证\n45\t- **低成本**：不需要微调模型（微调成本高、周期长），只需管理好文档库\n46\t- **安全**：私有数据不进入模型训练，减少数据泄露风险\n47\t\n48\t### RAG vs 微调\n49\t\n50\t| 维度 | RAG | 微调（Fine-tuning） |\n51\t|:---|:---|:---|\n52\t| 知识更新 | 更新文档即可，分钟级 | 需要重新训练，天级 |\n53\t| 成本 | 低（只需向量数据库） | 高（GPU 训练 + 数据标注） |\n54\t| 可追溯性 | 强（可引用来源） | 弱（知识融入权重） |\n55\t| 适用场景 | 事实性问答、文档查询 | 风格/格式调整、专业领域能力 |\n56\t| 幻觉控制 | 较好（有参考依据） | 一般（可能产生新幻觉） |\n57\t\n58\t实践中，RAG 和微调常常组合使用：用微调提升模型的领域理解能力，用 RAG 提供实时知识。\n59\t\n60\t---\n61\t\n62\t## 核心流程\n63\t\n64\tRAG 系统分为两个阶段：**离线索引** 和 **在线检索生成**。\n65\t\n66\t### 离线阶段：文档索引\n67\t\n68\t```\n69\t原始文档 → 文档加载 → 文本分块 → Embedding → 存入向量数据库\n70\t```\n71\t\n72\t### 在线阶段：检索与生成\n73\t\n74\t```\n75\t用户提问 → 查询 Embedding → 向量检索 → 取回相关片段 → 拼入 Prompt → LLM 生成回答\n76\t```\n77\t\n78\t完整流程图：\n79\t\n80\t```\n81\t                         离线阶段\n82\t                  ┌─────────────────────┐\n83\t                  │  PDF/网页/代码/文档   │\n84\t                  │       ↓              │\n85\t                  │    文本分块           │\n86\t                  │       ↓              │\n87\t                  │  Embedding 模型      │\n88\t                  │       ↓              │\n89\t                  │    向量数据库         │\n90\t                  └─────────────────────┘\n91\t\n92\t                         在线阶段\n93\t用户提问 ──→ Embedding ──→ 向量检索 ──→ Top-K 相关片段\n94\t                                            ↓\n95\t                                    拼入 Prompt 上下文\n96\t                                            ↓\n97\t                                       LLM 生成回答\n98\t                                            ↓\n99\t                                        返回用户\n100\t```\n101\t\n102\t---\n103\t\n104\t## 核心环节详解\n105\t\n106\t### 1. 文档加载（Document Loading）\n107\t\n108\t将各种格式的原始数据转换为纯文本：\n109\t\n110\t| 数据源 | 工具/方法 |\n111\t|:---|:---|\n112\t| PDF | PyPDF、pdfplumber、Unstructured |\n113\t| 网页 | BeautifulSoup、Crawl4AI |\n114\t| Markdown | 直接读取 |\n115\t| 代码 | 按文件读取，保留结构信息 |\n116\t| 数据库 | SQL 查询导出 |\n117\t| API | 调用后转文本 |\n118\t\n119\t### 2. 文本分块（Chunking）\n120\t\n121\t长文档需要切分为小块（Chunk），因为：\n122\t\n123\t- Embedding 模型有输入长度限制（通常 512-8192 Token）\n124\t- 小块检索更精确——返回整篇文档不如返回最相关的段落\n125\t- LLM 的上下文窗口有限，不能塞太多内容\n126\t\n127\t**分块策略**：\n128\t\n129\t| 策略 | 方法 | 适用场景 |\n130\t|:---|:---|:---|\n131\t| **固定大小** | 每 512 Token 切一块 | 简单通用 |\n132\t| **按语义** | 在段落/章节边界切分 | 结构化文档 |\n133\t| **递归分割** | 先按段落，再按句子，再按 Token | LangChain 默认 |\n134\t| **滑动窗口** | 重叠 N 个 Token，避免边界信息丢失 | 提升召回率 |\n135\t\n136\t**关键参数**：\n137\t\n138\t- **chunk_size**：每块大小（通常 256-1024 Token）\n139\t- **chunk_overlap**：相邻块重叠大小（通常 50-200 Token）\n140\t\n141\t```\n142\t原文：A B C D E F G H I J\n143\tchunk_size=5, overlap=2:\n144\t\n145\tChunk 1: A B C D E\n146\tChunk 2:       D E F G H\n147\tChunk 3:             G H I J\n148\t```\n149\t\n150\t重叠确保跨块的信息不会因为切割而丢失。\n151\t\n152\t### 3. Embedding\n153\t\n154\t将每个 Chunk 通过 Embedding 模型转换为向量，存入向量数据库。\n155\t\n156\t```\n157\tChunk: \"Docker 使用 namespace 实现进程隔离，\n158\t        使用 cgroup 限制资源使用...\"\n159\t          ↓\n160\tEmbedding 模型（如 text-embedding-3-small）\n161\t          ↓\n162\t向量: [0.023, -0.156, 0.089, ..., 0.045]（1536 维）\n163\t```\n164\t\n165\tEmbedding 模型的选择直接影响检索质量，详见 [03-Embedding 与向量表示](./03-Embedding%20与向量表示.md)。\n166\t\n167\t### 4. 检索（Retrieval）\n168\t\n169\t用户提问经过同一个 Embedding 模型转为向量，在向量数据库中搜索最相似的 K 个 Chunk：\n170\t\n171\t```\n172\t查询: \"Docker 如何隔离进程？\"\n173\t    ↓ Embedding\n174\t查询向量: [0.019, -0.148, ...]\n175\t    ↓ 向量数据库搜索（余弦相似度）\n176\tTop-3 结果:\n177\t  1. \"Docker 使用 namespace 实现进程隔离...\"（0.93）\n178\t  2. \"Linux namespace 提供六种隔离机制...\"（0.87）\n179\t  3. \"容器与虚拟机的隔离对比...\"（0.82）\n180\t```\n181\t\n182\t**检索优化策略**：\n183\t\n184\t- **混合检索（Hybrid Search）**：向量检索 + 关键词检索（BM25），取两者的交集/并集\n185\t- **重排序（Reranking）**：用 Cross-Encoder 对检索结果精细排序\n186\t- **查询改写（Query Rewriting）**：用 LLM 重写用户查询，提升检索命中率\n187\t- **HyDE（Hypothetical Document Embedding）**：先让 LLM 生成一个假设性回答，再用这个回答去检索\n188\t\n189\t### 5. 生成（Generation）\n190\t\n191\t将检索到的 Chunk 作为上下文，与用户问题一起构造 Prompt 发给 LLM：\n192\t\n193\t```\n194\tSystem: 你是一个技术文档助手。请基于以下参考资料回答用户问题。\n195\t        如果参考资料中没有相关信息，请明确告知。\n196\t\n197\tContext:\n198\t[检索到的 Chunk 1]\n199\t[检索到的 Chunk 2]\n200\t[检索到的 Chunk 3]\n201\t\n202\tUser: Docker 如何隔离进程？\n203\t```\n204\t\n205\t**生成阶段的关键决策**：\n206\t\n207\t- **上下文数量**：放入多少个 Chunk？太少信息不够，太多可能引入噪声\n208\t- **截断策略**：当上下文总长度超出窗口时如何处理\n209\t- **引用标注**：是否要求模型标注答案来源（`[1]`、`[2]`）\n210\t- **置信度**：是否要求模型在不确定时拒绝回答\n211\t\n212\t---\n213\t\n214\t## 评估指标\n215\t\n216\tRAG 系统的评估需要同时考虑检索质量和生成质量：\n217\t\n218\t### 检索质量\n219\t\n220\t| 指标 | 含义 |\n221\t|:---|:---|\n222\t| **召回率（Recall@K）** | Top-K 结果中包含正确答案的比例 |\n223\t| **精确率（Precision@K）** | Top-K 结果中相关文档的比例 |\n224\t| **MRR（Mean Reciprocal Rank）** | 正确答案首次出现的排名的倒数 |\n225\t\n226\t### 生成质量\n227\t\n228\t| 指标 | 含义 |\n229\t|:---|:---|\n230\t| **忠实度（Faithfulness）** | 回答是否忠于检索到的上下文，有没有编造 |\n231\t| **相关性（Relevance）** | 回答是否真正回答了用户的问题 |\n232\t| **完整性（Completeness）** | 回答是否覆盖了关键信息 |\n233\t\n234\t常用评估框架：RAGAS、TruLens。\n235\t\n236\t---\n237\t\n238\t## 常见问题与优化方向\n239\t\n240\t| 问题 | 原因 | 优化方向 |\n241\t|:---|:---|:---|\n242\t| 检索不到相关内容 | 分块粒度不当 / Embedding 模型不匹配 | 调整 chunk_size、换 Embedding 模型 |\n243\t| 检索到了但答案不对 | 上下文噪声太多 / Prompt 设计不好 | 加入 Reranking、优化 Prompt |\n244\t| 回答包含幻觉 | 模型忽略上下文自行发挥 | 强化 System Prompt 约束、降低 Temperature |\n245\t| 响应太慢 | 向量检索耗时 / LLM 生成耗时 | 优化索引、使用缓存、流式输出 |\n246\t| 文档更新后答案过时 | 索引未刷新 | 增量索引、定期重建 |\n247\t\n248\t---\n249\t\n250\t## 进阶架构\n251\t\n252\t### Agentic RAG\n253\t\n254\t将 RAG 与 [Agent](./06-Agent%20原理.md) 结合，让 Agent 自主决定：\n255\t\n256\t- 是否需要检索\n257\t- 检索什么内容\n258\t- 是否需要多次检索\n259\t- 是否需要从不同数据源获取信息\n260\t\n261\t### Graph RAG\n262\t\n263\t在向量检索之外引入知识图谱，利用实体关系提升检索质量，特别适合需要多跳推理的场景。\n264\t\n265\t### Corrective RAG（CRAG）\n266\t\n267\t检索后先评估检索质量，如果不够好就触发纠正策略（重写查询、换数据源等）。\n268\t\n269\t---\n270\t\n271\t## 延伸阅读\n272\t\n273\t- [01-LLM 原理](./01-LLM%20原理.md)：理解 LLM 的能力与局限\n274\t- [03-Embedding 与向量表示](./03-Embedding%20与向量表示.md)：向量检索的底层机制\n275\t- [06-Agent 原理](./06-Agent%20原理.md)：Agentic RAG 的基础\n276\t- [02-MCP 协议](../03-AI应用开发/02-MCP协议.md)：MCP 如何为 AI 提供外部数据访问能力\n277\t"
+          },
+          {
+            "id": "call_2yvD3UflfEW9dDP5TKTuS90h",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/README.md",
+              "limit": 300,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t# AI 应用开发知识体系\n1\t\n2\t> 本模块涵盖 AI 应用开发的核心技术，包括 AI 应用架构设计、RAG 系统、Agent 系统以及 MCP 协议等前沿技术。\n3\t\n4\t## 📚 核心内容\n5\t\n6\t### 1. AI 应用架构\n7\t- [AI 应用架构设计](./AI应用架构.md) - AI 应用系统设计原则与模式\n8\t- [微服务架构](./微服务架构.md) - AI 应用的微服务化设计\n9\t- [API 设计](./API设计.md) - AI API 的最佳实践\n10\t\n11\t### 2. RAG 系统\n12\t- [RAG 系统概述](./RAG系统.md) - 检索增强生成原理与实践\n13\t- [向量数据库](./向量数据库.md) - Pinecone、Weaviate、Chroma 等对比\n14\t- [检索优化](./检索优化.md) - RAG 检索效果优化策略\n15\t- [混合检索](./混合检索.md) - 关键词检索与向量检索结合\n16\t\n17\t### 3. Agent 系统\n18\t- [Agent 系统概述](./Agent系统.md) - AI Agent 开发基础\n19\t- [Multi-Agent](./Multi-Agent.md) - 多 Agent 协作机制\n20\t- [工具调用](./工具调用.md) - Function Calling 与 Tool Use\n21\t- [状态管理](./状态管理.md) - Agent 状态与记忆管理\n22\t\n23\t### 4. MCP 协议\n24\t- [MCP 协议概述](./02-MCP协议.md) - Model Context Protocol 完整指南\n25\t- [MCP 服务器开发](./03-MCP服务器开发.md) - 如何开发 MCP Server\n26\t- [MCP 配置与部署](./04-MCP配置与部署.md) - MCP 在不同平台的应用\n27\t- [MCP 最佳实践](./05-MCP最佳实践.md) - 安全性与性能优化\n28\t\n29\t---\n30\t\n31\t## 🎯 学习路径\n32\t\n33\t1. **基础阶段**：了解 AI 应用架构与 RAG 基础\n34\t2. **进阶阶段**：掌握 Agent 系统开发\n35\t3. **高级阶段**：深入 MCP 协议与生态工具\n36\t\n37\t---\n38\t\n39\t## 🔗 相关资源\n40\t\n41\t- [Anthropic MCP 文档](https://docs.anthropic.com/) - 官方文档\n42\t- [MCP GitHub](https://github.com/modelcontextprotocol) - 开源项目\n43\t- [MCP 生态项目](https://github.com/topics/mcp-server) - 社区服务器列表\n44\t\n45\t---\n46\t\n47\t#AI应用 #RAG #Agent #MCP #架构设计\n48\t"
+          },
+          {
+            "id": "call_I3uzO1zmR3t1qhhnJCYsjtE6",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/README.md",
+              "limit": 300,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t---\n1\ttitle: \"AI 与智能开发目录说明\"\n2\tdate: \"2026-03-17\"\n3\tlastModified: \"2026-03-26\"\n4\ttags: [\"AI\", \"智能开发\", \"目录说明\"]\n5\tpublish: true\n6\ttoc: true\n7\t---\n8\t\n9\t# AI 与智能开发目录说明\n10\t\n11\t本目录面向两类内容：\n12\t\n13\t- AI 本体知识\n14\t- 工程师使用 AI 的方法论与工具链\n15\t\n16\t当前目录结构：\n17\t\n18\t- `01-AI基础理论`\n19\t- `02-模型与API`\n20\t- `03-AI应用开发`\n21\t- `04-AI辅助开发`\n22\t- `99-参考与归档`\n23\t\n24\t当前推荐入口：\n25\t\n26\t- 理解模型基础：看 `01-AI基础理论`\n27\t- 本地模型上手：看 `02-模型与API/Ollama.md`\n28\t- 云端模型调用：看 `02-模型与API`\n29\t- AI 工具与工作流：看 `04-AI辅助开发`\n30\t\n31\t后续新增内容继续按“理论、API、应用开发、AI Coding 工作流”四层分流。\n32\t"
+          },
+          {
+            "id": "call_gOJnG5GXHrsq8Rn6Fy7d8Ans",
+            "name": "Grep",
+            "input": {
+              "-A": 0,
+              "-B": 0,
+              "-C": 1,
+              "-i": false,
+              "-n": true,
+              "context": 1,
+              "glob": "*.md",
+              "head_limit": 200,
+              "multiline": false,
+              "offset": 0,
+              "output_mode": "content",
+              "path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发",
+              "pattern": "RAG|检索增强生成",
+              "type": ""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/README.md-2-\n08-AI与智能开发/03-AI应用开发/README.md:3:> 本模块涵盖 AI 应用开发的核心技术，包括 AI 应用架构设计、RAG 系统、Agent 系统以及 MCP 协议等前沿技术。\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/README.md-4-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/README.md-11-\n08-AI与智能开发/03-AI应用开发/README.md:12:### 2. RAG 系统\n08-AI与智能开发/03-AI应用开发/README.md:13:- [RAG 系统概述](./RAG系统.md) - 检索增强生成原理与实践\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/README.md-14-- [向量数据库](./向量数据库.md) - Pinecone、Weaviate、Chroma 等对比\n08-AI与智能开发/03-AI应用开发/README.md:15:- [检索优化](./检索优化.md) - RAG 检索效果优化策略\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/README.md-16-- [混合检索](./混合检索.md) - 关键词检索与向量检索结合\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/README.md-33-\n08-AI与智能开发/03-AI应用开发/README.md:34:1. **基础阶段**：了解 AI 应用架构与 RAG 基础\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/README.md-35-2. **进阶阶段**：掌握 Agent 系统开发\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/README.md-47-\n08-AI与智能开发/03-AI应用开发/README.md:48:#AI应用 #RAG #Agent #MCP #架构设计\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/!MOC-AI与智能开发.md-46-- [Prompt Engineering](./01-AI基础理论/04-Prompt%20Engineering.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:47:- [RAG 原理](./01-AI基础理论/05-RAG%20原理.md)\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/!MOC-AI与智能开发.md-48-- [Agent 原理](./01-AI基础理论/06-Agent%20原理.md)\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-1----\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:2:title: \"RAG 原理\"\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-3-date: \"2026-05-09\"\n--\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-5-status: \"草稿\"\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:6:tags: [\"AI与智能开发\", \"RAG\", \"检索增强生成\", \"向量检索\"]\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-7-moc: \"[[!MOC-AI与智能开发]]\"\n--\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-9-prerequisites: [\"[[01-LLM 原理]]\", \"[[03-Embedding 与向量表示]]\"]\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:10:description: \"检索增强生成（RAG）全流程：索引、检索、生成，以及工程实践中的关键决策。\"\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:11:aliases: [\"RAG\", \"检索增强生成\", \"Retrieval-Augmented Generation\"]\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-12-toc: true\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-14-\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:15:# RAG 原理\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-16-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-18-\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:19:RAG（Retrieval-Augmented Generation，检索增强生成）是一种将**信息检索**与 **LLM 生成**结合的技术架构。\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-20-\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:21:> RAG = 让 AI 先\"查资料\"，再\"写回答\"。\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-22-\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:23:一句话理解：**RAG 给了 LLM 一双眼睛，让它在回答之前先看看最新的、私有的知识，而不是纯靠记忆。**\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-24-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-26-传统 LLM：用户提问 → 模型凭记忆回答 → 可能幻觉、过时\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:27:RAG：     用户提问 → 检索相关文档 → 将文档作为上下文 → 模型基于文档回答\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-28-```\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-31-\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:32:## 为什么需要 RAG\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-33-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-41-\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:42:### RAG 的解法\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-43-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-48-\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:49:### RAG vs 微调\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-50-\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:51:| 维度 | RAG | 微调（Fine-tuning） |\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-52-|:---|:---|:---|\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-58-\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:59:实践中，RAG 和微调常常组合使用：用微调提升模型的领域理解能力，用 RAG 提供实时知识。\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-60-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-64-\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:65:RAG 系统分为两个阶段：**离线索引** 和 **在线检索生成**。\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-66-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-216-\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:217:RAG 系统的评估需要同时考虑检索质量和生成质量：\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-218-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-234-\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:235:常用评估框架：RAGAS、TruLens。\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-236-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-252-\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:253:### Agentic RAG\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-254-\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:255:将 RAG 与 [Agent](./06-Agent%20原理.md) 结合，让 Agent 自主决定：\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-256-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-261-\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:262:### Graph RAG\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-263-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-265-\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:266:### Corrective RAG（CRAG）\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-267-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-275-- [03-Embedding 与向量表示](./03-Embedding%20与向量表示.md)：向量检索的底层机制\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:276:- [06-Agent 原理](./06-Agent%20原理.md)：Agentic RAG 的基础\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md-277-- [02-MCP 协议](../03-AI应用开发/02-MCP协议.md)：MCP 如何为 AI 提供外部数据访问能力\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/README.md-11-\n08-AI与智能开发/01-AI基础理论/README.md:12:本目录收录 LLM、Transformer、Embedding、Prompt Engineering、RAG、Agent、模型训练等 AI 基础概念与原理性内容。\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/README.md-13-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/README.md-21-| 04 | [Prompt Engineering](./04-Prompt%20Engineering.md) | Few-shot、Chain-of-Thought、System Prompt、结构化提示 |\n08-AI与智能开发/01-AI基础理论/README.md:22:| 05 | [RAG 原理](./05-RAG%20原理.md) | 文档分块、Embedding 索引、向量检索、生成与评估 |\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/README.md-23-| 06 | [Agent 原理](./06-Agent%20原理.md) | 规划、工具调用、记忆、反思、ReAct、多 Agent 协作 |\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/README.md-31-                                                          ↓\n08-AI与智能开发/01-AI基础理论/README.md:32:                          06-Agent 原理 ← 05-RAG 原理 ← 04-Prompt Engineering\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/README.md-33-```\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/02-模型与API/LangChain.md-28-\n08-AI与智能开发/02-模型与API/LangChain.md:29:### 2.2 Retrieval (检索与 RAG)\n08-AI与智能开发/02-模型与API/LangChain.md:30:为大模型提供用户特定数据的过程（检索增强生成 Retrieval-Augmented Generation）：\n08-AI与智能开发/02-模型与API/LangChain.md-31-- **Document Loaders (文档加载器)**: 加载各种格式的外部数据（PDF, Markdown, HTML, CSV）。\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/02-模型与API/LangChain.md-91-3. **监控重于一切**：部署上线后，务必接入 LangSmith 或类似监控工具（如 LangFuse），没有 trace 的大模型应用像是开盲盒。\n08-AI与智能开发/02-模型与API/LangChain.md:92:4. **控制 Context Size**：在 RAG 和 Memory 模块中，要非常注意输入长度的截断设计，防止触发模型的 Token 上限或产生高昂费用。\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md-128-\n08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md:129:这些模型的核心作用是为 [RAG 系统](./05-RAG%20原理.md) 提供语义检索能力。\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md-130-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md-185-\n08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md:186:### 2. 语义检索（RAG）\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md-187-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md-197-\n08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md:198:这是 RAG 系统的核心环节，详见 [05-RAG 原理](./05-RAG%20原理.md)。\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md-199-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md-234-- [02-Transformer 架构](./02-Transformer%20架构.md)：自注意力如何利用向量\n08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md:235:- [05-RAG 原理](./05-RAG%20原理.md)：Embedding 在检索增强生成中的核心作用\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/01-LLM 原理.md-247-- 当模型对某个知识不确定时，它仍会自信地给出一个\"最可能的\"答案\n08-AI与智能开发/01-AI基础理论/01-LLM 原理.md:248:- 解决方案之一就是 [RAG](./05-RAG%20原理.md)——让模型先检索再回答\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/01-LLM 原理.md-249-\n--\n08-AI与智能开发/01-AI基础理论/06-Agent 原理.md-119-|:---|:---|\n08-AI与智能开发/01-AI基础理论/06-Agent 原理.md:120:| 信息检索 | 搜索引擎、RAG 检索、数据库查询 |\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/06-Agent 原理.md-121-| 代码执行 | Python/JavaScript 解释器、Shell |\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/06-Agent 原理.md-303-- [04-Prompt Engineering](./04-Prompt%20Engineering.md)：ReAct 等推理模式的 Prompt 设计\n08-AI与智能开发/01-AI基础理论/06-Agent 原理.md:304:- [05-RAG 原理](./05-RAG%20原理.md)：Agent 的知识检索能力\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/06-Agent 原理.md-305-- [02-MCP 协议](../03-AI应用开发/02-MCP协议.md)：Agent 工具调用的标准协议\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/02-模型与API/README.md-29-- [LangChain](./LangChain.md)：LLM 应用开发框架与抽象层\n08-AI与智能开发/02-模型与API/README.md:30:- [向量数据库](./向量数据库.md)：向量检索与 RAG 常见基础设施\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/02-模型与API/README.md-31-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/02-模型与API/README.md-42-- 这里优先收录“模型如何被调用、组织和集成”的内容。\n08-AI与智能开发/02-模型与API/README.md:43:- 如果内容核心是“模型原理、推理机制、RAG 与 Agent 概念”，优先放到 `01-AI基础理论`。\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/02-模型与API/README.md-44-- 如果内容核心是“基于模型开发应用或 MCP 工具链”，优先放到 `03-AI应用开发`。\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/概念.md-26-\n08-AI与智能开发/01-AI基础理论/概念.md:27:所以，RAG 到底是什么？\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/概念.md-28-\n08-AI与智能开发/01-AI基础理论/概念.md:29:RAG = 搜索引擎 + 大语言模型\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/概念.md-30-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/概念.md-35-\n08-AI与智能开发/01-AI基础理论/概念.md:36:没有 RAG，AI 只是一个记性很好的空想家。 有了 RAG，AI 就变成了一个懂你公司业务的超级秘书。\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/概念.md-37-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-47-| 控制层 | Evaluation / Alignment / Safety / Guardrails / Harness | 怎么让模型行为可控 |\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:48:| 基础设施层 | RAG / Vector / Inference / Agent / LLMOps | 怎么让模型跑得稳、跑得快、做得多 |\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-49-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-63-| **Harness Engineering** | **控制（总称）** | **全链路驾驭 AI 系统** | **2025-** |\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:64:| RAG Engineering | 基础设施 | 检索增强生成 | 2023- |\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-65-| Vector Engineering | 基础设施 | 向量检索优化 | 2023- |\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-134-\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:135:**痛点**：模型上下文窗口扩展到 128K-1M Token，RAG、Agent、多轮对话让\"模型实际看到的内容\"变得极其复杂。真正决定输出质量的不是 Prompt 那几句话，而是整个 Context Window 里塞了什么。\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-136-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-155-│  ┌──────────────┐  ┌─────────────┐  ┌──────────┐  ┌──────────────┐  │\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:156:│  │ System Prompt │  │ RAG 检索结果 │  │ 对话历史  │  │ 工具调用结果 │  │\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-157-│  │ （规则/角色） │  │ （外部知识） │  │ （记忆）  │  │ （实时数据） │  │\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-168-\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:169:- **优先级排序**：窗口有限，放了 RAG 文档就得压缩历史对话，怎么取舍？\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-170-- **注意力衰减**：模型对中间位置的信息关注度最低（Lost in the Middle 现象），关键信息放头还是放尾？\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-248-- Prompt 变复杂了 → 需要 Evaluation 量化哪种 Prompt 更好\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:249:- Context 引入 RAG → 需要 Guardrails 验证检索结果是否被正确使用\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-250-- Memory 跨会话持久 → 需要 Safety 确保记忆不被投毒\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-297-\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:298:**解法**：RAG 范式——先从企业知识库检索，把结果塞进 Context 让模型\"带着参考资料回答\"。\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-299-\n--\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-301-\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:302:- **RAG Engineering**：文档分块 → Embedding → 向量检索 → 生成\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:303:- **Vector Engineering**：RAG 效果严重依赖向量检索质量\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-304-- **Guardrails Engineering**：企业要求输出格式可控、内容可审计\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-305-- **LLMOps**：从 Demo 到生产需要版本管理、监控、A/B 测试\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:306:- **Context Engineering**：RAG + 历史 + 工具 = Context Window 管理变成系统级问题\n/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md-307-\n--\n\n[Showing results with pagination = limit: 200]"
+          },
+          {
+            "id": "call_LRdwpp4YmCXfyxYke0upOQ9G",
+            "name": "Glob",
+            "input": {
+              "path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34",
+              "pattern": "**/*{README,README.md,readme.md,backlog.md,Backlog.md,spec.md,Spec.md,plan.md,Plan.md,规划.md,计划.md,说明.md}"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "00-总览与索引/README.md\n01-计算机基础/01-计算机组成原理/README.md\n01-计算机基础/02-数据结构与算法/01-数据结构/README.md\n01-计算机基础/02-数据结构与算法/02-算法/README.md\n01-计算机基础/02-数据结构与算法/02-算法/动态规划.md\n01-计算机基础/02-数据结构与算法/README.md\n01-计算机基础/03-操作系统/01-系统原理/README.md\n01-计算机基础/03-操作系统/02-Linux/README.md\n01-计算机基础/03-操作系统/02-Linux/Shell-脚本/README.md\n01-计算机基础/03-操作系统/02-Linux/编辑器工具/README.md\n01-计算机基础/03-操作系统/02-Linux/编辑器工具/Vim/README.md\n01-计算机基础/03-操作系统/03-WSL/README.md\n01-计算机基础/03-操作系统/README.md\n01-计算机基础/04-计算机网络/01-网络基础/README.md\n01-计算机基础/04-计算机网络/02-HTTP-HTTPS/README.md\n01-计算机基础/04-计算机网络/03-TCP-IP/README.md\n01-计算机基础/04-计算机网络/04-应用层协议/README.md\n01-计算机基础/04-计算机网络/05-网络安全/README.md\n01-计算机基础/04-计算机网络/06-现代网络技术/README.md\n01-计算机基础/04-计算机网络/07-云原生网络/README.md\n01-计算机基础/04-计算机网络/08-实践应用/README.md\n01-计算机基础/04-计算机网络/README.md\n01-计算机基础/05-编译原理/README.md\n02-编程语言/01-JavaScript/01-语言核心/README.md\n02-编程语言/01-JavaScript/01-语言核心/底层原理/README.md\n02-编程语言/01-JavaScript/02-内置对象与API/README.md\n02-编程语言/01-JavaScript/03-模块化/README.md\n02-编程语言/01-JavaScript/04-异步编程/README.md\n02-编程语言/01-JavaScript/05-对象与类/README.md\n02-编程语言/01-JavaScript/06-性能优化/README.md\n02-编程语言/01-JavaScript/07-函数式编程/README.md\n02-编程语言/01-JavaScript/08-浏览器环境与DOM/README.md\n02-编程语言/01-JavaScript/09-工具与生态/README.md\n02-编程语言/01-JavaScript/10-测试与规范/README.md\n02-编程语言/01-JavaScript/99-参考与归档/体系/README.md\n02-编程语言/01-JavaScript/README.md\n02-编程语言/02-TypeScript/README.md\n02-编程语言/05-Node.js/02-框架与生态/README.md\n02-编程语言/05-Node.js/03-异步与事件循环/README.md\n02-编程语言/README.md\n03-前端开发/01-Web基础/01-HTML/README.md\n03-前端开发/01-Web基础/02-CSS/README.md\n03-前端开发/01-Web基础/README.md\n03-前端开发/02-前端框架/01-React/01-基础入门/01-语法基础/README.md\n03-前端开发/02-前端框架/01-React/01-基础入门/02-组件基础/README.md\n03-前端开发/02-前端框架/01-React/01-基础入门/03-状态管理/README.md\n03-前端开发/02-前端框架/01-React/01-基础入门/04-事件处理/README.md\n03-前端开发/02-前端框架/01-React/01-基础入门/README.md\n03-前端开发/02-前端框架/01-React/02-核心机制/01-渲染机制/README.md\n03-前端开发/02-前端框架/01-React/02-核心机制/README.md\n03-前端开发/02-前端框架/01-React/03-Hooks深度理解/01-基础Hooks/README.md\n03-前端开发/02-前端框架/01-React/03-Hooks深度理解/03-自定义Hooks/README.md\n03-前端开发/02-前端框架/01-React/03-Hooks深度理解/04-原理深入/README.md\n03-前端开发/02-前端框架/01-React/03-Hooks深度理解/README.md\n03-前端开发/02-前端框架/01-React/04-组件设计模式/01-设计原则/README.md\n03-前端开发/02-前端框架/01-React/04-组件设计模式/README.md\n03-前端开发/02-前端框架/01-React/06-性能优化/README.md\n03-前端开发/02-前端框架/01-React/07-高级特性/README.md\n03-前端开发/02-前端框架/01-React/08-表单处理/README.md\n03-前端开发/02-前端框架/01-React/09-路由管理/README.md\n03-前端开发/02-前端框架/01-React/11-样式处理/README.md\n03-前端开发/02-前端框架/01-React/12-服务端渲染/README.md\n03-前端开发/02-前端框架/01-React/13-React生态/README.md\n03-前端开发/02-前端框架/01-React/13-React生态/React-Native/01-基础入门/README.md\n03-前端开发/02-前端框架/01-React/13-React生态/React-Native/02-核心机制/README.md\n03-前端开发/02-前端框架/01-React/13-React生态/React-Native/03-导航系统/README.md\n03-前端开发/02-前端框架/01-React/13-React生态/React-Native/04-状态管理/README.md\n03-前端开发/02-前端框架/01-React/13-React生态/React-Native/05-原生功能集成/README.md\n03-前端开发/02-前端框架/01-React/13-React生态/React-Native/06-性能优化/README.md\n03-前端开发/02-前端框架/01-React/13-React生态/React-Native/07-工程化实践/README.md\n03-前端开发/02-前端框架/01-React/13-React生态/React-Native/08-Expo生态/README.md\n03-前端开发/02-前端框架/01-React/13-React生态/React-Native/09-部署与发布/README.md\n03-前端开发/02-前端框架/01-React/13-React生态/React-Native/README.md\n03-前端开发/02-前端框架/01-React/14-最佳实践/README.md\n03-前端开发/02-前端框架/01-React/15-原理深入/README.md\n03-前端开发/02-前端框架/01-React/README.md\n03-前端开发/02-前端框架/01-React/结构说明.md\n03-前端开发/02-前端框架/02-Vue/README.md\n03-前端开发/02-前端框架/03-Angular/README.md\n03-前端开发/02-前端框架/04-Next.js/README.md\n03-前端开发/02-前端框架/05-Umi/01-基础入门/README.md\n03-前端开发/02-前端框架/05-Umi/02-核心功能/README.md\n03-前端开发/02-前端框架/05-Umi/03-插件体系/README.md\n03-前端开发/02-前端框架/05-Umi/04-数据流管理/README.md\n03-前端开发/02-前端框架/05-Umi/05-工程化与实战/README.md\n03-前端开发/02-前端框架/05-Umi/06-原理深入/README.md\n03-前端开发/02-前端框架/05-Umi/README.md\n03-前端开发/02-前端框架/06-TailwindCSS/01-基础入门/README.md\n03-前端开发/02-前端框架/06-TailwindCSS/02-核心功能/README.md\n03-前端开发/02-前端框架/06-TailwindCSS/03-进阶特性/README.md\n03-前端开发/02-前端框架/06-TailwindCSS/04-实战应用/README.md\n03-前端开发/02-前端框架/06-TailwindCSS/README.md\n03-前端开发/02-前端框架/07-状态管理/01-核心概念/README.md\n03-前端开发/02-前端框架/07-状态管理/03-Vue生态/README.md\n03-前端开发/02-前端框架/07-状态管理/04-通用方案/README.md\n03-前端开发/02-前端框架/07-状态管理/05-实践与最佳实践/README.md\n03-前端开发/02-前端框架/07-状态管理/README.md\n03-前端开发/02-前端框架/README.md\n03-前端开发/03-工程化/README.md\n03-前端开发/04-质量保障/README.md\n(Results are truncated. Consider using a more specific path or pattern.)"
+          },
+          {
+            "id": "call_EB4QC2dDtRewf4M57ROdKEQF",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/README.md",
+              "limit": 250,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t---\n1\ttitle: \"AI 基础理论目录说明\"\n2\tdate: \"2026-03-17\"\n3\tlastModified: \"2026-05-09\"\n4\ttags: [\"AI\", \"基础理论\", \"目录说明\"]\n5\tpublish: false\n6\ttoc: true\n7\t---\n8\t\n9\t# AI 基础理论目录说明\n10\t\n11\t本目录收录 LLM、Transformer、Embedding、Prompt Engineering、RAG、Agent、模型训练等 AI 基础概念与原理性内容。\n12\t\n13\t## 文章索引\n14\t\n15\t| 序号 | 文章 | 核心内容 |\n16\t|:---|:---|:---|\n17\t| 01 | [LLM 原理](./01-LLM%20原理.md) | Token、Tokenizer、自回归生成、关键参数、主流模型对比 |\n18\t| 02 | [Transformer 架构](./02-Transformer%20架构.md) | Self-Attention、Q/K/V、多头注意力、FFN、位置编码 |\n19\t| 03 | [Embedding 与向量表示](./03-Embedding%20与向量表示.md) | 词向量/句向量/Token 向量、余弦相似度、向量数据库 |\n20\t| 04 | [Prompt Engineering](./04-Prompt%20Engineering.md) | Few-shot、Chain-of-Thought、System Prompt、结构化提示 |\n21\t| 05 | [RAG 原理](./05-RAG%20原理.md) | 文档分块、Embedding 索引、向量检索、生成与评估 |\n22\t| 06 | [Agent 原理](./06-Agent%20原理.md) | 规划、工具调用、记忆、反思、ReAct、多 Agent 协作 |\n23\t| 07 | [模型训练与对齐](./07-模型训练与对齐.md) | 预训练、SFT、RLHF、DPO、LoRA、量化 |\n24\t| 08 | [AI 工程学科全景](./08-AI工程学科全景.md) | 沟通线（Prompt→Context→Memory）、控制线（Harness）、演化脉络 |\n25\t\n26\t## 推荐学习顺序\n27\t\n28\t```\n29\t01-LLM 原理 → 02-Transformer 架构 → 03-Embedding → 07-模型训练与对齐\n30\t                                                          ↓\n31\t                          06-Agent 原理 ← 05-RAG 原理 ← 04-Prompt Engineering\n32\t```\n33\t\n34\t## 判定原则\n35\t\n36\t- 若文章重点是解释概念、原理、架构边界，应进入本目录\n37\t- 若文章重点是调用方式或工程落地，应迁往 `02-模型与API` 或 `03-AI应用开发`\n38\t"
+          }
+        ],
+        "isExpanded": false,
+        "result": "我查到的现状如下。\n\n已存在的正式 RAG 文章：\n- `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md`\n  - 已写成完整正文，属于“基础理论”向的正式文章\n  - 也被 `/08-AI与智能开发/01-AI基础理论/README.md` 和 `/08-AI与智能开发/!MOC-AI与智能开发.md` 正式收录\n\nRAG 专题目录现状：\n- `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/RAG/`\n  - 当前不存在\n- `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/README.md`\n  - 这里有 RAG 文章清单，但更像规划/目录资产，所列文件目前都不存在于该目录下\n\n仅存在于规划中的 RAG 文章（README 提到，但文件未找到）：\n- `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/RAG系统.md`\n- `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/向量数据库.md`\n- `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/检索优化.md`\n- `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-aa2fd326c01651b34/08-AI与智能开发/03-AI应用开发/混合检索.md`\n\n结论：\n- 现在“正式已写完”的 RAG 文章基本只有 `05-RAG 原理.md`\n- 剩余较可能需要补齐的应用向文章集，就是上面 4 篇\n- 其中 `RAG系统.md` 与 `05-RAG 原理.md` 题材有重叠，实施时最好先决定是否改名、拆分为“原理篇/工程篇”两层。"
+      },
+      "call_H01GGZTYyovQJIVsqnPbISuG": {
+        "id": "call_H01GGZTYyovQJIVsqnPbISuG",
+        "description": "Explore article templates",
+        "prompt": "Read-only exploration only. Find the formal writing patterns/templates used in this Obsidian vault for concept articles and practical articles. Focus on `99-系统/模板/*.md` and 3-5 representative existing articles under `08-AI与智能开发/` that match concept/explainer and practical/how-to styles. Report the standard section structure, frontmatter patterns, naming/path conventions, and any constraints relevant to generating many new RAG articles. Keep under 250 words.",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_x26pKChtb5ZsUWhJvKcLQYBV",
+            "name": "Glob",
+            "input": {
+              "path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a",
+              "pattern": "99-系统/模板/*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "99-系统/模板/00-模板使用指南.md\n99-系统/模板/01-概念理解类模板.md\n99-系统/模板/02-实战应用类模板.md\n99-系统/模板/03-问题排错类模板.md"
+          },
+          {
+            "id": "call_bxaT7gnFZG88vkh8NByNGitq",
+            "name": "Glob",
+            "input": {
+              "path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a",
+              "pattern": "08-AI与智能开发/**/*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "08-AI与智能开发/!MOC-AI与智能开发.md\n08-AI与智能开发/01-AI基础理论/01-LLM 原理.md\n08-AI与智能开发/01-AI基础理论/02-Transformer 架构.md\n08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md\n08-AI与智能开发/01-AI基础理论/04-Prompt Engineering.md\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md\n08-AI与智能开发/01-AI基础理论/06-Agent 原理.md\n08-AI与智能开发/01-AI基础理论/07-模型训练与对齐.md\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md\n08-AI与智能开发/01-AI基础理论/Agent.md\n08-AI与智能开发/01-AI基础理论/LLM.md\n08-AI与智能开发/01-AI基础理论/RAG.md\n08-AI与智能开发/01-AI基础理论/README.md\n08-AI与智能开发/01-AI基础理论/概念.md\n08-AI与智能开发/02-模型与API/Claude-API.md\n08-AI与智能开发/02-模型与API/LangChain.md\n08-AI与智能开发/02-模型与API/Ollama.md\n08-AI与智能开发/02-模型与API/OpenAI-API.md\n08-AI与智能开发/02-模型与API/README.md\n08-AI与智能开发/02-模型与API/向量数据库.md\n08-AI与智能开发/03-AI应用开发/02-MCP协议.md\n08-AI与智能开发/03-AI应用开发/03-MCP服务器开发.md\n08-AI与智能开发/03-AI应用开发/04-MCP配置与部署.md\n08-AI与智能开发/03-AI应用开发/05-MCP最佳实践.md\n08-AI与智能开发/03-AI应用开发/README.md\n08-AI与智能开发/04-AI辅助开发/01-理念与方法/01-TDD 在 AI 时代的价值.md\n08-AI与智能开发/04-AI辅助开发/01-理念与方法/README.md\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/01-AI 辅助代码审查.md\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/02-AI 生成文档与注释.md\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/03-SDD 规范驱动开发.md\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/04-长效运行智能体 CLI 工具实现计划.md\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/README.md\n08-AI与智能开发/04-AI辅助开发/03-工具生态/OpenClaw/!MOC-OpenClaw.md\n08-AI与智能开发/04-AI辅助开发/03-工具生态/OpenClaw/01-OpenClaw 配置文件.md\n08-AI与智能开发/04-AI辅助开发/03-工具生态/README.md\n08-AI与智能开发/04-AI辅助开发/README.md\n08-AI与智能开发/99-参考与归档/Vibe Coding 概览.md\n08-AI与智能开发/README.md"
+          },
+          {
+            "id": "call_lMn6KZBqJuMF8DZX9uHUnGdo",
+            "name": "Skill",
+            "input": {
+              "args": "Analyze Obsidian markdown templates and article structure patterns in read-only mode.",
+              "skill": "obsidian-markdown"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Launching skill: obsidian-markdown"
+          },
+          {
+            "id": "call_hD0p8n1NgV5BPBhsEVHiVIV6",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/99-系统/模板/01-概念理解类模板.md",
+              "limit": 250,
+              "offset": 0,
+              "pages": ""
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "<tool_use_error>Invalid pages parameter: \"\". Use formats like \"1-5\", \"3\", or \"10-20\". Pages are 1-indexed.</tool_use_error>"
+          },
+          {
+            "id": "call_A3ZsLh0QJM9OMpixmpp3cn39",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/99-系统/模板/02-实战应用类模板.md",
+              "limit": 250,
+              "offset": 0,
+              "pages": ""
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "<tool_use_error>Invalid pages parameter: \"\". Use formats like \"1-5\", \"3\", or \"10-20\". Pages are 1-indexed.</tool_use_error>"
+          },
+          {
+            "id": "call_CxWHCbNQpYz5MejziVGFXBDt",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/99-系统/模板/00-模板使用指南.md",
+              "limit": 220,
+              "offset": 0,
+              "pages": ""
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "<tool_use_error>Invalid pages parameter: \"\". Use formats like \"1-5\", \"3\", or \"10-20\". Pages are 1-indexed.</tool_use_error>"
+          },
+          {
+            "id": "call_KVknftIeZOcn7w7X6YHQCgPY",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/99-系统/模板/01-概念理解类模板.md",
+              "limit": 250,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t---\n1\ttitle: \"{{date}} 什么是？\"\n2\tdate: \"{{date}}\"\n3\tlastModified: \"{{date}}\"\n4\ttags: [\"概念\", \"理论\"]\n5\tstatus: \"草稿\"\n6\tmoc: \"[[!MOC-]]\"\n7\tstage: \"基础入门|框架进阶|工程化实践|质量保障|高级应用\"\n8\tprerequisites: [\"\"]\n9\tdescription: \"关于 xx 概念的深入解析\"\n10\taliases: []\n11\ttoc: true\n12\t---\n13\t\n14\t# 🎯 概念理解 (Concept)\n15\t\n16\t> **适用场景**：学习一个新名词、新架构、或者对一项技术建立宏观认知。\n17\t\n18\t## 🤔 是什么 (Definition)\n19\t> **一句话大白话定义 + 核心特征提取。**\n20\t\n21\t(在这里用最简单的话描述这个概念是什么。可以包括它的核心特征：例如它是强类型的语言、它是一个反向代理服务器等)\n22\t\n23\t## 💡 为什么 (Why it exists)\n24\t> **它解决了什么历史痛点？没有它之前人们是怎么做的？**\n25\t\n26\t(技术都是为了解决特定问题而生的。在这里写下它诞生的历史背景，对比传统的解决方案，突出它的优势)\n27\t\n28\t## 👁️ 怎么看 (Mental Model)\n29\t> **架构图/工作流模型，或者与相似概念的对比。重点是建立认知图谱。**\n30\t\n31\t(插入它的架构图生命周期图。或者使用对比法：例如 Docker vs 虚拟机，进程 vs 线程，帮助大脑锚定它的位置)\n32\t"
+          },
+          {
+            "id": "call_WqoPbZPxizGm79fU9ddiC0oM",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/99-系统/模板/02-实战应用类模板.md",
+              "limit": 250,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t---\n1\ttitle: \"{{date}} 如何实现？\"\n2\tdate: \"{{date}}\"\n3\tlastModified: \"{{date}}\"\n4\ttags: [\"实战\", \"配置\"]\n5\tstatus: \"草稿\"\n6\tmoc: \"[[!MOC-]]\"\n7\tstage: \"基础入门|框架进阶|工程化实践|质量保障|高级应用\"\n8\tprerequisites: [\"\"]\n9\tdescription: \"xx 场景的实战配置与实现\"\n10\taliases: []\n11\ttoc: true\n12\t---\n13\t\n14\t# 🛠️ 实战应用 (Praxis)\n15\t\n16\t> **适用场景**：日常开发中写代码实现某个功能，或配置某个环境。重点是“好抄好用”。\n17\t\n18\t## 📋 场景说明 (Context)\n19\t> **当前应用场景的简明说明。**\n20\t\n21\t(例如：需要在 Nginx 中配置反向代理来解决前端跨域问题，或者：使用 React Hooks 实现一个带防抖的搜索输入框)\n22\t\n23\t## 🚀 怎么做 (Implementation)\n24\t> **可直接 CV（复制粘贴）运行的配置/代码，并配合关键步骤注释。**\n25\t\n26\t(这里一定要放核心的、完整的代码块。不要放琐碎的代码片段。代码里面一定要有针对关键行的注释说明)\n27\t\n28\t```text\n29\t// 这里贴你的代码\n30\t```\n31\t\n32\t## 🧠 为什么这么做 (Deep Dive)\n33\t> **核心代码行的原理剖析，以及涉及的设计模式/最佳实践。**\n34\t\n35\t(解释刚才那段代码里最核心的几行代码是利用了什么原理。你是否使用了某种最佳实践或者设计模式？为什么要选用这种方案而不是另一种普通方案？)\n36\t"
+          },
+          {
+            "id": "call_zzWTaxAZM8uOvx25UteHNbWb",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/99-系统/模板/00-模板使用指南.md",
+              "limit": 220,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t---\n1\ttitle: \"模板使用指南\"\n2\tdate: \"2026-03-15\"\n3\tlastModified: \"2026-05-09\"\n4\tstatus: \"成熟\"\n5\ttags: [\"系统规范\", \"模板\", \"写作指南\"]\n6\tdescription: \"解释三类核心知识模板（概念理解、实战应用、问题排错）的适用场景与使用方法。\"\n7\taliases: [\"模板指南\", \"知识模板使用说明\"]\n8\ttoc: true\n9\t---\n10\t\n11\t# 📖 万能知识收纳盒：模板使用指南\n12\t\n13\t**为什么只有这三个模板？它们真的能囊括所有知识吗？**\n14\t\n15\t不管你学的是前端（JS）、后端（Java）、运维环境（Docker）、底层理论（计算机网络/组成原理），甚至是前沿的 AI 大模型，**一切计算机科学知识的摄入和产出，最终都会坍缩为这三种物理形态**：\n16\t\n17\t1. **有一个定义** -> 对应【01-概念理解类模板】（帮大脑建立认知的地图）\n18\t2. **被拿去写代码/配环境** -> 对应【02-实战应用类模板】（帮双手提高开发效率）\n19\t3. **出 Bug 了崩溃了** -> 对应【03-问题排错类模板】（帮未来的自己省下救火时间）\n20\t\n21\t为了让你能够触类旁通，下面我为你推演这三大模板在各个细分领域的应用映射：\n22\t\n23\t---\n24\t\n25\t## ⚡ 1. 编程语言与框架层（以 JS / Java / Vue 为例）\n26\t这类知识最贴近日常敲代码的动作。\n27\t\n28\t- **🎯 01-概念模板（懂设计）：** \n29\t  - *适用：* 《什么是 JS 的闭包和作用域链？》、《Java 中 JVM 的垃圾回收机制是什么？》、《Vue 的双向绑定原理是什么？》\n30\t  - *怎么写：* 你不用写长篇的代码，重点是画图讲故事，梳理它的设计哲学。\n31\t- **🛠️ 02-实战模板（干活生力军）：** \n32\t  - *适用：* 《如何用 JS 实现一个支持断点续传的组件》、《Java SpringBoot 如何配置 JWT 全局拦截器》\n33\t  - *怎么写：* “这段代码怎么写”绝对是主角。放上一段复制就能跑的完整代码片段，并在关键行写上注释。\n34\t- **🐛 03-排错模板（爬坑避雷指南）：** \n35\t  - *适用：* 《JS 常见的 `undefined is not a function` 怎么修》、《线上 Java `NullPointerException` (NPE) 十大场景排查》\n36\t  - *怎么写：* 第一步先把红色的 Error Log 贴出来，然后写你的排查历程，最后列出怎么修复。\n37\t\n38\t---\n39\t\n40\t## 🏗️ 2. 工具与工程化层（以 Docker / Nginx / Git 为例）\n41\t这类知识偏向运维基建和环境配置。\n42\t\n43\t- **🎯 01-概念模板：**\n44\t  - *适用：* 《Docker 镜像与容器的本质区别是什么？》、《反向代理和正向代理的区别？》\n45\t  - *怎么写：* 重点放在“它解决了什么传统部署的痛点？”，以及架构图对比（如 Docker vs 虚拟机）。\n46\t- **🛠️ 02-实战模板：**\n47\t  - *适用：* 《如何编写一个完美的 Node.js Dockerfile》、《Nginx 跨域反向代理配置大纲》\n48\t  - *怎么写：* 非常纯粹，直接提供可用的配置文件（如 `nginx.conf`），配合“为什么这么配”的参数说明。\n49\t- **🐛 03-排错模板：**\n50\t  - *适用：* 《Docker 容器刚刚启动就 `Exited (1)` 是什么鬼原因？》\n51\t  - *怎么写：* 日志！一定要有日志和报错截图！然后给出需要修改的临时命令和根治参数。\n52\t\n53\t---\n54\t\n55\t## 📚 3. 底层硬核理论层（以 计算机网络 / 计算机组成原理 为例）\n56\t很多人觉得纯理论没法套模板，其实不然，绝大多数底层理论都可以直接套入概念模板中：\n57\t\n58\t- **🎯 01-概念模板（绝对主导的模板！）：**\n59\t  - *适用：* 《OSI 七层模型是什么》、《TCP的三次握手与四次挥手原理》、《什么是 CPU 缓存一致性（Cache Coherence）》。\n60\t  - *怎么写：* 这种笔记的核心就是讲故事（为什么要有这七层？当年遇到了什么问题？）。通过隐喻和图表把复杂的底层机制讲明白，不需要贴枯燥的 C 语言源码。\n61\t- **🛠️ 02-实战模板（理论的抓手）：**\n62\t  - *适用：* 《如何使用 Wireshark 抓取并分析一个 HTTP 握手包？》\n63\t  - *怎么写：* 即便是纯理论也能有动手的部分，重点是列出操作步骤和抓包结果。\n64\t- **🐛 03-排错模板：**\n65\t  - *适用：* 《经典网络故障：为什么 Ping 得通 IP 但打不开网页？》\n66\t  - *怎么写：* 分析 DNS 排查链路，给出修复指令。\n67\t\n68\t---\n69\t\n70\t## 🤖 4. 前沿探索层（以 AI / 机器学习 为例）\n71\t哪怕是最火的大模型技术，也逃不掉这三个收纳盒：\n72\t\n73\t- **🎯 01-概念模板：**\n74\t  - *适用：* 《什么是 Transformer 架构》、《到底什么是 RAG (检索增强生成)？》\n75\t- **🛠️ 02-实战模板：**\n76\t  - *适用：* 《Python 实战：如何调用 OpenAI API 开发一个联网聊天机器人（附完整代码）》\n77\t- **🐛 03-排错模板：**\n78\t  - *适用：* 《跑本地大模型遇到 `CUDA Out of Memory` 显存溢出怎么办？》\n79\t\n80\t---\n81\t\n82\t## 💡 终极心法：如何选择模板？\n83\t\n84\t当你面对一条新知识，准备做笔记时，问自己一个问题：\n85\t\n86\t1. **“我是为了搞懂它背后的逻辑吗？”** 👉 选 **01-概念理解类模板** (偏向阅读与思考)\n87\t2. **“我是为了下次需要这块功能时，直接过来抄代码的吗？”** 👉 选 **02-实战应用类模板** (偏向搬运与使用)\n88\t3. **“我是为了下次再报这个错时，不被继续折磨吗？”** 👉 选 **03-问题排错类模板** (偏向搜索与救火)\n89\t\n90\t这三套“公式”，足以支撑你以**架构师/产品经理**的双重标准，构建跨越语言、跨越周期的强大数字大脑！\n91\t\n92\t---\n93\t\n94\t## 📋 Frontmatter 字段分组说明\n95\t\n96\t三大模板的 Frontmatter 字段按优先级分为三组：\n97\t\n98\t| 分组 | 字段 | 说明 |\n99\t|------|------|------|\n100\t| 🔴 核心必填 | `title`、`date`、`lastModified`、`tags`、`status` | 新建文件时必须填写 |\n101\t| 🟡 体系建设 | `moc`、`stage`、`prerequisites` | 正式专题文章建议补齐，用于构建知识图谱 |\n102\t| 🟢 拓展与控制 | `description`、`aliases`、`toc` | 可选，按需填写 |\n103\t\n104\t> **注意**：`98-知识库/` 下的原子知识文件使用精简模式（仅 `title`、`date`、`tags`），详见 [01-百科写作规范.md §3.3](../01-百科写作规范.md)。\n105\t"
+          },
+          {
+            "id": "call_TfgflPMUSstTp3T1sA3xwJha",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md",
+              "limit": 220,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t---\n1\ttitle: \"RAG 原理\"\n2\tdate: \"2026-05-09\"\n3\tlastModified: \"2026-05-09\"\n4\tstatus: \"草稿\"\n5\ttags: [\"AI与智能开发\", \"RAG\", \"检索增强生成\", \"向量检索\"]\n6\tmoc: \"[[!MOC-AI与智能开发]]\"\n7\tstage: \"基础入门\"\n8\tprerequisites: [\"[[01-LLM 原理]]\", \"[[03-Embedding 与向量表示]]\"]\n9\tdescription: \"检索增强生成（RAG）全流程：索引、检索、生成，以及工程实践中的关键决策。\"\n10\taliases: [\"RAG\", \"检索增强生成\", \"Retrieval-Augmented Generation\"]\n11\ttoc: true\n12\t---\n13\t\n14\t# RAG 原理\n15\t\n16\t## 是什么\n17\t\n18\tRAG（Retrieval-Augmented Generation，检索增强生成）是一种将**信息检索**与 **LLM 生成**结合的技术架构。\n19\t\n20\t> RAG = 让 AI 先\"查资料\"，再\"写回答\"。\n21\t\n22\t一句话理解：**RAG 给了 LLM 一双眼睛，让它在回答之前先看看最新的、私有的知识，而不是纯靠记忆。**\n23\t\n24\t```\n25\t传统 LLM：用户提问 → 模型凭记忆回答 → 可能幻觉、过时\n26\tRAG：     用户提问 → 检索相关文档 → 将文档作为上下文 → 模型基于文档回答\n27\t```\n28\t\n29\t---\n30\t\n31\t## 为什么需要 RAG\n32\t\n33\t### LLM 单独使用的三大痛点\n34\t\n35\t| 痛点 | 说明 |\n36\t|:---|:---|\n37\t| **知识截止** | 预训练数据有时间边界，不知道训练后发生的事 |\n38\t| **幻觉** | 对不确定的知识会\"编造\"一个看似合理的答案 |\n39\t| **无法访问私有数据** | 模型不知道你公司的文档、代码库、业务规则 |\n40\t\n41\t### RAG 的解法\n42\t\n43\t- **实时性**：检索最新的文档/数据，不受训练截止日期限制\n44\t- **可追溯**：回答基于具体文档，可以标注来源，用户能验证\n45\t- **低成本**：不需要微调模型（微调成本高、周期长），只需管理好文档库\n46\t- **安全**：私有数据不进入模型训练，减少数据泄露风险\n47\t\n48\t### RAG vs 微调\n49\t\n50\t| 维度 | RAG | 微调（Fine-tuning） |\n51\t|:---|:---|:---|\n52\t| 知识更新 | 更新文档即可，分钟级 | 需要重新训练，天级 |\n53\t| 成本 | 低（只需向量数据库） | 高（GPU 训练 + 数据标注） |\n54\t| 可追溯性 | 强（可引用来源） | 弱（知识融入权重） |\n55\t| 适用场景 | 事实性问答、文档查询 | 风格/格式调整、专业领域能力 |\n56\t| 幻觉控制 | 较好（有参考依据） | 一般（可能产生新幻觉） |\n57\t\n58\t实践中，RAG 和微调常常组合使用：用微调提升模型的领域理解能力，用 RAG 提供实时知识。\n59\t\n60\t---\n61\t\n62\t## 核心流程\n63\t\n64\tRAG 系统分为两个阶段：**离线索引** 和 **在线检索生成**。\n65\t\n66\t### 离线阶段：文档索引\n67\t\n68\t```\n69\t原始文档 → 文档加载 → 文本分块 → Embedding → 存入向量数据库\n70\t```\n71\t\n72\t### 在线阶段：检索与生成\n73\t\n74\t```\n75\t用户提问 → 查询 Embedding → 向量检索 → 取回相关片段 → 拼入 Prompt → LLM 生成回答\n76\t```\n77\t\n78\t完整流程图：\n79\t\n80\t```\n81\t                         离线阶段\n82\t                  ┌─────────────────────┐\n83\t                  │  PDF/网页/代码/文档   │\n84\t                  │       ↓              │\n85\t                  │    文本分块           │\n86\t                  │       ↓              │\n87\t                  │  Embedding 模型      │\n88\t                  │       ↓              │\n89\t                  │    向量数据库         │\n90\t                  └─────────────────────┘\n91\t\n92\t                         在线阶段\n93\t用户提问 ──→ Embedding ──→ 向量检索 ──→ Top-K 相关片段\n94\t                                            ↓\n95\t                                    拼入 Prompt 上下文\n96\t                                            ↓\n97\t                                       LLM 生成回答\n98\t                                            ↓\n99\t                                        返回用户\n100\t```\n101\t\n102\t---\n103\t\n104\t## 核心环节详解\n105\t\n106\t### 1. 文档加载（Document Loading）\n107\t\n108\t将各种格式的原始数据转换为纯文本：\n109\t\n110\t| 数据源 | 工具/方法 |\n111\t|:---|:---|\n112\t| PDF | PyPDF、pdfplumber、Unstructured |\n113\t| 网页 | BeautifulSoup、Crawl4AI |\n114\t| Markdown | 直接读取 |\n115\t| 代码 | 按文件读取，保留结构信息 |\n116\t| 数据库 | SQL 查询导出 |\n117\t| API | 调用后转文本 |\n118\t\n119\t### 2. 文本分块（Chunking）\n120\t\n121\t长文档需要切分为小块（Chunk），因为：\n122\t\n123\t- Embedding 模型有输入长度限制（通常 512-8192 Token）\n124\t- 小块检索更精确——返回整篇文档不如返回最相关的段落\n125\t- LLM 的上下文窗口有限，不能塞太多内容\n126\t\n127\t**分块策略**：\n128\t\n129\t| 策略 | 方法 | 适用场景 |\n130\t|:---|:---|:---|\n131\t| **固定大小** | 每 512 Token 切一块 | 简单通用 |\n132\t| **按语义** | 在段落/章节边界切分 | 结构化文档 |\n133\t| **递归分割** | 先按段落，再按句子，再按 Token | LangChain 默认 |\n134\t| **滑动窗口** | 重叠 N 个 Token，避免边界信息丢失 | 提升召回率 |\n135\t\n136\t**关键参数**：\n137\t\n138\t- **chunk_size**：每块大小（通常 256-1024 Token）\n139\t- **chunk_overlap**：相邻块重叠大小（通常 50-200 Token）\n140\t\n141\t```\n142\t原文：A B C D E F G H I J\n143\tchunk_size=5, overlap=2:\n144\t\n145\tChunk 1: A B C D E\n146\tChunk 2:       D E F G H\n147\tChunk 3:             G H I J\n148\t```\n149\t\n150\t重叠确保跨块的信息不会因为切割而丢失。\n151\t\n152\t### 3. Embedding\n153\t\n154\t将每个 Chunk 通过 Embedding 模型转换为向量，存入向量数据库。\n155\t\n156\t```\n157\tChunk: \"Docker 使用 namespace 实现进程隔离，\n158\t        使用 cgroup 限制资源使用...\"\n159\t          ↓\n160\tEmbedding 模型（如 text-embedding-3-small）\n161\t          ↓\n162\t向量: [0.023, -0.156, 0.089, ..., 0.045]（1536 维）\n163\t```\n164\t\n165\tEmbedding 模型的选择直接影响检索质量，详见 [03-Embedding 与向量表示](./03-Embedding%20与向量表示.md)。\n166\t\n167\t### 4. 检索（Retrieval）\n168\t\n169\t用户提问经过同一个 Embedding 模型转为向量，在向量数据库中搜索最相似的 K 个 Chunk：\n170\t\n171\t```\n172\t查询: \"Docker 如何隔离进程？\"\n173\t    ↓ Embedding\n174\t查询向量: [0.019, -0.148, ...]\n175\t    ↓ 向量数据库搜索（余弦相似度）\n176\tTop-3 结果:\n177\t  1. \"Docker 使用 namespace 实现进程隔离...\"（0.93）\n178\t  2. \"Linux namespace 提供六种隔离机制...\"（0.87）\n179\t  3. \"容器与虚拟机的隔离对比...\"（0.82）\n180\t```\n181\t\n182\t**检索优化策略**：\n183\t\n184\t- **混合检索（Hybrid Search）**：向量检索 + 关键词检索（BM25），取两者的交集/并集\n185\t- **重排序（Reranking）**：用 Cross-Encoder 对检索结果精细排序\n186\t- **查询改写（Query Rewriting）**：用 LLM 重写用户查询，提升检索命中率\n187\t- **HyDE（Hypothetical Document Embedding）**：先让 LLM 生成一个假设性回答，再用这个回答去检索\n188\t\n189\t### 5. 生成（Generation）\n190\t\n191\t将检索到的 Chunk 作为上下文，与用户问题一起构造 Prompt 发给 LLM：\n192\t\n193\t```\n194\tSystem: 你是一个技术文档助手。请基于以下参考资料回答用户问题。\n195\t        如果参考资料中没有相关信息，请明确告知。\n196\t\n197\tContext:\n198\t[检索到的 Chunk 1]\n199\t[检索到的 Chunk 2]\n200\t[检索到的 Chunk 3]\n201\t\n202\tUser: Docker 如何隔离进程？\n203\t```\n204\t\n205\t**生成阶段的关键决策**：\n206\t\n207\t- **上下文数量**：放入多少个 Chunk？太少信息不够，太多可能引入噪声\n208\t- **截断策略**：当上下文总长度超出窗口时如何处理\n209\t- **引用标注**：是否要求模型标注答案来源（`[1]`、`[2]`）\n210\t- **置信度**：是否要求模型在不确定时拒绝回答\n211\t\n212\t---\n213\t\n214\t## 评估指标\n215\t\n216\tRAG 系统的评估需要同时考虑检索质量和生成质量：\n217\t\n218\t### 检索质量\n219\t"
+          },
+          {
+            "id": "call_cyCeLD25ZppEJ1cmtqBSPkOj",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/08-AI与智能开发/01-AI基础理论/02-Transformer 架构.md",
+              "limit": 220,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t---\n1\ttitle: \"Transformer 架构\"\n2\tdate: \"2026-05-09\"\n3\tlastModified: \"2026-05-09\"\n4\tstatus: \"草稿\"\n5\ttags: [\"AI与智能开发\", \"Transformer\", \"深度学习\", \"注意力机制\"]\n6\tmoc: \"[[!MOC-AI与智能开发]]\"\n7\tstage: \"基础入门\"\n8\tprerequisites: [\"[[01-LLM 原理]]\"]\n9\tdescription: \"Transformer 架构详解：自注意力机制、编码器-解码器结构、位置编码。\"\n10\taliases: [\"Transformer\", \"自注意力\"]\n11\ttoc: true\n12\t---\n13\t\n14\t# Transformer 架构\n15\t\n16\t## 是什么\n17\t\n18\tTransformer 是 2017 年 Google 在论文《Attention Is All You Need》中提出的神经网络架构。它抛弃了传统的循环结构（RNN/LSTM），完全依赖**注意力机制（Attention）**来处理序列数据。\n19\t\n20\t> Transformer 是当今几乎所有大语言模型的底层引擎。GPT、Claude、Gemini、Llama 都是 Transformer 的变体。\n21\t\n22\t一句话理解：Transformer 让模型在处理每个词时，能同时\"看到\"句子中的所有其他词，并自动判断哪些词最重要。\n23\t\n24\t---\n25\t\n26\t## 为什么需要 Transformer\n27\t\n28\t### RNN/LSTM 的瓶颈\n29\t\n30\t在 Transformer 之前，NLP 主要依赖 RNN（循环神经网络）和 LSTM（长短期记忆网络）：\n31\t\n32\t```\n33\tRNN 处理方式（串行）：\n34\t词1 → 词2 → 词3 → 词4 → ... → 词N\n35\t       ↓      ↓      ↓              ↓\n36\t      状态1→ 状态2→ 状态3→ ...→   状态N\n37\t```\n38\t\n39\t问题：\n40\t\n41\t- **串行计算**：必须按顺序逐词处理，无法并行，训练速度慢\n42\t- **长距离依赖丢失**：信息在传递过程中逐渐衰减，句首的信息到句尾可能已经\"忘了\"\n43\t- **梯度消失/爆炸**：序列越长，反向传播越困难\n44\t\n45\t### Transformer 的解法\n46\t\n47\t```\n48\tTransformer 处理方式（并行）：\n49\t词1  词2  词3  词4  ...  词N\n50\t ↕    ↕    ↕    ↕        ↕\n51\t 全部互相关注（Self-Attention）\n52\t```\n53\t\n54\t- **并行计算**：所有 Token 同时处理，充分利用 GPU\n55\t- **全局视野**：任意两个 Token 之间都能直接交互，不存在距离限制\n56\t- **可扩展性**：架构天然适合\"堆大\"——更多层、更多参数、更多数据\n57\t\n58\t---\n59\t\n60\t## 整体架构\n61\t\n62\t原始 Transformer 是**编码器-解码器（Encoder-Decoder）**结构，但现代 LLM 主要使用其中的一部分：\n63\t\n64\t| 架构类型 | 结构 | 代表模型 | 适用任务 |\n65\t|:---|:---|:---|:---|\n66\t| Encoder-Only | 只有编码器 | BERT、RoBERTa | 文本分类、命名实体识别 |\n67\t| Decoder-Only | 只有解码器 | GPT、Claude、Llama | 文本生成、对话、代码 |\n68\t| Encoder-Decoder | 完整结构 | T5、BART | 翻译、摘要 |\n69\t\n70\t当前主流 LLM（GPT-4、Claude、Llama）都是 **Decoder-Only** 架构。以下重点讲解这种结构。\n71\t\n72\t---\n73\t\n74\t## 核心组件\n75\t\n76\t一个 Decoder-Only Transformer 由 N 个相同的 **Transformer Block** 堆叠而成（GPT-3 有 96 层，Llama 3 70B 有 80 层）。每个 Block 包含：\n77\t\n78\t```\n79\t输入 Token Embedding + 位置编码\n80\t        ↓\n81\t┌─────────────────────────┐\n82\t│   Masked Self-Attention  │ ← 核心：理解上下文关系\n83\t│         + 残差连接        │\n84\t│         + 层归一化        │\n85\t├─────────────────────────┤\n86\t│   前馈网络（FFN）         │ ← 存储\"知识\"\n87\t│         + 残差连接        │\n88\t│         + 层归一化        │\n89\t└─────────────────────────┘\n90\t        ↓\n91\t    （重复 N 次）\n92\t        ↓\n93\t  线性层 + Softmax → 概率分布\n94\t```\n95\t\n96\t### 1. Embedding + 位置编码\n97\t\n98\tToken ID 首先被转换为高维向量（Embedding），然后叠加位置信息：\n99\t\n100\t**Token Embedding**：\n101\t\n102\t```\n103\tToken \"猫\" → ID 2847 → 查表 → [0.12, -0.45, 0.78, ..., 0.33]（如 4096 维）\n104\t```\n105\t\n106\t每个 Token 对应一个高维向量，这个向量包含了该 Token 的语义信息。详见 [03-Embedding 与向量表示](./03-Embedding%20与向量表示.md)。\n107\t\n108\t**位置编码（Positional Encoding）**：\n109\t\n110\tTransformer 并行处理所有 Token，天然不知道\"顺序\"。位置编码向模型注入位置信息，让模型知道\"猫\"在句子中的第几个位置。\n111\t\n112\t主流方案：\n113\t\n114\t- **绝对位置编码**：为每个位置分配固定向量（原始 Transformer）\n115\t- **旋转位置编码（RoPE）**：通过旋转矩阵编码相对位置（Llama、Qwen 等使用）\n116\t- **ALiBi**：在注意力分数上加位置偏置（部分模型使用）\n117\t\n118\t### 2. 自注意力机制（Self-Attention）\n119\t\n120\t这是 Transformer 的灵魂。自注意力的核心思想：**对于每个 Token，计算它与所有其他 Token 的相关程度，据此加权汇总信息。**\n121\t\n122\t#### Q、K、V 三元组\n123\t\n124\t每个 Token 的 Embedding 通过三个线性变换，生成三个向量：\n125\t\n126\t- **Query（Q）**：当前 Token 的\"提问\"——\"我应该关注谁？\"\n127\t- **Key（K）**：每个 Token 的\"标签\"——\"我有什么信息？\"\n128\t- **Value（V）**：每个 Token 的\"内容\"——\"如果你关注我，这是你能拿到的信息\"\n129\t\n130\t#### 计算过程\n131\t\n132\t```\n133\tAttention(Q, K, V) = softmax(Q × K^T / √d_k) × V\n134\t```\n135\t\n136\t用人话说：\n137\t\n138\t1. **Q × K^T**：用 Query 去\"匹配\"所有 Key，得到相关性分数\n139\t2. **/ √d_k**：除以维度的平方根，防止分数过大导致 softmax 梯度消失\n140\t3. **softmax**：将分数归一化为概率分布（所有权重之和为 1）\n141\t4. **× V**：用权重对 Value 做加权求和，得到最终输出\n142\t\n143\t#### 直觉理解\n144\t\n145\t以\"**那只猫坐在垫子上，它很开心**\"为例，当模型处理\"它\"这个 Token 时：\n146\t\n147\t```\n148\t\"它\"的 Query 会与所有 Token 的 Key 计算相关性：\n149\t  \"那\"   → 0.01（弱相关）\n150\t  \"只\"   → 0.01\n151\t  \"猫\"   → 0.85（强相关！\"它\"指代\"猫\"）\n152\t  \"坐\"   → 0.03\n153\t  \"在\"   → 0.01\n154\t  \"垫子\" → 0.02\n155\t  \"上\"   → 0.01\n156\t  \"它\"   → 0.05\n157\t  \"很\"   → 0.01\n158\t```\n159\t\n160\t模型自动学会了：**\"它\"应该主要关注\"猫\"**，因为\"它\"是\"猫\"的指代。\n161\t\n162\t#### Masked Attention\n163\t\n164\t在 Decoder-Only 架构中，为了保持自回归特性（只能看到前面的 Token，不能偷看后面的），使用 **Mask（掩码）** 遮蔽未来位置：\n165\t\n166\t```\n167\tToken:  词1  词2  词3  词4\n168\t词1:    ✓    ✗    ✗    ✗\n169\t词2:    ✓    ✓    ✗    ✗\n170\t词3:    ✓    ✓    ✓    ✗\n171\t词4:    ✓    ✓    ✓    ✓\n172\t```\n173\t\n174\t词3 只能关注词1、词2、词3，不能看到词4。这确保了生成时的因果性。\n175\t\n176\t### 3. 多头注意力（Multi-Head Attention）\n177\t\n178\t一个注意力头只能捕捉一种类型的关系。多头注意力让模型同时从多个\"角度\"理解文本：\n179\t\n180\t```\n181\t头1：关注语法关系（主语-谓语）\n182\t头2：关注指代关系（代词-名词）\n183\t头3：关注语义相似性\n184\t头4：关注位置临近关系\n185\t...\n186\t```\n187\t\n188\t每个头独立计算 Q、K、V 和注意力，然后将所有头的输出拼接起来：\n189\t\n190\t```\n191\tMultiHead(Q, K, V) = Concat(head_1, head_2, ..., head_h) × W_O\n192\t```\n193\t\n194\t典型配置：GPT-3 使用 96 个注意力头，每头维度 128，总维度 12288。\n195\t\n196\t### 4. 前馈网络（FFN）\n197\t\n198\t注意力层之后是一个两层全连接网络，对每个 Token 独立做非线性变换：\n199\t\n200\t```\n201\tFFN(x) = 激活函数(x × W_1 + b_1) × W_2 + b_2\n202\t```\n203\t\n204\t直觉理解：\n205\t\n206\t- **注意力层**负责\"Token 之间的信息交换\"——谁和谁相关\n207\t- **FFN 层**负责\"知识存储与转换\"——将交换来的信息做深层处理\n208\t\n209\t研究表明，模型的大量\"世界知识\"存储在 FFN 的权重中。\n210\t\n211\t### 5. 残差连接 + 层归一化\n212\t\n213\t每个子层（注意力、FFN）都有：\n214\t\n215\t```\n216\t输出 = LayerNorm(x + SubLayer(x))\n217\t```\n218\t\n219\t- **残差连接（+x）**：允许信息\"跳过\"当前层直接传到下一层，防止深层网络退化"
+          },
+          {
+            "id": "call_Q41OdlxfWCTvV7QYpyHXKfNE",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/08-AI与智能开发/03-AI应用开发/04-MCP配置与部署.md",
+              "limit": 240,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t---\n1\ttitle: \"MCP 配置与部署指南\"\n2\tdate: \"2026-04-10\"\n3\tlastModified: \"2026-04-10\"\n4\ttags: [\"MCP\", \"配置\", \"部署\", \"Docker\", \"云部署\", \"故障排除\"]\n5\tmoc: \"[[!MOC-AI与智能开发]]\"\n6\tdescription: \"本指南详细介绍如何在不同的 MCP Host 中配置和部署 MCP Server，包括配置文件、部署方案和故障排除。\"\n7\tpublish: true\n8\ttoc: true\n9\t---\n10\t\n11\t# MCP 配置与部署指南\n12\t\n13\t> 本指南详细介绍如何在不同的 MCP Host 中配置和部署 MCP Server，包括配置文件、部署方案和故障排除。\n14\t\n15\t---\n16\t\n17\t## 🖥️ Claude Desktop 配置\n18\t\n19\t### 配置文件位置\n20\t\n21\t根据操作系统不同，配置文件位于：\n22\t\n23\t- **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`\n24\t- **Windows**: `%APPDATA%/Claude/claude_desktop_config.json`\n25\t- **Linux**: `~/.config/Claude/claude_desktop_config.json`\n26\t\n27\t### 配置文件结构\n28\t\n29\t```json\n30\t{\n31\t  \"mcp_servers\": [\n32\t    {\n33\t      \"name\": \"文件系统工具\",\n34\t      \"command\": \"claude-fs-mcp\",\n35\t      \"arguments\": [\"--root\", \"/Users/muliminty/Documents\"],\n36\t      \"env\": {\n37\t        \"CUSTOM_VAR\": \"value\"\n38\t      }\n39\t    },\n40\t    {\n41\t      \"name\": \"GitHub 集成\",\n42\t      \"command\": \"uv\",\n43\t      \"args\": [\n44\t        \"--directory\",\n45\t        \"/path/to/github-mcp\",\n46\t        \"run\",\n47\t        \"github_server.py\"\n48\t      ],\n49\t      \"env\": {\n50\t        \"GITHUB_TOKEN\": \"your_github_token_here\"\n51\t      }\n52\t    }\n53\t  ]\n54\t}\n55\t```\n56\t\n57\t### 配置选项说明\n58\t\n59\t| 字段 | 类型 | 必需 | 说明 |\n60\t| :--- | :--- | :--- | :--- |\n61\t| `name` | string | 是 | 服务器名称，显示在 UI 中 |\n62\t| `command` | string | 是 | 启动服务器的命令 |\n63\t| `arguments` / `args` | array | 否 | 命令参数 |\n64\t| `env` | object | 否 | 环境变量 |\n65\t| `disabled` | boolean | 否 | 是否禁用该服务器 |\n66\t\n67\t### 常见配置示例\n68\t\n69\t#### 1. 文件系统服务器\n70\t\n71\t```json\n72\t{\n73\t  \"mcp_servers\": [\n74\t    {\n75\t      \"name\": \"本地文件系统\",\n76\t      \"command\": \"npx\",\n77\t      \"arguments\": [\n78\t        \"-y\",\n79\t        \"@modelcontextprotocol/server-filesystem\",\n80\t        \"/Users/muliminty/Documents\",\n81\t        \"/Users/muliminty/Projects\"\n82\t      ]\n83\t    }\n84\t  ]\n85\t}\n86\t```\n87\t\n88\t#### 2. 数据库服务器\n89\t\n90\t```json\n91\t{\n92\t  \"mcp_servers\": [\n93\t    {\n94\t      \"name\": \"MySQL 数据库\",\n95\t      \"command\": \"uv\",\n96\t      \"args\": [\n97\t        \"--directory\",\n98\t        \"/path/to/mysql-mcp\",\n99\t        \"run\",\n100\t        \"mysql_server.py\"\n101\t      ],\n102\t      \"env\": {\n103\t        \"MYSQL_HOST\": \"localhost\",\n104\t        \"MYSQL_PORT\": \"3306\",\n105\t        \"MYSQL_USER\": \"root\",\n106\t        \"MYSQL_PASSWORD\": \"your_password\",\n107\t        \"MYSQL_DATABASE\": \"my_database\"\n108\t      }\n109\t    }\n110\t  ]\n111\t}\n112\t```\n113\t\n114\t#### 3. 搜索服务器\n115\t\n116\t```json\n117\t{\n118\t  \"mcp_servers\": [\n119\t    {\n120\t      \"name\": \"Brave 搜索\",\n121\t      \"command\": \"npx\",\n122\t      \"arguments\": [\n123\t        \"-y\",\n124\t        \"@modelcontextprotocol/server-brave-search\"\n125\t      ],\n126\t      \"env\": {\n127\t        \"BRAVE_API_KEY\": \"your_brave_api_key\"\n128\t      }\n129\t    }\n130\t  ]\n131\t}\n132\t```\n133\t\n134\t---\n135\t\n136\t## 💻 Cursor IDE 配置\n137\t\n138\t### 配置方式\n139\t\n140\tCursor IDE 支持通过 `.cursorrules` 文件或 Cursor Settings 配置 MCP。\n141\t\n142\t#### 方式 1：通过 Cursor Settings\n143\t\n144\t1. 打开 Cursor Settings（Cmd/Ctrl + ,）\n145\t2. 找到 \"MCP Servers\" 部分\n146\t3. 添加服务器配置\n147\t\n148\t**配置示例**：\n149\t```json\n150\t{\n151\t  \"mcpServers\": {\n152\t    \"filesystem\": {\n153\t      \"command\": \"npx\",\n154\t      \"args\": [\n155\t        \"-y\",\n156\t        \"@modelcontextprotocol/server-filesystem\",\n157\t        \"/path/to/allowed/directory\"\n158\t      ]\n159\t    },\n160\t    \"github\": {\n161\t      \"command\": \"npx\",\n162\t      \"args\": [\n163\t        \"-y\",\n164\t        \"@modelcontextprotocol/server-github\"\n165\t      ],\n166\t      \"env\": {\n167\t        \"GITHUB_TOKEN\": \"your_github_token\"\n168\t      }\n169\t    }\n170\t  }\n171\t}\n172\t```\n173\t\n174\t#### 方式 2：通过 .cursorrules\n175\t\n176\t在项目根目录创建 `.cursorrules` 文件：\n177\t\n178\t```json\n179\t{\n180\t  \"mcpServers\": [\n181\t    {\n182\t      \"name\": \"project-tools\",\n183\t      \"command\": \"uv\",\n184\t      \"args\": [\"run\", \"server.py\"],\n185\t      \"cwd\": \"/path/to/mcp-server\"\n186\t    }\n187\t  ]\n188\t}\n189\t```\n190\t\n191\t---\n192\t\n193\t## 📝 VSCode 配置\n194\t\n195\t### 通过 VSCode 扩展\n196\t\n197\t安装支持 MCP 的 VSCode 扩展（如 Cline）。\n198\t\n199\t#### 使用 Cline 插件\n200\t\n201\tCline 是一个强大的 VSCode 扩展，支持 MCP。\n202\t\n203\t1. 安装 Cline 扩展\n204\t2. 打开 Cline 设置\n205\t3. 配置 MCP Servers\n206\t\n207\t**settings.json 配置示例**：\n208\t```json\n209\t{\n210\t  \"cline.mcpServers\": {\n211\t    \"filesystem\": {\n212\t      \"command\": \"npx\",\n213\t      \"args\": [\n214\t        \"-y\",\n215\t        \"@modelcontextprotocol/server-filesystem\",\n216\t        \"/path/to/project\"\n217\t      ]\n218\t    },\n219\t    \"git\": {\n220\t      \"command\": \"npx\",\n221\t      \"args\": [\n222\t        \"-y\",\n223\t        \"@modelcontextprotocol/server-git\"\n224\t      ]\n225\t    }\n226\t  }\n227\t}\n228\t```\n229\t\n230\t#### 使用 .vscode/mcp.json\n231\t\n232\t在项目根目录创建 `.vscode/mcp.json` 文件：\n233\t\n234\t```json\n235\t{\n236\t  \"servers\": {\n237\t    \"database\": {\n238\t      \"type\": \"stdio\",\n239\t      \"command\": \"uv\","
+          },
+          {
+            "id": "call_gdi2E3ioueiwrHRMfTMp89vn",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/08-AI与智能开发/04-AI辅助开发/02-实践与工作流/01-AI 辅助代码审查.md",
+              "limit": 240,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t---\n1\ttitle: \"AI辅助代码审查\"\n2\tdate: \"2026-03-10\"\n3\tlastModified: \"2026-03-10\"\n4\ttags: [\"AI代码审查\", \"代码质量\", \"安全扫描\", \"开发工具\"]\n5\tmoc: \"[[!MOC-AI与智能开发]]\"\n6\tstage: \"工程化实践\"\n7\tdescription: \"将AI作为第一道代码审查关卡，自动化检查代码质量、安全漏洞和最佳实践的完整方案\"\n8\ttoc: true\n9\t---\n10\t\n11\t# AI 辅助代码审查\n12\t\n13\t## 方案概述\n14\t将 AI 作为第一道代码审查关卡，自动化检查代码质量、安全漏洞和最佳实践，释放人工审查时间用于业务逻辑和架构设计。\n15\t\n16\t## 核心价值\n17\t- **效率提升**：自动化检查基础问题，人工聚焦高价值审查\n18\t- **质量一致性**：统一团队编码规范，减少风格争议\n19\t- **安全防线**：提前发现常见安全漏洞（XSS、SQL 注入等）\n20\t- **知识传承**：AI 规则成为团队编码标准的可执行文档\n21\t\n22\t## 实施步骤\n23\t\n24\t### 阶段一：工具选型与配置\n25\t\n26\t#### 选项对比\n27\t| 工具 | 类型 | 优势 | 适合场景 | 成本 |\n28\t|------|------|------|----------|------|\n29\t| **SonarQube** | 自托管平台 | 规则丰富，可定制性强，企业级特性 | 大型团队，需要深度集成的企业环境 | 开源版免费，企业版付费 |\n30\t| **GitHub Copilot** | IDE 插件 | 实时建议，与开发流程无缝集成 | 日常开发中的即时反馈 | 按用户付费 |\n31\t| **CodeGPT/Claude** | API 集成 | 灵活性高，可深度定制提示词 | 需要定制审查逻辑的团队 | API 调用费用 |\n32\t| **Reviewdog** | CLI 工具 | 轻量，易集成 CI/CD | 需要自动化流水线的小型团队 | 开源免费 |\n33\t\n34\t#### 推荐配置（中小团队）\n35\t```bash\n36\t# 1. 安装基础工具\n37\tnpm install --save-dev eslint @typescript-eslint/eslint-plugin eslint-plugin-security\n38\t\n39\t# 2. 配置 ESLint 规则扩展\n40\t# .eslintrc.js\n41\tmodule.exports = {\n42\t  extends: [\n43\t    'eslint:recommended',\n44\t    'plugin:@typescript-eslint/recommended',\n45\t    'plugin:security/recommended'\n46\t  ],\n47\t  plugins: ['@typescript-eslint', 'security'],\n48\t  rules: {\n49\t    // 团队自定义规则\n50\t    'complexity': ['error', { max: 10 }], // 圈复杂度限制\n51\t    'max-lines-per-function': ['error', 50] // 函数行数限制\n52\t  }\n53\t}\n54\t\n55\t# 3. 集成 AI 审查\n56\tnpm install --save-dev @sourcery-ai/sourcery  # 或选择其他 AI 工具\n57\t```\n58\t\n59\t### 阶段二：CI/CD 集成\n60\t\n61\t#### GitHub Actions 示例\n62\t```yaml\n63\t# .github/workflows/ai-code-review.yml\n64\tname: AI Code Review\n65\ton:\n66\t  pull_request:\n67\t    branches: [main, develop]\n68\t\n69\tjobs:\n70\t  review:\n71\t    runs-on: ubuntu-latest\n72\t    steps:\n73\t      - uses: actions/checkout@v3\n74\t\n75\t      - name: Setup Node.js\n76\t        uses: actions/setup-node@v3\n77\t        with:\n78\t          node-version: '18'\n79\t\n80\t      - name: Install dependencies\n81\t        run: npm ci\n82\t\n83\t      - name: Run ESLint (静态分析)\n84\t        run: npx eslint src/ --max-warnings=0\n85\t\n86\t      - name: Run AI Code Review\n87\t        uses: reviewdog/action-suggester@v1\n88\t        with:\n89\t          tool: codegpt\n90\t          level: warning\n91\t          reporter: github-pr-review\n92\t          filter_mode: added # 只检查新增代码\n93\t\n94\t      - name: Security Scan\n95\t        run: npx audit-ci --critical\n96\t```\n97\t\n98\t#### GitLab CI 示例\n99\t```yaml\n100\t# .gitlab-ci.yml\n101\tstages:\n102\t  - review\n103\t\n104\tai_review:\n105\t  stage: review\n106\t  image: node:18\n107\t  script:\n108\t    - npm ci\n109\t    - npx eslint src/ --max-warnings=0\n110\t    - |\n111\t      # 调用 AI API 进行代码审查\n112\t      curl -X POST https://api.openai.com/v1/chat/completions \\\n113\t        -H \"Authorization: Bearer $OPENAI_API_KEY\" \\\n114\t        -H \"Content-Type: application/json\" \\\n115\t        -d '{\n116\t          \"model\": \"gpt-4\",\n117\t          \"messages\": [\n118\t            {\n119\t              \"role\": \"system\",\n120\t              \"content\": \"你是一个资深代码审查专家，请分析以下代码并指出问题：\"\n121\t            },\n122\t            {\n123\t              \"role\": \"user\",\n124\t              \"content\": \"$(cat diff.txt)\"\n125\t            }\n126\t          ]\n127\t        }'\n128\t  only:\n129\t    - merge_requests\n130\t```\n131\t\n132\t### 阶段三：规则定制与训练\n133\t\n134\t#### 团队编码规范转 AI 规则\n135\t```javascript\n136\t// ai-rules/team-conventions.js\n137\tmodule.exports = {\n138\t  // 命名约定\n139\t  naming: {\n140\t    require: {\n141\t      components: 'PascalCase',      // 组件：PascalCase\n142\t      hooks: 'useCamelCase',         // Hook：use开头 + CamelCase\n143\t      constants: 'UPPER_SNAKE_CASE', // 常量：大写蛇形\n144\t      variables: 'camelCase'         // 变量：camelCase\n145\t    },\n146\t    forbid: {\n147\t      singleLetterVars: ['l', 'o', 'I'], // 禁止单字母变量（易混淆）\n148\t      vagueNames: ['data', 'temp', 'stuff'] // 禁止模糊命名\n149\t    }\n150\t  },\n151\t\n152\t  // 安全规则\n153\t  security: {\n154\t    xss: {\n155\t      pattern: /innerHTML|outerHTML|document\\.write/,\n156\t      suggestion: '使用 textContent 或安全的 DOM API',\n157\t      severity: 'critical'\n158\t    },\n159\t    sql: {\n160\t      pattern: /\\$.*\\{.*SELECT|INSERT|UPDATE.*\\}/,\n161\t      suggestion: '使用参数化查询或 ORM',\n162\t      severity: 'critical'\n163\t    }\n164\t  },\n165\t\n166\t  // 性能规则\n167\t  performance: {\n168\t    avoidNestedLoops: {\n169\t      pattern: /for.*\\{.*for.*\\{/,\n170\t      suggestion: '考虑使用 Map/Set 优化 O(n²) 算法',\n171\t      severity: 'warning'\n172\t    },\n173\t    memoization: {\n174\t      pattern: /useCallback|useMemo|React\\.memo/,\n175\t      context: 'expensive-computation',\n176\t      suggestion: '对昂贵计算使用缓存',\n177\t      severity: 'info'\n178\t    }\n179\t  }\n180\t}\n181\t```\n182\t\n183\t#### AI 提示词模板\n184\t```markdown\n185\t## 代码审查专家角色设定\n186\t\n187\t**角色**：资深前端架构师，10年 React/TypeScript 经验\n188\t**审查标准**：\n189\t1. 安全性第一（XSS、CSRF、数据泄漏）\n190\t2. 性能优化（渲染次数、内存泄漏）\n191\t3. 可维护性（单一职责、清晰命名）\n192\t4. 团队规范一致性\n193\t\n194\t**输出格式**：\n195\t```json\n196\t{\n197\t  \"issues\": [\n198\t    {\n199\t      \"file\": \"src/components/UserForm.tsx\",\n200\t      \"line\": 45,\n201\t      \"type\": \"security\",\n202\t      \"severity\": \"high\",\n203\t      \"description\": \"直接使用 innerHTML 可能导致 XSS\",\n204\t      \"suggestion\": \"改用 React.createElement 或 textContent\",\n205\t      \"codeBefore\": \"element.innerHTML = userInput\",\n206\t      \"codeAfter\": \"element.textContent = userInput\"\n207\t    }\n208\t  ],\n209\t  \"summary\": {\n210\t    \"critical\": 1,\n211\t    \"high\": 3,\n212\t    \"medium\": 2,\n213\t    \"low\": 5\n214\t  }\n215\t}\n216\t```\n217\t\n218\t**审查范围**：\n219\t- 新增和修改的文件\n220\t- 重点关注业务逻辑复杂度和测试覆盖\n221\t- 忽略格式化问题（由 Prettier 处理）\n222\t```\n223\t\n224\t### 阶段四：人工审查流程优化\n225\t\n226\t#### 双阶段审查流程\n227\t```mermaid\n228\tgraph TD\n229\t    A[开发者提交 PR] --> B{AI 第一阶段审查}\n230\t    B -->|通过| C[人工第二阶段审查]\n231\t    B -->|发现问题| D[自动评论并阻止合并]\n232\t    D --> E[开发者修复]\n233\t    E --> B\n234\t    C -->|通过| F[合并到主分支]\n235\t    C -->|发现问题| G[人工评论指导]\n236\t    G --> E\n237\t```\n238\t\n239\t#### 审查优先级矩阵"
+          },
+          {
+            "id": "call_yLLX0ooumHRJ2hdj11pzDp5s",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/99-系统/01-百科写作规范.md",
+              "limit": 220,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t---\n1\ttitle: \"百科写作规范\"\n2\tdate: \"2026-03-15\"\n3\tlastModified: \"2026-05-09\"\n4\tstatus: \"成熟\"\n5\ttags: [\"系统规范\", \"写作规范\", \"命名规范\", \"元数据规范\"]\n6\tdescription: \"统一约束知识库文档的 Markdown 语法、元数据、命名方式与受控写法。\"\n7\taliases: [\"写作规范\", \"内容规范\", \"统一写作规范\"]\n8\ttoc: true\n9\t---\n10\t\n11\t# 百科写作规范\n12\t\n13\t## 1. 目标\n14\t\n15\t本规范用于统一知识库正文文件的写法，确保所有文档具备以下特征：\n16\t\n17\t- 可被稳定渲染\n18\t- 可被稳定检索\n19\t- 可被稳定迁移\n20\t- 可被脚本稳定处理\n21\t\n22\t本规范适用于正式体系文章、原子知识、系统规范文档与案例文档。\n23\t\n24\t### 1.1 写作分层原则\n25\t\n26\t所有正式知识笔记统一遵循“通俗易懂、由浅入深”的写作口径。\n27\t\n28\t目标：\n29\t\n30\t- 新手能够先建立最小理解，不因术语密度过高而失去阅读路径\n31\t- 有经验的读者能够继续获得原理、边界、实践与细节层面的增量信息\n32\t- 同一篇文章同时具备“可入门”和“可深化”的双层价值\n33\t\n34\t写作要求：\n35\t\n36\t- 开头先解释“这是什么、解决什么问题”，再进入原理、配置、推导或案例\n37\t- 先给直观认识，再补正式定义、结构细节与实现机制\n38\t- 避免一上来堆术语、缩写、结论和抽象概念\n39\t- 需要兼顾新手与高手：新手能读懂主线，高手能看到关键约束、设计权衡与实践细节\n40\t- 若正文较长，应通过小节递进形成“入门 -> 理解 -> 应用 -> 深化”的阅读层次\n41\t\n42\t---\n43\t\n44\t## 2. Markdown 与链接规范\n45\t\n46\t### 2.1 原生 Markdown 优先\n47\t\n48\t统一使用标准 Markdown 语法，不依赖特定编辑器的私有写法。\n49\t\n50\t链接统一使用：\n51\t\n52\t```md\n53\t[展示文本](相对路径)\n54\t```\n55\t\n56\t目标：\n57\t\n58\t- 保证 Obsidian、Quartz 与其他 Markdown 工具兼容\n59\t- 保证后续迁移与静态站点构建稳定\n60\t\n61\t### 2.2 双链表达口径\n62\t\n63\t知识关系优先通过正常链接和 `moc` 字段表达，不用随意生成无归属的孤立链接。\n64\t\n65\t要求：\n66\t\n67\t- 文章应尽量挂靠某个 `!MOC`\n68\t- 正式文章应尽量补充前置知识\n69\t- 跨专题引用要明确主语义，不要把链接堆成标签云\n70\t\n71\t---\n72\t\n73\t## 3. Frontmatter 规范\n74\t\n75\t所有正式文章顶部必须包含 YAML Frontmatter。\n76\t\n77\t推荐模板如下：\n78\t\n79\t```yaml\n80\t---\n81\ttitle: \"文章标题\"\n82\tdate: \"YYYY-MM-DD\"\n83\tlastModified: \"YYYY-MM-DD\"\n84\tstatus: \"草稿\"\n85\ttags: [\"标签1\", \"标签2\"]\n86\tmoc: \"[[!MOC-分类名称]]\"\n87\tstage: \"基础入门|框架进阶|工程化实践|质量保障|高级应用\"\n88\tprerequisites: [\"[[前置知识笔记名]]\"]\n89\tdescription: \"文章描述\"\n90\taliases: [\"文章别名1\", \"文章别名2\"]\n91\ttoc: true\n92\t---\n93\t```\n94\t\n95\t说明：\n96\t\n97\t- `title`：作为文档唯一识别名\n98\t- `date`：首次创建时间\n99\t- `lastModified`：最后维护时间\n100\t- `status`：文章当前生命周期状态\n101\t- `tags`：知识分类标签\n102\t- `moc`：所在主题的入口锚点\n103\t- `stage`：文章所处学习阶段，与目录层级对齐\n104\t- `prerequisites`：前置依赖的知识笔记，用于构建阅读路径\n105\t- `description`：摘要说明\n106\t- `aliases`：异名检索补充\n107\t- `toc`：是否显示大纲\n108\t\n109\t补充建议：\n110\t\n111\t- 若文章需要控制是否发布到站点，可按需添加 `publish: true/false`\n112\t\n113\t### 3.1 生命周期状态字段\n114\t\n115\t正式文章统一补充 `status` 字段，并仅使用以下受控值：\n116\t\n117\t- `草稿`：结构未稳定、内容仍在快速变动\n118\t- `成熟`：主体内容已可稳定阅读，适合继续增补\n119\t- `常青`：长期有效、质量较高、可作为稳定入口引用\n120\t- `归档`：保留历史价值，但不再作为主干知识继续扩展\n121\t\n122\t推荐口径：\n123\t\n124\t- 新建正文默认用 `草稿`\n125\t- 一轮系统整理后可提升为 `成熟`\n126\t- 长期稳定、被频繁引用的主干文章可提升为 `常青`\n127\t- 历史方案、旧版实践、迁移来源材料优先标为 `归档`\n128\t\n129\t### 3.2 标签受控规则\n130\t\n131\t标签不再自由生长，统一遵守以下规则：\n132\t\n133\t- 优先使用中文领域标签或官方技术名\n134\t- 同一概念只保留一个主标签，不并行创建同义词\n135\t- 单篇文章的 `tags` 建议控制在 `3` 到 `5` 个\n136\t- 一级领域标签、技术栈标签、内容类型标签可以混合，但不要堆砌\n137\t\n138\t推荐白名单示例：\n139\t\n140\t- 一级领域：`计算机基础`、`编程语言`、`前端开发`、`服务端开发`、`数据与存储`、`架构与工程`、`基础设施与运维`、`AI与智能开发`、`工具与效率`、`实战案例`、`问题排错`\n141\t- 技术栈：`JavaScript`、`TypeScript`、`Node.js`、`React`、`Vue`、`Next.js`、`Go`、`Java`、`Docker`、`Nginx`、`Git`、`GitHub`、`Linux`、`Windows`\n142\t- 内容类型：`系统规范`、`写作规范`、`目录说明`、`基础入门`、`最佳实践`、`问题排错`\n143\t\n144\t黑名单示例：\n145\t\n146\t- 不再新增并行标签：`front-end`、`FE`、`js`、`ts`、`nodejs`、`reactjs`\n147\t- 不使用纯情绪型或过程型标签：`随手记`、`待整理`、`先放这`、`有空再看`\n148\t\n149\t### 3.3 原子知识精简模式\n150\t\n151\t`98-知识库/` 中的原子知识文件采用精简 Frontmatter，降低碎片知识的写入门槛。\n152\t\n153\t必填字段（仅 3 个）：\n154\t\n155\t```yaml\n156\t---\n157\ttitle: \"核心概念名\"\n158\tdate: \"YYYY-MM-DD\"\n159\ttags: [\"领域标签\"]\n160\t---\n161\t```\n162\t\n163\t可选字段：\n164\t\n165\t- `status`、`lastModified`、`moc`、`stage`、`prerequisites`、`description`、`aliases`、`toc` 均为可选\n166\t- 若原子知识迁入正式专题，需补齐完整 Frontmatter；永久保留的概念卡片使用精简模式即可\n167\t\n168\t适用范围：\n169\t\n170\t- 仅适用于 `98-知识库/` 目录下的文件\n171\t- 正式专题目录下的正文文件仍须使用完整 Frontmatter（§3 主模板）\n172\t\n173\t---\n174\t\n175\t## 4. 文件命名规范\n176\t\n177\t### 4.1 总原则\n178\t\n179\t文件命名遵循三个原则：\n180\t\n181\t- `受控`\n182\t- `稳定`\n183\t- `可插队`\n184\t\n185\t也就是：\n186\t\n187\t- 不自由发挥命名风格\n188\t- 同层长期保持一致\n189\t- 后续可以平滑插入新文件\n190\t\n191\t### 4.2 正式体系文章\n192\t\n193\t正式专题文章统一使用：\n194\t\n195\t```text\n196\t[两位序号]-[主题名].md\n197\t```\n198\t\n199\t示例：\n200\t\n201\t- `01-安装与环境配置.md`\n202\t- `02-核心概念.md`\n203\t- `03-多服务编排实践.md`\n204\t- `04-Compose文件编写指南.md`\n205\t\n206\t约束：\n207\t\n208\t- 文件名只表达当前层主题\n209\t- 不重复上级目录已经表达的信息\n210\t- 同层统一使用两位数字前缀\n211\t\n212\t### 4.3 原子知识\n213\t\n214\t`98-知识库` 中的原子文件统一使用：\n215\t\n216\t```text\n217\t[YYYYMMDD]-[领域]-[核心概念].md\n218\t```\n219\t"
+          }
+        ],
+        "isExpanded": false,
+        "result": "Formal patterns are defined in:\n\n- `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/99-系统/模板/01-概念理解类模板.md`\n- `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/99-系统/模板/02-实战应用类模板.md`\n- `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/99-系统/模板/00-模板使用指南.md`\n\nRepresentative concept/explainer notes:\n- `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md`\n- `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/08-AI与智能开发/01-AI基础理论/02-Transformer 架构.md`\n\nRepresentative practical/how-to notes:\n- `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/08-AI与智能开发/03-AI应用开发/04-MCP配置与部署.md`\n- `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a35ee4517b377430a/08-AI与智能开发/04-AI辅助开发/02-实践与工作流/01-AI 辅助代码审查.md`\n\nStandard structure:\n- Concept: “是什么” → “为什么需要” → “核心流程/整体架构” → “核心环节详解” → “评估/对比/边界”.\n- Practical: “场景说明/方案概述” → “Implementation/实施步骤” → full runnable code/config → “为什么这么做/Deep Dive” → deployment, troubleshooting, best practices.\n\nFrontmatter pattern:\n`title,date,lastModified,status,tags,moc,stage,prerequisites,description,aliases,toc`; `publish` appears optionally.\nControlled `status`: 草稿/成熟/常青/归档.\nTags should usually stay within 3-5.\n\nNaming/path conventions:\n- Formal topic articles: `[两位序号]-[主题名].md`\n- In `08-AI与智能开发/`, concept notes live under `01-AI基础理论/`; practical notes under `03-AI应用开发/` or `04-AI辅助开发/02-实践与工作流/`.\n\nConstraints for many new RAG articles:\n- Use full frontmatter for formal topic files.\n- Body links should use standard Markdown links per `/99-系统/01-百科写作规范.md`; existing `moc` frontmatter still follows `[[!MOC-...]]`.\n- Prefer stage-aligned series, prerequisite chains, and one article per focused topic."
+      },
+      "call_xQekz2DgCJQYRJ20Xtxvgckt": {
+        "id": "call_xQekz2DgCJQYRJ20Xtxvgckt",
+        "description": "Explore parent indexes",
+        "prompt": "Read-only exploration only. Determine which parent index/README/MOC files would need updating if we write out the remaining RAG articles from the backlog. Search for references to the RAG topic and article indexes under `08-AI与智能开发/`. Report exact files that likely need updates, current linking pattern, and whether there are existing safeguards against linking non-existent files. Keep under 250 words.",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_ix3MPxfZU0k5QCXUl4uWB9ld",
+            "name": "Glob",
+            "input": {
+              "path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a95016e326503a47f/08-AI与智能开发",
+              "pattern": "**/*README*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "08-AI与智能开发/01-AI基础理论/README.md\n08-AI与智能开发/02-模型与API/README.md\n08-AI与智能开发/03-AI应用开发/README.md\n08-AI与智能开发/04-AI辅助开发/01-理念与方法/README.md\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/README.md\n08-AI与智能开发/04-AI辅助开发/03-工具生态/README.md\n08-AI与智能开发/04-AI辅助开发/README.md\n08-AI与智能开发/README.md"
+          },
+          {
+            "id": "call_lN8t4gcrEHHd7UvCngVAzvMu",
+            "name": "Glob",
+            "input": {
+              "path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a95016e326503a47f/08-AI与智能开发",
+              "pattern": "**/*MOC*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "08-AI与智能开发/!MOC-AI与智能开发.md\n08-AI与智能开发/04-AI辅助开发/03-工具生态/OpenClaw/!MOC-OpenClaw.md"
+          },
+          {
+            "id": "call_RLRXaM0A6vgsJh6ndb84c6qf",
+            "name": "Grep",
+            "input": {
+              "-A": 0,
+              "-B": 0,
+              "-C": 0,
+              "-i": false,
+              "-n": true,
+              "context": 0,
+              "glob": "*.md",
+              "head_limit": 200,
+              "multiline": false,
+              "offset": 0,
+              "output_mode": "content",
+              "path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a95016e326503a47f/08-AI与智能开发",
+              "pattern": "RAG|检索增强|article index|索引|目录",
+              "type": ""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "08-AI与智能开发/03-AI应用开发/02-MCP协议.md:173:| `brave-search-mcp` | Brave 搜索引擎 | TypeScript |\n08-AI与智能开发/03-AI应用开发/03-MCP服务器开发.md:35:# 创建项目目录\n08-AI与智能开发/03-AI应用开发/03-MCP服务器开发.md:61:**目录结构**：\n08-AI与智能开发/03-AI应用开发/03-MCP服务器开发.md:291:        description: \"列出目录内容\",\n08-AI与智能开发/03-AI应用开发/03-MCP服务器开发.md:297:              description: \"目录路径\",\n08-AI与智能开发/03-AI应用开发/README.md:3:> 本模块涵盖 AI 应用开发的核心技术，包括 AI 应用架构设计、RAG 系统、Agent 系统以及 MCP 协议等前沿技术。\n08-AI与智能开发/03-AI应用开发/README.md:12:### 2. RAG 系统\n08-AI与智能开发/03-AI应用开发/README.md:13:- [RAG 系统概述](./RAG系统.md) - 检索增强生成原理与实践\n08-AI与智能开发/03-AI应用开发/README.md:15:- [检索优化](./检索优化.md) - RAG 检索效果优化策略\n08-AI与智能开发/03-AI应用开发/README.md:34:1. **基础阶段**：了解 AI 应用架构与 RAG 基础\n08-AI与智能开发/03-AI应用开发/README.md:48:#AI应用 #RAG #Agent #MCP #架构设计\n08-AI与智能开发/README.md:2:title: \"AI 与智能开发目录说明\"\n08-AI与智能开发/README.md:5:tags: [\"AI\", \"智能开发\", \"目录说明\"]\n08-AI与智能开发/README.md:10:# AI 与智能开发目录说明\n08-AI与智能开发/README.md:12:本目录面向两类内容：\n08-AI与智能开发/README.md:17:当前目录结构：\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:2:title: \"RAG 原理\"\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:6:tags: [\"AI与智能开发\", \"RAG\", \"检索增强生成\", \"向量检索\"]\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:10:description: \"检索增强生成（RAG）全流程：索引、检索、生成，以及工程实践中的关键决策。\"\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:11:aliases: [\"RAG\", \"检索增强生成\", \"Retrieval-Augmented Generation\"]\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:15:# RAG 原理\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:19:RAG（Retrieval-Augmented Generation，检索增强生成）是一种将**信息检索**与 **LLM 生成**结合的技术架构。\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:21:> RAG = 让 AI 先\"查资料\"，再\"写回答\"。\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:23:一句话理解：**RAG 给了 LLM 一双眼睛，让它在回答之前先看看最新的、私有的知识，而不是纯靠记忆。**\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:27:RAG：     用户提问 → 检索相关文档 → 将文档作为上下文 → 模型基于文档回答\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:32:## 为什么需要 RAG\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:42:### RAG 的解法\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:49:### RAG vs 微调\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:51:| 维度 | RAG | 微调（Fine-tuning） |\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:59:实践中，RAG 和微调常常组合使用：用微调提升模型的领域理解能力，用 RAG 提供实时知识。\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:65:RAG 系统分为两个阶段：**离线索引** 和 **在线检索生成**。\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:67:### 离线阶段：文档索引\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:217:RAG 系统的评估需要同时考虑检索质量和生成质量：\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:235:常用评估框架：RAGAS、TruLens。\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:246:| 响应太慢 | 向量检索耗时 / LLM 生成耗时 | 优化索引、使用缓存、流式输出 |\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:247:| 文档更新后答案过时 | 索引未刷新 | 增量索引、定期重建 |\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:253:### Agentic RAG\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:255:将 RAG 与 [Agent](./06-Agent%20原理.md) 结合，让 Agent 自主决定：\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:262:### Graph RAG\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:266:### Corrective RAG（CRAG）\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:276:- [06-Agent 原理](./06-Agent%20原理.md)：Agentic RAG 的基础\n08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md:129:这些模型的核心作用是为 [RAG 系统](./05-RAG%20原理.md) 提供语义检索能力。\n08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md:186:### 2. 语义检索（RAG）\n08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md:198:这是 RAG 系统的核心环节，详见 [05-RAG 原理](./05-RAG%20原理.md)。\n08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md:223:核心索引算法：\n08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md:235:- [05-RAG 原理](./05-RAG%20原理.md)：Embedding 在检索增强生成中的核心作用\n08-AI与智能开发/03-AI应用开发/04-MCP配置与部署.md:177:在项目根目录创建 `.cursorrules` 文件：\n08-AI与智能开发/03-AI应用开发/04-MCP配置与部署.md:233:在项目根目录创建 `.vscode/mcp.json` 文件：\n08-AI与智能开发/!MOC-AI与智能开发.md:37:本目录已开始正式承接原 `04-AI与机器学习` 与 `05-AI辅助开发` 的合并迁移。理论、模型 API、AI 应用开发与 AI Coding 工作流现已收口到本目录。\n08-AI与智能开发/!MOC-AI与智能开发.md:39:## 4. 完整目录索引\n08-AI与智能开发/!MOC-AI与智能开发.md:47:- [RAG 原理](./01-AI基础理论/05-RAG%20原理.md)\n08-AI与智能开发/01-AI基础理论/README.md:2:title: \"AI 基础理论目录说明\"\n08-AI与智能开发/01-AI基础理论/README.md:5:tags: [\"AI\", \"基础理论\", \"目录说明\"]\n08-AI与智能开发/01-AI基础理论/README.md:10:# AI 基础理论目录说明\n08-AI与智能开发/01-AI基础理论/README.md:12:本目录收录 LLM、Transformer、Embedding、Prompt Engineering、RAG、Agent、模型训练等 AI 基础概念与原理性内容。\n08-AI与智能开发/01-AI基础理论/README.md:14:## 文章索引\n08-AI与智能开发/01-AI基础理论/README.md:22:| 05 | [RAG 原理](./05-RAG%20原理.md) | 文档分块、Embedding 索引、向量检索、生成与评估 |\n08-AI与智能开发/01-AI基础理论/README.md:32:                          06-Agent 原理 ← 05-RAG 原理 ← 04-Prompt Engineering\n08-AI与智能开发/01-AI基础理论/README.md:37:- 若文章重点是解释概念、原理、架构边界，应进入本目录\n08-AI与智能开发/01-AI基础理论/06-Agent 原理.md:120:| 信息检索 | 搜索引擎、RAG 检索、数据库查询 |\n08-AI与智能开发/01-AI基础理论/06-Agent 原理.md:122:| 文件操作 | 读/写/删除文件、目录管理 |\n08-AI与智能开发/01-AI基础理论/06-Agent 原理.md:295:MCP Server（搜索引擎）\n08-AI与智能开发/01-AI基础理论/06-Agent 原理.md:304:- [05-RAG 原理](./05-RAG%20原理.md)：Agent 的知识检索能力\n08-AI与智能开发/01-AI基础理论/01-LLM 原理.md:248:- 解决方案之一就是 [RAG](./05-RAG%20原理.md)——让模型先检索再回答\n08-AI与智能开发/01-AI基础理论/Agent.md:11:*   **工具调用 (Tool Use)**：这是它区别于普通 LLM 的关键。它可以调用搜索引擎、代码解释器、API 接口、你的本地文件（如 Obsidian 笔记）甚至其他 AI 模型来获取信息或执行操作。\n08-AI与智能开发/01-AI基础理论/Agent.md:20:*   最后，它会把完成的结果直接呈现给你，甚至自动保存到你的指定目录中。\n08-AI与智能开发/04-AI辅助开发/03-工具生态/README.md:2:title: \"AI 辅助开发工具生态目录说明\"\n08-AI与智能开发/04-AI辅助开发/03-工具生态/README.md:5:tags: [\"AI辅助开发\", \"工具生态\", \"目录说明\"]\n08-AI与智能开发/04-AI辅助开发/03-工具生态/README.md:10:# AI 辅助开发工具生态目录说明\n08-AI与智能开发/04-AI辅助开发/03-工具生态/README.md:12:本目录收录 AI 辅助开发相关工具、扩展生态与工具配置专题。\n08-AI与智能开发/01-AI基础理论/概念.md:27:所以，RAG 到底是什么？\n08-AI与智能开发/01-AI基础理论/概念.md:29:RAG = 搜索引擎 + 大语言模型\n08-AI与智能开发/01-AI基础理论/概念.md:36:没有 RAG，AI 只是一个记性很好的空想家。 有了 RAG，AI 就变成了一个懂你公司业务的超级秘书。\n08-AI与智能开发/02-模型与API/README.md:2:title: \"模型与 API 目录说明\"\n08-AI与智能开发/02-模型与API/README.md:5:tags: [\"AI\", \"模型与API\", \"目录说明\"]\n08-AI与智能开发/02-模型与API/README.md:6:description: \"说明模型与 API 目录的收录范围、当前结构与推荐阅读顺序。\"\n08-AI与智能开发/02-模型与API/README.md:11:# 模型与 API 目录说明\n08-AI与智能开发/02-模型与API/README.md:13:本目录主要收集和整理大模型 API、本地模型运行层、调用框架与相关基础设施知识。\n08-AI与智能开发/02-模型与API/README.md:15:## 1. 本目录负责什么\n08-AI与智能开发/02-模型与API/README.md:17:本目录重点收录：\n08-AI与智能开发/02-模型与API/README.md:30:- [向量数据库](./向量数据库.md)：向量检索与 RAG 常见基础设施\n08-AI与智能开发/02-模型与API/README.md:43:- 如果内容核心是“模型原理、推理机制、RAG 与 Agent 概念”，优先放到 `01-AI基础理论`。\n08-AI与智能开发/02-模型与API/LangChain.md:29:### 2.2 Retrieval (检索与 RAG)\n08-AI与智能开发/02-模型与API/LangChain.md:30:为大模型提供用户特定数据的过程（检索增强生成 Retrieval-Augmented Generation）：\n08-AI与智能开发/02-模型与API/LangChain.md:92:4. **控制 Context Size**：在 RAG 和 Memory 模块中，要非常注意输入长度的截断设计，防止触发模型的 Token 上限或产生高昂费用。\n08-AI与智能开发/04-AI辅助开发/03-工具生态/OpenClaw/01-OpenClaw 配置文件.md:141:      \"workspace\": \"工作目录路径\",\n08-AI与智能开发/04-AI辅助开发/03-工具生态/OpenClaw/01-OpenClaw 配置文件.md:142:      \"agentDir\": \"智能体目录路径\"\n08-AI与智能开发/04-AI辅助开发/README.md:2:title: \"AI 辅助开发目录说明\"\n08-AI与智能开发/04-AI辅助开发/README.md:5:tags: [\"AI辅助开发\", \"目录说明\"]\n08-AI与智能开发/04-AI辅助开发/README.md:10:# AI 辅助开发目录说明\n08-AI与智能开发/04-AI辅助开发/README.md:12:本目录收录 AI Coding 方法论、实践工作流与工具生态。\n08-AI与智能开发/04-AI辅助开发/README.md:22:- 若文章重点是“如何用 AI 提升开发效率”，应进入本目录。\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:48:| 基础设施层 | RAG / Vector / Inference / Agent / LLMOps | 怎么让模型跑得稳、跑得快、做得多 |\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:64:| RAG Engineering | 基础设施 | 检索增强生成 | 2023- |\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:135:**痛点**：模型上下文窗口扩展到 128K-1M Token，RAG、Agent、多轮对话让\"模型实际看到的内容\"变得极其复杂。真正决定输出质量的不是 Prompt 那几句话，而是整个 Context Window 里塞了什么。\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:156:│  │ System Prompt │  │ RAG 检索结果 │  │ 对话历史  │  │ 工具调用结果 │  │\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:169:- **优先级排序**：窗口有限，放了 RAG 文档就得压缩历史对话，怎么取舍？\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:249:- Context 引入 RAG → 需要 Guardrails 验证检索结果是否被正确使用\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:298:**解法**：RAG 范式——先从企业知识库检索，把结果塞进 Context 让模型\"带着参考资料回答\"。\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:302:- **RAG Engineering**：文档分块 → Embedding → 向量检索 → 生成\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:303:- **Vector Engineering**：RAG 效果严重依赖向量检索质量\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:306:- **Context Engineering**：RAG + 历史 + 工具 = Context Window 管理变成系统级问题\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:329:| 企业要用自己的数据 | 怎么让模型知道私域知识 | RAG / Vector / Context |\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:341:- [05-RAG 原理](./05-RAG%20原理.md)：基础设施层核心学科\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/README.md:2:title: \"AI 辅助开发实践与工作流目录说明\"\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/README.md:5:tags: [\"AI辅助开发\", \"实践与工作流\", \"目录说明\"]\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/README.md:10:# AI 辅助开发实践与工作流目录说明\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/README.md:12:本目录聚焦 AI 代码审查、文档生成、规范驱动开发与智能体工作流实践。\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/03-SDD 规范驱动开发.md:20:1. 把 README、`package.json`、`src` 目录结构喂给它\n08-AI与智能开发/04-AI辅助开发/01-理念与方法/README.md:2:title: \"AI 辅助开发理念与方法目录说明\"\n08-AI与智能开发/04-AI辅助开发/01-理念与方法/README.md:5:tags: [\"AI辅助开发\", \"理念与方法\", \"目录说明\"]\n08-AI与智能开发/04-AI辅助开发/01-理念与方法/README.md:10:# AI 辅助开发理念与方法目录说明\n08-AI与智能开发/04-AI辅助开发/01-理念与方法/README.md:12:本目录聚焦 AI Coding 的方法论、质量观与协作原则。\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/04-长效运行智能体 CLI 工具实现计划.md:27:### 新建独立项目目录\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/04-长效运行智能体 CLI 工具实现计划.md:87:基于对当前项目中`scripts/`目录的分析，采用以下最佳实践：\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/04-长效运行智能体 CLI 工具实现计划.md:100:- 创建项目目录结构\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/04-长效运行智能体 CLI 工具实现计划.md:288:2. 创建项目目录结构\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/04-长效运行智能体 CLI 工具实现计划.md:337:   - 创建项目目录结构\n08-AI与智能开发/04-AI辅助开发/02-实践与工作流/02-AI 生成文档与注释.md:567: * @returns 最大折扣金额和选择的商品索引"
+          },
+          {
+            "id": "call_CAa1xcB2idQb7HtKlgmBVl3G",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a95016e326503a47f/08-AI与智能开发/03-AI应用开发/README.md",
+              "limit": 120,
+              "offset": 1,
+              "pages": ""
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "<tool_use_error>Invalid pages parameter: \"\". Use formats like \"1-5\", \"3\", or \"10-20\". Pages are 1-indexed.</tool_use_error>"
+          },
+          {
+            "id": "call_hLS06cRqaIit81rwojdgVmBy",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a95016e326503a47f/08-AI与智能开发/README.md",
+              "limit": 120,
+              "offset": 1,
+              "pages": ""
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "<tool_use_error>Invalid pages parameter: \"\". Use formats like \"1-5\", \"3\", or \"10-20\". Pages are 1-indexed.</tool_use_error>"
+          },
+          {
+            "id": "call_3aDLSTnxGuTtIWGprkGqV1dr",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a95016e326503a47f/08-AI与智能开发/!MOC-AI与智能开发.md",
+              "limit": 120,
+              "offset": 1,
+              "pages": ""
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "<tool_use_error>Invalid pages parameter: \"\". Use formats like \"1-5\", \"3\", or \"10-20\". Pages are 1-indexed.</tool_use_error>"
+          },
+          {
+            "id": "call_4D2TkbRA68bJBED2aOaxmB7q",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a95016e326503a47f/08-AI与智能开发/01-AI基础理论/README.md",
+              "limit": 80,
+              "offset": 1,
+              "pages": ""
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "<tool_use_error>Invalid pages parameter: \"\". Use formats like \"1-5\", \"3\", or \"10-20\". Pages are 1-indexed.</tool_use_error>"
+          },
+          {
+            "id": "call_cG5kVxmeAc4t7isJFXQknAQl",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a95016e326503a47f/08-AI与智能开发/03-AI应用开发/README.md",
+              "limit": 120,
+              "offset": 1,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t# AI 应用开发知识体系\n2\t\n3\t> 本模块涵盖 AI 应用开发的核心技术，包括 AI 应用架构设计、RAG 系统、Agent 系统以及 MCP 协议等前沿技术。\n4\t\n5\t## 📚 核心内容\n6\t\n7\t### 1. AI 应用架构\n8\t- [AI 应用架构设计](./AI应用架构.md) - AI 应用系统设计原则与模式\n9\t- [微服务架构](./微服务架构.md) - AI 应用的微服务化设计\n10\t- [API 设计](./API设计.md) - AI API 的最佳实践\n11\t\n12\t### 2. RAG 系统\n13\t- [RAG 系统概述](./RAG系统.md) - 检索增强生成原理与实践\n14\t- [向量数据库](./向量数据库.md) - Pinecone、Weaviate、Chroma 等对比\n15\t- [检索优化](./检索优化.md) - RAG 检索效果优化策略\n16\t- [混合检索](./混合检索.md) - 关键词检索与向量检索结合\n17\t\n18\t### 3. Agent 系统\n19\t- [Agent 系统概述](./Agent系统.md) - AI Agent 开发基础\n20\t- [Multi-Agent](./Multi-Agent.md) - 多 Agent 协作机制\n21\t- [工具调用](./工具调用.md) - Function Calling 与 Tool Use\n22\t- [状态管理](./状态管理.md) - Agent 状态与记忆管理\n23\t\n24\t### 4. MCP 协议\n25\t- [MCP 协议概述](./02-MCP协议.md) - Model Context Protocol 完整指南\n26\t- [MCP 服务器开发](./03-MCP服务器开发.md) - 如何开发 MCP Server\n27\t- [MCP 配置与部署](./04-MCP配置与部署.md) - MCP 在不同平台的应用\n28\t- [MCP 最佳实践](./05-MCP最佳实践.md) - 安全性与性能优化\n29\t\n30\t---\n31\t\n32\t## 🎯 学习路径\n33\t\n34\t1. **基础阶段**：了解 AI 应用架构与 RAG 基础\n35\t2. **进阶阶段**：掌握 Agent 系统开发\n36\t3. **高级阶段**：深入 MCP 协议与生态工具\n37\t\n38\t---\n39\t\n40\t## 🔗 相关资源\n41\t\n42\t- [Anthropic MCP 文档](https://docs.anthropic.com/) - 官方文档\n43\t- [MCP GitHub](https://github.com/modelcontextprotocol) - 开源项目\n44\t- [MCP 生态项目](https://github.com/topics/mcp-server) - 社区服务器列表\n45\t\n46\t---\n47\t\n48\t#AI应用 #RAG #Agent #MCP #架构设计\n49\t"
+          },
+          {
+            "id": "call_Dg7yffLZl2LGgmmdIFRyHMeL",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a95016e326503a47f/08-AI与智能开发/README.md",
+              "limit": 120,
+              "offset": 1,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttitle: \"AI 与智能开发目录说明\"\n3\tdate: \"2026-03-17\"\n4\tlastModified: \"2026-03-26\"\n5\ttags: [\"AI\", \"智能开发\", \"目录说明\"]\n6\tpublish: true\n7\ttoc: true\n8\t---\n9\t\n10\t# AI 与智能开发目录说明\n11\t\n12\t本目录面向两类内容：\n13\t\n14\t- AI 本体知识\n15\t- 工程师使用 AI 的方法论与工具链\n16\t\n17\t当前目录结构：\n18\t\n19\t- `01-AI基础理论`\n20\t- `02-模型与API`\n21\t- `03-AI应用开发`\n22\t- `04-AI辅助开发`\n23\t- `99-参考与归档`\n24\t\n25\t当前推荐入口：\n26\t\n27\t- 理解模型基础：看 `01-AI基础理论`\n28\t- 本地模型上手：看 `02-模型与API/Ollama.md`\n29\t- 云端模型调用：看 `02-模型与API`\n30\t- AI 工具与工作流：看 `04-AI辅助开发`\n31\t\n32\t后续新增内容继续按“理论、API、应用开发、AI Coding 工作流”四层分流。\n33\t"
+          },
+          {
+            "id": "call_P6ZxkRc5oQev8Ko4MLFyWvCQ",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a95016e326503a47f/08-AI与智能开发/!MOC-AI与智能开发.md",
+              "limit": 120,
+              "offset": 1,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttitle: \"AI 与智能开发\"\n3\tdate: \"2026-03-17\"\n4\tlastModified: \"2026-05-09\"\n5\ttags: [\"AI\", \"智能开发\", \"一级主题\", \"百科入口\"]\n6\tmoc: \"[[!MOC-AI与智能开发]]\"\n7\tdescription: \"汇总 AI 基础理论、模型 API、AI 应用开发与 AI 辅助开发实践。\"\n8\tpublish: true\n9\ttoc: true\n10\t---\n11\t\n12\t# AI 与智能开发\n13\t\n14\t## 1. 收录范围\n15\t\n16\t- AI 基础理论\n17\t- 模型与 API\n18\t- AI 应用开发\n19\t- AI 辅助开发\n20\t\n21\t## 2. 当前入口\n22\t\n23\t- [AI 基础理论](./01-AI基础理论/README.md)\n24\t- [模型与 API](./02-模型与API/README.md)\n25\t- [AI 应用开发](./03-AI应用开发/README.md)\n26\t- [AI 辅助开发](./04-AI辅助开发/README.md)\n27\t\n28\t当前高频起点：\n29\t\n30\t- 刚开始理解大模型：看 [LLM 原理](./01-AI基础理论/01-LLM%20原理.md)\n31\t- 想了解 AI 如何「对话」和「做事」：看 [Agent 原理](./01-AI基础理论/06-Agent%20原理.md)\n32\t- 刚装好本地模型想先跑起来：看 [Ollama](./02-模型与API/Ollama.md)\n33\t- 想继续看模型调用与应用接入：看 [AI 应用开发](./03-AI应用开发/README.md)\n34\t\n35\t## 3. 说明\n36\t\n37\t本目录已开始正式承接原 `04-AI与机器学习` 与 `05-AI辅助开发` 的合并迁移。理论、模型 API、AI 应用开发与 AI Coding 工作流现已收口到本目录。\n38\t\n39\t## 4. 完整目录索引\n40\t\n41\t### AI 基础理论\n42\t\n43\t- [LLM 原理](./01-AI基础理论/01-LLM%20原理.md)\n44\t- [Transformer 架构](./01-AI基础理论/02-Transformer%20架构.md)\n45\t- [Embedding 与向量表示](./01-AI基础理论/03-Embedding%20与向量表示.md)\n46\t- [Prompt Engineering](./01-AI基础理论/04-Prompt%20Engineering.md)\n47\t- [RAG 原理](./01-AI基础理论/05-RAG%20原理.md)\n48\t- [Agent 原理](./01-AI基础理论/06-Agent%20原理.md)\n49\t- [模型训练与对齐](./01-AI基础理论/07-模型训练与对齐.md)\n50\t- [AI 工程学科全景](./01-AI基础理论/08-AI工程学科全景.md)\n51\t\n52\t### 模型与 API\n53\t\n54\t- [Ollama](./02-模型与API/Ollama.md)\n55\t- [OpenAI-API](./02-模型与API/OpenAI-API.md)\n56\t- [Claude-API](./02-模型与API/Claude-API.md)\n57\t- [LangChain](./02-模型与API/LangChain.md)\n58\t- [向量数据库](./02-模型与API/向量数据库.md)\n59\t\n60\t### AI 应用开发\n61\t\n62\t- [MCP 协议](./03-AI应用开发/02-MCP协议.md)\n63\t- [MCP 服务器开发](./03-AI应用开发/03-MCP服务器开发.md)\n64\t- [MCP 配置与部署](./03-AI应用开发/04-MCP配置与部署.md)\n65\t- [MCP 最佳实践](./03-AI应用开发/05-MCP最佳实践.md)\n66\t\n67\t### AI 辅助开发\n68\t\n69\t- [TDD 在 AI 时代的价值](./04-AI辅助开发/01-理念与方法/01-TDD 在 AI 时代的价值.md)\n70\t- [AI 辅助代码审查](./04-AI辅助开发/02-实践与工作流/01-AI 辅助代码审查.md)\n71\t- [AI 生成文档与注释](./04-AI辅助开发/02-实践与工作流/02-AI 生成文档与注释.md)\n72\t- [SDD 规范驱动开发](./04-AI辅助开发/02-实践与工作流/03-SDD 规范驱动开发.md)\n73\t- [长效运行智能体 CLI 工具实现计划](./04-AI辅助开发/02-实践与工作流/04-长效运行智能体 CLI 工具实现计划.md)\n74\t- [OpenClaw MOC](./04-AI辅助开发/03-工具生态/OpenClaw/!MOC-OpenClaw.md)\n75\t- [OpenClaw 配置文件](./04-AI辅助开发/03-工具生态/OpenClaw/01-OpenClaw 配置文件.md)\n76\t\n77\t### 参考与归档\n78\t\n79\t- [Vibe Coding 概览](./99-参考与归档/Vibe Coding 概览.md)\n80\t"
+          },
+          {
+            "id": "call_DNVulPWHstp88bfJRajIscAm",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a95016e326503a47f/08-AI与智能开发/01-AI基础理论/README.md",
+              "limit": 80,
+              "offset": 1,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttitle: \"AI 基础理论目录说明\"\n3\tdate: \"2026-03-17\"\n4\tlastModified: \"2026-05-09\"\n5\ttags: [\"AI\", \"基础理论\", \"目录说明\"]\n6\tpublish: false\n7\ttoc: true\n8\t---\n9\t\n10\t# AI 基础理论目录说明\n11\t\n12\t本目录收录 LLM、Transformer、Embedding、Prompt Engineering、RAG、Agent、模型训练等 AI 基础概念与原理性内容。\n13\t\n14\t## 文章索引\n15\t\n16\t| 序号 | 文章 | 核心内容 |\n17\t|:---|:---|:---|\n18\t| 01 | [LLM 原理](./01-LLM%20原理.md) | Token、Tokenizer、自回归生成、关键参数、主流模型对比 |\n19\t| 02 | [Transformer 架构](./02-Transformer%20架构.md) | Self-Attention、Q/K/V、多头注意力、FFN、位置编码 |\n20\t| 03 | [Embedding 与向量表示](./03-Embedding%20与向量表示.md) | 词向量/句向量/Token 向量、余弦相似度、向量数据库 |\n21\t| 04 | [Prompt Engineering](./04-Prompt%20Engineering.md) | Few-shot、Chain-of-Thought、System Prompt、结构化提示 |\n22\t| 05 | [RAG 原理](./05-RAG%20原理.md) | 文档分块、Embedding 索引、向量检索、生成与评估 |\n23\t| 06 | [Agent 原理](./06-Agent%20原理.md) | 规划、工具调用、记忆、反思、ReAct、多 Agent 协作 |\n24\t| 07 | [模型训练与对齐](./07-模型训练与对齐.md) | 预训练、SFT、RLHF、DPO、LoRA、量化 |\n25\t| 08 | [AI 工程学科全景](./08-AI工程学科全景.md) | 沟通线（Prompt→Context→Memory）、控制线（Harness）、演化脉络 |\n26\t\n27\t## 推荐学习顺序\n28\t\n29\t```\n30\t01-LLM 原理 → 02-Transformer 架构 → 03-Embedding → 07-模型训练与对齐\n31\t                                                          ↓\n32\t                          06-Agent 原理 ← 05-RAG 原理 ← 04-Prompt Engineering\n33\t```\n34\t\n35\t## 判定原则\n36\t\n37\t- 若文章重点是解释概念、原理、架构边界，应进入本目录\n38\t- 若文章重点是调用方式或工程落地，应迁往 `02-模型与API` 或 `03-AI应用开发`\n39\t"
+          },
+          {
+            "id": "call_ayle2pfvhJawOPyKajvSAMtZ",
+            "name": "Glob",
+            "input": {
+              "path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a95016e326503a47f/08-AI与智能开发/03-AI应用开发",
+              "pattern": "*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "08-AI与智能开发/03-AI应用开发/02-MCP协议.md\n08-AI与智能开发/03-AI应用开发/03-MCP服务器开发.md\n08-AI与智能开发/03-AI应用开发/04-MCP配置与部署.md\n08-AI与智能开发/03-AI应用开发/05-MCP最佳实践.md\n08-AI与智能开发/03-AI应用开发/README.md"
+          },
+          {
+            "id": "call_wrwnD97vP2ES37eg5XTzKwAq",
+            "name": "Grep",
+            "input": {
+              "-A": 0,
+              "-B": 0,
+              "-C": 0,
+              "-i": false,
+              "-n": true,
+              "context": 0,
+              "glob": "*.md",
+              "head_limit": 100,
+              "multiline": false,
+              "offset": 0,
+              "output_mode": "content",
+              "path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a95016e326503a47f/08-AI与智能开发",
+              "pattern": "\\]\\(\\./[^)]+\\.md\\)",
+              "type": ""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "08-AI与智能开发/03-AI应用开发/README.md:8:- [AI 应用架构设计](./AI应用架构.md) - AI 应用系统设计原则与模式\n08-AI与智能开发/03-AI应用开发/README.md:9:- [微服务架构](./微服务架构.md) - AI 应用的微服务化设计\n08-AI与智能开发/03-AI应用开发/README.md:10:- [API 设计](./API设计.md) - AI API 的最佳实践\n08-AI与智能开发/03-AI应用开发/README.md:13:- [RAG 系统概述](./RAG系统.md) - 检索增强生成原理与实践\n08-AI与智能开发/03-AI应用开发/README.md:14:- [向量数据库](./向量数据库.md) - Pinecone、Weaviate、Chroma 等对比\n08-AI与智能开发/03-AI应用开发/README.md:15:- [检索优化](./检索优化.md) - RAG 检索效果优化策略\n08-AI与智能开发/03-AI应用开发/README.md:16:- [混合检索](./混合检索.md) - 关键词检索与向量检索结合\n08-AI与智能开发/03-AI应用开发/README.md:19:- [Agent 系统概述](./Agent系统.md) - AI Agent 开发基础\n08-AI与智能开发/03-AI应用开发/README.md:20:- [Multi-Agent](./Multi-Agent.md) - 多 Agent 协作机制\n08-AI与智能开发/03-AI应用开发/README.md:21:- [工具调用](./工具调用.md) - Function Calling 与 Tool Use\n08-AI与智能开发/03-AI应用开发/README.md:22:- [状态管理](./状态管理.md) - Agent 状态与记忆管理\n08-AI与智能开发/03-AI应用开发/README.md:25:- [MCP 协议概述](./02-MCP协议.md) - Model Context Protocol 完整指南\n08-AI与智能开发/03-AI应用开发/README.md:26:- [MCP 服务器开发](./03-MCP服务器开发.md) - 如何开发 MCP Server\n08-AI与智能开发/03-AI应用开发/README.md:27:- [MCP 配置与部署](./04-MCP配置与部署.md) - MCP 在不同平台的应用\n08-AI与智能开发/03-AI应用开发/README.md:28:- [MCP 最佳实践](./05-MCP最佳实践.md) - 安全性与性能优化\n08-AI与智能开发/!MOC-AI与智能开发.md:23:- [AI 基础理论](./01-AI基础理论/README.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:24:- [模型与 API](./02-模型与API/README.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:25:- [AI 应用开发](./03-AI应用开发/README.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:26:- [AI 辅助开发](./04-AI辅助开发/README.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:30:- 刚开始理解大模型：看 [LLM 原理](./01-AI基础理论/01-LLM%20原理.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:31:- 想了解 AI 如何「对话」和「做事」：看 [Agent 原理](./01-AI基础理论/06-Agent%20原理.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:32:- 刚装好本地模型想先跑起来：看 [Ollama](./02-模型与API/Ollama.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:33:- 想继续看模型调用与应用接入：看 [AI 应用开发](./03-AI应用开发/README.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:43:- [LLM 原理](./01-AI基础理论/01-LLM%20原理.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:44:- [Transformer 架构](./01-AI基础理论/02-Transformer%20架构.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:45:- [Embedding 与向量表示](./01-AI基础理论/03-Embedding%20与向量表示.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:46:- [Prompt Engineering](./01-AI基础理论/04-Prompt%20Engineering.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:47:- [RAG 原理](./01-AI基础理论/05-RAG%20原理.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:48:- [Agent 原理](./01-AI基础理论/06-Agent%20原理.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:49:- [模型训练与对齐](./01-AI基础理论/07-模型训练与对齐.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:50:- [AI 工程学科全景](./01-AI基础理论/08-AI工程学科全景.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:54:- [Ollama](./02-模型与API/Ollama.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:55:- [OpenAI-API](./02-模型与API/OpenAI-API.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:56:- [Claude-API](./02-模型与API/Claude-API.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:57:- [LangChain](./02-模型与API/LangChain.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:58:- [向量数据库](./02-模型与API/向量数据库.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:62:- [MCP 协议](./03-AI应用开发/02-MCP协议.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:63:- [MCP 服务器开发](./03-AI应用开发/03-MCP服务器开发.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:64:- [MCP 配置与部署](./03-AI应用开发/04-MCP配置与部署.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:65:- [MCP 最佳实践](./03-AI应用开发/05-MCP最佳实践.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:69:- [TDD 在 AI 时代的价值](./04-AI辅助开发/01-理念与方法/01-TDD 在 AI 时代的价值.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:70:- [AI 辅助代码审查](./04-AI辅助开发/02-实践与工作流/01-AI 辅助代码审查.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:71:- [AI 生成文档与注释](./04-AI辅助开发/02-实践与工作流/02-AI 生成文档与注释.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:72:- [SDD 规范驱动开发](./04-AI辅助开发/02-实践与工作流/03-SDD 规范驱动开发.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:73:- [长效运行智能体 CLI 工具实现计划](./04-AI辅助开发/02-实践与工作流/04-长效运行智能体 CLI 工具实现计划.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:74:- [OpenClaw MOC](./04-AI辅助开发/03-工具生态/OpenClaw/!MOC-OpenClaw.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:75:- [OpenClaw 配置文件](./04-AI辅助开发/03-工具生态/OpenClaw/01-OpenClaw 配置文件.md)\n08-AI与智能开发/!MOC-AI与智能开发.md:79:- [Vibe Coding 概览](./99-参考与归档/Vibe Coding 概览.md)\n08-AI与智能开发/04-AI辅助开发/03-工具生态/OpenClaw/!MOC-OpenClaw.md:16:- [OpenClaw 配置文件详解](./01-OpenClaw 配置文件.md)\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:166:Embedding 模型的选择直接影响检索质量，详见 [03-Embedding 与向量表示](./03-Embedding%20与向量表示.md)。\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:255:将 RAG 与 [Agent](./06-Agent%20原理.md) 结合，让 Agent 自主决定：\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:274:- [01-LLM 原理](./01-LLM%20原理.md)：理解 LLM 的能力与局限\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:275:- [03-Embedding 与向量表示](./03-Embedding%20与向量表示.md)：向量检索的底层机制\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md:276:- [06-Agent 原理](./06-Agent%20原理.md)：Agentic RAG 的基础\n08-AI与智能开发/01-AI基础理论/07-模型训练与对齐.md:320:- [01-LLM 原理](./01-LLM%20原理.md)：LLM 的宏观认知与推理流程\n08-AI与智能开发/01-AI基础理论/07-模型训练与对齐.md:321:- [02-Transformer 架构](./02-Transformer%20架构.md)：模型的底层架构\n08-AI与智能开发/01-AI基础理论/07-模型训练与对齐.md:322:- [03-Embedding 与向量表示](./03-Embedding%20与向量表示.md)：Token Embedding 的机制\n08-AI与智能开发/02-模型与API/README.md:26:- [Ollama](./Ollama.md)：本地模型的下载、运行与 HTTP API 调用入口\n08-AI与智能开发/02-模型与API/README.md:27:- [OpenAI API](./OpenAI-API.md)：OpenAI 官方接口调用与参数说明\n08-AI与智能开发/02-模型与API/README.md:28:- [Claude API](./Claude-API.md)：Anthropic Claude 接口使用说明\n08-AI与智能开发/02-模型与API/README.md:29:- [LangChain](./LangChain.md)：LLM 应用开发框架与抽象层\n08-AI与智能开发/02-模型与API/README.md:30:- [向量数据库](./向量数据库.md)：向量检索与 RAG 常见基础设施\n08-AI与智能开发/02-模型与API/README.md:36:1. 先看 [Ollama](./Ollama.md)，理解本地模型如何真正跑起来。\n08-AI与智能开发/02-模型与API/README.md:37:2. 再看云端模型 API，如 [OpenAI API](./OpenAI-API.md) 与 [Claude API](./Claude-API.md)。\n08-AI与智能开发/02-模型与API/README.md:38:3. 最后再看 [LangChain](./LangChain.md) 与 [向量数据库](./向量数据库.md) 这类更上层的抽象与基础设施。\n08-AI与智能开发/02-模型与API/Ollama.md:254:- [OpenAI-API.md](./OpenAI-API.md)\n08-AI与智能开发/02-模型与API/Ollama.md:255:- [README.md](./README.md)\n08-AI与智能开发/01-AI基础理论/02-Transformer 架构.md:107:每个 Token 对应一个高维向量，这个向量包含了该 Token 的语义信息。详见 [03-Embedding 与向量表示](./03-Embedding%20与向量表示.md)。\n08-AI与智能开发/01-AI基础理论/02-Transformer 架构.md:261:- [01-LLM 原理](./01-LLM%20原理.md)：LLM 的宏观认知\n08-AI与智能开发/01-AI基础理论/02-Transformer 架构.md:262:- [03-Embedding 与向量表示](./03-Embedding%20与向量表示.md)：Token 如何变成向量\n08-AI与智能开发/01-AI基础理论/02-Transformer 架构.md:263:- [07-模型训练与对齐](./07-模型训练与对齐.md)：Transformer 模型的训练流程\n08-AI与智能开发/01-AI基础理论/04-Prompt Engineering.md:213:这是 [Agent](./06-Agent%20原理.md) 的核心推理模式之一。\n08-AI与智能开发/01-AI基础理论/04-Prompt Engineering.md:268:- [01-LLM 原理](./01-LLM%20原理.md)：理解 LLM 如何处理 Prompt\n08-AI与智能开发/01-AI基础理论/04-Prompt Engineering.md:269:- [06-Agent 原理](./06-Agent%20原理.md)：ReAct 等 Prompt 策略在 Agent 中的应用\n08-AI与智能开发/01-AI基础理论/04-Prompt Engineering.md:270:- [02-Transformer 架构](./02-Transformer%20架构.md)：Attention 机制如何影响模型对 Prompt 的理解\n08-AI与智能开发/01-AI基础理论/README.md:18:| 01 | [LLM 原理](./01-LLM%20原理.md) | Token、Tokenizer、自回归生成、关键参数、主流模型对比 |\n08-AI与智能开发/01-AI基础理论/README.md:19:| 02 | [Transformer 架构](./02-Transformer%20架构.md) | Self-Attention、Q/K/V、多头注意力、FFN、位置编码 |\n08-AI与智能开发/01-AI基础理论/README.md:20:| 03 | [Embedding 与向量表示](./03-Embedding%20与向量表示.md) | 词向量/句向量/Token 向量、余弦相似度、向量数据库 |\n08-AI与智能开发/01-AI基础理论/README.md:21:| 04 | [Prompt Engineering](./04-Prompt%20Engineering.md) | Few-shot、Chain-of-Thought、System Prompt、结构化提示 |\n08-AI与智能开发/01-AI基础理论/README.md:22:| 05 | [RAG 原理](./05-RAG%20原理.md) | 文档分块、Embedding 索引、向量检索、生成与评估 |\n08-AI与智能开发/01-AI基础理论/README.md:23:| 06 | [Agent 原理](./06-Agent%20原理.md) | 规划、工具调用、记忆、反思、ReAct、多 Agent 协作 |\n08-AI与智能开发/01-AI基础理论/README.md:24:| 07 | [模型训练与对齐](./07-模型训练与对齐.md) | 预训练、SFT、RLHF、DPO、LoRA、量化 |\n08-AI与智能开发/01-AI基础理论/README.md:25:| 08 | [AI 工程学科全景](./08-AI工程学科全景.md) | 沟通线（Prompt→Context→Memory）、控制线（Harness）、演化脉络 |\n08-AI与智能开发/01-AI基础理论/06-Agent 原理.md:302:- [01-LLM 原理](./01-LLM%20原理.md)：Agent 的\"大脑\"\n08-AI与智能开发/01-AI基础理论/06-Agent 原理.md:303:- [04-Prompt Engineering](./04-Prompt%20Engineering.md)：ReAct 等推理模式的 Prompt 设计\n08-AI与智能开发/01-AI基础理论/06-Agent 原理.md:304:- [05-RAG 原理](./05-RAG%20原理.md)：Agent 的知识检索能力\n08-AI与智能开发/01-AI基础理论/01-LLM 原理.md:118:详细的 Transformer 内部机制参见 [02-Transformer 架构](./02-Transformer%20架构.md)。\n08-AI与智能开发/01-AI基础理论/01-LLM 原理.md:211:详细的训练与对齐机制参见 [07-模型训练与对齐](./07-模型训练与对齐.md)。\n08-AI与智能开发/01-AI基础理论/01-LLM 原理.md:248:- 解决方案之一就是 [RAG](./05-RAG%20原理.md)——让模型先检索再回答\n08-AI与智能开发/01-AI基础理论/01-LLM 原理.md:271:- **无法执行动作**：LLM 只能生成文本，不能真正\"做事\"——这正是 [Agent](./06-Agent%20原理.md) 要解决的问题\n08-AI与智能开发/01-AI基础理论/01-LLM 原理.md:278:- [02-Transformer 架构](./02-Transformer%20架构.md)：深入理解 LLM 的核心引擎\n08-AI与智能开发/01-AI基础理论/01-LLM 原理.md:279:- [03-Embedding 与向量表示](./03-Embedding%20与向量表示.md)：理解 Token 如何变成向量\n08-AI与智能开发/01-AI基础理论/01-LLM 原理.md:280:- [04-Prompt Engineering](./04-Prompt%20Engineering.md)：如何高效地与 LLM 沟通\n08-AI与智能开发/01-AI基础理论/01-LLM 原理.md:281:- [07-模型训练与对齐](./07-模型训练与对齐.md)：预训练、SFT、RLHF 的详细机制\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:30:当你学完 [LLM 原理](./01-LLM%20原理.md) 和 [Transformer 架构](./02-Transformer%20架构.md) 之后，会发现\"让 AI 真正可用\"远不止理解模型本身——你还需要知道怎么跟它沟通、怎么控制它、怎么让它稳定地服务于生产环境。\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:111:更多技巧详见 [04-Prompt Engineering](./04-Prompt%20Engineering.md)。\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:339:- [01-LLM 原理](./01-LLM%20原理.md)：理解 LLM 的基本工作机制\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:340:- [04-Prompt Engineering](./04-Prompt%20Engineering.md)：沟通线第一代工程的详细实践\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:341:- [05-RAG 原理](./05-RAG%20原理.md)：基础设施层核心学科\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md:342:- [06-Agent 原理](./06-Agent%20原理.md)：自主执行任务的架构设计\n\n[Showing results with pagination = limit: 100]"
+          }
+        ],
+        "isExpanded": false,
+        "result": "Likely update targets if you write the remaining RAG backlog articles under `08-AI与智能开发/03-AI应用开发/`:\n\n1. `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a95016e326503a47f/08-AI与智能开发/03-AI应用开发/README.md`\n   - Primary RAG article index.\n   - Already has a dedicated “RAG 系统” section linking:\n     - `./RAG系统.md`\n     - `./向量数据库.md`\n     - `./检索优化.md`\n     - `./混合检索.md`\n   - This is the main parent file to update.\n\n2. `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a95016e326503a47f/08-AI与智能开发/!MOC-AI与智能开发.md`\n   - Top-level MOC with curated article links.\n   - Currently links MCP/application articles individually, but not RAG application articles.\n   - Likely needs updates if new RAG backlog articles should appear in the global index.\n\n3. `/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a95016e326503a47f/08-AI与智能开发/README.md`\n   - Probably not required for each new article; it only links subdirectory READMEs, not article-level entries.\n\nCurrent linking pattern:\n- Standard Markdown relative links: `[展示文本](./相对路径.md)` or `[展示文本](./子目录/README.md)`.\n- No Obsidian wikilinks in these index files.\n\nSafeguards against linking non-existent files:\n- I found no explicit safeguard or validation.\n- There are already broken-looking links in `03-AI应用开发/README.md`: `AI应用架构.md`, `微服务架构.md`, `API设计.md`, `RAG系统.md`, `向量数据库.md`, `检索优化.md`, `混合检索.md`, `Agent系统.md`, `Multi-Agent.md`, `工具调用.md`, `状态管理.md` are referenced, but only `02-05 MCP*.md` currently exist there.\n- So: no effective guard is evident."
+      },
+      "call_Di3q4Cklm4nt2Bc42zACR3Xi": {
+        "id": "call_Di3q4Cklm4nt2Bc42zACR3Xi",
+        "description": "Plan remaining RAG articles",
+        "prompt": "Design-only, no edits. Context: In this Obsidian vault, we already rewrote `08-AI与智能开发/01-AI基础理论/05-RAG 原理.md` into the first RAG article. The user now says `全部写完`, which likely means writing out the remaining planned RAG articles from the backlog under `08-AI与智能开发/03-AI应用开发/RAG/` while respecting the existing topic bootstrap design. Exploration found: parent index `08-AI与智能开发/03-AI应用开发/README.md`, RAG topic README `08-AI与智能开发/03-AI应用开发/RAG/README.md`, backlog `08-AI与智能开发/03-AI应用开发/RAG/99-参考与归档/01-写作选题清单.md`, concept template `99-系统/模板/01-概念理解类模板.md`, practical template `99-系统/模板/02-实战应用类模板.md`. Need a concrete implementation plan for creating the remaining formal RAG articles and updating indexes only as needed. Constraints: Chinese content, standard Markdown links, no Obsidian wikilinks in body/indexes, full frontmatter, avoid empty skeleton dirs, likely use exact backlog entries as source of truth. Recommend article grouping/order, file paths, which files to create/modify, and verification steps. Keep under 400 words.",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_AKciQV7Mr4HwZyXinZrLgcpC",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/08-AI与智能开发/03-AI应用开发/README.md",
+              "limit": 2500,
+              "offset": 0,
+              "pages": ""
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "<tool_use_error>Invalid pages parameter: \"\". Use formats like \"1-5\", \"3\", or \"10-20\". Pages are 1-indexed.</tool_use_error>"
+          },
+          {
+            "id": "call_enGKlYUM8TJmoqGbb5CsHrsp",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/08-AI与智能开发/03-AI应用开发/RAG/README.md",
+              "limit": 2500,
+              "offset": 0,
+              "pages": ""
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "<tool_use_error>Invalid pages parameter: \"\". Use formats like \"1-5\", \"3\", or \"10-20\". Pages are 1-indexed.</tool_use_error>"
+          },
+          {
+            "id": "call_iVWKRHkqzNqNvJbMtfL6tSie",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/08-AI与智能开发/03-AI应用开发/RAG/99-参考与归档/01-写作选题清单.md",
+              "limit": 2500,
+              "offset": 0,
+              "pages": ""
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "<tool_use_error>Invalid pages parameter: \"\". Use formats like \"1-5\", \"3\", or \"10-20\". Pages are 1-indexed.</tool_use_error>"
+          },
+          {
+            "id": "call_69JrHw4dF9MPhN0oNv4Pqx9A",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/99-系统/模板/01-概念理解类模板.md",
+              "limit": 2500,
+              "offset": 0,
+              "pages": ""
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "<tool_use_error>Invalid pages parameter: \"\". Use formats like \"1-5\", \"3\", or \"10-20\". Pages are 1-indexed.</tool_use_error>"
+          },
+          {
+            "id": "call_sYmazaXycgf1dluF0fR6ZoTk",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/99-系统/模板/02-实战应用类模板.md",
+              "limit": 2500,
+              "offset": 0,
+              "pages": ""
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "<tool_use_error>Invalid pages parameter: \"\". Use formats like \"1-5\", \"3\", or \"10-20\". Pages are 1-indexed.</tool_use_error>"
+          },
+          {
+            "id": "call_UXIpkR81xvGtBZ417QnqYyXS",
+            "name": "Skill",
+            "input": {
+              "args": "Design-only plan for completing remaining RAG articles in an Obsidian vault from existing backlog/templates/indexes. Need concrete article grouping, order, target files, minimal index updates, and verification steps.",
+              "skill": "writing-plans"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Launching skill: writing-plans"
+          },
+          {
+            "id": "call_QQMR6NU64ULvUMsoNoGkVuxn",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/08-AI与智能开发/03-AI应用开发/README.md",
+              "limit": 400,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t# AI 应用开发知识体系\n1\t\n2\t> 本模块涵盖 AI 应用开发的核心技术，包括 AI 应用架构设计、RAG 系统、Agent 系统以及 MCP 协议等前沿技术。\n3\t\n4\t## 📚 核心内容\n5\t\n6\t### 1. AI 应用架构\n7\t- [AI 应用架构设计](./AI应用架构.md) - AI 应用系统设计原则与模式\n8\t- [微服务架构](./微服务架构.md) - AI 应用的微服务化设计\n9\t- [API 设计](./API设计.md) - AI API 的最佳实践\n10\t\n11\t### 2. RAG 系统\n12\t- [RAG 系统概述](./RAG系统.md) - 检索增强生成原理与实践\n13\t- [向量数据库](./向量数据库.md) - Pinecone、Weaviate、Chroma 等对比\n14\t- [检索优化](./检索优化.md) - RAG 检索效果优化策略\n15\t- [混合检索](./混合检索.md) - 关键词检索与向量检索结合\n16\t\n17\t### 3. Agent 系统\n18\t- [Agent 系统概述](./Agent系统.md) - AI Agent 开发基础\n19\t- [Multi-Agent](./Multi-Agent.md) - 多 Agent 协作机制\n20\t- [工具调用](./工具调用.md) - Function Calling 与 Tool Use\n21\t- [状态管理](./状态管理.md) - Agent 状态与记忆管理\n22\t\n23\t### 4. MCP 协议\n24\t- [MCP 协议概述](./02-MCP协议.md) - Model Context Protocol 完整指南\n25\t- [MCP 服务器开发](./03-MCP服务器开发.md) - 如何开发 MCP Server\n26\t- [MCP 配置与部署](./04-MCP配置与部署.md) - MCP 在不同平台的应用\n27\t- [MCP 最佳实践](./05-MCP最佳实践.md) - 安全性与性能优化\n28\t\n29\t---\n30\t\n31\t## 🎯 学习路径\n32\t\n33\t1. **基础阶段**：了解 AI 应用架构与 RAG 基础\n34\t2. **进阶阶段**：掌握 Agent 系统开发\n35\t3. **高级阶段**：深入 MCP 协议与生态工具\n36\t\n37\t---\n38\t\n39\t## 🔗 相关资源\n40\t\n41\t- [Anthropic MCP 文档](https://docs.anthropic.com/) - 官方文档\n42\t- [MCP GitHub](https://github.com/modelcontextprotocol) - 开源项目\n43\t- [MCP 生态项目](https://github.com/topics/mcp-server) - 社区服务器列表\n44\t\n45\t---\n46\t\n47\t#AI应用 #RAG #Agent #MCP #架构设计\n48\t"
+          },
+          {
+            "id": "call_CAtQuT79S05Vy0lL3xiDGgvY",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/08-AI与智能开发/03-AI应用开发/RAG/README.md",
+              "limit": 400,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "File does not exist. Note: your current working directory is /Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92."
+          },
+          {
+            "id": "call_XjjPvn17HxWJ0lPhBC2oGRF2",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/08-AI与智能开发/03-AI应用开发/RAG/99-参考与归档/01-写作选题清单.md",
+              "limit": 400,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "File does not exist. Note: your current working directory is /Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92."
+          },
+          {
+            "id": "call_6EuxSwjbKKh98KbPbvoikCzi",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/99-系统/模板/01-概念理解类模板.md",
+              "limit": 400,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t---\n1\ttitle: \"{{date}} 什么是？\"\n2\tdate: \"{{date}}\"\n3\tlastModified: \"{{date}}\"\n4\ttags: [\"概念\", \"理论\"]\n5\tstatus: \"草稿\"\n6\tmoc: \"[[!MOC-]]\"\n7\tstage: \"基础入门|框架进阶|工程化实践|质量保障|高级应用\"\n8\tprerequisites: [\"\"]\n9\tdescription: \"关于 xx 概念的深入解析\"\n10\taliases: []\n11\ttoc: true\n12\t---\n13\t\n14\t# 🎯 概念理解 (Concept)\n15\t\n16\t> **适用场景**：学习一个新名词、新架构、或者对一项技术建立宏观认知。\n17\t\n18\t## 🤔 是什么 (Definition)\n19\t> **一句话大白话定义 + 核心特征提取。**\n20\t\n21\t(在这里用最简单的话描述这个概念是什么。可以包括它的核心特征：例如它是强类型的语言、它是一个反向代理服务器等)\n22\t\n23\t## 💡 为什么 (Why it exists)\n24\t> **它解决了什么历史痛点？没有它之前人们是怎么做的？**\n25\t\n26\t(技术都是为了解决特定问题而生的。在这里写下它诞生的历史背景，对比传统的解决方案，突出它的优势)\n27\t\n28\t## 👁️ 怎么看 (Mental Model)\n29\t> **架构图/工作流模型，或者与相似概念的对比。重点是建立认知图谱。**\n30\t\n31\t(插入它的架构图生命周期图。或者使用对比法：例如 Docker vs 虚拟机，进程 vs 线程，帮助大脑锚定它的位置)\n32\t"
+          },
+          {
+            "id": "call_pqkHrlRv7egijtkKxcpvOtSM",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/99-系统/模板/02-实战应用类模板.md",
+              "limit": 400,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t---\n1\ttitle: \"{{date}} 如何实现？\"\n2\tdate: \"{{date}}\"\n3\tlastModified: \"{{date}}\"\n4\ttags: [\"实战\", \"配置\"]\n5\tstatus: \"草稿\"\n6\tmoc: \"[[!MOC-]]\"\n7\tstage: \"基础入门|框架进阶|工程化实践|质量保障|高级应用\"\n8\tprerequisites: [\"\"]\n9\tdescription: \"xx 场景的实战配置与实现\"\n10\taliases: []\n11\ttoc: true\n12\t---\n13\t\n14\t# 🛠️ 实战应用 (Praxis)\n15\t\n16\t> **适用场景**：日常开发中写代码实现某个功能，或配置某个环境。重点是“好抄好用”。\n17\t\n18\t## 📋 场景说明 (Context)\n19\t> **当前应用场景的简明说明。**\n20\t\n21\t(例如：需要在 Nginx 中配置反向代理来解决前端跨域问题，或者：使用 React Hooks 实现一个带防抖的搜索输入框)\n22\t\n23\t## 🚀 怎么做 (Implementation)\n24\t> **可直接 CV（复制粘贴）运行的配置/代码，并配合关键步骤注释。**\n25\t\n26\t(这里一定要放核心的、完整的代码块。不要放琐碎的代码片段。代码里面一定要有针对关键行的注释说明)\n27\t\n28\t```text\n29\t// 这里贴你的代码\n30\t```\n31\t\n32\t## 🧠 为什么这么做 (Deep Dive)\n33\t> **核心代码行的原理剖析，以及涉及的设计模式/最佳实践。**\n34\t\n35\t(解释刚才那段代码里最核心的几行代码是利用了什么原理。你是否使用了某种最佳实践或者设计模式？为什么要选用这种方案而不是另一种普通方案？)\n36\t"
+          },
+          {
+            "id": "call_hz23uo72FXripaZ89mQG8fzH",
+            "name": "Glob",
+            "input": {
+              "path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/08-AI与智能开发/03-AI应用开发",
+              "pattern": "RAG/**/README.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_inKlLhMBtUSFQOBbvMcgq7rp",
+            "name": "Glob",
+            "input": {
+              "path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/08-AI与智能开发/03-AI应用开发/RAG",
+              "pattern": "**/*.md"
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "<tool_use_error>Directory does not exist: /Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/08-AI与智能开发/03-AI应用开发/RAG. Note: your current working directory is /Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92.</tool_use_error>"
+          },
+          {
+            "id": "call_31U4Gpvwu8URRQU6Y87khqky",
+            "name": "Bash",
+            "input": {
+              "command": "ls -la \"/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/08-AI与智能开发/03-AI应用开发\"",
+              "description": "List files in AI application development directory",
+              "timeout": 120000,
+              "run_in_background": false,
+              "dangerouslyDisableSandbox": false
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "total 152\ndrwxr-xr-x@ 7 muliminty  staff    224 May 22 11:38 .\ndrwxr-xr-x@ 9 muliminty  staff    288 May 22 11:38 ..\n-rw-r--r--@ 1 muliminty  staff  10248 May 22 11:38 02-MCP协议.md\n-rw-r--r--@ 1 muliminty  staff  17156 May 22 11:38 03-MCP服务器开发.md\n-rw-r--r--@ 1 muliminty  staff  12646 May 22 11:38 04-MCP配置与部署.md\n-rw-r--r--@ 1 muliminty  staff  21631 May 22 11:38 05-MCP最佳实践.md\n-rw-r--r--@ 1 muliminty  staff   1852 May 22 11:38 README.md"
+          },
+          {
+            "id": "call_zEyEMzUnrbVBtsMBo4O8GKbU",
+            "name": "Grep",
+            "input": {
+              "-A": 0,
+              "-B": 0,
+              "-C": 0,
+              "-i": false,
+              "-n": true,
+              "context": 0,
+              "glob": "*.md",
+              "head_limit": 100,
+              "multiline": false,
+              "offset": 0,
+              "output_mode": "files_with_matches",
+              "path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92",
+              "pattern": "写作选题清单|RAG 原理|RAG系统|检索增强生成|topic bootstrap|RAG",
+              "type": ""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 18 files\n99-系统/模板/00-模板使用指南.md\n99-系统/99-参考与归档/08-重构执行记录.md\n99-系统/99-参考与归档/06-BLOG归档/别再焦虑被AI替代！.md\n99-系统/99-参考与归档/06-BLOG归档/专栏/🔥 GitHub 热门项目推荐/2026-03-02.md\n99-系统/03-重构待办.md\n10-实战案例/02-部署实战/MemoBox-部署方案与实践.md\n09-工具与效率/01-开发工具/Exa API 配置指南.md\n08-AI与智能开发/03-AI应用开发/README.md\n08-AI与智能开发/02-模型与API/README.md\n08-AI与智能开发/02-模型与API/LangChain.md\n08-AI与智能开发/01-AI基础理论/概念.md\n08-AI与智能开发/01-AI基础理论/README.md\n08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md\n08-AI与智能开发/01-AI基础理论/06-Agent 原理.md\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md\n08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md\n08-AI与智能开发/01-AI基础理论/01-LLM 原理.md\n08-AI与智能开发/!MOC-AI与智能开发.md"
+          },
+          {
+            "id": "call_b3OgLDINpcQwZvFVLEyScElR",
+            "name": "Grep",
+            "input": {
+              "-A": 0,
+              "-B": 0,
+              "-C": 0,
+              "-i": false,
+              "-n": true,
+              "context": 0,
+              "glob": "*.md",
+              "head_limit": 50,
+              "multiline": false,
+              "offset": 0,
+              "output_mode": "content",
+              "path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92",
+              "pattern": "写作选题清单",
+              "type": ""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No matches found"
+          },
+          {
+            "id": "call_2DqrOA8oYvKH7nDOZmaJ89ff",
+            "name": "Grep",
+            "input": {
+              "-A": 0,
+              "-B": 0,
+              "-C": 0,
+              "-i": false,
+              "-n": true,
+              "context": 0,
+              "glob": "*.md",
+              "head_limit": 100,
+              "multiline": false,
+              "offset": 0,
+              "output_mode": "files_with_matches",
+              "path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92",
+              "pattern": "^title: \".*RAG|# .*RAG|RAG 主题",
+              "type": ""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 4 files\n08-AI与智能开发/03-AI应用开发/README.md\n08-AI与智能开发/02-模型与API/LangChain.md\n08-AI与智能开发/01-AI基础理论/05-RAG 原理.md\n08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md"
+          },
+          {
+            "id": "call_WJAvteraQ1BTB088rDMlEn1u",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/08-AI与智能开发/01-AI基础理论/05-RAG 原理.md",
+              "limit": 220,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t---\n1\ttitle: \"RAG 原理\"\n2\tdate: \"2026-05-09\"\n3\tlastModified: \"2026-05-09\"\n4\tstatus: \"草稿\"\n5\ttags: [\"AI与智能开发\", \"RAG\", \"检索增强生成\", \"向量检索\"]\n6\tmoc: \"[[!MOC-AI与智能开发]]\"\n7\tstage: \"基础入门\"\n8\tprerequisites: [\"[[01-LLM 原理]]\", \"[[03-Embedding 与向量表示]]\"]\n9\tdescription: \"检索增强生成（RAG）全流程：索引、检索、生成，以及工程实践中的关键决策。\"\n10\taliases: [\"RAG\", \"检索增强生成\", \"Retrieval-Augmented Generation\"]\n11\ttoc: true\n12\t---\n13\t\n14\t# RAG 原理\n15\t\n16\t## 是什么\n17\t\n18\tRAG（Retrieval-Augmented Generation，检索增强生成）是一种将**信息检索**与 **LLM 生成**结合的技术架构。\n19\t\n20\t> RAG = 让 AI 先\"查资料\"，再\"写回答\"。\n21\t\n22\t一句话理解：**RAG 给了 LLM 一双眼睛，让它在回答之前先看看最新的、私有的知识，而不是纯靠记忆。**\n23\t\n24\t```\n25\t传统 LLM：用户提问 → 模型凭记忆回答 → 可能幻觉、过时\n26\tRAG：     用户提问 → 检索相关文档 → 将文档作为上下文 → 模型基于文档回答\n27\t```\n28\t\n29\t---\n30\t\n31\t## 为什么需要 RAG\n32\t\n33\t### LLM 单独使用的三大痛点\n34\t\n35\t| 痛点 | 说明 |\n36\t|:---|:---|\n37\t| **知识截止** | 预训练数据有时间边界，不知道训练后发生的事 |\n38\t| **幻觉** | 对不确定的知识会\"编造\"一个看似合理的答案 |\n39\t| **无法访问私有数据** | 模型不知道你公司的文档、代码库、业务规则 |\n40\t\n41\t### RAG 的解法\n42\t\n43\t- **实时性**：检索最新的文档/数据，不受训练截止日期限制\n44\t- **可追溯**：回答基于具体文档，可以标注来源，用户能验证\n45\t- **低成本**：不需要微调模型（微调成本高、周期长），只需管理好文档库\n46\t- **安全**：私有数据不进入模型训练，减少数据泄露风险\n47\t\n48\t### RAG vs 微调\n49\t\n50\t| 维度 | RAG | 微调（Fine-tuning） |\n51\t|:---|:---|:---|\n52\t| 知识更新 | 更新文档即可，分钟级 | 需要重新训练，天级 |\n53\t| 成本 | 低（只需向量数据库） | 高（GPU 训练 + 数据标注） |\n54\t| 可追溯性 | 强（可引用来源） | 弱（知识融入权重） |\n55\t| 适用场景 | 事实性问答、文档查询 | 风格/格式调整、专业领域能力 |\n56\t| 幻觉控制 | 较好（有参考依据） | 一般（可能产生新幻觉） |\n57\t\n58\t实践中，RAG 和微调常常组合使用：用微调提升模型的领域理解能力，用 RAG 提供实时知识。\n59\t\n60\t---\n61\t\n62\t## 核心流程\n63\t\n64\tRAG 系统分为两个阶段：**离线索引** 和 **在线检索生成**。\n65\t\n66\t### 离线阶段：文档索引\n67\t\n68\t```\n69\t原始文档 → 文档加载 → 文本分块 → Embedding → 存入向量数据库\n70\t```\n71\t\n72\t### 在线阶段：检索与生成\n73\t\n74\t```\n75\t用户提问 → 查询 Embedding → 向量检索 → 取回相关片段 → 拼入 Prompt → LLM 生成回答\n76\t```\n77\t\n78\t完整流程图：\n79\t\n80\t```\n81\t                         离线阶段\n82\t                  ┌─────────────────────┐\n83\t                  │  PDF/网页/代码/文档   │\n84\t                  │       ↓              │\n85\t                  │    文本分块           │\n86\t                  │       ↓              │\n87\t                  │  Embedding 模型      │\n88\t                  │       ↓              │\n89\t                  │    向量数据库         │\n90\t                  └─────────────────────┘\n91\t\n92\t                         在线阶段\n93\t用户提问 ──→ Embedding ──→ 向量检索 ──→ Top-K 相关片段\n94\t                                            ↓\n95\t                                    拼入 Prompt 上下文\n96\t                                            ↓\n97\t                                       LLM 生成回答\n98\t                                            ↓\n99\t                                        返回用户\n100\t```\n101\t\n102\t---\n103\t\n104\t## 核心环节详解\n105\t\n106\t### 1. 文档加载（Document Loading）\n107\t\n108\t将各种格式的原始数据转换为纯文本：\n109\t\n110\t| 数据源 | 工具/方法 |\n111\t|:---|:---|\n112\t| PDF | PyPDF、pdfplumber、Unstructured |\n113\t| 网页 | BeautifulSoup、Crawl4AI |\n114\t| Markdown | 直接读取 |\n115\t| 代码 | 按文件读取，保留结构信息 |\n116\t| 数据库 | SQL 查询导出 |\n117\t| API | 调用后转文本 |\n118\t\n119\t### 2. 文本分块（Chunking）\n120\t\n121\t长文档需要切分为小块（Chunk），因为：\n122\t\n123\t- Embedding 模型有输入长度限制（通常 512-8192 Token）\n124\t- 小块检索更精确——返回整篇文档不如返回最相关的段落\n125\t- LLM 的上下文窗口有限，不能塞太多内容\n126\t\n127\t**分块策略**：\n128\t\n129\t| 策略 | 方法 | 适用场景 |\n130\t|:---|:---|:---|\n131\t| **固定大小** | 每 512 Token 切一块 | 简单通用 |\n132\t| **按语义** | 在段落/章节边界切分 | 结构化文档 |\n133\t| **递归分割** | 先按段落，再按句子，再按 Token | LangChain 默认 |\n134\t| **滑动窗口** | 重叠 N 个 Token，避免边界信息丢失 | 提升召回率 |\n135\t\n136\t**关键参数**：\n137\t\n138\t- **chunk_size**：每块大小（通常 256-1024 Token）\n139\t- **chunk_overlap**：相邻块重叠大小（通常 50-200 Token）\n140\t\n141\t```\n142\t原文：A B C D E F G H I J\n143\tchunk_size=5, overlap=2:\n144\t\n145\tChunk 1: A B C D E\n146\tChunk 2:       D E F G H\n147\tChunk 3:             G H I J\n148\t```\n149\t\n150\t重叠确保跨块的信息不会因为切割而丢失。\n151\t\n152\t### 3. Embedding\n153\t\n154\t将每个 Chunk 通过 Embedding 模型转换为向量，存入向量数据库。\n155\t\n156\t```\n157\tChunk: \"Docker 使用 namespace 实现进程隔离，\n158\t        使用 cgroup 限制资源使用...\"\n159\t          ↓\n160\tEmbedding 模型（如 text-embedding-3-small）\n161\t          ↓\n162\t向量: [0.023, -0.156, 0.089, ..., 0.045]（1536 维）\n163\t```\n164\t\n165\tEmbedding 模型的选择直接影响检索质量，详见 [03-Embedding 与向量表示](./03-Embedding%20与向量表示.md)。\n166\t\n167\t### 4. 检索（Retrieval）\n168\t\n169\t用户提问经过同一个 Embedding 模型转为向量，在向量数据库中搜索最相似的 K 个 Chunk：\n170\t\n171\t```\n172\t查询: \"Docker 如何隔离进程？\"\n173\t    ↓ Embedding\n174\t查询向量: [0.019, -0.148, ...]\n175\t    ↓ 向量数据库搜索（余弦相似度）\n176\tTop-3 结果:\n177\t  1. \"Docker 使用 namespace 实现进程隔离...\"（0.93）\n178\t  2. \"Linux namespace 提供六种隔离机制...\"（0.87）\n179\t  3. \"容器与虚拟机的隔离对比...\"（0.82）\n180\t```\n181\t\n182\t**检索优化策略**：\n183\t\n184\t- **混合检索（Hybrid Search）**：向量检索 + 关键词检索（BM25），取两者的交集/并集\n185\t- **重排序（Reranking）**：用 Cross-Encoder 对检索结果精细排序\n186\t- **查询改写（Query Rewriting）**：用 LLM 重写用户查询，提升检索命中率\n187\t- **HyDE（Hypothetical Document Embedding）**：先让 LLM 生成一个假设性回答，再用这个回答去检索\n188\t\n189\t### 5. 生成（Generation）\n190\t\n191\t将检索到的 Chunk 作为上下文，与用户问题一起构造 Prompt 发给 LLM：\n192\t\n193\t```\n194\tSystem: 你是一个技术文档助手。请基于以下参考资料回答用户问题。\n195\t        如果参考资料中没有相关信息，请明确告知。\n196\t\n197\tContext:\n198\t[检索到的 Chunk 1]\n199\t[检索到的 Chunk 2]\n200\t[检索到的 Chunk 3]\n201\t\n202\tUser: Docker 如何隔离进程？\n203\t```\n204\t\n205\t**生成阶段的关键决策**：\n206\t\n207\t- **上下文数量**：放入多少个 Chunk？太少信息不够，太多可能引入噪声\n208\t- **截断策略**：当上下文总长度超出窗口时如何处理\n209\t- **引用标注**：是否要求模型标注答案来源（`[1]`、`[2]`）\n210\t- **置信度**：是否要求模型在不确定时拒绝回答\n211\t\n212\t---\n213\t\n214\t## 评估指标\n215\t\n216\tRAG 系统的评估需要同时考虑检索质量和生成质量：\n217\t\n218\t### 检索质量\n219\t"
+          },
+          {
+            "id": "call_TE6atPTXXO6O2q3AcCmLWMMJ",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/99-系统/01-百科写作规范.md",
+              "limit": 220,
+              "offset": 0,
+              "pages": "1"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0\t---\n1\ttitle: \"百科写作规范\"\n2\tdate: \"2026-03-15\"\n3\tlastModified: \"2026-05-09\"\n4\tstatus: \"成熟\"\n5\ttags: [\"系统规范\", \"写作规范\", \"命名规范\", \"元数据规范\"]\n6\tdescription: \"统一约束知识库文档的 Markdown 语法、元数据、命名方式与受控写法。\"\n7\taliases: [\"写作规范\", \"内容规范\", \"统一写作规范\"]\n8\ttoc: true\n9\t---\n10\t\n11\t# 百科写作规范\n12\t\n13\t## 1. 目标\n14\t\n15\t本规范用于统一知识库正文文件的写法，确保所有文档具备以下特征：\n16\t\n17\t- 可被稳定渲染\n18\t- 可被稳定检索\n19\t- 可被稳定迁移\n20\t- 可被脚本稳定处理\n21\t\n22\t本规范适用于正式体系文章、原子知识、系统规范文档与案例文档。\n23\t\n24\t### 1.1 写作分层原则\n25\t\n26\t所有正式知识笔记统一遵循“通俗易懂、由浅入深”的写作口径。\n27\t\n28\t目标：\n29\t\n30\t- 新手能够先建立最小理解，不因术语密度过高而失去阅读路径\n31\t- 有经验的读者能够继续获得原理、边界、实践与细节层面的增量信息\n32\t- 同一篇文章同时具备“可入门”和“可深化”的双层价值\n33\t\n34\t写作要求：\n35\t\n36\t- 开头先解释“这是什么、解决什么问题”，再进入原理、配置、推导或案例\n37\t- 先给直观认识，再补正式定义、结构细节与实现机制\n38\t- 避免一上来堆术语、缩写、结论和抽象概念\n39\t- 需要兼顾新手与高手：新手能读懂主线，高手能看到关键约束、设计权衡与实践细节\n40\t- 若正文较长，应通过小节递进形成“入门 -> 理解 -> 应用 -> 深化”的阅读层次\n41\t\n42\t---\n43\t\n44\t## 2. Markdown 与链接规范\n45\t\n46\t### 2.1 原生 Markdown 优先\n47\t\n48\t统一使用标准 Markdown 语法，不依赖特定编辑器的私有写法。\n49\t\n50\t链接统一使用：\n51\t\n52\t```md\n53\t[展示文本](相对路径)\n54\t```\n55\t\n56\t目标：\n57\t\n58\t- 保证 Obsidian、Quartz 与其他 Markdown 工具兼容\n59\t- 保证后续迁移与静态站点构建稳定\n60\t\n61\t### 2.2 双链表达口径\n62\t\n63\t知识关系优先通过正常链接和 `moc` 字段表达，不用随意生成无归属的孤立链接。\n64\t\n65\t要求：\n66\t\n67\t- 文章应尽量挂靠某个 `!MOC`\n68\t- 正式文章应尽量补充前置知识\n69\t- 跨专题引用要明确主语义，不要把链接堆成标签云\n70\t\n71\t---\n72\t\n73\t## 3. Frontmatter 规范\n74\t\n75\t所有正式文章顶部必须包含 YAML Frontmatter。\n76\t\n77\t推荐模板如下：\n78\t\n79\t```yaml\n80\t---\n81\ttitle: \"文章标题\"\n82\tdate: \"YYYY-MM-DD\"\n83\tlastModified: \"YYYY-MM-DD\"\n84\tstatus: \"草稿\"\n85\ttags: [\"标签1\", \"标签2\"]\n86\tmoc: \"[[!MOC-分类名称]]\"\n87\tstage: \"基础入门|框架进阶|工程化实践|质量保障|高级应用\"\n88\tprerequisites: [\"[[前置知识笔记名]]\"]\n89\tdescription: \"文章描述\"\n90\taliases: [\"文章别名1\", \"文章别名2\"]\n91\ttoc: true\n92\t---\n93\t```\n94\t\n95\t说明：\n96\t\n97\t- `title`：作为文档唯一识别名\n98\t- `date`：首次创建时间\n99\t- `lastModified`：最后维护时间\n100\t- `status`：文章当前生命周期状态\n101\t- `tags`：知识分类标签\n102\t- `moc`：所在主题的入口锚点\n103\t- `stage`：文章所处学习阶段，与目录层级对齐\n104\t- `prerequisites`：前置依赖的知识笔记，用于构建阅读路径\n105\t- `description`：摘要说明\n106\t- `aliases`：异名检索补充\n107\t- `toc`：是否显示大纲\n108\t\n109\t补充建议：\n110\t\n111\t- 若文章需要控制是否发布到站点，可按需添加 `publish: true/false`\n112\t\n113\t### 3.1 生命周期状态字段\n114\t\n115\t正式文章统一补充 `status` 字段，并仅使用以下受控值：\n116\t\n117\t- `草稿`：结构未稳定、内容仍在快速变动\n118\t- `成熟`：主体内容已可稳定阅读，适合继续增补\n119\t- `常青`：长期有效、质量较高、可作为稳定入口引用\n120\t- `归档`：保留历史价值，但不再作为主干知识继续扩展\n121\t\n122\t推荐口径：\n123\t\n124\t- 新建正文默认用 `草稿`\n125\t- 一轮系统整理后可提升为 `成熟`\n126\t- 长期稳定、被频繁引用的主干文章可提升为 `常青`\n127\t- 历史方案、旧版实践、迁移来源材料优先标为 `归档`\n128\t\n129\t### 3.2 标签受控规则\n130\t\n131\t标签不再自由生长，统一遵守以下规则：\n132\t\n133\t- 优先使用中文领域标签或官方技术名\n134\t- 同一概念只保留一个主标签，不并行创建同义词\n135\t- 单篇文章的 `tags` 建议控制在 `3` 到 `5` 个\n136\t- 一级领域标签、技术栈标签、内容类型标签可以混合，但不要堆砌\n137\t\n138\t推荐白名单示例：\n139\t\n140\t- 一级领域：`计算机基础`、`编程语言`、`前端开发`、`服务端开发`、`数据与存储`、`架构与工程`、`基础设施与运维`、`AI与智能开发`、`工具与效率`、`实战案例`、`问题排错`\n141\t- 技术栈：`JavaScript`、`TypeScript`、`Node.js`、`React`、`Vue`、`Next.js`、`Go`、`Java`、`Docker`、`Nginx`、`Git`、`GitHub`、`Linux`、`Windows`\n142\t- 内容类型：`系统规范`、`写作规范`、`目录说明`、`基础入门`、`最佳实践`、`问题排错`\n143\t\n144\t黑名单示例：\n145\t\n146\t- 不再新增并行标签：`front-end`、`FE`、`js`、`ts`、`nodejs`、`reactjs`\n147\t- 不使用纯情绪型或过程型标签：`随手记`、`待整理`、`先放这`、`有空再看`\n148\t\n149\t### 3.3 原子知识精简模式\n150\t\n151\t`98-知识库/` 中的原子知识文件采用精简 Frontmatter，降低碎片知识的写入门槛。\n152\t\n153\t必填字段（仅 3 个）：\n154\t\n155\t```yaml\n156\t---\n157\ttitle: \"核心概念名\"\n158\tdate: \"YYYY-MM-DD\"\n159\ttags: [\"领域标签\"]\n160\t---\n161\t```\n162\t\n163\t可选字段：\n164\t\n165\t- `status`、`lastModified`、`moc`、`stage`、`prerequisites`、`description`、`aliases`、`toc` 均为可选\n166\t- 若原子知识迁入正式专题，需补齐完整 Frontmatter；永久保留的概念卡片使用精简模式即可\n167\t\n168\t适用范围：\n169\t\n170\t- 仅适用于 `98-知识库/` 目录下的文件\n171\t- 正式专题目录下的正文文件仍须使用完整 Frontmatter（§3 主模板）\n172\t\n173\t---\n174\t\n175\t## 4. 文件命名规范\n176\t\n177\t### 4.1 总原则\n178\t\n179\t文件命名遵循三个原则：\n180\t\n181\t- `受控`\n182\t- `稳定`\n183\t- `可插队`\n184\t\n185\t也就是：\n186\t\n187\t- 不自由发挥命名风格\n188\t- 同层长期保持一致\n189\t- 后续可以平滑插入新文件\n190\t\n191\t### 4.2 正式体系文章\n192\t\n193\t正式专题文章统一使用：\n194\t\n195\t```text\n196\t[两位序号]-[主题名].md\n197\t```\n198\t\n199\t示例：\n200\t\n201\t- `01-安装与环境配置.md`\n202\t- `02-核心概念.md`\n203\t- `03-多服务编排实践.md`\n204\t- `04-Compose文件编写指南.md`\n205\t\n206\t约束：\n207\t\n208\t- 文件名只表达当前层主题\n209\t- 不重复上级目录已经表达的信息\n210\t- 同层统一使用两位数字前缀\n211\t\n212\t### 4.3 原子知识\n213\t\n214\t`98-知识库` 中的原子文件统一使用：\n215\t\n216\t```text\n217\t[YYYYMMDD]-[领域]-[核心概念].md\n218\t```\n219\t"
+          }
+        ],
+        "isExpanded": false,
+        "result": "我正在使用 writing-plans skill 来创建实现计划。\n\n当前发现一个关键差异：在这个 worktree 里，`/Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/08-AI与智能开发/03-AI应用开发/` 下只有若干 MCP 文章与 `README.md`，未实际看到 `RAG/` 子目录。因此“全部写完”的执行应以你提到的 backlog 文件为准，但落地前要先确认该目录在目标分支/主工作区真实存在。\n\n实施建议如下：\n\n1. 先核对源事实  \n   以 `01-写作选题清单.md` 为唯一选题来源，逐条映射为正式文章；不要自行扩题。若当前分支确无 `RAG/` 目录，先回到包含该目录的分支/工作树再写。\n\n2. 文章分组与顺序  \n   按“概念先行、实践后置”分两组完成：  \n   - 第一组：体系认知类  \n     1) RAG 系统概述/总览  \n     2) 向量数据库  \n     3) 检索优化  \n     4) 混合检索  \n   - 第二组：工程实践类  \n     backlog 中凡是“如何实现/配置/搭建/评估”的条目，统一放到 RAG 子目录后续编号文章中。  \n   原则：定义/原理类用概念模板；配置/实现/案例类用实战模板。\n\n3. 目录与命名  \n   仅在确认 backlog 后创建实际需要的文件，不预建空目录。正式文章统一两位序号：  \n   `/.../08-AI与智能开发/03-AI应用开发/RAG/01-*.md`  \n   `/.../08-AI与智能开发/03-AI应用开发/RAG/02-*.md`\n\n4. Frontmatter 与链接  \n   全文中文；保留英文术语。  \n   正文和索引一律标准 Markdown 链接，不用 wikilink。  \n   但 frontmatter 可延续仓库现状字段结构；若要严格收敛，优先把 `moc`、`prerequisites` 也改成 Markdown 路径字符串，避免正文/索引与元数据口径冲突。\n\n5. 索引更新最小化  \n   - 必改：`RAG/README.md`，补齐该专题文章目录、推荐阅读顺序、与首篇《RAG 原理》的衔接。  \n   - 仅当新增条目影响上层导航时，再改 `03-AI应用开发/README.md`；否则只保留一条 “RAG 专题入口”。\n\n6. 验证步骤  \n   - backlog 每条是否有且仅有一篇正式文章对应  \n   - 每篇是否含完整 frontmatter  \n   - README 中所有链接是否可达  \n   - 正文/索引无 `[[...]]`  \n   - 无空目录、无未引用文章、无重复主题\n\n### Critical Files for Implementation\n- /Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/08-AI与智能开发/03-AI应用开发/README.md\n- /Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/08-AI与智能开发/03-AI应用开发/RAG/README.md\n- /Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/08-AI与智能开发/03-AI应用开发/RAG/99-参考与归档/01-写作选题清单.md\n- /Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/99-系统/模板/01-概念理解类模板.md\n- /Users/muliminty/project/Muliminty-Note/.claude/worktrees/agent-a6583b97d33ddba92/99-系统/模板/02-实战应用类模板.md"
+      }
+    }
+  },
+  "currentNote": "07-基础设施与运维/03-容器化/Docker/01-基础入门/04-使用 Ubuntu 容器搭建 Linux 学习环境.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 82117,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 82117,
+    "percentage": 41
+  }
+}

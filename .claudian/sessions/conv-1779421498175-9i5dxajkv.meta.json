@@ -1,0 +1,24 @@
+{
+  "id": "conv-1779421498175-9i5dxajkv",
+  "providerId": "claude",
+  "title": "Implement this plan:",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1779421498177,
+  "updatedAt": 1779430798124,
+  "lastResponseAt": 1779430798124,
+  "sessionId": "156e0e5b-f4a7-43d7-af13-b2c583efdfe3",
+  "providerState": {
+    "providerSessionId": "156e0e5b-f4a7-43d7-af13-b2c583efdfe3"
+  },
+  "currentNote": "08-AI与智能开发/03-AI应用开发/RAG/README.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 156221,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 16384,
+    "contextWindow": 200000,
+    "contextTokens": 172605,
+    "percentage": 86,
+    "contextWindowIsAuthoritative": true
+  }
+}

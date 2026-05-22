@@ -2,6 +2,7 @@
 title: "Ollama 本地模型快速上手"
 date: "2026-03-26"
 lastModified: "2026-03-26"
+status: "成熟"
 tags: ["Ollama", "本地模型", "模型与API", "快速上手"]
 moc: "[[!MOC-AI与智能开发]]"
 stage: "基础入门"
@@ -250,6 +251,6 @@ curl http://localhost:11434/api/generate -d '{
 
 ## 10. 相关笔记
 
-- [LLM.md](../01-AI基础理论/LLM.md)
+- [01-LLM 原理](../01-AI基础理论/01-LLM 原理.md)
 - [OpenAI-API.md](./OpenAI-API.md)
 - [README.md](./README.md)

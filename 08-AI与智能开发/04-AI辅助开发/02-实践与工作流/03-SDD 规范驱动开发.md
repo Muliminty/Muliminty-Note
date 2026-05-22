@@ -2,6 +2,7 @@
 title: "SDD规范驱动开发"
 date: "2026-03-10"
 lastModified: "2026-03-10"
+status: "成熟"
 tags: ["SDD", "规范驱动开发", "AI编程", "开发方法论"]
 moc: "[[!MOC-AI与智能开发]]"
 stage: "工程化实践"
@@ -107,5 +108,5 @@ Software Design Description（软件设计说明书）
 
 ## 相关
 
-- [TDD](../01-概念与原理/01-TDD%20在%20AI%20时代的价值.md) — 测试驱动开发
-- [Vibe Coding 概览](../99-参考与归档/Vibe%20Coding%20概览.md) — Vibe Coding 概览
+- [TDD](../01-理念与方法/01-TDD 在 AI 时代的价值.md) — 测试驱动开发
+- [Vibe Coding 概览](../../99-参考与归档/Vibe Coding 概览.md) — Vibe Coding 概览

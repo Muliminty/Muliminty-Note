@@ -1,48 +1,51 @@
-# AI 应用开发知识体系
-
-> 本模块涵盖 AI 应用开发的核心技术，包括 AI 应用架构设计、RAG 系统、Agent 系统以及 MCP 协议等前沿技术。
-
-## 📚 核心内容
-
-### 1. AI 应用架构
-- [AI 应用架构设计](./AI应用架构.md) - AI 应用系统设计原则与模式
-- [微服务架构](./微服务架构.md) - AI 应用的微服务化设计
-- [API 设计](./API设计.md) - AI API 的最佳实践
-
-### 2. RAG 系统
-- [RAG 系统概述](./RAG系统.md) - 检索增强生成原理与实践
-- [向量数据库](./向量数据库.md) - Pinecone、Weaviate、Chroma 等对比
-- [检索优化](./检索优化.md) - RAG 检索效果优化策略
-- [混合检索](./混合检索.md) - 关键词检索与向量检索结合
-
-### 3. Agent 系统
-- [Agent 系统概述](./Agent系统.md) - AI Agent 开发基础
-- [Multi-Agent](./Multi-Agent.md) - 多 Agent 协作机制
-- [工具调用](./工具调用.md) - Function Calling 与 Tool Use
-- [状态管理](./状态管理.md) - Agent 状态与记忆管理
-
-### 4. MCP 协议
-- [MCP 协议概述](./02-MCP协议.md) - Model Context Protocol 完整指南
-- [MCP 服务器开发](./03-MCP服务器开发.md) - 如何开发 MCP Server
-- [MCP 配置与部署](./04-MCP配置与部署.md) - MCP 在不同平台的应用
-- [MCP 最佳实践](./05-MCP最佳实践.md) - 安全性与性能优化
-
+---
+title: "AI 应用开发目录说明"
+date: "2026-03-17"
+lastModified: "2026-05-22"
+tags: ["AI应用开发", "MCP", "RAG", "目录说明"]
+description: "说明 AI 应用开发目录当前的收录范围、现有文章与推荐阅读顺序。"
+publish: false
+toc: true
 ---
 
-## 🎯 学习路径
+# AI 应用开发目录说明
 
-1. **基础阶段**：了解 AI 应用架构与 RAG 基础
-2. **进阶阶段**：掌握 Agent 系统开发
-3. **高级阶段**：深入 MCP 协议与生态工具
+本目录用于收录 AI 应用落地相关内容，当前主要覆盖两条主线：
 
----
+- MCP（Model Context Protocol）相关应用开发
+- RAG（Retrieval-Augmented Generation）专题化实践
 
-## 🔗 相关资源
+## 1. 当前收录范围
 
-- [Anthropic MCP 文档](https://docs.anthropic.com/) - 官方文档
-- [MCP GitHub](https://github.com/modelcontextprotocol) - 开源项目
-- [MCP 生态项目](https://github.com/topics/mcp-server) - 社区服务器列表
+本目录当前主要包括两类内容：
 
----
+- MCP 协议、服务器开发、配置部署与最佳实践
+- RAG 专题入口、基础阅读路径与系统化实践文章
 
-#AI应用 #RAG #Agent #MCP #架构设计
+其中，RAG 的最小基础认知正文继续复用上游文章，不在本目录重复创建平行开篇文。
+
+## 2. 当前文章索引
+
+| 序号 | 文章 | 核心内容 |
+|:---|:---|:---|
+| 02 | [MCP 协议](./02-MCP协议.md) | MCP 的定位、核心概念、协议结构与交互方式 |
+| 03 | [MCP 服务器开发](./03-MCP服务器开发.md) | MCP Server 的开发流程、能力暴露与实现要点 |
+| 04 | [MCP 配置与部署](./04-MCP配置与部署.md) | MCP 在本地与不同工具链中的配置、运行与部署方式 |
+| 05 | [MCP 最佳实践](./05-MCP最佳实践.md) | 安全性、可维护性、调试与性能优化建议 |
+| RAG | [RAG 专题](./RAG/README.md) | RAG 专题入口、推荐阅读顺序与 10 篇正式文章导航 |
+
+## 3. 推荐阅读顺序
+
+建议按照以下顺序阅读：
+
+1. 先看 [MCP 协议](./02-MCP协议.md)，建立 MCP 整体认知。
+2. 再看 [MCP 服务器开发](./03-MCP服务器开发.md)，理解如何实现一个可用的 MCP Server。
+3. 然后看 [MCP 配置与部署](./04-MCP配置与部署.md)，打通实际运行链路。
+4. 最后看 [MCP 最佳实践](./05-MCP最佳实践.md)，补足工程化细节与长期维护约束。
+5. 如果你要系统学习 RAG，进入 [RAG 专题](./RAG/README.md)，先看 [RAG 原理](../01-AI基础理论/05-RAG%20原理.md)，再按专题顺序阅读后续 10 篇正式文章。
+
+## 4. 维护约束
+
+- 本目录只索引当前真实存在的正式文章或专题入口。
+- 不在上层目录直接展开 RAG 的 10 篇明细链接，保持专题内聚。
+- 若新增新专题，应先完成正文，再更新本目录说明。

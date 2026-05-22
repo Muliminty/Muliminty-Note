@@ -16,13 +16,38 @@ yarn.lock
 *.swo
 *~
 
+# Quartz
+.quartz-cache/
+public/
+
+# Node
+node_modules/
+yarn.lock
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
 # Logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Worktrees
+.worktrees/
+
 # 分析报告（不提交）
+00-前端体系/前端体系分析报告.md
+.codebuddy
+
+整理清单
 00-前端体系/前端体系分析报告.md
 .codebuddy
 

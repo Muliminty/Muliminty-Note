@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d05573cea53fd2fe",
+        "id": "27f45643204e12ee",
         "type": "tabs",
         "children": [
           {
-            "id": "df1b8879af68d8fd",
+            "id": "f6720597f7f8ffdc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-前端开发/02-前端框架/07-状态管理/02-React生态/Redux-Saga.md",
+                "file": "08-AI与智能开发/03-AI应用开发/RAG/01-概念与原理/02-RAG 的完整链路与系统工作流程.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Redux-Saga"
+              "title": "02-RAG 的完整链路与系统工作流程"
             }
           }
         ]
@@ -45,6 +45,18 @@
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
+            }
+          },
+          {
+            "id": "fa2c04a6ecb30c86",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "pinned": true,
+              "icon": "notebook-navigator",
+              "title": "笔记本导航器"
             }
           },
           {
@@ -98,21 +110,8 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "fa2c04a6ecb30c86",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "notebook-navigator",
-              "state": {},
-              "pinned": true,
-              "icon": "notebook-navigator",
-              "title": "笔记本导航器"
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,6 +179,16 @@
               "pinned": true,
               "icon": "terminal",
               "title": "终端：zsh"
+            }
+          },
+          {
+            "id": "859d6704a9272aa6",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
             }
           },
           {
@@ -266,12 +275,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 580.5,
-    "collapsed": true
+    "width": 558.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -289,47 +297,48 @@
       "obsidian-git:Open Git source control": true,
       "hi-note:HiNote": false,
       "terminal:Open terminal": false,
-      "notebook-navigator:笔记本导航器": false
+      "notebook-navigator:笔记本导航器": false,
+      "realclaudian:Open Claudian": false
     }
   },
-  "active": "df1b8879af68d8fd",
+  "active": "f6720597f7f8ffdc",
   "lastOpenFiles": [
+    "08-AI与智能开发/03-AI应用开发/RAG/01-概念与原理/01-什么是RAG，它主要解决了什么问题.md",
+    "08-AI与智能开发/03-AI应用开发/RAG/README.md",
+    "08-AI与智能开发/03-AI应用开发/RAG/04-高阶与调优/03-如何系统评估一个 RAG 系统的检索质量、回答质量与可用性.md",
+    "08-AI与智能开发/03-AI应用开发/RAG/04-高阶与调优/02-RAG 系统常见的评测指标有哪些.md",
+    "08-AI与智能开发/03-AI应用开发/RAG/04-高阶与调优/01-什么是 Query Rewrite，为什么很多 RAG 系统需要它.md",
+    "08-AI与智能开发/03-AI应用开发/RAG/04-高阶与调优",
+    "08-AI与智能开发/03-AI应用开发/RAG/03-核心配置与实战/04-什么是召回，什么是重排.md",
+    "08-AI与智能开发/03-AI应用开发/RAG/03-核心配置与实战/03-固定长度分块和按语义分块的优缺点.md",
+    "08-AI与智能开发/03-AI应用开发/RAG/03-核心配置与实战/02-为什么 Chunking 会直接影响检索质量.md",
+    "08-AI与智能开发/03-AI应用开发/RAG/03-核心配置与实战/01-分块策略是什么，如何进行 Chunking.md",
+    "08-AI与智能开发/03-AI应用开发/RAG/03-核心配置与实战",
+    "08-AI与智能开发/03-AI应用开发/RAG/02-快速上手/01-RAG 知识库的构建流程.md",
+    "08-AI与智能开发/03-AI应用开发/RAG/02-快速上手",
+    "08-AI与智能开发/03-AI应用开发/RAG/01-概念与原理/02-RAG 的完整链路与系统工作流程.md",
+    "08-AI与智能开发/03-AI应用开发/RAG/01-概念与原理",
+    "08-AI与智能开发/01-AI基础理论/05-RAG 原理.md",
+    "08-AI与智能开发/01-AI基础理论/02-Transformer 架构.md",
+    "docs/superpowers/plans/2026-05-22-rag-first-article-redesign.md",
+    "docs/superpowers/specs/2026-05-22-rag-first-article-redesign.md",
+    "08-AI与智能开发/03-AI应用开发/RAG/99-参考与归档/01-写作选题清单.md",
+    "08-AI与智能开发/03-AI应用开发/RAG/99-参考与归档",
+    "08-AI与智能开发/03-AI应用开发/RAG",
+    "docs/superpowers/specs/2026-05-22-rag-topic-bootstrap-design.md",
+    "docs/superpowers/plans/2026-05-22-rag-topic-bootstrap.md",
+    "docs/superpowers/plans",
+    "docs/superpowers/specs/2026-05-22-rag-mcp-question-list-design.md",
+    "98-知识库/20260522-AI-RAG与MCP问题清单.md",
+    "98-知识库/!MOC-知识库.md",
+    "docs/superpowers/specs",
+    "docs/superpowers",
+    "docs",
     "98-知识库/20260520-Redux-Saga-Effect-API核心区别.md",
     "98-知识库/20260520-Redux-dispatch与action数据流.md",
-    "03-前端开发/02-前端框架/07-状态管理/02-React生态/Redux.md",
-    "03-前端开发/02-前端框架/07-状态管理/02-React生态/Recoil.md",
-    "03-前端开发/02-前端框架/07-状态管理/02-React生态/!MOC-Redux学习路径.md",
-    "08-AI与智能开发/01-AI基础理论/01-LLM 原理.md",
-    "08-AI与智能开发/01-AI基础理论/08-AI工程学科全景.md",
-    "08-AI与智能开发/01-AI基础理论/02-Transformer 架构.md",
-    "98-知识库/20260509-AI-NLP基础.md",
-    "08-AI与智能开发/01-AI基础理论/07-模型训练与对齐.md",
-    "08-AI与智能开发/01-AI基础理论/06-Agent 原理.md",
-    "08-AI与智能开发/01-AI基础理论/05-RAG 原理.md",
     "08-AI与智能开发/01-AI基础理论/04-Prompt Engineering.md",
-    "08-AI与智能开发/01-AI基础理论/03-Embedding 与向量表示.md",
-    "03-前端开发/01-Web基础/02-CSS/!MOC-CSS.md",
-    "scripts/check-frontmatter.js",
-    "09-工具与效率/03-资源收藏/README.md",
-    "09-工具与效率/03-资源收藏/书签收藏.md",
-    "09-工具与效率/03-资源收藏",
-    "98-知识库/20260509-示例-精简模式验证.md",
-    "99-系统/04-知识库优化计划.md",
-    "02-编程语言/01-JavaScript/08-浏览器环境与DOM/03-事件机制.md",
-    "02-编程语言/01-JavaScript/01-语言核心/底层原理/01-执行上下文.md",
-    "02-编程语言/01-JavaScript/01-语言核心/01-语法.md",
-    "01-计算机基础/05-编译原理/词法分析.md",
-    "01-计算机基础/05-编译原理/语法分析.md",
-    "01-计算机基础/05-编译原理/语义分析.md",
-    "01-计算机基础/05-编译原理/代码生成.md",
-    "03-前端开发/02-前端框架/06-TailwindCSS/03-进阶特性",
-    "02-编程语言/05-Node.js/03-异步与事件循环",
-    "02-编程语言/05-Node.js/08-测试",
-    "02-编程语言/05-Node.js/07-性能优化",
-    "02-编程语言/05-Node.js/06-认证与授权",
-    "02-编程语言/05-Node.js/05-API开发",
-    "02-编程语言/05-Node.js/04-异步编程",
-    "02-编程语言/05-Node.js/03-数据库操作",
+    "07-基础设施与运维/03-容器化/Docker/01-基础入门/04-使用 Ubuntu 容器搭建 Linux 学习环境.md",
+    "07-基础设施与运维/03-容器化/Docker/02-镜像管理/01-镜像仓库管理.md",
     "未命名.canvas",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",

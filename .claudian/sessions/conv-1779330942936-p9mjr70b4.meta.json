@@ -1,0 +1,24 @@
+{
+  "id": "conv-1779330942936-p9mjr70b4",
+  "providerId": "claude",
+  "title": "我想学 docker",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1779330942941,
+  "updatedAt": 1779332085007,
+  "lastResponseAt": 1779331822998,
+  "sessionId": "9149d061-177b-42d7-843a-b127ad5f9c1d",
+  "providerState": {
+    "providerSessionId": "9149d061-177b-42d7-843a-b127ad5f9c1d"
+  },
+  "currentNote": "08-AI与智能开发/01-AI基础理论/04-Prompt Engineering.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 106124,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 106124,
+    "percentage": 53,
+    "contextWindowIsAuthoritative": true
+  }
+}

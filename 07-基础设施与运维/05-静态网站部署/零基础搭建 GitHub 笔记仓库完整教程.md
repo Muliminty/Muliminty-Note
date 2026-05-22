@@ -1,3 +1,14 @@
+---
+title: "零基础搭建 GitHub 笔记仓库完整教程"
+date: "2026-05-22"
+lastModified: "2026-05-22"
+status: "成熟"
+tags: ["GitHub", "静态网站部署", "教程", "基础入门"]
+description: "面向零基础读者的 GitHub 笔记仓库搭建与发布教程。"
+toc: true
+publish: true
+---
+
 # 零基础搭建 GitHub 笔记仓库完整教程
 
 > 从零开始，一步步教你搭建一个美观的 GitHub 笔记仓库，实现自动部署和发布
@@ -541,7 +552,7 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
    /**
     * 修复 Markdown 文件中的相对路径链接
     * 将缺少 ./ 前缀的相对路径链接添加 ./ 前缀
-    * 例如：将 [链接](路径/文件.md) 改为 [链接](./路径/文件.md)
+    * 例如：将 [链接](./路径/文件.md) 改为 [链接](./路径/文件.md)
     */
 
    const fs = require('fs');
@@ -574,11 +585,11 @@ Node.js 是用来运行构建工具的环境，我们需要它来生成网站。
          let content = fs.readFileSync(filePath, 'utf8');
          const originalContent = content;
          
-         // 1) 修复以 / 开头的绝对路径为相对路径： [文本](/路径/文件.md) -> [文本](路径/文件.md)
+         // 1) 修复以 / 开头的绝对路径为相对路径： [文本](./路径/文件.md) -> [文本](./路径/文件.md)
          content = content.replace(/\((\/[^(\)]*\.md)\)/g, (m, p1) => `(${p1.replace(/^\//, '')})`)
 
-         // 2) 修复缺少 ./ 前缀的相对路径链接：将 [文本](路径/文件.md) 改为 [文本](./路径/文件.md)
-         // 匹配模式：[文本](路径/文件.md)，但不匹配 [文本](./路径/文件.md) 或 [文本](../路径/文件.md) 或 [文本](#锚点)
+         // 2) 修复缺少 ./ 前缀的相对路径链接：将 [文本](./路径/文件.md) 改为 [文本](./路径/文件.md)
+         // 匹配模式：[文本](./路径/文件.md)，但不匹配 [文本](./路径/文件.md) 或 [文本](../路径/文件.md) 或 [文本](#锚点)
          content = content.replace(/\[([^\]]+)\]\(([^./#][^)]*\.md)\)/g, (match, text, linkPath) => {
            if (!linkPath.startsWith('./') && !linkPath.startsWith('../') && !linkPath.startsWith('#')) {
              return `[${text}](./${linkPath})`
