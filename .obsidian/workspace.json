@@ -111,7 +111,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -273,13 +274,55 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
+          },
+          {
+            "id": "99ed4a400be529f3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/muliminty/project/Muliminty-Note",
+                  "focus": false,
+                  "profile": {
+                    "args": [
+                      "--login"
+                    ],
+                    "executable": "/bin/zsh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": null
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "终端：zsh"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 558.5
+    "width": 769.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -294,15 +337,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-kanban:创建新看板": false,
       "mxmind:Mxmind": true,
-      "obsidian-git:Open Git source control": true,
+      "obsidian-git:Open Git source control": false,
       "hi-note:HiNote": false,
       "terminal:Open terminal": false,
       "notebook-navigator:笔记本导航器": false,
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f6720597f7f8ffdc",
+  "active": "99ed4a400be529f3",
   "lastOpenFiles": [
+    "08-AI与智能开发/03-AI应用开发/RAG/01-概念与原理/02-RAG 的完整链路与系统工作流程.md",
     "08-AI与智能开发/03-AI应用开发/RAG/01-概念与原理/01-什么是RAG，它主要解决了什么问题.md",
     "08-AI与智能开发/03-AI应用开发/RAG/README.md",
     "08-AI与智能开发/03-AI应用开发/RAG/04-高阶与调优/03-如何系统评估一个 RAG 系统的检索质量、回答质量与可用性.md",
@@ -316,7 +360,6 @@
     "08-AI与智能开发/03-AI应用开发/RAG/03-核心配置与实战",
     "08-AI与智能开发/03-AI应用开发/RAG/02-快速上手/01-RAG 知识库的构建流程.md",
     "08-AI与智能开发/03-AI应用开发/RAG/02-快速上手",
-    "08-AI与智能开发/03-AI应用开发/RAG/01-概念与原理/02-RAG 的完整链路与系统工作流程.md",
     "08-AI与智能开发/03-AI应用开发/RAG/01-概念与原理",
     "08-AI与智能开发/01-AI基础理论/05-RAG 原理.md",
     "08-AI与智能开发/01-AI基础理论/02-Transformer 架构.md",
