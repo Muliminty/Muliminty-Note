@@ -1,0 +1,23 @@
+{
+  "id": "conv-1779933231231-afy6vejmr",
+  "providerId": "claude",
+  "title": "了解 Hono Web 框架",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779933231236,
+  "updatedAt": 1779933433338,
+  "lastResponseAt": 1779933433338,
+  "sessionId": "7b400f50-7464-4bd9-9bad-58397403638a",
+  "providerState": {
+    "providerSessionId": "7b400f50-7464-4bd9-9bad-58397403638a"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 105,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 44544,
+    "contextWindow": 1000000,
+    "contextTokens": 44649,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

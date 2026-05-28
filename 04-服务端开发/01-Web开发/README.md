@@ -14,6 +14,7 @@ toc: true
 当前收录：
 
 - `Go`
+- `Hono`
 - `Java`
 
 内容边界：

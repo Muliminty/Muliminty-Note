@@ -4,8 +4,8 @@
   "title": "整理一下 workTree 里面的内容",
   "titleGenerationStatus": "failed",
   "createdAt": 1779431316231,
-  "updatedAt": 1779433010982,
-  "lastResponseAt": 1779433010982,
+  "updatedAt": 1779933213215,
+  "lastResponseAt": 1779675288995,
   "sessionId": "da116ae5-d4ae-458c-a3fd-7ed98c19f6f5",
   "providerState": {
     "providerSessionId": "da116ae5-d4ae-458c-a3fd-7ed98c19f6f5"
@@ -13,12 +13,12 @@
   "currentNote": "08-AI与智能开发/03-AI应用开发/RAG/01-概念与原理/02-RAG 的完整链路与系统工作流程.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 40826,
+    "inputTokens": 43980,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 16384,
+    "cacheReadInputTokens": 15872,
     "contextWindow": 200000,
-    "contextTokens": 57210,
-    "percentage": 29,
+    "contextTokens": 59852,
+    "percentage": 30,
     "contextWindowIsAuthoritative": true
   }
 }
