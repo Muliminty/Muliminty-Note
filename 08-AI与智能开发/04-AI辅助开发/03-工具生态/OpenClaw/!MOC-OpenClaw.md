@@ -1,7 +1,8 @@
 ---
 title: "OpenClaw MOC"
 date: "2026-04-24"
-lastModified: "2026-04-24"
+lastModified: "2026-05-28"
+tags: ["AI辅助开发", "OpenClaw", "百科入口"]
 description: "OpenClaw 子专题总入口，承接配置、实践与后续扩展文档。"
 publish: true
 toc: true

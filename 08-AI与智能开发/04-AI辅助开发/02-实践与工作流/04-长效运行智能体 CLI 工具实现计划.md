@@ -1,11 +1,14 @@
 ---
-title: "长效运行智能体CLI工具实现计划"
+title: "长效运行智能体 CLI 工具实现计划"
 date: "2026-02-13"
-lastModified: "2026-03-10"
-tags: ["AI开发工具", "CLI工具", "脚手架", "智能体工程", "自动化开发"]
+lastModified: "2026-05-28"
+status: "草稿"
+tags: ["AI编程", "CLI工具", "智能体工程"]
 moc: "[[!MOC-AI与智能开发]]"
 stage: "工程化实践"
-description: "基于《Effective harnesses for long-running agents》的双轨方案，设计独立的Node.js/TypeScript CLI工具，用于管理长效运行智能体项目"
+prerequisites: ["[[06-Agent 原理]]"]
+description: "基于《Effective harnesses for long-running agents》的双轨方案，设计独立的 Node.js/TypeScript CLI 工具，用于管理长效运行智能体项目。"
+aliases: ["Agent CLI 计划", "长效智能体 CLI"]
 toc: true
 ---
 

@@ -1,12 +1,14 @@
 ---
-title: "SDD规范驱动开发"
+title: "SDD 规范驱动开发"
 date: "2026-03-10"
-lastModified: "2026-03-10"
+lastModified: "2026-05-28"
 status: "成熟"
 tags: ["SDD", "规范驱动开发", "AI编程", "开发方法论"]
 moc: "[[!MOC-AI与智能开发]]"
 stage: "工程化实践"
-description: "SDD（软件设计说明书）规范驱动开发的实践指南，提供RIPER五步法和文档规范"
+prerequisites: []
+description: "SDD（软件设计说明书）规范驱动开发的实践指南，提供 RIPER 五步法和文档规范。"
+aliases: ["SDD", "Spec-Driven Development"]
 toc: true
 ---
 

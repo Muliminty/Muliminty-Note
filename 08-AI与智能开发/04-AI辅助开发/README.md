@@ -3,6 +3,7 @@ title: "AI 辅助开发目录说明"
 date: "2026-03-17"
 lastModified: "2026-03-17"
 tags: ["AI辅助开发", "目录说明"]
+description: "AI 辅助开发目录说明，收录 AI Coding 方法论、实践工作流与工具生态。"
 publish: false
 toc: true
 ---

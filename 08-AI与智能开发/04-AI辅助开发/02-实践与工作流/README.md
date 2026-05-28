@@ -3,6 +3,7 @@ title: "AI 辅助开发实践与工作流目录说明"
 date: "2026-03-17"
 lastModified: "2026-03-17"
 tags: ["AI辅助开发", "实践与工作流", "目录说明"]
+description: "AI 辅助开发实践与工作流子目录说明，聚焦 AI 代码审查、文档生成、规范驱动开发与智能体工作流。"
 publish: false
 toc: true
 ---

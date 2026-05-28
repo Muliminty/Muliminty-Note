@@ -1,19 +1,15 @@
 ---
-# 🔴 核心必填
-title: 'OpenClaw 配置文件详解'
-date: '2026-03-12'
-lastModified: '2026-03-12'
-tags: ['OpenClaw', '配置', '实战', 'Gateway']
-
-# 🟡 体系建设
-moc: '[[!MOC-OpenClaw]]'
-stage: '工程化实践'
+title: "OpenClaw 配置文件详解"
+date: "2026-03-12"
+lastModified: "2026-05-28"
+status: "草稿"
+tags: ["OpenClaw", "配置", "Gateway"]
+moc: "[[!MOC-OpenClaw]]"
+stage: "工程化实践"
 prerequisites: []
-
-# 🟢 拓展与控制
-description: 'OpenClaw 配置文件（openclaw.json）结构、各节点含义及使用注意事项'
+description: "OpenClaw 配置文件（openclaw.json）结构、各节点含义及使用注意事项。"
+aliases: ["openclaw.json 配置"]
 publish: true
-aliases: ['openclaw.json 配置']
 toc: true
 ---
 

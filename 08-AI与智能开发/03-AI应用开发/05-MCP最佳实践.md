@@ -1,10 +1,14 @@
 ---
 title: "MCP 最佳实践与安全指南"
 date: "2026-04-10"
-lastModified: "2026-04-10"
-tags: ["MCP", "最佳实践", "安全性", "性能优化", "测试", "监控"]
+lastModified: "2026-05-28"
+status: "草稿"
+tags: ["MCP", "最佳实践", "安全性"]
 moc: "[[!MOC-AI与智能开发]]"
+stage: "工程化实践"
+prerequisites: ["[[03-MCP服务器开发]]", "[[04-MCP配置与部署]]"]
 description: "本指南总结了 MCP 开发、部署和使用的最佳实践，重点关注安全性、性能优化和可维护性。"
+aliases: ["MCP 最佳实践"]
 publish: true
 toc: true
 ---

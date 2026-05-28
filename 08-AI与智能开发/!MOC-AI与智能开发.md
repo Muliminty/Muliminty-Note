@@ -3,7 +3,6 @@ title: "AI 与智能开发"
 date: "2026-03-17"
 lastModified: "2026-05-09"
 tags: ["AI", "智能开发", "一级主题", "百科入口"]
-moc: "[[!MOC-AI与智能开发]]"
 description: "汇总 AI 基础理论、模型 API、AI 应用开发与 AI 辅助开发实践。"
 publish: true
 toc: true

@@ -1,10 +1,14 @@
 ---
 title: "MCP 服务器开发教程"
 date: "2026-04-10"
-lastModified: "2026-04-10"
-tags: ["!/usr/bin/env", "MCP", "开发教程", "Python", "TypeScript", "Server开发", "AI工具"]
+lastModified: "2026-05-28"
+status: "草稿"
+tags: ["MCP", "开发教程", "Python", "TypeScript", "AI工具"]
 moc: "[[!MOC-AI与智能开发]]"
+stage: "工程化实践"
+prerequisites: ["[[02-MCP协议]]"]
 description: "本指南详细介绍如何开发自定义 MCP Server，包括基础概念、代码示例和最佳实践。"
+aliases: ["MCP Server 开发", "MCP 服务器开发"]
 publish: true
 toc: true
 ---

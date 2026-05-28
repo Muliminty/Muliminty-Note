@@ -1,10 +1,14 @@
 ---
 title: "MCP 协议完整指南"
 date: "2026-04-10"
-lastModified: "2026-04-10"
-tags: ["MCP", "ModelContextProtocol", "AI协议", "Agent", "Claude", "Anthropic"]
+lastModified: "2026-05-28"
+status: "草稿"
+tags: ["MCP", "AI协议", "Agent", "Anthropic"]
 moc: "[[!MOC-AI与智能开发]]"
+stage: "基础入门"
+prerequisites: ["[[06-Agent 原理]]"]
 description: "Model Context Protocol（模型上下文协议）是由 Anthropic 提出的开放协议，旨在为大型语言模型（LLM）与外部数据源、工具和服务建立标准化接口。"
+aliases: ["MCP", "Model Context Protocol", "模型上下文协议"]
 publish: true
 toc: true
 ---
