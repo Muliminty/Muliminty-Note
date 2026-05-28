@@ -8,90 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8b976bc63c16fbde",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/muliminty/project/Muliminty-Note",
-                  "focus": false,
-                  "profile": {
-                    "args": [
-                      "--login"
-                    ],
-                    "executable": "/bin/zsh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "终端：zsh"
-            }
-          },
-          {
-            "id": "3663ddfa4bb502c4",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/muliminty/project/Muliminty-Note",
-                  "focus": false,
-                  "profile": {
-                    "args": [
-                      "--login"
-                    ],
-                    "executable": "/bin/zsh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "终端：zsh"
-            }
-          },
-          {
             "id": "78c37c00c562877f",
             "type": "leaf",
             "state": {
@@ -105,8 +21,7 @@
               "title": "01-Hono框架概述"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,8 +111,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -345,8 +259,23 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "3663ddfa4bb502c4",
+  "active": "78c37c00c562877f",
   "lastOpenFiles": [
+    "04-服务端开发/01-Web开发/Hono/99-参考与归档/README.md",
+    "04-服务端开发/01-Web开发/Hono/99-参考与归档",
+    "04-服务端开发/01-Web开发/Hono/07-常见问题与排错/README.md",
+    "04-服务端开发/01-Web开发/Hono/07-常见问题与排错",
+    "04-服务端开发/01-Web开发/Hono/06-生态与扩展/README.md",
+    "04-服务端开发/01-Web开发/Hono/06-生态与扩展",
+    "04-服务端开发/01-Web开发/Hono/05-高阶实战/README.md",
+    "04-服务端开发/01-Web开发/Hono/05-高阶实战",
+    "04-服务端开发/01-Web开发/Hono/04-运行时与部署/README.md",
+    "04-服务端开发/01-Web开发/Hono/04-运行时与部署",
+    "04-服务端开发/01-Web开发/Hono/03-核心机制/README.md",
+    "04-服务端开发/01-Web开发/Hono/03-核心机制",
+    "04-服务端开发/01-Web开发/Hono/02-快速上手/README.md",
+    "04-服务端开发/01-Web开发/Hono/02-快速上手",
+    "04-服务端开发/01-Web开发/Hono/!MOC-Hono.md",
     "04-服务端开发/01-Web开发/Hono/01-Hono框架概述.md",
     "04-服务端开发/01-Web开发/Hono/README.md",
     "04-服务端开发/01-Web开发/Hono",
@@ -363,26 +292,11 @@
     "08-AI与智能开发/03-AI应用开发/RAG/03-核心配置与实战/01-分块策略是什么，如何进行 Chunking.md",
     "08-AI与智能开发/03-AI应用开发/RAG/03-核心配置与实战",
     "08-AI与智能开发/03-AI应用开发/RAG/02-快速上手/01-RAG 知识库的构建流程.md",
-    "08-AI与智能开发/03-AI应用开发/RAG/02-快速上手",
-    "08-AI与智能开发/03-AI应用开发/RAG/01-概念与原理",
     "08-AI与智能开发/01-AI基础理论/05-RAG 原理.md",
     "08-AI与智能开发/01-AI基础理论/02-Transformer 架构.md",
     "docs/superpowers/plans/2026-05-22-rag-first-article-redesign.md",
     "docs/superpowers/specs/2026-05-22-rag-first-article-redesign.md",
     "08-AI与智能开发/03-AI应用开发/RAG/99-参考与归档/01-写作选题清单.md",
-    "08-AI与智能开发/03-AI应用开发/RAG/99-参考与归档",
-    "08-AI与智能开发/03-AI应用开发/RAG",
-    "docs/superpowers/specs/2026-05-22-rag-topic-bootstrap-design.md",
-    "docs/superpowers/plans/2026-05-22-rag-topic-bootstrap.md",
-    "docs/superpowers/plans",
-    "docs/superpowers/specs/2026-05-22-rag-mcp-question-list-design.md",
-    "98-知识库/20260522-AI-RAG与MCP问题清单.md",
-    "98-知识库/!MOC-知识库.md",
-    "docs/superpowers/specs",
-    "docs/superpowers",
-    "98-知识库/20260520-Redux-Saga-Effect-API核心区别.md",
-    "98-知识库/20260520-Redux-dispatch与action数据流.md",
-    "08-AI与智能开发/01-AI基础理论/04-Prompt Engineering.md",
     "未命名.canvas",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",

@@ -4,7 +4,7 @@ date: "2026-05-28"
 lastModified: "2026-05-28"
 tags: ["Hono", "Web框架", "边缘计算", "TypeScript", "概念"]
 status: "草稿"
-moc: "04-服务端开发"
+moc: "./!MOC-Hono.md"
 stage: "基础入门"
 description: "Hono —— 基于 Web 标准的超快、零依赖、多运行时 Web 框架概述"
 aliases: ["Hono", "Hono框架"]
@@ -178,6 +178,8 @@ Request
 
 ## 🔗 关联知识
 
+- 专题导航：[!MOC-Hono.md](./!MOC-Hono.md)
+- 上级目录：[01-Web开发](../README.md)
 - 官方文档：[Hono Documentation](https://hono.dev/docs/)
 - GitHub：[honojs/hono](https://github.com/honojs/hono)
 - 运行时对比：Cloudflare Workers / Deno / Bun（后续补充链接）
