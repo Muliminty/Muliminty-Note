@@ -278,4 +278,10 @@ MCP 协议是 AI 走向**工具增强型智能**的关键一步。它让 LLM 从
 
 ---
 
+## 关联知识
+
+- [[06-A2A协议|A2A 协议]] — Agent ↔ Agent 通信标准，与 MCP 互补
+
+---
+
 #MCP #ModelContextProtocol #AI协议 #Agent #Claude #Anthropic
