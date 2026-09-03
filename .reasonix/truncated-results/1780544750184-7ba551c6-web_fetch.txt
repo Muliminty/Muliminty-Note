@@ -1,0 +1,887 @@
+Overview - A2A Protocol
+https://a2a-protocol.org/latest/specification/
+
+<!doctype html>
+
+Overview - A2A Protocol
+
+Skip to content
+
+Agent2Agent (A2A) Protocol Specification&para;
+
+Latest Released Version 1.0.0
+
+Previous Versions
+
+0.3.0
+
+0.2.6
+
+0.1.0
+
+See Release Notes for changes made between versions.
+
+1. Introduction&para;
+
+The Agent2Agent (A2A) Protocol is an open standard designed to facilitate communication and interoperability between independent, potentially opaque AI agent systems. In an ecosystem where agents might be built using different frameworks, languages, or by different vendors, A2A provides a common language and interaction model.
+
+This document provides the detailed technical specification for the A2A protocol. Its primary goal is to enable agents to:
+
+Discover each other's capabilities.
+
+Negotiate interaction modalities (text, files, structured data).
+
+Manage collaborative tasks.
+
+Securely exchange information to achieve user goals without needing access to each other's internal state, memory, or tools.
+
+1.1. Key Goals of A2A&para;
+
+Interoperability: Bridge the communication gap between disparate agentic systems.
+
+Collaboration: Enable agents to delegate tasks, exchange context, and work together on complex user requests.
+
+Discovery: Allow agents to dynamically find and understand the capabilities of other agents.
+
+Flexibility: Support various interaction modes including synchronous request/response, streaming for real-time updates, and asynchronous push notifications for long-running tasks.
+
+Security: Facilitate secure communication patterns suitable for enterprise environments, relying on standard web security practices.
+
+Asynchronicity: Natively support long-running tasks and interactions that may involve human-in-the-loop scenarios.
+
+1.2. Guiding Principles&para;
+
+Simple: Reuse existing, well-understood standards (HTTP, JSON-RPC 2.0, Server-Sent Events).
+
+Enterprise Ready: Address authentication, authorization, security, privacy, tracing, and monitoring by aligning with established enterprise practices.
+
+Async First: Designed for (potentially very) long-running tasks and human-in-the-loop interactions.
+
+Modality Agnostic: Support exchange of diverse content types including text, audio/video (via file references), structured data/forms, and potentially embedded UI components (e.g., iframes referenced in parts).
+
+Opaque Execution: Agents collaborate based on declared capabilities and exchanged information, without needing to share their internal thoughts, plans, or tool implementations.
+
+For a broader understanding of A2A's purpose and benefits, see What is A2A?.
+
+1.3. Specification Structure&para;
+
+This specification is organized into three distinct layers that work together to provide a complete protocol definition:
+
+<code>graph TB
+subgraph L1 ["A2A Data Model"]
+direction LR
+A[Task] ~~~ B[Message] ~~~ C[AgentCard] ~~~ D[Part] ~~~ E[Artifact] ~~~ F[Extension]
+end
+
+subgraph L2 ["A2A Operations"]
+direction LR
+G[Send Message] ~~~ H[Send Streaming Message] ~~~ I[Get Task] ~~~ J[List Tasks] ~~~ K[Cancel Task] ~~~ L[Get Agent Card]
+end
+
+subgraph L3 ["Protocol Bindings"]
+direction LR
+M[JSON-RPC Methods] ~~~ N[gRPC RPCs] ~~~ O[HTTP/REST Endpoints] ~~~ P[Custom Bindings]
+end
+
+%% Dependencies between layers
+L1 --> L2
+L2 --> L3
+
+style A fill:#e1f5fe
+style B fill:#e1f5fe
+style C fill:#e1f5fe
+style D fill:#e1f5fe
+style E fill:#e1f5fe
+style F fill:#e1f5fe
+
+style G fill:#f3e5f5
+style H fill:#f3e5f5
+style I fill:#f3e5f5
+style J fill:#f3e5f5
+style K fill:#f3e5f5
+style L fill:#f3e5f5
+
+style M fill:#e8f5e8
+style N fill:#e8f5e8
+style O fill:#e8f5e8
+
+style L1 fill:#f0f8ff,stroke:#333,stroke-width:2px
+style L2 fill:#faf0ff,stroke:#333,stroke-width:2px
+style L3 fill:#f0fff0,stroke:#333,stroke-width:2px</code>
+
+Layer 1: Canonical Data Model defines the core data structures and message formats that all A2A implementations must understand. These are protocol agnostic definitions expressed as Protocol Buffer messages.
+
+Layer 2: Abstract Operations describes the fundamental capabilities and behaviors that A2A agents must support, independent of how they are exposed over specific protocols.
+
+Layer 3: Protocol Bindings provides concrete mappings of the abstract operations and data structures to specific protocol bindings (JSON-RPC, gRPC, HTTP/REST), including method names, endpoint patterns, and protocol-specific behaviors.
+
+This layered approach ensures that:
+
+Core semantics remain consistent across all protocol bindings
+
+New protocol bindings can be added without changing the fundamental data model
+
+Developers can reason about A2A operations independently of binding concerns
+
+Interoperability is maintained through shared understanding of the canonical data model
+
+1.4 Normative Content&para;
+
+In addition to the protocol requirements defined in this document, the file spec/a2a.proto is the single authoritative normative definition of all protocol data objects and request/response messages. A generated JSON artifact (spec/a2a.json, produced at build time and not committed) MAY be published for convenience to tooling and the website, but it is a non-normative build artifact. SDK language bindings, schemas, and any other derived forms MUST be regenerated from the proto (directly or via code generation) rather than edited manually.
+
+Change Control and Deprecation Lifecycle:
+
+Introduction: When a proto message or field is renamed, the new name is added while existing published names remain available, but marked deprecated, until the next major release.
+
+Documentation: Migration guidance MUST be provided via an ancillary document when introducing major breaking changes.
+
+Anchors: Legacy documentation anchors MUST be preserved (as hidden HTML anchors) to avoid breaking inbound links.
+
+SDK/Schema Aliases: SDKs and JSON Schemas SHOULD provide deprecated alias types/definitions to maintain backward compatibility.
+
+Removal: A deprecated name SHOULD NOT be removed earlier than the next major version after introduction of its replacement.
+
+Automated Generation:
+
+The documentation build generates specification/json/a2a.json on-the-fly (the file is not tracked in source control). Future improvements may publish an OpenAPI v3 + JSON Schema bundle for enhanced tooling.
+
+Rationale:
+
+Centering the proto file as the normative source ensures protocol neutrality, reduces specification drift, and provides a deterministic evolution path for the ecosystem.
+
+2. Terminology&para;
+
+2.1. Requirements Language&para;
+
+The keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119.
+
+2.2. Core Concepts&para;
+
+A2A revolves around several key concepts. For detailed explanations, please refer to the Key Concepts guide.
+
+A2A Client: An application or agent that initiates requests to an A2A Server on behalf of a user or another system.
+
+A2A Server (Remote Agent): An agent or agentic system that exposes an A2A-compliant endpoint, processing tasks and providing responses.
+
+Agent Card: A JSON metadata document published by an A2A Server, describing its identity, capabilities, skills, service endpoint, and authentication requirements.
+
+Message: A communication turn between a client and a remote agent, having a role ("user" or "agent") and containing one or more Parts.
+
+Task: The fundamental unit of work managed by A2A, identified by a unique ID. Tasks are stateful and progress through a defined lifecycle.
+
+Part: The smallest unit of content within a Message or Artifact. Parts can contain text, file references, or structured data.
+
+Artifact: An output (e.g., a document, image, structured data) generated by the agent as a result of a task, composed of Parts.
+
+Streaming: Real-time, incremental updates for tasks (status changes, artifact chunks) delivered via protocol-specific streaming mechanisms.
+
+Push Notifications: Asynchronous task updates delivered via server-initiated HTTP POST requests to a client-provided webhook URL, for long-running or disconnected scenarios.
+
+Context: An optional identifier to logically group related tasks and messages.
+
+Extension: A mechanism for agents to provide additional functionality or data beyond the core A2A specification.
+
+3. A2A Protocol Operations&para;
+
+This section describes the core operations of the A2A protocol in a binding-independent manner. These operations define the fundamental capabilities that all A2A implementations must support, regardless of the underlying binding mechanism.
+
+3.1. Core Operations&para;
+
+The following operations define the fundamental capabilities that all A2A implementations must support, independent of the specific protocol binding used. For a quick reference mapping of these operations to protocol-specific method names and endpoints, see Section 5.3 (Method Mapping Reference). For detailed protocol-specific implementation details, see:
+
+Section 9: JSON-RPC Protocol Binding
+
+Section 10: gRPC Protocol Binding
+
+Section 11: HTTP+JSON/REST Protocol Binding
+
+3.1.1. Send Message&para;
+
+The primary operation for initiating agent interactions. Clients send a message to an agent and receive either a task that tracks the processing or a direct response message.
+
+Inputs:
+
+SendMessageRequest: Request object containing the message, configuration, and metadata
+
+Outputs:
+
+Task: A task object representing the processing of the message, OR
+
+Message: A direct response message (for simple interactions that don't require task tracking)
+
+Errors:
+
+ContentTypeNotSupportedError: A Media Type provided in the request's message parts is not supported by the agent.
+
+UnsupportedOperationError: Messages sent to Tasks that are in a terminal state (TASK_STATE_COMPLETED, TASK_STATE_FAILED, TASK_STATE_CANCELED, TASK_STATE_REJECTED) cannot accept further messages.
+
+TaskNotFoundError: The task ID does not exist or is not accessible.
+
+Behavior:
+
+The agent MAY create a new Task to process the provided message asynchronously or MAY return a direct Message response for simple interactions. The operation MUST return immediately with either task information or response message. Task processing MAY continue asynchronously after the response when a Task is returned.
+
+3.1.2. Send Streaming Message&para;
+
+Similar to Send Message but with real-time streaming of updates during processing.
+
+Inputs:
+
+SendMessageRequest: Request object containing the message, configuration, and metadata
+
+Outputs:
+
+Stream Response object containing:
+
+Initial response: Task object OR Message object
+
+Subsequent events following a Task MAY include stream of TaskStatusUpdateEvent and TaskArtifactUpdateEvent objects
+
+Final completion indicator
+
+Errors:
+
+UnsupportedOperationError: Streaming is not supported by the agent (see Capability Validation).
+
+UnsupportedOperationError: Messages sent to Tasks that are in a terminal state (TASK_STATE_COMPLETED, TASK_STATE_FAILED, TASK_STATE_CANCELED, TASK_STATE_REJECTED) cannot accept further messages.
+
+ContentTypeNotSupportedError: A Media Type provided in the request's message parts is not supported by the agent.
+
+TaskNotFoundError: The task ID does not exist or is not accessible.
+
+Behavior:
+
+The operation MUST establish a streaming connection for real-time updates. The stream MUST follow one of these patterns:
+
+Message-only stream: If the agent returns a Message, the stream MUST contain exactly one Message object and then close immediately. No task tracking or updates are provided.
+
+Task lifecycle stream: If the agent returns a Task, the stream MUST begin with the Task object, followed by zero or more TaskStatusUpdateEvent or TaskArtifactUpdateEvent objects. The stream MUST close when the task reaches a terminal state (TASK_STATE_COMPLETED, TASK_STATE_FAILED, TASK_STATE_CANCELED, TASK_STATE_REJECTED).
+
+The agent MAY return a Task for complex processing with status/artifact updates or MAY return a Message for direct streaming responses without task overhead. The implementation MUST provide immediate feedback on progress and intermediate results.
+
+3.1.3. Get Task&para;
+
+Retrieves the current state (including status, artifacts, and optionally history) of a previously initiated task. This is typically used for polling the status of a task initiated with Send Message, or for fetching the final state of a task after being notified via a push notification or after a stream has ended.
+
+Inputs:
+
+Represents a request for the GetTask method.
+
+Field
+Type
+Required
+Description
+
+tenant
+string
+No
+Optional. Opaque routing identifier. Must match the tenant value from the selected AgentInterface in the Agent Card when that field is set.
+
+id
+string
+Yes
+The resource ID of the task to retrieve.
+
+historyLength
+integer
+No
+The maximum number of most recent messages from the task's history to retrieve. An unset value means the client does not impose any limit. A value of zero is a request to not include any messages. The server MUST NOT return more messages than the provided value, but MAY apply a lower limit.
+
+See History Length Semantics for details about historyLength.
+
+Outputs:
+
+Task: Current state and artifacts of the requested task
+
+Errors:
+
+TaskNotFoundError: The task ID does not exist or is not accessible.
+
+3.1.4. List Tasks&para;
+
+Retrieves a list of tasks with optional filtering and pagination capabilities. This method allows clients to discover and manage multiple tasks across different contexts or with specific status criteria.
+
+Inputs:
+
+Parameters for listing tasks with optional filtering criteria.
+
+Field
+Type
+Required
+Description
+
+tenant
+string
+No
+Optional. Opaque routing identifier. Must match the tenant value from the selected AgentInterface in the Agent Card when that field is set.
+
+contextId
+string
+No
+Filter tasks by context ID to get tasks from a specific conversation or session.
+
+status
+TaskState
+No
+Filter tasks by their current status state.
+
+pageSize
+integer
+No
+The maximum number of tasks to return. The service may return fewer than this value. If unspecified, at most 50 tasks will be returned. The minimum value is 1. The maximum value is 100.
+
+pageToken
+string
+No
+A page token, received from a previous ListTasks call. ListTasksResponse.next_page_token. Provide this to retrieve the subsequent page.
+
+historyLength
+integer
+No
+The maximum number of messages to include in each task's history.
+
+statusTimestampAfter
+timestamp
+No
+Filter tasks which have a status updated after the provided timestamp in ISO 8601 format (e.g., "2023-10-27T10:00:00Z"). Only tasks with a status timestamp time greater than or equal to this value will be returned.
+
+includeArtifacts
+boolean
+No
+Whether to include artifacts in the returned tasks. Defaults to false to reduce payload size.
+
+When includeArtifacts is false (the default), the artifacts field MUST be omitted entirely from each Task object in the response. The field should not be present as an empty array or null value. When includeArtifacts is true, the artifacts field should be included with its actual content (which may be an empty array if the task has no artifacts).
+
+Outputs:
+
+Result object for ListTasks method containing an array of tasks and pagination information.
+
+Field
+Type
+Required
+Description
+
+tasks
+array of Task
+Yes
+Array of tasks matching the specified criteria.
+
+nextPageToken
+string
+Yes
+A token to retrieve the next page of results, or empty if there are no more results in the list.
+
+pageSize
+integer
+Yes
+The page size used for this response.
+
+totalSize
+integer
+Yes
+Total number of tasks available (before pagination).
+
+Note on nextPageToken: The nextPageToken field MUST always be present in the response. When there are no more results to retrieve (i.e., this is the final page), the field MUST be set to an empty string (""). Clients should check for an empty string to determine if more pages are available.
+
+Errors:
+
+None specific to this operation beyond standard protocol errors.
+
+Behavior:
+
+The operation MUST return only tasks visible to the authenticated client and MUST use cursor-based pagination for performance and consistency. Tasks MUST be sorted by last update time in descending order. Implementations MUST implement appropriate authorization scoping to ensure clients can only access authorized tasks. See Section 13.1 Data Access and Authorization Scoping for detailed security requirements.
+
+Pagination Strategy:
+
+This method uses cursor-based pagination (via pageToken/nextPageToken) rather than offset-based pagination for better performance and consistency, especially with large datasets. Cursor-based pagination avoids the "deep pagination problem" where skipping large numbers of records becomes inefficient for databases. This approach is consistent with the gRPC specification, which also uses cursor-based pagination (page_token/next_page_token).
+
+Ordering:
+
+Implementations MUST return tasks sorted by their status timestamp time in descending order (most recently updated tasks first). This ensures consistent pagination and allows clients to efficiently monitor recent task activity.
+
+3.1.5. Cancel Task&para;
+
+Requests the cancellation of an ongoing task. The server will attempt to cancel the task, but success is not guaranteed (e.g., the task might have already completed or failed, or cancellation might not be supported at its current stage).
+
+Inputs:
+
+Represents a request for the CancelTask method.
+
+Field
+Type
+Required
+Description
+
+tenant
+string
+No
+Optional. Opaque routing identifier. Must match the tenant value from the selected AgentInterface in the Agent Card when that field is set.
+
+id
+string
+Yes
+The resource ID of the task to cancel.
+
+metadata
+object
+No
+A flexible key-value map for passing additional context or parameters.
+
+Outputs:
+
+Updated Task with cancellation status
+
+Errors:
+
+TaskNotCancelableError: The task is not in a cancelable state (e.g., already completed, failed, or canceled).
+
+TaskNotFoundError: The task ID does not exist or is not accessible.
+
+Behavior:
+
+The operation attempts to cancel the specified task and returns its updated state.
+
+3.1.6. Subscribe to Task&para;
+
+Establishes a streaming connection to receive updates for an existing task.
+
+Inputs:
+
+Represents a request for the SubscribeToTask method.
+
+Field
+Type
+Required
+Description
+
+tenant
+string
+No
+Optional. Opaque routing identifier. Must match the tenant value from the selected AgentInterface in the Agent Card when that field is set.
+
+id
+string
+Yes
+The resource ID of the task to subscribe to.
+
+Outputs:
+
+Stream Response object containing:
+
+Initial response: Task object with current state
+
+Stream of TaskStatusUpdateEvent and TaskArtifactUpdateEvent objects
+
+Errors:
+
+UnsupportedOperationError: Streaming is not supported by the agent (see Capability Validation).
+
+TaskNotFoundError: The task ID does not exist or is not accessible.
+
+UnsupportedOperationError: The operation is attempted on a task that is in a terminal state (TASK_STATE_COMPLETED, TASK_STATE_FAILED, TASK_STATE_CANCELED, TASK_STATE_REJECTED).
+
+Behavior:
+
+The operation enables real-time monitoring of task progress and can be used with any task that is not in a terminal state. The stream MUST terminate when the task reaches a terminal state (TASK_STATE_COMPLETED, TASK_STATE_FAILED, TASK_STATE_CANCELED, TASK_STATE_REJECTED).
+
+The operation MUST return a Task object as the first event in the stream, representing the current state of the task at the time of subscription. This prevents a potential loss of information between a call to GetTask and calling SubscribeToTask.
+
+3.1.7. Create Push Notification Config&para;
+
+Creates a push notification configuration for a task to receive asynchronous updates via webhook.
+
+Inputs:
+
+A container associating a push notification configuration with a specific task.
+
+Field
+Type
+Required
+Description
+
+tenant
+string
+No
+Optional. Opaque routing identifier. Must match the tenant value from the selected AgentInterface in the Agent Card when that field is set.
+
+id
+string
+No
+The push notification configuration details. A unique identifier (e.g. UUID) for this push notification configuration.
+
+taskId
+string
+No
+The ID of the task this configuration is associated with.
+
+url
+string
+Yes
+The URL where the notification should be sent.
+
+token
+string
+No
+A token unique for this task or session.
+
+authentication
+AuthenticationInfo
+No
+Authentication information required to send the notification.
+
+Outputs:
+
+PushNotificationConfig: Created configuration with assigned ID
+
+Errors:
+
+PushNotificationNotSupportedError: Push notifications are not supported by the agent (see Capability Validation).
+
+TaskNotFoundError: The task ID does not exist or is not accessible.
+
+Behavior:
+
+The operation MUST establish a webhook endpoint for task update notifications. When task updates occur, the agent will send HTTP POST requests to the configured webhook URL with StreamResponse payloads (see Push Notification Payload for details). This operation is only available if the agent supports push notifications capability. The configuration MUST persist until task completion or explicit deletion.
+
+3.1.8. Get Push Notification Config&para;
+
+Retrieves an existing push notification configuration for a task.
+
+Inputs:
+
+Represents a request for the GetTaskPushNotificationConfig method.
+
+Field
+Type
+Required
+Description
+
+tenant
+string
+No
+Optional. Opaque routing identifier. Must match the tenant value from the selected AgentInterface in the Agent Card when that field is set.
+
+taskId
+string
+Yes
+The parent task resource ID.
+
+id
+string
+Yes
+The resource ID of the configuration to retrieve.
+
+Outputs:
+
+PushNotificationConfig: The requested configuration
+
+Errors:
+
+PushNotificationNotSupportedError: Push notifications are not supported by the agent (see Capability Validation).
+
+TaskNotFoundError: The push notification configuration does not exist.
+
+Behavior:
+
+The operation MUST return configuration details including webhook URL and notification settings. The operation MUST fail if the configuration does not exist or the client lacks access.
+
+3.1.9. List Push Notification Configs&para;
+
+Retrieves all push notification configurations for a task.
+
+Inputs:
+
+Represents a request for the ListTaskPushNotificationConfigs method.
+
+Field
+Type
+Required
+Description
+
+tenant
+string
+No
+Optional. Opaque routing identifier. Must match the tenant value from the selected AgentInterface in the Agent Card when that field is set.
+
+taskId
+string
+Yes
+The parent task resource ID.
+
+pageSize
+integer
+No
+The maximum number of configurations to return.
+
+pageToken
+string
+No
+A page token received from a previous ListTaskPushNotificationConfigsRequest call.
+
+Outputs:
+
+Represents a successful response for the ListTaskPushNotificationConfigs method.
+
+Field
+Type
+Required
+Description
+
+configs
+array of TaskPushNotificationConfig
+No
+The list of push notification configurations.
+
+nextPageToken
+string
+No
+A token to retrieve the next page of results, or empty if there are no more results in the list.
+
+Errors:
+
+PushNotificationNotSupportedError: Push notifications are not supported by the agent (see Capability Validation).
+
+TaskNotFoundError: The task ID does not exist or is not accessible.
+
+Behavior:
+
+The operation MUST return all active push notification configurations for the specified task and MAY support pagination for tasks with many configurations.
+
+3.1.10. Delete Push Notification Config&para;
+
+Removes a push notification configuration for a task.
+
+Inputs:
+
+Represents a request for the DeleteTaskPushNotificationConfig method.
+
+Field
+Type
+Required
+Description
+
+tenant
+string
+No
+Optional. Opaque routing identifier. Must match the tenant value from the selected AgentInterface in the Agent Card when that field is set.
+
+taskId
+string
+Yes
+The parent task resource ID.
+
+id
+string
+Yes
+The resource ID of the configuration to delete.
+
+Outputs:
+
+Confirmation of deletion (implementation-specific)
+
+Errors:
+
+PushNotificationNotSupportedError: Push notifications are not supported by the agent (see Capability Validation).
+
+TaskNotFoundError: The task ID does not exist.
+
+Behavior:
+
+The operation MUST permanently remove the specified push notification configuration. No further notifications will be sent to the configured webhook after deletion. This operation MUST be idempotent - multiple deletions of the same config have the same effect.
+
+3.1.11. Get Extended Agent Card&para;
+
+Retrieves a potentially more detailed version of the Agent Card after the client has authenticated. This endpoint is available only if AgentCard.capabilities.extendedAgentCard is true.
+
+Inputs:
+
+Represents a request for the GetExtendedAgentCard method.
+
+Field
+Type
+Required
+Description
+
+tenant
+string
+No
+Optional. Opaque routing identifier. Must match the tenant value from the selected AgentInterface in the Agent Card when that field is set.
+
+Outputs:
+
+AgentCard: A complete Agent Card object, which may contain additional details or skills not present in the public card
+
+Errors:
+
+UnsupportedOperationError: The agent does not support authenticated extended cards (see Capability Validation).
+
+ExtendedAgentCardNotConfiguredError: The agent declares support but does not have an extended agent card configured.
+
+Behavior:
+
+Authentication: The client MUST authenticate the request using one of the schemes declared in the public AgentCard.securitySchemes and AgentCard.security fields.
+
+Extended Information: The operation MAY return different details based on client authentication level, including additional skills, capabilities, or configuration not available in the public Agent Card.
+
+Card Replacement: Clients retrieving this extended card SHOULD replace their cached public Agent Card with the content received from this endpoint for the duration of their authenticated session or until the card's version changes.
+
+Availability: This operation is only available if the public Agent Card declares capabilities.extendedAgentCard: true.
+
+For detailed security guidance on extended agent cards, see Section 13.3 Extended Agent Card Access Control.
+
+3.2. Operation Parameter Objects&para;
+
+This section defines common parameter objects used across multiple operations.
+
+3.2.1. SendMessageRequest&para;
+
+Represents a request for the SendMessage method.
+
+Field
+Type
+Required
+Description
+
+tenant
+string
+No
+Optional. Opaque routing identifier. Must match the tenant value from the selected AgentInterface in the Agent Card when that field is set.
+
+message
+Message
+Yes
+The message to send to the agent.
+
+configuration
+SendMessageConfiguration
+No
+Configuration for the send request.
+
+metadata
+object
+No
+A flexible key-value map for passing additional context or parameters.
+
+3.2.2. SendMessageConfiguration&para;
+
+Configuration of a send message request.
+
+Field
+Type
+Required
+Description
+
+acceptedOutputModes
+array of string
+No
+A list of media types the client is prepared to accept for response parts. Agents SHOULD use this to tailor their output.
+
+taskPushNotificationConfig
+TaskPushNotificationConfig
+No
+Configuration for the agent to send push notifications for task updates. Task id should be empty when sending this configuration in a SendMessage request.
+
+historyLength
+integer
+No
+The maximum number of most recent messages from the task's history to retrieve in the response. An unset value means the client does not impose any limit. A value of zero is a request to not include any messages. The server MUST NOT return more messages than the provided value, but MAY apply a lower limit.
+
+returnImmediately
+boolean
+No
+If true, the operation returns immediately after creating the task, even if processing is still in progress. If false (default), the operation MUST wait until the task reaches a terminal (COMPLETED, FAILED, CANCELED, REJECTED) or interrupted (INPUT_REQUIRED, AUTH_REQUIRED) state before returning.
+
+Execution Mode:
+
+The return_immediately field in SendMessageConfiguration controls whether the operation returns immediately or waits for task completion. Operations are blocking by default:
+
+Blocking (return_immediately: false or unset): The operation MUST wait until the task reaches a terminal state (TASK_STATE_COMPLETED, TASK_STATE_FAILED, TASK_STATE_CANCELED, TASK_STATE_REJECTED) or an interrupted state (TASK_STATE_INPUT_REQUIRED, TASK_STATE_AUTH_REQUIRED) before returning. The response MUST include the latest task state with all artifacts and status information. This is the default behavior.
+
+Non-Blocking (return_immediately: true): The operation MUST return immediately after creating the task, even if processing is still in progress. The returned task will have an in-progress state (e.g., TASK_STATE_WORKING, TASK_STATE_INPUT_REQUIRED). It is the caller's responsibility to poll for updates using Get Task, subscribe via Subscribe to Task, or receive updates via push notifications.
+
+The return_immediately field has no effect:
+
+when the operation returns a direct Message response instead of a task.
+
+for streaming operations, which always return updates in real-time.
+
+on configured push notification configurations, which operates independently of execution mode.
+
+3.2.3. Stream Response&para;
+
+A wrapper object used in streaming operations to encapsulate different types of response data.
+
+Field
+Type
+Required
+Description
+
+task
+Task
+Optional (OneOf)
+A Task object containing the current state of the task.
+
+message
+Message
+Optional (OneOf)
+A Message object containing a message from the agent.
+
+statusUpdate
+TaskStatusUpdateEvent
+Optional (OneOf)
+An event indicating a task status update.
+
+artifactUpdate
+TaskArtifactUpdateEvent
+Optional (OneOf)
+An event indicating a task artifact update.
+
+Note: A StreamResponse MUST contain exactly one of the following: task, message, statusUpdate, artifactUpdate
+
+This wrapper allows streaming endpoints to return different types of updates through a single response stream while maintaining type safety.
+
+3.2.4. History Length Semantics&para;
+
+The historyLength parameter appears in multiple operations and controls how much task history is returned in responses. This parameter follows consistent semantics across all operations:
+
+Unset/undefined: No limit imposed; server returns its default amount of history (implementation-defined, may be all history)
+
+0: No history should be returned; the history field SHOULD be omitted
+
+> 0: Return at most this many recent messages from the task's history
+
+3.2.5. Metadata&para;
+
+A flexible key-value map for passing additional context or parameters with operations. Metadata keys and are strings and values can be any valid value that can be represented in JSON. Extensions can be used to strongly type metadata values for specific use cases.
+
+3.2.6 Service Parameters&para;
+
+A key-value map for passing horizontally applicable context or parameters with case-insensitive string keys and case-sensitive string values. The transmission mechanism for these service parameter key-value pairs is defined by the specific protocol binding (e.g., HTTP headers for HTTP-based bindings, gRPC metadata for gRPC bindings). Custom protocol bindings MUST specify how service parameters are transmitted in their binding specification.
+
+Standard A2A Service Parameters:
+
+Name
+Description
+Example Value
+
+A2A-Extensions
+Comma-separated list of extension URIs that the client wants to use for the request
+https://example.com/extensions/geolocation/v1,https://standards.org/extensions/citations/v1
+
+A2A-Version
+The A2A protocol version that the client is using. If the version is not supported, the agent returns VersionNotSupportedError
+0.3
+
+As service parameter names MAY need to co-exist with other parameters defined by the underlying transport protocol or infrastructure, all service parameters defined by this specification will be prefixed with a2a-.
+
+3.3. Operation Semantics&para;
+
+3.3.1. Idempotency&para;
+
+Get operations (Get Task, List Tasks, Get Extended Agent Card) are naturally idempotent
+
+Send Message operations MAY be idempotent. Agents may utilize the messageId to detect duplicate messages.
+
+Cancel Task operations are idempotent - multiple cancellation requests have the same effect. A dupl
+
+[… truncated 309066 chars …]
